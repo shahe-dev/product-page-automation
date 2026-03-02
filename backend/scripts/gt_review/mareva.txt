@@ -1,0 +1,182 @@
+======================================================================
+  GROUND TRUTH REVIEW: mareva
+======================================================================
+  File: MAREVA_THE_OASIS_FLOOR_PLANS.pdf
+  Size: 7.3 MB, 11 pages
+  Format: RL (text quality: moderate)
+  Notes: 11 pages. Area tables present. The Oasis is a villa community -- likely multi-floor.
+======================================================================
+
+INSTRUCTIONS:
+  1. Open the PDF in a viewer
+  2. For each floor plan page, verify/fill in the data below
+  3. Copy the JSON template at the bottom into the ground truth file
+
+FLOOR PLAN PAGES DETECTED: 10
+----------------------------------------------------------------------
+
+  Page 2: sqft (2 values), bedrooms: ['4']
+    sqft_values: [188.8, 57.18]
+    text: KEY PLAN | N | FLOOR PLAN  1. All dimensions are in imperial and metric, and measured from finish to finish excluding construction tolerances.  2. All materials, dimesions, and drawings are approximate only.  3. Information is subject to change wihtout notice, at developer’s absolute discretion.  4. Act
+
+  Page 3: sqft (2 values), bedrooms: ['4']
+    sqft_values: [187.0, 59.34]
+    text: KEY PLAN | N | FLOOR PLAN  1. All dimensions are in imperial and metric, and measured from finish to finish excluding construction tolerances.  2. All materials, dimesions, and drawings are approximate only.  3. Information is subject to change wihtout notice, at developer’s absolute discretion.  4. Act
+
+  Page 4: sqft (2 values), bedrooms: ['4']
+    sqft_values: [199.86, 44.76]
+    text: KEY PLAN | N | FLOOR PLAN  1. All dimensions are in imperial and metric, and measured from finish to finish excluding construction tolerances.  2. All materials, dimesions, and drawings are approximate only.  3. Information is subject to change wihtout notice, at developer’s absolute discretion.  4. Act
+
+  Page 5: sqft (2 values), bedrooms: ['5']
+    sqft_values: [63.68, 94.94]
+    text: KEY PLAN | N | FLOOR PLAN  1. All dimensions are in imperial and metric, and measured from finish to finish excluding construction tolerances.  2. All materials, dimesions, and drawings are approximate only.  3. Information is subject to change wihtout notice, at developer’s absolute discretion.  4. Act
+
+  Page 6: sqft (2 values), bedrooms: ['5']
+    sqft_values: [63.65, 109.25]
+    text: KEY PLAN | N | FLOOR PLAN  1. All dimensions are in imperial and metric, and measured from finish to finish excluding construction tolerances.  2. All materials, dimesions, and drawings are approximate only.  3. Information is subject to change wihtout notice, at developer’s absolute discretion.  4. Act
+
+  Page 7: sqft (2 values), bedrooms: ['5']
+    sqft_values: [66.25, 125.83]
+    text: KEY PLAN | N | FLOOR PLAN  1. All dimensions are in imperial and metric, and measured from finish to finish excluding construction tolerances.  2. All materials, dimesions, and drawings are approximate only.  3. Information is subject to change wihtout notice, at developer’s absolute discretion.  4. Act
+
+  Page 8: sqft (2 values), bedrooms: ['5']
+    sqft_values: [57.89, 123.83]
+    text: KEY PLAN | N | FLOOR PLAN  1. All dimensions are in imperial and metric, and measured from finish to finish excluding construction tolerances.  2. All materials, dimesions, and drawings are approximate only.  3. Information is subject to change wihtout notice, at developer’s absolute discretion.  4. Act
+
+  Page 9: sqft (2 values), bedrooms: ['5']
+    sqft_values: [57.9, 127.44]
+    text: KEY PLAN | N | FLOOR PLAN  1. All dimensions are in imperial and metric, and measured from finish to finish excluding construction tolerances.  2. All materials, dimesions, and drawings are approximate only.  3. Information is subject to change wihtout notice, at developer’s absolute discretion.  4. Act
+
+  Page 10: sqft (2 values), bedrooms: ['6']
+    sqft_values: [65.58, 185.98]
+    text: KEY PLAN | N | FLOOR PLAN  1. All dimensions are in imperial and metric, and measured from finish to finish excluding construction tolerances.  2. All materials, dimesions, and drawings are approximate only.  3. Information is subject to change wihtout notice, at developer’s absolute discretion.  4. Act
+
+  Page 11: sqft (2 values), bedrooms: ['6']
+    sqft_values: [57.94, 179.05]
+    text: KEY PLAN | N | FLOOR PLAN  1. All dimensions are in imperial and metric, and measured from finish to finish excluding construction tolerances.  2. All materials, dimesions, and drawings are approximate only.  3. Information is subject to change wihtout notice, at developer’s absolute discretion.  4. Act
+
+----------------------------------------------------------------------
+SUMMARY
+----------------------------------------------------------------------
+  All sqft values found: [44.76, 57.18, 57.89, 57.9, 57.94, 59.34, 63.65, 63.68, 65.58, 66.25, 94.94, 109.25, 123.83, 125.83, 127.44, 179.05, 185.98, 187.0, 188.8, 199.86]
+  Unit types found: []
+  Bedroom counts found: ['4', '5', '6']
+
+----------------------------------------------------------------------
+JSON TEMPLATE (copy into ground truth file)
+----------------------------------------------------------------------
+{
+  "brochure": "MAREVA_THE_OASIS_FLOOR_PLANS.pdf",
+  "last_verified": "2026-02-XX",
+  "notes": "FILL IN: describe what you found",
+  "table_specs": [],
+  "table_spec_count": 0,
+  "text_assertions": {
+    "pages_with_floor_plan_text": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "expected_unit_types_in_text": [],
+    "expected_area_labels_present": true
+  },
+  "floor_plans": [
+    {
+      "unit_type": null,
+      "bedrooms": null,
+      "bathrooms": null,
+      "total_sqft": 188.8,
+      "suite_sqft": null,
+      "balcony_sqft": null
+    },
+    {
+      "unit_type": null,
+      "bedrooms": null,
+      "bathrooms": null,
+      "total_sqft": 187.0,
+      "suite_sqft": null,
+      "balcony_sqft": null
+    },
+    {
+      "unit_type": null,
+      "bedrooms": null,
+      "bathrooms": null,
+      "total_sqft": 199.86,
+      "suite_sqft": null,
+      "balcony_sqft": null
+    },
+    {
+      "unit_type": null,
+      "bedrooms": null,
+      "bathrooms": null,
+      "total_sqft": 94.94,
+      "suite_sqft": null,
+      "balcony_sqft": null
+    },
+    {
+      "unit_type": null,
+      "bedrooms": null,
+      "bathrooms": null,
+      "total_sqft": 109.25,
+      "suite_sqft": null,
+      "balcony_sqft": null
+    },
+    {
+      "unit_type": null,
+      "bedrooms": null,
+      "bathrooms": null,
+      "total_sqft": 125.83,
+      "suite_sqft": null,
+      "balcony_sqft": null
+    },
+    {
+      "unit_type": null,
+      "bedrooms": null,
+      "bathrooms": null,
+      "total_sqft": 123.83,
+      "suite_sqft": null,
+      "balcony_sqft": null
+    },
+    {
+      "unit_type": null,
+      "bedrooms": null,
+      "bathrooms": null,
+      "total_sqft": 127.44,
+      "suite_sqft": null,
+      "balcony_sqft": null
+    },
+    {
+      "unit_type": null,
+      "bedrooms": null,
+      "bathrooms": null,
+      "total_sqft": 185.98,
+      "suite_sqft": null,
+      "balcony_sqft": null
+    },
+    {
+      "unit_type": null,
+      "bedrooms": null,
+      "bathrooms": null,
+      "total_sqft": 179.05,
+      "suite_sqft": null,
+      "balcony_sqft": null
+    }
+  ],
+  "total_unique_plans": 10,
+  "total_unique_plans_tolerance": 2,
+  "tolerances": {
+    "sqft_pct": 5.0,
+    "balcony_sqft_pct": 10.0,
+    "bedrooms_exact": true,
+    "bathrooms_exact": true
+  }
+}
+
+NOTE: The floor_plans above are INFERRED from text only. You MUST verify against the actual PDF. Plans with no text data (RD type) will be empty -- fill in manually.

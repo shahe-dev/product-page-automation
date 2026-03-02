@@ -1,0 +1,12 @@
+{
+  "brochure": "Sheraton Floor Plan_compressed",
+  "timestamp": "20260212T091609",
+  "size_mb": 5.8,
+  "page_count": 18,
+  "table_extraction": {
+    "floor_plan_spec_count": 0,
+    "specs": [],
+    "errors": []
+  },
+  "text_extraction": []
+}

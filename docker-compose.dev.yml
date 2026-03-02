@@ -1,0 +1,123 @@
+# PDP Automation v.3 - Development Docker Compose
+# Usage: docker compose -f docker-compose.dev.yml up
+#
+# Services: postgres, backend (hot-reload), frontend (Vite dev server)
+# DB credentials are read from .env (see .env.example for template)
+
+services:
+  # -------------------------------------------
+  # PostgreSQL 16 (matches Neon production)
+  # -------------------------------------------
+  postgres:
+    image: postgres:16-alpine
+    container_name: pdp-postgres
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB:-pdp_automation}
+      POSTGRES_USER: ${POSTGRES_USER:-pdpuser}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-localdevpassword}
+      POSTGRES_INITDB_ARGS: "--encoding=UTF8 --lc-collate=C.UTF-8 --lc-ctype=C.UTF-8"
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./backend/scripts/init.sql:/docker-entrypoint-initdb.d/init.sql:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-pdpuser} -d ${POSTGRES_DB:-pdp_automation}"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 10s
+    restart: unless-stopped
+
+  # -------------------------------------------
+  # Backend API (FastAPI + uvicorn --reload)
+  # -------------------------------------------
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+      target: dev
+    container_name: pdp-backend
+    environment:
+      - ENVIRONMENT=development
+      - DEBUG=true
+      - DATABASE_URL=postgresql+asyncpg://${POSTGRES_USER:-pdpuser}:${POSTGRES_PASSWORD:-localdevpassword}@postgres:5432/${POSTGRES_DB:-pdp_automation}
+      - HOST=0.0.0.0
+      - PORT=8000
+      - RELOAD=true
+      - LOG_LEVEL=INFO
+      - GOOGLE_APPLICATION_CREDENTIALS=/app/.credentials/service-account-key.json
+    env_file:
+      - ./backend/.env
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./backend/app:/app/app
+      - ./backend/alembic:/app/alembic
+      - ./reference:/app/reference:ro
+      - backend_uploads:/app/uploads
+      - ./.credentials:/app/.credentials:ro
+    depends_on:
+      postgres:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD-SHELL", "curl -f http://localhost:8000/health || exit 1"]
+      interval: 15s
+      timeout: 5s
+      retries: 5
+      start_period: 30s
+    restart: unless-stopped
+    command: ["python", "-m", "uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "8000", "--reload"]
+
+  # -------------------------------------------
+  # Frontend (Vite dev server)
+  # -------------------------------------------
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+      target: build
+    container_name: pdp-frontend
+    command: ["npm", "run", "dev", "--", "--host", "0.0.0.0"]
+    environment:
+      - VITE_API_PROXY_TARGET=http://backend:8000
+    volumes:
+      - ./frontend/src:/app/src
+      - ./frontend/vite.config.ts:/app/vite.config.ts:ro
+      - ./frontend/.env.local:/app/.env.local:ro
+    ports:
+      - "5174:5174"
+    depends_on:
+      backend:
+        condition: service_healthy
+    restart: unless-stopped
+
+  # -------------------------------------------
+  # Redis (optional -- uncomment if needed)
+  # -------------------------------------------
+  # redis:
+  #   image: redis:7-alpine
+  #   container_name: pdp-redis
+  #   ports:
+  #     - "6379:6379"
+  #   volumes:
+  #     - redis_data:/data
+  #   command: redis-server --appendonly yes
+  #   healthcheck:
+  #     test: ["CMD", "redis-cli", "ping"]
+  #     interval: 10s
+  #     timeout: 5s
+  #     retries: 5
+  #   restart: unless-stopped
+
+volumes:
+  postgres_data:
+    name: pdp_postgres_data
+  backend_uploads:
+    name: pdp_backend_uploads
+  # redis_data:
+  #   name: pdp_redis_data
+
+networks:
+  default:
+    name: pdp-network

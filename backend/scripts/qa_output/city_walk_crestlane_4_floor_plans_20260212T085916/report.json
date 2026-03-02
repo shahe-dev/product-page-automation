@@ -1,0 +1,491 @@
+{
+  "brochure": "City Walk Crestlane 4 Floor Plans",
+  "timestamp": "20260212T085916",
+  "size_mb": 26.0,
+  "page_count": 34,
+  "table_extraction": {
+    "floor_plan_spec_count": 115,
+    "specs": [
+      {
+        "unit_type": "UNIT NUMBER"
+      },
+      {
+        "unit_type": "4 08, 308, 408, 508, 605, 70046 0 , 3\n803, 904, 1003, 1103"
+      },
+      {
+        "unit_type": "1203"
+      },
+      {
+        "unit_type": "UNIT NUMBER"
+      },
+      {
+        "unit_type": "213"
+      },
+      {
+        "unit_type": "04, 304, 404, 504, 603, 703,\n804, 904\n4 04 03"
+      },
+      {
+        "unit_type": "04, 206, 306, 406, 506"
+      },
+      {
+        "unit_type": "313"
+      },
+      {
+        "unit_type": "511"
+      },
+      {
+        "unit_type": "01\n1003"
+      },
+      {
+        "unit_type": "3 07 06"
+      },
+      {
+        "unit_type": "1 BEDROOM TYPE A - MIRRORED"
+      },
+      {
+        "unit_type": "UNIT NUMBER"
+      },
+      {
+        "unit_type": "05, 305, 405, 505, 604, 704,\n805, 905"
+      },
+      {
+        "unit_type": "105, 207, 307, 407, 507"
+      },
+      {
+        "unit_type": "1004"
+      },
+      {
+        "unit_type": "9 08\nSUITE AREA - NIA\nLEVEL 9"
+      },
+      {
+        "unit_type": "SQM"
+      },
+      {
+        "unit_type": "5 0400430032\n68.33"
+      },
+      {
+        "unit_type": "04 03 07 06\nUNIT NUMBER"
+      },
+      {
+        "unit_type": "1006"
+      },
+      {
+        "unit_type": "UNIT NUMBER"
+      },
+      {
+        "unit_type": "101, 204, 304, 404, 504"
+      },
+      {
+        "unit_type": "107, 209, 309, 409, 707"
+      },
+      {
+        "unit_type": "UNIT NUMBER"
+      },
+      {
+        "unit_type": "UNIT NUMBER"
+      },
+      {
+        "unit_type": "04 03\n7, 307, 407, 507, 604, 705\n02, 903, 1002, 1102"
+      },
+      {
+        "unit_type": "1202"
+      },
+      {
+        "unit_type": "UNIT NUMBER"
+      },
+      {
+        "unit_type": "605, 705, 806, 906"
+      },
+      {
+        "unit_type": "1005"
+      },
+      {
+        "unit_type": "UNIT NUMBER"
+      },
+      {
+        "unit_type": "107"
+      },
+      {
+        "unit_type": "210, 310, 410, 607, 708"
+      },
+      {
+        "unit_type": "510"
+      },
+      {
+        "unit_type": "05 04\nVEl 1"
+      },
+      {
+        "unit_type": "05 04 04 03\n906, 1005, 1105"
+      },
+      {
+        "unit_type": "706, 907"
+      },
+      {
+        "unit_type": "UNIT NUMBER"
+      },
+      {
+        "unit_type": "902, 1101"
+      },
+      {
+        "unit_type": "702, 803, 903"
+      },
+      {
+        "unit_type": "00760 065\nB ALCONY AREA"
+      },
+      {
+        "unit_type": "SQM"
+      },
+      {
+        "unit_type": "6.26"
+      },
+      {
+        "unit_type": "04 03 07 06\nUNIT NUMBER"
+      },
+      {
+        "unit_type": "05 04 03 02 0\n509\nLEVEl 1"
+      },
+      {
+        "unit_type": "UNIT NUMBER"
+      },
+      {
+        "unit_type": "05 04 04 03\n212, 312, 412, 512, 609, 710,\n1007, 1107"
+      },
+      {
+        "unit_type": "04 03 07 06\nUNIT NUMBER"
+      },
+      {
+        "unit_type": "201, 301, 401, 501, 801, 901"
+      },
+      {
+        "unit_type": "04 03 07 06\nUNIT NUMBER"
+      },
+      {
+        "unit_type": "1001"
+      },
+      {
+        "unit_type": "004S3U0I03T2E AREA - NIA"
+      },
+      {
+        "unit_type": "SQM01"
+      },
+      {
+        "unit_type": "24.22"
+      },
+      {
+        "unit_type": "04 03 UNIT NUMBER 07 06\n05 04 03"
+      },
+      {
+        "unit_type": "02 06 05\nEVEl 1 211, 311 1"
+      },
+      {
+        "unit_type": "UNIT NUMBER"
+      },
+      {
+        "unit_type": "05 04 04 03\n311, 411, 511, 608, 709"
+      },
+      {
+        "unit_type": "1106"
+      },
+      {
+        "unit_type": "UNIT NUMBER"
+      },
+      {
+        "unit_type": "302, 402, 502"
+      },
+      {
+        "unit_type": "902"
+      },
+      {
+        "unit_type": "UNIT NUMBER"
+      },
+      {
+        "unit_type": "202"
+      },
+      {
+        "unit_type": "802"
+      },
+      {
+        "unit_type": "13"
+      },
+      {
+        "unit_type": "05 04\n3\n07 06 05 04"
+      },
+      {
+        "unit_type": "VEL 2 - 3 502"
+      },
+      {
+        "unit_type": "6 05SUITE AREA - NIA"
+      },
+      {
+        "unit_type": "SQM"
+      },
+      {
+        "unit_type": "170.77"
+      },
+      {
+        "unit_type": "UNIT NUMBER"
+      },
+      {
+        "unit_type": "05 04\n07 06\nEL 4"
+      },
+      {
+        "unit_type": "04 03 07 06\nUNIT NUMBER"
+      },
+      {
+        "unit_type": "05 04 03 02 807 0\nVEl 1"
+      },
+      {
+        "unit_type": "0513"
+      },
+      {
+        "unit_type": "04 04\n805\n07"
+      },
+      {
+        "unit_type": "04 03 07 06\nUNIT NUMBER\n05 04 03 02"
+      },
+      {
+        "unit_type": "0\nVEl 1 602"
+      },
+      {
+        "unit_type": "04 03 07 06\nUNIT NUMBER"
+      },
+      {
+        "unit_type": "05 04 03 02"
+      },
+      {
+        "unit_type": "UNIT NUMBER"
+      },
+      {
+        "unit_type": "601"
+      },
+      {
+        "unit_type": "701"
+      },
+      {
+        "unit_type": "13\n05"
+      },
+      {
+        "unit_type": "04 04 03\n07 06 05 04 601 0"
+      },
+      {
+        "unit_type": "04 03 07 06\n05 04 03UN02IT NUMBER 0\nEVEl 1"
+      },
+      {
+        "unit_type": "410"
+      },
+      {
+        "unit_type": "13\n05 04"
+      },
+      {
+        "unit_type": "07 06 05 04"
+      },
+      {
+        "unit_type": "04 03 07 06\nUNIT NUMBER\n05 04 03 02 0"
+      },
+      {
+        "unit_type": "VEl 1 606"
+      },
+      {
+        "unit_type": "13\n05 04"
+      },
+      {
+        "unit_type": "07 06 05 04"
+      },
+      {
+        "unit_type": "04 03 07 06\nUNIT NUMBER\n05 04 03 02 0"
+      },
+      {
+        "unit_type": "VEl 1 G01"
+      },
+      {
+        "unit_type": "13\n05 04"
+      },
+      {
+        "unit_type": "07 06 05 04"
+      },
+      {
+        "unit_type": "04 03 07 06\nUNIT NUMBER\n05 04 03 02 0"
+      },
+      {
+        "unit_type": "VEl 1 G01"
+      },
+      {
+        "unit_type": "9 08SUITE"
+      },
+      {
+        "unit_type": "SQM"
+      },
+      {
+        "unit_type": "5 04 34 004 0 3 .7 00 2 32"
+      },
+      {
+        "unit_type": "340.0712"
+      },
+      {
+        "unit_type": "UNIT NUMBER\n04 03 07 06"
+      },
+      {
+        "unit_type": "05 04 03 02"
+      },
+      {
+        "unit_type": "EVEl 1 G02"
+      },
+      {
+        "unit_type": "9 08SUITE"
+      },
+      {
+        "unit_type": "SQM"
+      },
+      {
+        "unit_type": "5 04 34 004 0 3 .7 00 2 32"
+      },
+      {
+        "unit_type": "340.0712"
+      },
+      {
+        "unit_type": "UNIT NUMBER\n04 03 07 06"
+      },
+      {
+        "unit_type": "05 04 03 02"
+      },
+      {
+        "unit_type": "EVEl 1 G02"
+      }
+    ],
+    "errors": []
+  },
+  "text_extraction": [
+    {
+      "page": 1,
+      "unit_type": "1-BEDROOM\nA"
+    },
+    {
+      "page": 2,
+      "unit_type": "1-BEDROOM\nA"
+    },
+    {
+      "page": 3,
+      "unit_type": "1-BEDROOM\nA"
+    },
+    {
+      "page": 4,
+      "unit_type": "1 BEDROOM TYPE A"
+    },
+    {
+      "page": 5,
+      "unit_type": "1 BEDROOM TYPE A"
+    },
+    {
+      "page": 6,
+      "unit_type": "1 BEDROOM TYPE B"
+    },
+    {
+      "page": 7,
+      "unit_type": "1 BEDROOM TYPE C"
+    },
+    {
+      "page": 8,
+      "unit_type": "1 BEDROOM TYPE D"
+    },
+    {
+      "page": 9,
+      "unit_type": "2-BEDROOM\nA"
+    },
+    {
+      "page": 10,
+      "unit_type": "2 BEDROOM TYPE A"
+    },
+    {
+      "page": 11,
+      "unit_type": "2 BEDROOM TYPE B"
+    },
+    {
+      "page": 12,
+      "unit_type": "2 BEDROOM TYPE C"
+    },
+    {
+      "page": 13,
+      "unit_type": "2 BEDROOM TYPE D"
+    },
+    {
+      "page": 14,
+      "unit_type": "2 BEDROOM"
+    },
+    {
+      "page": 15,
+      "unit_type": "2 BEDROOM"
+    },
+    {
+      "page": 16,
+      "unit_type": "2 BEDROOM"
+    },
+    {
+      "page": 17,
+      "unit_type": "2 BEDROOM"
+    },
+    {
+      "page": 18,
+      "unit_type": "3-BEDROOM\nA"
+    },
+    {
+      "page": 19,
+      "unit_type": "3 BEDROOM TYPE A"
+    },
+    {
+      "page": 20,
+      "unit_type": "3 BEDROOM TYPE A1"
+    },
+    {
+      "page": 21,
+      "unit_type": "3 BEDROOM TYPE B"
+    },
+    {
+      "page": 22,
+      "unit_type": "3 BEDROOM TYPE B1"
+    },
+    {
+      "page": 23,
+      "unit_type": "3 BEDROOM TYPE C"
+    },
+    {
+      "page": 24,
+      "unit_type": "3-BEDROOM\nTYPE D"
+    },
+    {
+      "page": 25,
+      "unit_type": "3-BEDROOM\nTYPE E"
+    },
+    {
+      "page": 26,
+      "unit_type": "3-BEDROOM\nTYPE F"
+    },
+    {
+      "page": 27,
+      "unit_type": "4-BEDROOM\nA"
+    },
+    {
+      "page": 28,
+      "unit_type": "4-BEDROOM\nTYPE A"
+    },
+    {
+      "page": 29,
+      "unit_type": "4 BEDROOM TYPE B"
+    },
+    {
+      "page": 30,
+      "unit_type": "4-BEDROOM\nD"
+    },
+    {
+      "page": 31,
+      "unit_type": "4-BEDROOM"
+    },
+    {
+      "page": 32,
+      "unit_type": "4-BEDROOM"
+    },
+    {
+      "page": 33,
+      "unit_type": "4-BEDROOM"
+    }
+  ]
+}

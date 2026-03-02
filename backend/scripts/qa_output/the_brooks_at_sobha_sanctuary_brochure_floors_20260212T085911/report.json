@@ -1,0 +1,125 @@
+{
+  "brochure": "THE BROOKS AT SOBHA SANCTUARY BROCHURE & FLOORS ",
+  "timestamp": "20260212T085911",
+  "size_mb": 24.4,
+  "page_count": 44,
+  "table_extraction": {
+    "floor_plan_spec_count": 0,
+    "specs": [],
+    "errors": []
+  },
+  "text_extraction": [
+    {
+      "page": 23,
+      "unit_type": "studio"
+    },
+    {
+      "page": 24,
+      "unit_type": "studio"
+    },
+    {
+      "page": 25,
+      "unit_type": "studio"
+    },
+    {
+      "page": 27,
+      "unit_type": "5 Bedroom - Type A"
+    },
+    {
+      "page": 28,
+      "unit_type": "5 Bedroom - Type A",
+      "total_sqft": 4106.75,
+      "total_sqft_confidence": 0.6
+    },
+    {
+      "page": 29,
+      "unit_type": "5 Bedroom - Type A",
+      "total_sqft": 4106.75,
+      "total_sqft_confidence": 0.6
+    },
+    {
+      "page": 30,
+      "unit_type": "5 Bedroom - Type A",
+      "total_sqft": 4154.33,
+      "total_sqft_confidence": 0.6
+    },
+    {
+      "page": 31,
+      "unit_type": "5 Bedroom - Type A",
+      "total_sqft": 4154.33,
+      "total_sqft_confidence": 0.6
+    },
+    {
+      "page": 32,
+      "unit_type": "5 Bedroom - Type A",
+      "total_sqft": 2520.91,
+      "total_sqft_confidence": 0.6
+    },
+    {
+      "page": 33,
+      "unit_type": "4 Bedroom - Type A",
+      "total_sqft": 2520.91,
+      "total_sqft_confidence": 0.6
+    },
+    {
+      "page": 34,
+      "unit_type": "2700\nBEDROOM",
+      "total_sqft": 2459.02,
+      "total_sqft_confidence": 0.6
+    },
+    {
+      "page": 35,
+      "unit_type": "4 Bedroom - Type B",
+      "total_sqft": 2459.02,
+      "total_sqft_confidence": 0.6
+    },
+    {
+      "page": 36,
+      "unit_type": "4 Bedroom - Type B",
+      "total_sqft": 2459.02,
+      "total_sqft_confidence": 0.6
+    },
+    {
+      "page": 37,
+      "unit_type": "4 Bedroom - Type B",
+      "total_sqft": 2459.02,
+      "total_sqft_confidence": 0.6
+    },
+    {
+      "page": 38,
+      "unit_type": "4 Bedroom - Type B",
+      "total_sqft": 3430.24,
+      "total_sqft_confidence": 0.6
+    },
+    {
+      "page": 39,
+      "unit_type": "4 Bedroom - Type C",
+      "total_sqft": 3430.24,
+      "total_sqft_confidence": 0.6
+    },
+    {
+      "page": 40,
+      "unit_type": "4 Bedroom - Type C",
+      "total_sqft": 3328.74,
+      "total_sqft_confidence": 0.6
+    },
+    {
+      "page": 41,
+      "unit_type": "4 Bedroom - Type D",
+      "total_sqft": 3328.74,
+      "total_sqft_confidence": 0.6
+    },
+    {
+      "page": 42,
+      "unit_type": "4 Bedroom - Type D",
+      "total_sqft": 3328.74,
+      "total_sqft_confidence": 0.6
+    },
+    {
+      "page": 43,
+      "unit_type": "4600\nBEDROOM",
+      "total_sqft": 3328.74,
+      "total_sqft_confidence": 0.6
+    }
+  ]
+}

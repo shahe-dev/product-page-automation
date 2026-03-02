@@ -1,0 +1,348 @@
+======================================================================
+  GROUND TRUTH REVIEW: brooks_sanctuary
+======================================================================
+  File: THE BROOKS AT SOBHA SANCTUARY BROCHURE & FLOORS .pdf
+  Size: 24.4 MB, 44 pages
+  Format: RL (text quality: moderate)
+  Notes: 44 pages. Area tables present. Sobha Sanctuary is a villa community -- likely multi-floor.
+======================================================================
+
+INSTRUCTIONS:
+  1. Open the PDF in a viewer
+  2. For each floor plan page, verify/fill in the data below
+  3. Copy the JSON template at the bottom into the ground truth file
+
+FLOOR PLAN PAGES DETECTED: 21
+----------------------------------------------------------------------
+
+  Page 6: rooms: ['family']
+    text: Fa m i l y | Family life is enriched by a vibrant social  | club and a thoughtfully curated mix of  | children’s play spaces, family zones, and  | youth-friendly areas. Daily routines feel  | effortless with walkable retail close at hand,  | while farmers’ market experiences bring   | a sense of freshness and vit
+
+  Page 8: sqft (1 values)
+    sqft_values: [800000.0]
+    text: N at u re  i m m e r s i o n , | re s to rat i o n , a n d | b a l a n ce. | Nature leads the experience across Sobha  | Sanctuary, with ~50% open and green  | spaces flowing through every zone,  | anchored by a ~800,000 sq. ft. park. | Sobha Sanctuary’s green corridors flow  | through forest walks and shaded trail
+
+  Page 24: bedrooms: ['']
+    text: C o m m u n i t y | A m e n i t i e s | Indoors, calm takes a different form. Wellness  | lounges, meditation rooms, and fitness studios  | provide space to reset, while co-working and  | community spaces support focus and purpose,  | completing a lifestyle balanced between  | movement and rest. | Central district | 
+
+  Page 25: rooms: ['living']
+    text: DISCLAIMER: The images shown are for illustration purposes only and may not be an exact representation of the product. | The images use computer graphics technology (photorealistic rendering) to showcase the building and apartment’s  | design, including the façade, elevations, and interiors. All furni
+
+  Page 27: unit_types: ['PLANS']
+    text: FLOOR AND UNIT PLANS
+
+  Page 28: dimensions (24 found), sqft (6 values), sqm (6 values), area_labels, bedrooms: ['5', '0', '0', '0', '0'], unit_types: ['A', 'orientations'], rooms: ['balcony', 'bathroom', 'dining', 'family', 'kitchen', 'living', 'maid', 'master bedroom', 'powder', 'store', 'utility']
+    sample_dimensions: ['1100 x 3000', '1500 x 4500', '4600 x 3100', '3050 x 3100', '3700 x 4700']
+    sqft_values: [4106.75, 4106.75, 3133.05, 3133.05, 3251.24, 3251.24]
+    sqm_values: [381.53, 381.53, 291.07, 291.07, 302.05, 302.05]
+    area_labels: [{'label': 'BALCONY', 'value': 1100.0}, {'label': 'BALCONY', 'value': 1500.0}, {'label': 'BALCONY', 'value': 1200.0}]
+    text: COURTYARD VILLAS | T5 Bedroom - Type A | Saleable Area | Saleable Area | 4,106.75 sq.ft | 4,106.75 sq.ft | 381.53 sq.m | 381.53 sq.m | Plot Area | Plot Area | Min | Min | 291.07 sq.m | 291.07 sq.m | 3,133.05 sq.ft | 3,133.05 sq.ft | 302.05 sq.m | 302.05 sq.m 3,251.24 sq.ft | 3,251.24 sq.ft | Max | Max | GROUND FLOOR | GROUND FLOOR | BALCONY | 110
+
+  Page 29: dimensions (25 found), sqft (6 values), sqm (6 values), area_labels, bedrooms: ['5', '0', '0', '0', '0'], unit_types: ['AM', 'orientations'], rooms: ['balcony', 'bathroom', 'dining', 'family', 'kitchen', 'living', 'maid', 'master bedroom', 'powder', 'store', 'utility']
+    sample_dimensions: ['5700 x 5550', '1950 x 2100', '2750 x 3100', '3000 x 4700', '3700 x 4700']
+    sqft_values: [4106.75, 4106.75, 3172.88, 3172.88, 3251.24, 3251.24]
+    sqm_values: [381.53, 381.53, 294.77, 294.77, 302.05, 302.05]
+    area_labels: [{'label': 'BALCONY', 'value': 1100.0}, {'label': 'BALCONY', 'value': 1500.0}, {'label': 'BALCONY', 'value': 1200.0}]
+    text: T5 Bedroom - Type AM | GROUND FLOOR | GROUND FLOOR | FIRST FLOOR | FIRST FLOOR | GARAGE | 5700X5550 | FOYER | 1950X2100 | KITCHEN | 2750X3100 | DINING | 3000X4700 | LIVING | 3700X4700 | BEDROOM | 3050X3100 | POWDER | 1800X1300 | UTILITY | 1550X1050 | STORE | BATHROOM | 1500X2200 | BATHROOM | 2850X1600 | ELEC.  | CABINET | UP | UP | LIFT | BALCONY | 1100X3000 | BAL
+
+  Page 30: dimensions (25 found), sqft (6 values), sqm (6 values), area_labels, bedrooms: ['5', '0', '0', '0', '0'], unit_types: ['A', 'orientations'], rooms: ['balcony', 'bathroom', 'dining', 'family', 'kitchen', 'living', 'maid', 'master bedroom', 'powder', 'store', 'utility']
+    sample_dimensions: ['5700 x 5550', '1950 x 2100', '2200 x 2450', '2750 x 3100', '3000 x 4700']
+    sqft_values: [4154.33, 4154.33, 3239.18, 3239.18, 3251.24, 3251.24]
+    sqm_values: [385.95, 385.95, 300.93, 300.93, 302.05, 302.05]
+    area_labels: [{'label': 'BALCONY', 'value': 1100.0}, {'label': 'BALCONY', 'value': 1500.0}, {'label': 'BALCONY', 'value': 1200.0}]
+    text: T5 Bedroom - Type A Variant 01 | Saleable Area | Saleable Area | 4,154.33 sq.ft | 4,154.33 sq.ft | 385.95 sq.m | 385.95 sq.m | Plot Area | Plot Area | Min | Min | 300.93 sq.m | 300.93 sq.m 3,239.18 sq.ft | 3,239.18 sq.ft | 302.05 sq.m | 302.05 sq.m 3,251.24 sq.ft | 3,251.24 sq.ft | Max | Max | GROUND FLOOR | GROUND FLOOR | FIRST FLOOR | FIRST
+
+  Page 31: dimensions (25 found), sqft (6 values), sqm (6 values), area_labels, bedrooms: ['5', '0', '0', '0', '0'], unit_types: ['A', 'orientations'], rooms: ['balcony', 'bathroom', 'dining', 'family', 'kitchen', 'living', 'maid', 'master bedroom', 'powder', 'store', 'utility']
+    sample_dimensions: ['5700 x 5550', '1950 x 2100', '2200 x 2450', '2750 x 3100', '3000 x 4700']
+    sqft_values: [4154.33, 4154.33, 3239.18, 3239.18, 3251.24, 3251.24]
+    sqm_values: [385.95, 385.95, 300.93, 300.93, 302.05, 302.05]
+    area_labels: [{'label': 'BALCONY', 'value': 1100.0}, {'label': 'BALCONY', 'value': 1500.0}, {'label': 'BALCONY', 'value': 1200.0}]
+    text: T5 Bedroom - Type A Variant 01 Mirror | GROUND FLOOR | GROUND FLOOR | FIRST FLOOR | FIRST FLOOR | GARAGE | 5700X5550 | FOYER | 1950X2100 | MAID’S ROOM | 2200X2450 | KITCHEN | 2750X3100 | DINING | 3000X4700 | LIVING | 3700X4700 | BEDROOM | 3050X3100 | POWDER | 1800X1300 | UTILITY | 1550X1050 | STORE | BATHROOM | 1500X2200 | BATHROOM | 2850X1600 | ELEC.  | C
+
+  Page 32: dimensions (18 found), sqft (6 values), sqm (6 values), area_labels, bedrooms: ['4', '0', '0', '0', '4'], unit_types: ['A', 'A', 'orientations'], rooms: ['balcony', 'bathroom', 'dining', 'kitchen', 'living', 'master bedroom', 'powder', 'store', 'utility']
+    sample_dimensions: ['1700 x 3250', '5650 x 5000', '2750 x 2650', '1550 x 2000', '1550 x 750']
+    sqft_values: [2520.91, 2520.91, 1874.75, 1874.75, 1998.32, 1998.32]
+    sqm_values: [234.2, 234.2, 174.17, 174.17, 185.65, 185.65]
+    area_labels: [{'label': 'BALCONY', 'value': 2700.0}]
+    text: GARDEN VILLAS | T4 Bedroom - Type A | GROUND FLOOR | GROUND FLOOR | FOYER | 1700 x 3250 | GARAGE | 5650X5000 | KITCHEN | 2750 x 2650 | POWDER | 1550X2000 | UTILITY | 1550X750 | STORE | 2300X750 | DINING | 4550X3150 | LIVING | 4550X3150 | BEDROOM | 3050X3000 | GARBAGE | CABINET | ELEC. CABINET | BATHROOM | 1600 x 2850 | UP | UP | WIC | 2050x1200 | BALCONY | 2700X
+
+  Page 33: dimensions (18 found), sqft (6 values), sqm (6 values), area_labels, bedrooms: ['0', '0', '4', '4', '0'], unit_types: ['A', 'AM', 'orientations'], rooms: ['balcony', 'bathroom', 'dining', 'kitchen', 'living', 'master bedroom', 'powder', 'store', 'utility']
+    sample_dimensions: ['2050 x 1200', '2700 x 2700', '3250 x 3000', '3150 x 3100', '4500 x 3500']
+    sqft_values: [2520.91, 2520.91, 1874.75, 1874.75, 1996.49, 1996.49]
+    sqm_values: [234.2, 234.2, 174.17, 174.17, 185.48, 185.48]
+    area_labels: [{'label': 'BALCONY', 'value': 2700.0}]
+    text: WIC | 2050x1200 | BALCONY | 2700X2700 | BEDROOM | 3250X3000 | BEDROOM | 3150X3100 | MASTER BEDROOM | 4500X3500 | BATHROOM | 1600 x 2600 | ROOF | ACCESS | STORAGE | 1650X750 | DN | BATHROOM | 2450X2700 | FIRST FLOOR | FIRST FLOOR | GARDEN VILLAS | T4 Bedroom - Type A | KEY PLANS | T4C | T4C | T4C | T4A | T4A | T4A | T4AM | T4AM | T4AM | T4CM | T4C | T4A | T4A | T4AM | T4A | T4
+
+  Page 34: dimensions (16 found), sqft (6 values), sqm (6 values), area_labels, bedrooms: ['4', '0', '0', '0'], unit_types: ['B', 'orientations'], rooms: ['balcony', 'bathroom', 'dining', 'kitchen', 'living', 'master\nbedroom', 'powder', 'utility']
+    sample_dimensions: ['2100 x 2450', '5650 x 5000', '2600 x 3500', '2200 x 1050', '4350 x 3150']
+    sqft_values: [2459.02, 2459.02, 1874.75, 1874.75, 2002.09, 2002.09]
+    sqm_values: [228.45, 228.45, 174.17, 174.17, 186.0, 186.0]
+    area_labels: [{'label': 'BALCONY', 'value': 1250.0}]
+    text: GARDEN VILLAS | T4 Bedroom - Type B | Saleable Area | Saleable Area | 2,459.02 sq.ft | 2,459.02 sq.ft | 228.45 sq.m | 228.45 sq.m | Plot Area | Plot Area | Min | Min | 174.17 sq.m | 174.17 sq.m | 1,874.75 sq.ft | 1,874.75 sq.ft | 186.00 sq.m | 186.00 sq.m | 2,002.09 sq.ft | 2,002.09 sq.ft | Max | Max | GROUND FLOOR | GROUND FLOOR | FOYER | 2100X245
+
+  Page 35: dimensions (16 found), sqft (6 values), sqm (6 values), area_labels, bedrooms: ['4', '0', '0', '0'], unit_types: ['BM', 'orientations'], rooms: ['balcony', 'bathroom', 'dining', 'kitchen', 'living', 'master\nbedroom', 'powder', 'utility']
+    sample_dimensions: ['2100 x 2450', '5650 x 5000', '2600 x 3500', '2200 x 1050', '4350 x 3150']
+    sqft_values: [2459.02, 2459.02, 1874.75, 1874.75, 2001.76, 2001.76]
+    sqm_values: [228.45, 228.45, 174.17, 174.17, 185.97, 185.97]
+    area_labels: [{'label': 'BALCONY', 'value': 1250.0}]
+    text: GARDEN VILLAS | T4 Bedroom - Type BM | Saleable Area | Saleable Area | 2,459.02 sq.ft | 2,459.02 sq.ft | 228.45 sq.m | 228.45 sq.m | Plot Area | Plot Area | Min | Min | 174.17 sq.m | 174.17 sq.m | 1,874.75 sq.ft | 1,874.75 sq.ft | 185.97 sq.m | 185.97 sq.m | 2,001.76 sq.ft | 2,001.76 sq.ft | Max | Max | GROUND FLOOR | GROUND FLOOR | FOYER | 2100X24
+
+  Page 36: dimensions (16 found), sqft (6 values), sqm (6 values), area_labels, bedrooms: ['4', '0', '0', '0'], unit_types: ['B', 'orientations'], rooms: ['balcony', 'bathroom', 'dining', 'kitchen', 'living', 'master\nbedroom', 'powder', 'utility']
+    sample_dimensions: ['2100 x 2450', '5650 x 5000', '2600 x 3500', '2200 x 1050', '4350 x 3150']
+    sqft_values: [2459.02, 2459.02, 1730.51, 1730.51, 1767.76, 1767.76]
+    sqm_values: [228.45, 228.45, 160.77, 160.77, 164.23, 164.23]
+    area_labels: [{'label': 'BALCONY', 'value': 1250.0}]
+    text: GARDEN VILLAS | T4 Bedroom - Type B Variant 01 | Saleable Area | Saleable Area | 2,459.02 sq.ft | 2,459.02 sq.ft | 228.45 sq.m | 228.45 sq.m | Plot Area | Plot Area | Min | Min | 160.77 sq.m | 160.77 sq.m | 1,730.51 sq.ft | 1,730.51 sq.ft | 164.23 sq.m | 164.23 sq.m | 1,767.76 sq.ft | 1,767.76 sq.ft | Max | Max | GROUND FLOOR | GROUND FLOOR | FOY
+
+  Page 37: dimensions (16 found), sqft (6 values), sqm (6 values), area_labels, bedrooms: ['4', '0', '0', '0'], unit_types: ['B', 'orientations'], rooms: ['balcony', 'bathroom', 'dining', 'kitchen', 'living', 'master\nbedroom', 'powder', 'utility']
+    sample_dimensions: ['2100 x 2450', '5650 x 5000', '2600 x 3500', '2200 x 1050', '4350 x 3150']
+    sqft_values: [2459.02, 2459.02, 1730.51, 1730.51, 1767.76, 1767.76]
+    sqm_values: [228.45, 228.45, 160.77, 160.77, 164.23, 164.23]
+    area_labels: [{'label': 'BALCONY', 'value': 1250.0}]
+    text: GARDEN VILLAS | T4 Bedroom - Type B Variant 01 Mirror | Saleable Area | Saleable Area | 2,459.02 sq.ft | 2,459.02 sq.ft | 228.45 sq.m | 228.45 sq.m | Plot Area | Plot Area | Min | Min | 160.77 sq.m | 160.77 sq.m |  1,730.51 sq.ft |  1,730.51 sq.ft | 164.23 sq.m | 164.23 sq.m |  1,767.76 sq.ft |  1,767.76 sq.ft | Max | Max | GROUND FLOOR | GROUN
+
+  Page 38: dimensions (23 found), sqft (6 values), sqm (6 values), area_labels, bedrooms: ['4', '0', '0', '0'], unit_types: ['C', 'orientations'], rooms: ['balcony', 'bathroom', 'dining', 'family', 'kitchen', 'living', 'maid', 'master bedroom', 'powder', 'store', 'utility']
+    sample_dimensions: ['1100 x 3800', '1400 x 4050', '3500 x 3850', '3250 x 3850', '3700 x 3900']
+    sqft_values: [3430.24, 3430.24, 2798.62, 2798.62, 2920.46, 2920.46]
+    sqm_values: [318.68, 318.68, 260.0, 260.0, 271.32, 271.32]
+    area_labels: [{'label': 'BALCONY', 'value': 1100.0}, {'label': 'BALCONY', 'value': 1400.0}]
+    text: GARDEN VILLAS | T4 Bedroom - Type C | KEY PLANS | T4C | T4C | T4C | T4A | T4A | T4A | T4AM | T4AM | T4AM | T4CM | T4C | T4A | T4A | T4AM | T4A | T4AM | T4AM | T4CM | T4CM | T4CM | GROUND FLOOR | GROUND FLOOR | FIRST FLOOR | FIRST FLOOR | BALCONY | 1100X3800 | BALCONY | 1400X4050 | BEDROOM | 3500X3850 | BEDROOM | 3250X3850 | MASTER BEDROOM | 3700X3900 | WIC | 1500X1250 | FAMIL
+
+  Page 39: dimensions (23 found), sqft (6 values), sqm (6 values), area_labels, bedrooms: ['4', '0', '0'], unit_types: ['CM', 'orientations'], rooms: ['balcony', 'bathroom', 'dining', 'family', 'kitchen', 'living', 'maid', 'master bedroom', 'powder', 'store', 'utility']
+    sample_dimensions: ['5650 x 5500', '2150 x 3700', '3100 x 2550', '2950 x 4000', '5500 x 4500']
+    sqft_values: [3430.24, 3430.24, 2798.62, 2798.62, 2929.4, 2929.4]
+    sqm_values: [318.68, 318.68, 260.0, 260.0, 272.15, 272.15]
+    area_labels: [{'label': 'BALCONY', 'value': 1100.0}, {'label': 'BALCONY', 'value': 1400.0}]
+    text: GARDEN VILLAS | T4 Bedroom - Type CM | Saleable Area | Saleable Area | 3,430.24 sq.ft | 3,430.24 sq.ft | 318.68 sq.m | 318.68 sq.m | Plot Area | Plot Area | Min | Min | 260.00 sq.m | 260.00 sq.m | 2,798.62 sq.ft | 2,798.62 sq.ft | 272.15 sq.m | 272.15 sq.m | 2,929.40 sq.ft | 2,929.40 sq.ft | Max | Max | GROUND FLOOR | GROUND FLOOR | FIRST FLOOR | F
+
+  Page 40: dimensions (21 found), sqft (6 values), sqm (6 values), area_labels, bedrooms: ['4', '0', '0', '0'], unit_types: ['D', 'orientations'], rooms: ['balcony', 'bathroom', 'dining', 'family', 'kitchen', 'living', 'maid', 'master bedroom', 'powder', 'store', 'utility']
+    sample_dimensions: ['5650 x 5500', '1950 x 2100', '1450 x 1750', '2200 x 2450', '2750 x 3100']
+    sqft_values: [3328.74, 3328.74, 2798.62, 2798.62, 2937.69, 2937.69]
+    sqm_values: [309.25, 309.25, 260.0, 260.0, 272.92, 272.92]
+    area_labels: [{'label': 'BALCONY', 'value': 1100.0}, {'label': 'BALCONY', 'value': 1500.0}]
+    text: GARDEN VILLAS | T4 Bedroom - Type D  | GARAGE | 5650X5500 | FOYER | 1950X2100 | POWDER | 1450X1750 | MAID’S ROOM | 2200X2450 | KITCHEN | 2750X3100 | DINING | 3200X4700 | LIVING | 3450X4700 | BEDROOM | 3000X3100 | BATHROOM | 2850 x 1600 | UTILITY | 1550X1050 | STORE | BATHROOM | 1500 x 2200 | STOR. | CABINET | ELEC. CABINET | GARBAGE |  CABINET | UP | UP | Saleab
+
+  Page 41: dimensions (21 found), sqft (6 values), sqm (6 values), area_labels, bedrooms: ['4', '0', '0', '0'], unit_types: ['DM', 'orientations'], rooms: ['balcony', 'bathroom', 'dining', 'family', 'kitchen', 'living', 'maid', 'master bedroom', 'powder', 'store', 'utility']
+    sample_dimensions: ['5650 x 5500', '1950 x 2100', '1450 x 1750', '2200 x 2450', '2750 x 3100']
+    sqft_values: [3328.74, 3328.74, 2798.62, 2798.62, 2947.59, 2947.59]
+    sqm_values: [309.25, 309.25, 260.0, 260.0, 273.84, 273.84]
+    area_labels: [{'label': 'BALCONY', 'value': 1100.0}, {'label': 'BALCONY', 'value': 1500.0}]
+    text: ROOF FLOOR | ROOF FLOOR | GARDEN VILLAS | T4 Bedroom - Type DM  | GARAGE | 5650X5500 | FOYER | 1950X2100 | POWDER | 1450X1750 | MAID’S ROOM | 2200X2450 | KITCHEN | 2750X3100 | DINING | 3200X4700 | LIVING | 3450X4700 | BEDROOM | 3000X3100 | BATHROOM | 2850 x 1600 | UTILITY | 1550X1050 | STORE | BATHROOM | 1500 x 2200 | GARBAGE | CABINET | STOR. | CABINET | ELEC
+
+  Page 42: dimensions (21 found), sqft (6 values), sqm (6 values), area_labels, bedrooms: ['0', '0', '0', '4'], unit_types: ['D', 'orientations'], rooms: ['balcony', 'bathroom', 'dining', 'family', 'kitchen', 'living', 'maid', 'master bedroom', 'powder', 'store', 'utility']
+    sample_dimensions: ['1100 x 3000', '1500 x 4600', '4600 x 3100', '3050 x 3100', '3600 x 4700']
+    sqft_values: [3328.74, 3328.74, 2583.34, 2583.34, 2599.91, 2599.91]
+    sqm_values: [309.25, 309.25, 240.0, 240.0, 241.54, 241.54]
+    area_labels: [{'label': 'BALCONY', 'value': 1100.0}, {'label': 'BALCONY', 'value': 1500.0}]
+    text: BALCONY | 1100X3000 | BALCONY | 1500X4600 | BEDROOM | 4600X3100 | BEDROOM | 3050X3100 | MASTER BEDROOM | 3600X4700 | WIC | 2650X1250 | FAMILY LIVING | 2750X3250 | BATHROOM | 3500X2300 | OPEN TO | BELOW | DN | BATHROOM | 2850X1600 | BATHROOM | 2850X1600 | ELEC. | CABINET | ROOF | ACCESS | GARAGE | 5650X5500 | FOYER | 1950X2100 | POWDER | 1450X1750 | MAID’S ROOM | 220
+
+  Page 43: dimensions (21 found), sqft (6 values), sqm (6 values), area_labels, bedrooms: ['0', '0', '0', '4'], unit_types: ['D', 'orientations'], rooms: ['balcony', 'bathroom', 'dining', 'family', 'kitchen', 'living', 'maid', 'master bedroom', 'powder', 'store', 'utility']
+    sample_dimensions: ['1100 x 3000', '1500 x 4600', '4600 x 3100', '3050 x 3100', '3600 x 4700']
+    sqft_values: [3328.74, 3328.74, 2583.34, 2583.34, 2650.83, 2650.83]
+    sqm_values: [309.25, 309.25, 240.0, 240.0, 246.27, 246.27]
+    area_labels: [{'label': 'BALCONY', 'value': 1100.0}, {'label': 'BALCONY', 'value': 1500.0}]
+    text: BALCONY | 1100X3000 | BALCONY | 1500X4600 | BEDROOM | 4600X3100 | BEDROOM | 3050X3100 | MASTER BEDROOM | 3600X4700 | ELEC. | CABINET | WIC | 2650X1250 | FAMILY LIVING | 2750X3250 | BATHROOM | 3500X2300 | OPEN TO | BELOW | DN | BATHROOM | 2850X1600 | BATHROOM | 2850X1600 | ROOF | ACCESS | GARAGE | 5650X5500 | FOYER | 1950X2100 | POWDER | 1450X1750 | MAID’S ROOM | 220
+
+----------------------------------------------------------------------
+SUMMARY
+----------------------------------------------------------------------
+  All sqft values found: [1730.51, 1767.76, 1874.75, 1996.49, 1998.32, 2001.76, 2002.09, 2459.02, 2520.91, 2583.34, 2599.91, 2650.83, 2798.62, 2920.46, 2929.4, 2937.69, 2947.59, 3133.05, 3172.88, 3239.18, 3251.24, 3328.74, 3430.24, 4106.75, 4154.33, 800000.0]
+  Unit types found: ['A', 'AM', 'B', 'BM', 'C', 'CM', 'D', 'DM', 'ORIENTATIONS', 'PLANS']
+  Bedroom counts found: ['0', '4', '5']
+
+----------------------------------------------------------------------
+JSON TEMPLATE (copy into ground truth file)
+----------------------------------------------------------------------
+{
+  "brochure": "THE BROOKS AT SOBHA SANCTUARY BROCHURE & FLOORS .pdf",
+  "last_verified": "2026-02-XX",
+  "notes": "FILL IN: describe what you found",
+  "table_specs": [],
+  "table_spec_count": 0,
+  "text_assertions": {
+    "pages_with_floor_plan_text": [
+      6,
+      8,
+      24,
+      25,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43
+    ],
+    "expected_unit_types_in_text": [
+      "A",
+      "AM",
+      "B",
+      "BM",
+      "C",
+      "CM",
+      "D",
+      "DM",
+      "ORIENTATIONS",
+      "PLANS"
+    ],
+    "expected_area_labels_present": true
+  },
+  "floor_plans": [
+    {
+      "unit_type": null,
+      "bedrooms": null,
+      "bathrooms": null,
+      "total_sqft": 800000.0,
+      "suite_sqft": null,
+      "balcony_sqft": null
+    },
+    {
+      "unit_type": "A",
+      "bedrooms": 5,
+      "bathrooms": null,
+      "total_sqft": 4106.75,
+      "suite_sqft": null,
+      "balcony_sqft": 1200.0
+    },
+    {
+      "unit_type": "AM",
+      "bedrooms": 5,
+      "bathrooms": null,
+      "total_sqft": 4106.75,
+      "suite_sqft": null,
+      "balcony_sqft": 1200.0
+    },
+    {
+      "unit_type": "A",
+      "bedrooms": 5,
+      "bathrooms": null,
+      "total_sqft": 4154.33,
+      "suite_sqft": null,
+      "balcony_sqft": 1200.0
+    },
+    {
+      "unit_type": "A",
+      "bedrooms": 5,
+      "bathrooms": null,
+      "total_sqft": 4154.33,
+      "suite_sqft": null,
+      "balcony_sqft": 1200.0
+    },
+    {
+      "unit_type": "A",
+      "bedrooms": 4,
+      "bathrooms": null,
+      "total_sqft": 2520.91,
+      "suite_sqft": null,
+      "balcony_sqft": 2700.0
+    },
+    {
+      "unit_type": "A",
+      "bedrooms": 0,
+      "bathrooms": null,
+      "total_sqft": 2520.91,
+      "suite_sqft": null,
+      "balcony_sqft": 2700.0
+    },
+    {
+      "unit_type": "B",
+      "bedrooms": 4,
+      "bathrooms": null,
+      "total_sqft": 2459.02,
+      "suite_sqft": null,
+      "balcony_sqft": 1250.0
+    },
+    {
+      "unit_type": "BM",
+      "bedrooms": 4,
+      "bathrooms": null,
+      "total_sqft": 2459.02,
+      "suite_sqft": null,
+      "balcony_sqft": 1250.0
+    },
+    {
+      "unit_type": "B",
+      "bedrooms": 4,
+      "bathrooms": null,
+      "total_sqft": 2459.02,
+      "suite_sqft": null,
+      "balcony_sqft": 1250.0
+    },
+    {
+      "unit_type": "B",
+      "bedrooms": 4,
+      "bathrooms": null,
+      "total_sqft": 2459.02,
+      "suite_sqft": null,
+      "balcony_sqft": 1250.0
+    },
+    {
+      "unit_type": "C",
+      "bedrooms": 4,
+      "bathrooms": null,
+      "total_sqft": 3430.24,
+      "suite_sqft": null,
+      "balcony_sqft": 1400.0
+    },
+    {
+      "unit_type": "CM",
+      "bedrooms": 4,
+      "bathrooms": null,
+      "total_sqft": 3430.24,
+      "suite_sqft": null,
+      "balcony_sqft": 1400.0
+    },
+    {
+      "unit_type": "D",
+      "bedrooms": 4,
+      "bathrooms": null,
+      "total_sqft": 3328.74,
+      "suite_sqft": null,
+      "balcony_sqft": 1500.0
+    },
+    {
+      "unit_type": "DM",
+      "bedrooms": 4,
+      "bathrooms": null,
+      "total_sqft": 3328.74,
+      "suite_sqft": null,
+      "balcony_sqft": 1500.0
+    },
+    {
+      "unit_type": null,
+      "bedrooms": 0,
+      "bathrooms": null,
+      "total_sqft": 3328.74,
+      "suite_sqft": null,
+      "balcony_sqft": 1500.0
+    },
+    {
+      "unit_type": null,
+      "bedrooms": 0,
+      "bathrooms": null,
+      "total_sqft": 3328.74,
+      "suite_sqft": null,
+      "balcony_sqft": 1500.0
+    }
+  ],
+  "total_unique_plans": 17,
+  "total_unique_plans_tolerance": 2,
+  "tolerances": {
+    "sqft_pct": 5.0,
+    "balcony_sqft_pct": 10.0,
+    "bedrooms_exact": true,
+    "bathrooms_exact": true
+  }
+}
+
+NOTE: The floor_plans above are INFERRED from text only. You MUST verify against the actual PDF. Plans with no text data (RD type) will be empty -- fill in manually.

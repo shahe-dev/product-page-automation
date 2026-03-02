@@ -1,0 +1,135 @@
+{
+  "brochure": "FLOOR PLANS and UNIT LAYOUTS Helvetia Verde by DHG",
+  "timestamp": "20260212T091013",
+  "size_mb": 8.5,
+  "page_count": 22,
+  "table_extraction": {
+    "floor_plan_spec_count": 0,
+    "specs": [],
+    "errors": []
+  },
+  "text_extraction": [
+    {
+      "page": 1,
+      "unit_type": "3-bedroom a"
+    },
+    {
+      "page": 2,
+      "unit_type": "3-bedroom a"
+    },
+    {
+      "page": 3,
+      "unit_type": "3-bedroom a"
+    },
+    {
+      "page": 4,
+      "unit_type": "1-Bedroom R",
+      "total_sqft": 857.14,
+      "total_sqft_confidence": 0.6,
+      "bathrooms": 4.0,
+      "bathrooms_confidence": 0.6
+    },
+    {
+      "page": 5,
+      "unit_type": "1-Bedroom R",
+      "total_sqft": 857.14,
+      "total_sqft_confidence": 0.6
+    },
+    {
+      "page": 6,
+      "unit_type": "1-Bedroom R",
+      "total_sqft": 857.14,
+      "total_sqft_confidence": 0.6
+    },
+    {
+      "page": 7,
+      "unit_type": "1-Bedroom R",
+      "total_sqft": 1218.59,
+      "total_sqft_confidence": 0.6
+    },
+    {
+      "page": 8,
+      "unit_type": "2-Bedroom R",
+      "total_sqft": 1218.59,
+      "total_sqft_confidence": 0.6,
+      "bathrooms": 4.0,
+      "bathrooms_confidence": 0.6
+    },
+    {
+      "page": 9,
+      "unit_type": "2-Bedroom R",
+      "total_sqft": 1218.59,
+      "total_sqft_confidence": 0.6,
+      "bathrooms": 4.0,
+      "bathrooms_confidence": 0.6
+    },
+    {
+      "page": 10,
+      "unit_type": "2-Bedroom R",
+      "total_sqft": 1735.59,
+      "total_sqft_confidence": 0.6,
+      "bathrooms": 6.0,
+      "bathrooms_confidence": 0.6
+    },
+    {
+      "page": 11,
+      "unit_type": "3-Bedroom R",
+      "total_sqft": 3090.99,
+      "total_sqft_confidence": 0.6,
+      "bathrooms": 6.0,
+      "bathrooms_confidence": 0.6
+    },
+    {
+      "page": 12,
+      "unit_type": "3-Bedroom R",
+      "total_sqft": 1720.49,
+      "total_sqft_confidence": 0.6,
+      "bathrooms": 6.0,
+      "bathrooms_confidence": 0.6
+    },
+    {
+      "page": 13,
+      "unit_type": "3-Bedroom R"
+    },
+    {
+      "page": 14,
+      "unit_type": "3BR",
+      "total_sqft": 2271.31,
+      "total_sqft_confidence": 0.6
+    },
+    {
+      "page": 15,
+      "unit_type": "3BR",
+      "total_sqft": 903.42,
+      "total_sqft_confidence": 0.6
+    },
+    {
+      "page": 16,
+      "unit_type": "1BR",
+      "total_sqft": 922.58,
+      "total_sqft_confidence": 0.6
+    },
+    {
+      "page": 17,
+      "unit_type": "1BR",
+      "total_sqft": 922.58,
+      "total_sqft_confidence": 0.6
+    },
+    {
+      "page": 18,
+      "unit_type": "2BR",
+      "total_sqft": 903.42,
+      "total_sqft_confidence": 0.6
+    },
+    {
+      "page": 19,
+      "unit_type": "2BR",
+      "total_sqft": 1716.53,
+      "total_sqft_confidence": 0.6
+    },
+    {
+      "page": 20,
+      "unit_type": "3BR"
+    }
+  ]
+}

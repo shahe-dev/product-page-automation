@@ -1,0 +1,101 @@
+{
+  "brochure": "Artistry One Residences",
+  "timestamp": "20260212T085718",
+  "size_mb": 19.1,
+  "page_count": 48,
+  "table_extraction": {
+    "floor_plan_spec_count": 0,
+    "specs": [],
+    "errors": []
+  },
+  "text_extraction": [
+    {
+      "page": 5,
+      "unit_type": "studio"
+    },
+    {
+      "page": 6,
+      "unit_type": "studio"
+    },
+    {
+      "page": 13,
+      "unit_type": "duplex"
+    },
+    {
+      "page": 17,
+      "unit_type": "penthouse",
+      "total_sqft": 765.0,
+      "total_sqft_confidence": 0.6
+    },
+    {
+      "page": 18,
+      "unit_type": "penthouse"
+    },
+    {
+      "page": 19,
+      "unit_type": "penthouse",
+      "total_sqft": 7765.0,
+      "total_sqft_confidence": 0.6
+    },
+    {
+      "page": 27,
+      "unit_type": "studio"
+    },
+    {
+      "page": 28,
+      "unit_type": "studio"
+    },
+    {
+      "page": 29,
+      "unit_type": "studio"
+    },
+    {
+      "page": 33,
+      "unit_type": "STUDIO"
+    },
+    {
+      "page": 36,
+      "unit_type": "2BED TYPE D"
+    },
+    {
+      "page": 37,
+      "unit_type": "2BED TYPE D"
+    },
+    {
+      "page": 38,
+      "unit_type": "2BED TYPE D"
+    },
+    {
+      "page": 39,
+      "unit_type": "2BED TYPE D"
+    },
+    {
+      "page": 40,
+      "unit_type": "2BED TYPE C"
+    },
+    {
+      "page": 41,
+      "unit_type": "1BED TYPE B"
+    },
+    {
+      "page": 42,
+      "unit_type": "4BED"
+    },
+    {
+      "page": 43,
+      "unit_type": "4BED"
+    },
+    {
+      "page": 44,
+      "unit_type": "4BED"
+    },
+    {
+      "page": 45,
+      "unit_type": "4BED"
+    },
+    {
+      "page": 46,
+      "unit_type": "4BED"
+    }
+  ]
+}

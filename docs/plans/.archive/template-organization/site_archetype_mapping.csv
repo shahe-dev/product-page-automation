@@ -1,0 +1,24 @@
+Site,Current Template,Proposed Archetype,Action,Duplicate Of
+difc-residences.ae,difc-residences.ae | Template,STRUCTURED,DELETE,saudi-estates.com
+sobha-central.ae,sobha-central.ae | Template,STRUCTURED,DELETE,saudi-estates.com
+dubaimaritime-city.ae,dubaimaritime-city.ae | Template,STRUCTURED,DELETE,saudi-estates.com
+rashid-yachts-marina.ae,rashid-yachts-marina.ae | Template,STANDARD,DELETE,bloom.living
+city-walk-property.ae,city-walk-property.ae | Template,STANDARD,DELETE,bloom.living
+dubaislands.ae,dubaislands.ae | Template,STRUCTURED,DELETE,saudi-estates.com
+dubai-creek-living.ae,dubai-creek-living.ae | template,USP-FOCUSED,KEEP,
+dubaihills-property.ae,dubaihills-property.ae | Template,STANDARD,DELETE,bloom.living
+urbanvillas-dubaisouth.ae,urbanvillas-dubaisouth.ae | Template,STANDARD,KEEP (slight variant),
+saudi-estates.com,saudi-estates.com | Template,STRUCTURED,KEEP (archetype),
+investinomanproperty.com,saudi-estates.com | Template,STRUCTURED,DELETE,saudi-estates.com
+ras-al-khaimah-properties.ae,ras-al-khaimah-properties.ae | Template,PREMIUM,KEEP,
+urban-luxury.penthouse.ae,urban-luxury.penthouse.ae | template,MINIMAL,KEEP (archetype),
+tilal-al-ghaf,tilal-al-ghaf | Template,STANDARD,DELETE,bloom.living
+luxury-villas-dubai.ae,luxury-villas-dubai.ae | Template,USP-FOCUSED,KEEP,
+sobha-hartland,sobha-hartland | Template,USP-FOCUSED,KEEP (archetype),
+dubai-harbour-property.ae,dubai-harbour-property.ae | Template,STANDARD,DELETE,bloom.living
+the-valley-villas,the-valley-villas | Template,USP-FOCUSED,DELETE,sobha-hartland
+luxury-collection.ae,luxury-collection.ae | Template,STANDARD,DELETE,bloom.living
+sharjah.residences.ae,sharjah.residences.ae | Template,STANDARD,DELETE,bloom.living
+bloom.living,bloom.living | Template,STANDARD,KEEP (archetype),
+luxury-villas-dubai.ae-2,luxury-villas-dubai.ae | Template,USP-FOCUSED,DELETE,luxury-villas-dubai.ae
+capital.luxury,capital.luxury | Template,PREMIUM,KEEP (archetype),

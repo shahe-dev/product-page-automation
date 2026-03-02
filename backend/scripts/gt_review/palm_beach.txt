@@ -1,0 +1,140 @@
+======================================================================
+  GROUND TRUTH REVIEW: palm_beach
+======================================================================
+  File: Palm Jebel Ali-The Beach Collection Floor Plans.pdf
+  Size: 10.5 MB, 8 pages
+  Format: SD (text quality: rich)
+  Notes: 8 pages. Dimensions in text + area tables. 2 unit types.
+======================================================================
+
+INSTRUCTIONS:
+  1. Open the PDF in a viewer
+  2. For each floor plan page, verify/fill in the data below
+  3. Copy the JSON template at the bottom into the ground truth file
+
+FLOOR PLAN PAGES DETECTED: 6
+----------------------------------------------------------------------
+
+  Page 2: dimensions (36 found), area_labels, bedrooms: ['6'], unit_types: ['SQ', 'orientation', 'and'], rooms: ['balcony', 'bathroom', 'dining', 'dressing', 'entrance', 'family', 'guest', 'kitchen', 'laundry', 'living', 'maid', 'master bedroom', 'powder', 'store', 'terrace', 'utility']
+    sample_dimensions: ['2.1 x 1.2', '3.5 x 2.2', '1.9 x 1.4', '2.9 x 1.6', '1.5 x 1.7']
+    area_labels: [{'label': 'BALCONY', 'value': 12.1}, {'label': 'BALCONY', 'value': 6.4}, {'label': 'BALCONY', 'value': 1.3}, {'label': 'TERRACE', 'value': 11.6}]
+    text: VILLA | CYAN SKY | G + 2 | 6-BEDROOMS | SHOW GARAGE + FAMILY ROOM+  | ROOF LOUNGE  AND TERRACE | FLOOR TYPE | SQ. M | SQ. FT. | Ground Floor | 213.30 | 2,295.94 | Balcony/Terrace/Porch-GF | 0.00 | 0.00 | First Floor | 255.45 | 2,749.64 | Balcony/Terrace-FF | 31.13 | 335.08 | Second Floor | 130.61 | 1,405.87 | Balcony/Terrace-SF | 44.22 | 475.98 | Garag
+
+  Page 3: dimensions (38 found), area_labels, bedrooms: ['6'], unit_types: ['SQ', 'orientation', 'and'], rooms: ['balcony', 'bathroom', 'dressing', 'entrance', 'family', 'guest', 'kitchen', 'laundry', 'maid', 'master bedroom', 'powder', 'store', 'study', 'terrace']
+    sample_dimensions: ['2.1 x 3.6', '3.0 x 2.5', '1.7 x 1.6', '4.0 x 4.1', '0.7 x 1.8']
+    area_labels: [{'label': 'SUITE', 'value': 4.0}, {'label': 'TERRACE', 'value': 4.8}, {'label': 'TERRACE', 'value': 5.1}, {'label': 'TERRACE', 'value': 8.2}, {'label': 'BALCONY', 'value': 4.6}, {'label': 'BALCONY', 'value': 7.7}, {'label': 'BALCONY', 'value': 3.7}, {'label': 'BALCONY', 'value': 4.6}, {'label': 'TERRACE', 'value': 9.0}, {'label': 'TERRACE', 'value': 4.3}]
+    text: VILLA | COBALT | G + 2 | 6-BEDROOMS  |  FAMILY ROOM + STUDY ROOM +  | ROOF LOUNGE AND TERRACE | FLOOR TYPE | SQ. M | SQ. FT. | Ground Floor | 237.69 | 2,558.47 | Balcony/Terrace/Porch-GF | 24.38 | 262.42 | First Floor | 251.08 | 2,702.60 | Balcony/Terrace-FF | 26.51 | 285.35 | Second Floor | 100.99 | 1,087.05 | Balcony/Terrace-SF | 21.97 | 236.48 | Gar
+
+  Page 4: dimensions (34 found), area_labels, bedrooms: ['5'], unit_types: ['SQ', 'orientation', 'and'], rooms: ['balcony', 'bathroom', 'dining', 'dressing', 'entrance', 'family', 'guest', 'kitchen', 'living', 'maid', 'master bedroom', 'powder', 'store', 'terrace', 'utility']
+    sample_dimensions: ['1.8 x 1.5', '2.1 x 2.8', '1.5 x 1.9', '2.0 x 2.8', '1.5 x 1.8']
+    area_labels: [{'label': 'BALCONY', 'value': 8.1}, {'label': 'BALCONY', 'value': 2.0}, {'label': 'BALCONY', 'value': 1.4}, {'label': 'TERRACE', 'value': 8.8}, {'label': 'TERRACE', 'value': 4.7}]
+    text: VILLA M | BEACH | VILLA | BAIA LUNA | G + 2 | 5-BEDROOMS  | FAMILY ROOM + SHOW GARAGE +  | ROOF LOUNGE AND TERRACE | FLOOR TYPE | SQ. M | SQ. FT. | Ground Floor | 224.27 | 2,414.02 | Balcony/Terrace/Porch-GF | 9.15 | 98.49 | First Floor | 256.40 | 2,759.87 | Balcony/Terrace-FF | 23.67 | 254.78 | Second Floor | 127.97 | 1,377.46 | Balcony/Terrace-SF | 6
+
+  Page 5: dimensions (30 found), area_labels, bedrooms: ['5'], unit_types: ['SQ', 'orientation', 'and'], rooms: ['balcony', 'bathroom', 'dining', 'dressing', 'entrance', 'family', 'guest', 'kitchen', 'laundry', 'living', 'maid', 'master bedroom', 'powder', 'store', 'terrace', 'utility']
+    sample_dimensions: ['1.1 x 2.7', '2.9 x 2.2', '1.6 x 3.7', '2.7 x 2.4', '2.4 x 1.3']
+    area_labels: [{'label': 'BALCONY', 'value': 12.7}, {'label': 'TERRACE', 'value': 11.5}]
+    text: VILLA P | BEACH | VILLA | WAVE | CREST | G + 2 | 5-BEDROOMS | FAMILY ROOM + ROOF LOUNGE | AND TERRACE | FLOOR TYPE | SQ. M | SQ. FT. | Ground Floor | 257.80 | 2,774.94 | Balcony/Terrace/Porch-GF | 2.24 | 24.11 | First Floor | 247.81 | 2,667.40 | Balcony/Terrace-FF | 26.57 | 286.00 | Second Floor | 153.88 | 1,656.35 | Balcony/Terrace-SF | 36.49 | 392.78 | Gar
+
+  Page 6: dimensions (38 found), area_labels, bedrooms: ['6'], unit_types: ['SQ', 'orientation', 'and'], rooms: ['balcony', 'bathroom', 'dining', 'dressing', 'entrance', 'family', 'guest', 'kitchen', 'laundry', 'living', 'maid', 'master bedroom', 'powder', 'store', 'study', 'terrace', 'utility']
+    sample_dimensions: ['2.5 x 2.6', '2.0 x 1.8', '3.8 x 3.2', '4.1 x 1.8', '2.5 x 2.5']
+    area_labels: [{'label': 'TERRACE', 'value': 7.3}, {'label': 'BALCONY', 'value': 6.3}, {'label': 'BALCONY', 'value': 6.3}, {'label': 'BALCONY', 'value': 1.8}, {'label': 'TERRACE', 'value': 5.4}, {'label': 'TERRACE', 'value': 7.6}, {'label': 'TERRACE', 'value': 2.0}]
+    text: VILLA Q | BEACH | VILLA | OCEAN | WHISPER | G + 2 | 6-BEDROOMS  | FAMILY ROOM + STUDY ROOM +  | ROOF LOUNGE AND TERRACE | FLOOR TYPE | SQ. M | SQ. FT. | Ground Floor | 258.19 | 2,779.13 | Balcony/Terrace/Porch-GF | 2.94 | 31.65 | First Floor | 260.06 | 2,799.26 | Balcony/Terrace-FF | 32.91 | 354.24 | Second Floor | 123.26 | 1,326.76 | Balcony/Terrace-S
+
+  Page 7: dimensions (34 found), area_labels, bedrooms: ['6'], unit_types: ['orientation', 'and', 'SQ'], rooms: ['balcony', 'bathroom', 'dining', 'dressing', 'entrance', 'family', 'guest', 'kitchen', 'laundry', 'living', 'maid', 'master bedroom', 'powder', 'store', 'study', 'terrace', 'utility']
+    sample_dimensions: ['2.3 x 2.8', '1.7 x 1.7', '3.3 x 2.5', '3.8 x 1.9', '2.3 x 2.5']
+    area_labels: [{'label': 'BALCONY', 'value': 8.4}, {'label': 'BALCONY', 'value': 3.4}, {'label': 'BALCONY', 'value': 5.1}, {'label': 'TERRACE', 'value': 12.9}]
+    text: VILLA R | BEACH | Disclaimer: Plans, details and unit orientation included are indicative only and are  | subject to change by the developer/seller at its sole discretion without notice and/ | or liability. All images, including swimming pools and landscape features, interior and  | exterior features, finishe
+
+----------------------------------------------------------------------
+SUMMARY
+----------------------------------------------------------------------
+  All sqft values found: []
+  Unit types found: ['AND', 'ORIENTATION', 'SQ']
+  Bedroom counts found: ['5', '6']
+
+----------------------------------------------------------------------
+JSON TEMPLATE (copy into ground truth file)
+----------------------------------------------------------------------
+{
+  "brochure": "Palm Jebel Ali-The Beach Collection Floor Plans.pdf",
+  "last_verified": "2026-02-XX",
+  "notes": "FILL IN: describe what you found",
+  "table_specs": [],
+  "table_spec_count": 0,
+  "text_assertions": {
+    "pages_with_floor_plan_text": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "expected_unit_types_in_text": [
+      "AND",
+      "ORIENTATION",
+      "SQ"
+    ],
+    "expected_area_labels_present": false
+  },
+  "floor_plans": [
+    {
+      "unit_type": "SQ",
+      "bedrooms": 6,
+      "bathrooms": null,
+      "total_sqft": null,
+      "suite_sqft": null,
+      "balcony_sqft": 11.6
+    },
+    {
+      "unit_type": "SQ",
+      "bedrooms": 6,
+      "bathrooms": null,
+      "total_sqft": null,
+      "suite_sqft": 4.0,
+      "balcony_sqft": 4.3
+    },
+    {
+      "unit_type": "SQ",
+      "bedrooms": 5,
+      "bathrooms": null,
+      "total_sqft": null,
+      "suite_sqft": null,
+      "balcony_sqft": 4.7
+    },
+    {
+      "unit_type": "SQ",
+      "bedrooms": 5,
+      "bathrooms": null,
+      "total_sqft": null,
+      "suite_sqft": null,
+      "balcony_sqft": 11.5
+    },
+    {
+      "unit_type": "SQ",
+      "bedrooms": 6,
+      "bathrooms": null,
+      "total_sqft": null,
+      "suite_sqft": null,
+      "balcony_sqft": 2.0
+    },
+    {
+      "unit_type": "orientation",
+      "bedrooms": null,
+      "bathrooms": null,
+      "total_sqft": null,
+      "suite_sqft": null,
+      "balcony_sqft": 12.9
+    }
+  ],
+  "total_unique_plans": 6,
+  "total_unique_plans_tolerance": 2,
+  "tolerances": {
+    "sqft_pct": 5.0,
+    "balcony_sqft_pct": 10.0,
+    "bedrooms_exact": true,
+    "bathrooms_exact": true
+  }
+}
+
+NOTE: The floor_plans above are INFERRED from text only. You MUST verify against the actual PDF. Plans with no text data (RD type) will be empty -- fill in manually.

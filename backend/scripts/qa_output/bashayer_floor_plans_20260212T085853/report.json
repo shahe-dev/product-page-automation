@@ -1,0 +1,41 @@
+{
+  "brochure": "Bashayer Floor Plans",
+  "timestamp": "20260212T085853",
+  "size_mb": 4.6,
+  "page_count": 50,
+  "table_extraction": {
+    "floor_plan_spec_count": 0,
+    "specs": [],
+    "errors": []
+  },
+  "text_extraction": [
+    {
+      "page": 45,
+      "unit_type": "2\nBedroom"
+    },
+    {
+      "page": 46,
+      "unit_type": "2\nBedroom",
+      "bathrooms": 2.0,
+      "bathrooms_confidence": 0.6
+    },
+    {
+      "page": 47,
+      "unit_type": "2\nBedroom"
+    },
+    {
+      "page": 48,
+      "unit_type": "2\nBedroom"
+    },
+    {
+      "page": 49,
+      "unit_type": "2\nBedroom",
+      "bathrooms": 2.0,
+      "bathrooms_confidence": 0.6
+    },
+    {
+      "page": 50,
+      "unit_type": "2\nBedroom"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "brochure": "Palm Jebel Ali-The Beach Collection Floor Plans",
+  "timestamp": "20260212T091556",
+  "size_mb": 10.5,
+  "page_count": 8,
+  "table_extraction": {
+    "floor_plan_spec_count": 0,
+    "specs": [],
+    "errors": []
+  },
+  "text_extraction": [
+    {
+      "page": 1,
+      "unit_type": "6-BEDROOMS\nS"
+    },
+    {
+      "page": 2,
+      "unit_type": "6-BEDROOMS\nS"
+    },
+    {
+      "page": 3,
+      "unit_type": "6-BEDROOMS\nS"
+    },
+    {
+      "page": 4,
+      "unit_type": "6-BEDROOMS \n F"
+    },
+    {
+      "page": 5,
+      "unit_type": "5-BEDROOMS \nF"
+    },
+    {
+      "page": 6,
+      "unit_type": "5-BEDROOMS\nF"
+    },
+    {
+      "page": 7,
+      "unit_type": "6-BEDROOMS \nF"
+    }
+  ]
+}

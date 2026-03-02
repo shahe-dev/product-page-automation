@@ -1,0 +1,85 @@
+{
+  "brochure": "INAURA_DOWNTOWN-DUBAI_BROCHURE.pdf",
+  "last_verified": "2026-02-12",
+  "notes": "AUTO-GENERATED DRAFT -- review and correct before use",
+  "table_specs": [
+    {
+      "bedrooms": 4
+    }
+  ],
+  "table_spec_count": 1,
+  "text_assertions": {
+    "pages_with_floor_plan_text": [
+      10,
+      11,
+      12,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      42,
+      43,
+      44,
+      46,
+      48,
+      49,
+      50,
+      51,
+      55,
+      56,
+      57,
+      59,
+      60,
+      61,
+      62,
+      63,
+      66,
+      67,
+      68,
+      86,
+      87,
+      88,
+      89,
+      90
+    ],
+    "expected_unit_types_in_text": [
+      "1 Bedroom - B",
+      "2 Bedroom - A",
+      "2 Bedroom - B",
+      "2 Bedroom - C",
+      "2BR",
+      "3 Bedroom \nM",
+      "3BR",
+      "4BR",
+      "5 Bedroom D",
+      "5BR\nD",
+      "6 Bedroom",
+      "6 Bedroom \nP",
+      "6BR P",
+      "STUDIO",
+      "studio"
+    ],
+    "expected_area_labels_present": true
+  },
+  "floor_plans": [],
+  "total_unique_plans": 0,
+  "total_unique_plans_tolerance": 1,
+  "classification": {
+    "min_floor_plan_images": 1,
+    "total_images_classified": 0
+  },
+  "tolerances": {
+    "sqft_pct": 2.0,
+    "balcony_sqft_pct": 5.0,
+    "bedrooms_exact": true,
+    "bathrooms_exact": true
+  }
+}

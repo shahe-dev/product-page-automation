@@ -1,0 +1,37 @@
+{
+  "brochure": "Haus of Tenet Brochure Digital",
+  "timestamp": "20260212T090538",
+  "size_mb": 46.3,
+  "page_count": 79,
+  "table_extraction": {
+    "floor_plan_spec_count": 0,
+    "specs": [],
+    "errors": []
+  },
+  "text_extraction": [
+    {
+      "page": 37,
+      "unit_type": "Penthouse"
+    },
+    {
+      "page": 38,
+      "unit_type": "Penthouse"
+    },
+    {
+      "page": 39,
+      "unit_type": "Penthouse"
+    },
+    {
+      "page": 50,
+      "unit_type": "Penthouse"
+    },
+    {
+      "page": 51,
+      "unit_type": "Penthouse"
+    },
+    {
+      "page": 52,
+      "unit_type": "Penthouse"
+    }
+  ]
+}

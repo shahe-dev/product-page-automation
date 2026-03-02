@@ -1,0 +1,127 @@
+======================================================================
+  GROUND TRUTH REVIEW: heights_fp
+======================================================================
+  File: THE_HEIGHTS_FLOOR_PLANS.pdf
+  Size: 5.2 MB, 19 pages
+  Format: TS (text quality: moderate)
+  Notes: 19 pages. Area tables with 3 unit types.
+======================================================================
+
+INSTRUCTIONS:
+  1. Open the PDF in a viewer
+  2. For each floor plan page, verify/fill in the data below
+  3. Copy the JSON template at the bottom into the ground truth file
+
+FLOOR PLAN PAGES DETECTED: 18
+----------------------------------------------------------------------
+
+  Page 2: bedrooms: ['3'], unit_types: ['A']
+    text: KEY PLAN | GROUND FLOOR | SQ.M. | SQ.FT. | FIRST FLOOR | SQ.M. | SQ.FT. | TOTAL AREA | SQ.M. | SQ.FT. | CARPORT AREA | SQ.M. | SQ.FT. | TERRACES / BALCONIES | SQ.M. | SQ.FT. | N | FLOOR PLAN 1. All dimensions are in imperial and metric, and measured from finish to finish excluding construction tolerances. 2. All materials, dimesions
+
+  Page 3: bedrooms: ['4'], unit_types: ['A']
+    text: KEY PLAN | N | FLOOR PLAN 1. All dimensions are in imperial and metric, and measured from finish to finish excluding construction tolerances. 2. All materials, dimesions, and drawings are approximate only. 3. Information is subject to change wihtout notice, at developer’s absolute discretion. 4. Actual 
+
+  Page 4: bedrooms: ['5'], unit_types: ['A']
+    text: KEY PLAN | N | FLOOR PLAN 1. All dimensions are in imperial and metric, and measured from finish to finish excluding construction tolerances. 2. All materials, dimesions, and drawings are approximate only. 3. Information is subject to change wihtout notice, at developer’s absolute discretion. 4. Actual 
+
+  Page 5: bedrooms: ['3'], unit_types: ['C']
+    text: KEY PLAN | GROUND FLOOR | SQ.M. | SQ.FT. | FIRST FLOOR | SQ.M. | SQ.FT. | TOTAL AREA | SQ.M. | SQ.FT. | CARPORT AREA | SQ.M. | SQ.FT. | TERRACES / BALCONIES | SQ.M. | SQ.FT. | N | FLOOR PLAN 1. All dimensions are in imperial and metric, and measured from finish to finish excluding construction tolerances. 2. All materials, dimesions
+
+  Page 6: bedrooms: ['4'], unit_types: ['C']
+    text: KEY PLAN | N | FLOOR PLAN 1. All dimensions are in imperial and metric, and measured from finish to finish excluding construction tolerances. 2. All materials, dimesions, and drawings are approximate only. 3. Information is subject to change wihtout notice, at developer’s absolute discretion. 4. Actual 
+
+  Page 7: bedrooms: ['5'], unit_types: ['C']
+    text: KEY PLAN | N | FLOOR PLAN 1. All dimensions are in imperial and metric, and measured from finish to finish excluding construction tolerances. 2. All materials, dimesions, and drawings are approximate only. 3. Information is subject to change wihtout notice, at developer’s absolute discretion. 4. Actual 
+
+  Page 8: bedrooms: ['3'], unit_types: ['B']
+    text: KEY PLAN | GROUND FLOOR | SQ.M. | SQ.FT. | FIRST FLOOR | SQ.M. | SQ.FT. | TOTAL AREA | SQ.M. | SQ.FT. | CARPORT AREA | SQ.M. | SQ.FT. | TERRACES / BALCONIES | SQ.M. | SQ.FT. | N | FLOOR PLAN 1. All dimensions are in imperial and metric, and measured from finish to finish excluding construction tolerances. 2. All materials, dimesions
+
+  Page 9: bedrooms: ['4'], unit_types: ['B']
+    text: KEY PLAN | N | FLOOR PLAN 1. All dimensions are in imperial and metric, and measured from finish to finish excluding construction tolerances. 2. All materials, dimesions, and drawings are approximate only. 3. Information is subject to change wihtout notice, at developer’s absolute discretion. 4. Actual 
+
+  Page 10: bedrooms: ['5'], unit_types: ['B']
+    text: KEY PLAN | N | FLOOR PLAN 1. All dimensions are in imperial and metric, and measured from finish to finish excluding construction tolerances. 2. All materials, dimesions, and drawings are approximate only. 3. Information is subject to change wihtout notice, at developer’s absolute discretion. 4. Actual 
+
+  Page 11: bedrooms: ['3'], unit_types: ['C']
+    text: KEY PLAN | GROUND FLOOR | SQ.M. | SQ.FT. | FIRST FLOOR | SQ.M. | SQ.FT. | TOTAL AREA | SQ.M. | SQ.FT. | CARPORT AREA | SQ.M. | SQ.FT. | TERRACES / BALCONIES | SQ.M. | SQ.FT. | N | FLOOR PLAN 1. All dimensions are in imperial and metric, and measured from finish to finish excluding construction tolerances. 2. All materials, dimesions
+
+  Page 12: bedrooms: ['4'], unit_types: ['C']
+    text: KEY PLAN | N | FLOOR PLAN 1. All dimensions are in imperial and metric, and measured from finish to finish excluding construction tolerances. 2. All materials, dimesions, and drawings are approximate only. 3. Information is subject to change wihtout notice, at developer’s absolute discretion. 4. Actual 
+
+  Page 13: bedrooms: ['5'], unit_types: ['C']
+    text: KEY PLAN | N | FLOOR PLAN 1. All dimensions are in imperial and metric, and measured from finish to finish excluding construction tolerances. 2. All materials, dimesions, and drawings are approximate only. 3. Information is subject to change wihtout notice, at developer’s absolute discretion. 4. Actual 
+
+  Page 14: bedrooms: ['3'], unit_types: ['A']
+    text: KEY PLAN | GROUND FLOOR | SQ.M. | SQ.FT. | FIRST FLOOR | SQ.M. | SQ.FT. | TOTAL AREA | SQ.M. | SQ.FT. | CARPORT AREA | SQ.M. | SQ.FT. | TERRACES / BALCONIES | SQ.M. | SQ.FT. | N | FLOOR PLAN 1. All dimensions are in imperial and metric, and measured from finish to finish excluding construction tolerances. 2. All materials, dimesions
+
+  Page 15: bedrooms: ['4'], unit_types: ['A']
+    text: KEY PLAN | N | FLOOR PLAN 1. All dimensions are in imperial and metric, and measured from finish to finish excluding construction tolerances. 2. All materials, dimesions, and drawings are approximate only. 3. Information is subject to change wihtout notice, at developer’s absolute discretion. 4. Actual 
+
+  Page 16: bedrooms: ['5'], unit_types: ['A']
+    text: KEY PLAN | N | FLOOR PLAN 1. All dimensions are in imperial and metric, and measured from finish to finish excluding construction tolerances. 2. All materials, dimesions, and drawings are approximate only. 3. Information is subject to change wihtout notice, at developer’s absolute discretion. 4. Actual 
+
+  Page 17: bedrooms: ['3'], unit_types: ['C']
+    text: KEY PLAN | GROUND FLOOR | SQ.M. | SQ.FT. | FIRST FLOOR | SQ.M. | SQ.FT. | TOTAL AREA | SQ.M. | SQ.FT. | CARPORT AREA | SQ.M. | SQ.FT. | TERRACES / BALCONIES | SQ.M. | SQ.FT. | N | FLOOR PLAN 1. All dimensions are in imperial and metric, and measured from finish to finish excluding construction tolerances. 2. All materials, dimesions
+
+  Page 18: bedrooms: ['4'], unit_types: ['C']
+    text: KEY PLAN | N | FLOOR PLAN 1. All dimensions are in imperial and metric, and measured from finish to finish excluding construction tolerances. 2. All materials, dimesions, and drawings are approximate only. 3. Information is subject to change wihtout notice, at developer’s absolute discretion. 4. Actual 
+
+  Page 19: bedrooms: ['5'], unit_types: ['C']
+    text: KEY PLAN | N | FLOOR PLAN 1. All dimensions are in imperial and metric, and measured from finish to finish excluding construction tolerances. 2. All materials, dimesions, and drawings are approximate only. 3. Information is subject to change wihtout notice, at developer’s absolute discretion. 4. Actual 
+
+----------------------------------------------------------------------
+SUMMARY
+----------------------------------------------------------------------
+  All sqft values found: []
+  Unit types found: ['A', 'B', 'C']
+  Bedroom counts found: ['3', '4', '5']
+
+----------------------------------------------------------------------
+JSON TEMPLATE (copy into ground truth file)
+----------------------------------------------------------------------
+{
+  "brochure": "THE_HEIGHTS_FLOOR_PLANS.pdf",
+  "last_verified": "2026-02-XX",
+  "notes": "FILL IN: describe what you found",
+  "table_specs": [],
+  "table_spec_count": 0,
+  "text_assertions": {
+    "pages_with_floor_plan_text": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "expected_unit_types_in_text": [
+      "A",
+      "B",
+      "C"
+    ],
+    "expected_area_labels_present": false
+  },
+  "floor_plans": [],
+  "total_unique_plans": 0,
+  "total_unique_plans_tolerance": 2,
+  "tolerances": {
+    "sqft_pct": 5.0,
+    "balcony_sqft_pct": 10.0,
+    "bedrooms_exact": true,
+    "bathrooms_exact": true
+  }
+}
+
+NOTE: The floor_plans above are INFERRED from text only. You MUST verify against the actual PDF. Plans with no text data (RD type) will be empty -- fill in manually.

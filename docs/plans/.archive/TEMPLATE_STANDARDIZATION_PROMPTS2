@@ -1,0 +1,298 @@
+Here are the three prompts, each self-contained with all the context needed for a fresh session.
+
+Prompt 1: Standardize Commercial and ADRE
+
+
+## Task: Standardize Commercial and ADRE Template Sheets
+
+### Context
+
+We've already standardized 3 of 6 Google Sheets templates (MPP, Aggregators, ADOP) into a consistent column format. The standardized copies live in a "Standardized Templates" subfolder in the Shared Drive (folder ID: 1_T-x_8MXCneMEO2WlfhEAlVdw29N46Qv). The scripts that did this are in backend/scripts/standardize_templates.py.
+
+### Standard Format (already established)
+
+| Column | Role |
+|--------|------|
+| A | Guidelines / Character Limits (human reference, NOT fed to LLM) |
+| B | Field Name (human-readable label, every content row MUST have one) |
+| C | EN |
+| D | AR |
+| E | RU |
+| F+ | Additional languages (De, Fr, Zh) where applicable |
+
+Row rules:
+- Row 1 = header: "Guidelines/Comments | Fields | EN | AR | RU | ..."
+- Section headers: A="SECTION", B=section name
+- Empty rows as separators between sections
+- Every row that holds content MUST have a field name in column B
+
+### Templates to Standardize
+
+**1. Commercial (sheet ID: YOUR_COMMERCIAL_SHEET_ID)**
+
+Current problems:
+- NO guidelines column -- only 4 columns: Fields | EN | RU | AR
+- Column A contains BOTH field names AND guideline text mixed together (e.g., "H3 (subtitle) - 60-80 characters" is a field name with inline guideline)
+- EN content is in column B instead of C
+- AR and RU are swapped: C=RU, D=AR (should be D=AR, E=RU)
+- 80 rows with data only in column A -- everything crammed into one column
+- No section markers
+
+Transformation needed:
+- INSERT a new column A for guidelines (shift everything right)
+- SPLIT current column A: extract the field name portion into new column B, move the guideline/character-limit portion into new column A
+- Reorder language columns to C=EN, D=AR, E=RU
+- Add section markers (About Area, Project Details, Economic Appeal, Payment Plan, Advantages, Amenities, Developer, Location)
+- Parse inline character limits from field names like "Brief description (paragraph) - 150-200 characters" -> guideline goes to A, clean field name goes to B
+
+**2. ADRE (sheet ID: YOUR_ADRE_SHEET_ID)**
+
+Current problems:
+- 43 rows have data ONLY in column A (guideline text) with NO field name in column B
+- EN column labeled "eng" instead of "EN"
+- Extra language columns labeled inconsistently: "de" (lowercase), "Fr", "ch" (should be "Zh")
+- Has 8 columns total (Guidelines, Fields, eng, Ar, Ru, de, Fr, ch)
+- Developer section header uses corrupted character ("?2" instead of "H2")
+- FAQ section has template questions in column A but no field names for Q&A rows
+- Amenity rows after the first two detailed amenities have only "H3" as field name with descriptions on the next row having no field name at all
+
+Transformation needed:
+- Add field names to ALL 43+ rows currently missing them in column B
+- For amenity rows: create descriptive names like "Amenity 3 - Title", "Amenity 3 - Description"
+- For economic appeal rows: "Rental Appeal H3", "Rental Appeal Description", "Resale Appeal H3", etc.
+- For location rows: "Entertainment H3", "Entertainment Landmark 1", "Healthcare H3", "Healthcare Facility 1", etc.
+- For FAQ rows: "FAQ 1 - Question", "FAQ 1 - Answer", etc.
+- Fix header labels: "eng" -> "EN", "de" -> "De", "ch" -> "Zh"
+- Fix corrupted H2 character
+- Add section markers
+
+### How to Execute
+
+1. Read the existing standardize_templates.py to understand the pattern
+2. Add standardize_commercial() and standardize_adre() functions
+3. Add both templates to the TEMPLATES dict
+4. Run with --dry-run first, review the output
+5. Create the standardized copies in the same Shared Drive subfolder (folder ID: 1_T-x_8MXCneMEO2WlfhEAlVdw29N46Qv)
+6. Run verify_standardized.py against the new copies
+7. Run build_field_mapping.py to generate the field mapping report
+
+Service account credentials: .credentials/service-account-key.json
+Create sheets directly in the Shared Drive folder (the service account's personal Drive storage is full -- do NOT use gc.create(), use drive.files().create() with the folder as parent).
+
+### Dynamic Fields -- IMPORTANT
+
+- Dynamic/conditional fields (payment plan types, FAQ pairs, amenities, floor plans, nearby landmarks, property types) have variable counts. Remove ALL example values (e.g., 50/50 payment plans). These are LLM-deduced from source PDFs, not presets.
+- "IF" statements in column A guidelines are conditional instructions for the LLM, not static fields.
+- See "Design notes for template_fields.py rewrite" in docs/plans/2026-01-29-template-standardization.md for the full list of dynamic field patterns.
+
+---
+
+Prompt 2: Standardize OPR with Page Screenshots
+
+
+## Task: Standardize OPR Template Sheet (Most Complex)
+
+### Context
+
+We've standardized 5 of 6 Google Sheets templates (MPP, Aggregators, ADOP, Commercial, ADRE) into a consistent column format. OPR was deferred because it's the most disorganized -- notes scattered throughout the sheet, HTML tags like <p> used as field names, and no clear mapping between sheet rows and actual page sections.
+
+The standardized copies live in "Standardized Templates" subfolder in the Shared Drive (folder ID: 1_T-x_8MXCneMEO2WlfhEAlVdw29N46Qv). Scripts are in backend/scripts/.
+
+### Standard Format
+
+| Column | Role |
+|--------|------|
+| A | Guidelines / Character Limits (human reference, NOT fed to LLM) |
+| B | Field Name (human-readable label, every content row MUST have one) |
+| C | EN |
+| D | AR |
+| E | RU |
+
+Row rules:
+- Row 1 = header: "Guidelines/Comments | Fields | EN | AR | RU"
+- Section headers: A="SECTION", B=section name
+- Empty rows as separators
+- Every content row MUST have a field name in column B
+
+### OPR Template (sheet ID: YOUR_OPR_SHEET_ID)
+
+Current problems:
+- Column layout is correct (A=Guidelines, B=Fields, C=En, D=Ar, E=Ru) but content is messy
+- Field names use HTML tags: "<p>" is used as the field name for multiple different text fields (overview description, amenity bullets, investment bullets, etc.)
+- "H3:" used as field name for section headings without specifying WHICH section
+- 42 rows with only column B data, 11 rows with only column A data
+- Notes and instructions scattered in cells that should be content areas
+- No section markers (sections implied by empty rows)
+- Some rows have guidelines/notes in column C (EN content column) instead of column A
+
+### CRITICAL: Preserve All Notes
+
+The original sheet contains editorial notes, guidelines, and instructions scattered throughout. NONE of these should be deleted. They should be:
+- Moved to column A (Guidelines) if they're currently in the wrong column
+- Kept in column A if they're already there
+- NEVER placed in columns C/D/E (content columns)
+
+### CRITICAL: Map to Actual Page Structure
+
+Reference screenshots of a real OPR project page are in:
+template-organization/scraped_pages/opr-project-page-screenshots/
+
+The actual page sections (top to bottom) are:
+1. Hero Section - H1, subheading, Starting Price, Payment Plan, Handover, ROI Potential, CTA
+2. Overview - H2, description paragraph, bullet points (key selling points)
+3. Project Details Card (sidebar) - Starting Price, Handover, Payment Plan, Area, Property Type, Bedrooms, Developer, Location, CTA
+4. Signature Features & Amenities - H3, intro paragraph, bullet points (amenity list)
+5. Property Types / Floor Plans - H3, table of unit types with pricing
+6. Payment Plan - H3, description, milestone percentages, CTA
+7. Investment Potential - H2, intro paragraph, bullet points, CTA
+8. Flexible Financing Options - H3, static content (same for all pages)
+9. Gallery - images only (no text content to generate)
+10. About [Area Name] - Location description with tabs (Lifestyle & Attractions, Private Healthcare, Education)
+11. About the Developer - H2, developer description
+12. FAQs - H2, Q&A pairs (12 questions)
+13. RERA Information - static footer content
+
+Each <p> field in the current sheet should be renamed to match the actual section it belongs to based on its position. For example:
+- Row 28 <p> (after "H2: Project overview") -> "Overview Description"
+- Row 30 <p> (bullet points section) -> "Overview Bullet Points"
+- Row 60 <p> (after "H3: Features and amenities") -> "Amenities Intro"
+- Row 63 <p> (amenity bullets) -> "Amenity Bullet Points"
+
+### How to Execute
+
+1. Read the OPR sheet via service account
+2. Read the page screenshots to understand the visual structure
+3. Map each sheet row to its corresponding page section
+4. Create descriptive field names for every <p>, H3:, and CTA row
+5. Move any notes/guidelines from content columns (C/D/E) to column A
+6. Add section markers
+7. Preserve ALL original text -- just reorganize which column it sits in
+8. Run --dry-run, review carefully
+9. Create standardized copy in the Shared Drive subfolder
+10. Verify with verify_standardized.py
+11. Run build_field_mapping.py
+
+Service account credentials: .credentials/service-account-key.json
+Create sheets directly in Shared Drive folder (service account personal storage is full).
+
+### Dynamic Fields -- IMPORTANT
+
+- Dynamic/conditional fields (FAQ pairs, property types, amenities, payment plan types) have variable counts. Remove ALL example values. These are LLM-deduced from source PDFs, not presets.
+- "IF" statements in column A guidelines are conditional instructions for the LLM, not static fields.
+- See "Design notes for template_fields.py rewrite" in docs/plans/2026-01-29-template-standardization.md for the full list of dynamic field patterns.
+
+---
+
+Prompt 3: Database-Backed Field Definitions (Phase 3)
+
+
+## Task: Replace Hardcoded Python Field Definitions with Database-Backed Storage
+
+### Prerequisites
+
+All 6 templates must be standardized first. Verify by checking
+docs/plans/2026-01-29-template-standardization.md -- all 6 should be listed
+under "Created standardized copies."
+
+### Context
+
+template_fields.py currently defines fields as hardcoded Python dicts ({field_name: character_limit}). A field mapping analysis revealed these are severely out of sync with the actual sheets (22-58% match rate). The full gap report is in backend/scripts/field_mapping_report.json.
+
+Instead of rewriting the Python dicts, we are moving field definitions into a database table. This enables:
+- Dynamic/repeatable field groups (FAQ pairs, payment plan types, amenities, etc.)
+- Future admin UI for template/field management
+- Future support for admin-created template types (no code deploy needed)
+
+The full design plan is at: .claude/plans/humming-sparking-kettle.md
+
+### Key Files
+
+| File | Role |
+|------|------|
+| backend/app/services/template_fields.py | Current hardcoded dicts (22-58% match rate) |
+| backend/app/models/database.py | Database models (add TemplateFieldDefinition here) |
+| backend/alembic/versions/004_fix_constraints.py | Latest migration (chain 005 after this) |
+| backend/app/services/content_generator.py | 2 call sites: lines 130, 197 |
+| backend/scripts/seed_prompts.py | Pattern to follow for seed script |
+| backend/scripts/field_mapping_report.json | Current field mapping gap analysis |
+| backend/scripts/standardized_template_ids.json | Standardized sheet IDs |
+| docs/plans/2026-01-29-template-standardization.md | Design notes on dynamic fields |
+
+### Implementation Steps
+
+1. **Add TemplateFieldDefinition model** to backend/app/models/database.py
+   - template_type as String(50), NOT SQLAlchemy Enum (enables future dynamic types without DB migration)
+   - field_name: String(100)
+   - section: String(100) + section_order: Integer (for grouping and display ordering)
+   - field_order: Integer (order within section)
+   - character_limit: Optional Integer
+   - sheet_row: Optional Integer + sheet_column: String(5) default "C" (for Google Sheet cell mapping)
+   - group_key: Optional String(50) -- repeatable group ID (e.g., "faq", "payment_plan_type")
+   - group_index: Optional Integer -- instance number within group (1, 2, 3...)
+   - group_min_count / group_max_count: Optional Integer -- expected range of instances
+   - is_required: Boolean, field_type: String(20), is_active: Boolean (soft delete)
+   - Unique constraint on (template_type, field_name)
+   - Indexes on template_type, section, group_key, ordering
+
+2. **Create Alembic migration** 005_add_template_field_definitions.py
+   - Chains after 004_fix_constraints
+   - Create table with all columns and indexes
+   - No data migration (seed script handles that)
+
+3. **Create seed script** backend/scripts/seed_field_definitions.py
+   - Read from the STANDARDIZED Google Sheets (not from the hardcoded dicts -- those are 22-58% wrong)
+   - Use standardized_template_ids.json for sheet IDs
+   - Use field_mapping_report.json as reference for field name mapping
+   - Infer sections from SECTION marker rows in the sheets
+   - Detect group patterns via regex (faq_N_question, amenity_N, payment_plan_type_N, nearby_N, etc.)
+   - Parse character limits from column A guidelines (e.g., "50-60 chars" -> max 60)
+   - Support --force flag to overwrite existing rows
+   - Follow seed_prompts.py async pattern
+
+4. **Add async DB lookup** to backend/app/services/template_fields.py
+   - get_fields_for_template_async(template_type, db=None) -> FieldDefs
+     - Check in-memory cache first
+     - Query DB if session provided
+     - Fall back to hardcoded TEMPLATE_FIELD_REGISTRY
+   - get_field_groups(template_type, db) -> dict
+     - Returns group metadata: min/max counts, fields per instance
+   - invalidate_field_cache(template_type=None)
+     - Clear cache after admin edits
+   - Keep existing sync get_fields_for_template() untouched as fallback
+
+5. **Switch content_generator.py** to use async lookup
+   - Line 130: get_fields_for_template(template_type) -> await get_fields_for_template_async(template_type, db=self.db)
+   - Line 197: same change
+   - Both are already in async methods -- straightforward one-line changes
+
+6. **Validate**
+   - Run: alembic upgrade head
+   - Run: python scripts/seed_field_definitions.py
+   - Verify DB row counts match expected field counts per template
+   - Run: pytest tests/ -- all must pass (no behavior change until step 5)
+   - After switchover (step 5): run full pipeline smoke test with a test PDF
+   - Compare generated content output with previous runs
+   - Once validated: remove hardcoded dicts from template_fields.py
+
+### Design Notes -- Dynamic/Conditional Fields
+
+Many fields are NOT fixed -- they have variable counts depending on the source PDF:
+
+| Pattern | Templates | Example |
+|---------|-----------|---------|
+| Payment Plan Types | MPP, Aggregators, ADOP | Type 1 always present; Type 2+ conditional |
+| FAQ Q&A Pairs | All | Variable number of question/answer pairs |
+| Amenity Items | Aggregators, MPP, OPR | Variable number of amenities |
+| Floor Plan Entries | Aggregators, MPP | Variable number of floor plan types |
+| Nearby Landmarks | MPP | Nearby 1-5 with Name + Distance pairs |
+| Property Types | OPR | Variable number of property type entries |
+
+These use group_key + group_index in the database. group_key identifies the repeatable group, group_index is the instance number. group_min_count/group_max_count define the expected range.
+
+### Important Constraints
+
+- The hardcoded dicts are WRONG (22-58% match). Seed from STANDARDIZED SHEETS, not code.
+- Do NOT break the existing pipeline -- keep sync fallback until DB lookup is validated.
+- template_type is String(50), not Enum -- enables future admin-created template types.
+- Do NOT modify or delete any Google Sheet content -- this is code/DB-only changes.
+- The existing TemplateType Python enum stays for API validation; it is NOT used as the DB column type on this new table.

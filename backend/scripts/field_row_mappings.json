@@ -1,0 +1,3857 @@
+{
+  "aggregators": {
+    "meta_title": {
+      "row": 4,
+      "section": "SEO",
+      "char_limit": 60,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "meta_description": {
+      "row": 5,
+      "section": "SEO",
+      "char_limit": 165,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "url_slug": {
+      "row": 6,
+      "section": "SEO",
+      "char_limit": null,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "image_alt": {
+      "row": 7,
+      "section": "SEO",
+      "char_limit": 125,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "hero_h1": {
+      "row": 10,
+      "section": "Hero",
+      "char_limit": 70,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "hero_subtitle": {
+      "row": 11,
+      "section": "Hero",
+      "char_limit": 150,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "starting_price": {
+      "row": 30,
+      "section": "Hero",
+      "char_limit": null,
+      "required": true,
+      "field_type": "EXTRACTED"
+    },
+    "payment_plan_ratio": {
+      "row": 32,
+      "section": "Hero",
+      "char_limit": null,
+      "required": true,
+      "field_type": "EXTRACTED"
+    },
+    "handover": {
+      "row": 31,
+      "section": "Hero",
+      "char_limit": null,
+      "required": true,
+      "field_type": "EXTRACTED"
+    },
+    "about_h2": {
+      "row": 17,
+      "section": "About",
+      "char_limit": 80,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "about_paragraph": {
+      "row": 18,
+      "section": "About",
+      "char_limit": 650,
+      "required": true,
+      "field_type": "HYBRID"
+    },
+    "selling_point_1": {
+      "row": 19,
+      "section": "About",
+      "char_limit": 100,
+      "required": true,
+      "field_type": "HYBRID"
+    },
+    "selling_point_2": {
+      "row": 20,
+      "section": "About",
+      "char_limit": 100,
+      "required": true,
+      "field_type": "HYBRID"
+    },
+    "selling_point_3": {
+      "row": 21,
+      "section": "About",
+      "char_limit": 100,
+      "required": true,
+      "field_type": "HYBRID"
+    },
+    "selling_point_4": {
+      "row": 22,
+      "section": "About",
+      "char_limit": 100,
+      "required": false,
+      "field_type": "HYBRID"
+    },
+    "selling_point_5": {
+      "row": 23,
+      "section": "About",
+      "char_limit": 100,
+      "required": false,
+      "field_type": "HYBRID"
+    },
+    "project_details_developer": {
+      "row": 26,
+      "section": "Project Details",
+      "char_limit": null,
+      "required": true,
+      "field_type": "EXTRACTED"
+    },
+    "project_details_location": {
+      "row": 27,
+      "section": "Project Details",
+      "char_limit": null,
+      "required": true,
+      "field_type": "EXTRACTED"
+    },
+    "project_details_property_type": {
+      "row": 28,
+      "section": "Project Details",
+      "char_limit": null,
+      "required": true,
+      "field_type": "EXTRACTED"
+    },
+    "project_details_bedrooms": {
+      "row": 29,
+      "section": "Project Details",
+      "char_limit": null,
+      "required": false,
+      "field_type": "EXTRACTED"
+    },
+    "amenities_h2": {
+      "row": 35,
+      "section": "Amenities",
+      "char_limit": null,
+      "required": true,
+      "field_type": "STATIC"
+    },
+    "amenity_1_title": {
+      "row": 36,
+      "section": "Amenities",
+      "char_limit": 40,
+      "required": true,
+      "field_type": "HYBRID"
+    },
+    "amenity_1_description": {
+      "row": 37,
+      "section": "Amenities",
+      "char_limit": 100,
+      "required": true,
+      "field_type": "HYBRID"
+    },
+    "amenity_2_title": {
+      "row": 38,
+      "section": "Amenities",
+      "char_limit": 40,
+      "required": true,
+      "field_type": "HYBRID"
+    },
+    "amenity_2_description": {
+      "row": 39,
+      "section": "Amenities",
+      "char_limit": 100,
+      "required": true,
+      "field_type": "HYBRID"
+    },
+    "amenity_3_title": {
+      "row": 40,
+      "section": "Amenities",
+      "char_limit": 40,
+      "required": true,
+      "field_type": "HYBRID"
+    },
+    "amenity_3_description": {
+      "row": 41,
+      "section": "Amenities",
+      "char_limit": 100,
+      "required": true,
+      "field_type": "HYBRID"
+    },
+    "amenity_4_title": {
+      "row": 42,
+      "section": "Amenities",
+      "char_limit": 40,
+      "required": true,
+      "field_type": "HYBRID"
+    },
+    "amenity_4_description": {
+      "row": 43,
+      "section": "Amenities",
+      "char_limit": 100,
+      "required": true,
+      "field_type": "HYBRID"
+    },
+    "amenity_5_title": {
+      "row": 44,
+      "section": "Amenities",
+      "char_limit": 40,
+      "required": false,
+      "field_type": "HYBRID"
+    },
+    "amenity_5_description": {
+      "row": 45,
+      "section": "Amenities",
+      "char_limit": 100,
+      "required": false,
+      "field_type": "HYBRID"
+    },
+    "payment_plan_h2": {
+      "row": 48,
+      "section": "Payment Plan",
+      "char_limit": 60,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "payment_plan_description": {
+      "row": 49,
+      "section": "Payment Plan",
+      "char_limit": 200,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "milestone_1_name": {
+      "row": 50,
+      "section": "Payment Plan",
+      "char_limit": null,
+      "required": false,
+      "field_type": "EXTRACTED"
+    },
+    "milestone_1_percentage": {
+      "row": 51,
+      "section": "Payment Plan",
+      "char_limit": null,
+      "required": false,
+      "field_type": "EXTRACTED"
+    },
+    "milestone_1_date": {
+      "row": 52,
+      "section": "Payment Plan",
+      "char_limit": null,
+      "required": false,
+      "field_type": "EXTRACTED"
+    },
+    "milestone_2_name": {
+      "row": 53,
+      "section": "Payment Plan",
+      "char_limit": null,
+      "required": false,
+      "field_type": "EXTRACTED"
+    },
+    "milestone_2_percentage": {
+      "row": 54,
+      "section": "Payment Plan",
+      "char_limit": null,
+      "required": false,
+      "field_type": "EXTRACTED"
+    },
+    "milestone_2_schedule": {
+      "row": 55,
+      "section": "Payment Plan",
+      "char_limit": null,
+      "required": false,
+      "field_type": "EXTRACTED"
+    },
+    "milestone_3_name": {
+      "row": 56,
+      "section": "Payment Plan",
+      "char_limit": null,
+      "required": false,
+      "field_type": "EXTRACTED"
+    },
+    "milestone_3_percentage": {
+      "row": 57,
+      "section": "Payment Plan",
+      "char_limit": null,
+      "required": false,
+      "field_type": "EXTRACTED"
+    },
+    "milestone_3_date": {
+      "row": 58,
+      "section": "Payment Plan",
+      "char_limit": null,
+      "required": false,
+      "field_type": "EXTRACTED"
+    },
+    "location_h2": {
+      "row": 61,
+      "section": "Location",
+      "char_limit": 70,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "location_overview_paragraph": {
+      "row": 62,
+      "section": "Location",
+      "char_limit": 700,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "nearby_1_name": {
+      "row": 63,
+      "section": "Location",
+      "char_limit": null,
+      "required": false,
+      "field_type": "EXTRACTED"
+    },
+    "nearby_1_distance": {
+      "row": 64,
+      "section": "Location",
+      "char_limit": null,
+      "required": false,
+      "field_type": "EXTRACTED"
+    },
+    "nearby_2_name": {
+      "row": 65,
+      "section": "Location",
+      "char_limit": null,
+      "required": false,
+      "field_type": "EXTRACTED"
+    },
+    "nearby_2_distance": {
+      "row": 66,
+      "section": "Location",
+      "char_limit": null,
+      "required": false,
+      "field_type": "EXTRACTED"
+    },
+    "nearby_3_name": {
+      "row": 67,
+      "section": "Location",
+      "char_limit": null,
+      "required": false,
+      "field_type": "EXTRACTED"
+    },
+    "nearby_3_distance": {
+      "row": 68,
+      "section": "Location",
+      "char_limit": null,
+      "required": false,
+      "field_type": "EXTRACTED"
+    },
+    "nearby_4_name": {
+      "row": 69,
+      "section": "Location",
+      "char_limit": null,
+      "required": false,
+      "field_type": "EXTRACTED"
+    },
+    "nearby_4_distance": {
+      "row": 70,
+      "section": "Location",
+      "char_limit": null,
+      "required": false,
+      "field_type": "EXTRACTED"
+    },
+    "developer_h2": {
+      "row": 73,
+      "section": "Developer",
+      "char_limit": null,
+      "required": true,
+      "field_type": "STATIC"
+    },
+    "developer_description": {
+      "row": 74,
+      "section": "Developer",
+      "char_limit": 400,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "floor_plans_h2": {
+      "row": 77,
+      "section": "Floor Plans",
+      "char_limit": null,
+      "required": true,
+      "field_type": "STATIC"
+    },
+    "unit_type_1_name": {
+      "row": 78,
+      "section": "Floor Plans",
+      "char_limit": null,
+      "required": false,
+      "field_type": "EXTRACTED"
+    },
+    "unit_type_1_area": {
+      "row": 79,
+      "section": "Floor Plans",
+      "char_limit": null,
+      "required": false,
+      "field_type": "EXTRACTED"
+    },
+    "unit_type_1_price": {
+      "row": 80,
+      "section": "Floor Plans",
+      "char_limit": null,
+      "required": false,
+      "field_type": "EXTRACTED"
+    },
+    "unit_type_2_name": {
+      "row": 81,
+      "section": "Floor Plans",
+      "char_limit": null,
+      "required": false,
+      "field_type": "EXTRACTED"
+    },
+    "unit_type_2_area": {
+      "row": 82,
+      "section": "Floor Plans",
+      "char_limit": null,
+      "required": false,
+      "field_type": "EXTRACTED"
+    },
+    "unit_type_2_price": {
+      "row": 83,
+      "section": "Floor Plans",
+      "char_limit": null,
+      "required": false,
+      "field_type": "EXTRACTED"
+    },
+    "unit_type_3_name": {
+      "row": 84,
+      "section": "Floor Plans",
+      "char_limit": null,
+      "required": false,
+      "field_type": "EXTRACTED"
+    },
+    "unit_type_3_area": {
+      "row": 85,
+      "section": "Floor Plans",
+      "char_limit": null,
+      "required": false,
+      "field_type": "EXTRACTED"
+    },
+    "unit_type_3_price": {
+      "row": 86,
+      "section": "Floor Plans",
+      "char_limit": null,
+      "required": false,
+      "field_type": "EXTRACTED"
+    },
+    "unit_type_4_name": {
+      "row": 87,
+      "section": "Floor Plans",
+      "char_limit": null,
+      "required": false,
+      "field_type": "EXTRACTED"
+    },
+    "unit_type_4_area": {
+      "row": 88,
+      "section": "Floor Plans",
+      "char_limit": null,
+      "required": false,
+      "field_type": "EXTRACTED"
+    },
+    "unit_type_4_price": {
+      "row": 89,
+      "section": "Floor Plans",
+      "char_limit": null,
+      "required": false,
+      "field_type": "EXTRACTED"
+    },
+    "faq_1_question": {
+      "row": 93,
+      "section": "FAQ",
+      "char_limit": 80,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "faq_1_answer": {
+      "row": 94,
+      "section": "FAQ",
+      "char_limit": 200,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "faq_2_question": {
+      "row": 95,
+      "section": "FAQ",
+      "char_limit": 80,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "faq_2_answer": {
+      "row": 96,
+      "section": "FAQ",
+      "char_limit": 200,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "faq_3_question": {
+      "row": 97,
+      "section": "FAQ",
+      "char_limit": 80,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "faq_3_answer": {
+      "row": 98,
+      "section": "FAQ",
+      "char_limit": 200,
+      "required": true,
+      "field_type": "HYBRID"
+    },
+    "faq_4_question": {
+      "row": 99,
+      "section": "FAQ",
+      "char_limit": 80,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "faq_4_answer": {
+      "row": 100,
+      "section": "FAQ",
+      "char_limit": 200,
+      "required": true,
+      "field_type": "HYBRID"
+    },
+    "faq_5_question": {
+      "row": 101,
+      "section": "FAQ",
+      "char_limit": 80,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "faq_5_answer": {
+      "row": 102,
+      "section": "FAQ",
+      "char_limit": 200,
+      "required": true,
+      "field_type": "HYBRID"
+    },
+    "hero_investment_stat_1": {
+      "row": 103,
+      "section": "Hero",
+      "char_limit": 80,
+      "required": true,
+      "field_type": "HYBRID"
+    },
+    "hero_investment_stat_2": {
+      "row": 104,
+      "section": "Hero",
+      "char_limit": 80,
+      "required": true,
+      "field_type": "HYBRID"
+    },
+    "hero_investment_stat_3": {
+      "row": 105,
+      "section": "Hero",
+      "char_limit": 80,
+      "required": true,
+      "field_type": "HYBRID"
+    },
+    "project_details_payment_plan": {
+      "row": 106,
+      "section": "Project Details",
+      "char_limit": null,
+      "required": true,
+      "field_type": "EXTRACTED"
+    },
+    "project_details_area": {
+      "row": 107,
+      "section": "Project Details",
+      "char_limit": null,
+      "required": true,
+      "field_type": "EXTRACTED"
+    },
+    "economic_appeal_h2": {
+      "row": 108,
+      "section": "Economic Appeal",
+      "char_limit": 60,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "economic_appeal_paragraph": {
+      "row": 109,
+      "section": "Economic Appeal",
+      "char_limit": 650,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "payment_plan_booking_pct": {
+      "row": 110,
+      "section": "Payment Plan",
+      "char_limit": null,
+      "required": true,
+      "field_type": "EXTRACTED"
+    },
+    "payment_plan_construction_pct": {
+      "row": 111,
+      "section": "Payment Plan",
+      "char_limit": null,
+      "required": true,
+      "field_type": "EXTRACTED"
+    },
+    "payment_plan_handover_pct": {
+      "row": 112,
+      "section": "Payment Plan",
+      "char_limit": null,
+      "required": true,
+      "field_type": "EXTRACTED"
+    },
+    "key_feature_1_title": {
+      "row": 113,
+      "section": "Key Features",
+      "char_limit": 50,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "key_feature_1_description": {
+      "row": 114,
+      "section": "Key Features",
+      "char_limit": 180,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "key_feature_2_title": {
+      "row": 115,
+      "section": "Key Features",
+      "char_limit": 50,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "key_feature_2_description": {
+      "row": 116,
+      "section": "Key Features",
+      "char_limit": 180,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "key_feature_3_title": {
+      "row": 117,
+      "section": "Key Features",
+      "char_limit": 50,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "key_feature_3_description": {
+      "row": 118,
+      "section": "Key Features",
+      "char_limit": 180,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "amenity_6_title": {
+      "row": 119,
+      "section": "Amenities",
+      "char_limit": 40,
+      "required": false,
+      "field_type": "HYBRID"
+    },
+    "amenity_6_description": {
+      "row": 120,
+      "section": "Amenities",
+      "char_limit": 100,
+      "required": false,
+      "field_type": "HYBRID"
+    },
+    "social_facilities_intro": {
+      "row": 121,
+      "section": "Location",
+      "char_limit": 250,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "social_facility_1": {
+      "row": 122,
+      "section": "Location",
+      "char_limit": 80,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "social_facility_2": {
+      "row": 123,
+      "section": "Location",
+      "char_limit": 80,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "social_facility_3": {
+      "row": 124,
+      "section": "Location",
+      "char_limit": 80,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "education_medicine_intro": {
+      "row": 125,
+      "section": "Location",
+      "char_limit": 250,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "education_facility_1": {
+      "row": 126,
+      "section": "Location",
+      "char_limit": 80,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "education_facility_2": {
+      "row": 127,
+      "section": "Location",
+      "char_limit": 80,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "education_facility_3": {
+      "row": 128,
+      "section": "Location",
+      "char_limit": 80,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "culture_intro": {
+      "row": 129,
+      "section": "Location",
+      "char_limit": 250,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "culture_facility_1": {
+      "row": 130,
+      "section": "Location",
+      "char_limit": 80,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "culture_facility_2": {
+      "row": 131,
+      "section": "Location",
+      "char_limit": 80,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "culture_facility_3": {
+      "row": 132,
+      "section": "Location",
+      "char_limit": 80,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "faq_6_question": {
+      "row": 133,
+      "section": "FAQ",
+      "char_limit": 80,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "faq_6_answer": {
+      "row": 134,
+      "section": "FAQ",
+      "char_limit": 200,
+      "required": true,
+      "field_type": "HYBRID"
+    },
+    "faq_7_question": {
+      "row": 135,
+      "section": "FAQ",
+      "char_limit": 80,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "faq_7_answer": {
+      "row": 136,
+      "section": "FAQ",
+      "char_limit": 200,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "faq_8_question": {
+      "row": 137,
+      "section": "FAQ",
+      "char_limit": 80,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "faq_8_answer": {
+      "row": 138,
+      "section": "FAQ",
+      "char_limit": 200,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "faq_9_question": {
+      "row": 139,
+      "section": "FAQ",
+      "char_limit": 80,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "faq_9_answer": {
+      "row": 140,
+      "section": "FAQ",
+      "char_limit": 200,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "faq_10_question": {
+      "row": 141,
+      "section": "FAQ",
+      "char_limit": 80,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "faq_10_answer": {
+      "row": 142,
+      "section": "FAQ",
+      "char_limit": 200,
+      "required": true,
+      "field_type": "GENERATED"
+    }
+  },
+  "opr": {
+    "meta_title": {
+      "row": 4,
+      "section": "SEO",
+      "char_limit": 60,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "meta_description": {
+      "row": 5,
+      "section": "SEO",
+      "char_limit": 156,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "url_slug": {
+      "row": 6,
+      "section": "SEO",
+      "char_limit": null,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "image_alt": {
+      "row": 7,
+      "section": "SEO",
+      "char_limit": 125,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "h1": {
+      "row": 10,
+      "section": "Hero",
+      "char_limit": 70,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "hero_subheading": {
+      "row": 11,
+      "section": "Hero",
+      "char_limit": 150,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "starting_price": {
+      "row": 12,
+      "section": "Hero",
+      "char_limit": null,
+      "required": true,
+      "field_type": "EXTRACTED"
+    },
+    "payment_plan_display": {
+      "row": 13,
+      "section": "Hero",
+      "char_limit": null,
+      "required": true,
+      "field_type": "EXTRACTED"
+    },
+    "handover": {
+      "row": 14,
+      "section": "Hero",
+      "char_limit": null,
+      "required": true,
+      "field_type": "EXTRACTED"
+    },
+    "roi_potential": {
+      "row": 15,
+      "section": "Hero",
+      "char_limit": null,
+      "required": false,
+      "field_type": "EXTRACTED"
+    },
+    "overview_h2": {
+      "row": 18,
+      "section": "Overview",
+      "char_limit": 50,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "overview_description": {
+      "row": 19,
+      "section": "Overview",
+      "char_limit": 500,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "location_access_h3": {
+      "row": 23,
+      "section": "Location Access",
+      "char_limit": null,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "card_starting_price": {
+      "row": 28,
+      "section": "Project Details Card",
+      "char_limit": null,
+      "required": true,
+      "field_type": "EXTRACTED"
+    },
+    "card_handover": {
+      "row": 29,
+      "section": "Project Details Card",
+      "char_limit": null,
+      "required": true,
+      "field_type": "EXTRACTED"
+    },
+    "card_payment_plan": {
+      "row": 30,
+      "section": "Project Details Card",
+      "char_limit": null,
+      "required": true,
+      "field_type": "EXTRACTED"
+    },
+    "card_area": {
+      "row": 31,
+      "section": "Project Details Card",
+      "char_limit": null,
+      "required": true,
+      "field_type": "EXTRACTED"
+    },
+    "card_property_type": {
+      "row": 32,
+      "section": "Project Details Card",
+      "char_limit": null,
+      "required": true,
+      "field_type": "EXTRACTED"
+    },
+    "card_bedrooms": {
+      "row": 33,
+      "section": "Project Details Card",
+      "char_limit": null,
+      "required": true,
+      "field_type": "EXTRACTED"
+    },
+    "card_developer": {
+      "row": 34,
+      "section": "Project Details Card",
+      "char_limit": null,
+      "required": true,
+      "field_type": "EXTRACTED"
+    },
+    "card_location": {
+      "row": 35,
+      "section": "Project Details Card",
+      "char_limit": null,
+      "required": true,
+      "field_type": "EXTRACTED"
+    },
+    "amenities_h3": {
+      "row": 38,
+      "section": "Amenities",
+      "char_limit": null,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "amenities_intro": {
+      "row": 39,
+      "section": "Amenities",
+      "char_limit": 200,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "property_types_h3": {
+      "row": 43,
+      "section": "Floor Plans",
+      "char_limit": 200,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "property_types_table": {
+      "row": 44,
+      "section": "Floor Plans",
+      "char_limit": null,
+      "required": true,
+      "field_type": "EXTRACTED"
+    },
+    "payment_plan_h3": {
+      "row": 47,
+      "section": "Payment Plan",
+      "char_limit": null,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "payment_plan_description": {
+      "row": 48,
+      "section": "Payment Plan",
+      "char_limit": 200,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "payment_milestones": {
+      "row": 52,
+      "section": "Payment Plan",
+      "char_limit": null,
+      "required": true,
+      "field_type": "EXTRACTED"
+    },
+    "investment_h2": {
+      "row": 56,
+      "section": "Investment",
+      "char_limit": null,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "investment_intro": {
+      "row": 57,
+      "section": "Investment",
+      "char_limit": 200,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "area_h2": {
+      "row": 61,
+      "section": "Area",
+      "char_limit": null,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "area_description": {
+      "row": 62,
+      "section": "Area",
+      "char_limit": 400,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "lifestyle_h3": {
+      "row": 63,
+      "section": "Area",
+      "char_limit": null,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "lifestyle_description": {
+      "row": 64,
+      "section": "Area",
+      "char_limit": 200,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "healthcare_h3": {
+      "row": 66,
+      "section": "Area",
+      "char_limit": null,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "healthcare_description": {
+      "row": 67,
+      "section": "Area",
+      "char_limit": 200,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "education_h3": {
+      "row": 69,
+      "section": "Area",
+      "char_limit": null,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "education_description": {
+      "row": 70,
+      "section": "Area",
+      "char_limit": 200,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "developer_h2": {
+      "row": 74,
+      "section": "Developer",
+      "char_limit": null,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "developer_description": {
+      "row": 75,
+      "section": "Developer",
+      "char_limit": 300,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "faq_h2": {
+      "row": 78,
+      "section": "FAQ",
+      "char_limit": null,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "faq_1_question": {
+      "row": 79,
+      "section": "FAQ",
+      "char_limit": 100,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "faq_1_answer": {
+      "row": 80,
+      "section": "FAQ",
+      "char_limit": 200,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "faq_2_question": {
+      "row": 81,
+      "section": "FAQ",
+      "char_limit": 100,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "faq_2_answer": {
+      "row": 82,
+      "section": "FAQ",
+      "char_limit": 200,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "faq_3_question": {
+      "row": 83,
+      "section": "FAQ",
+      "char_limit": 100,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "faq_3_answer": {
+      "row": 84,
+      "section": "FAQ",
+      "char_limit": 200,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "faq_4_question": {
+      "row": 85,
+      "section": "FAQ",
+      "char_limit": 100,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "faq_4_answer": {
+      "row": 86,
+      "section": "FAQ",
+      "char_limit": 200,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "faq_5_question": {
+      "row": 87,
+      "section": "FAQ",
+      "char_limit": 100,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "faq_5_answer": {
+      "row": 88,
+      "section": "FAQ",
+      "char_limit": 200,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "faq_6_question": {
+      "row": 89,
+      "section": "FAQ",
+      "char_limit": 100,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "faq_6_answer": {
+      "row": 90,
+      "section": "FAQ",
+      "char_limit": 200,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "faq_7_question": {
+      "row": 91,
+      "section": "FAQ",
+      "char_limit": 100,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "faq_7_answer": {
+      "row": 92,
+      "section": "FAQ",
+      "char_limit": 200,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "faq_8_question": {
+      "row": 93,
+      "section": "FAQ",
+      "char_limit": 100,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "faq_8_answer": {
+      "row": 94,
+      "section": "FAQ",
+      "char_limit": 200,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "faq_9_question": {
+      "row": 95,
+      "section": "FAQ",
+      "char_limit": 100,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "faq_9_answer": {
+      "row": 96,
+      "section": "FAQ",
+      "char_limit": 200,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "faq_10_question": {
+      "row": 97,
+      "section": "FAQ",
+      "char_limit": 100,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "faq_10_answer": {
+      "row": 98,
+      "section": "FAQ",
+      "char_limit": 200,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "faq_11_question": {
+      "row": 99,
+      "section": "FAQ",
+      "char_limit": 100,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "faq_11_answer": {
+      "row": 100,
+      "section": "FAQ",
+      "char_limit": 200,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "faq_12_question": {
+      "row": 101,
+      "section": "FAQ",
+      "char_limit": 100,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "faq_12_answer": {
+      "row": 102,
+      "section": "FAQ",
+      "char_limit": 200,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "faq_13_question": {
+      "row": 103,
+      "section": "FAQ",
+      "char_limit": 100,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "faq_13_answer": {
+      "row": 104,
+      "section": "FAQ",
+      "char_limit": 200,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "faq_14_question": {
+      "row": 105,
+      "section": "FAQ",
+      "char_limit": 100,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "faq_14_answer": {
+      "row": 106,
+      "section": "FAQ",
+      "char_limit": 200,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "overview_bullet_1": {
+      "row": 20,
+      "section": "Overview",
+      "char_limit": null,
+      "required": true,
+      "field_type": "EXTRACTED"
+    },
+    "overview_bullet_2": {
+      "row": 20,
+      "section": "Overview",
+      "char_limit": null,
+      "required": true,
+      "field_type": "EXTRACTED"
+    },
+    "overview_bullet_3": {
+      "row": 20,
+      "section": "Overview",
+      "char_limit": null,
+      "required": true,
+      "field_type": "EXTRACTED"
+    },
+    "overview_bullet_4": {
+      "row": 20,
+      "section": "Overview",
+      "char_limit": null,
+      "required": true,
+      "field_type": "EXTRACTED"
+    },
+    "overview_bullet_5": {
+      "row": 20,
+      "section": "Overview",
+      "char_limit": null,
+      "required": false,
+      "field_type": "EXTRACTED"
+    },
+    "overview_bullet_6": {
+      "row": 20,
+      "section": "Overview",
+      "char_limit": null,
+      "required": false,
+      "field_type": "EXTRACTED"
+    },
+    "amenity_bullet_1": {
+      "row": 40,
+      "section": "Amenities",
+      "char_limit": 30,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "amenity_bullet_2": {
+      "row": 40,
+      "section": "Amenities",
+      "char_limit": 30,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "amenity_bullet_3": {
+      "row": 40,
+      "section": "Amenities",
+      "char_limit": 30,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "amenity_bullet_4": {
+      "row": 40,
+      "section": "Amenities",
+      "char_limit": 30,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "amenity_bullet_5": {
+      "row": 40,
+      "section": "Amenities",
+      "char_limit": 30,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "amenity_bullet_6": {
+      "row": 40,
+      "section": "Amenities",
+      "char_limit": 30,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "amenity_bullet_7": {
+      "row": 40,
+      "section": "Amenities",
+      "char_limit": 30,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "amenity_bullet_8": {
+      "row": 40,
+      "section": "Amenities",
+      "char_limit": 30,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "amenity_bullet_9": {
+      "row": 40,
+      "section": "Amenities",
+      "char_limit": 30,
+      "required": false,
+      "field_type": "GENERATED"
+    },
+    "amenity_bullet_10": {
+      "row": 40,
+      "section": "Amenities",
+      "char_limit": 30,
+      "required": false,
+      "field_type": "GENERATED"
+    },
+    "amenity_bullet_11": {
+      "row": 40,
+      "section": "Amenities",
+      "char_limit": 30,
+      "required": false,
+      "field_type": "GENERATED"
+    },
+    "amenity_bullet_12": {
+      "row": 40,
+      "section": "Amenities",
+      "char_limit": 30,
+      "required": false,
+      "field_type": "GENERATED"
+    },
+    "amenity_bullet_13": {
+      "row": 40,
+      "section": "Amenities",
+      "char_limit": 30,
+      "required": false,
+      "field_type": "GENERATED"
+    },
+    "amenity_bullet_14": {
+      "row": 40,
+      "section": "Amenities",
+      "char_limit": 30,
+      "required": false,
+      "field_type": "GENERATED"
+    },
+    "investment_bullet_1": {
+      "row": 58,
+      "section": "Investment",
+      "char_limit": 100,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "investment_bullet_2": {
+      "row": 58,
+      "section": "Investment",
+      "char_limit": 100,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "investment_bullet_3": {
+      "row": 58,
+      "section": "Investment",
+      "char_limit": 100,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "investment_bullet_4": {
+      "row": 58,
+      "section": "Investment",
+      "char_limit": 100,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "investment_bullet_5": {
+      "row": 58,
+      "section": "Investment",
+      "char_limit": 100,
+      "required": false,
+      "field_type": "GENERATED"
+    },
+    "investment_bullet_6": {
+      "row": 58,
+      "section": "Investment",
+      "char_limit": 100,
+      "required": false,
+      "field_type": "GENERATED"
+    },
+    "lifestyle_bullet_1": {
+      "row": 65,
+      "section": "Area",
+      "char_limit": 60,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "lifestyle_bullet_2": {
+      "row": 65,
+      "section": "Area",
+      "char_limit": 60,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "lifestyle_bullet_3": {
+      "row": 65,
+      "section": "Area",
+      "char_limit": 60,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "lifestyle_bullet_4": {
+      "row": 65,
+      "section": "Area",
+      "char_limit": 60,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "healthcare_bullet_1": {
+      "row": 68,
+      "section": "Area",
+      "char_limit": 60,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "healthcare_bullet_2": {
+      "row": 68,
+      "section": "Area",
+      "char_limit": 60,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "healthcare_bullet_3": {
+      "row": 68,
+      "section": "Area",
+      "char_limit": 60,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "education_bullet_1": {
+      "row": 71,
+      "section": "Area",
+      "char_limit": 60,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "education_bullet_2": {
+      "row": 71,
+      "section": "Area",
+      "char_limit": 60,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "education_bullet_3": {
+      "row": 71,
+      "section": "Area",
+      "char_limit": 60,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "location_access_1": {
+      "row": 24,
+      "section": "Location Access",
+      "char_limit": 60,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "location_access_2": {
+      "row": 24,
+      "section": "Location Access",
+      "char_limit": 60,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "location_access_3": {
+      "row": 24,
+      "section": "Location Access",
+      "char_limit": 60,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "location_access_4": {
+      "row": 24,
+      "section": "Location Access",
+      "char_limit": 60,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "location_access_5": {
+      "row": 24,
+      "section": "Location Access",
+      "char_limit": 60,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "location_access_6": {
+      "row": 24,
+      "section": "Location Access",
+      "char_limit": 60,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "location_access_7": {
+      "row": 24,
+      "section": "Location Access",
+      "char_limit": 60,
+      "required": false,
+      "field_type": "GENERATED"
+    },
+    "location_access_8": {
+      "row": 24,
+      "section": "Location Access",
+      "char_limit": 60,
+      "required": false,
+      "field_type": "GENERATED"
+    }
+  },
+  "mpp": {
+    "meta_title": {
+      "row": 2,
+      "section": "SEO",
+      "char_limit": 70,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "meta_description": {
+      "row": 3,
+      "section": "SEO",
+      "char_limit": 165,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "url_slug": {
+      "row": 4,
+      "section": "SEO",
+      "char_limit": null,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "image_alt_tag": {
+      "row": 5,
+      "section": "SEO",
+      "char_limit": 125,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "hero_h1": {
+      "row": 8,
+      "section": "Hero",
+      "char_limit": 70,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "hero_description": {
+      "row": 9,
+      "section": "Hero",
+      "char_limit": 450,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "starting_price": {
+      "row": 22,
+      "section": "Hero",
+      "char_limit": null,
+      "required": true,
+      "field_type": "EXTRACTED"
+    },
+    "handover": {
+      "row": 21,
+      "section": "Hero",
+      "char_limit": null,
+      "required": true,
+      "field_type": "EXTRACTED"
+    },
+    "down_payment_percentage": {
+      "row": 12,
+      "section": "Hero",
+      "char_limit": null,
+      "required": false,
+      "field_type": "EXTRACTED"
+    },
+    "overview_h2": {
+      "row": 15,
+      "section": "Overview",
+      "char_limit": null,
+      "required": true,
+      "field_type": "STATIC"
+    },
+    "overview_description": {
+      "row": 16,
+      "section": "Overview",
+      "char_limit": 800,
+      "required": true,
+      "field_type": "HYBRID"
+    },
+    "project_location": {
+      "row": 19,
+      "section": "Project Details",
+      "char_limit": null,
+      "required": true,
+      "field_type": "EXTRACTED"
+    },
+    "project_developer": {
+      "row": 20,
+      "section": "Project Details",
+      "char_limit": null,
+      "required": true,
+      "field_type": "EXTRACTED"
+    },
+    "project_property_type": {
+      "row": 23,
+      "section": "Project Details",
+      "char_limit": null,
+      "required": true,
+      "field_type": "EXTRACTED"
+    },
+    "project_bedrooms": {
+      "row": 24,
+      "section": "Project Details",
+      "char_limit": null,
+      "required": true,
+      "field_type": "EXTRACTED"
+    },
+    "floor_plan_1_bedrooms": {
+      "row": 27,
+      "section": "Floor Plans",
+      "char_limit": null,
+      "required": false,
+      "field_type": "EXTRACTED"
+    },
+    "floor_plan_1_starting_price": {
+      "row": 28,
+      "section": "Floor Plans",
+      "char_limit": null,
+      "required": false,
+      "field_type": "EXTRACTED"
+    },
+    "floor_plan_1_living_area": {
+      "row": 29,
+      "section": "Floor Plans",
+      "char_limit": null,
+      "required": false,
+      "field_type": "EXTRACTED"
+    },
+    "floor_plan_2_bedrooms": {
+      "row": 31,
+      "section": "Floor Plans",
+      "char_limit": null,
+      "required": false,
+      "field_type": "EXTRACTED"
+    },
+    "floor_plan_2_starting_price": {
+      "row": 32,
+      "section": "Floor Plans",
+      "char_limit": null,
+      "required": false,
+      "field_type": "EXTRACTED"
+    },
+    "floor_plan_2_living_area": {
+      "row": 33,
+      "section": "Floor Plans",
+      "char_limit": null,
+      "required": false,
+      "field_type": "EXTRACTED"
+    },
+    "floor_plan_3_bedrooms": {
+      "row": 35,
+      "section": "Floor Plans",
+      "char_limit": null,
+      "required": false,
+      "field_type": "EXTRACTED"
+    },
+    "floor_plan_3_starting_price": {
+      "row": 36,
+      "section": "Floor Plans",
+      "char_limit": null,
+      "required": false,
+      "field_type": "EXTRACTED"
+    },
+    "floor_plan_3_living_area": {
+      "row": 37,
+      "section": "Floor Plans",
+      "char_limit": null,
+      "required": false,
+      "field_type": "EXTRACTED"
+    },
+    "floor_plan_4_bedrooms": {
+      "row": 39,
+      "section": "Floor Plans",
+      "char_limit": null,
+      "required": false,
+      "field_type": "EXTRACTED"
+    },
+    "floor_plan_4_starting_price": {
+      "row": 40,
+      "section": "Floor Plans",
+      "char_limit": null,
+      "required": false,
+      "field_type": "EXTRACTED"
+    },
+    "floor_plan_4_living_area": {
+      "row": 41,
+      "section": "Floor Plans",
+      "char_limit": null,
+      "required": false,
+      "field_type": "EXTRACTED"
+    },
+    "payment_plan_type_1": {
+      "row": 44,
+      "section": "Payment Plan",
+      "char_limit": null,
+      "required": false,
+      "field_type": "EXTRACTED"
+    },
+    "payment_plan_type_2": {
+      "row": 45,
+      "section": "Payment Plan",
+      "char_limit": null,
+      "required": false,
+      "field_type": "EXTRACTED"
+    },
+    "on_booking_date": {
+      "row": 47,
+      "section": "Payment Plan",
+      "char_limit": null,
+      "required": false,
+      "field_type": "EXTRACTED"
+    },
+    "on_booking_percentage": {
+      "row": 48,
+      "section": "Payment Plan",
+      "char_limit": null,
+      "required": false,
+      "field_type": "EXTRACTED"
+    },
+    "on_construction_period": {
+      "row": 50,
+      "section": "Payment Plan",
+      "char_limit": null,
+      "required": false,
+      "field_type": "EXTRACTED"
+    },
+    "on_construction_percentage": {
+      "row": 51,
+      "section": "Payment Plan",
+      "char_limit": null,
+      "required": false,
+      "field_type": "EXTRACTED"
+    },
+    "on_construction_number_of_payments": {
+      "row": 52,
+      "section": "Payment Plan",
+      "char_limit": null,
+      "required": false,
+      "field_type": "EXTRACTED"
+    },
+    "on_handover_date": {
+      "row": 54,
+      "section": "Payment Plan",
+      "char_limit": null,
+      "required": false,
+      "field_type": "EXTRACTED"
+    },
+    "on_handover_percentage": {
+      "row": 55,
+      "section": "Payment Plan",
+      "char_limit": null,
+      "required": false,
+      "field_type": "EXTRACTED"
+    },
+    "key_point_1_title": {
+      "row": 58,
+      "section": "Key Points",
+      "char_limit": 60,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "key_point_1_description": {
+      "row": 59,
+      "section": "Key Points",
+      "char_limit": 350,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "key_point_1_image": {
+      "row": 60,
+      "section": "Key Points",
+      "char_limit": null,
+      "required": false,
+      "field_type": "EXTRACTED"
+    },
+    "key_point_2_title": {
+      "row": 62,
+      "section": "Key Points",
+      "char_limit": 60,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "key_point_2_description": {
+      "row": 63,
+      "section": "Key Points",
+      "char_limit": 350,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "key_point_2_image": {
+      "row": 64,
+      "section": "Key Points",
+      "char_limit": null,
+      "required": false,
+      "field_type": "EXTRACTED"
+    },
+    "amenity_1": {
+      "row": 67,
+      "section": "Amenities",
+      "char_limit": null,
+      "required": false,
+      "field_type": "EXTRACTED"
+    },
+    "amenity_2": {
+      "row": 68,
+      "section": "Amenities",
+      "char_limit": null,
+      "required": false,
+      "field_type": "EXTRACTED"
+    },
+    "amenity_3": {
+      "row": 69,
+      "section": "Amenities",
+      "char_limit": null,
+      "required": false,
+      "field_type": "EXTRACTED"
+    },
+    "amenity_4": {
+      "row": 70,
+      "section": "Amenities",
+      "char_limit": null,
+      "required": false,
+      "field_type": "EXTRACTED"
+    },
+    "amenity_5": {
+      "row": 71,
+      "section": "Amenities",
+      "char_limit": null,
+      "required": false,
+      "field_type": "EXTRACTED"
+    },
+    "amenity_6": {
+      "row": 72,
+      "section": "Amenities",
+      "char_limit": null,
+      "required": false,
+      "field_type": "EXTRACTED"
+    },
+    "amenity_7": {
+      "row": 73,
+      "section": "Amenities",
+      "char_limit": null,
+      "required": false,
+      "field_type": "EXTRACTED"
+    },
+    "amenity_8": {
+      "row": 74,
+      "section": "Amenities",
+      "char_limit": null,
+      "required": false,
+      "field_type": "EXTRACTED"
+    },
+    "location_name": {
+      "row": 77,
+      "section": "Location",
+      "char_limit": null,
+      "required": false,
+      "field_type": "EXTRACTED"
+    },
+    "location_description": {
+      "row": 78,
+      "section": "Location",
+      "char_limit": 600,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "developer_h2": {
+      "row": 81,
+      "section": "Developer",
+      "char_limit": null,
+      "required": true,
+      "field_type": "STATIC"
+    },
+    "developer_badge": {
+      "row": 83,
+      "section": "Developer",
+      "char_limit": null,
+      "required": false,
+      "field_type": "EXTRACTED"
+    },
+    "developer_logo": {
+      "row": 84,
+      "section": "Developer",
+      "char_limit": null,
+      "required": false,
+      "field_type": "EXTRACTED"
+    },
+    "developer_name": {
+      "row": 85,
+      "section": "Developer",
+      "char_limit": null,
+      "required": true,
+      "field_type": "EXTRACTED"
+    },
+    "developer_description": {
+      "row": 86,
+      "section": "Developer",
+      "char_limit": 550,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "developer_stat_1_value": {
+      "row": 88,
+      "section": "Developer",
+      "char_limit": null,
+      "required": false,
+      "field_type": "EXTRACTED"
+    },
+    "developer_stat_1_label": {
+      "row": 89,
+      "section": "Developer",
+      "char_limit": null,
+      "required": false,
+      "field_type": "EXTRACTED"
+    },
+    "developer_stat_2_value": {
+      "row": 90,
+      "section": "Developer",
+      "char_limit": null,
+      "required": false,
+      "field_type": "EXTRACTED"
+    },
+    "developer_stat_2_label": {
+      "row": 91,
+      "section": "Developer",
+      "char_limit": null,
+      "required": false,
+      "field_type": "EXTRACTED"
+    },
+    "developer_stat_3_value": {
+      "row": 92,
+      "section": "Developer",
+      "char_limit": null,
+      "required": false,
+      "field_type": "EXTRACTED"
+    },
+    "developer_stat_3_label": {
+      "row": 93,
+      "section": "Developer",
+      "char_limit": null,
+      "required": false,
+      "field_type": "EXTRACTED"
+    },
+    "faq_h2": {
+      "row": 98,
+      "section": "FAQ",
+      "char_limit": null,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "faq_1_question": {
+      "row": 100,
+      "section": "FAQ",
+      "char_limit": null,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "faq_1_answer": {
+      "row": 101,
+      "section": "FAQ",
+      "char_limit": null,
+      "required": true,
+      "field_type": "HYBRID"
+    },
+    "faq_2_question": {
+      "row": 103,
+      "section": "FAQ",
+      "char_limit": null,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "faq_2_answer": {
+      "row": 104,
+      "section": "FAQ",
+      "char_limit": null,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "faq_3_question": {
+      "row": 106,
+      "section": "FAQ",
+      "char_limit": null,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "faq_3_answer": {
+      "row": 107,
+      "section": "FAQ",
+      "char_limit": null,
+      "required": true,
+      "field_type": "HYBRID"
+    },
+    "faq_4_question": {
+      "row": 109,
+      "section": "FAQ",
+      "char_limit": null,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "faq_4_answer": {
+      "row": 110,
+      "section": "FAQ",
+      "char_limit": null,
+      "required": true,
+      "field_type": "HYBRID"
+    },
+    "faq_5_question": {
+      "row": 112,
+      "section": "FAQ",
+      "char_limit": null,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "faq_5_answer": {
+      "row": 113,
+      "section": "FAQ",
+      "char_limit": null,
+      "required": true,
+      "field_type": "HYBRID"
+    },
+    "faq_6_question": {
+      "row": 115,
+      "section": "FAQ",
+      "char_limit": null,
+      "required": false,
+      "field_type": "GENERATED"
+    },
+    "faq_6_answer": {
+      "row": 116,
+      "section": "FAQ",
+      "char_limit": null,
+      "required": false,
+      "field_type": "GENERATED"
+    },
+    "number_of_units": {
+      "row": 117,
+      "section": "Hero",
+      "char_limit": null,
+      "required": true,
+      "field_type": "EXTRACTED"
+    },
+    "project_area_from": {
+      "row": 118,
+      "section": "Project Details",
+      "char_limit": null,
+      "required": true,
+      "field_type": "EXTRACTED"
+    },
+    "project_handover": {
+      "row": 119,
+      "section": "Project Details",
+      "char_limit": null,
+      "required": true,
+      "field_type": "EXTRACTED"
+    },
+    "project_payment_plan": {
+      "row": 120,
+      "section": "Project Details",
+      "char_limit": null,
+      "required": true,
+      "field_type": "EXTRACTED"
+    },
+    "floor_plans_table": {
+      "row": 121,
+      "section": "Floor Plans",
+      "char_limit": null,
+      "required": true,
+      "field_type": "EXTRACTED"
+    },
+    "payment_plan_description": {
+      "row": 122,
+      "section": "Payment Plan",
+      "char_limit": 250,
+      "required": true,
+      "field_type": "HYBRID"
+    },
+    "payment_milestones": {
+      "row": 123,
+      "section": "Payment Plan",
+      "char_limit": null,
+      "required": true,
+      "field_type": "EXTRACTED"
+    },
+    "amenities_h2": {
+      "row": 124,
+      "section": "Amenities",
+      "char_limit": null,
+      "required": true,
+      "field_type": "STATIC"
+    },
+    "amenities_paragraph": {
+      "row": 125,
+      "section": "Amenities",
+      "char_limit": 450,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "amenities_table": {
+      "row": 126,
+      "section": "Amenities",
+      "char_limit": null,
+      "required": true,
+      "field_type": "EXTRACTED"
+    },
+    "location_title": {
+      "row": 127,
+      "section": "Location",
+      "char_limit": 50,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "developer_name_title": {
+      "row": 128,
+      "section": "Developer",
+      "char_limit": 50,
+      "required": true,
+      "field_type": "GENERATED"
+    }
+  },
+  "adop": {
+    "url_slug": {
+      "row": 2,
+      "section": "SEO",
+      "char_limit": null,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "meta_title": {
+      "row": 4,
+      "section": "SEO",
+      "char_limit": 70,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "meta_description": {
+      "row": 6,
+      "section": "SEO",
+      "char_limit": 165,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "image_alt_tag": {
+      "row": 8,
+      "section": "SEO",
+      "char_limit": 125,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "hero_h1": {
+      "row": 11,
+      "section": "Hero",
+      "char_limit": 60,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "hero_subtitle": {
+      "row": 13,
+      "section": "Hero",
+      "char_limit": 80,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "starting_price": {
+      "row": 15,
+      "section": "Hero",
+      "char_limit": null,
+      "required": true,
+      "field_type": "EXTRACTED"
+    },
+    "handover": {
+      "row": 17,
+      "section": "Hero",
+      "char_limit": null,
+      "required": true,
+      "field_type": "EXTRACTED"
+    },
+    "area_from": {
+      "row": 20,
+      "section": "Project Details",
+      "char_limit": null,
+      "required": true,
+      "field_type": "EXTRACTED"
+    },
+    "location": {
+      "row": 22,
+      "section": "Project Details",
+      "char_limit": null,
+      "required": true,
+      "field_type": "EXTRACTED"
+    },
+    "property_type": {
+      "row": 24,
+      "section": "Project Details",
+      "char_limit": null,
+      "required": true,
+      "field_type": "EXTRACTED"
+    },
+    "about_h2": {
+      "row": 27,
+      "section": "About",
+      "char_limit": null,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "about_paragraph_1": {
+      "row": 29,
+      "section": "About",
+      "char_limit": 370,
+      "required": true,
+      "field_type": "HYBRID"
+    },
+    "about_paragraph_2": {
+      "row": 31,
+      "section": "About",
+      "char_limit": 370,
+      "required": true,
+      "field_type": "HYBRID"
+    },
+    "about_paragraph_3": {
+      "row": 33,
+      "section": "About",
+      "char_limit": 370,
+      "required": true,
+      "field_type": "HYBRID"
+    },
+    "key_benefits_h2": {
+      "row": 36,
+      "section": "Key Benefits",
+      "char_limit": null,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "key_benefits_paragraph_1": {
+      "row": 37,
+      "section": "Key Benefits",
+      "char_limit": 450,
+      "required": true,
+      "field_type": "HYBRID"
+    },
+    "key_benefits_paragraph_2": {
+      "row": 40,
+      "section": "Key Benefits",
+      "char_limit": 500,
+      "required": true,
+      "field_type": "HYBRID"
+    },
+    "area_infrastructure_h2": {
+      "row": 43,
+      "section": "Area Infrastructure",
+      "char_limit": null,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "infrastructure_paragraph_1": {
+      "row": 45,
+      "section": "Area Infrastructure",
+      "char_limit": 250,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "infrastructure_paragraph_2": {
+      "row": 47,
+      "section": "Area Infrastructure",
+      "char_limit": 350,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "infrastructure_paragraph_3": {
+      "row": 49,
+      "section": "Area Infrastructure",
+      "char_limit": 250,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "location_h2": {
+      "row": 52,
+      "section": "Location",
+      "char_limit": null,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "location_drive_time_summary": {
+      "row": 54,
+      "section": "Location",
+      "char_limit": null,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "location_overview": {
+      "row": 56,
+      "section": "Location",
+      "char_limit": 200,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "location_key_attractions": {
+      "row": 58,
+      "section": "Location",
+      "char_limit": null,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "location_major_destinations": {
+      "row": 60,
+      "section": "Location",
+      "char_limit": null,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "investment_h2": {
+      "row": 63,
+      "section": "Investment",
+      "char_limit": null,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "investment_paragraph_1": {
+      "row": 65,
+      "section": "Investment",
+      "char_limit": 320,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "investment_paragraph_2": {
+      "row": 67,
+      "section": "Investment",
+      "char_limit": 320,
+      "required": true,
+      "field_type": "HYBRID"
+    },
+    "investment_paragraph_3": {
+      "row": 69,
+      "section": "Investment",
+      "char_limit": 320,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "investment_paragraph_4": {
+      "row": 71,
+      "section": "Investment",
+      "char_limit": 300,
+      "required": true,
+      "field_type": "HYBRID"
+    },
+    "developer_h2": {
+      "row": 74,
+      "section": "Developer",
+      "char_limit": null,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "developer_description": {
+      "row": 76,
+      "section": "Developer",
+      "char_limit": 500,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "faq_h2": {
+      "row": 79,
+      "section": "FAQ",
+      "char_limit": null,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "faq_1_question": {
+      "row": 81,
+      "section": "FAQ",
+      "char_limit": null,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "faq_1_answer": {
+      "row": 82,
+      "section": "FAQ",
+      "char_limit": null,
+      "required": true,
+      "field_type": "HYBRID"
+    },
+    "faq_2_question": {
+      "row": 84,
+      "section": "FAQ",
+      "char_limit": null,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "faq_2_answer": {
+      "row": 85,
+      "section": "FAQ",
+      "char_limit": null,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "faq_3_question": {
+      "row": 87,
+      "section": "FAQ",
+      "char_limit": null,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "faq_3_answer": {
+      "row": 88,
+      "section": "FAQ",
+      "char_limit": null,
+      "required": true,
+      "field_type": "HYBRID"
+    },
+    "faq_4_question": {
+      "row": 90,
+      "section": "FAQ",
+      "char_limit": null,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "faq_4_answer": {
+      "row": 91,
+      "section": "FAQ",
+      "char_limit": null,
+      "required": true,
+      "field_type": "HYBRID"
+    },
+    "faq_5_question": {
+      "row": 93,
+      "section": "FAQ",
+      "char_limit": null,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "faq_5_answer": {
+      "row": 94,
+      "section": "FAQ",
+      "char_limit": null,
+      "required": true,
+      "field_type": "HYBRID"
+    },
+    "faq_6_question": {
+      "row": 96,
+      "section": "FAQ",
+      "char_limit": null,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "faq_6_answer": {
+      "row": 97,
+      "section": "FAQ",
+      "char_limit": null,
+      "required": true,
+      "field_type": "HYBRID"
+    },
+    "faq_7_question": {
+      "row": 99,
+      "section": "FAQ",
+      "char_limit": null,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "faq_7_answer": {
+      "row": 100,
+      "section": "FAQ",
+      "char_limit": null,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "faq_8_question": {
+      "row": 102,
+      "section": "FAQ",
+      "char_limit": null,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "faq_8_answer": {
+      "row": 103,
+      "section": "FAQ",
+      "char_limit": null,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "faq_9_question": {
+      "row": 105,
+      "section": "FAQ",
+      "char_limit": null,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "faq_9_answer": {
+      "row": 106,
+      "section": "FAQ",
+      "char_limit": null,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "faq_10_question": {
+      "row": 108,
+      "section": "FAQ",
+      "char_limit": null,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "faq_10_answer": {
+      "row": 109,
+      "section": "FAQ",
+      "char_limit": null,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "faq_11_question": {
+      "row": 111,
+      "section": "FAQ",
+      "char_limit": null,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "faq_11_answer": {
+      "row": 112,
+      "section": "FAQ",
+      "char_limit": null,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "faq_12_question": {
+      "row": 114,
+      "section": "FAQ",
+      "char_limit": null,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "faq_12_answer": {
+      "row": 115,
+      "section": "FAQ",
+      "char_limit": null,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "developer": {
+      "row": 116,
+      "section": "Project Details",
+      "char_limit": null,
+      "required": true,
+      "field_type": "EXTRACTED"
+    }
+  },
+  "adre": {
+    "url_slug": {
+      "row": 4,
+      "section": "SEO",
+      "char_limit": null,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "meta_title": {
+      "row": 5,
+      "section": "SEO",
+      "char_limit": 60,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "meta_description": {
+      "row": 6,
+      "section": "SEO",
+      "char_limit": 165,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "image_alt": {
+      "row": 7,
+      "section": "SEO",
+      "char_limit": 125,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "project_name": {
+      "row": 10,
+      "section": "About",
+      "char_limit": null,
+      "required": true,
+      "field_type": "EXTRACTED"
+    },
+    "h1": {
+      "row": 11,
+      "section": "Hero",
+      "char_limit": 70,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "about_h2": {
+      "row": 12,
+      "section": "About",
+      "char_limit": 60,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "about_description": {
+      "row": 13,
+      "section": "About",
+      "char_limit": 900,
+      "required": true,
+      "field_type": "HYBRID"
+    },
+    "amenities_h2": {
+      "row": 16,
+      "section": "Amenities",
+      "char_limit": 50,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "amenity_1_h3": {
+      "row": 17,
+      "section": "Amenities",
+      "char_limit": 50,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "amenity_1_description": {
+      "row": 18,
+      "section": "Amenities",
+      "char_limit": 250,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "amenity_2_h3": {
+      "row": 19,
+      "section": "Amenities",
+      "char_limit": 50,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "amenity_2_description": {
+      "row": 20,
+      "section": "Amenities",
+      "char_limit": 250,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "amenity_3_h3": {
+      "row": 21,
+      "section": "Amenities",
+      "char_limit": 50,
+      "required": false,
+      "field_type": "GENERATED"
+    },
+    "amenity_3_description": {
+      "row": 22,
+      "section": "Amenities",
+      "char_limit": 250,
+      "required": false,
+      "field_type": "GENERATED"
+    },
+    "amenity_4_title": {
+      "row": 23,
+      "section": "Amenities",
+      "char_limit": 40,
+      "required": false,
+      "field_type": "EXTRACTED"
+    },
+    "amenity_5_title": {
+      "row": 24,
+      "section": "Amenities",
+      "char_limit": 40,
+      "required": false,
+      "field_type": "EXTRACTED"
+    },
+    "amenity_6_title": {
+      "row": 25,
+      "section": "Amenities",
+      "char_limit": 40,
+      "required": false,
+      "field_type": "EXTRACTED"
+    },
+    "amenity_7_title": {
+      "row": 26,
+      "section": "Amenities",
+      "char_limit": 40,
+      "required": false,
+      "field_type": "EXTRACTED"
+    },
+    "amenity_8_title": {
+      "row": 27,
+      "section": "Amenities",
+      "char_limit": 40,
+      "required": false,
+      "field_type": "EXTRACTED"
+    },
+    "developer_h2": {
+      "row": 30,
+      "section": "Developer",
+      "char_limit": null,
+      "required": true,
+      "field_type": "STATIC"
+    },
+    "developer_description": {
+      "row": 31,
+      "section": "Developer",
+      "char_limit": 300,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "economic_appeal_h2": {
+      "row": 34,
+      "section": "Economic Appeal",
+      "char_limit": 60,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "economic_appeal_intro": {
+      "row": 35,
+      "section": "Economic Appeal",
+      "char_limit": 600,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "rental_appeal_h3": {
+      "row": 36,
+      "section": "Economic Appeal",
+      "char_limit": null,
+      "required": true,
+      "field_type": "STATIC"
+    },
+    "rental_appeal": {
+      "row": 37,
+      "section": "Economic Appeal",
+      "char_limit": 250,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "resale_appeal_h3": {
+      "row": 38,
+      "section": "Economic Appeal",
+      "char_limit": null,
+      "required": true,
+      "field_type": "STATIC"
+    },
+    "resale_appeal": {
+      "row": 39,
+      "section": "Economic Appeal",
+      "char_limit": 250,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "enduser_appeal_h3": {
+      "row": 40,
+      "section": "Economic Appeal",
+      "char_limit": null,
+      "required": true,
+      "field_type": "STATIC"
+    },
+    "enduser_appeal": {
+      "row": 41,
+      "section": "Economic Appeal",
+      "char_limit": 250,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "location_h2": {
+      "row": 44,
+      "section": "Location",
+      "char_limit": null,
+      "required": true,
+      "field_type": "STATIC"
+    },
+    "location_overview": {
+      "row": 45,
+      "section": "Location",
+      "char_limit": 700,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "entertainment_h3": {
+      "row": 46,
+      "section": "Location",
+      "char_limit": null,
+      "required": true,
+      "field_type": "STATIC"
+    },
+    "area_card_entertainment_1": {
+      "row": 47,
+      "section": "Location",
+      "char_limit": 80,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "area_card_entertainment_2": {
+      "row": 48,
+      "section": "Location",
+      "char_limit": 80,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "area_card_entertainment_3": {
+      "row": 49,
+      "section": "Location",
+      "char_limit": 80,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "area_card_entertainment_4": {
+      "row": 50,
+      "section": "Location",
+      "char_limit": 80,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "healthcare_h3": {
+      "row": 51,
+      "section": "Location",
+      "char_limit": null,
+      "required": true,
+      "field_type": "STATIC"
+    },
+    "healthcare_facility_1": {
+      "row": 52,
+      "section": "Location",
+      "char_limit": 80,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "healthcare_facility_2": {
+      "row": 53,
+      "section": "Location",
+      "char_limit": 80,
+      "required": false,
+      "field_type": "GENERATED"
+    },
+    "education_h3": {
+      "row": 54,
+      "section": "Location",
+      "char_limit": null,
+      "required": true,
+      "field_type": "STATIC"
+    },
+    "education_nurseries": {
+      "row": 55,
+      "section": "Location",
+      "char_limit": 80,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "education_international_schools": {
+      "row": 56,
+      "section": "Location",
+      "char_limit": 80,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "education_secondary_schools": {
+      "row": 57,
+      "section": "Location",
+      "char_limit": 80,
+      "required": false,
+      "field_type": "GENERATED"
+    },
+    "education_universities": {
+      "row": 58,
+      "section": "Location",
+      "char_limit": 80,
+      "required": false,
+      "field_type": "GENERATED"
+    },
+    "faq_1_question": {
+      "row": 61,
+      "section": "FAQ",
+      "char_limit": 80,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "faq_1_answer": {
+      "row": 62,
+      "section": "FAQ",
+      "char_limit": 200,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "faq_2_question": {
+      "row": 63,
+      "section": "FAQ",
+      "char_limit": 80,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "faq_2_answer": {
+      "row": 64,
+      "section": "FAQ",
+      "char_limit": 200,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "faq_3_question": {
+      "row": 65,
+      "section": "FAQ",
+      "char_limit": 80,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "faq_3_answer": {
+      "row": 66,
+      "section": "FAQ",
+      "char_limit": 200,
+      "required": true,
+      "field_type": "HYBRID"
+    },
+    "faq_4_question": {
+      "row": 67,
+      "section": "FAQ",
+      "char_limit": 80,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "faq_4_answer": {
+      "row": 68,
+      "section": "FAQ",
+      "char_limit": 200,
+      "required": true,
+      "field_type": "HYBRID"
+    },
+    "faq_5_question": {
+      "row": 69,
+      "section": "FAQ",
+      "char_limit": 80,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "faq_5_answer": {
+      "row": 70,
+      "section": "FAQ",
+      "char_limit": 200,
+      "required": true,
+      "field_type": "HYBRID"
+    },
+    "faq_6_question": {
+      "row": 71,
+      "section": "FAQ",
+      "char_limit": 80,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "faq_6_answer": {
+      "row": 72,
+      "section": "FAQ",
+      "char_limit": 200,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "faq_7_question": {
+      "row": 73,
+      "section": "FAQ",
+      "char_limit": 80,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "faq_7_answer": {
+      "row": 74,
+      "section": "FAQ",
+      "char_limit": 200,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "faq_8_question": {
+      "row": 75,
+      "section": "FAQ",
+      "char_limit": 80,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "faq_8_answer": {
+      "row": 76,
+      "section": "FAQ",
+      "char_limit": 200,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "faq_9_question": {
+      "row": 77,
+      "section": "FAQ",
+      "char_limit": 80,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "faq_9_answer": {
+      "row": 78,
+      "section": "FAQ",
+      "char_limit": 200,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "faq_10_question": {
+      "row": 79,
+      "section": "FAQ",
+      "char_limit": 80,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "faq_10_answer": {
+      "row": 80,
+      "section": "FAQ",
+      "char_limit": 200,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "faq_11_question": {
+      "row": 81,
+      "section": "FAQ",
+      "char_limit": 80,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "faq_11_answer": {
+      "row": 82,
+      "section": "FAQ",
+      "char_limit": 200,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "hero_marketing_h2": {
+      "row": 83,
+      "section": "Hero",
+      "char_limit": 60,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "property_type_tags": {
+      "row": 84,
+      "section": "Hero",
+      "char_limit": null,
+      "required": true,
+      "field_type": "EXTRACTED"
+    },
+    "starting_price": {
+      "row": 85,
+      "section": "Hero",
+      "char_limit": null,
+      "required": true,
+      "field_type": "EXTRACTED"
+    },
+    "booking_fee": {
+      "row": 86,
+      "section": "Hero",
+      "char_limit": null,
+      "required": false,
+      "field_type": "EXTRACTED"
+    },
+    "handover_date": {
+      "row": 87,
+      "section": "Hero",
+      "char_limit": null,
+      "required": true,
+      "field_type": "EXTRACTED"
+    },
+    "project_card_developer": {
+      "row": 88,
+      "section": "About",
+      "char_limit": null,
+      "required": true,
+      "field_type": "EXTRACTED"
+    },
+    "project_card_area_from": {
+      "row": 89,
+      "section": "About",
+      "char_limit": null,
+      "required": true,
+      "field_type": "EXTRACTED"
+    },
+    "project_card_apartments": {
+      "row": 90,
+      "section": "About",
+      "char_limit": null,
+      "required": false,
+      "field_type": "EXTRACTED"
+    },
+    "project_card_penthouses": {
+      "row": 91,
+      "section": "About",
+      "char_limit": null,
+      "required": false,
+      "field_type": "EXTRACTED"
+    },
+    "project_card_villas": {
+      "row": 92,
+      "section": "About",
+      "char_limit": null,
+      "required": false,
+      "field_type": "EXTRACTED"
+    },
+    "floor_plan_1_type": {
+      "row": 93,
+      "section": "Floor Plans",
+      "char_limit": null,
+      "required": false,
+      "field_type": "EXTRACTED"
+    },
+    "floor_plan_1_area": {
+      "row": 94,
+      "section": "Floor Plans",
+      "char_limit": null,
+      "required": false,
+      "field_type": "EXTRACTED"
+    },
+    "floor_plan_1_price": {
+      "row": 95,
+      "section": "Floor Plans",
+      "char_limit": null,
+      "required": false,
+      "field_type": "EXTRACTED"
+    },
+    "floor_plan_1_suite": {
+      "row": 96,
+      "section": "Floor Plans",
+      "char_limit": null,
+      "required": false,
+      "field_type": "EXTRACTED"
+    },
+    "floor_plan_1_balcony": {
+      "row": 97,
+      "section": "Floor Plans",
+      "char_limit": null,
+      "required": false,
+      "field_type": "EXTRACTED"
+    },
+    "amenities_list": {
+      "row": 98,
+      "section": "Amenities",
+      "char_limit": null,
+      "required": true,
+      "field_type": "HYBRID"
+    },
+    "economic_stats_handover": {
+      "row": 99,
+      "section": "Economic Appeal",
+      "char_limit": null,
+      "required": true,
+      "field_type": "EXTRACTED"
+    },
+    "economic_stats_roi": {
+      "row": 100,
+      "section": "Economic Appeal",
+      "char_limit": null,
+      "required": false,
+      "field_type": "GENERATED"
+    },
+    "economic_stats_area_from": {
+      "row": 101,
+      "section": "Economic Appeal",
+      "char_limit": null,
+      "required": true,
+      "field_type": "EXTRACTED"
+    },
+    "economic_stats_residences": {
+      "row": 102,
+      "section": "Economic Appeal",
+      "char_limit": null,
+      "required": true,
+      "field_type": "EXTRACTED"
+    },
+    "payment_plan_h2": {
+      "row": 103,
+      "section": "Payment Plan",
+      "char_limit": 70,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "payment_down_payment": {
+      "row": 104,
+      "section": "Payment Plan",
+      "char_limit": null,
+      "required": true,
+      "field_type": "EXTRACTED"
+    },
+    "payment_on_construction": {
+      "row": 105,
+      "section": "Payment Plan",
+      "char_limit": null,
+      "required": true,
+      "field_type": "EXTRACTED"
+    },
+    "payment_on_handover": {
+      "row": 106,
+      "section": "Payment Plan",
+      "char_limit": null,
+      "required": true,
+      "field_type": "EXTRACTED"
+    },
+    "area_card_style": {
+      "row": 107,
+      "section": "Location",
+      "char_limit": 30,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "area_card_focal_point": {
+      "row": 108,
+      "section": "Location",
+      "char_limit": 60,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "area_card_accessibility": {
+      "row": 109,
+      "section": "Location",
+      "char_limit": 80,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "area_card_shopping_1": {
+      "row": 110,
+      "section": "Location",
+      "char_limit": 80,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "area_card_shopping_2": {
+      "row": 111,
+      "section": "Location",
+      "char_limit": 80,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "area_card_shopping_3": {
+      "row": 112,
+      "section": "Location",
+      "char_limit": 80,
+      "required": false,
+      "field_type": "GENERATED"
+    },
+    "area_card_shopping_4": {
+      "row": 113,
+      "section": "Location",
+      "char_limit": 80,
+      "required": false,
+      "field_type": "GENERATED"
+    },
+    "area_card_entertainment_5": {
+      "row": 114,
+      "section": "Location",
+      "char_limit": 80,
+      "required": false,
+      "field_type": "GENERATED"
+    },
+    "area_card_entertainment_6": {
+      "row": 115,
+      "section": "Location",
+      "char_limit": 80,
+      "required": false,
+      "field_type": "GENERATED"
+    },
+    "faq_h2": {
+      "row": 116,
+      "section": "FAQ",
+      "char_limit": null,
+      "required": true,
+      "field_type": "STATIC"
+    },
+    "faq_12_question": {
+      "row": 117,
+      "section": "FAQ",
+      "char_limit": 80,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "faq_12_answer": {
+      "row": 118,
+      "section": "FAQ",
+      "char_limit": 200,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "project_card_townhouses": {
+      "row": 119,
+      "section": "About",
+      "char_limit": null,
+      "required": false,
+      "field_type": "EXTRACTED"
+    },
+    "project_card_total_units": {
+      "row": 120,
+      "section": "About",
+      "char_limit": null,
+      "required": false,
+      "field_type": "EXTRACTED"
+    },
+    "project_card_payment_plan": {
+      "row": 121,
+      "section": "About",
+      "char_limit": null,
+      "required": true,
+      "field_type": "EXTRACTED"
+    },
+    "floor_plans_table": {
+      "row": 122,
+      "section": "Floor Plans",
+      "char_limit": null,
+      "required": true,
+      "field_type": "EXTRACTED"
+    }
+  },
+  "commercial": {
+    "meta_title": {
+      "row": 4,
+      "section": "SEO",
+      "char_limit": 70,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "meta_description": {
+      "row": 5,
+      "section": "SEO",
+      "char_limit": 165,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "url_slug": {
+      "row": 6,
+      "section": "SEO",
+      "char_limit": null,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "h1": {
+      "row": 9,
+      "section": "Hero",
+      "char_limit": 60,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "hero_description": {
+      "row": 10,
+      "section": "Hero",
+      "char_limit": 80,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "hero_sale_price": {
+      "row": 11,
+      "section": "Hero",
+      "char_limit": null,
+      "required": true,
+      "field_type": "EXTRACTED"
+    },
+    "hero_payment_plan": {
+      "row": 12,
+      "section": "Hero",
+      "char_limit": null,
+      "required": true,
+      "field_type": "EXTRACTED"
+    },
+    "hero_handover": {
+      "row": 13,
+      "section": "Hero",
+      "char_limit": null,
+      "required": true,
+      "field_type": "EXTRACTED"
+    },
+    "hero_feature_1_title": {
+      "row": 14,
+      "section": "Hero",
+      "char_limit": 30,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "hero_feature_1_description": {
+      "row": 15,
+      "section": "Hero",
+      "char_limit": 60,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "hero_feature_2_title": {
+      "row": 16,
+      "section": "Hero",
+      "char_limit": 30,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "hero_feature_2_description": {
+      "row": 17,
+      "section": "Hero",
+      "char_limit": 60,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "hero_feature_3_title": {
+      "row": 18,
+      "section": "Hero",
+      "char_limit": 30,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "hero_feature_3_description": {
+      "row": 19,
+      "section": "Hero",
+      "char_limit": 60,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "about_h2": {
+      "row": 22,
+      "section": "About",
+      "char_limit": 50,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "about_h3": {
+      "row": 23,
+      "section": "About",
+      "char_limit": 80,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "about_paragraph": {
+      "row": 24,
+      "section": "About",
+      "char_limit": 200,
+      "required": true,
+      "field_type": "HYBRID"
+    },
+    "project_passport": {
+      "row": 27,
+      "section": "Project Passport",
+      "char_limit": null,
+      "required": true,
+      "field_type": "STATIC"
+    },
+    "passport_developer": {
+      "row": 28,
+      "section": "Project Passport",
+      "char_limit": null,
+      "required": true,
+      "field_type": "EXTRACTED"
+    },
+    "passport_location": {
+      "row": 29,
+      "section": "Project Passport",
+      "char_limit": null,
+      "required": true,
+      "field_type": "EXTRACTED"
+    },
+    "passport_payment_plan": {
+      "row": 30,
+      "section": "Project Passport",
+      "char_limit": null,
+      "required": true,
+      "field_type": "EXTRACTED"
+    },
+    "passport_area_range": {
+      "row": 31,
+      "section": "Project Passport",
+      "char_limit": null,
+      "required": true,
+      "field_type": "EXTRACTED"
+    },
+    "passport_property_type": {
+      "row": 32,
+      "section": "Project Passport",
+      "char_limit": null,
+      "required": true,
+      "field_type": "EXTRACTED"
+    },
+    "payment_plan_headline": {
+      "row": 44,
+      "section": "Payment Plan",
+      "char_limit": 60,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "payment_plan_description": {
+      "row": 45,
+      "section": "Payment Plan",
+      "char_limit": 150,
+      "required": true,
+      "field_type": "HYBRID"
+    },
+    "construction_percentage": {
+      "row": 46,
+      "section": "Payment Plan",
+      "char_limit": null,
+      "required": true,
+      "field_type": "EXTRACTED"
+    },
+    "handover_date": {
+      "row": 47,
+      "section": "Payment Plan",
+      "char_limit": null,
+      "required": true,
+      "field_type": "EXTRACTED"
+    },
+    "handover_percentage": {
+      "row": 48,
+      "section": "Payment Plan",
+      "char_limit": null,
+      "required": true,
+      "field_type": "EXTRACTED"
+    },
+    "advantage_1_title": {
+      "row": 54,
+      "section": "Advantages",
+      "char_limit": 80,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "advantage_1_description": {
+      "row": 55,
+      "section": "Advantages",
+      "char_limit": 200,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "advantage_2_title": {
+      "row": 56,
+      "section": "Advantages",
+      "char_limit": 80,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "advantage_2_description": {
+      "row": 57,
+      "section": "Advantages",
+      "char_limit": 200,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "advantage_3_title": {
+      "row": 58,
+      "section": "Advantages",
+      "char_limit": 80,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "advantage_3_description": {
+      "row": 59,
+      "section": "Advantages",
+      "char_limit": 200,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "amenity_1_title": {
+      "row": 62,
+      "section": "Amenities",
+      "char_limit": 80,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "amenity_1_description": {
+      "row": 63,
+      "section": "Amenities",
+      "char_limit": 200,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "amenity_2_title": {
+      "row": 64,
+      "section": "Amenities",
+      "char_limit": 80,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "amenity_2_description": {
+      "row": 65,
+      "section": "Amenities",
+      "char_limit": 200,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "amenity_3_title": {
+      "row": 66,
+      "section": "Amenities",
+      "char_limit": 80,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "amenity_3_description": {
+      "row": 67,
+      "section": "Amenities",
+      "char_limit": 200,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "amenity_4_title": {
+      "row": 68,
+      "section": "Amenities",
+      "char_limit": 80,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "amenity_4_description": {
+      "row": 69,
+      "section": "Amenities",
+      "char_limit": 200,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "amenity_5_title": {
+      "row": 70,
+      "section": "Amenities",
+      "char_limit": 80,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "amenity_5_description": {
+      "row": 71,
+      "section": "Amenities",
+      "char_limit": 200,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "developer_h2": {
+      "row": 74,
+      "section": "Developer",
+      "char_limit": null,
+      "required": true,
+      "field_type": "STATIC"
+    },
+    "developer_h3": {
+      "row": 75,
+      "section": "Developer",
+      "char_limit": 60,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "developer_name": {
+      "row": 76,
+      "section": "Developer",
+      "char_limit": null,
+      "required": true,
+      "field_type": "EXTRACTED"
+    },
+    "developer_description": {
+      "row": 77,
+      "section": "Developer",
+      "char_limit": 250,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "location_h2": {
+      "row": 80,
+      "section": "Location",
+      "char_limit": null,
+      "required": true,
+      "field_type": "STATIC"
+    },
+    "location_h3": {
+      "row": 81,
+      "section": "Location",
+      "char_limit": 80,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "location_description": {
+      "row": 82,
+      "section": "Location",
+      "char_limit": 400,
+      "required": true,
+      "field_type": "HYBRID"
+    },
+    "social_facilities_description": {
+      "row": 85,
+      "section": "Location",
+      "char_limit": 300,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "social_facility_1": {
+      "row": 86,
+      "section": "Location",
+      "char_limit": 80,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "social_facility_2": {
+      "row": 87,
+      "section": "Location",
+      "char_limit": 80,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "social_facility_3": {
+      "row": 88,
+      "section": "Location",
+      "char_limit": 80,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "education_medicine_description": {
+      "row": 91,
+      "section": "Location",
+      "char_limit": 300,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "education_nearby_1": {
+      "row": 92,
+      "section": "Location",
+      "char_limit": 80,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "education_nearby_2": {
+      "row": 93,
+      "section": "Location",
+      "char_limit": 80,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "education_nearby_3": {
+      "row": 94,
+      "section": "Location",
+      "char_limit": 80,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "culture_description": {
+      "row": 97,
+      "section": "Location",
+      "char_limit": 300,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "culture_nearby_1": {
+      "row": 98,
+      "section": "Location",
+      "char_limit": 80,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "culture_nearby_2": {
+      "row": 99,
+      "section": "Location",
+      "char_limit": 80,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "culture_nearby_3": {
+      "row": 100,
+      "section": "Location",
+      "char_limit": 80,
+      "required": true,
+      "field_type": "GENERATED"
+    },
+    "payment_plan_title": {
+      "row": 101,
+      "section": "Payment Plan",
+      "char_limit": 30,
+      "required": true,
+      "field_type": "GENERATED"
+    }
+  }
+}

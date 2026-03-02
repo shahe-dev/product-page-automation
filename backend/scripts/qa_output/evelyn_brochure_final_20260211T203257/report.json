@@ -1,0 +1,195 @@
+{
+  "brochure": "EVELYN Brochure Final",
+  "timestamp": "20260211T203257",
+  "size_mb": 23.3,
+  "page_count": 24,
+  "table_extraction": {
+    "floor_plan_spec_count": 0,
+    "specs": [],
+    "errors": []
+  },
+  "text_extraction": [
+    {
+      "page": 10,
+      "unit_type": "DUPLEX"
+    },
+    {
+      "page": 11,
+      "unit_type": "DUPLEX"
+    },
+    {
+      "page": 12,
+      "unit_type": "DUPLEX"
+    },
+    {
+      "page": 20,
+      "unit_type": "1BR",
+      "suite_sqft": 558.32,
+      "balcony_sqft": 57.48,
+      "total_sqft": 615.8
+    },
+    {
+      "page": 21,
+      "unit_type": "1BR",
+      "suite_sqft": 558.32,
+      "balcony_sqft": 57.48,
+      "total_sqft": 615.8
+    },
+    {
+      "page": 22,
+      "unit_type": "1BR",
+      "suite_sqft": 558.32,
+      "balcony_sqft": 57.48,
+      "total_sqft": 615.8
+    },
+    {
+      "page": 23,
+      "unit_type": "2BR",
+      "suite_sqft": 844.97,
+      "balcony_sqft": 70.4,
+      "total_sqft": 915.36
+    }
+  ],
+  "classification": {
+    "total_images": 51,
+    "retained": 33,
+    "duplicates": 11,
+    "category_counts": {
+      "interior": 3,
+      "exterior": 5,
+      "amenity": 12,
+      "logo": 1,
+      "floor_plan": 9,
+      "location_map": 1,
+      "master_plan": 2
+    }
+  },
+  "floor_plan_image_count": 9,
+  "floor_plans": [
+    {
+      "unit_type": "3 bedroom - Unit type A",
+      "bedrooms": 3,
+      "bathrooms": 2.0,
+      "total_sqft": 1473.04,
+      "total_sqft_source": "floor_plan_image",
+      "suite_sqft": 1289.95,
+      "suite_sqft_source": "floor_plan_image",
+      "balcony_sqft": 183.09,
+      "balcony_sqft_source": "floor_plan_image",
+      "builtup_sqft": null,
+      "builtup_sqft_source": "",
+      "room_dimensions": {
+        "bedroom_1": "3.50x3.00",
+        "bedroom_2": "3.00x3.00",
+        "bedroom_3": "3.50x3.00"
+      },
+      "features": [
+        "balcony",
+        "multiple_bedrooms"
+      ],
+      "confidence": 0.92,
+      "is_duplicate": false,
+      "image_file": "01_3_bedroom_unit_type_a.png"
+    },
+    {
+      "unit_type": "1 bedroom - Unit type A",
+      "bedrooms": 1,
+      "bathrooms": 1.0,
+      "total_sqft": 615.8,
+      "total_sqft_source": "floor_plan_image",
+      "suite_sqft": 558.32,
+      "suite_sqft_source": "floor_plan_image",
+      "balcony_sqft": 57.48,
+      "balcony_sqft_source": "floor_plan_image",
+      "builtup_sqft": null,
+      "builtup_sqft_source": "",
+      "room_dimensions": {
+        "m_bedroom": "3.90X3.15",
+        "living_area": "3.80X3.25",
+        "kitchen": "3.50X3.15",
+        "p_room": "1.25X1.40",
+        "bath": "1.25X1.65",
+        "dresser": "1.70X1.50",
+        "laundry": "0.80X0.80",
+        "balcony": "3.40X1.30"
+      },
+      "features": [
+        "dresser",
+        "laundry",
+        "p_room"
+      ],
+      "confidence": 0.95,
+      "is_duplicate": false,
+      "image_file": "02_1_bedroom_unit_type_a.png"
+    },
+    {
+      "unit_type": "1 bedroom - Unit type B",
+      "bedrooms": 1,
+      "bathrooms": 1.0,
+      "total_sqft": 609.67,
+      "total_sqft_source": "floor_plan_image",
+      "suite_sqft": 548.64,
+      "suite_sqft_source": "floor_plan_image",
+      "balcony_sqft": 61.03,
+      "balcony_sqft_source": "floor_plan_image",
+      "builtup_sqft": null,
+      "builtup_sqft_source": "",
+      "room_dimensions": {
+        "m_bedroom": "3.90X3.15",
+        "living_area": "3.80X3.25",
+        "kitchen": "3.50X2.90",
+        "p_room": "2.15X1.40",
+        "bath": "2.40X1.75",
+        "dresser": "1.70X1.50",
+        "laundry": "0.80X0.80",
+        "balcony": "3.40X1.30"
+      },
+      "features": [
+        "dresser",
+        "laundry",
+        "p_room"
+      ],
+      "confidence": 0.95,
+      "is_duplicate": false,
+      "image_file": "03_1_bedroom_unit_type_b.png"
+    },
+    {
+      "unit_type": "2 bedroom - Unit type B",
+      "bedrooms": 2,
+      "bathrooms": 2.0,
+      "total_sqft": 900.51,
+      "total_sqft_source": "floor_plan_image",
+      "suite_sqft": 835.06,
+      "suite_sqft_source": "floor_plan_image",
+      "balcony_sqft": 65.44,
+      "balcony_sqft_source": "floor_plan_image",
+      "builtup_sqft": null,
+      "builtup_sqft_source": "",
+      "room_dimensions": {
+        "living_area": "4.20x4.30",
+        "m_bedroom": "3.4x3.00",
+        "dresser": "2.30x1.20",
+        "kitchen": "2.00x2.30"
+      },
+      "features": [
+        "balcony",
+        "dresser",
+        "laundry"
+      ],
+      "confidence": 0.95,
+      "is_duplicate": false,
+      "image_file": "04_2_bedroom_unit_type_b.png"
+    }
+  ],
+  "extraction_summary": {
+    "total_input": 9,
+    "total_extracted": 4,
+    "total_duplicates": 0,
+    "errors": [
+      {
+        "page": 22,
+        "error": "expected string or bytes-like object, got 'NoneType'"
+      }
+    ]
+  }
+}

@@ -1,0 +1,64 @@
+# PDP Automation v.3 - Backend Dependencies
+
+# Web Framework
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+pydantic==2.10.6
+pydantic-settings==2.7.1
+python-multipart==0.0.20
+
+# Database
+sqlalchemy[asyncio]==2.0.36
+asyncpg==0.30.0
+psycopg2-binary==2.9.10
+alembic==1.14.0
+
+# Authentication
+pyjwt==2.10.1
+passlib[bcrypt]==1.7.4
+# python-jose removed: CVE-2024-33663/CVE-2024-33664; pyjwt is the only JWT lib used
+
+# Google Cloud
+google-auth==2.37.0
+google-auth-oauthlib==1.2.1
+google-cloud-storage==2.19.0
+google-cloud-secret-manager==2.21.1
+google-cloud-tasks==2.16.0
+google-api-python-client==2.156.0
+
+# Anthropic
+anthropic==0.42.0
+
+# PDF & Image Processing (Phase 2)
+PyMuPDF>=1.26.6
+pdfplumber>=0.11.0
+Pillow==11.1.0
+opencv-python-headless==4.10.0.84
+imagehash==4.3.1
+numpy>=1.26.0
+
+# Google Sheets (Phase 3)
+gspread>=6.0.0
+
+# HTTP Client
+httpx==0.28.1
+
+# Environment
+python-dotenv==1.0.1
+
+# Utilities
+tenacity==9.0.0
+structlog==24.4.0
+
+# Background Tasks & System Monitoring
+APScheduler>=3.10.0
+psutil>=5.9.0
+
+# Development
+pytest==8.3.4
+pytest-asyncio==0.25.2
+pytest-cov==6.0.0
+aiosqlite==0.22.1
+black==24.10.0
+ruff==0.9.1
+mypy==1.14.1

@@ -1,0 +1,413 @@
+{
+  "brochure": "Expo_Valley_Views_Brochure_Ghadeer",
+  "timestamp": "20260211T203303",
+  "size_mb": 42.6,
+  "page_count": 25,
+  "table_extraction": {
+    "floor_plan_spec_count": 0,
+    "specs": [],
+    "errors": []
+  },
+  "text_extraction": [
+    {
+      "page": 11,
+      "unit_type": "STUDIO"
+    },
+    {
+      "page": 12,
+      "unit_type": "STUDIO"
+    },
+    {
+      "page": 13,
+      "unit_type": "STUDIO"
+    },
+    {
+      "page": 14,
+      "total_sqft": 895.0
+    },
+    {
+      "page": 15,
+      "total_sqft": 895.0
+    },
+    {
+      "page": 16,
+      "unit_type": "1BR",
+      "total_sqft": 895.0
+    },
+    {
+      "page": 17,
+      "unit_type": "1BR",
+      "total_sqft": 776.0
+    },
+    {
+      "page": 18,
+      "unit_type": "1BR",
+      "total_sqft": 776.0
+    },
+    {
+      "page": 19,
+      "total_sqft": 776.0
+    },
+    {
+      "page": 20,
+      "total_sqft": 1165.0
+    },
+    {
+      "page": 21,
+      "total_sqft": 1281.0
+    },
+    {
+      "page": 22,
+      "total_sqft": 1253.0
+    },
+    {
+      "page": 23,
+      "total_sqft": 1162.0
+    },
+    {
+      "page": 24,
+      "total_sqft": 1559.0
+    }
+  ],
+  "classification": {
+    "total_images": 63,
+    "retained": 45,
+    "duplicates": 9,
+    "category_counts": {
+      "interior": 4,
+      "exterior": 4,
+      "amenity": 15,
+      "logo": 1,
+      "floor_plan": 12,
+      "location_map": 1,
+      "master_plan": 8
+    }
+  },
+  "floor_plan_image_count": 12,
+  "floor_plans": [
+    {
+      "unit_type": "1BR",
+      "bedrooms": 1,
+      "bathrooms": 1.0,
+      "total_sqft": 776.0,
+      "total_sqft_source": "text_fallback",
+      "suite_sqft": null,
+      "suite_sqft_source": "",
+      "balcony_sqft": null,
+      "balcony_sqft_source": "",
+      "builtup_sqft": null,
+      "builtup_sqft_source": "",
+      "room_dimensions": {
+        "kitchen": "2.39x3.05",
+        "foyer": "1.25x3.05",
+        "living_dining": "4.60x5.30",
+        "bathroom": "3.40x1.75",
+        "pwd_room": "2.10x1.05",
+        "walk_in_wardrobe": "2.30x2.35",
+        "bedroom": "3.50x3.95",
+        "balcony": "5.80x1.80"
+      },
+      "features": [
+        "walk_in_wardrobe",
+        "pwd_room",
+        "laundry"
+      ],
+      "confidence": 0.85,
+      "is_duplicate": false,
+      "image_file": "01_1br.png"
+    },
+    {
+      "unit_type": "2BR",
+      "bedrooms": 2,
+      "bathrooms": 2.0,
+      "total_sqft": 776.0,
+      "total_sqft_source": "text_fallback",
+      "suite_sqft": null,
+      "suite_sqft_source": "",
+      "balcony_sqft": null,
+      "balcony_sqft_source": "",
+      "builtup_sqft": null,
+      "builtup_sqft_source": "",
+      "room_dimensions": {
+        "master_bedroom": "3.60x3.20",
+        "bedroom_01": "3.80x3.72",
+        "master_bathroom": "3.15x2.65",
+        "bathroom": "2.35x2.47",
+        "walk_in_wardrobe": "2.00x1.85",
+        "walk_in_wardrobe_2": "2.35x1.80",
+        "living_dining": "5.25x5.65",
+        "kitchen": "3.61x2.70",
+        "foyer": "1.64x2.70",
+        "pwd_room": "1.30x2.17",
+        "vestibule": "1.40x1.20",
+        "balcony": "9.55x1.80"
+      },
+      "features": [
+        "walk_in_closet",
+        "powder_room"
+      ],
+      "confidence": 0.95,
+      "is_duplicate": false,
+      "image_file": "02_2br.png"
+    },
+    {
+      "unit_type": "One Bedroom",
+      "bedrooms": 1,
+      "bathrooms": 1.0,
+      "total_sqft": 9629.7,
+      "total_sqft_source": "floor_plan_image",
+      "suite_sqft": 8348.664,
+      "suite_sqft_source": "floor_plan_image",
+      "balcony_sqft": 1281.036,
+      "balcony_sqft_source": "floor_plan_image",
+      "builtup_sqft": null,
+      "builtup_sqft_source": "",
+      "room_dimensions": {
+        "living_dining": "4.90x4.30",
+        "bedroom": "3.50x3.95",
+        "kitchen": "2.39x3.05",
+        "bathroom": "3.40x1.75",
+        "pwd_room": "2.10x1.00",
+        "walk_in_wardrobe": "2.90x2.35",
+        "balcony": "5.80x1.80"
+      },
+      "features": [
+        "walk_in_wardrobe",
+        "pwd_room"
+      ],
+      "confidence": 0.95,
+      "is_duplicate": false,
+      "image_file": "03_one_bedroom.png"
+    },
+    {
+      "unit_type": "Two Bedroom Type 01",
+      "bedrooms": 2,
+      "bathrooms": 2.0,
+      "total_sqft": 1469.3,
+      "total_sqft_source": "floor_plan_image",
+      "suite_sqft": 1254.0,
+      "suite_sqft_source": "floor_plan_image",
+      "balcony_sqft": 215.3,
+      "balcony_sqft_source": "floor_plan_image",
+      "builtup_sqft": null,
+      "builtup_sqft_source": "",
+      "room_dimensions": {
+        "master_bedroom": "3.60x3.20",
+        "bedroom_01": "3.80x3.72",
+        "living_dining": "5.25x5.63",
+        "kitchen": "3.61x2.70",
+        "master_bathroom": "3.15x2.65",
+        "bathroom": "2.35x2.47",
+        "walk_in_wardrobe_master": "2.00x1.85",
+        "walk_in_wardrobe_bedroom": "2.35x1.80",
+        "foyer": "1.64x2.70",
+        "pwd_room": "1.30x2.17",
+        "vestibule": "1.40x1.20",
+        "balcony": "9.55x1.80"
+      },
+      "features": [
+        "walk_in_wardrobe",
+        "pwd_room",
+        "vestibule"
+      ],
+      "confidence": 0.95,
+      "is_duplicate": false,
+      "image_file": "04_two_bedroom_type_01.png"
+    },
+    {
+      "unit_type": "Two Bedroom Type 02",
+      "bedrooms": 2,
+      "bathrooms": 2.0,
+      "total_sqft": 1613.0,
+      "total_sqft_source": "floor_plan_image",
+      "suite_sqft": 1381.0,
+      "suite_sqft_source": "floor_plan_image",
+      "balcony_sqft": 232.0,
+      "balcony_sqft_source": "floor_plan_image",
+      "builtup_sqft": null,
+      "builtup_sqft_source": "",
+      "room_dimensions": {
+        "master_bath": "2.45x2.80",
+        "bedroom_01": "4.10x3.73",
+        "master_bedroom": "3.23x4.23",
+        "bathroom": "2.50x1.80",
+        "balcony": "1.80x1.30",
+        "pwd_room": "1.95x1.40",
+        "vestibule": "1.20x1.55",
+        "kitchen": "3.70x3.61",
+        "living_dining": "6.65x5.26",
+        "laundry": "0.75x0.70",
+        "foyer": "3.50x1.50"
+      },
+      "features": [
+        "walk_in_wardrobe",
+        "pwd_room",
+        "laundry",
+        "vestibule"
+      ],
+      "confidence": 0.95,
+      "is_duplicate": false,
+      "image_file": "05_two_bedroom_type_02.png"
+    },
+    {
+      "unit_type": "Two Bedroom Type 04",
+      "bedrooms": 2,
+      "bathrooms": 2.0,
+      "total_sqft": 1924.7,
+      "total_sqft_source": "floor_plan_image",
+      "suite_sqft": 1251.0,
+      "suite_sqft_source": "floor_plan_image",
+      "balcony_sqft": 216.4,
+      "balcony_sqft_source": "floor_plan_image",
+      "builtup_sqft": null,
+      "builtup_sqft_source": "",
+      "room_dimensions": {
+        "master_bedroom": "4.20x3.75",
+        "bedroom_02": "3.67x3.17",
+        "living_dining": "5.27x5.95",
+        "kitchen": "2.40x3.67",
+        "master_bath": "2.70x2.45",
+        "bathroom": "2.25x2.50",
+        "walk_in_wardrobe": "2.42x1.20",
+        "corridor": "1.35x4.85",
+        "laundry": "0.70x1.25",
+        "pwd_room": "1.40x1.80",
+        "foyer": "2.85x1.80",
+        "balcony": "8.04x1.55"
+      },
+      "features": [
+        "walk_in_wardrobe",
+        "laundry",
+        "pwd_room"
+      ],
+      "confidence": 0.95,
+      "is_duplicate": false,
+      "image_file": "06_two_bedroom_type_04.png"
+    },
+    {
+      "unit_type": null,
+      "bedrooms": 2,
+      "bathrooms": 2.0,
+      "total_sqft": 1165.0,
+      "total_sqft_source": "text_fallback",
+      "suite_sqft": null,
+      "suite_sqft_source": "",
+      "balcony_sqft": null,
+      "balcony_sqft_source": "",
+      "builtup_sqft": null,
+      "builtup_sqft_source": "",
+      "room_dimensions": {
+        "master_bath": "2.45x2.80",
+        "walk_in_wardrobe": "2.45x1.93",
+        "master_bedroom": "3.23x4.23",
+        "bedroom_01": "4.10x3.73",
+        "pwd_room": "1.95x1.40",
+        "vestibule": "1.20x1.55",
+        "bathroom": "2.95x1.89",
+        "balcony": "1.80x10.30",
+        "kitchen": "3.70x3.61",
+        "living_dining": "6.65x5.26",
+        "laundry": "0.75x0.70",
+        "foyer": "3.50x1.50"
+      },
+      "features": [
+        "walk_in_wardrobe",
+        "pwd_room",
+        "laundry"
+      ],
+      "confidence": 0.95,
+      "is_duplicate": false,
+      "image_file": "07_unknown.png"
+    },
+    {
+      "unit_type": null,
+      "bedrooms": 2,
+      "bathrooms": 2.0,
+      "total_sqft": 1281.0,
+      "total_sqft_source": "text_fallback",
+      "suite_sqft": null,
+      "suite_sqft_source": "",
+      "balcony_sqft": null,
+      "balcony_sqft_source": "",
+      "builtup_sqft": null,
+      "builtup_sqft_source": "",
+      "room_dimensions": {
+        "kitchen": "3.10x3.52",
+        "living_dining": "5.25x5.54",
+        "foyer": "3.10x1.92",
+        "laundry": "1.11x1.16",
+        "pwd_room": "1.30x2.45",
+        "corridor": "1.20x6.85",
+        "bedroom_01": "3.90x3.28",
+        "bathroom": "2.15x2.32",
+        "master_bedroom": "3.40x4.35",
+        "master_bathroom": "1.55x3.35",
+        "balcony": "1.80x4.90",
+        "balcony_2": "1.80x5.40"
+      },
+      "features": [
+        "laundry",
+        "pwd_room",
+        "master_bathroom",
+        "dual_balconies"
+      ],
+      "confidence": 0.85,
+      "is_duplicate": false,
+      "image_file": "08_unknown.png"
+    },
+    {
+      "unit_type": null,
+      "bedrooms": 3,
+      "bathrooms": 4.0,
+      "total_sqft": 1162.0,
+      "total_sqft_source": "text_fallback",
+      "suite_sqft": null,
+      "suite_sqft_source": "",
+      "balcony_sqft": null,
+      "balcony_sqft_source": "",
+      "builtup_sqft": null,
+      "builtup_sqft_source": "",
+      "room_dimensions": {
+        "master_bedroom": "3.30x3.65",
+        "bedroom_01": "3.15x4.01",
+        "bedroom_02": "3.07x4.01",
+        "master_bath": "3.35x2.68",
+        "bathroom": "2.57x2.84",
+        "bathroom_2": "1.42x2.13",
+        "walk_in_wardrobe": "2.15x1.75",
+        "corridor": "1.20x6.52",
+        "living_dining": "6.87x5.36",
+        "kitchen": "3.52x3.00",
+        "foyer": "1.50x3.00",
+        "pwd_room": "1.43x1.89",
+        "maids_room": "2.10x2.63",
+        "laundry_cum_store": "1.43x1.89",
+        "balcony": "12.70x1.80"
+      },
+      "features": [
+        "maid_room",
+        "walk_in_wardrobe",
+        "pwd_room",
+        "laundry_cum_store"
+      ],
+      "confidence": 0.95,
+      "is_duplicate": false,
+      "image_file": "09_unknown.png"
+    }
+  ],
+  "extraction_summary": {
+    "total_input": 12,
+    "total_extracted": 9,
+    "total_duplicates": 0,
+    "errors": [
+      {
+        "page": 21,
+        "error": "expected string or bytes-like object, got 'NoneType'"
+      },
+      {
+        "page": 23,
+        "error": "expected string or bytes-like object, got 'NoneType'"
+      }
+    ]
+  }
+}

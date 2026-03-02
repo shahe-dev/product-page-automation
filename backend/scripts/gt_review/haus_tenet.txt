@@ -1,0 +1,134 @@
+======================================================================
+  GROUND TRUTH REVIEW: haus_tenet
+======================================================================
+  File: Haus of Tenet Brochure Digital.pdf
+  Size: 46.3 MB, 79 pages
+  Format: RD (text quality: poor)
+  Notes: 79 pages, 46 MB. OFFICE building (87 clusters). Minimal floor plan content. Mostly marketing imagery.
+======================================================================
+
+INSTRUCTIONS:
+  1. Open the PDF in a viewer
+  2. For each floor plan page, verify/fill in the data below
+  3. Copy the JSON template at the bottom into the ground truth file
+
+FLOOR PLAN PAGES DETECTED: 16
+----------------------------------------------------------------------
+
+  Page 3: rooms: ['study']
+    text: index | 1. INTRODUCTION | ▪About IRTH | 3. ACT 1: FOR THE FEW | ▪The Lobby Expression | ▪Prestige Arrival | ▪The Den | ▪The Journey | 2. THE FIRST EXPRESSION | ▪Haus Of Tenet | ▪Location | ▪Sun Study | ▪The Ofﬁce Collection | ▪Building Conﬁguration | ▪Cluster Philosophy | ▪Floor Plans | ▪Workspace Conﬁgurations | ▪The Collectors Pro
+
+  Page 10: rooms: ['office']
+    text: Purpose-led architectural expression, where art informs form and  | design is driven by intent and every line, material and spatial decision is  | thoughtfully composed. | a First-of-its-kind, | Art-Led Office Destination
+
+  Page 18: rooms: ['office']
+    text: The Office Collection | A movement through shadows, designed for those who embody rare presence.
+
+  Page 21: rooms: ['office', 'terrace']
+    text: BUILDING | CONFIGURATION | The Office Collection | Delivered in shell & core, every workspace is | crafted for focus, clarity and presence. | Legend | Podium - 1 | Podium - 2 | Podium - 3 | Podium - 4 | Podium - 5 | Level -6 | Level -7 | Level -8 | Level -9 | Level -10 | Level -11 | Level -12 | Level -13 | Level -14 | Level -15 | Level -16 | 
+
+  Page 27: area_labels, rooms: ['terrace']
+    area_labels: [{'label': 'total', 'value': 4670.0}]
+    text: FLOOR 9 | CLUSTER 901  | 901A | 901b | EXCLUSIVE lobby | 2719 FT² | 1217 FT2 | 1332 FT2 | 170 FT2 | CLUSTER 902 | 902A | 902b | 902c | EXCLUSIVE lobby | 1592 FT2 | 619 FT2 | 1035 FT2 | 88 FT2 | CLUSTER 903 | 903A | 903b | EXCLUSIVE lobby | 1598 FT2 | 629 FT2 | 825 FT2 | 144 FT2 | 1618 FT2 | 876 FT2 | 596 FT2 | 146 FT2 | 8079 FT2 | 755 FT2 | 1723 FT2 | 1271 FT2 | 270
+
+  Page 29: area_labels, rooms: ['terrace']
+    area_labels: [{'label': 'total', 'value': 4670.0}]
+    text: FLOOR 12 | CLUSTER 1201  | 1201A | 1201b | EXCLUSIVE lobby | 2186 FT² | 953 FT² | 1063 FT² | 170 FT² | 533 FT² | 264 FT² | 269 FT² | CLUSTER 1202 | 1202A | 1202b | 1202c | EXCLUSIVE lobby | 1698 FT² | 885 FT² | 1688 FT² | 88 FT² | CLUSTER 1203 | 1203A | 1203b | EXCLUSIVE lobby | 2003 FT2 | 833 FT² | 1025 FT² | 145 FT² | 2018 FT2 | 1076 FT² | 796 FT² | 146 FT² | 67
+
+  Page 35: rooms: ['office']
+    text: classic office | CLASSIC OFFICE 805D | CLASSIC OFFICE CLUSTER 805 | internal area: | total area: | level: | dedicated parking: | occupancy: | 1571 FT² | 1571 FT² | 6, 8, 10-11, 13-19 | 3 | 15 | internal area: | total area: | level: | dedicated parking: | occupancy: | 6370 FT² | 6370 FT² | 6, 8, 10-11, 13-19 | 12 | 58
+
+  Page 36: rooms: ['office']
+    text: GARDEN OFFICE 706A | GARDEN OFFICE CLUSTER 706 | garden office | internal area: | outdoor area: | total area: | level: | dedicated parking: | occupancy: | 1939 FT² | 1751 FT² | 3690 FT² | 7 | 4 | 19 | internal area: | outdoor area: | total area: | level: | dedicated parking: | occupancy: | 3104 FT² | 2069 FT² | 5173 FT² | 7 | 6 | 29
+
+  Page 37: rooms: ['office', 'terrace']
+    text: terrace office | TERRACE OFFICE 1205D | TERRACE OFFICE CLUSTER 1205 | internal area: | outdoor area: | total area: | level: | dedicated parking: | occupancy: | 1730 FT² | 972 FT² | 2702 FT² | 9, 12 | 4 | 17 | internal area: | outdoor area: | total area: | level: | dedicated parking: | occupancy: | 6790 FT² | 1838 FT² | 8628 FT² | 9, 12 | 14 | 63
+
+  Page 42: rooms: ['dining', 'living']
+    text: A Cohesive, Elevated | Environment | Artworks across the lobby, dining spaces, gym,  | corridors, meeting areas and other amenities  | create a uniﬁed cultural experience that  | enhances desirability and tenant appeal. | Diverse, Appreciating | Portfolio | The collection blends works from emerging,  | established an
+
+  Page 53: rooms: ['guest']
+    text: an experience | for the few | Arrival at Haus of Tenet is composed,  | measured and deliberate. A moment of  | transition where pace slows, presence  | sharpens and control is instinctive. | Here, arrival is not announced, it is  | understood. An environment shaped for  | those who move with certainty, where  | discr
+
+  Page 55: rooms: ['guest']
+    text: Drop-off | Signature Guest Valet | A dedicated drop-off point offering seamless  | valet service for a signature guest experience
+
+  Page 67: rooms: ['entrance']
+    text: ENTRANCE | A movement through shadows, designed for those who embody rare presence.
+
+  Page 68: rooms: ['dining']
+    text: The foundation | Private Dining
+
+  Page 69: rooms: ['dining']
+    text: the bunker | A reﬁned destination where dining, connection and quiet exclusivity meet
+
+  Page 76: rooms: ['office']
+    text: LANDSCAPE ARCHITECT | ART TEAM | ID TEAM | CONSULTANTS | PROJECT | DETAILS | PROJECT NAME | HAUS OF TENET | DEVELOPER | IRTH GROUP | TOTAL PARKING BAYS | 600 ACROSS 5 FLOORS | GROSS FLOOR SIZE | 324,107 FT² | TOTAL OFFICE FLOORS | 15 | TOTAL NUMBER OF OFFICES | 87 CLUSTERS | UPTO 225 INDIVIDUAL OFFICE UNITS | TOTAL INDOOR & OUTDOOR | AMEN
+
+----------------------------------------------------------------------
+SUMMARY
+----------------------------------------------------------------------
+  All sqft values found: []
+  Unit types found: []
+  Bedroom counts found: []
+
+----------------------------------------------------------------------
+JSON TEMPLATE (copy into ground truth file)
+----------------------------------------------------------------------
+{
+  "brochure": "Haus of Tenet Brochure Digital.pdf",
+  "last_verified": "2026-02-XX",
+  "notes": "FILL IN: describe what you found",
+  "table_specs": [],
+  "table_spec_count": 0,
+  "text_assertions": {
+    "pages_with_floor_plan_text": [
+      3,
+      10,
+      18,
+      21,
+      27,
+      29,
+      35,
+      36,
+      37,
+      42,
+      53,
+      55,
+      67,
+      68,
+      69,
+      76
+    ],
+    "expected_unit_types_in_text": [],
+    "expected_area_labels_present": false
+  },
+  "floor_plans": [
+    {
+      "unit_type": null,
+      "bedrooms": null,
+      "bathrooms": null,
+      "total_sqft": 4670.0,
+      "suite_sqft": null,
+      "balcony_sqft": null
+    },
+    {
+      "unit_type": null,
+      "bedrooms": null,
+      "bathrooms": null,
+      "total_sqft": 4670.0,
+      "suite_sqft": null,
+      "balcony_sqft": null
+    }
+  ],
+  "total_unique_plans": 2,
+  "total_unique_plans_tolerance": 2,
+  "tolerances": {
+    "sqft_pct": 5.0,
+    "balcony_sqft_pct": 10.0,
+    "bedrooms_exact": true,
+    "bathrooms_exact": true
+  }
+}
+
+NOTE: The floor_plans above are INFERRED from text only. You MUST verify against the actual PDF. Plans with no text data (RD type) will be empty -- fill in manually.

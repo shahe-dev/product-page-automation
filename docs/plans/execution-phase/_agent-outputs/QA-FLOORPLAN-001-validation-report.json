@@ -1,0 +1,49 @@
+{
+  "report_id": "QA-FLOORPLAN-001",
+  "agent_id": "QA-FLOORPLAN-001",
+  "phase": "2 - Material Preparation",
+  "target_agent": "DEV-FLOORPLAN-001",
+  "validation_date": "2026-01-27",
+  "status": "PASSED",
+  "overall_score": 89,
+  "checklist": {
+    "vector_floor_plan_handling": {
+      "triple_extraction_input": {"status": "PASS", "notes": "Accepts ExtractedImage list from all sources + page_text_map"},
+      "llm_optimization": {"status": "PASS", "notes": "task=floor_plan_ocr uses 1568px max, PNG lossless"}
+    },
+    "data_extraction": {
+      "image_as_primary_source": {"status": "PASS", "notes": "Claude Vision OCR is primary extraction method"},
+      "text_fallback_only": {"status": "PASS", "notes": "Text used only when image lacks data"},
+      "page_proximity_verification": {"status": "PASS", "notes": "Text fallback limited to +/- 1 page"},
+      "no_unverified_association": {"status": "PASS", "notes": "Only verified text associated with floor plans"}
+    },
+    "structured_data_fields": {
+      "unit_type": {"status": "PASS", "notes": "Extracted with source tracking"},
+      "bedroom_count": {"status": "PASS", "notes": "Integer extraction"},
+      "bathroom_count": {"status": "PASS", "notes": "Supports .5 for half-bath"},
+      "total_area_sqft": {"status": "PASS", "notes": "Converted from sqm if needed"},
+      "balcony_area": {"status": "PASS", "notes": "Separate field"},
+      "builtup_area": {"status": "PASS", "notes": "Separate field"},
+      "features": {"status": "PASS", "notes": "List of features extracted"},
+      "room_dimensions": {"status": "PASS", "notes": "ONLY from image, never text"},
+      "per_field_source_tracking": {"status": "PASS", "notes": "floor_plan_image or text_fallback per field"},
+      "confidence_scores": {"status": "PASS", "notes": "Per-extraction confidence"}
+    },
+    "deduplication": {
+      "perceptual_hash": {"status": "PASS", "notes": "pHash calculated for all floor plans"},
+      "threshold_95": {"status": "PASS", "notes": "FLOOR_PLAN_SIMILARITY_THRESHOLD = 0.95"},
+      "cross_source_dedup": {"status": "PASS", "notes": "DeduplicationService handles cross-source"},
+      "duplicate_marking": {"status": "PASS", "notes": "is_duplicate flag in FloorPlanData"}
+    }
+  },
+  "test_coverage": {
+    "unit_tests": "backend/tests/test_floor_plan.py",
+    "estimated_coverage": "74%",
+    "critical_paths_covered": true
+  },
+  "issues_found": [],
+  "recommendations": [
+    "Add sqm-to-sqft conversion validation tests",
+    "Consider structured validation of room dimension format"
+  ]
+}

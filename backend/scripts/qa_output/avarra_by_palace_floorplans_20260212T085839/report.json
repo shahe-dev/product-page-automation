@@ -1,0 +1,277 @@
+{
+  "brochure": "AVARRA_BY_PALACE_FLOORPLANS_",
+  "timestamp": "20260212T085839",
+  "size_mb": 13.7,
+  "page_count": 28,
+  "table_extraction": {
+    "floor_plan_spec_count": 0,
+    "specs": [],
+    "errors": []
+  },
+  "text_extraction": [
+    {
+      "page": 2,
+      "unit_type": "75\nBEDROOM"
+    },
+    {
+      "page": 3,
+      "unit_type": "75\nBEDROOM",
+      "suite_sqft": 734.96,
+      "suite_sqft_confidence": 0.92,
+      "balcony_sqft": 63.51,
+      "balcony_sqft_confidence": 0.92,
+      "total_sqft": 798.47,
+      "total_sqft_confidence": 0.92
+    },
+    {
+      "page": 4,
+      "unit_type": "75\nBEDROOM",
+      "suite_sqft": 734.96,
+      "suite_sqft_confidence": 0.92,
+      "balcony_sqft": 63.51,
+      "balcony_sqft_confidence": 0.92,
+      "total_sqft": 798.47,
+      "total_sqft_confidence": 0.92
+    },
+    {
+      "page": 5,
+      "unit_type": "75\nBEDROOM",
+      "suite_sqft": 759.5,
+      "suite_sqft_confidence": 0.92,
+      "balcony_sqft": 57.48,
+      "balcony_sqft_confidence": 0.92,
+      "total_sqft": 816.98,
+      "total_sqft_confidence": 0.92
+    },
+    {
+      "page": 6,
+      "unit_type": "75\nBEDROOM",
+      "suite_sqft": 729.69,
+      "suite_sqft_confidence": 0.92,
+      "balcony_sqft": 63.51,
+      "balcony_sqft_confidence": 0.92,
+      "total_sqft": 793.2,
+      "total_sqft_confidence": 0.92
+    },
+    {
+      "page": 7,
+      "unit_type": "75\nBEDROOM",
+      "suite_sqft": 725.27,
+      "suite_sqft_confidence": 0.92,
+      "balcony_sqft": 63.51,
+      "balcony_sqft_confidence": 0.92,
+      "total_sqft": 788.78,
+      "total_sqft_confidence": 0.92
+    },
+    {
+      "page": 8,
+      "unit_type": "75\nBEDROOM",
+      "suite_sqft": 1158.52,
+      "suite_sqft_confidence": 0.92,
+      "balcony_sqft": 277.82,
+      "balcony_sqft_confidence": 0.92,
+      "total_sqft": 1436.34,
+      "total_sqft_confidence": 0.92
+    },
+    {
+      "page": 9,
+      "unit_type": "75\nBEDROOM",
+      "suite_sqft": 1151.85,
+      "suite_sqft_confidence": 0.92,
+      "balcony_sqft": 277.82,
+      "balcony_sqft_confidence": 0.92,
+      "total_sqft": 1429.67,
+      "total_sqft_confidence": 0.92
+    },
+    {
+      "page": 10,
+      "unit_type": "75\nBEDROOM",
+      "suite_sqft": 1142.91,
+      "suite_sqft_confidence": 0.92,
+      "balcony_sqft": 56.83,
+      "balcony_sqft_confidence": 0.92,
+      "total_sqft": 1199.74,
+      "total_sqft_confidence": 0.92
+    },
+    {
+      "page": 11,
+      "unit_type": "75\nBEDROOM",
+      "suite_sqft": 1172.62,
+      "suite_sqft_confidence": 0.92,
+      "balcony_sqft": 276.42,
+      "balcony_sqft_confidence": 0.92,
+      "total_sqft": 1449.04,
+      "total_sqft_confidence": 0.92
+    },
+    {
+      "page": 12,
+      "unit_type": "75\nBEDROOM",
+      "suite_sqft": 1167.13,
+      "suite_sqft_confidence": 0.92,
+      "balcony_sqft": 277.17,
+      "balcony_sqft_confidence": 0.92,
+      "total_sqft": 1444.3,
+      "total_sqft_confidence": 0.92
+    },
+    {
+      "page": 13,
+      "unit_type": "75\nBEDROOM",
+      "suite_sqft": 1159.7,
+      "suite_sqft_confidence": 0.92,
+      "balcony_sqft": 277.17,
+      "balcony_sqft_confidence": 0.92,
+      "total_sqft": 1436.87,
+      "total_sqft_confidence": 0.92
+    },
+    {
+      "page": 14,
+      "unit_type": "75\nBEDROOM",
+      "suite_sqft": 1152.06,
+      "suite_sqft_confidence": 0.92,
+      "balcony_sqft": 277.17,
+      "balcony_sqft_confidence": 0.92,
+      "total_sqft": 1429.23,
+      "total_sqft_confidence": 0.92
+    },
+    {
+      "page": 15,
+      "unit_type": "75\nBEDROOM",
+      "suite_sqft": 1140.33,
+      "suite_sqft_confidence": 0.92,
+      "balcony_sqft": 68.46,
+      "balcony_sqft_confidence": 0.92,
+      "total_sqft": 1208.79,
+      "total_sqft_confidence": 0.92
+    },
+    {
+      "page": 16,
+      "unit_type": "75\nBEDROOM",
+      "suite_sqft": 1075.96,
+      "suite_sqft_confidence": 0.92,
+      "balcony_sqft": 126.69,
+      "balcony_sqft_confidence": 0.92,
+      "total_sqft": 1202.65,
+      "total_sqft_confidence": 0.92
+    },
+    {
+      "page": 17,
+      "unit_type": "75\nBEDROOM",
+      "suite_sqft": 1144.63,
+      "suite_sqft_confidence": 0.92,
+      "balcony_sqft": 69.43,
+      "balcony_sqft_confidence": 0.92,
+      "total_sqft": 1214.06,
+      "total_sqft_confidence": 0.92
+    },
+    {
+      "page": 18,
+      "unit_type": "75\nBEDROOM",
+      "suite_sqft": 1143.88,
+      "suite_sqft_confidence": 0.92,
+      "balcony_sqft": 69.32,
+      "balcony_sqft_confidence": 0.92,
+      "total_sqft": 1213.2,
+      "total_sqft_confidence": 0.92
+    },
+    {
+      "page": 19,
+      "unit_type": "75\nBEDROOM",
+      "suite_sqft": 1166.05,
+      "suite_sqft_confidence": 0.92,
+      "balcony_sqft": 277.28,
+      "balcony_sqft_confidence": 0.92,
+      "total_sqft": 1443.33,
+      "total_sqft_confidence": 0.92
+    },
+    {
+      "page": 20,
+      "unit_type": "75\nBEDROOM",
+      "suite_sqft": 1500.49,
+      "suite_sqft_confidence": 0.92,
+      "balcony_sqft": 336.91,
+      "balcony_sqft_confidence": 0.92,
+      "total_sqft": 1837.4,
+      "total_sqft_confidence": 0.92
+    },
+    {
+      "page": 21,
+      "unit_type": "75\nBEDROOM",
+      "suite_sqft": 1511.68,
+      "suite_sqft_confidence": 0.92,
+      "balcony_sqft": 336.8,
+      "balcony_sqft_confidence": 0.92,
+      "total_sqft": 1848.48,
+      "total_sqft_confidence": 0.92
+    },
+    {
+      "page": 22,
+      "unit_type": "75\nBEDROOM",
+      "suite_sqft": 1483.59,
+      "suite_sqft_confidence": 0.92,
+      "balcony_sqft": 337.23,
+      "balcony_sqft_confidence": 0.92,
+      "total_sqft": 1820.82,
+      "total_sqft_confidence": 0.92
+    },
+    {
+      "page": 23,
+      "unit_type": "75\nBEDROOM",
+      "suite_sqft": 1480.79,
+      "suite_sqft_confidence": 0.92,
+      "balcony_sqft": 337.56,
+      "balcony_sqft_confidence": 0.92,
+      "total_sqft": 1818.35,
+      "total_sqft_confidence": 0.92
+    },
+    {
+      "page": 24,
+      "unit_type": "75\nBEDROOM",
+      "suite_sqft": 1571.42,
+      "suite_sqft_confidence": 0.92,
+      "balcony_sqft": 69.32,
+      "balcony_sqft_confidence": 0.92,
+      "total_sqft": 1640.74,
+      "total_sqft_confidence": 0.92
+    },
+    {
+      "page": 25,
+      "unit_type": "75\nBEDROOM",
+      "suite_sqft": 3130.36,
+      "suite_sqft_confidence": 0.92,
+      "balcony_sqft": 1665.07,
+      "balcony_sqft_confidence": 0.92,
+      "total_sqft": 4795.43,
+      "total_sqft_confidence": 0.92
+    },
+    {
+      "page": 26,
+      "unit_type": "75\nBEDROOM",
+      "suite_sqft": 3127.56,
+      "suite_sqft_confidence": 0.92,
+      "balcony_sqft": 1098.13,
+      "balcony_sqft_confidence": 0.92,
+      "total_sqft": 4225.69,
+      "total_sqft_confidence": 0.92
+    },
+    {
+      "page": 27,
+      "unit_type": "75\nBEDROOM",
+      "suite_sqft": 3130.36,
+      "suite_sqft_confidence": 0.92,
+      "balcony_sqft": 1304.91,
+      "balcony_sqft_confidence": 0.92,
+      "total_sqft": 4435.27,
+      "total_sqft_confidence": 0.92
+    },
+    {
+      "page": 28,
+      "unit_type": "75\nBEDROOM",
+      "suite_sqft": 11030.32,
+      "suite_sqft_confidence": 0.92,
+      "balcony_sqft": 3830.77,
+      "balcony_sqft_confidence": 0.92,
+      "total_sqft": 14861.09,
+      "total_sqft_confidence": 0.92
+    }
+  ]
+}

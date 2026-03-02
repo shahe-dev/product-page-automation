@@ -1,0 +1,150 @@
+======================================================================
+  GROUND TRUTH REVIEW: expo_valley_fp
+======================================================================
+  File: Expo_Valley_Views_Floor_Plans_Ghadeer.pdf
+  Size: 3.0 MB, 9 pages
+  Format: TS (text quality: moderate)
+  Notes: 9 pages. Floor plans document (separate from main brochure). Area tables with 8 unit types.
+======================================================================
+
+INSTRUCTIONS:
+  1. Open the PDF in a viewer
+  2. For each floor plan page, verify/fill in the data below
+  3. Copy the JSON template at the bottom into the ground truth file
+
+FLOOR PLAN PAGES DETECTED: 7
+----------------------------------------------------------------------
+
+  Page 3: bedrooms: ['1', '2', '3', '1', '2', '3', '1', '2', '3'], unit_types: ['1', '2', '3', '4', '1']
+    text: First Floor | 1BR  | 2BR - Type 1 / Type 2 / Type 3 / Type 4 | 3BR - Type 1  | 1BR  | 2BR - Type 1 / Type 2 / Type 3 / Type 4 | 3BR - Type 1  | 1BR  | 2BR - Type 1 / Type 2 / Type 3 / Type 4 | 3BR - Type 1  | Typical Floor | From 2   Floor to 11  Floor | nd | th | Typical Top Floor | From 12  Floor to 14  Floor | th | th | 01 | FLOOR PL
+
+  Page 4: sqft (3 values), sqm (3 values), unit_types: ['PLANS', 'plans'], rooms: ['balcony']
+    sqft_values: [776.0, 119.0, 895.0]
+    sqm_values: [72.0, 11.0, 83.0]
+    text: 02 | UNIT PLANS | 1. All room dimensions are in metric and measured to structural elements, and exclude wall ﬁnishes and construction tolerances. 2. All dimensions have been provided by our consultant architects. 3. All materials,  | dimensions, drawings, features and amenities, are approximate at the tim
+
+  Page 5: sqft (3 values), sqm (3 values), unit_types: ['PLANS', 'plans', '01'], rooms: ['balcony']
+    sqft_values: [1165.0, 200.0, 1361.0]
+    sqm_values: [108.0, 19.0, 126.0]
+    text: 03 | UNIT PLANS | 1. All room dimensions are in metric and measured to structural elements, and exclude wall ﬁnishes and construction tolerances. 2. All dimensions have been provided by our consultant architects. 3. All materials,  | dimensions, drawings, features and amenities, are approximate at the tim
+
+  Page 6: sqft (3 values), sqm (3 values), unit_types: ['PLANS', 'plans', '02'], rooms: ['balcony']
+    sqft_values: [1281.0, 216.0, 1497.0]
+    sqm_values: [119.0, 20.0, 139.0]
+    text: 04 | UNIT PLANS | 1. All room dimensions are in metric and measured to structural elements, and exclude wall ﬁnishes and construction tolerances. 2. All dimensions have been provided by our consultant architects. 3. All materials,  | dimensions, drawings, features and amenities, are approximate at the tim
+
+  Page 7: sqft (3 values), sqm (3 values), unit_types: ['PLANS', 'plans', '03'], rooms: ['balcony']
+    sqft_values: [1253.0, 219.0, 1471.0]
+    sqm_values: [116.0, 20.0, 137.0]
+    text: 05 | UNIT PLANS | 1. All room dimensions are in metric and measured to structural elements, and exclude wall ﬁnishes and construction tolerances. 2. All dimensions have been provided by our consultant architects. 3. All materials,  | dimensions, drawings, features and amenities, are approximate at the tim
+
+  Page 8: sqft (3 values), sqm (3 values), unit_types: ['PLANS', 'plans', '04'], rooms: ['balcony']
+    sqft_values: [1162.0, 201.0, 1788.0]
+    sqm_values: [108.0, 19.0, 166.0]
+    text: 06 | UNIT PLANS | 1. All room dimensions are in metric and measured to structural elements, and exclude wall ﬁnishes and construction tolerances. 2. All dimensions have been provided by our consultant architects. 3. All materials,  | dimensions, drawings, features and amenities, are approximate at the tim
+
+  Page 9: sqft (3 values), sqm (3 values), unit_types: ['PLANS', 'plans', '01'], rooms: ['balcony']
+    sqft_values: [1559.0, 269.0, 2403.0]
+    sqm_values: [145.0, 25.0, 223.0]
+    text: 07 | UNIT PLANS | 1. All room dimensions are in metric and measured to structural elements, and exclude wall ﬁnishes and construction tolerances. 2. All dimensions have been provided by our consultant architects. 3. All materials,  | dimensions, drawings, features and amenities, are approximate at the tim
+
+----------------------------------------------------------------------
+SUMMARY
+----------------------------------------------------------------------
+  All sqft values found: [119.0, 200.0, 201.0, 216.0, 219.0, 269.0, 776.0, 895.0, 1162.0, 1165.0, 1253.0, 1281.0, 1361.0, 1471.0, 1497.0, 1559.0, 1788.0, 2403.0]
+  Unit types found: ['01', '02', '03', '04', '1', '2', '3', '4', 'PLANS']
+  Bedroom counts found: ['1', '2', '3']
+
+----------------------------------------------------------------------
+JSON TEMPLATE (copy into ground truth file)
+----------------------------------------------------------------------
+{
+  "brochure": "Expo_Valley_Views_Floor_Plans_Ghadeer.pdf",
+  "last_verified": "2026-02-XX",
+  "notes": "FILL IN: describe what you found",
+  "table_specs": [],
+  "table_spec_count": 0,
+  "text_assertions": {
+    "pages_with_floor_plan_text": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "expected_unit_types_in_text": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "1",
+      "2",
+      "3",
+      "4",
+      "PLANS"
+    ],
+    "expected_area_labels_present": true
+  },
+  "floor_plans": [
+    {
+      "unit_type": "PLANS",
+      "bedrooms": null,
+      "bathrooms": null,
+      "total_sqft": 895.0,
+      "suite_sqft": null,
+      "balcony_sqft": null
+    },
+    {
+      "unit_type": "PLANS",
+      "bedrooms": null,
+      "bathrooms": null,
+      "total_sqft": 1361.0,
+      "suite_sqft": null,
+      "balcony_sqft": null
+    },
+    {
+      "unit_type": "PLANS",
+      "bedrooms": null,
+      "bathrooms": null,
+      "total_sqft": 1497.0,
+      "suite_sqft": null,
+      "balcony_sqft": null
+    },
+    {
+      "unit_type": "PLANS",
+      "bedrooms": null,
+      "bathrooms": null,
+      "total_sqft": 1471.0,
+      "suite_sqft": null,
+      "balcony_sqft": null
+    },
+    {
+      "unit_type": "PLANS",
+      "bedrooms": null,
+      "bathrooms": null,
+      "total_sqft": 1788.0,
+      "suite_sqft": null,
+      "balcony_sqft": null
+    },
+    {
+      "unit_type": "PLANS",
+      "bedrooms": null,
+      "bathrooms": null,
+      "total_sqft": 2403.0,
+      "suite_sqft": null,
+      "balcony_sqft": null
+    }
+  ],
+  "total_unique_plans": 6,
+  "total_unique_plans_tolerance": 2,
+  "tolerances": {
+    "sqft_pct": 5.0,
+    "balcony_sqft_pct": 10.0,
+    "bedrooms_exact": true,
+    "bathrooms_exact": true
+  }
+}
+
+NOTE: The floor_plans above are INFERRED from text only. You MUST verify against the actual PDF. Plans with no text data (RD type) will be empty -- fill in manually.

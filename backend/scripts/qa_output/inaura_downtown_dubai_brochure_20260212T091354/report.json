@@ -1,0 +1,243 @@
+{
+  "brochure": "INAURA_DOWNTOWN-DUBAI_BROCHURE",
+  "timestamp": "20260212T091354",
+  "size_mb": 14.5,
+  "page_count": 100,
+  "table_extraction": {
+    "floor_plan_spec_count": 1,
+    "specs": [
+      {
+        "bedrooms": 4
+      }
+    ],
+    "errors": []
+  },
+  "text_extraction": [
+    {
+      "page": 10,
+      "unit_type": "studio"
+    },
+    {
+      "page": 11,
+      "unit_type": "studio"
+    },
+    {
+      "page": 12,
+      "unit_type": "studio"
+    },
+    {
+      "page": 27,
+      "unit_type": "2BR"
+    },
+    {
+      "page": 28,
+      "unit_type": "2BR"
+    },
+    {
+      "page": 29,
+      "unit_type": "2BR"
+    },
+    {
+      "page": 30,
+      "unit_type": "3BR"
+    },
+    {
+      "page": 31,
+      "unit_type": "2BR"
+    },
+    {
+      "page": 32,
+      "unit_type": "2BR"
+    },
+    {
+      "page": 33,
+      "unit_type": "4BR"
+    },
+    {
+      "page": 34,
+      "unit_type": "5BR\nD"
+    },
+    {
+      "page": 35,
+      "unit_type": "5BR\nD"
+    },
+    {
+      "page": 36,
+      "unit_type": "6BR P"
+    },
+    {
+      "page": 37,
+      "unit_type": "6BR P"
+    },
+    {
+      "page": 38,
+      "unit_type": "6BR P"
+    },
+    {
+      "page": 42,
+      "unit_type": "6 Bedroom \nP"
+    },
+    {
+      "page": 43,
+      "unit_type": "6 Bedroom \nP"
+    },
+    {
+      "page": 44,
+      "unit_type": "6 Bedroom \nP",
+      "suite_sqft": 580.0,
+      "suite_sqft_confidence": 0.92,
+      "balcony_sqft": 125.0,
+      "balcony_sqft_confidence": 0.92,
+      "total_sqft": 705.0,
+      "total_sqft_confidence": 0.92
+    },
+    {
+      "page": 46,
+      "unit_type": "1 Bedroom - B",
+      "suite_sqft": 590.0,
+      "suite_sqft_confidence": 0.92,
+      "balcony_sqft": 125.0,
+      "balcony_sqft_confidence": 0.92,
+      "total_sqft": 715.0,
+      "total_sqft_confidence": 0.92
+    },
+    {
+      "page": 48,
+      "unit_type": "2 Bedroom - A",
+      "suite_sqft": 987.0,
+      "suite_sqft_confidence": 0.92,
+      "balcony_sqft": 285.0,
+      "balcony_sqft_confidence": 0.92,
+      "total_sqft": 1272.0,
+      "total_sqft_confidence": 0.92
+    },
+    {
+      "page": 49,
+      "unit_type": "2 Bedroom - A",
+      "suite_sqft": 1174.0,
+      "suite_sqft_confidence": 0.92,
+      "balcony_sqft": 453.0,
+      "balcony_sqft_confidence": 0.92,
+      "total_sqft": 1627.0,
+      "total_sqft_confidence": 0.92
+    },
+    {
+      "page": 50,
+      "unit_type": "2 Bedroom - B",
+      "suite_sqft": 1177.0,
+      "suite_sqft_confidence": 0.92,
+      "balcony_sqft": 249.0,
+      "balcony_sqft_confidence": 0.92,
+      "total_sqft": 1426.0,
+      "total_sqft_confidence": 0.92
+    },
+    {
+      "page": 51,
+      "unit_type": "2 Bedroom - C",
+      "suite_sqft": 1095.0,
+      "suite_sqft_confidence": 0.92,
+      "balcony_sqft": 249.0,
+      "balcony_sqft_confidence": 0.92,
+      "total_sqft": 1344.0,
+      "total_sqft_confidence": 0.92
+    },
+    {
+      "page": 55,
+      "unit_type": "3 Bedroom \nM"
+    },
+    {
+      "page": 56,
+      "unit_type": "3 Bedroom \nM",
+      "suite_sqft": 1995.0,
+      "suite_sqft_confidence": 0.92,
+      "balcony_sqft": 879.0,
+      "balcony_sqft_confidence": 0.92,
+      "total_sqft": 2874.0,
+      "total_sqft_confidence": 0.92
+    },
+    {
+      "page": 57,
+      "unit_type": "3 Bedroom \nM",
+      "suite_sqft": 3120.0,
+      "suite_sqft_confidence": 0.92,
+      "balcony_sqft": 914.0,
+      "balcony_sqft_confidence": 0.92,
+      "total_sqft": 4034.0,
+      "total_sqft_confidence": 0.92
+    },
+    {
+      "page": 59,
+      "unit_type": "5 Bedroom D"
+    },
+    {
+      "page": 60,
+      "unit_type": "5 Bedroom D",
+      "suite_sqft": 3144.0,
+      "suite_sqft_confidence": 0.92,
+      "balcony_sqft": 1580.0,
+      "balcony_sqft_confidence": 0.92,
+      "total_sqft": 7449.0,
+      "total_sqft_confidence": 0.92
+    },
+    {
+      "page": 61,
+      "unit_type": "5 Bedroom D"
+    },
+    {
+      "page": 62,
+      "unit_type": "5 Bedroom D",
+      "suite_sqft": 3147.0,
+      "suite_sqft_confidence": 0.92,
+      "balcony_sqft": 912.0,
+      "balcony_sqft_confidence": 0.92,
+      "total_sqft": 6781.0,
+      "total_sqft_confidence": 0.92
+    },
+    {
+      "page": 63,
+      "unit_type": "5 Bedroom D"
+    },
+    {
+      "page": 66,
+      "unit_type": "6 Bedroom",
+      "suite_sqft": 6445.0,
+      "suite_sqft_confidence": 0.92,
+      "balcony_sqft": 2531.0,
+      "balcony_sqft_confidence": 0.92,
+      "total_sqft": 17770.0,
+      "total_sqft_confidence": 0.92
+    },
+    {
+      "page": 67,
+      "unit_type": "6 Bedroom",
+      "total_sqft": 3119.0,
+      "total_sqft_confidence": 0.6
+    },
+    {
+      "page": 68,
+      "unit_type": "6 Bedroom",
+      "total_sqft": 934.0,
+      "total_sqft_confidence": 0.6
+    },
+    {
+      "page": 86,
+      "unit_type": "studio"
+    },
+    {
+      "page": 87,
+      "unit_type": "studio"
+    },
+    {
+      "page": 88,
+      "unit_type": "studio"
+    },
+    {
+      "page": 89,
+      "unit_type": "STUDIO"
+    },
+    {
+      "page": 90,
+      "unit_type": "STUDIO"
+    }
+  ]
+}

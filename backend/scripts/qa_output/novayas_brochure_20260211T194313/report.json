@@ -1,0 +1,45 @@
+{
+  "brochure": "NOVAYAS Brochure",
+  "timestamp": "20260211T194313",
+  "size_mb": 15.1,
+  "page_count": 32,
+  "table_extraction": {
+    "floor_plan_spec_count": 0,
+    "specs": [],
+    "errors": []
+  },
+  "text_extraction": [
+    {
+      "page": 15,
+      "unit_type": "STUDIO"
+    },
+    {
+      "page": 16,
+      "unit_type": "STUDIO"
+    },
+    {
+      "page": 17,
+      "unit_type": "STUDIO"
+    },
+    {
+      "page": 18,
+      "unit_type": "STUDIO"
+    },
+    {
+      "page": 19,
+      "unit_type": "STUDIO"
+    },
+    {
+      "page": 28,
+      "unit_type": "PENTHOUSE"
+    },
+    {
+      "page": 29,
+      "unit_type": "PENTHOUSE"
+    },
+    {
+      "page": 30,
+      "unit_type": "PENTHOUSE"
+    }
+  ]
+}

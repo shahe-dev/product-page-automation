@@ -1,0 +1,677 @@
+{
+  "sheet_data": {
+    "sheet_title": "Aggregators Template",
+    "sheet_id": "YOUR_AGGREGATORS_SHEET_ID",
+    "total_rows": 105,
+    "fields": [
+      {
+        "row": 1,
+        "label": "Field",
+        "cell": "A1",
+        "value_cell": "B1"
+      },
+      {
+        "row": 3,
+        "label": "SEO",
+        "cell": "A3",
+        "value_cell": "B3"
+      },
+      {
+        "row": 4,
+        "label": "Meta Title",
+        "cell": "A4",
+        "value_cell": "B4"
+      },
+      {
+        "row": 5,
+        "label": "Meta Description",
+        "cell": "A5",
+        "value_cell": "B5"
+      },
+      {
+        "row": 6,
+        "label": "URL Slug",
+        "cell": "A6",
+        "value_cell": "B6"
+      },
+      {
+        "row": 7,
+        "label": "Image Alt Tag",
+        "cell": "A7",
+        "value_cell": "B7"
+      },
+      {
+        "row": 9,
+        "label": "HERO SECTION",
+        "cell": "A9",
+        "value_cell": "B9"
+      },
+      {
+        "row": 10,
+        "label": "H1",
+        "cell": "A10",
+        "value_cell": "B10"
+      },
+      {
+        "row": 11,
+        "label": "Hero Description",
+        "cell": "A11",
+        "value_cell": "B11"
+      },
+      {
+        "row": 12,
+        "label": "Starting Price",
+        "cell": "A12",
+        "value_cell": "B12"
+      },
+      {
+        "row": 13,
+        "label": "Payment Plan",
+        "cell": "A13",
+        "value_cell": "B13"
+      },
+      {
+        "row": 14,
+        "label": "Handover",
+        "cell": "A14",
+        "value_cell": "B14"
+      },
+      {
+        "row": 15,
+        "label": "CTA Button",
+        "cell": "A15",
+        "value_cell": "B15"
+      },
+      {
+        "row": 17,
+        "label": "ABOUT SECTION",
+        "cell": "A17",
+        "value_cell": "B17"
+      },
+      {
+        "row": 18,
+        "label": "About H2",
+        "cell": "A18",
+        "value_cell": "B18"
+      },
+      {
+        "row": 19,
+        "label": "About Description",
+        "cell": "A19",
+        "value_cell": "B19"
+      },
+      {
+        "row": 20,
+        "label": "Selling Point 1",
+        "cell": "A20",
+        "value_cell": "B20"
+      },
+      {
+        "row": 21,
+        "label": "Selling Point 2",
+        "cell": "A21",
+        "value_cell": "B21"
+      },
+      {
+        "row": 22,
+        "label": "Selling Point 3",
+        "cell": "A22",
+        "value_cell": "B22"
+      },
+      {
+        "row": 23,
+        "label": "Selling Point 4",
+        "cell": "A23",
+        "value_cell": "B23"
+      },
+      {
+        "row": 24,
+        "label": "Selling Point 5",
+        "cell": "A24",
+        "value_cell": "B24"
+      },
+      {
+        "row": 26,
+        "label": "PROJECT DETAILS",
+        "cell": "A26",
+        "value_cell": "B26"
+      },
+      {
+        "row": 27,
+        "label": "Developer",
+        "cell": "A27",
+        "value_cell": "B27"
+      },
+      {
+        "row": 28,
+        "label": "Location",
+        "cell": "A28",
+        "value_cell": "B28"
+      },
+      {
+        "row": 29,
+        "label": "Property Types",
+        "cell": "A29",
+        "value_cell": "B29"
+      },
+      {
+        "row": 30,
+        "label": "Bedrooms",
+        "cell": "A30",
+        "value_cell": "B30"
+      },
+      {
+        "row": 31,
+        "label": "Starting Price",
+        "cell": "A31",
+        "value_cell": "B31"
+      },
+      {
+        "row": 32,
+        "label": "Handover",
+        "cell": "A32",
+        "value_cell": "B32"
+      },
+      {
+        "row": 33,
+        "label": "Payment Plan",
+        "cell": "A33",
+        "value_cell": "B33"
+      },
+      {
+        "row": 35,
+        "label": "AMENITIES SECTION",
+        "cell": "A35",
+        "value_cell": "B35"
+      },
+      {
+        "row": 36,
+        "label": "Amenities H2",
+        "cell": "A36",
+        "value_cell": "B36"
+      },
+      {
+        "row": 37,
+        "label": "Amenity 1 Title",
+        "cell": "A37",
+        "value_cell": "B37"
+      },
+      {
+        "row": 38,
+        "label": "Amenity 1 Description",
+        "cell": "A38",
+        "value_cell": "B38"
+      },
+      {
+        "row": 39,
+        "label": "Amenity 2 Title",
+        "cell": "A39",
+        "value_cell": "B39"
+      },
+      {
+        "row": 40,
+        "label": "Amenity 2 Description",
+        "cell": "A40",
+        "value_cell": "B40"
+      },
+      {
+        "row": 41,
+        "label": "Amenity 3 Title",
+        "cell": "A41",
+        "value_cell": "B41"
+      },
+      {
+        "row": 42,
+        "label": "Amenity 3 Description",
+        "cell": "A42",
+        "value_cell": "B42"
+      },
+      {
+        "row": 43,
+        "label": "Amenity 4 Title",
+        "cell": "A43",
+        "value_cell": "B43"
+      },
+      {
+        "row": 44,
+        "label": "Amenity 4 Description",
+        "cell": "A44",
+        "value_cell": "B44"
+      },
+      {
+        "row": 45,
+        "label": "Amenity 5 Title",
+        "cell": "A45",
+        "value_cell": "B45"
+      },
+      {
+        "row": 46,
+        "label": "Amenity 5 Description",
+        "cell": "A46",
+        "value_cell": "B46"
+      },
+      {
+        "row": 48,
+        "label": "PAYMENT PLAN SECTION",
+        "cell": "A48",
+        "value_cell": "B48"
+      },
+      {
+        "row": 49,
+        "label": "Payment H2",
+        "cell": "A49",
+        "value_cell": "B49"
+      },
+      {
+        "row": 50,
+        "label": "Payment Description",
+        "cell": "A50",
+        "value_cell": "B50"
+      },
+      {
+        "row": 51,
+        "label": "Milestone 1 - Name",
+        "cell": "A51",
+        "value_cell": "B51"
+      },
+      {
+        "row": 52,
+        "label": "Milestone 1 - Percentage",
+        "cell": "A52",
+        "value_cell": "B52"
+      },
+      {
+        "row": 53,
+        "label": "Milestone 1 - Date",
+        "cell": "A53",
+        "value_cell": "B53"
+      },
+      {
+        "row": 54,
+        "label": "Milestone 2 - Name",
+        "cell": "A54",
+        "value_cell": "B54"
+      },
+      {
+        "row": 55,
+        "label": "Milestone 2 - Percentage",
+        "cell": "A55",
+        "value_cell": "B55"
+      },
+      {
+        "row": 56,
+        "label": "Milestone 2 - Schedule",
+        "cell": "A56",
+        "value_cell": "B56"
+      },
+      {
+        "row": 57,
+        "label": "Milestone 3 - Name",
+        "cell": "A57",
+        "value_cell": "B57"
+      },
+      {
+        "row": 58,
+        "label": "Milestone 3 - Percentage",
+        "cell": "A58",
+        "value_cell": "B58"
+      },
+      {
+        "row": 59,
+        "label": "Milestone 3 - Date",
+        "cell": "A59",
+        "value_cell": "B59"
+      },
+      {
+        "row": 60,
+        "label": "CTA Button",
+        "cell": "A60",
+        "value_cell": "B60"
+      },
+      {
+        "row": 62,
+        "label": "LOCATION SECTION",
+        "cell": "A62",
+        "value_cell": "B62"
+      },
+      {
+        "row": 63,
+        "label": "Location H2",
+        "cell": "A63",
+        "value_cell": "B63"
+      },
+      {
+        "row": 64,
+        "label": "Location Description",
+        "cell": "A64",
+        "value_cell": "B64"
+      },
+      {
+        "row": 65,
+        "label": "Nearby 1 - Name",
+        "cell": "A65",
+        "value_cell": "B65"
+      },
+      {
+        "row": 66,
+        "label": "Nearby 1 - Distance",
+        "cell": "A66",
+        "value_cell": "B66"
+      },
+      {
+        "row": 67,
+        "label": "Nearby 2 - Name",
+        "cell": "A67",
+        "value_cell": "B67"
+      },
+      {
+        "row": 68,
+        "label": "Nearby 2 - Distance",
+        "cell": "A68",
+        "value_cell": "B68"
+      },
+      {
+        "row": 69,
+        "label": "Nearby 3 - Name",
+        "cell": "A69",
+        "value_cell": "B69"
+      },
+      {
+        "row": 70,
+        "label": "Nearby 3 - Distance",
+        "cell": "A70",
+        "value_cell": "B70"
+      },
+      {
+        "row": 71,
+        "label": "Nearby 4 - Name",
+        "cell": "A71",
+        "value_cell": "B71"
+      },
+      {
+        "row": 72,
+        "label": "Nearby 4 - Distance",
+        "cell": "A72",
+        "value_cell": "B72"
+      },
+      {
+        "row": 74,
+        "label": "DEVELOPER SECTION",
+        "cell": "A74",
+        "value_cell": "B74"
+      },
+      {
+        "row": 75,
+        "label": "Developer H2",
+        "cell": "A75",
+        "value_cell": "B75"
+      },
+      {
+        "row": 76,
+        "label": "Developer Description",
+        "cell": "A76",
+        "value_cell": "B76"
+      },
+      {
+        "row": 78,
+        "label": "FLOOR PLANS SECTION",
+        "cell": "A78",
+        "value_cell": "B78"
+      },
+      {
+        "row": 79,
+        "label": "Floor Plans H2",
+        "cell": "A79",
+        "value_cell": "B79"
+      },
+      {
+        "row": 80,
+        "label": "Unit Type 1 - Name",
+        "cell": "A80",
+        "value_cell": "B80"
+      },
+      {
+        "row": 81,
+        "label": "Unit Type 1 - Area",
+        "cell": "A81",
+        "value_cell": "B81"
+      },
+      {
+        "row": 82,
+        "label": "Unit Type 1 - Price",
+        "cell": "A82",
+        "value_cell": "B82"
+      },
+      {
+        "row": 83,
+        "label": "Unit Type 2 - Name",
+        "cell": "A83",
+        "value_cell": "B83"
+      },
+      {
+        "row": 84,
+        "label": "Unit Type 2 - Area",
+        "cell": "A84",
+        "value_cell": "B84"
+      },
+      {
+        "row": 85,
+        "label": "Unit Type 2 - Price",
+        "cell": "A85",
+        "value_cell": "B85"
+      },
+      {
+        "row": 86,
+        "label": "Unit Type 3 - Name",
+        "cell": "A86",
+        "value_cell": "B86"
+      },
+      {
+        "row": 87,
+        "label": "Unit Type 3 - Area",
+        "cell": "A87",
+        "value_cell": "B87"
+      },
+      {
+        "row": 88,
+        "label": "Unit Type 3 - Price",
+        "cell": "A88",
+        "value_cell": "B88"
+      },
+      {
+        "row": 89,
+        "label": "Unit Type 4 - Name",
+        "cell": "A89",
+        "value_cell": "B89"
+      },
+      {
+        "row": 90,
+        "label": "Unit Type 4 - Area",
+        "cell": "A90",
+        "value_cell": "B90"
+      },
+      {
+        "row": 91,
+        "label": "Unit Type 4 - Price",
+        "cell": "A91",
+        "value_cell": "B91"
+      },
+      {
+        "row": 92,
+        "label": "CTA Button",
+        "cell": "A92",
+        "value_cell": "B92"
+      },
+      {
+        "row": 94,
+        "label": "FAQ SECTION",
+        "cell": "A94",
+        "value_cell": "B94"
+      },
+      {
+        "row": 95,
+        "label": "FAQ H2",
+        "cell": "A95",
+        "value_cell": "B95"
+      },
+      {
+        "row": 96,
+        "label": "FAQ 1 - Question",
+        "cell": "A96",
+        "value_cell": "B96"
+      },
+      {
+        "row": 97,
+        "label": "FAQ 1 - Answer",
+        "cell": "A97",
+        "value_cell": "B97"
+      },
+      {
+        "row": 98,
+        "label": "FAQ 2 - Question",
+        "cell": "A98",
+        "value_cell": "B98"
+      },
+      {
+        "row": 99,
+        "label": "FAQ 2 - Answer",
+        "cell": "A99",
+        "value_cell": "B99"
+      },
+      {
+        "row": 100,
+        "label": "FAQ 3 - Question",
+        "cell": "A100",
+        "value_cell": "B100"
+      },
+      {
+        "row": 101,
+        "label": "FAQ 3 - Answer",
+        "cell": "A101",
+        "value_cell": "B101"
+      },
+      {
+        "row": 102,
+        "label": "FAQ 4 - Question",
+        "cell": "A102",
+        "value_cell": "B102"
+      },
+      {
+        "row": 103,
+        "label": "FAQ 4 - Answer",
+        "cell": "A103",
+        "value_cell": "B103"
+      },
+      {
+        "row": 104,
+        "label": "FAQ 5 - Question",
+        "cell": "A104",
+        "value_cell": "B104"
+      },
+      {
+        "row": 105,
+        "label": "FAQ 5 - Answer",
+        "cell": "A105",
+        "value_cell": "B105"
+      }
+    ]
+  },
+  "prompt_data": {
+    "common_fields": {
+      "meta_title": "Meta Title",
+      "meta_description": "Meta Description",
+      "url_slug": "URL Slug",
+      "image_alt_tag": "Image Alt Tag",
+      "h1": "H1",
+      "short_paragraph": "Short Paragraph / Short Description",
+      "hero_paragraph": "Hero Paragraph",
+      "feature_1_title": "Feature 1 Title / Highlight 1 Title",
+      "feature_1_desc": "Feature 1 Description",
+      "feature_2_title": "Feature 2 Title",
+      "feature_2_desc": "Feature 2 Description",
+      "feature_3_title": "Feature 3 Title",
+      "feature_3_desc": "Feature 3 Description",
+      "developer": "Developer",
+      "location": "Location",
+      "payment_plan": "Payment Plan (X/X format)",
+      "area_size_range": "Area / Size Range (sq ft)",
+      "property_type": "Property Type",
+      "starting_price": "Starting Price",
+      "bedrooms": "Bedrooms / Unit Mix",
+      "handover": "Handover Date (QX 20XX)",
+      "about_project_h2": "About [Project Name] H2",
+      "about_project_h3": "About Project H3 Subtitle",
+      "about_project_paragraph": "About Project Paragraph",
+      "economic_appeal_h2": "Economic Appeal H2",
+      "economic_appeal_h3": "Economic Appeal H3",
+      "economic_appeal_paragraph": "Economic Appeal Paragraph",
+      "roi_potential": "ROI Potential",
+      "rental_yield": "Average Annual Rent / Rental Yield",
+      "golden_visa": "Golden Visa Eligibility",
+      "payment_plan_h3": "Payment Plan H3 Subtitle",
+      "payment_plan_paragraph": "Payment Plan Paragraph",
+      "payment_booking": "On Booking %",
+      "payment_construction": "During Construction %",
+      "payment_handover": "On Handover %",
+      "post_completion_subtitle": "Post-Completion Subtitle",
+      "post_completion_resell": "Resell Paragraph",
+      "post_completion_rent": "Rent Out Paragraph",
+      "post_completion_movein": "Move In Paragraph",
+      "investment_adv_1_subtitle": "Investment Advantage 1 Subtitle",
+      "investment_adv_1_paragraph": "Investment Advantage 1 Paragraph",
+      "investment_adv_2_subtitle": "Investment Advantage 2 Subtitle",
+      "investment_adv_2_paragraph": "Investment Advantage 2 Paragraph",
+      "investment_adv_3_subtitle": "Investment Advantage 3 Subtitle",
+      "investment_adv_3_paragraph": "Investment Advantage 3 Paragraph",
+      "amenity_1_subtitle": "Amenity 1 Subtitle",
+      "amenity_1_paragraph": "Amenity 1 Paragraph",
+      "amenity_2_subtitle": "Amenity 2 Subtitle",
+      "amenity_2_paragraph": "Amenity 2 Paragraph",
+      "amenity_3_subtitle": "Amenity 3 Subtitle",
+      "amenity_3_paragraph": "Amenity 3 Paragraph",
+      "developer_h2": "About the Developer H2",
+      "developer_h3": "Developer H3 Subtitle",
+      "developer_paragraph": "Developer Paragraph",
+      "location_h2": "Location & Advantages H2",
+      "location_h3": "Location H3 Subtitle",
+      "location_paragraph": "Location Paragraph",
+      "social_facilities_paragraph": "Social Facilities Paragraph",
+      "social_location_1": "Social Location 1",
+      "social_location_2": "Social Location 2",
+      "social_location_3": "Social Location 3",
+      "education_medicine_paragraph": "Education & Medicine Paragraph",
+      "education_location_1": "Education Location 1",
+      "education_location_2": "Education Location 2",
+      "education_location_3": "Education Location 3",
+      "culture_paragraph": "Culture Paragraph",
+      "culture_location_1": "Culture Location 1",
+      "culture_location_2": "Culture Location 2",
+      "culture_location_3": "Culture Location 3",
+      "cta_primary": "Primary CTA",
+      "cta_final_title": "Final CTA Title",
+      "cta_final_paragraph": "Final CTA Paragraph"
+    },
+    "grand_polo_specific": {
+      "faq_h2": "FAQ H2"
+    },
+    "palm_jebel_specific": {
+      "overview_h2": "Overview H2",
+      "overview_paragraph": "Overview Paragraph",
+      "investment_opportunities_h2": "Investment Opportunities H2",
+      "investment_opportunities_paragraph": "Investment Opportunities Paragraph",
+      "property_types_h3": "Property Types H3",
+      "signature_features_heading": "Signature Features Heading",
+      "about_area_h2": "About the Area H2",
+      "about_area_paragraph": "About the Area Paragraph",
+      "location_access": "Location Access (4 items)",
+      "life_on_palm_h2": "Life on the Palm H2",
+      "life_on_palm_1_title": "Life on Palm 1 Title",
+      "life_on_palm_1_text": "Life on Palm 1 Text"
+    }
+  },
+  "comparison": {
+    "missing_from_sheet": 42,
+    "extra_in_sheet": 72
+  },
+  "timestamp": "1769611061.9922168"
+}

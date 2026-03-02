@@ -1,0 +1,2035 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "project": "PDP Automation v.3",
+  "version": "1.0.0",
+  "created": "2026-01-15",
+  "description": "Master execution manifest mapping agents to documentation, dependencies, and execution order",
+
+  "documentation_registry": {
+    "00-prerequisites": [
+      "docs/00-prerequisites/EXTERNAL_SETUP_CHECKLIST.md",
+      "docs/00-prerequisites/MULTI_AGENT_IMPLEMENTATION_PLAN.md"
+    ],
+    "01-architecture": [
+      "docs/01-architecture/SYSTEM_ARCHITECTURE.md",
+      "docs/01-architecture/DATA_FLOW.md",
+      "docs/01-architecture/API_DESIGN.md",
+      "docs/01-architecture/DATABASE_SCHEMA.md",
+      "docs/01-architecture/SECURITY_ARCHITECTURE.md",
+      "docs/01-architecture/INFRASTRUCTURE.md"
+    ],
+    "02-modules": [
+      "docs/02-modules/PROJECT_DATABASE.md",
+      "docs/02-modules/MATERIAL_PREPARATION.md",
+      "docs/02-modules/CONTENT_GENERATION.md",
+      "docs/02-modules/APPROVAL_WORKFLOW.md",
+      "docs/02-modules/PUBLISHING_WORKFLOW.md",
+      "docs/02-modules/QA_MODULE.md",
+      "docs/02-modules/NOTIFICATIONS.md",
+      "docs/02-modules/PROMPT_LIBRARY.md"
+    ],
+    "03-frontend": [
+      "docs/03-frontend/COMPONENT_LIBRARY.md",
+      "docs/03-frontend/PAGE_SPECIFICATIONS.md",
+      "docs/03-frontend/STATE_MANAGEMENT.md",
+      "docs/03-frontend/ROUTING.md",
+      "docs/03-frontend/ACCESSIBILITY.md"
+    ],
+    "04-backend": [
+      "docs/04-backend/SERVICE_LAYER.md",
+      "docs/04-backend/API_ENDPOINTS.md",
+      "docs/04-backend/ERROR_HANDLING.md",
+      "docs/04-backend/BACKGROUND_JOBS.md",
+      "docs/04-backend/CACHING_STRATEGY.md"
+    ],
+    "05-integrations": [
+      "docs/05-integrations/GOOGLE_CLOUD_SETUP.md",
+      "docs/05-integrations/GOOGLE_SHEETS_INTEGRATION.md",
+      "docs/05-integrations/GOOGLE_OAUTH_SETUP.md",
+      "docs/05-integrations/GOOGLE_DRIVE_INTEGRATION.md",
+      "docs/05-integrations/CLOUD_STORAGE_PATTERNS.md",
+      "docs/05-integrations/ANTHROPIC_API_INTEGRATION.md"
+    ],
+    "06-devops": [
+      "docs/06-devops/LOCAL_DEVELOPMENT.md",
+      "docs/06-devops/CICD_PIPELINE.md",
+      "docs/06-devops/DEPLOYMENT_GUIDE.md",
+      "docs/06-devops/MONITORING_SETUP.md",
+      "docs/06-devops/BACKUP_RECOVERY.md"
+    ],
+    "07-testing": [
+      "docs/07-testing/TEST_STRATEGY.md",
+      "docs/07-testing/UNIT_TEST_PATTERNS.md",
+      "docs/07-testing/INTEGRATION_TESTS.md",
+      "docs/07-testing/E2E_TEST_SCENARIOS.md",
+      "docs/07-testing/PERFORMANCE_TESTING.md",
+      "docs/07-testing/QA_MULTI_AGENT_SYSTEM.md"
+    ],
+    "08-user-guides": [
+      "docs/08-user-guides/CONTENT_CREATOR_GUIDE.md",
+      "docs/08-user-guides/MARKETING_MANAGER_GUIDE.md",
+      "docs/08-user-guides/PUBLISHER_GUIDE.md",
+      "docs/08-user-guides/ADMIN_GUIDE.md",
+      "docs/08-user-guides/DEVELOPER_GUIDE.md"
+    ],
+    "09-reference": [
+      "docs/09-reference/GLOSSARY.md",
+      "docs/09-reference/CHANGELOG.md",
+      "docs/09-reference/TROUBLESHOOTING.md",
+      "docs/09-reference/FAQ.md"
+    ]
+  },
+
+  "shared_context": {
+    "project_standards": [
+      "docs/01-architecture/API_DESIGN.md",
+      "docs/04-backend/ERROR_HANDLING.md",
+      "docs/07-testing/TEST_STRATEGY.md"
+    ],
+    "security_requirements": [
+      "docs/01-architecture/SECURITY_ARCHITECTURE.md",
+      "docs/05-integrations/GOOGLE_OAUTH_SETUP.md"
+    ],
+    "brand_guidelines": [
+      "reference/company/brand-guidelines/brand-context-prompt.md"
+    ]
+  },
+
+  "orchestrators": [
+    {
+      "id": "ORCH-MASTER-001",
+      "name": "Master Orchestrator",
+      "brief": "docs/_agent-briefs/orchestrators/ORCH-MASTER-001.md",
+      "context_budget": 100000,
+      "documentation": [
+        "docs/00-prerequisites/MULTI_AGENT_IMPLEMENTATION_PLAN.md",
+        "docs/01-architecture/SYSTEM_ARCHITECTURE.md",
+        "docs/01-architecture/DATA_FLOW.md",
+        "docs/EXECUTION_MANIFEST.json"
+      ],
+      "responsibilities": [
+        "System-wide coordination",
+        "Phase transition approval",
+        "Cross-domain conflict resolution",
+        "Final quality gate decisions"
+      ],
+      "subordinates": ["ORCH-BACKEND-001", "ORCH-FRONTEND-001", "ORCH-INTEGRATION-001", "ORCH-DEVOPS-001", "ORCH-QA-001", "ORCH-TESTING-001"]
+    },
+    {
+      "id": "ORCH-BACKEND-001",
+      "name": "Backend Orchestrator",
+      "brief": "docs/_agent-briefs/orchestrators/ORCH-BACKEND-001.md",
+      "context_budget": 80000,
+      "documentation": [
+        "docs/01-architecture/SYSTEM_ARCHITECTURE.md",
+        "docs/01-architecture/DATABASE_SCHEMA.md",
+        "docs/01-architecture/API_DESIGN.md",
+        "docs/04-backend/SERVICE_LAYER.md",
+        "docs/04-backend/API_ENDPOINTS.md",
+        "docs/04-backend/ERROR_HANDLING.md",
+        "docs/04-backend/BACKGROUND_JOBS.md"
+      ],
+      "subordinates": ["DEV-DB-001", "DEV-CONFIG-001", "DEV-AUTH-001", "DEV-PROJECT-001", "DEV-JOB-001", "DEV-API-001", "DEV-PDF-001", "DEV-IMGCLASS-001", "DEV-WATERMARK-001", "DEV-FLOORPLAN-001", "DEV-IMGOPT-001", "DEV-EXTRACT-001", "DEV-STRUCT-001", "DEV-CONTENT-001", "DEV-SHEETS-001", "DEV-NOTIFY-001"]
+    },
+    {
+      "id": "ORCH-FRONTEND-001",
+      "name": "Frontend Orchestrator",
+      "brief": "docs/_agent-briefs/orchestrators/ORCH-FRONTEND-001.md",
+      "context_budget": 80000,
+      "documentation": [
+        "docs/03-frontend/COMPONENT_LIBRARY.md",
+        "docs/03-frontend/PAGE_SPECIFICATIONS.md",
+        "docs/03-frontend/STATE_MANAGEMENT.md",
+        "docs/03-frontend/ROUTING.md",
+        "docs/03-frontend/ACCESSIBILITY.md",
+        "docs/04-backend/API_ENDPOINTS.md"
+      ],
+      "subordinates": ["DEV-FESETUP-001", "DEV-AUTHUI-001", "DEV-DASHBOARD-001", "DEV-UPLOAD-001", "DEV-PROJDETAIL-001", "DEV-QAPAGE-001", "DEV-PROMPTS-001", "DEV-WORKFLOW-001", "DEV-COMPONENTS-001", "DEV-STATE-001"]
+    },
+    {
+      "id": "ORCH-INTEGRATION-001",
+      "name": "Integration Orchestrator",
+      "brief": "docs/_agent-briefs/orchestrators/ORCH-INTEGRATION-001.md",
+      "context_budget": 80000,
+      "documentation": [
+        "docs/05-integrations/GOOGLE_CLOUD_SETUP.md",
+        "docs/05-integrations/GOOGLE_SHEETS_INTEGRATION.md",
+        "docs/05-integrations/GOOGLE_OAUTH_SETUP.md",
+        "docs/05-integrations/GOOGLE_DRIVE_INTEGRATION.md",
+        "docs/05-integrations/CLOUD_STORAGE_PATTERNS.md",
+        "docs/05-integrations/ANTHROPIC_API_INTEGRATION.md"
+      ],
+      "subordinates": ["DEV-GCS-001", "DEV-GSHEETS-001", "DEV-DRIVE-001", "DEV-ANTHROPIC-001", "DEV-OAUTH-001"]
+    },
+    {
+      "id": "ORCH-DEVOPS-001",
+      "name": "DevOps Orchestrator",
+      "brief": "docs/_agent-briefs/orchestrators/ORCH-DEVOPS-001.md",
+      "context_budget": 80000,
+      "documentation": [
+        "docs/06-devops/LOCAL_DEVELOPMENT.md",
+        "docs/06-devops/CICD_PIPELINE.md",
+        "docs/06-devops/DEPLOYMENT_GUIDE.md",
+        "docs/06-devops/MONITORING_SETUP.md",
+        "docs/06-devops/BACKUP_RECOVERY.md",
+        "docs/01-architecture/INFRASTRUCTURE.md"
+      ],
+      "subordinates": ["DEV-DOCKER-001", "DEV-CICD-001", "DEV-CLOUDRUN-001", "DEV-MONITORING-001"]
+    },
+    {
+      "id": "ORCH-QA-001",
+      "name": "QA Orchestrator",
+      "brief": "docs/_agent-briefs/orchestrators/ORCH-QA-001.md",
+      "context_budget": 80000,
+      "documentation": [
+        "docs/07-testing/QA_MULTI_AGENT_SYSTEM.md",
+        "docs/07-testing/TEST_STRATEGY.md",
+        "docs/02-modules/QA_MODULE.md"
+      ],
+      "subordinates": ["SYSQA-CODE-001", "SYSQA-SECURITY-001", "SYSQA-INTEGRATION-001", "SYSQA-PERF-001", "SYSQA-DOCS-001", "SYSQA-DEPS-001", "SYSQA-ESCALATION-001"]
+    },
+    {
+      "id": "ORCH-TESTING-001",
+      "name": "Testing Orchestrator",
+      "brief": "docs/_agent-briefs/orchestrators/ORCH-TESTING-001.md",
+      "context_budget": 80000,
+      "documentation": [
+        "docs/07-testing/TEST_STRATEGY.md",
+        "docs/07-testing/UNIT_TEST_PATTERNS.md",
+        "docs/07-testing/INTEGRATION_TESTS.md",
+        "docs/07-testing/E2E_TEST_SCENARIOS.md",
+        "docs/07-testing/PERFORMANCE_TESTING.md"
+      ],
+      "subordinates": ["TEST-BACKEND-UNIT-001", "TEST-FRONTEND-UNIT-001", "TEST-API-INT-001", "TEST-FE-INT-001", "TEST-E2E-001", "TEST-PERF-001", "TEST-SECURITY-001", "TEST-VISUAL-001"]
+    }
+  ],
+
+  "phases": [
+    {
+      "id": "phase-0",
+      "name": "Foundation",
+      "description": "Database schema, configuration, and project setup",
+      "parallel_execution": true,
+      "quality_gate": {
+        "qa_score_minimum": 85,
+        "blocking_issues_allowed": {"critical": 0, "high": 0},
+        "test_coverage_minimum": null
+      },
+      "agents": [
+        {
+          "id": "DEV-DB-001",
+          "name": "Database Schema Agent",
+          "type": "development",
+          "brief": "docs/_agent-briefs/phase-0-foundation/DEV-DB-001.md",
+          "context_budget": 50000,
+          "qa_pair": "QA-DB-001",
+          "dependencies": [],
+          "documentation": {
+            "primary": [
+              "docs/01-architecture/DATABASE_SCHEMA.md"
+            ],
+            "secondary": [
+              "docs/02-modules/PROJECT_DATABASE.md",
+              "docs/01-architecture/DATA_FLOW.md",
+              "docs/04-backend/SERVICE_LAYER.md"
+            ],
+            "reference": [
+              "docs/09-reference/GLOSSARY.md"
+            ]
+          },
+          "outputs": [
+            "backend/alembic/versions/001_initial_schema.py",
+            "backend/app/models/database.py",
+            "backend/app/models/enums.py"
+          ],
+          "acceptance_criteria": [
+            "All 22 tables created with correct columns",
+            "Foreign key relationships defined",
+            "Indexes for performance-critical queries",
+            "JSONB fields for flexible data storage",
+            "Audit columns (created_at, updated_at, created_by)",
+            "Soft delete support (is_active flag)",
+            "Migration is reversible (upgrade/downgrade)"
+          ]
+        },
+        {
+          "id": "QA-DB-001",
+          "name": "Database Schema QA",
+          "type": "qa",
+          "brief": "docs/_agent-briefs/phase-0-foundation/QA-DB-001.md",
+          "context_budget": 40000,
+          "paired_dev": "DEV-DB-001",
+          "dependencies": ["DEV-DB-001"],
+          "documentation": {
+            "primary": [
+              "docs/01-architecture/DATABASE_SCHEMA.md",
+              "docs/07-testing/QA_MULTI_AGENT_SYSTEM.md"
+            ]
+          },
+          "validation_checklist": [
+            "Schema matches documentation requirements",
+            "All foreign keys have corresponding indexes",
+            "Naming conventions followed (snake_case)",
+            "Appropriate data types selected",
+            "Constraints properly defined",
+            "No N+1 query risks in relationships",
+            "Migration runs without errors"
+          ]
+        },
+        {
+          "id": "DEV-CONFIG-001",
+          "name": "Configuration Agent",
+          "type": "development",
+          "brief": "docs/_agent-briefs/phase-0-foundation/DEV-CONFIG-001.md",
+          "context_budget": 45000,
+          "qa_pair": "QA-CONFIG-001",
+          "dependencies": [],
+          "documentation": {
+            "primary": [
+              "docs/00-prerequisites/EXTERNAL_SETUP_CHECKLIST.md",
+              "docs/06-devops/LOCAL_DEVELOPMENT.md"
+            ],
+            "secondary": [
+              "docs/01-architecture/INFRASTRUCTURE.md",
+              "docs/05-integrations/GOOGLE_CLOUD_SETUP.md"
+            ]
+          },
+          "outputs": [
+            "backend/app/config/settings.py",
+            "backend/app/config/database.py",
+            "backend/.env.example",
+            "frontend/.env.local.example"
+          ],
+          "acceptance_criteria": [
+            "Pydantic BaseSettings for all configuration",
+            "Secret Manager integration for production",
+            "Environment-specific configurations (dev/staging/prod)",
+            "All environment variables documented",
+            "Validation for required variables",
+            "Type-safe configuration access"
+          ]
+        },
+        {
+          "id": "QA-CONFIG-001",
+          "name": "Configuration QA",
+          "type": "qa",
+          "brief": "docs/_agent-briefs/phase-0-foundation/QA-CONFIG-001.md",
+          "context_budget": 40000,
+          "paired_dev": "DEV-CONFIG-001",
+          "dependencies": ["DEV-CONFIG-001"],
+          "documentation": {
+            "primary": [
+              "docs/00-prerequisites/EXTERNAL_SETUP_CHECKLIST.md",
+              "docs/01-architecture/SECURITY_ARCHITECTURE.md"
+            ]
+          },
+          "validation_checklist": [
+            "No secrets in committed files",
+            "All required variables have defaults or validation",
+            ".env.example matches actual requirements",
+            "Secret Manager integration secure",
+            "Environment isolation working"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "phase-1",
+      "name": "Backend Core",
+      "description": "Authentication, project service, job management, and API routes",
+      "parallel_execution": true,
+      "depends_on": ["phase-0"],
+      "quality_gate": {
+        "qa_score_minimum": 85,
+        "blocking_issues_allowed": {"critical": 0, "high": 0},
+        "test_coverage_minimum": 80
+      },
+      "agents": [
+        {
+          "id": "DEV-AUTH-001",
+          "name": "Auth Service Agent",
+          "type": "development",
+          "brief": "docs/_agent-briefs/phase-1-backend-core/DEV-AUTH-001.md",
+          "context_budget": 55000,
+          "qa_pair": "QA-AUTH-001",
+          "dependencies": ["DEV-DB-001", "DEV-CONFIG-001"],
+          "documentation": {
+            "primary": [
+              "docs/05-integrations/GOOGLE_OAUTH_SETUP.md",
+              "docs/01-architecture/SECURITY_ARCHITECTURE.md"
+            ],
+            "secondary": [
+              "docs/04-backend/API_ENDPOINTS.md",
+              "docs/04-backend/ERROR_HANDLING.md"
+            ],
+            "reference": [
+              "docs/08-user-guides/ADMIN_GUIDE.md"
+            ]
+          },
+          "outputs": [
+            "backend/app/services/auth_service.py",
+            "backend/app/services/user_service.py",
+            "backend/app/middleware/auth.py",
+            "backend/app/middleware/permissions.py",
+            "backend/app/api/routes/auth.py"
+          ],
+          "acceptance_criteria": [
+            "Google OAuth flow working end-to-end",
+            "JWT generation with 1-hour expiry",
+            "Refresh token mechanism (7-day expiry)",
+            "Domain restriction (@your-domain.com only)",
+            "Role-based access control (admin, user)",
+            "Token blacklisting for logout",
+            "Audit logging for auth events"
+          ]
+        },
+        {
+          "id": "QA-AUTH-001",
+          "name": "Auth Service QA",
+          "type": "qa",
+          "brief": "docs/_agent-briefs/phase-1-backend-core/QA-AUTH-001.md",
+          "context_budget": 45000,
+          "paired_dev": "DEV-AUTH-001",
+          "dependencies": ["DEV-AUTH-001"],
+          "documentation": {
+            "primary": [
+              "docs/01-architecture/SECURITY_ARCHITECTURE.md",
+              "docs/07-testing/QA_MULTI_AGENT_SYSTEM.md"
+            ]
+          },
+          "validation_checklist": [
+            "OWASP authentication guidelines compliance",
+            "Token expiry correctly implemented",
+            "No hardcoded secrets",
+            "Domain validation working",
+            "Rate limiting on auth endpoints",
+            "Secure token storage recommendations",
+            "XSS/CSRF protection"
+          ]
+        },
+        {
+          "id": "DEV-PROJECT-001",
+          "name": "Project Service Agent",
+          "type": "development",
+          "brief": "docs/_agent-briefs/phase-1-backend-core/DEV-PROJECT-001.md",
+          "context_budget": 55000,
+          "qa_pair": "QA-PROJECT-001",
+          "dependencies": ["DEV-DB-001", "DEV-CONFIG-001"],
+          "documentation": {
+            "primary": [
+              "docs/02-modules/PROJECT_DATABASE.md",
+              "docs/04-backend/SERVICE_LAYER.md"
+            ],
+            "secondary": [
+              "docs/04-backend/API_ENDPOINTS.md",
+              "docs/01-architecture/DATA_FLOW.md"
+            ]
+          },
+          "outputs": [
+            "backend/app/services/project_service.py",
+            "backend/app/repositories/project_repository.py",
+            "backend/app/api/routes/projects.py",
+            "backend/app/models/schemas.py"
+          ],
+          "acceptance_criteria": [
+            "Full CRUD operations",
+            "Search with full-text indexing",
+            "Multi-field filtering (status, developer, emirate, price, date)",
+            "Pagination with consistent format",
+            "Revision tracking (all changes logged)",
+            "Custom field support (key-value pairs)",
+            "Soft deletion (is_active flag)"
+          ]
+        },
+        {
+          "id": "QA-PROJECT-001",
+          "name": "Project Service QA",
+          "type": "qa",
+          "brief": "docs/_agent-briefs/phase-1-backend-core/QA-PROJECT-001.md",
+          "context_budget": 45000,
+          "paired_dev": "DEV-PROJECT-001",
+          "dependencies": ["DEV-PROJECT-001"],
+          "documentation": {
+            "primary": [
+              "docs/02-modules/PROJECT_DATABASE.md",
+              "docs/07-testing/QA_MULTI_AGENT_SYSTEM.md"
+            ]
+          },
+          "validation_checklist": [
+            "All CRUD operations return correct responses",
+            "Search is performant with large datasets",
+            "Filtering handles edge cases",
+            "Pagination is consistent",
+            "Revision history is complete",
+            "Authorization checks on all endpoints"
+          ]
+        },
+        {
+          "id": "DEV-JOB-001",
+          "name": "Job Manager Agent",
+          "type": "development",
+          "brief": "docs/_agent-briefs/phase-1-backend-core/DEV-JOB-001.md",
+          "context_budget": 55000,
+          "qa_pair": "QA-JOB-001",
+          "dependencies": ["DEV-DB-001", "DEV-CONFIG-001"],
+          "documentation": {
+            "primary": [
+              "docs/04-backend/BACKGROUND_JOBS.md",
+              "docs/01-architecture/DATA_FLOW.md"
+            ],
+            "secondary": [
+              "docs/05-integrations/GOOGLE_CLOUD_SETUP.md",
+              "docs/04-backend/ERROR_HANDLING.md"
+            ]
+          },
+          "outputs": [
+            "backend/app/services/job_manager.py",
+            "backend/app/repositories/job_repository.py",
+            "backend/app/background/task_queue.py",
+            "backend/app/api/routes/jobs.py"
+          ],
+          "acceptance_criteria": [
+            "Job lifecycle management (pending → processing → completed/failed)",
+            "Progress tracking (total steps, completed steps, current step)",
+            "Error handling with retry (3 attempts, exponential backoff)",
+            "Cloud Tasks integration",
+            "Job cancellation support",
+            "Step-by-step status updates"
+          ]
+        },
+        {
+          "id": "QA-JOB-001",
+          "name": "Job Manager QA",
+          "type": "qa",
+          "brief": "docs/_agent-briefs/phase-1-backend-core/QA-JOB-001.md",
+          "context_budget": 45000,
+          "paired_dev": "DEV-JOB-001",
+          "dependencies": ["DEV-JOB-001"],
+          "documentation": {
+            "primary": [
+              "docs/04-backend/BACKGROUND_JOBS.md",
+              "docs/07-testing/QA_MULTI_AGENT_SYSTEM.md"
+            ]
+          },
+          "validation_checklist": [
+            "Job state transitions are atomic",
+            "Retry logic handles failures correctly",
+            "Progress updates are accurate",
+            "Cloud Tasks integration is reliable",
+            "Cancellation cleans up resources",
+            "Concurrent job handling is safe"
+          ]
+        },
+        {
+          "id": "DEV-API-001",
+          "name": "API Routes Agent",
+          "type": "development",
+          "brief": "docs/_agent-briefs/phase-1-backend-core/DEV-API-001.md",
+          "context_budget": 60000,
+          "qa_pair": "QA-API-001",
+          "dependencies": ["DEV-AUTH-001", "DEV-PROJECT-001", "DEV-JOB-001"],
+          "documentation": {
+            "primary": [
+              "docs/04-backend/API_ENDPOINTS.md",
+              "docs/01-architecture/API_DESIGN.md"
+            ],
+            "secondary": [
+              "docs/04-backend/ERROR_HANDLING.md",
+              "docs/04-backend/CACHING_STRATEGY.md"
+            ],
+            "reference": [
+              "docs/09-reference/GLOSSARY.md"
+            ]
+          },
+          "outputs": [
+            "backend/app/api/routes/upload.py",
+            "backend/app/api/routes/content.py",
+            "backend/app/api/routes/qa.py",
+            "backend/app/api/routes/prompts.py",
+            "backend/app/api/routes/templates.py",
+            "backend/app/api/routes/workflow.py",
+            "backend/app/api/dependencies.py",
+            "backend/app/main.py"
+          ],
+          "acceptance_criteria": [
+            "All endpoints from spec implemented",
+            "Pydantic validation on all inputs",
+            "Consistent error response format",
+            "OpenAPI/Swagger documentation generated",
+            "Rate limiting on all endpoints",
+            "Audit logging integration",
+            "CORS configuration correct"
+          ]
+        },
+        {
+          "id": "QA-API-001",
+          "name": "API Routes QA",
+          "type": "qa",
+          "brief": "docs/_agent-briefs/phase-1-backend-core/QA-API-001.md",
+          "context_budget": 50000,
+          "paired_dev": "DEV-API-001",
+          "dependencies": ["DEV-API-001"],
+          "documentation": {
+            "primary": [
+              "docs/04-backend/API_ENDPOINTS.md",
+              "docs/01-architecture/API_DESIGN.md",
+              "docs/07-testing/QA_MULTI_AGENT_SYSTEM.md"
+            ]
+          },
+          "validation_checklist": [
+            "All endpoints match OpenAPI spec",
+            "Request validation rejects invalid input",
+            "Error responses are consistent",
+            "Authentication required where specified",
+            "Rate limiting is enforced",
+            "No sensitive data in logs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "phase-2",
+      "name": "Material Preparation",
+      "description": "PDF processing, image classification, watermark removal, floor plans, and optimization",
+      "parallel_execution": true,
+      "depends_on": ["phase-1"],
+      "quality_gate": {
+        "qa_score_minimum": 85,
+        "blocking_issues_allowed": {"critical": 0, "high": 0},
+        "test_coverage_minimum": 80
+      },
+      "agents": [
+        {
+          "id": "DEV-PDF-001",
+          "name": "PDF Processor Agent",
+          "type": "development",
+          "brief": "docs/_agent-briefs/phase-2-material-prep/DEV-PDF-001.md",
+          "context_budget": 55000,
+          "qa_pair": "QA-PDF-001",
+          "dependencies": ["DEV-JOB-001"],
+          "documentation": {
+            "primary": [
+              "docs/02-modules/MATERIAL_PREPARATION.md"
+            ],
+            "secondary": [
+              "docs/04-backend/SERVICE_LAYER.md",
+              "docs/01-architecture/DATA_FLOW.md"
+            ]
+          },
+          "outputs": [
+            "backend/app/services/pdf_processor.py",
+            "backend/app/utils/pdf_helpers.py"
+          ],
+          "acceptance_criteria": [
+            "Extract all images from PDF using PyMuPDF",
+            "Preserve original resolution",
+            "Handle multi-page PDFs efficiently",
+            "Memory-efficient streaming for large files",
+            "Error handling for corrupted PDFs",
+            "Return image metadata (page, format, dimensions)"
+          ]
+        },
+        {
+          "id": "QA-PDF-001",
+          "name": "PDF Processor QA",
+          "type": "qa",
+          "brief": "docs/_agent-briefs/phase-2-material-prep/QA-PDF-001.md",
+          "context_budget": 40000,
+          "paired_dev": "DEV-PDF-001",
+          "dependencies": ["DEV-PDF-001"],
+          "documentation": {
+            "primary": [
+              "docs/02-modules/MATERIAL_PREPARATION.md",
+              "docs/07-testing/QA_MULTI_AGENT_SYSTEM.md"
+            ]
+          }
+        },
+        {
+          "id": "DEV-IMGCLASS-001",
+          "name": "Image Classifier Agent",
+          "type": "development",
+          "brief": "docs/_agent-briefs/phase-2-material-prep/DEV-IMGCLASS-001.md",
+          "context_budget": 60000,
+          "qa_pair": "QA-IMGCLASS-001",
+          "dependencies": ["DEV-PDF-001"],
+          "documentation": {
+            "primary": [
+              "docs/02-modules/MATERIAL_PREPARATION.md",
+              "docs/05-integrations/ANTHROPIC_API_INTEGRATION.md"
+            ]
+          },
+          "outputs": [
+            "backend/app/services/image_classifier.py"
+          ],
+          "acceptance_criteria": [
+            "Classify into 5 categories (interior, exterior, amenity, logo, other)",
+            "Confidence scores (0.0-1.0)",
+            "Batch processing (10-20 parallel)",
+            "SEO alt text generation",
+            "Apply category limits (10 interior, 10 exterior, 5 amenity, 3 logo)",
+            "Graceful error handling"
+          ]
+        },
+        {
+          "id": "QA-IMGCLASS-001",
+          "name": "Image Classifier QA",
+          "type": "qa",
+          "brief": "docs/_agent-briefs/phase-2-material-prep/QA-IMGCLASS-001.md",
+          "context_budget": 45000,
+          "paired_dev": "DEV-IMGCLASS-001",
+          "dependencies": ["DEV-IMGCLASS-001"],
+          "documentation": {
+            "primary": [
+              "docs/02-modules/MATERIAL_PREPARATION.md",
+              "docs/07-testing/QA_MULTI_AGENT_SYSTEM.md"
+            ]
+          }
+        },
+        {
+          "id": "DEV-WATERMARK-001",
+          "name": "Watermark Agent",
+          "type": "development",
+          "brief": "docs/_agent-briefs/phase-2-material-prep/DEV-WATERMARK-001.md",
+          "context_budget": 55000,
+          "qa_pair": "QA-WATERMARK-001",
+          "dependencies": ["DEV-IMGCLASS-001"],
+          "documentation": {
+            "primary": [
+              "docs/02-modules/MATERIAL_PREPARATION.md",
+              "docs/05-integrations/ANTHROPIC_API_INTEGRATION.md"
+            ]
+          },
+          "outputs": [
+            "backend/app/services/watermark_detector.py",
+            "backend/app/services/watermark_remover.py"
+          ],
+          "acceptance_criteria": [
+            "Detect watermark presence using Claude Sonnet 4.5",
+            "Extract bounding box coordinates",
+            "OpenCV inpainting removal",
+            "Quality validation post-removal",
+            "Fallback to original if quality drops",
+            "Store quality metrics"
+          ]
+        },
+        {
+          "id": "QA-WATERMARK-001",
+          "name": "Watermark QA",
+          "type": "qa",
+          "brief": "docs/_agent-briefs/phase-2-material-prep/QA-WATERMARK-001.md",
+          "context_budget": 40000,
+          "paired_dev": "DEV-WATERMARK-001",
+          "dependencies": ["DEV-WATERMARK-001"],
+          "documentation": {
+            "primary": [
+              "docs/02-modules/MATERIAL_PREPARATION.md",
+              "docs/07-testing/QA_MULTI_AGENT_SYSTEM.md"
+            ]
+          }
+        },
+        {
+          "id": "DEV-FLOORPLAN-001",
+          "name": "Floor Plan Agent",
+          "type": "development",
+          "brief": "docs/_agent-briefs/phase-2-material-prep/DEV-FLOORPLAN-001.md",
+          "context_budget": 60000,
+          "qa_pair": "QA-FLOORPLAN-001",
+          "dependencies": ["DEV-IMGCLASS-001"],
+          "documentation": {
+            "primary": [
+              "docs/02-modules/MATERIAL_PREPARATION.md",
+              "docs/05-integrations/ANTHROPIC_API_INTEGRATION.md"
+            ]
+          },
+          "outputs": [
+            "backend/app/services/floor_plan_extractor.py",
+            "backend/app/services/deduplication_service.py"
+          ],
+          "acceptance_criteria": [
+            "Identify floor plan images",
+            "Extract structured data (unit type, bedrooms, bathrooms, sqft)",
+            "Perceptual hash calculation",
+            "Duplicate detection (95% similarity)",
+            "Select highest quality per unit type",
+            "Store in JSONB format"
+          ]
+        },
+        {
+          "id": "QA-FLOORPLAN-001",
+          "name": "Floor Plan QA",
+          "type": "qa",
+          "brief": "docs/_agent-briefs/phase-2-material-prep/QA-FLOORPLAN-001.md",
+          "context_budget": 45000,
+          "paired_dev": "DEV-FLOORPLAN-001",
+          "dependencies": ["DEV-FLOORPLAN-001"],
+          "documentation": {
+            "primary": [
+              "docs/02-modules/MATERIAL_PREPARATION.md",
+              "docs/07-testing/QA_MULTI_AGENT_SYSTEM.md"
+            ]
+          }
+        },
+        {
+          "id": "DEV-IMGOPT-001",
+          "name": "Image Optimizer Agent",
+          "type": "development",
+          "brief": "docs/_agent-briefs/phase-2-material-prep/DEV-IMGOPT-001.md",
+          "context_budget": 50000,
+          "qa_pair": "QA-IMGOPT-001",
+          "dependencies": ["DEV-WATERMARK-001", "DEV-FLOORPLAN-001"],
+          "documentation": {
+            "primary": [
+              "docs/02-modules/MATERIAL_PREPARATION.md",
+              "docs/05-integrations/CLOUD_STORAGE_PATTERNS.md"
+            ]
+          },
+          "outputs": [
+            "backend/app/services/image_optimizer.py",
+            "backend/app/services/output_organizer.py"
+          ],
+          "acceptance_criteria": [
+            "Resize to max 2450x1400px (maintain aspect)",
+            "Set DPI to 300",
+            "Convert to WebP (85% quality) and JPG (90% fallback)",
+            "Dual-tier output: Tier 1 (original quality), Tier 2 (LLM-optimized 1568px max)",
+            "Batch parallel processing",
+            "Create organized ZIP structure"
+          ]
+        },
+        {
+          "id": "QA-IMGOPT-001",
+          "name": "Image Optimizer QA",
+          "type": "qa",
+          "brief": "docs/_agent-briefs/phase-2-material-prep/QA-IMGOPT-001.md",
+          "context_budget": 40000,
+          "paired_dev": "DEV-IMGOPT-001",
+          "dependencies": ["DEV-IMGOPT-001"],
+          "documentation": {
+            "primary": [
+              "docs/02-modules/MATERIAL_PREPARATION.md",
+              "docs/07-testing/QA_MULTI_AGENT_SYSTEM.md"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "phase-3",
+      "name": "Content Generation",
+      "description": "Text extraction, data structuring, content generation, and Google Sheets integration",
+      "parallel_execution": true,
+      "depends_on": ["phase-1"],
+      "quality_gate": {
+        "qa_score_minimum": 90,
+        "blocking_issues_allowed": {"critical": 0, "high": 0},
+        "test_coverage_minimum": 85
+      },
+      "agents": [
+        {
+          "id": "DEV-EXTRACT-001",
+          "name": "Text Extractor Agent",
+          "type": "development",
+          "brief": "docs/_agent-briefs/phase-3-content-gen/DEV-EXTRACT-001.md",
+          "context_budget": 50000,
+          "qa_pair": "QA-EXTRACT-001",
+          "dependencies": ["DEV-JOB-001"],
+          "documentation": {
+            "primary": [
+              "docs/02-modules/CONTENT_GENERATION.md"
+            ],
+            "secondary": [
+              "docs/04-backend/SERVICE_LAYER.md"
+            ]
+          },
+          "outputs": [
+            "backend/app/services/pdf_extractor.py"
+          ],
+          "acceptance_criteria": [
+            "Use pymupdf4llm (90% cost savings vs OCR)",
+            "Preserve markdown formatting",
+            "Handle PDFs up to 50MB",
+            "Streaming for large files",
+            "Error handling for corrupted PDFs"
+          ]
+        },
+        {
+          "id": "QA-EXTRACT-001",
+          "name": "Text Extractor QA",
+          "type": "qa",
+          "brief": "docs/_agent-briefs/phase-3-content-gen/QA-EXTRACT-001.md",
+          "context_budget": 40000,
+          "paired_dev": "DEV-EXTRACT-001",
+          "dependencies": ["DEV-EXTRACT-001"],
+          "documentation": {
+            "primary": [
+              "docs/02-modules/CONTENT_GENERATION.md",
+              "docs/07-testing/QA_MULTI_AGENT_SYSTEM.md"
+            ]
+          }
+        },
+        {
+          "id": "DEV-STRUCT-001",
+          "name": "Data Structurer Agent",
+          "type": "development",
+          "brief": "docs/_agent-briefs/phase-3-content-gen/DEV-STRUCT-001.md",
+          "context_budget": 55000,
+          "qa_pair": "QA-STRUCT-001",
+          "dependencies": ["DEV-EXTRACT-001"],
+          "documentation": {
+            "primary": [
+              "docs/02-modules/CONTENT_GENERATION.md",
+              "docs/02-modules/PROJECT_DATABASE.md"
+            ],
+            "secondary": [
+              "docs/05-integrations/ANTHROPIC_API_INTEGRATION.md"
+            ]
+          },
+          "outputs": [
+            "backend/app/services/data_structurer.py"
+          ],
+          "acceptance_criteria": [
+            "Extract all core fields from markdown",
+            "Generate confidence scores per field",
+            "Track missing/incomplete fields",
+            "Validate against required schema",
+            "Cost: ~$0.01-0.03 per PDF"
+          ]
+        },
+        {
+          "id": "QA-STRUCT-001",
+          "name": "Data Structurer QA",
+          "type": "qa",
+          "brief": "docs/_agent-briefs/phase-3-content-gen/QA-STRUCT-001.md",
+          "context_budget": 40000,
+          "paired_dev": "DEV-STRUCT-001",
+          "dependencies": ["DEV-STRUCT-001"],
+          "documentation": {
+            "primary": [
+              "docs/02-modules/CONTENT_GENERATION.md",
+              "docs/07-testing/QA_MULTI_AGENT_SYSTEM.md"
+            ]
+          }
+        },
+        {
+          "id": "DEV-CONTENT-001",
+          "name": "Content Generator Agent",
+          "type": "development",
+          "brief": "docs/_agent-briefs/phase-3-content-gen/DEV-CONTENT-001.md",
+          "context_budget": 65000,
+          "qa_pair": "QA-CONTENT-001",
+          "dependencies": ["DEV-STRUCT-001"],
+          "documentation": {
+            "primary": [
+              "docs/02-modules/CONTENT_GENERATION.md",
+              "docs/02-modules/QA_MODULE.md",
+              "docs/02-modules/PROMPT_LIBRARY.md"
+            ],
+            "secondary": [
+              "docs/05-integrations/ANTHROPIC_API_INTEGRATION.md"
+            ],
+            "brand": [
+              "reference/company/brand-guidelines/brand-context-prompt.md"
+            ]
+          },
+          "outputs": [
+            "backend/app/services/content_generator.py",
+            "backend/app/services/content_qa_service.py",
+            "backend/app/services/prompt_manager.py"
+          ],
+          "acceptance_criteria": [
+            "Load brand context from reference file",
+            "Prepend brand context to all prompts",
+            "Field-by-field generation with character limits",
+            "SEO optimization (title, description, H1, slug)",
+            "Support 6 templates (Aggregators, OPR, MPP, ADOP, ADRE, Commercial)",
+            "Version-controlled prompts",
+            "QA validation (factual, compliance, consistency)"
+          ]
+        },
+        {
+          "id": "QA-CONTENT-001",
+          "name": "Content Generator QA",
+          "type": "qa",
+          "brief": "docs/_agent-briefs/phase-3-content-gen/QA-CONTENT-001.md",
+          "context_budget": 50000,
+          "paired_dev": "DEV-CONTENT-001",
+          "dependencies": ["DEV-CONTENT-001"],
+          "documentation": {
+            "primary": [
+              "docs/02-modules/CONTENT_GENERATION.md",
+              "docs/02-modules/QA_MODULE.md",
+              "docs/07-testing/QA_MULTI_AGENT_SYSTEM.md"
+            ],
+            "brand": [
+              "reference/company/brand-guidelines/brand-context-prompt.md"
+            ]
+          },
+          "validation_checklist": [
+            "Brand voice compliance",
+            "Character limits respected",
+            "SEO elements present and optimized",
+            "Factual accuracy against source",
+            "No prohibited terms used",
+            "Consistency across fields"
+          ]
+        },
+        {
+          "id": "DEV-SHEETS-001",
+          "name": "Sheets Manager Agent",
+          "type": "development",
+          "brief": "docs/_agent-briefs/phase-3-content-gen/DEV-SHEETS-001.md",
+          "context_budget": 55000,
+          "qa_pair": "QA-SHEETS-001",
+          "dependencies": ["DEV-CONTENT-001"],
+          "documentation": {
+            "primary": [
+              "docs/05-integrations/GOOGLE_SHEETS_INTEGRATION.md",
+              "docs/02-modules/CONTENT_GENERATION.md"
+            ],
+            "secondary": [
+              "docs/05-integrations/GOOGLE_CLOUD_SETUP.md"
+            ]
+          },
+          "outputs": [
+            "backend/app/services/sheets_manager.py"
+          ],
+          "acceptance_criteria": [
+            "Create sheets from templates",
+            "Map content fields to cells per template",
+            "Batch update API calls",
+            "Shared Drive access",
+            "Share with project creator",
+            "Read-back validation",
+            "Handle API rate limits"
+          ]
+        },
+        {
+          "id": "QA-SHEETS-001",
+          "name": "Sheets Manager QA",
+          "type": "qa",
+          "brief": "docs/_agent-briefs/phase-3-content-gen/QA-SHEETS-001.md",
+          "context_budget": 40000,
+          "paired_dev": "DEV-SHEETS-001",
+          "dependencies": ["DEV-SHEETS-001"],
+          "documentation": {
+            "primary": [
+              "docs/05-integrations/GOOGLE_SHEETS_INTEGRATION.md",
+              "docs/07-testing/QA_MULTI_AGENT_SYSTEM.md"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "phase-4",
+      "name": "Frontend",
+      "description": "React application with all pages, components, and state management",
+      "parallel_execution": true,
+      "depends_on": ["phase-1"],
+      "can_run_parallel_with": ["phase-2", "phase-3"],
+      "quality_gate": {
+        "qa_score_minimum": 85,
+        "blocking_issues_allowed": {"critical": 0, "high": 0},
+        "test_coverage_minimum": 70
+      },
+      "agents": [
+        {
+          "id": "DEV-FESETUP-001",
+          "name": "Frontend Setup Agent",
+          "type": "development",
+          "brief": "docs/_agent-briefs/phase-4-frontend/DEV-FESETUP-001.md",
+          "context_budget": 50000,
+          "qa_pair": "QA-FESETUP-001",
+          "dependencies": [],
+          "documentation": {
+            "primary": [
+              "docs/03-frontend/COMPONENT_LIBRARY.md",
+              "docs/03-frontend/STATE_MANAGEMENT.md"
+            ],
+            "secondary": [
+              "docs/03-frontend/ROUTING.md",
+              "docs/03-frontend/ACCESSIBILITY.md"
+            ]
+          },
+          "outputs": [
+            "frontend/package.json",
+            "frontend/vite.config.ts",
+            "frontend/tsconfig.json",
+            "frontend/src/index.css",
+            "frontend/src/main.tsx",
+            "frontend/src/App.tsx"
+          ],
+          "acceptance_criteria": [
+            "React 19 with TypeScript strict mode",
+            "Vite configuration with path aliases",
+            "Tailwind + shadcn/ui setup",
+            "ESLint + Prettier configuration",
+            "Source directory structure created"
+          ]
+        },
+        {
+          "id": "QA-FESETUP-001",
+          "name": "Frontend Setup QA",
+          "type": "qa",
+          "brief": "docs/_agent-briefs/phase-4-frontend/QA-FESETUP-001.md",
+          "context_budget": 35000,
+          "paired_dev": "DEV-FESETUP-001",
+          "dependencies": ["DEV-FESETUP-001"],
+          "documentation": {
+            "primary": [
+              "docs/03-frontend/COMPONENT_LIBRARY.md",
+              "docs/07-testing/QA_MULTI_AGENT_SYSTEM.md"
+            ]
+          }
+        },
+        {
+          "id": "DEV-AUTHUI-001",
+          "name": "Auth UI Agent",
+          "type": "development",
+          "brief": "docs/_agent-briefs/phase-4-frontend/DEV-AUTHUI-001.md",
+          "context_budget": 50000,
+          "qa_pair": "QA-AUTHUI-001",
+          "dependencies": ["DEV-FESETUP-001"],
+          "documentation": {
+            "primary": [
+              "docs/03-frontend/PAGE_SPECIFICATIONS.md",
+              "docs/03-frontend/STATE_MANAGEMENT.md"
+            ],
+            "secondary": [
+              "docs/05-integrations/GOOGLE_OAUTH_SETUP.md"
+            ]
+          },
+          "outputs": [
+            "frontend/src/pages/LoginPage.tsx",
+            "frontend/src/stores/auth-store.ts",
+            "frontend/src/lib/auth.ts",
+            "frontend/src/components/layout/ProtectedRoute.tsx"
+          ]
+        },
+        {
+          "id": "QA-AUTHUI-001",
+          "name": "Auth UI QA",
+          "type": "qa",
+          "brief": "docs/_agent-briefs/phase-4-frontend/QA-AUTHUI-001.md",
+          "context_budget": 40000,
+          "paired_dev": "DEV-AUTHUI-001",
+          "dependencies": ["DEV-AUTHUI-001"],
+          "documentation": {
+            "primary": [
+              "docs/03-frontend/PAGE_SPECIFICATIONS.md",
+              "docs/03-frontend/ACCESSIBILITY.md",
+              "docs/07-testing/QA_MULTI_AGENT_SYSTEM.md"
+            ]
+          }
+        },
+        {
+          "id": "DEV-DASHBOARD-001",
+          "name": "Dashboard Agent",
+          "type": "development",
+          "brief": "docs/_agent-briefs/phase-4-frontend/DEV-DASHBOARD-001.md",
+          "context_budget": 55000,
+          "qa_pair": "QA-DASHBOARD-001",
+          "dependencies": ["DEV-FESETUP-001", "DEV-AUTHUI-001"],
+          "documentation": {
+            "primary": [
+              "docs/03-frontend/PAGE_SPECIFICATIONS.md",
+              "docs/03-frontend/COMPONENT_LIBRARY.md"
+            ],
+            "secondary": [
+              "docs/04-backend/API_ENDPOINTS.md",
+              "docs/08-user-guides/CONTENT_CREATOR_GUIDE.md"
+            ]
+          },
+          "outputs": [
+            "frontend/src/pages/HomePage.tsx",
+            "frontend/src/components/projects/ProjectList.tsx",
+            "frontend/src/components/projects/ProjectCard.tsx",
+            "frontend/src/components/projects/ProjectFilters.tsx",
+            "frontend/src/hooks/queries/use-projects.ts"
+          ]
+        },
+        {
+          "id": "QA-DASHBOARD-001",
+          "name": "Dashboard QA",
+          "type": "qa",
+          "brief": "docs/_agent-briefs/phase-4-frontend/QA-DASHBOARD-001.md",
+          "context_budget": 40000,
+          "paired_dev": "DEV-DASHBOARD-001",
+          "dependencies": ["DEV-DASHBOARD-001"],
+          "documentation": {
+            "primary": [
+              "docs/03-frontend/PAGE_SPECIFICATIONS.md",
+              "docs/03-frontend/ACCESSIBILITY.md",
+              "docs/07-testing/QA_MULTI_AGENT_SYSTEM.md"
+            ]
+          }
+        },
+        {
+          "id": "DEV-UPLOAD-001",
+          "name": "Upload UI Agent",
+          "type": "development",
+          "brief": "docs/_agent-briefs/phase-4-frontend/DEV-UPLOAD-001.md",
+          "context_budget": 55000,
+          "qa_pair": "QA-UPLOAD-001",
+          "dependencies": ["DEV-FESETUP-001", "DEV-AUTHUI-001"],
+          "documentation": {
+            "primary": [
+              "docs/03-frontend/PAGE_SPECIFICATIONS.md",
+              "docs/08-user-guides/CONTENT_CREATOR_GUIDE.md"
+            ],
+            "secondary": [
+              "docs/04-backend/API_ENDPOINTS.md",
+              "docs/02-modules/MATERIAL_PREPARATION.md"
+            ]
+          },
+          "outputs": [
+            "frontend/src/pages/ProcessingPage.tsx",
+            "frontend/src/components/upload/FileUpload.tsx",
+            "frontend/src/components/upload/ProgressTracker.tsx",
+            "frontend/src/components/upload/JobStatus.tsx",
+            "frontend/src/hooks/queries/use-jobs.ts"
+          ]
+        },
+        {
+          "id": "QA-UPLOAD-001",
+          "name": "Upload UI QA",
+          "type": "qa",
+          "brief": "docs/_agent-briefs/phase-4-frontend/QA-UPLOAD-001.md",
+          "context_budget": 40000,
+          "paired_dev": "DEV-UPLOAD-001",
+          "dependencies": ["DEV-UPLOAD-001"],
+          "documentation": {
+            "primary": [
+              "docs/03-frontend/PAGE_SPECIFICATIONS.md",
+              "docs/07-testing/QA_MULTI_AGENT_SYSTEM.md"
+            ]
+          }
+        },
+        {
+          "id": "DEV-PROJDETAIL-001",
+          "name": "Project Detail Agent",
+          "type": "development",
+          "brief": "docs/_agent-briefs/phase-4-frontend/DEV-PROJDETAIL-001.md",
+          "context_budget": 55000,
+          "qa_pair": "QA-PROJDETAIL-001",
+          "dependencies": ["DEV-DASHBOARD-001"],
+          "documentation": {
+            "primary": [
+              "docs/03-frontend/PAGE_SPECIFICATIONS.md",
+              "docs/02-modules/PROJECT_DATABASE.md"
+            ]
+          },
+          "outputs": [
+            "frontend/src/pages/ProjectDetailPage.tsx",
+            "frontend/src/components/projects/ProjectDetail.tsx",
+            "frontend/src/components/projects/ImageGallery.tsx",
+            "frontend/src/components/projects/FloorPlanViewer.tsx"
+          ]
+        },
+        {
+          "id": "QA-PROJDETAIL-001",
+          "name": "Project Detail QA",
+          "type": "qa",
+          "brief": "docs/_agent-briefs/phase-4-frontend/QA-PROJDETAIL-001.md",
+          "context_budget": 40000,
+          "paired_dev": "DEV-PROJDETAIL-001",
+          "dependencies": ["DEV-PROJDETAIL-001"],
+          "documentation": {
+            "primary": [
+              "docs/03-frontend/PAGE_SPECIFICATIONS.md",
+              "docs/07-testing/QA_MULTI_AGENT_SYSTEM.md"
+            ]
+          }
+        },
+        {
+          "id": "DEV-QAPAGE-001",
+          "name": "QA Page Agent",
+          "type": "development",
+          "brief": "docs/_agent-briefs/phase-4-frontend/DEV-QAPAGE-001.md",
+          "context_budget": 55000,
+          "qa_pair": "QA-QAPAGE-001",
+          "dependencies": ["DEV-FESETUP-001"],
+          "documentation": {
+            "primary": [
+              "docs/03-frontend/PAGE_SPECIFICATIONS.md",
+              "docs/02-modules/QA_MODULE.md"
+            ],
+            "secondary": [
+              "docs/08-user-guides/MARKETING_MANAGER_GUIDE.md"
+            ]
+          },
+          "outputs": [
+            "frontend/src/pages/QAPage.tsx",
+            "frontend/src/components/qa/ComparisonView.tsx",
+            "frontend/src/components/qa/DiffHighlighter.tsx",
+            "frontend/src/components/qa/IssueList.tsx"
+          ]
+        },
+        {
+          "id": "QA-QAPAGE-001",
+          "name": "QA Page QA",
+          "type": "qa",
+          "brief": "docs/_agent-briefs/phase-4-frontend/QA-QAPAGE-001.md",
+          "context_budget": 40000,
+          "paired_dev": "DEV-QAPAGE-001",
+          "dependencies": ["DEV-QAPAGE-001"],
+          "documentation": {
+            "primary": [
+              "docs/03-frontend/PAGE_SPECIFICATIONS.md",
+              "docs/07-testing/QA_MULTI_AGENT_SYSTEM.md"
+            ]
+          }
+        },
+        {
+          "id": "DEV-PROMPTS-001",
+          "name": "Prompts Page Agent",
+          "type": "development",
+          "brief": "docs/_agent-briefs/phase-4-frontend/DEV-PROMPTS-001.md",
+          "context_budget": 50000,
+          "qa_pair": "QA-PROMPTS-001",
+          "dependencies": ["DEV-FESETUP-001"],
+          "documentation": {
+            "primary": [
+              "docs/03-frontend/PAGE_SPECIFICATIONS.md",
+              "docs/02-modules/PROMPT_LIBRARY.md"
+            ],
+            "secondary": [
+              "docs/08-user-guides/ADMIN_GUIDE.md"
+            ]
+          },
+          "outputs": [
+            "frontend/src/pages/PromptsPage.tsx",
+            "frontend/src/components/prompts/PromptList.tsx",
+            "frontend/src/components/prompts/PromptEditor.tsx",
+            "frontend/src/components/prompts/VersionHistory.tsx"
+          ]
+        },
+        {
+          "id": "QA-PROMPTS-001",
+          "name": "Prompts Page QA",
+          "type": "qa",
+          "brief": "docs/_agent-briefs/phase-4-frontend/QA-PROMPTS-001.md",
+          "context_budget": 40000,
+          "paired_dev": "DEV-PROMPTS-001",
+          "dependencies": ["DEV-PROMPTS-001"],
+          "documentation": {
+            "primary": [
+              "docs/03-frontend/PAGE_SPECIFICATIONS.md",
+              "docs/07-testing/QA_MULTI_AGENT_SYSTEM.md"
+            ]
+          }
+        },
+        {
+          "id": "DEV-WORKFLOW-001",
+          "name": "Workflow Page Agent",
+          "type": "development",
+          "brief": "docs/_agent-briefs/phase-4-frontend/DEV-WORKFLOW-001.md",
+          "context_budget": 55000,
+          "qa_pair": "QA-WORKFLOW-001",
+          "dependencies": ["DEV-FESETUP-001"],
+          "documentation": {
+            "primary": [
+              "docs/03-frontend/PAGE_SPECIFICATIONS.md",
+              "docs/02-modules/APPROVAL_WORKFLOW.md",
+              "docs/02-modules/PUBLISHING_WORKFLOW.md"
+            ],
+            "secondary": [
+              "docs/08-user-guides/MARKETING_MANAGER_GUIDE.md",
+              "docs/08-user-guides/PUBLISHER_GUIDE.md"
+            ]
+          },
+          "outputs": [
+            "frontend/src/pages/WorkflowPage.tsx",
+            "frontend/src/components/workflow/KanbanBoard.tsx",
+            "frontend/src/components/workflow/WorkflowCard.tsx",
+            "frontend/src/components/workflow/StatusColumn.tsx"
+          ]
+        },
+        {
+          "id": "QA-WORKFLOW-001",
+          "name": "Workflow Page QA",
+          "type": "qa",
+          "brief": "docs/_agent-briefs/phase-4-frontend/QA-WORKFLOW-001.md",
+          "context_budget": 40000,
+          "paired_dev": "DEV-WORKFLOW-001",
+          "dependencies": ["DEV-WORKFLOW-001"],
+          "documentation": {
+            "primary": [
+              "docs/03-frontend/PAGE_SPECIFICATIONS.md",
+              "docs/07-testing/QA_MULTI_AGENT_SYSTEM.md"
+            ]
+          }
+        },
+        {
+          "id": "DEV-COMPONENTS-001",
+          "name": "Shared Components Agent",
+          "type": "development",
+          "brief": "docs/_agent-briefs/phase-4-frontend/DEV-COMPONENTS-001.md",
+          "context_budget": 60000,
+          "qa_pair": "QA-COMPONENTS-001",
+          "dependencies": ["DEV-FESETUP-001"],
+          "documentation": {
+            "primary": [
+              "docs/03-frontend/COMPONENT_LIBRARY.md",
+              "docs/03-frontend/ACCESSIBILITY.md"
+            ]
+          },
+          "outputs": [
+            "frontend/src/components/common/Button.tsx",
+            "frontend/src/components/common/Input.tsx",
+            "frontend/src/components/common/Select.tsx",
+            "frontend/src/components/common/Modal.tsx",
+            "frontend/src/components/common/Table.tsx",
+            "frontend/src/components/common/Card.tsx",
+            "frontend/src/components/common/Badge.tsx",
+            "frontend/src/components/common/Alert.tsx",
+            "frontend/src/components/layout/Header.tsx",
+            "frontend/src/components/layout/Sidebar.tsx",
+            "frontend/src/components/layout/Layout.tsx"
+          ]
+        },
+        {
+          "id": "QA-COMPONENTS-001",
+          "name": "Shared Components QA",
+          "type": "qa",
+          "brief": "docs/_agent-briefs/phase-4-frontend/QA-COMPONENTS-001.md",
+          "context_budget": 45000,
+          "paired_dev": "DEV-COMPONENTS-001",
+          "dependencies": ["DEV-COMPONENTS-001"],
+          "documentation": {
+            "primary": [
+              "docs/03-frontend/COMPONENT_LIBRARY.md",
+              "docs/03-frontend/ACCESSIBILITY.md",
+              "docs/07-testing/QA_MULTI_AGENT_SYSTEM.md"
+            ]
+          }
+        },
+        {
+          "id": "DEV-STATE-001",
+          "name": "State Management Agent",
+          "type": "development",
+          "brief": "docs/_agent-briefs/phase-4-frontend/DEV-STATE-001.md",
+          "context_budget": 50000,
+          "qa_pair": "QA-STATE-001",
+          "dependencies": ["DEV-FESETUP-001"],
+          "documentation": {
+            "primary": [
+              "docs/03-frontend/STATE_MANAGEMENT.md"
+            ],
+            "secondary": [
+              "docs/04-backend/API_ENDPOINTS.md"
+            ]
+          },
+          "outputs": [
+            "frontend/src/stores/index.ts",
+            "frontend/src/stores/ui-store.ts",
+            "frontend/src/lib/api.ts",
+            "frontend/src/hooks/queries/use-projects.ts",
+            "frontend/src/hooks/queries/use-jobs.ts",
+            "frontend/src/hooks/use-auth.ts"
+          ]
+        },
+        {
+          "id": "QA-STATE-001",
+          "name": "State Management QA",
+          "type": "qa",
+          "brief": "docs/_agent-briefs/phase-4-frontend/QA-STATE-001.md",
+          "context_budget": 40000,
+          "paired_dev": "DEV-STATE-001",
+          "dependencies": ["DEV-STATE-001"],
+          "documentation": {
+            "primary": [
+              "docs/03-frontend/STATE_MANAGEMENT.md",
+              "docs/07-testing/QA_MULTI_AGENT_SYSTEM.md"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "phase-5",
+      "name": "Integrations",
+      "description": "External service integrations (GCS, Sheets, Drive, Anthropic, OAuth)",
+      "parallel_execution": true,
+      "depends_on": ["phase-1"],
+      "quality_gate": {
+        "qa_score_minimum": 90,
+        "blocking_issues_allowed": {"critical": 0, "high": 0},
+        "test_coverage_minimum": 85
+      },
+      "agents": [
+        {
+          "id": "DEV-GCS-001",
+          "name": "GCS Integration Agent",
+          "type": "development",
+          "brief": "docs/_agent-briefs/phase-5-integrations/DEV-GCS-001.md",
+          "context_budget": 50000,
+          "qa_pair": "QA-GCS-001",
+          "dependencies": ["DEV-CONFIG-001"],
+          "documentation": {
+            "primary": [
+              "docs/05-integrations/GOOGLE_CLOUD_SETUP.md",
+              "docs/05-integrations/CLOUD_STORAGE_PATTERNS.md"
+            ]
+          },
+          "outputs": [
+            "backend/app/services/storage_service.py"
+          ]
+        },
+        {
+          "id": "QA-GCS-001",
+          "name": "GCS Integration QA",
+          "type": "qa",
+          "brief": "docs/_agent-briefs/phase-5-integrations/QA-GCS-001.md",
+          "context_budget": 40000,
+          "paired_dev": "DEV-GCS-001",
+          "dependencies": ["DEV-GCS-001"],
+          "documentation": {
+            "primary": [
+              "docs/05-integrations/CLOUD_STORAGE_PATTERNS.md",
+              "docs/07-testing/QA_MULTI_AGENT_SYSTEM.md"
+            ]
+          }
+        },
+        {
+          "id": "DEV-GSHEETS-001",
+          "name": "Google Sheets Integration Agent",
+          "type": "development",
+          "brief": "docs/_agent-briefs/phase-5-integrations/DEV-GSHEETS-001.md",
+          "context_budget": 55000,
+          "qa_pair": "QA-GSHEETS-001",
+          "dependencies": ["DEV-CONFIG-001"],
+          "documentation": {
+            "primary": [
+              "docs/05-integrations/GOOGLE_SHEETS_INTEGRATION.md"
+            ],
+            "secondary": [
+              "docs/05-integrations/GOOGLE_CLOUD_SETUP.md"
+            ]
+          },
+          "outputs": [
+            "backend/app/integrations/sheets_client.py"
+          ]
+        },
+        {
+          "id": "QA-GSHEETS-001",
+          "name": "Google Sheets QA",
+          "type": "qa",
+          "brief": "docs/_agent-briefs/phase-5-integrations/QA-GSHEETS-001.md",
+          "context_budget": 40000,
+          "paired_dev": "DEV-GSHEETS-001",
+          "dependencies": ["DEV-GSHEETS-001"],
+          "documentation": {
+            "primary": [
+              "docs/05-integrations/GOOGLE_SHEETS_INTEGRATION.md",
+              "docs/07-testing/QA_MULTI_AGENT_SYSTEM.md"
+            ]
+          }
+        },
+        {
+          "id": "DEV-DRIVE-001",
+          "name": "Google Drive Integration Agent",
+          "type": "development",
+          "brief": "docs/_agent-briefs/phase-5-integrations/DEV-DRIVE-001.md",
+          "context_budget": 50000,
+          "qa_pair": "QA-DRIVE-001",
+          "dependencies": ["DEV-CONFIG-001"],
+          "documentation": {
+            "primary": [
+              "docs/05-integrations/GOOGLE_DRIVE_INTEGRATION.md"
+            ],
+            "secondary": [
+              "docs/05-integrations/GOOGLE_CLOUD_SETUP.md"
+            ]
+          },
+          "outputs": [
+            "backend/app/integrations/drive_client.py"
+          ]
+        },
+        {
+          "id": "QA-DRIVE-001",
+          "name": "Google Drive QA",
+          "type": "qa",
+          "brief": "docs/_agent-briefs/phase-5-integrations/QA-DRIVE-001.md",
+          "context_budget": 40000,
+          "paired_dev": "DEV-DRIVE-001",
+          "dependencies": ["DEV-DRIVE-001"],
+          "documentation": {
+            "primary": [
+              "docs/05-integrations/GOOGLE_DRIVE_INTEGRATION.md",
+              "docs/07-testing/QA_MULTI_AGENT_SYSTEM.md"
+            ]
+          }
+        },
+        {
+          "id": "DEV-ANTHROPIC-001",
+          "name": "Anthropic Integration Agent",
+          "type": "development",
+          "brief": "docs/_agent-briefs/phase-5-integrations/DEV-ANTHROPIC-001.md",
+          "context_budget": 55000,
+          "qa_pair": "QA-ANTHROPIC-001",
+          "dependencies": ["DEV-CONFIG-001"],
+          "documentation": {
+            "primary": [
+              "docs/05-integrations/ANTHROPIC_API_INTEGRATION.md"
+            ],
+            "secondary": [
+              "docs/02-modules/CONTENT_GENERATION.md"
+            ]
+          },
+          "outputs": [
+            "backend/app/integrations/anthropic_client.py",
+            "backend/app/utils/token_counter.py"
+          ]
+        },
+        {
+          "id": "QA-ANTHROPIC-001",
+          "name": "Anthropic Integration QA",
+          "type": "qa",
+          "brief": "docs/_agent-briefs/phase-5-integrations/QA-ANTHROPIC-001.md",
+          "context_budget": 45000,
+          "paired_dev": "DEV-ANTHROPIC-001",
+          "dependencies": ["DEV-ANTHROPIC-001"],
+          "documentation": {
+            "primary": [
+              "docs/05-integrations/ANTHROPIC_API_INTEGRATION.md",
+              "docs/07-testing/QA_MULTI_AGENT_SYSTEM.md"
+            ]
+          }
+        },
+        {
+          "id": "DEV-OAUTH-001",
+          "name": "OAuth Integration Agent",
+          "type": "development",
+          "brief": "docs/_agent-briefs/phase-5-integrations/DEV-OAUTH-001.md",
+          "context_budget": 50000,
+          "qa_pair": "QA-OAUTH-001",
+          "dependencies": ["DEV-CONFIG-001"],
+          "documentation": {
+            "primary": [
+              "docs/05-integrations/GOOGLE_OAUTH_SETUP.md",
+              "docs/01-architecture/SECURITY_ARCHITECTURE.md"
+            ]
+          },
+          "outputs": [
+            "backend/app/integrations/oauth_client.py"
+          ]
+        },
+        {
+          "id": "QA-OAUTH-001",
+          "name": "OAuth Integration QA",
+          "type": "qa",
+          "brief": "docs/_agent-briefs/phase-5-integrations/QA-OAUTH-001.md",
+          "context_budget": 40000,
+          "paired_dev": "DEV-OAUTH-001",
+          "dependencies": ["DEV-OAUTH-001"],
+          "documentation": {
+            "primary": [
+              "docs/05-integrations/GOOGLE_OAUTH_SETUP.md",
+              "docs/07-testing/QA_MULTI_AGENT_SYSTEM.md"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "phase-6",
+      "name": "DevOps",
+      "description": "Docker, CI/CD, Cloud Run deployment, and monitoring",
+      "parallel_execution": true,
+      "depends_on": ["phase-2", "phase-3", "phase-4", "phase-5"],
+      "quality_gate": {
+        "qa_score_minimum": 90,
+        "blocking_issues_allowed": {"critical": 0, "high": 0},
+        "test_coverage_minimum": 75
+      },
+      "agents": [
+        {
+          "id": "DEV-DOCKER-001",
+          "name": "Docker Agent",
+          "type": "development",
+          "brief": "docs/_agent-briefs/phase-6-devops/DEV-DOCKER-001.md",
+          "context_budget": 50000,
+          "qa_pair": "QA-DOCKER-001",
+          "dependencies": [],
+          "documentation": {
+            "primary": [
+              "docs/06-devops/LOCAL_DEVELOPMENT.md",
+              "docs/06-devops/DEPLOYMENT_GUIDE.md"
+            ]
+          },
+          "outputs": [
+            "backend/Dockerfile",
+            "frontend/Dockerfile",
+            "docker-compose.yml",
+            "docker-compose.dev.yml"
+          ]
+        },
+        {
+          "id": "QA-DOCKER-001",
+          "name": "Docker QA",
+          "type": "qa",
+          "brief": "docs/_agent-briefs/phase-6-devops/QA-DOCKER-001.md",
+          "context_budget": 40000,
+          "paired_dev": "DEV-DOCKER-001",
+          "dependencies": ["DEV-DOCKER-001"],
+          "documentation": {
+            "primary": [
+              "docs/06-devops/LOCAL_DEVELOPMENT.md",
+              "docs/07-testing/QA_MULTI_AGENT_SYSTEM.md"
+            ]
+          }
+        },
+        {
+          "id": "DEV-CICD-001",
+          "name": "CI/CD Agent",
+          "type": "development",
+          "brief": "docs/_agent-briefs/phase-6-devops/DEV-CICD-001.md",
+          "context_budget": 55000,
+          "qa_pair": "QA-CICD-001",
+          "dependencies": ["DEV-DOCKER-001"],
+          "documentation": {
+            "primary": [
+              "docs/06-devops/CICD_PIPELINE.md"
+            ],
+            "secondary": [
+              "docs/07-testing/TEST_STRATEGY.md"
+            ]
+          },
+          "outputs": [
+            "cloudbuild.yaml",
+            ".github/workflows/ci.yml",
+            ".github/workflows/deploy.yml"
+          ]
+        },
+        {
+          "id": "QA-CICD-001",
+          "name": "CI/CD QA",
+          "type": "qa",
+          "brief": "docs/_agent-briefs/phase-6-devops/QA-CICD-001.md",
+          "context_budget": 45000,
+          "paired_dev": "DEV-CICD-001",
+          "dependencies": ["DEV-CICD-001"],
+          "documentation": {
+            "primary": [
+              "docs/06-devops/CICD_PIPELINE.md",
+              "docs/07-testing/QA_MULTI_AGENT_SYSTEM.md"
+            ]
+          }
+        },
+        {
+          "id": "DEV-CLOUDRUN-001",
+          "name": "Cloud Run Agent",
+          "type": "development",
+          "brief": "docs/_agent-briefs/phase-6-devops/DEV-CLOUDRUN-001.md",
+          "context_budget": 50000,
+          "qa_pair": "QA-CLOUDRUN-001",
+          "dependencies": ["DEV-DOCKER-001", "DEV-CICD-001"],
+          "documentation": {
+            "primary": [
+              "docs/06-devops/DEPLOYMENT_GUIDE.md",
+              "docs/01-architecture/INFRASTRUCTURE.md"
+            ]
+          },
+          "outputs": [
+            "infrastructure/cloudrun-backend.yaml",
+            "infrastructure/cloudrun-frontend.yaml",
+            "scripts/deploy.sh"
+          ]
+        },
+        {
+          "id": "QA-CLOUDRUN-001",
+          "name": "Cloud Run QA",
+          "type": "qa",
+          "brief": "docs/_agent-briefs/phase-6-devops/QA-CLOUDRUN-001.md",
+          "context_budget": 40000,
+          "paired_dev": "DEV-CLOUDRUN-001",
+          "dependencies": ["DEV-CLOUDRUN-001"],
+          "documentation": {
+            "primary": [
+              "docs/06-devops/DEPLOYMENT_GUIDE.md",
+              "docs/07-testing/QA_MULTI_AGENT_SYSTEM.md"
+            ]
+          }
+        },
+        {
+          "id": "DEV-MONITORING-001",
+          "name": "Monitoring Agent",
+          "type": "development",
+          "brief": "docs/_agent-briefs/phase-6-devops/DEV-MONITORING-001.md",
+          "context_budget": 50000,
+          "qa_pair": "QA-MONITORING-001",
+          "dependencies": ["DEV-CLOUDRUN-001"],
+          "documentation": {
+            "primary": [
+              "docs/06-devops/MONITORING_SETUP.md"
+            ],
+            "secondary": [
+              "docs/06-devops/BACKUP_RECOVERY.md"
+            ]
+          },
+          "outputs": [
+            "infrastructure/monitoring/alerts.yaml",
+            "infrastructure/monitoring/dashboards.json",
+            "backend/app/utils/logging.py"
+          ]
+        },
+        {
+          "id": "QA-MONITORING-001",
+          "name": "Monitoring QA",
+          "type": "qa",
+          "brief": "docs/_agent-briefs/phase-6-devops/QA-MONITORING-001.md",
+          "context_budget": 40000,
+          "paired_dev": "DEV-MONITORING-001",
+          "dependencies": ["DEV-MONITORING-001"],
+          "documentation": {
+            "primary": [
+              "docs/06-devops/MONITORING_SETUP.md",
+              "docs/07-testing/QA_MULTI_AGENT_SYSTEM.md"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "phase-testing",
+      "name": "Testing",
+      "description": "Comprehensive testing: unit, integration, E2E, performance, security",
+      "parallel_execution": true,
+      "depends_on": ["phase-6"],
+      "quality_gate": {
+        "qa_score_minimum": 95,
+        "blocking_issues_allowed": {"critical": 0, "high": 0, "medium": 0},
+        "test_coverage_minimum": 80
+      },
+      "agents": [
+        {
+          "id": "TEST-BACKEND-UNIT-001",
+          "name": "Backend Unit Test Agent",
+          "type": "testing",
+          "brief": "docs/_agent-briefs/testing/TEST-BACKEND-UNIT-001.md",
+          "context_budget": 50000,
+          "dependencies": ["phase-1", "phase-2", "phase-3"],
+          "documentation": {
+            "primary": [
+              "docs/07-testing/UNIT_TEST_PATTERNS.md",
+              "docs/07-testing/TEST_STRATEGY.md"
+            ]
+          },
+          "outputs": [
+            "tests/unit/services/",
+            "tests/unit/repositories/",
+            "tests/unit/utils/",
+            "tests/conftest.py",
+            "pytest.ini"
+          ],
+          "coverage_target": 80
+        },
+        {
+          "id": "TEST-FRONTEND-UNIT-001",
+          "name": "Frontend Unit Test Agent",
+          "type": "testing",
+          "brief": "docs/_agent-briefs/testing/TEST-FRONTEND-UNIT-001.md",
+          "context_budget": 50000,
+          "dependencies": ["phase-4"],
+          "documentation": {
+            "primary": [
+              "docs/07-testing/UNIT_TEST_PATTERNS.md",
+              "docs/07-testing/TEST_STRATEGY.md"
+            ]
+          },
+          "outputs": [
+            "frontend/src/**/*.test.tsx",
+            "frontend/vitest.config.ts"
+          ],
+          "coverage_target": 70
+        },
+        {
+          "id": "TEST-API-INT-001",
+          "name": "API Integration Test Agent",
+          "type": "testing",
+          "brief": "docs/_agent-briefs/testing/TEST-API-INT-001.md",
+          "context_budget": 55000,
+          "dependencies": ["phase-1", "phase-5"],
+          "documentation": {
+            "primary": [
+              "docs/07-testing/INTEGRATION_TESTS.md",
+              "docs/04-backend/API_ENDPOINTS.md"
+            ]
+          },
+          "outputs": [
+            "tests/integration/api/",
+            "tests/integration/conftest.py"
+          ],
+          "coverage_target": 75
+        },
+        {
+          "id": "TEST-FE-INT-001",
+          "name": "Frontend Integration Test Agent",
+          "type": "testing",
+          "brief": "docs/_agent-briefs/testing/TEST-FE-INT-001.md",
+          "context_budget": 50000,
+          "dependencies": ["phase-4"],
+          "documentation": {
+            "primary": [
+              "docs/07-testing/INTEGRATION_TESTS.md"
+            ]
+          },
+          "outputs": [
+            "frontend/tests/integration/"
+          ]
+        },
+        {
+          "id": "TEST-E2E-001",
+          "name": "E2E Test Agent",
+          "type": "testing",
+          "brief": "docs/_agent-briefs/testing/TEST-E2E-001.md",
+          "context_budget": 55000,
+          "dependencies": ["phase-6"],
+          "documentation": {
+            "primary": [
+              "docs/07-testing/E2E_TEST_SCENARIOS.md",
+              "docs/08-user-guides/CONTENT_CREATOR_GUIDE.md",
+              "docs/08-user-guides/MARKETING_MANAGER_GUIDE.md"
+            ]
+          },
+          "outputs": [
+            "tests/e2e/scenarios/",
+            "playwright.config.ts"
+          ]
+        },
+        {
+          "id": "TEST-PERF-001",
+          "name": "Performance Test Agent",
+          "type": "testing",
+          "brief": "docs/_agent-briefs/testing/TEST-PERF-001.md",
+          "context_budget": 50000,
+          "dependencies": ["phase-6"],
+          "documentation": {
+            "primary": [
+              "docs/07-testing/PERFORMANCE_TESTING.md"
+            ]
+          },
+          "outputs": [
+            "tests/performance/locustfile.py",
+            "tests/performance/benchmarks/"
+          ]
+        },
+        {
+          "id": "TEST-SECURITY-001",
+          "name": "Security Test Agent",
+          "type": "testing",
+          "brief": "docs/_agent-briefs/testing/TEST-SECURITY-001.md",
+          "context_budget": 50000,
+          "dependencies": ["phase-6"],
+          "documentation": {
+            "primary": [
+              "docs/07-testing/QA_MULTI_AGENT_SYSTEM.md",
+              "docs/01-architecture/SECURITY_ARCHITECTURE.md"
+            ]
+          },
+          "outputs": [
+            "tests/security/",
+            ".github/workflows/security-scan.yml"
+          ]
+        },
+        {
+          "id": "TEST-VISUAL-001",
+          "name": "Visual Regression Test Agent",
+          "type": "testing",
+          "brief": "docs/_agent-briefs/testing/TEST-VISUAL-001.md",
+          "context_budget": 45000,
+          "dependencies": ["phase-4"],
+          "documentation": {
+            "primary": [
+              "docs/07-testing/E2E_TEST_SCENARIOS.md",
+              "docs/03-frontend/COMPONENT_LIBRARY.md"
+            ]
+          },
+          "outputs": [
+            "tests/visual/",
+            "frontend/.storybook/"
+          ]
+        }
+      ]
+    }
+  ],
+
+  "system_qa_agents": [
+    {
+      "id": "SYSQA-CODE-001",
+      "name": "Code Quality Agent",
+      "brief": "docs/_agent-briefs/system-qa/SYSQA-CODE-001.md",
+      "documentation": [
+        "docs/07-testing/QA_MULTI_AGENT_SYSTEM.md"
+      ],
+      "runs_on": ["every_commit", "pr_creation"]
+    },
+    {
+      "id": "SYSQA-SECURITY-001",
+      "name": "Security Agent",
+      "brief": "docs/_agent-briefs/system-qa/SYSQA-SECURITY-001.md",
+      "documentation": [
+        "docs/07-testing/QA_MULTI_AGENT_SYSTEM.md",
+        "docs/01-architecture/SECURITY_ARCHITECTURE.md"
+      ],
+      "runs_on": ["every_commit", "pr_creation", "daily_scheduled"]
+    },
+    {
+      "id": "SYSQA-INTEGRATION-001",
+      "name": "Integration QA Agent",
+      "brief": "docs/_agent-briefs/system-qa/SYSQA-INTEGRATION-001.md",
+      "documentation": [
+        "docs/07-testing/QA_MULTI_AGENT_SYSTEM.md",
+        "docs/07-testing/INTEGRATION_TESTS.md"
+      ],
+      "runs_on": ["pr_creation", "pre_merge"]
+    },
+    {
+      "id": "SYSQA-PERF-001",
+      "name": "Performance QA Agent",
+      "brief": "docs/_agent-briefs/system-qa/SYSQA-PERF-001.md",
+      "documentation": [
+        "docs/07-testing/QA_MULTI_AGENT_SYSTEM.md",
+        "docs/07-testing/PERFORMANCE_TESTING.md"
+      ],
+      "runs_on": ["pr_to_main", "weekly_scheduled"]
+    },
+    {
+      "id": "SYSQA-DOCS-001",
+      "name": "Documentation QA Agent",
+      "brief": "docs/_agent-briefs/system-qa/SYSQA-DOCS-001.md",
+      "documentation": [
+        "docs/07-testing/QA_MULTI_AGENT_SYSTEM.md"
+      ],
+      "runs_on": ["pr_with_code_changes"]
+    },
+    {
+      "id": "SYSQA-DEPS-001",
+      "name": "Dependency QA Agent",
+      "brief": "docs/_agent-briefs/system-qa/SYSQA-DEPS-001.md",
+      "documentation": [
+        "docs/07-testing/QA_MULTI_AGENT_SYSTEM.md"
+      ],
+      "runs_on": ["daily_scheduled", "dependency_changes"]
+    },
+    {
+      "id": "SYSQA-ESCALATION-001",
+      "name": "Escalation Agent",
+      "brief": "docs/_agent-briefs/system-qa/SYSQA-ESCALATION-001.md",
+      "documentation": [
+        "docs/07-testing/QA_MULTI_AGENT_SYSTEM.md"
+      ],
+      "runs_on": ["agent_failure", "quality_gate_failure"]
+    }
+  ],
+
+  "execution_config": {
+    "max_parallel_agents": 5,
+    "agent_timeout_minutes": 60,
+    "retry_attempts": 3,
+    "quality_gate_retry_delay_minutes": 30,
+    "notification_channels": ["slack", "email"],
+    "artifact_storage": "docs/_agent-outputs/"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "brochure": "PALMIERA-COLLECTIVE_TO_FLOORPLAN",
+  "timestamp": "20260212T091600",
+  "size_mb": 10.4,
+  "page_count": 4,
+  "table_extraction": {
+    "floor_plan_spec_count": 0,
+    "specs": [],
+    "errors": []
+  },
+  "text_extraction": [
+    {
+      "page": 1,
+      "unit_type": "4 BEDROOM W"
+    },
+    {
+      "page": 2,
+      "unit_type": "4 BEDROOM W"
+    },
+    {
+      "page": 3,
+      "unit_type": "4 BEDROOM W"
+    },
+    {
+      "page": 4,
+      "unit_type": "4 BEDROOM W"
+    }
+  ]
+}

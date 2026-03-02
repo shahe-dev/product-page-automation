@@ -1,0 +1,53 @@
+{
+  "brochure": "EVELYN Brochure Final",
+  "timestamp": "20260211T194419",
+  "size_mb": 23.3,
+  "page_count": 24,
+  "table_extraction": {
+    "floor_plan_spec_count": 0,
+    "specs": [],
+    "errors": []
+  },
+  "text_extraction": [
+    {
+      "page": 10,
+      "unit_type": "DUPLEX"
+    },
+    {
+      "page": 11,
+      "unit_type": "DUPLEX"
+    },
+    {
+      "page": 12,
+      "unit_type": "DUPLEX"
+    },
+    {
+      "page": 20,
+      "unit_type": "1BR",
+      "suite_sqft": 558.32,
+      "balcony_sqft": 57.48,
+      "total_sqft": 615.8
+    },
+    {
+      "page": 21,
+      "unit_type": "1BR",
+      "suite_sqft": 558.32,
+      "balcony_sqft": 57.48,
+      "total_sqft": 615.8
+    },
+    {
+      "page": 22,
+      "unit_type": "1BR",
+      "suite_sqft": 558.32,
+      "balcony_sqft": 57.48,
+      "total_sqft": 615.8
+    },
+    {
+      "page": 23,
+      "unit_type": "2BR",
+      "suite_sqft": 844.97,
+      "balcony_sqft": 70.4,
+      "total_sqft": 915.36
+    }
+  ]
+}

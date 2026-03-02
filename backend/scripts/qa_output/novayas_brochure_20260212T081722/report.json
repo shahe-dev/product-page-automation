@@ -1,0 +1,77 @@
+{
+  "brochure": "NOVAYAS Brochure",
+  "timestamp": "20260212T081722",
+  "size_mb": 15.1,
+  "page_count": 32,
+  "table_extraction": {
+    "floor_plan_spec_count": 0,
+    "specs": [],
+    "errors": []
+  },
+  "text_extraction": [
+    {
+      "page": 15,
+      "unit_type": "STUDIO"
+    },
+    {
+      "page": 16,
+      "unit_type": "STUDIO"
+    },
+    {
+      "page": 17,
+      "unit_type": "STUDIO"
+    },
+    {
+      "page": 18,
+      "unit_type": "1- BEDROOM\nA"
+    },
+    {
+      "page": 19,
+      "unit_type": "1- BEDROOM\nA"
+    },
+    {
+      "page": 20,
+      "unit_type": "1- BEDROOM\nA"
+    },
+    {
+      "page": 21,
+      "unit_type": "1-BEDROOM\nTYPE A"
+    },
+    {
+      "page": 22,
+      "unit_type": "1-BEDROOM\nTYPE B"
+    },
+    {
+      "page": 23,
+      "unit_type": "1-BEDROOM\nTYPE C"
+    },
+    {
+      "page": 24,
+      "unit_type": "2- BEDROOM\nA"
+    },
+    {
+      "page": 25,
+      "unit_type": "2-BEDROOM\nTYPE A"
+    },
+    {
+      "page": 26,
+      "unit_type": "2-BEDROOM\nTYPE B"
+    },
+    {
+      "page": 27,
+      "unit_type": "3- BEDROOM\nA"
+    },
+    {
+      "page": 28,
+      "unit_type": "3-BEDROOM\nW"
+    },
+    {
+      "page": 29,
+      "unit_type": "3-BEDROOM\nW"
+    },
+    {
+      "page": 30,
+      "unit_type": "4- BEDROOM\nP"
+    }
+  ]
+}

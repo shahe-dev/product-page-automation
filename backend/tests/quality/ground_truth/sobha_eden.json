@@ -1,0 +1,110 @@
+{
+  "brochure": "Sobha Central Brochure - The Eden.pdf",
+  "last_verified": "2026-02-11",
+  "notes": "Full API extraction. 10 plans (8x 1BR A-H, 2x 2BR D,G). Known regex bugs: prices parsed as bath counts (baths=2450 is AED 2,450), beds=750 is a price. No studios extracted despite text references.",
+
+  "table_specs": [],
+  "table_spec_count": 0,
+
+  "text_assertions": {
+    "pages_with_floor_plan_text": [23, 24, 25, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64],
+    "expected_unit_types_in_text": ["STUDIO", "1BR"],
+    "expected_area_labels_present": true
+  },
+
+  "floor_plans": [
+    {
+      "unit_type": "1 Bedroom Apartment Type A",
+      "bedrooms": 1,
+      "bathrooms": 1.0,
+      "total_sqft": 568.55,
+      "suite_sqft": 479.10,
+      "balcony_sqft": 89.45
+    },
+    {
+      "unit_type": "1 BEDROOM APARTMENT TYPE B",
+      "bedrooms": 1,
+      "bathrooms": 1.0,
+      "total_sqft": 588.25,
+      "suite_sqft": 488.36,
+      "balcony_sqft": 99.89
+    },
+    {
+      "unit_type": "1 BEDROOM APARTMENT TYPE C",
+      "bedrooms": 1,
+      "bathrooms": 1.0,
+      "total_sqft": 631.63,
+      "suite_sqft": 542.18,
+      "balcony_sqft": 89.45
+    },
+    {
+      "unit_type": "1 BEDROOM APARTMENT TYPE D",
+      "bedrooms": 1,
+      "bathrooms": 1.0,
+      "total_sqft": 695.03,
+      "suite_sqft": 593.63,
+      "balcony_sqft": 101.40
+    },
+    {
+      "unit_type": "1 BEDROOM APARTMENT TYPE E",
+      "bedrooms": 1,
+      "bathrooms": 1.0,
+      "total_sqft": 702.13,
+      "suite_sqft": 541.75,
+      "balcony_sqft": 160.49
+    },
+    {
+      "unit_type": "1 BEDROOM APARTMENT TYPE F",
+      "bedrooms": 1,
+      "bathrooms": 1.0,
+      "total_sqft": 730.55,
+      "suite_sqft": 629.15,
+      "balcony_sqft": 101.40
+    },
+    {
+      "unit_type": "1 BEDROOM APARTMENT TYPE G",
+      "bedrooms": 1,
+      "bathrooms": 1.0,
+      "total_sqft": 743.89,
+      "suite_sqft": 642.17,
+      "balcony_sqft": 101.72
+    },
+    {
+      "unit_type": "1 BEDROOM APARTMENT TYPE H",
+      "bedrooms": 1,
+      "bathrooms": 1.0,
+      "total_sqft": 782.32,
+      "suite_sqft": 622.26,
+      "balcony_sqft": 160.06
+    },
+    {
+      "unit_type": "2 Bedroom Apartment Type D",
+      "bedrooms": 2,
+      "bathrooms": 2.0,
+      "total_sqft": 956.48,
+      "suite_sqft": 837.32,
+      "balcony_sqft": 119.16
+    },
+    {
+      "unit_type": "2 Bedroom Apartment Type G",
+      "bedrooms": 2,
+      "bathrooms": 2.0,
+      "total_sqft": 1202.01,
+      "suite_sqft": 1019.13,
+      "balcony_sqft": 182.88
+    }
+  ],
+  "total_unique_plans": 10,
+  "total_unique_plans_tolerance": 2,
+
+  "classification": {
+    "min_floor_plan_images": 10
+  },
+
+  "tolerances": {
+    "sqft_pct": 3.0,
+    "balcony_sqft_pct": 5.0,
+    "bedrooms_exact": true,
+    "bathrooms_exact": true
+  }
+}

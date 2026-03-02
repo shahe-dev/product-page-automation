@@ -1,0 +1,72 @@
+======================================================================
+  GROUND TRUTH REVIEW: olive_farms
+======================================================================
+  File: Olive Farms FP.pdf
+  Size: 0.1 MB, 3 pages
+  Format: SD (text quality: rich)
+  Notes: 3 pages only, 0.1 MB. Tiny file. Dimensions in text (m format) + area tables. Likely villa/farm with multi-floor.
+======================================================================
+
+INSTRUCTIONS:
+  1. Open the PDF in a viewer
+  2. For each floor plan page, verify/fill in the data below
+  3. Copy the JSON template at the bottom into the ground truth file
+
+FLOOR PLAN PAGES DETECTED: 3
+----------------------------------------------------------------------
+
+  Page 1: dimensions (6 found), sqm (3 values), bedrooms: ['1'], unit_types: ['orientation', 'to'], rooms: ['bathroom', 'dining', 'kitchen', 'living', 'master bedroom']
+    sample_dimensions: ['1.75 x 2.85', '4.25 x 5.95', '2.45 x 2.20', '1.40 x 2.00', '1.80 x 2.70']
+    sqm_values: [260.0, 75.0, 185.0]
+    text: JEBEL SIFAH | JEBEL SIFAH | OLIVE FARMS | OLIVE FARMS | PAGE 31 | PAGE 30 | CLOSET | 1.75 X 2.85 | LIVING | AND | DINING | 4.25 X 5.95 | KITCHEN | 2.45 X 2.20 | TOILET | 1.40 X 2.00 | BATHROOM | 1.80 X 2.70 | MASTER BEDROOM | 3.70 X 4.70 | 14.15 M | 18.40 M | Disclaimer: All information and drawings used in this brochure  | and its annexes are 
+
+  Page 2: dimensions (7 found), sqm (3 values), bedrooms: ['0', '2'], unit_types: ['orientation', 'to'], rooms: ['bathroom', 'dining', 'kitchen', 'living', 'master bedroom']
+    sample_dimensions: ['3.80 x 3.90', '2.60 x 1.75', '2.60 x 1.75', '1.40 x 1.50', '2.00 x 1.50']
+    sqm_values: [275.0, 98.0, 177.0]
+    text: JEBEL SIFAH | JEBEL SIFAH | OLIVE FARMS | OLIVE FARMS | PAGE 33 | PAGE 32 | MASTER BEDROOM | 3.80 X 3.90 | BATHROOM | 2.60 X 1.75 | BATHROOM | 2.60 X 1.75 | STORAGE | 1.40 X 1.50 | TOILET | 2.00 X 1.50 | BEDROOM 2 | 3.70 X 3.35 | LIVING | DINING | & KITCHEN | 5.40 X 6.50 | 14.95 M | 18.40 M | 2 BEDROOM | FARMHOUSE | Disclaimer: All information and dr
+
+  Page 3: dimensions (8 found), sqm (3 values), bedrooms: ['0', '0', '3'], unit_types: ['orientation', 'to'], rooms: ['bathroom', 'dining', 'kitchen', 'living', 'master bedroom']
+    sample_dimensions: ['3.80 x 3.95', '2.60 x 1.80', '3.60 x 3.40', '3.20 x 3.75', '1.30 x 1.40']
+    sqm_values: [350.0, 120.0, 230.0]
+    text: JEBEL SIFAH | JEBEL SIFAH | OLIVE FARMS | OLIVE FARMS | PAGE 35 | PAGE 34 | MASTER BEDROOM | 3.80 X 3.95 | BATHROOM | 2.60 X 1.80 | BEDROOM 2 | 3.60 X 3.40 | BEDROOM 1 | 3.20 X 3.75 | STORAGE | 1.30 X 1.40 | TOILET | 1.50 X 1.40 | BATHROOM | 2.60 X 1.50 | LIVING | DINING | & KITCHEN | 4.80 X 6.65 | 19.05 M | 18.40 M | 3 BEDROOM | FARMHOUSE | Disclaimer: 
+
+----------------------------------------------------------------------
+SUMMARY
+----------------------------------------------------------------------
+  All sqft values found: []
+  Unit types found: ['ORIENTATION', 'TO']
+  Bedroom counts found: ['0', '1', '2', '3']
+
+----------------------------------------------------------------------
+JSON TEMPLATE (copy into ground truth file)
+----------------------------------------------------------------------
+{
+  "brochure": "Olive Farms FP.pdf",
+  "last_verified": "2026-02-XX",
+  "notes": "FILL IN: describe what you found",
+  "table_specs": [],
+  "table_spec_count": 0,
+  "text_assertions": {
+    "pages_with_floor_plan_text": [
+      1,
+      2,
+      3
+    ],
+    "expected_unit_types_in_text": [
+      "ORIENTATION",
+      "TO"
+    ],
+    "expected_area_labels_present": false
+  },
+  "floor_plans": [],
+  "total_unique_plans": 0,
+  "total_unique_plans_tolerance": 2,
+  "tolerances": {
+    "sqft_pct": 5.0,
+    "balcony_sqft_pct": 10.0,
+    "bedrooms_exact": true,
+    "bathrooms_exact": true
+  }
+}
+
+NOTE: The floor_plans above are INFERRED from text only. You MUST verify against the actual PDF. Plans with no text data (RD type) will be empty -- fill in manually.

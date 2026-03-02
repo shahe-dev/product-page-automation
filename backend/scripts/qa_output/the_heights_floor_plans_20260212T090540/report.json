@@ -1,0 +1,89 @@
+{
+  "brochure": "THE_HEIGHTS_FLOOR_PLANS",
+  "timestamp": "20260212T090540",
+  "size_mb": 5.2,
+  "page_count": 19,
+  "table_extraction": {
+    "floor_plan_spec_count": 0,
+    "specs": [],
+    "errors": []
+  },
+  "text_extraction": [
+    {
+      "page": 1,
+      "unit_type": "3 BEDROOM TYPE A"
+    },
+    {
+      "page": 2,
+      "unit_type": "3 BEDROOM TYPE A"
+    },
+    {
+      "page": 3,
+      "unit_type": "3 BEDROOM TYPE A"
+    },
+    {
+      "page": 4,
+      "unit_type": "4 BEDROOM TYPE A"
+    },
+    {
+      "page": 5,
+      "unit_type": "5 BEDROOM TYPE A"
+    },
+    {
+      "page": 6,
+      "unit_type": "3 BEDROOM TYPE C"
+    },
+    {
+      "page": 7,
+      "unit_type": "4 BEDROOM TYPE C"
+    },
+    {
+      "page": 8,
+      "unit_type": "5 BEDROOM TYPE C"
+    },
+    {
+      "page": 9,
+      "unit_type": "3 BEDROOM TYPE B"
+    },
+    {
+      "page": 10,
+      "unit_type": "4 BEDROOM TYPE B"
+    },
+    {
+      "page": 11,
+      "unit_type": "5 BEDROOM TYPE B"
+    },
+    {
+      "page": 12,
+      "unit_type": "3 BEDROOM TYPE C"
+    },
+    {
+      "page": 13,
+      "unit_type": "4 BEDROOM TYPE C"
+    },
+    {
+      "page": 14,
+      "unit_type": "5 BEDROOM TYPE C"
+    },
+    {
+      "page": 15,
+      "unit_type": "3 BEDROOM TYPE A"
+    },
+    {
+      "page": 16,
+      "unit_type": "4 BEDROOM TYPE A"
+    },
+    {
+      "page": 17,
+      "unit_type": "5 BEDROOM TYPE A"
+    },
+    {
+      "page": 18,
+      "unit_type": "3 BEDROOM TYPE C"
+    },
+    {
+      "page": 19,
+      "unit_type": "4 BEDROOM TYPE C"
+    }
+  ]
+}

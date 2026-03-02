@@ -1,0 +1,4152 @@
+{
+  "PDP Master - All Automation Templates": {
+    "title": "PDP Master - All Automation Templates",
+    "spreadsheet_id": "1H6oF4x-U3qyoupWJcOKlCyISRQ_NspmUoNrRXjYAdlA",
+    "sheets": [
+      {
+        "name": "OPR Template",
+        "row_count": 100,
+        "headers": [
+          "Guidelines/Comments",
+          "Fields",
+          "En",
+          "Ar",
+          "Ru"
+        ],
+        "all_data": [
+          [
+            "Guidelines/Comments",
+            "Fields",
+            "En",
+            "Ar",
+            "Ru"
+          ],
+          [
+            "Includes the project name, developer, and location (important things people search for, between 50 and 60 characters, including spaces)",
+            "Meta title:"
+          ],
+          [],
+          [
+            "Includes the luxury aspect, location, investment appeal, visa benefits, and nearby amenities (important selling points, maximum 156 characters including spaces)",
+            "Meta description:"
+          ],
+          [],
+          [
+            "",
+            "Url Slug"
+          ],
+          [],
+          [
+            "",
+            "Image Alt Tag "
+          ],
+          [],
+          [
+            "The hero section is the first touchpoint. It must instantly convey the project’s investment appeal, location advantage, and exclusivity; without fluff or filler.",
+            "Hero Section"
+          ],
+          [],
+          [
+            "H1 is the main title of the page. It should clearly state the project name and developer (or the area), to make each project page unique (between 20-70 characters, including spaces)",
+            "H1: Project + developer (or area)"
+          ],
+          [],
+          [
+            "Subheading: One short, punchy sentence that highlights the unique selling point and makes people want to keep reading.",
+            "<p>"
+          ],
+          [],
+          [
+            "",
+            "Starting Price\n"
+          ],
+          [
+            "",
+            "Payment Plan"
+          ],
+          [
+            "",
+            "Handover"
+          ],
+          [
+            "",
+            "ROI Potential"
+          ],
+          [],
+          [
+            "",
+            "CTA",
+            "Get expert advice"
+          ],
+          [],
+          [],
+          [],
+          [],
+          [
+            "Project overview (about) + short key selling point or location.\nWhy: \"Project Overview\" is to introduce core details (location, property types, features)",
+            "H2: Project overview"
+          ],
+          [],
+          [
+            "A quick overview of what makes this project special, keeping in mind not to sound repetitive, since next we will explore its location, property types, and unique features. ",
+            "<p>"
+          ],
+          [],
+          [
+            "Bullet points",
+            "<p>",
+            "If possible, please place each bullet point on a separate line)"
+          ],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [
+            "",
+            "Project Card"
+          ],
+          [],
+          [
+            "",
+            "Project Details"
+          ],
+          [],
+          [
+            "",
+            "Starting Price"
+          ],
+          [
+            "",
+            "Handover"
+          ],
+          [
+            "",
+            "Payment Plan"
+          ],
+          [
+            "",
+            "Area"
+          ],
+          [
+            "",
+            "Property Type"
+          ],
+          [
+            "",
+            "Bedrooms"
+          ],
+          [
+            "",
+            "Developer"
+          ],
+          [
+            "",
+            "Location"
+          ],
+          [],
+          [
+            "",
+            "CTA",
+            "Download Brochure"
+          ],
+          [],
+          [],
+          [],
+          [],
+          [
+            "Focus on what’s inside the residences/building (e.g., marble finishes, private pools, spa, gym).",
+            "H3: Features and amenities",
+            "Signature Features & Resort-Style Amenities"
+          ],
+          [
+            "Text below \"Signature Features & Resort-Style Amenities\"",
+            "<p>"
+          ],
+          [],
+          [
+            "bullets below text",
+            "",
+            "If possible, please place each bullet point on a separate line. Don't use the \"-\" symbol before the bullets."
+          ],
+          [
+            "",
+            "<p>"
+          ],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [
+            "",
+            "H3: Property types & pricing",
+            "Property Types"
+          ],
+          [
+            "(Floor plans come here)\nIn the following order: Property Type, Living Area, Starting Price. ",
+            "<p>",
+            " flexible"
+          ],
+          [],
+          [
+            "",
+            "CTA",
+            "Download all floor plans"
+          ],
+          [],
+          [],
+          [],
+          [
+            "",
+            "H3: Payment plan",
+            "Payment Plan"
+          ],
+          [
+            "",
+            "PP short description",
+            " flexible"
+          ],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [
+            "Why: Targeting investors early with ROI and ownership benefits.",
+            "H2: Investment opportunities",
+            "Investment Potential"
+          ],
+          [
+            "Always check info on Property Monitor, Bayut, Property Finder",
+            "",
+            " flexible"
+          ]
+        ]
+      },
+      {
+        "name": "MPP Template",
+        "row_count": 99,
+        "headers": [
+          "Guidelines/Comments",
+          "Fields",
+          "En",
+          "Ar",
+          "Ru"
+        ],
+        "all_data": [
+          [
+            "Guidelines/Comments",
+            "Fields",
+            "En",
+            "Ar",
+            "Ru"
+          ],
+          [
+            "Includes project name, developer, and location (50-60 chars)",
+            "Meta title:"
+          ],
+          [
+            "Includes luxury aspect, location, investment appeal (max 156 chars)",
+            "Meta description:"
+          ],
+          [
+            "",
+            "Url Slug"
+          ],
+          [
+            "",
+            "Image Alt Tag"
+          ],
+          [],
+          [
+            "SECTION",
+            "HERO SECTION"
+          ],
+          [
+            "H1: Project name + developer (20-70 chars)",
+            "H1: Project + Developer"
+          ],
+          [
+            "Short intro. Boutique development with key differentiator (2-3 sentences)",
+            "Hero Description"
+          ],
+          [
+            "",
+            "Starting Price"
+          ],
+          [
+            "",
+            "Handover"
+          ],
+          [
+            "",
+            "Down Payment %"
+          ],
+          [],
+          [
+            "SECTION",
+            "PROJECT OVERVIEW"
+          ],
+          [
+            "",
+            "H2: Project Overview",
+            "Project Overview"
+          ],
+          [
+            "Full description: location, unit count, architecture, features (4-6 sentences)",
+            "Overview Description"
+          ],
+          [],
+          [
+            "SECTION",
+            "PROJECT DETAILS CARD"
+          ],
+          [
+            "Linked to area page",
+            "Location"
+          ],
+          [
+            "Linked to developer page",
+            "Developer"
+          ],
+          [
+            "",
+            "Handover"
+          ],
+          [
+            "From Property Monitor/DXBinteract",
+            "Starting Price"
+          ],
+          [
+            "e.g., Apartments, Duplexes",
+            "Property Types"
+          ],
+          [
+            "e.g., 1-5",
+            "Bedrooms"
+          ],
+          [],
+          [
+            "SECTION",
+            "FLOOR PLANS"
+          ],
+          [
+            "",
+            "H2: Floor Plans",
+            "Floor Plans"
+          ],
+          [
+            "Filter tabs",
+            "Floor Plan Filter Categories",
+            "All, Apartments, Penthouse, Townhouse"
+          ],
+          [],
+          [
+            "Repeat for each unit type",
+            "Floor Plan 1 - Bedrooms"
+          ],
+          [
+            "",
+            "Floor Plan 1 - Starting Price"
+          ],
+          [
+            "",
+            "Floor Plan 1 - Living Area (m²)"
+          ],
+          [],
+          [
+            "",
+            "Floor Plan 2 - Bedrooms"
+          ],
+          [
+            "",
+            "Floor Plan 2 - Starting Price"
+          ],
+          [
+            "",
+            "Floor Plan 2 - Living Area (m²)"
+          ],
+          [],
+          [
+            "",
+            "Floor Plan 3 - Bedrooms"
+          ],
+          [
+            "",
+            "Floor Plan 3 - Starting Price"
+          ],
+          [
+            "",
+            "Floor Plan 3 - Living Area (m²)"
+          ],
+          [],
+          [
+            "",
+            "Floor Plan 4 - Bedrooms"
+          ],
+          [
+            "",
+            "Floor Plan 4 - Starting Price"
+          ],
+          [
+            "",
+            "Floor Plan 4 - Living Area (m²)"
+          ],
+          [],
+          [
+            "SECTION",
+            "PAYMENT PLAN"
+          ],
+          [
+            "",
+            "H2: Payment Plan",
+            "Payment Plan"
+          ],
+          [
+            "Intro explaining ROE benefits",
+            "Payment Plan Description",
+            "A structured payment plan is a powerful investment tool. When used wisely, it can significantly increase your return on equity (ROE). Not sure how to make the most of it? We'll explain everything for free!"
+          ],
+          [
+            "",
+            "CTA",
+            "Discuss with expert"
+          ],
+          [],
+          [
+            "Tab options",
+            "Payment Plan Type 1",
+            "50/50"
+          ],
+          [
+            "IF other payment plan type exists",
+            "Payment Plan Type 2",
+            "70/30"
+          ],
+          [],
+          [
+            "Milestone 1",
+            "On Booking - Date"
+          ],
+          [
+            "",
+            "On Booking - Percentage"
+          ],
+          [],
+          [
+            "Milestone 2 (can have multiple)",
+            "On Construction - Period"
+          ],
+          [
+            "",
+            "On Construction - Percentage"
+          ],
+          [
+            "",
+            "On Construction - Number of Payments"
+          ],
+          [],
+          [
+            "Milestone 3",
+            "On Handover - Date"
+          ],
+          [
+            "",
+            "On Handover - Percentage"
+          ],
+          [],
+          [
+            "SECTION",
+            "KEY POINTS"
+          ],
+          [
+            "",
+            "H2: Key Points",
+            "Key points"
+          ],
+          [],
+          [
+            "Major selling point with image",
+            "Key Point 1 - Title"
+          ],
+          [
+            "",
+            "Key Point 1 - Description"
+          ],
+          [
+            "Image filename",
+            "Key Point 1 - Image"
+          ],
+          [],
+          [
+            "Second selling point with image",
+            "Key Point 2 - Title"
+          ],
+          [
+            "",
+            "Key Point 2 - Description"
+          ],
+          [
+            "Image filename",
+            "Key Point 2 - Image"
+          ],
+          [],
+          [
+            "SECTION",
+            "AMENITIES"
+          ],
+          [
+            "",
+            "H2: Amenities",
+            "Amenities"
+          ],
+          [
+            "Intro text",
+            "Amenities Description",
+            "These are just a few of the amenities available in this residence. To receive the full list of features and detailed information, please contact our agent — we will tailor the best option for your needs."
+          ],
+          [],
+          [
+            "One amenity per row",
+            "Amenity 1"
+          ],
+          [
+            "",
+            "Amenity 2"
+          ],
+          [
+            "",
+            "Amenity 3"
+          ],
+          [
+            "",
+            "Amenity 4"
+          ],
+          [
+            "",
+            "Amenity 5"
+          ],
+          [
+            "",
+            "Amenity 6"
+          ],
+          [
+            "",
+            "Amenity 7"
+          ],
+          [
+            "",
+            "Amenity 8"
+          ],
+          [],
+          [
+            "SECTION",
+            "LOCATION"
+          ],
+          [
+            "",
+            "H2: Location",
+            "Location"
+          ],
+          [
+            "",
+            "CTA",
+            "Explore [location]"
+          ],
+          [],
+          [
+            "Tab structure",
+            "Location Tab 1",
+            "Area"
+          ],
+          [
+            "",
+            "Location Tab 2",
+            "Sub-community"
+          ],
+          [],
+          [
+            "Area or sub-community name",
+            "Location Name"
+          ],
+          [
+            "Detailed description: landmarks, connectivity, developments (1-2 paragraphs)",
+            "Location Description"
+          ],
+          [],
+          [
+            "For map pin",
+            "Map Latitude"
+          ],
+          [
+            "",
+            "Map Longitude"
+          ]
+        ]
+      },
+      {
+        "name": "ADOP Template",
+        "row_count": 80,
+        "headers": [
+          "Guidelines/Comments",
+          "Fields",
+          "En",
+          "Ru",
+          "Ar"
+        ],
+        "all_data": [
+          [
+            "Guidelines/Comments",
+            "Fields",
+            "En",
+            "Ru",
+            "Ar"
+          ],
+          [
+            "Project name + area + property type. Lowercase, hyphens only.",
+            "Slug:"
+          ],
+          [],
+          [
+            "Project name + location + property type. 50-60 chars.",
+            "Title:"
+          ],
+          [],
+          [
+            "Property types, starting price, key amenities, handover. Max 156 chars. Investment-focused.",
+            "Desc:"
+          ],
+          [],
+          [
+            "Project name + location + key visual. 80-125 chars.",
+            "Image alt tag:"
+          ],
+          [],
+          [
+            "SECTION: HERO"
+          ],
+          [
+            "Project name + location. 20-50 chars.",
+            "H1:"
+          ],
+          [],
+          [
+            "Format: AED X.XM. Include USD in Russian.",
+            "Starting price"
+          ],
+          [],
+          [
+            "Format: Q1/Q2/Q3/Q4 + Year",
+            "Handover"
+          ],
+          [],
+          [
+            "SECTION: ABOUT PROJECT"
+          ],
+          [
+            "Format: About [Project Name]",
+            "H2:",
+            "About [Project Name]",
+            "О проекте [Project Name]",
+            "حول [Project Name]"
+          ],
+          [],
+          [
+            "Para 1: Developer, location between cities, property types with names, bedrooms. 2-3 sentences.",
+            "<p>"
+          ],
+          [],
+          [
+            "Para 2: Architecture, size range (sqft), views, lifestyle. Target: families, professionals, investors. 2-3 sentences.",
+            "<p>"
+          ],
+          [],
+          [
+            "Para 3: Main road, drive times to Dubai/Abu Dhabi, resort feel, services. 2-3 sentences.",
+            "<p>"
+          ],
+          [],
+          [
+            "SECTION: KEY BENEFITS"
+          ],
+          [
+            "Format: Key Benefits of [Project Name]",
+            "H2:",
+            "Key Benefits of [Project Name]",
+            "Ключевые преимущества [Project Name]",
+            "المزايا الرئيسية في [Project Name]"
+          ],
+          [
+            "Para 1: USP - % open space, nature integration, specific metrics (park sqm, cycling km). Data-driven.",
+            "<p>"
+          ],
+          [],
+          [],
+          [
+            "Para 2: Full amenities list with colon format. Include: marina, beach, parks, pools, sports, schools, healthcare, retail, hotel, business.",
+            "<p>"
+          ],
+          [],
+          [
+            "SECTION: AREA INFRASTRUCTURE"
+          ],
+          [
+            "Format: Area Infrastructure",
+            "H2",
+            "Area Infrastructure",
+            "Инфраструктура района",
+            "البنية التحتية للمنطقة"
+          ],
+          [],
+          [
+            "Para 1: Area name, position between cities. 1-2 sentences.",
+            "<p>"
+          ],
+          [],
+          [
+            "Para 2: Drive times - 'X min to [Place]'. Include malls, entertainment, healthcare, schools with names.",
+            "<p>"
+          ],
+          [],
+          [
+            "Para 3: Area lifestyle, community feel, future potential. 1-2 sentences.",
+            "<p>"
+          ],
+          [],
+          [
+            "SECTION: INVESTMENT (Previously Economic Appeal)"
+          ],
+          [
+            "Format: Investment in [Project Name]",
+            "H2:",
+            "Investment in [Project Name]",
+            "Инвестиции в [Project Name]",
+            "الاستثمار في [Project Name]"
+          ],
+          [],
+          [
+            "Para 1: Freehold status, visa threshold, property mix, market opportunity. Appeal to intl investors.",
+            "<p>"
+          ],
+          [],
+          [
+            "Para 2: Masterplan value (marina, schools, etc.), payment plan (60/40), supply scarcity.",
+            "<p>"
+          ],
+          [],
+          [
+            "Para 3: ROI - rental yield 6-8%, capital appreciation, demand drivers. Keep realistic.",
+            "<p>"
+          ],
+          [
+            "SECTION: DEVELOPER"
+          ],
+          [
+            "Format: About [Developer Name]",
+            "H2:",
+            "About [Developer Name]",
+            "О девелопере [Developer Name]",
+            "حول [Developer Name]"
+          ],
+          [],
+          [
+            "Founder, portfolio regions, reputation. Innovation, sustainability, community focus. 2-3 sentences.",
+            "<p>"
+          ],
+          [],
+          [
+            "SECTION: FAQ"
+          ],
+          [
+            "Format: Frequently Asked Questions about [Project Name]",
+            "H2:",
+            "Frequently Asked Questions about [Project Name]",
+            "Часто задаваемые вопросы о [Project Name]",
+            "الأسئلة الشائعة حول [Project Name]"
+          ],
+          [],
+          [
+            "FAQ 1: What is [Project]? Brief definition, location, property types, design.",
+            "Q:",
+            "What is [Project Name]?",
+            "Что такое [Project Name]?",
+            "ما هو مشروع [Project Name]؟"
+          ],
+          [
+            "",
+            "A:"
+          ],
+          [],
+          [
+            "FAQ 2: Location - area, road access, amenity access, drive times.",
+            "Q:",
+            "Where is [Project Name] located?",
+            "Где находится [Project Name]?",
+            "أين يقع [Project Name]؟"
+          ],
+          [
+            "",
+            "A:"
+          ],
+          [],
+          [
+            "FAQ 3: Unit types - all property types, bedrooms, size range.",
+            "Q:",
+            "What unit types are available in [Project Name]?",
+            "Какие типы недвижимости представлены в [Project Name]?",
+            "ما أنواع الوحدات المتوفرة في [Project Name]؟"
+          ],
+          [
+            "",
+            "A:"
+          ],
+          [],
+          [
+            "FAQ 4: Payment plan - structure (60/40), construction vs handover.",
+            "Q:",
+            "What is the payment plan for [Project Name]?",
+            "Какой план оплаты предусмотрен в [Project Name]?",
+            "ما خطة الدفع المتاحة؟"
+          ],
+          [
+            "",
+            "A:"
+          ],
+          [],
+          [
+            "FAQ 5: Foreigners - freehold status, eligibility. Simple yes + explain.",
+            "Q:",
+            "Can foreigners buy in [Project Name]?",
+            "Могут ли иностранцы купить недвижимость в [Project Name]?",
+            "هل يمكن للأجانب الشراء في [Project Name]؟"
+          ],
+          [
+            "",
+            "A:"
+          ],
+          [],
+          [
+            "FAQ 6: Amenities - comprehensive list by category.",
+            "Q:",
+            "What amenities are available in [Project Name]?",
+            "Какие удобства доступны в [Project Name]?",
+            "ما المرافق المتوفرة في [Project Name]؟"
+          ],
+          [
+            "",
+            "A:"
+          ],
+          [],
+          [
+            "FAQ 7: Nearby - drive times to malls, hospitals, schools with names.",
+            "Q:",
+            "What are attractions and services nearby [Project Name]?",
+            "Какие достопримечательности и сервисы находятся рядом с [Project Name]?",
+            "ما أبرز الوجهات والخدمات القريبة؟"
+          ],
+          [
+            "",
+            "A:"
+          ],
+          [],
+          [
+            "FAQ 8: Completion - quarter + year.",
+            "Q:",
+            "When will [Project Name] be completed?",
+            "Когда будет завершён [Project Name]?",
+            "متى سيتم تسليم مشروع [Project Name]؟"
+          ],
+          [
+            "",
+            "A:"
+          ]
+        ]
+      },
+      {
+        "name": "ADRE Template",
+        "row_count": 99,
+        "headers": [
+          "Guidelines/Comments",
+          "Fields",
+          "eng",
+          "Ar",
+          "Ru",
+          "de",
+          "Fr",
+          "ch"
+        ],
+        "all_data": [
+          [
+            "Guidelines/Comments",
+            "Fields",
+            "eng",
+            "Ar",
+            "Ru",
+            "de",
+            "Fr",
+            "ch"
+          ],
+          [
+            "URL-friendly identifier. Use lowercase, hyphens, no spaces. Format: {project-name}-{developer}-{area}-{city}. Keep under 80 characters.",
+            "Slug:"
+          ],
+          [],
+          [
+            "Meta title for SEO. 50-60 characters including spaces. Must include: project name, developer, area, city. Format: {Project Name} by {Developer} in {Area}, {City} | Buy {Property Type} in UAE",
+            "Title:"
+          ],
+          [],
+          [
+            "Meta description. Max 155-160 characters. Include: property types, key features, starting price, developer, location, handover date. Focus on unique selling points.",
+            "Desc:"
+          ],
+          [],
+          [
+            "Alt text for hero image. 80-125 characters. Include project name, developer, key visual feature. Format: {Project Name} by {Developer} – {key visual descriptor}",
+            "Image alt tag:"
+          ],
+          [],
+          [
+            "Official project name only. No developer name, no location. Use developer's official naming.",
+            "Project name:"
+          ],
+          [],
+          [
+            "Main page heading. 30-70 characters. Format: Buy {property type} in {Project Name} by {Developer}. Makes each page unique for SEO.",
+            "H1:"
+          ],
+          [],
+          [
+            "Marketing title about the project. One punchy, aspirational headline (8-15 words). Capture lifestyle/emotional appeal. Use em-dash (—) for style.",
+            "H2"
+          ],
+          [],
+          [
+            "Description of the project. 4-6 sentences covering: developer name, total units, layouts (studios, 1BR, 2BR, etc.), size ranges in sq.m, handover date, architectural style, proximity to landmarks. Be factual."
+          ],
+          [],
+          [
+            "Amenities section header. Format: Amenities of {Project Name}. Keep consistent across all pages.",
+            "H2"
+          ],
+          [],
+          [
+            "First unique/signature amenity. 3-6 words. Highlight most distinctive feature (e.g., Waterfront Wellness Masterplan).",
+            "H3"
+          ],
+          [
+            "Description of first key amenity. 1-2 sentences (25-50 words). Explain benefit to residents."
+          ],
+          [],
+          [
+            "Second unique amenity. 3-6 words. Different category from first (family-focused, sports, social).",
+            "H3"
+          ],
+          [
+            "Description of second key amenity. 1-2 sentences (25-50 words). Focus on who benefits."
+          ],
+          [],
+          [
+            "The rest of amenities listed below. One per row, 2-5 words each. Use noun phrases.",
+            "H3"
+          ],
+          [
+            "Amenity item. Format: 'Gym with Canal Views' not 'There is a gym'."
+          ],
+          [],
+          [
+            "",
+            "H3"
+          ],
+          [],
+          [],
+          [
+            "",
+            "H3"
+          ],
+          [],
+          [],
+          [
+            "",
+            "H3"
+          ],
+          [],
+          [],
+          [
+            "",
+            "H3"
+          ],
+          [],
+          [],
+          [
+            "",
+            "H3"
+          ],
+          [],
+          [],
+          [],
+          [
+            "Marketing title about developer. 6-12 words. Highlight reputation/legacy. Example: Aldar—Establishing Iconic Lifestyle Communities in Abu Dhabi",
+            "Н2"
+          ],
+          [],
+          [
+            "Description of developer. 3-4 sentences (60-90 words). Include: market position, notable past projects, portfolio scope, design philosophy, how this project fits their brand."
+          ],
+          [],
+          [
+            "Economic appeal section header. Format: Investing in {Project Name}. Signals investment value.",
+            "H2"
+          ],
+          [],
+          [
+            "Economic appeal overview. 3-4 sentences (70-100 words). Cover: starting price, freehold status, payment plan, location drivers, tourism stats, rental demand factors, capital appreciation potential."
+          ],
+          [],
+          [
+            "Rental investment header. 2-3 words.",
+            "H3"
+          ],
+          [],
+          [
+            "Rental details. 2 sentences (30-50 words). Include: target tenant profile, demand drivers, typical ROI range (verify on Property Monitor/Bayut), premium unit potential."
+          ],
+          [],
+          [
+            "Resale header. 2-3 words.",
+            "H3"
+          ],
+          [],
+          [
+            "Resale benefits. 2 sentences (25-40 words). Developer brand strength, location growth trajectory, infrastructure developments."
+          ],
+          [],
+          [
+            "End-user living header. 2-3 words.",
+            "H3"
+          ],
+          [],
+          [
+            "Living appeal. 2 sentences (40-60 words). Target resident profile, lifestyle benefits (schools, healthcare, entertainment), resort-style services."
+          ],
+          [],
+          [
+            "Location section header. Format: Location of {Project Name} by {Developer}.",
+            "H2"
+          ],
+          [
+            "About the area. 3-4 sentences (50-80 words). Immediate surroundings, neighborhood character, connectivity. Don't repeat project amenities—focus on external location benefits."
+          ],
+          [],
+          [
+            "Entertainment & lifestyle header.",
+            "H3"
+          ],
+          [
+            "Landmark with travel time. Format: {Venue} — {X} minutes by car/on foot"
+          ],
+          [
+            "Second landmark with travel time."
+          ],
+          [
+            "Third landmark with travel time."
+          ],
+          [
+            "Fourth landmark with travel time."
+          ],
+          [],
+          [
+            "Healthcare section header.",
+            "H3"
+          ],
+          [
+            "Nearest healthcare with travel time. Specify if range (5-15 min)."
+          ],
+          [
+            "Secondary healthcare option. Include specialist hospitals/emergency."
+          ],
+          [],
+          [],
+          [],
+          [
+            "Education section header.",
+            "H3"
+          ],
+          [
+            "Nurseries/early education with travel time."
+          ],
+          [
+            "International schools with travel time."
+          ],
+          [
+            "Secondary schools with travel time."
+          ],
+          [
+            "Higher education/universities with travel time."
+          ],
+          [],
+          [
+            "FAQ Section. Column A has template questions. Localize Q&A in content columns."
+          ],
+          [],
+          [
+            "",
+            "FAQ"
+          ],
+          [
+            "Template Q: Where is {project name} located?"
+          ],
+          [],
+          [
+            "Answer: 1-2 sentences. State location with island/area and city."
+          ],
+          [],
+          [
+            "Template Q: Who is the developer of {project name}?"
+          ],
+          [],
+          [
+            "Answer: 1 sentence. Developer name + brief identifier."
+          ],
+          [],
+          [
+            "Template Q: What types of properties are available?"
+          ],
+          [],
+          [
+            "Answer: 1 sentence listing unit types (studios, 1BR, 2BR, 3BR+maid)."
+          ]
+        ]
+      },
+      {
+        "name": "Commercial Project Template",
+        "row_count": 100,
+        "headers": [
+          "Fields",
+          "EN",
+          "RU",
+          "AR"
+        ],
+        "all_data": [
+          [
+            "Fields",
+            "EN",
+            "RU",
+            "AR"
+          ],
+          [
+            "Title (SEO):"
+          ],
+          [],
+          [
+            "Desc (seo):"
+          ],
+          [],
+          [
+            "Slug"
+          ],
+          [],
+          [
+            "Home Screen (Hero)"
+          ],
+          [
+            "H1 ≈ 50-60 characters"
+          ],
+          [],
+          [
+            "Brief description (paragraph) ≈ 70-80 characters"
+          ],
+          [],
+          [
+            "Features (3 theses, title ≈ 15-30 characters, desc – up to 60 characters)"
+          ],
+          [],
+          [
+            "title-1 (economic indicator)"
+          ],
+          [
+            "desc-1"
+          ],
+          [],
+          [
+            "title-2"
+          ],
+          [
+            "desc-2"
+          ],
+          [],
+          [
+            "title-3"
+          ],
+          [
+            "desc-3"
+          ],
+          [],
+          [
+            "About area"
+          ],
+          [
+            "H2 \"About ... [project name]\""
+          ],
+          [],
+          [
+            "H3 (subtitle) ≈ 60-80 characters"
+          ],
+          [],
+          [
+            "Brief description (paragraph) ≈ 150-200 characters"
+          ],
+          [],
+          [
+            "Project details"
+          ],
+          [
+            "Project Passport (Add data table)"
+          ],
+          [],
+          [
+            "Developer"
+          ],
+          [],
+          [
+            "Location"
+          ],
+          [],
+          [
+            "Payment Plan"
+          ],
+          [],
+          [
+            "Area"
+          ],
+          [],
+          [
+            "Property Type"
+          ],
+          [],
+          [
+            "Economic attractiveness"
+          ],
+          [
+            "H2 \"Economic appeal\" (static SEO)"
+          ],
+          [],
+          [
+            "H3 (subtitle) ≈ 40-80 characters"
+          ],
+          [
+            "Brief description (paragraph) ≈ 250-400 characters"
+          ],
+          [],
+          [
+            "Payment Plan"
+          ],
+          [
+            "Description for each payment plan"
+          ],
+          [],
+          [
+            "H3 (subtitle) ≈ 60-80 characters"
+          ],
+          [],
+          [
+            "Static block (post-delivery support)"
+          ],
+          [],
+          [
+            "Subtitle ≈ 40-80 characters"
+          ],
+          [],
+          [
+            "Brief description (paragraph) ≈ 100-200 characters"
+          ],
+          [
+            "Brief description (paragraph) ≈ 100-200 characters"
+          ],
+          [
+            "Brief description (paragraph) ≈ 100-200 characters"
+          ],
+          [],
+          [
+            "Advantages"
+          ],
+          [
+            "3 advantages"
+          ],
+          [
+            "Subtitle ≈ 40-80 characters"
+          ],
+          [
+            "Brief description (paragraph) ≈ 100-200 characters"
+          ],
+          [],
+          [
+            "Subtitle ≈ 40-80 characters"
+          ],
+          [
+            "Brief description (paragraph) ≈ 100-200 characters"
+          ],
+          [],
+          [
+            "Subtitle ≈ 40-80 characters"
+          ],
+          [
+            "amenities"
+          ],
+          [],
+          [
+            "CTA ≈ 15-25 characters"
+          ],
+          [],
+          [
+            "Amenities (Features, UTP)"
+          ],
+          [
+            "3-5 main features"
+          ],
+          [
+            "Subtitle ≈ 40-80 characters"
+          ],
+          [
+            "Brief description (paragraph) ≈ 100-200 characters"
+          ],
+          [],
+          [
+            "Subtitle ≈ 40-80 characters"
+          ],
+          [
+            "Brief description (paragraph) ≈ 100-200 characters"
+          ],
+          [],
+          [
+            "Subtitle ≈ 40-80 characters"
+          ],
+          [
+            "Brief description (paragraph) ≈ 100-200 characters"
+          ],
+          [],
+          [
+            "Subtitle ≈ 40-80 characters"
+          ],
+          [
+            "Brief description (paragraph) ≈ 100-200 characters"
+          ],
+          [],
+          [
+            "Subtitle ≈ 40-80 characters"
+          ],
+          [
+            "Brief description (paragraph) ≈ 100-200 characters"
+          ],
+          [],
+          [
+            "About the developer"
+          ],
+          [
+            "H2 \"About ... [developer name]\""
+          ],
+          [
+            "H3 (subtitle) ≈ 60-80 characters (optional, no title required)"
+          ],
+          [
+            "Brief description (paragraph) ≈ 150-250 characters"
+          ],
+          [],
+          [
+            "Location"
+          ],
+          [
+            "H2 \"Location & Advantages\" (static SEO)"
+          ],
+          [
+            "H3 (subtitle) ≈ 40-80 characters"
+          ]
+        ]
+      }
+    ]
+  },
+  "ADOP Template": {
+    "title": "ADOP Template",
+    "spreadsheet_id": "1aKA30KNKnb835ZL4LYuHsHT5_v3zcXXHRyaD1fkH-5M",
+    "sheets": [
+      {
+        "name": "ADOP Template",
+        "row_count": 80,
+        "headers": [
+          "Guidelines/Comments",
+          "Fields",
+          "En",
+          "Ru",
+          "Ar"
+        ],
+        "all_data": [
+          [
+            "Guidelines/Comments",
+            "Fields",
+            "En",
+            "Ru",
+            "Ar"
+          ],
+          [
+            "Project name + area + property type. Lowercase, hyphens only.",
+            "Slug:"
+          ],
+          [],
+          [
+            "Project name + location + property type. 50-60 chars.",
+            "Title:"
+          ],
+          [],
+          [
+            "Property types, starting price, key amenities, handover. Max 156 chars. Investment-focused.",
+            "Desc:"
+          ],
+          [],
+          [
+            "Project name + location + key visual. 80-125 chars.",
+            "Image alt tag:"
+          ],
+          [],
+          [
+            "SECTION: HERO"
+          ],
+          [
+            "Project name + location. 20-50 chars.",
+            "H1:"
+          ],
+          [],
+          [
+            "Format: AED X.XM. Include USD in Russian.",
+            "Starting price"
+          ],
+          [],
+          [
+            "Format: Q1/Q2/Q3/Q4 + Year",
+            "Handover"
+          ],
+          [],
+          [
+            "SECTION: ABOUT PROJECT"
+          ],
+          [
+            "Format: About [Project Name]",
+            "H2:",
+            "About [Project Name]",
+            "О проекте [Project Name]",
+            "حول [Project Name]"
+          ],
+          [],
+          [
+            "Para 1: Developer, location between cities, property types with names, bedrooms. 2-3 sentences.",
+            "<p>"
+          ],
+          [],
+          [
+            "Para 2: Architecture, size range (sqft), views, lifestyle. Target: families, professionals, investors. 2-3 sentences.",
+            "<p>"
+          ],
+          [],
+          [
+            "Para 3: Main road, drive times to Dubai/Abu Dhabi, resort feel, services. 2-3 sentences.",
+            "<p>"
+          ],
+          [],
+          [
+            "SECTION: KEY BENEFITS"
+          ],
+          [
+            "Format: Key Benefits of [Project Name]",
+            "H2:",
+            "Key Benefits of [Project Name]",
+            "Ключевые преимущества [Project Name]",
+            "المزايا الرئيسية في [Project Name]"
+          ],
+          [
+            "Para 1: USP - % open space, nature integration, specific metrics (park sqm, cycling km). Data-driven.",
+            "<p>"
+          ],
+          [],
+          [],
+          [
+            "Para 2: Full amenities list with colon format. Include: marina, beach, parks, pools, sports, schools, healthcare, retail, hotel, business.",
+            "<p>"
+          ],
+          [],
+          [
+            "SECTION: AREA INFRASTRUCTURE"
+          ],
+          [
+            "Format: Area Infrastructure",
+            "H2",
+            "Area Infrastructure",
+            "Инфраструктура района",
+            "البنية التحتية للمنطقة"
+          ],
+          [],
+          [
+            "Para 1: Area name, position between cities. 1-2 sentences.",
+            "<p>"
+          ],
+          [],
+          [
+            "Para 2: Drive times - 'X min to [Place]'. Include malls, entertainment, healthcare, schools with names.",
+            "<p>"
+          ],
+          [],
+          [
+            "Para 3: Area lifestyle, community feel, future potential. 1-2 sentences.",
+            "<p>"
+          ],
+          [],
+          [
+            "SECTION: INVESTMENT"
+          ],
+          [
+            "Format: Investment in [Project Name]",
+            "H2:",
+            "Investment in [Project Name]",
+            "Инвестиции в [Project Name]",
+            "الاستثمار في [Project Name]"
+          ],
+          [],
+          [
+            "Para 1: Freehold status, visa threshold, property mix, market opportunity. Appeal to intl investors.",
+            "<p>"
+          ],
+          [],
+          [
+            "Para 2: Masterplan value (marina, schools, etc.), payment plan (60/40), supply scarcity.",
+            "<p>"
+          ],
+          [],
+          [
+            "Para 3: ROI - rental yield 6-8%, capital appreciation, demand drivers. Keep realistic.",
+            "<p>"
+          ],
+          [
+            "SECTION: DEVELOPER"
+          ],
+          [
+            "Format: About [Developer Name]",
+            "H2:",
+            "About [Developer Name]",
+            "О девелопере [Developer Name]",
+            "حول [Developer Name]"
+          ],
+          [],
+          [
+            "Founder, portfolio regions, reputation. Innovation, sustainability, community focus. 2-3 sentences.",
+            "<p>"
+          ],
+          [],
+          [
+            "SECTION: FAQ"
+          ],
+          [
+            "Format: Frequently Asked Questions about [Project Name]",
+            "H2:",
+            "Frequently Asked Questions about [Project Name]",
+            "Часто задаваемые вопросы о [Project Name]",
+            "الأسئلة الشائعة حول [Project Name]"
+          ],
+          [],
+          [
+            "FAQ 1: What is [Project]? Brief definition, location, property types, design.",
+            "Q:",
+            "What is [Project Name]?",
+            "Что такое [Project Name]?",
+            "ما هو مشروع [Project Name]؟"
+          ],
+          [
+            "",
+            "A:"
+          ],
+          [],
+          [
+            "FAQ 2: Location - area, road access, amenity access, drive times.",
+            "Q:",
+            "Where is [Project Name] located?",
+            "Где находится [Project Name]?",
+            "أين يقع [Project Name]؟"
+          ],
+          [
+            "",
+            "A:"
+          ],
+          [],
+          [
+            "FAQ 3: Unit types - all property types, bedrooms, size range.",
+            "Q:",
+            "What unit types are available in [Project Name]?",
+            "Какие типы недвижимости представлены в [Project Name]?",
+            "ما أنواع الوحدات المتوفرة في [Project Name]؟"
+          ],
+          [
+            "",
+            "A:"
+          ],
+          [],
+          [
+            "FAQ 4: Payment plan - structure (60/40), construction vs handover.",
+            "Q:",
+            "What is the payment plan for [Project Name]?",
+            "Какой план оплаты предусмотрен в [Project Name]?",
+            "ما خطة الدفع المتاحة؟"
+          ],
+          [
+            "",
+            "A:"
+          ],
+          [],
+          [
+            "FAQ 5: Foreigners - freehold status, eligibility. Simple yes + explain.",
+            "Q:",
+            "Can foreigners buy in [Project Name]?",
+            "Могут ли иностранцы купить недвижимость в [Project Name]?",
+            "هل يمكن للأجانب الشراء في [Project Name]؟"
+          ],
+          [
+            "",
+            "A:"
+          ],
+          [],
+          [
+            "FAQ 6: Amenities - comprehensive list by category.",
+            "Q:",
+            "What amenities are available in [Project Name]?",
+            "Какие удобства доступны в [Project Name]?",
+            "ما المرافق المتوفرة في [Project Name]؟"
+          ],
+          [
+            "",
+            "A:"
+          ],
+          [],
+          [
+            "FAQ 7: Nearby - drive times to malls, hospitals, schools with names.",
+            "Q:",
+            "What are attractions and services nearby [Project Name]?",
+            "Какие достопримечательности и сервисы находятся рядом с [Project Name]?",
+            "ما أبرز الوجهات والخدمات القريبة؟"
+          ],
+          [
+            "",
+            "A:"
+          ],
+          [],
+          [
+            "FAQ 8: Completion - quarter + year.",
+            "Q:",
+            "When will [Project Name] be completed?",
+            "Когда будет завершён [Project Name]?",
+            "متى سيتم تسليم مشروع [Project Name]؟"
+          ],
+          [
+            "",
+            "A:"
+          ]
+        ]
+      }
+    ]
+  },
+  "main-portal.com Template": {
+    "title": "main-portal.com Template",
+    "spreadsheet_id": "1WxJ7Z4J7if4zcuxrVyF1Em3ILImVkbgj8CcFPAZKxco",
+    "sheets": [
+      {
+        "name": "MPP Template",
+        "row_count": 99,
+        "headers": [
+          "Guidelines/Comments",
+          "Fields",
+          "En",
+          "Ar",
+          "Ru"
+        ],
+        "all_data": [
+          [
+            "Guidelines/Comments",
+            "Fields",
+            "En",
+            "Ar",
+            "Ru"
+          ],
+          [
+            "Includes project name, developer, and location (50-60 chars)",
+            "Meta title:"
+          ],
+          [
+            "Includes luxury aspect, location, investment appeal (max 156 chars)",
+            "Meta description:"
+          ],
+          [
+            "",
+            "Url Slug"
+          ],
+          [
+            "",
+            "Image Alt Tag"
+          ],
+          [],
+          [
+            "SECTION",
+            "HERO SECTION"
+          ],
+          [
+            "H1: Project name + developer (20-70 chars)",
+            "H1: Project + Developer"
+          ],
+          [
+            "Short intro. Boutique development with key differentiator (2-3 sentences)",
+            "Hero Description"
+          ],
+          [
+            "",
+            "Starting Price"
+          ],
+          [
+            "",
+            "Handover"
+          ],
+          [
+            "",
+            "Down Payment %"
+          ],
+          [],
+          [
+            "SECTION",
+            "PROJECT OVERVIEW"
+          ],
+          [
+            "",
+            "H2: Project Overview",
+            "Project Overview"
+          ],
+          [
+            "Full description: location, unit count, architecture, features (4-6 sentences)",
+            "Overview Description"
+          ],
+          [],
+          [
+            "SECTION",
+            "PROJECT DETAILS CARD"
+          ],
+          [
+            "Linked to area page",
+            "Location"
+          ],
+          [
+            "Linked to developer page",
+            "Developer"
+          ],
+          [
+            "",
+            "Handover"
+          ],
+          [
+            "From Property Monitor/DXBinteract",
+            "Starting Price"
+          ],
+          [
+            "e.g., Apartments, Duplexes",
+            "Property Types"
+          ],
+          [
+            "e.g., 1-5",
+            "Bedrooms"
+          ],
+          [],
+          [
+            "SECTION",
+            "FLOOR PLANS"
+          ],
+          [
+            "",
+            "H2: Floor Plans",
+            "Floor Plans"
+          ],
+          [
+            "Filter tabs",
+            "Floor Plan Filter Categories",
+            "All, Apartments, Penthouse, Townhouse"
+          ],
+          [],
+          [
+            "Repeat for each unit type",
+            "Floor Plan 1 - Bedrooms"
+          ],
+          [
+            "",
+            "Floor Plan 1 - Starting Price"
+          ],
+          [
+            "",
+            "Floor Plan 1 - Living Area (m²)"
+          ],
+          [],
+          [
+            "",
+            "Floor Plan 2 - Bedrooms"
+          ],
+          [
+            "",
+            "Floor Plan 2 - Starting Price"
+          ],
+          [
+            "",
+            "Floor Plan 2 - Living Area (m²)"
+          ],
+          [],
+          [
+            "",
+            "Floor Plan 3 - Bedrooms"
+          ],
+          [
+            "",
+            "Floor Plan 3 - Starting Price"
+          ],
+          [
+            "",
+            "Floor Plan 3 - Living Area (m²)"
+          ],
+          [],
+          [
+            "",
+            "Floor Plan 4 - Bedrooms"
+          ],
+          [
+            "",
+            "Floor Plan 4 - Starting Price"
+          ],
+          [
+            "",
+            "Floor Plan 4 - Living Area (m²)"
+          ],
+          [],
+          [
+            "SECTION",
+            "PAYMENT PLAN"
+          ],
+          [
+            "",
+            "H2: Payment Plan",
+            "Payment Plan"
+          ],
+          [
+            "Intro explaining ROE benefits",
+            "Payment Plan Description",
+            "A structured payment plan is a powerful investment tool. When used wisely, it can significantly increase your return on equity (ROE). Not sure how to make the most of it? We'll explain everything for free!"
+          ],
+          [
+            "",
+            "CTA",
+            "Discuss with expert"
+          ],
+          [],
+          [
+            "Tab options",
+            "Payment Plan Type 1",
+            "50/50"
+          ],
+          [
+            "IF other payment plan type exists",
+            "Payment Plan Type 2",
+            "70/30"
+          ],
+          [],
+          [
+            "Milestone 1",
+            "On Booking - Date"
+          ],
+          [
+            "",
+            "On Booking - Percentage"
+          ],
+          [],
+          [
+            "Milestone 2 (can have multiple)",
+            "On Construction - Period"
+          ],
+          [
+            "",
+            "On Construction - Percentage"
+          ],
+          [
+            "",
+            "On Construction - Number of Payments"
+          ],
+          [],
+          [
+            "Milestone 3",
+            "On Handover - Date"
+          ],
+          [
+            "",
+            "On Handover - Percentage"
+          ],
+          [],
+          [
+            "SECTION",
+            "KEY POINTS"
+          ],
+          [
+            "",
+            "H2: Key Points",
+            "Key points"
+          ],
+          [],
+          [
+            "Major selling point with image",
+            "Key Point 1 - Title"
+          ],
+          [
+            "",
+            "Key Point 1 - Description"
+          ],
+          [
+            "Image filename",
+            "Key Point 1 - Image"
+          ],
+          [],
+          [
+            "Second selling point with image",
+            "Key Point 2 - Title"
+          ],
+          [
+            "",
+            "Key Point 2 - Description"
+          ],
+          [
+            "Image filename",
+            "Key Point 2 - Image"
+          ],
+          [],
+          [
+            "SECTION",
+            "AMENITIES"
+          ],
+          [
+            "",
+            "H2: Amenities",
+            "Amenities"
+          ],
+          [
+            "Intro text",
+            "Amenities Description",
+            "These are just a few of the amenities available in this residence. To receive the full list of features and detailed information, please contact our agent — we will tailor the best option for your needs."
+          ],
+          [],
+          [
+            "One amenity per row",
+            "Amenity 1"
+          ],
+          [
+            "",
+            "Amenity 2"
+          ],
+          [
+            "",
+            "Amenity 3"
+          ],
+          [
+            "",
+            "Amenity 4"
+          ],
+          [
+            "",
+            "Amenity 5"
+          ],
+          [
+            "",
+            "Amenity 6"
+          ],
+          [
+            "",
+            "Amenity 7"
+          ],
+          [
+            "",
+            "Amenity 8"
+          ],
+          [],
+          [
+            "SECTION",
+            "LOCATION"
+          ],
+          [
+            "",
+            "H2: Location",
+            "Location"
+          ],
+          [
+            "",
+            "CTA",
+            "Explore [location]"
+          ],
+          [],
+          [
+            "Tab structure",
+            "Location Tab 1",
+            "Area"
+          ],
+          [
+            "",
+            "Location Tab 2",
+            "Sub-community"
+          ],
+          [],
+          [
+            "Area or sub-community name",
+            "Location Name"
+          ],
+          [
+            "Detailed description: landmarks, connectivity, developments (1-2 paragraphs)",
+            "Location Description"
+          ],
+          [],
+          [
+            "For map pin",
+            "Map Latitude"
+          ],
+          [
+            "",
+            "Map Longitude"
+          ]
+        ]
+      }
+    ]
+  },
+  "Palm Jebel Ali Template with example": {
+    "title": "Palm Jebel Ali Template with example",
+    "spreadsheet_id": "1V-xvM0Psi4Hf-2dL_QmF4tDvxcEeNUugcz_O7NmOx3A",
+    "sheets": [
+      {
+        "name": "PJA Template with example",
+        "row_count": 100,
+        "headers": [
+          "type",
+          "length",
+          "example",
+          "ar",
+          "ru"
+        ],
+        "all_data": [
+          [
+            "type",
+            "length",
+            "example",
+            "ar",
+            "ru"
+          ],
+          [
+            "meta-title",
+            "50–60 chars",
+            "Villa Cyan Sky by Nakheel"
+          ],
+          [
+            "meta-description",
+            "140–160 chars",
+            "Luxurious 6-bedroom villa by Nakheel in Palm Jebel Ali. From AED 25.2M. 80/20 payment plan. Handover Q4 2029."
+          ],
+          [],
+          [
+            "Hero-section"
+          ],
+          [
+            "hero H1",
+            "<20 chars (1-2 line)",
+            "Villa Cyan Sky on Palm Jebel Ali"
+          ],
+          [
+            "hero stat 1 (label)",
+            "~10 chars",
+            "Starting Price"
+          ],
+          [
+            "hero stat 1 (value)",
+            "~10 chars",
+            "AED 25.2M"
+          ],
+          [
+            "hero stat 2 (label)",
+            "~10 chars",
+            "Handover"
+          ],
+          [
+            "hero stat 2 (value)",
+            "~10 chars",
+            "Q4 2029"
+          ],
+          [
+            "hero stat 3 (label)",
+            "~10 chars",
+            "Payment Plan"
+          ],
+          [
+            "hero stat 3 (value)",
+            "~10 chars",
+            "80/20"
+          ],
+          [],
+          [
+            "Project Info section"
+          ],
+          [
+            "h2",
+            "10–20 chars",
+            "Project info"
+          ],
+          [
+            "stat 1 (label)",
+            "10–20 chars",
+            "Starting Price"
+          ],
+          [
+            "stat 1 (value)",
+            "10–20 chars",
+            "AED 25.2M"
+          ],
+          [
+            "stat 2 (label)",
+            "10–20 chars",
+            "Bedrooms"
+          ],
+          [
+            "stat 2 (value)",
+            "10–20 chars",
+            "6BR"
+          ],
+          [
+            "stat 3 (label)",
+            "10–20 chars",
+            "Handover"
+          ],
+          [
+            "stat 3 (value)",
+            "10–20 chars",
+            "Q4 2029"
+          ],
+          [
+            "stat 4 (label)",
+            "10–20 chars",
+            "Payment Plan"
+          ],
+          [
+            "stat 4 (value)",
+            "10–20 chars",
+            "80/20"
+          ],
+          [
+            "Banner section: CTA",
+            "10–40 chars",
+            "Download brochure"
+          ],
+          [],
+          [
+            "About section"
+          ],
+          [
+            "About section: H2",
+            "2–4 words",
+            "Overview of Villa Cyan Sky"
+          ],
+          [
+            "About section: paragraph",
+            "200–400 chars",
+            "Villa Cyan Sky is a 6-bedroom residence located in The Beach Collection on the fronds of Palm Jebel Ali. Designed by Naga Architects, the villa features a distinctive cubic form that rises from the shoreline, intended to act like a resort. The layout spans Ground plus two floors (G+2), emphasizing natural light and a seamless connection to the sea through expansive glazing and terraces. "
+          ],
+          [],
+          [
+            "CTA",
+            "2–4 words",
+            "Request more details"
+          ],
+          [],
+          [
+            "Amenities section"
+          ],
+          [
+            "Amenities : H2",
+            "2–3 words",
+            "Key feautures"
+          ],
+          [
+            "Key points: 4-8"
+          ],
+          [
+            "Key point 1: title",
+            "<40 chars",
+            "Architectural Concept"
+          ],
+          [
+            "",
+            "",
+            "Designed by Naga Architects to embody the spirit of the sea and elegance of waterfront living."
+          ],
+          [],
+          [
+            "Key point 2: title",
+            "<40 chars",
+            "Layout Configuration"
+          ],
+          [
+            "",
+            "",
+            "Spans Ground plus two floors (G+2), featuring a family room and a dedicated roof lounge. "
+          ],
+          [],
+          [
+            "Key point 3: title",
+            "<40 chars",
+            "Parking Facilities"
+          ],
+          [
+            "",
+            "",
+            "Includes a show garage and covered parking area with a total area of approximately 460 sq ft."
+          ],
+          [],
+          [
+            "Key point 4: title",
+            "<40 chars",
+            "Outdoor Living"
+          ],
+          [
+            "",
+            "",
+            "Offers extensive terraces and a roof lounge designed to capture panoramic views."
+          ],
+          [],
+          [
+            "Investments section"
+          ],
+          [
+            "Investments section: paragraph",
+            "200–400 chars",
+            "The Beach Collection on Palm Jebel Ali offers freehold ownership in a city-scale development that significantly expands Dubai's coastline. With starting prices from AED 25.2M, these assets are positioned within a master-planned destination featuring over 80 hotels and resorts. Investors are eligible for the 10-year UAE Golden Visa subject to government regulations. "
+          ],
+          [
+            "Investments section: banner headline",
+            "20–30 chars",
+            "Find out ROI"
+          ],
+          [
+            "Investments section: paragraph",
+            "15-250 chars",
+            "Exploit the full potential of Palm Jebel Ali with a targeted investment strategy. Our experts will calculate your returns, assess capital appreciation potential, and guide you through every step of the purchase process."
+          ],
+          [
+            "Investments section: button",
+            "2–3 words",
+            "Get your investment plan"
+          ],
+          [],
+          [
+            "Payment plan section"
+          ],
+          [
+            "Payment: H2",
+            "2–3 words",
+            "Payment Plan"
+          ],
+          [
+            "Payment: paragraph",
+            "100–300 chars",
+            "Enjoy a 80/20 payment plan with 20% due on booking, staged installments of 60% during construction until Q4 2028, and the final 20% payable on handover in Q4 2029. "
+          ],
+          [],
+          [
+            "",
+            "",
+            "20% — On Booking"
+          ],
+          [
+            "",
+            "",
+            "60% — During Construction"
+          ],
+          [
+            "",
+            "",
+            "20% — On Handover (Q4 2029)"
+          ],
+          [],
+          [
+            "Floor plans section"
+          ],
+          [
+            "",
+            "",
+            "Floor Plans"
+          ],
+          [
+            "",
+            "",
+            "Villa Cyan Sky — 7,723 sq ft — From AED 25.2M "
+          ],
+          [
+            "Amenities section"
+          ],
+          [
+            "Amenities: H2",
+            "1–2 words",
+            "Features & Amenities"
+          ],
+          [
+            "4 primary + any number of others as a list",
+            "",
+            "6 bedrooms with en-suite bathrooms"
+          ],
+          [
+            "",
+            "",
+            "Private roof lounge and terrace"
+          ],
+          [
+            "",
+            "",
+            "Show garage and family room"
+          ],
+          [
+            "",
+            "",
+            "Guest bedroom on ground floor"
+          ],
+          [
+            "Amenity 2",
+            "",
+            "Maid’s room and driver’s room"
+          ],
+          [
+            "Amenity 4",
+            "",
+            "Show kitchen and working kitchen"
+          ],
+          [
+            "…",
+            "",
+            "Lift connecting all floors"
+          ],
+          [
+            "",
+            "",
+            "Formal living and dining areas"
+          ],
+          [
+            "",
+            "",
+            "Walk-in closets in bedrooms"
+          ],
+          [],
+          [],
+          [
+            "Gallery section"
+          ],
+          [],
+          [
+            "Location section"
+          ],
+          [
+            "Location: H2",
+            "10-20 chars",
+            "Location"
+          ],
+          [
+            "Location: paragraph",
+            "200–300 chars",
+            "Palm Jebel Ali is a 13.4 square kilometre archipelago located off the coast of Dubai, connected by a dedicated 5 km access road from Sheikh Zayed Road. The masterplan includes 110 km of coastline, 16 fronds, and a central spine focused on wellness and community facilities. It is designed to house over 80 hotels and resorts alongside luxury residential neighborhoods. "
+          ],
+          [
+            "Location CTA",
+            "2–3 words",
+            "Check availability"
+          ],
+          [
+            "Location: point 1 (label)",
+            "10-20 chars",
+            "Sheikh Zayed Road"
+          ],
+          [
+            "Location: point 1 (value)",
+            "10-20 chars",
+            "5 Minutes"
+          ],
+          [
+            "Location: point 2 (label)",
+            "10-20 chars",
+            "DWC Airport"
+          ],
+          [
+            "Location: point 2 (value)",
+            "10-20 chars",
+            "25 Minutes"
+          ],
+          [
+            "Location: point 3 (label)",
+            "10-20 chars",
+            "Palm Jumeirah"
+          ],
+          [
+            "Location: point 3 (value)",
+            "10-20 chars",
+            "30 Minutes"
+          ],
+          [
+            "Location: point 4 (label)",
+            "10-20 chars",
+            "Downtown Dubai"
+          ],
+          [
+            "Location: point 4 (value)",
+            "10-20 chars",
+            "45 Minutes"
+          ],
+          [],
+          [
+            "Slider section"
+          ],
+          [],
+          [
+            "Amenities slider section"
+          ],
+          [
+            "Amenities : H2",
+            "2–3 words",
+            "Life on the Palm"
+          ],
+          [
+            "Key points 4-8"
+          ],
+          [
+            "Key point 1: title",
+            "<30 chars",
+            "Waterfront Connectivity"
+          ],
+          [
+            "Key point 1: text",
+            "80–120 chars",
+            "Residents enjoy direct access to 90km of beachfront and swimmable waters."
+          ],
+          [
+            "Key point 2: title",
+            "<30 chars",
+            "Active Lifestyle"
+          ],
+          [
+            "Key point 2: text",
+            "80–120 chars",
+            "The spine features jogging tracks, sports clubs, and wellness centers. "
+          ]
+        ]
+      }
+    ]
+  },
+  "abu-dhabi.relestate Template with example": {
+    "title": "abu-dhabi.relestate Template with example",
+    "spreadsheet_id": "11SYZv2OY0KeXPIlBmQHdxqq21jVYYgTfy6L53LlZIfo",
+    "sheets": [
+      {
+        "name": "ADRE Template with example",
+        "row_count": 100,
+        "headers": [
+          "-",
+          "Structural blocks ",
+          "eng",
+          "Ar",
+          "Ru",
+          "de",
+          "Fr",
+          "ch"
+        ],
+        "all_data": [
+          [
+            "-",
+            "Structural blocks ",
+            "eng",
+            "Ar",
+            "Ru",
+            "de",
+            "Fr",
+            "ch"
+          ],
+          [],
+          [
+            "Slug:",
+            "",
+            "yas-riva-residences-aldar-yas-island-abu-dhabi",
+            "yas-riva-residences-aldar-yas-island-abu-dhabi",
+            "yas-riva-residences-aldar-yas-island-abu-dhabi"
+          ],
+          [],
+          [
+            "Title:",
+            "{project name} by (developer name) in (area name), Dubai (or other city) | Buy (property type) in UAE",
+            "Yas Riva Residences by Aldar on Yas Island, Abu Dhabi | Buy Waterfront Apartments in UAE",
+            "مساكن ياس ريفا لشركة الدار العقاريّة على جزيرة ياس، أبوظبي | شقق فاخرة على الواجهة البحرية في الإمارات",
+            "Yas Riva Residences от Aldar на Yas Island, Абу-Даби | Апартаменты на береговой линии в ОАЭ"
+          ],
+          [],
+          [
+            "Desc:",
+            "Buy (property type) of {project name} in (area name), Dubai (or other city) by Developer (developer name). Get more info about {project name}, get prices and payment plan, special will offer, pdf brochure with floor plans and location with map, photos and videos.",
+            "Studio to 3BR+M resort-like apartments with canal views, premium amenities, from AED 1.35M at Yas Riva Residences by Aldar on Yas Island, Abu Dhabi. Q4 2029.",
+            "شقق سكنية راقية بطابع المنتجعات، تتنوع من استوديوهات إلى ثلاث غرف نوم مع غرفة للعمالة المنزليّة، وتتميز بإطلالات خلابة على القناة ومرافق عالمية المستوى. تبدأ الأسعار من 1.35 مليون درهم في مساكن ياس ريفا لشركة الدّار العقاريّة على جزيرة ياس، أبوظبي، مع موعد تسليم متوقع في الربع الأخير من عام 2029.",
+            "От студий до апартаментов с 3 спальнями и комнатой для персонала: резиденции с инфраструктурой премиум, сервисом шикарного курорта и видом на канал в жилом комплексе Yas Riva Residences от Aldar на Yas Island, Абу-Даби. От AED 1,35 млн/USD 367,5 тыс. Сдача: 4 кв. 2029 г."
+          ],
+          [],
+          [
+            "Image alt tag:",
+            "",
+            "Yas Riva Residences by Aldar on Yas Island – resort-style waterfront apartments",
+            "مساكن ياس ريفا لشركة الدّار العقاريّة على جزيرة ياس – شقق فاخرة على الواجهة البحرية بطابع المنتجعات",
+            "Yas Riva Residences от Aldar на Yas Island – апартаменты с сервисом шикарного курорта на береговой линии"
+          ],
+          [],
+          [
+            "Project name:",
+            "",
+            "Yas Riva Residences",
+            "مساكن ياس ريفا",
+            "Yas Riva Residences"
+          ],
+          [],
+          [
+            "H1:",
+            "Buy (property type) in {project name} by (developer)",
+            "Buy waterfront apartments in Yas Riva Residences by Aldar",
+            "امتلك شققاً سكنية على الواجهة البحرية في مساكن ياس ريفا لشركة الدّار العقاريّة على جزيرة ياس.",
+            "Приобретайте апартаменты на береговой линии в Yas Riva Residences от Aldar"
+          ],
+          [],
+          [
+            "H2",
+            "Marketing title about the project",
+            "Live the Yas Life — Waterfront Living Near World-Class Entertainment",
+            "عِش أسلوب حياة ياس المُتفرّد — سكن على الواجهة البحرية بالقرب من وجهات ترفيهية عالمية",
+            "Живите в стиле Yas – проживание на береговой линии рядом с центром развлечений мирового уровня"
+          ],
+          [],
+          [
+            "",
+            "Description of the project (developer name, layouts, area, etc.)",
+            "Yas Riva Residences by Aldar is a resort-inspired residential community set along the tranquil canal waters of Yas Island—one of the UAE’s fastest-growing lifestyle and investment spots. It features 950 units, including studios, 1BR, 2BR, and 3BR + maid apartments, with average sizes ranging from 47 sq.m to 187 sq.m. Offering handover in Q4 2029, the project mixes modernist-inspired architecture, warm natural materials, and waterfront views. Situated minutes from Yas Mall, Etihad Arena, Yas Bay, Ferrari World, Warner Bros. World, and SeaWorld Abu Dhabi, it delivers a mix of energy, leisure, and serenity.",
+            "تُعد مساكن ياس ريفا لشركة الدّار العقاريّة مجمّعاً سكنياً مستوحى من المنتجعات، يقع على ضفاف القناة المائية الهادئة على جزيرة ياس، إحدى أسرع الوجهات نمواً من حيث نمط الحياة والاستثمار في دولة الإمارات. يضم المشروع 950 وحدة سكنية تشمل استوديوهات وشقق من غرفة نوم واحدة وغرفتين وثلاث غرف نوم مع غرفة للعمالة المنزليّة، بمساحات متوسطة تتراوح بين 47 و187 متراً مربعاً. ومن المقرر تسليم المشروع في الربع الأخير من عام 2029، حيث يجمع بين العمارة العصرية المبتكرة واستخدام المواد الطبيعية الدافئة والإطلالات الخلابة على الواجهة البحرية. ويتمتع بموقع استراتيجي على بُعد دقائق من ياس مول، واتحاد أرينا، وياس باي، وفيراري وورلد، ووارنر براذرز وورلد، وسي وورلد أبوظبي، ليقدم أسلوب حياة متوازناً يجمع بين الحيوية والترفيه والهدوء.",
+            "Yas Riva Residences от Aldar, жилой кластер в стиле шикарного курорта расположен вдоль живописного канала Yas Island, в одном из динамично развивающихся районов ОАЭ, который становится прекрасным вариантом как для проживания, так и инвестиций. Предлагается 950 резиденций, среди которых студии, апартаменты с 1, 2 и 3 спальнями + комнатой для персонала, площадью от 47 до 187 кв. м. Сдача объекта запланирована на 4-й квартал 2029 г. Жилой комплекс отличает лаконичная архитектура с модернистскими мотивами, использование теплых натуральных материалов, а также великолепные виды на побережье. С быстрым доступом к Yas Mall, Etihad Arena, заливу Yas Bay, паркам развлечений Ferrari World, Warner Bros. World и SeaWorld Abu Dhabi, жилой кластер гармонично сочетает в себе динамичный стиль жизни и расслабленный ритм в спокойном окружении."
+          ],
+          [],
+          [
+            "H2",
+            "Amenities of (Project name)",
+            "Amenities of Yas Riva Residences",
+            "مرافق مساكن ياس ريفا",
+            "Инфраструктура Yas Riva Residences"
+          ],
+          [],
+          [
+            "H3",
+            "First key amenity (sth unique)",
+            "Waterfront Wellness Masterplan",
+            "مخطط للعافية على الواجهة البحرية",
+            "Жизнь на побережье в стиле велнес"
+          ],
+          [
+            "",
+            "Description in 1-2 sentences",
+            "Yas Riva Residences, with its canal-front promenades, tranquil pools, yoga spaces, and spas, offers a year-round, wellness-focused way of life.",
+            "توفر مساكن ياس ريفا أسلوب حياة متكاملاً يركز على العافية على مدار العام، من خلال مساراتها المطلة على القناة، والمسابح الهادئة، ومساحات اليوغا، ومرافق السبا، ضمن بيئة سكنية تجمع بين الراحة والاسترخاء.",
+            "Благодаря дорожкам для прогулок вдоль канала, спокойным бассейнами, пространствам для йоги и спа Yas Riva Residences круглый год дарит курортный образ жизни с акцентом на велнес."
+          ],
+          [],
+          [
+            "H3",
+            "Second key amenity (sth unique)",
+            "Family-Centric Lifestyle & Sports Hub",
+            "أسلوب حياة عائلي ملائم لحياة رياضيّة متميّزة",
+            "Инфраструктура для семейного проживания и спорта"
+          ],
+          [
+            "",
+            "Description in 1-2 sentences ",
+            "Community libraries, communal kitchens, children's play areas, basketball, padel, and tennis courts are all available to residents, providing lifestyle convenience in a resort setting that is walkable.",
+            "تضم المرافق مكتبات مجتمعية ومطابخ مشتركة ومناطق لعب للأطفال، إضافة إلى ملاعب كرة السلة، والبادل، والتنس، لتمنح السكان تجربة معيشية مريحة بطابع المنتجعات، ضمن مجمّع يعزّز التنقّل و المشي.",
+            "Жители комплекса имеют в своем распоряжении библиотеки, кухни, детские игровые площадки, баскетбольные площадки, корты для падела и тенниса, пользуясь всем удобствами шикарного курорта."
+          ],
+          [],
+          [
+            "",
+            "The rest of amenities should be listed below"
+          ],
+          [
+            "",
+            "",
+            "Gym with Canal Views",
+            "صالة رياضية بإطلالات على القناة",
+            "Тренажерный зал с видом на канал"
+          ],
+          [
+            "",
+            "",
+            "Kids' Play Area",
+            "منطقة ألعاب للأطفال",
+            "Детская игровая площадка"
+          ],
+          [
+            "",
+            "",
+            "Padel Court",
+            "ملعب بادل",
+            "Корт для падела"
+          ],
+          [
+            "",
+            "",
+            "Community Library",
+            "مكتبة مجتمعية",
+            "Общественная библиотека"
+          ],
+          [
+            "",
+            "",
+            "Tennis Court",
+            "ملعب تنس",
+            "Теннисный корт"
+          ],
+          [
+            "",
+            "",
+            "Kids’ Pool",
+            "مسبح للأطفال",
+            "Детский бассейн"
+          ],
+          [
+            "",
+            "",
+            "Wellness Spa",
+            "سبا للعافية والاسترخاء",
+            "Велнес-спа"
+          ],
+          [
+            "",
+            "",
+            "Yoga Spaces",
+            "مساحات مخصصة لليوغا",
+            "Пространства для йоги"
+          ],
+          [
+            "",
+            "",
+            "Basketball Court",
+            "ملعب كرة سلة",
+            "Баскетбольная площадка"
+          ],
+          [
+            "",
+            "",
+            "Family Pool",
+            "مسبح عائلي",
+            "Семейный бассейн"
+          ],
+          [
+            "",
+            "",
+            "Relaxing Adults’ Pool",
+            "مسبح للإسترخاء مخصص للبالغين",
+            "Расслабляющий бассейн для взрослых"
+          ],
+          [
+            "",
+            "",
+            "Jogging Trail",
+            "مسار للجري",
+            "Беговая дорожка"
+          ],
+          [
+            "",
+            "",
+            "Cycling Trail",
+            "مسار للدراجات الهوائية",
+            "Велосипедная дорожка"
+          ],
+          [
+            "",
+            "",
+            "Water Promenade",
+            "ممشى مائي على الواجهة البحرية",
+            "Прогулки на набережной"
+          ],
+          [
+            "",
+            "",
+            "Pool Café & Social Kitchen",
+            "مقهى على ردهة مسبح خاص ومطبخ جَماعي",
+            "Кафе у бассейна и кухня для встреч и общения"
+          ],
+          [
+            "",
+            "",
+            "Multi-purpose Room & Family Lounge",
+            "قاعة متعددة الاستخدامات وصالة عائلية",
+            "Многофункциональный зал и семейная лаунж-зона"
+          ],
+          [
+            "",
+            "",
+            "Water Connectivity",
+            "اتصال مباشر بالشاطئ",
+            "Прямой выход к береговой линии"
+          ],
+          [],
+          [
+            "Н2",
+            "Marketing title about the developer",
+            "Aldar—Establishing Iconic Lifestyle Communities in Abu Dhabi",
+            "شركة الدار العقاريّة — الريادة في تطوير مجمّعات فاخرة لحياة أيقونية في أبوظبي",
+            "Aldar – Создавая знаковые комьюнити с особым образом жизни в Абу-Даби"
+          ],
+          [],
+          [
+            "",
+            "Description of the developer in 3-4 sentences ",
+            "Leading master developer Aldar is credited with creating some of Abu Dhabi's most sought-after locations, such as Yas Island, Saadiyat Island, and Al Raha Beach. With a portfolio that spans residential, retail, hospitality, and entertainment, Aldar is dedicated to design excellence, world-class amenities, and long-term value. Yas Riva Residences embodies Aldar's signature strategy of fusing waterfront living, wellness, and architecture into a modern community designed for contemporary lifestyles.",
+            "تُعد شركة الدار العقاريّة من أبرز المطورين الرئيسيين في أبوظبي، ويُنسب إليها تطوير بعض أكثر الوجهات تميزاً وطلباً في الإمارة، مثل جزيرة ياس، وجزيرة السعديات، وشاطئ الراحة. وبفضل محفظتها المتنوعة التي تشمل المشاريع السكنية، والتجارية، والضيافة، والترفيهية، تلتزم شركة الدار بأعلى معايير التميز في التصميم، وتوفير مرافق عالمية المستوى، وتحقيق قيمة مستدامة. وتجسد مساكن ياس ريفا رؤية الدار المميزة التي تجمع بين السكن على الواجهة البحرية، والعافية، والعمارة العصرية، لتقديم مجمّع سكني متكامل يلبي متطلبات أنماط الحياة المعاصرة.",
+            "Один из ведущих мастер-девелоперов региона, компания Aldar создала целый ряд проектов в престижных и востребованных районах Абу-Даби, включая Yas Island, Saadiyat Island и Al Raha Beach. В портфолио застройщика представлены объекты недвижимости в жилом, торговом, гостиничном и развлекательном секторах, которые отличаются интересными архитектурными решениями, инфраструктурой мирового класса и ценностью в долгосрочной преспективе. В Yas Riva Residences отразился особый подход Aldar к жилому проекту: гармоничное сочетание жизни на побережье, концепции благополучия и архитектуры в актуальном формате, который соответствует ритму современной жизни."
+          ],
+          [],
+          [
+            "H2",
+            "Economic Appeal of (Project Name)",
+            "Economic Appeal of Yas Riva Residences",
+            "الجاذبية الاستثمارية لمساكن ياس ريفا",
+            "Экономическая привлекательность Yas Riva Residences"
+          ],
+          [],
+          [
+            "",
+            "Short description of economic appeal in general (3-4 sentences)",
+            "With prices starting at AED 1.35M, freehold ownership, and an attractive 5% down payment with a 65/35 payment plan, Yas Riva Residences serves as a solid investment opportunity on Yas Island. The island is home to millions of tourists each year and more than 20 internationally renowned attractions. Its proximity to Yas Mall, Etihad Arena, Yas Bay, theme parks, and the upcoming Disney Abu Dhabi contributes to long-term rental demand and potential capital appreciation. Yas Island's limited supply of brand-new waterfront apartments makes it even more resilient to investments.",
+            "مع أسعار تبدأ من 1.35 مليون درهم، وملكية حرة، ودفعة أولى جذابة بنسبة 5% فقط ضمن خطة سداد 65/ 35، تمثل مساكن ياس ريفا فرصة استثمارية قوية على جزيرة ياس. وتستقطب الجزيرة ملايين الزوار سنوياً، وتضم أكثر من 20 وجهة ترفيهية عالمية المستوى. كما يسهم قرب المشروع من ياس مول، واتحاد أرينا، وياس باي، والمتنزهات الترفيهية، إضافة إلى مشروع ديزني أبوظبي المرتقب، في تعزيز الطلب طويل الأمد على الإيجار وزيادة فرص نمو رأس المال. ويزيد محدودية المعروض من الشقق الجديدة على الواجهة البحرية لجزيرة ياس من قوة المشروع وجاذبيته الاستثمارية.",
+            "Начальная цена от AED 1,35 млн/USD 367,5 тыс., полная собственность благодаря нахождению во freehold зоне, первоначальный взнос всего 5% и план оплаты 65/35: Yas Riva Residences является разумным решением для вложений в недвижимость на Yas Island. Остров ежегодно принимает миллионы туристов, которые посещают более 20 всемирно известных достопримечательностей. Близкое расположение к Yas Mall, Etihad Arena, Yas Bay, тематическим паркам, а также будущему Disney Abu Dhabi способствует сохранению долгосрочного спроса на аренду и стабильному приросту стоимости."
+          ],
+          [],
+          [
+            "H3",
+            "To rent (2 sentences)",
+            "For rent",
+            "للاستثمار الإيجاري",
+            "Для аренды"
+          ],
+          [],
+          [
+            "",
+            "Short or long-term rents, ROI, minimum rental costs per annum ",
+            "Supported by Yas Island's entertainment economy, waterfront apartments at Yas Riva Residences are anticipated to draw high rental demand from families and professionals. Average yields for similar Yas communities reach 6–8% annually, with premium water-facing units achieving higher returns.",
+            "بدعم من الاقتصاد الترفيهي المزدهر على جزيرة ياس، من المتوقع أن تحظى الشقق المطلة على الواجهة البحرية في مساكن ياس ريفا بطلب إيجاري مرتفع من العائلات والمهنيين. وتحقق المجمّعات المشابهة على جزيرة ياس عوائد سنوية متوسطة تتراوح بين 6% و8%، مع إمكانية تحقيق وحدات الواجهة البحريّة المميزة نسب أعلى.",
+            "Благодаря развитой индустрии развлечений на Yas Island апартаменты на первой береговой линии в жилом комплексе Yas Riva Residences будут пользоваться высоким спросом на аренду как у семей, так и профессионалов. Средняя доходность в аналогичных жилых комплексах на Yas Island составляет порядка 6-8% годовых, при этом апартаменты премиум-класса с видом на море приносят более высокую прибыль."
+          ],
+          [],
+          [
+            "H3",
+            "For resale (2 sentences)",
+            "For resale",
+            "لإعادة البيع",
+            "Для перепродажи"
+          ],
+          [],
+          [
+            "",
+            "Benefits of resale",
+            "Given Aldar’s brand strength and Yas Island’s global visibility, properties in Yas Riva Residences are well-positioned for capital appreciation, particularly as the island continues its expansion of entertainment, hospitality, and retail offerings.",
+            "وبفضل قوة علامة الدار التجارية والحضور العالمي لجزيرة ياس، تتمتع عقارات مساكن ياس ريفا بمقومات قوية لارتفاع القيمة الرأسمالية، لا سيما مع استمرار توسع الجزيرة في قطاعات الترفيه والضيافة والتجزئة.",
+            "Благодаря высокой репутации Aldar и международной известности Yas Island недвижимость в Yas Riva Residences имеет отличный потенциал для прироста стоимости, особенно, с учетом дальнейшего развития развлекательных, гостиничных и торговых объектов на острове."
+          ],
+          [],
+          [
+            "H3",
+            "For living (2 sentences)",
+            "For living",
+            "للسكن",
+            "Для проживания"
+          ],
+          [],
+          [
+            "",
+            "Target clients (family, businessmen, young people, etc.) and why (proximity to business hubs, schools, well-developed infrastructure, etc.). If there are services offered (laundry, housekeeping, etc.), name them please.",
+            "Families, professionals, and foreign buyers looking for a waterfront, wellness-focused lifestyle with easy access to Yas Island's schools, medical facilities, shopping centers, and top attractions will find Yas Riva Residences by Aldar to be the perfect choice. Residents benefit from resort-style services, creating a safe, convenient and community-led living environment.",
+            "تُعد مساكن ياس ريفا من الدار الخيار الأمثل للعائلات والمهنيين والمشترين الأجانب الباحثين عن أسلوب حياة عصري على الواجهة البحرية يركز على العافية، مع سهولة الوصول إلى مدارس جزيرة ياس، والمرافق الطبية، ومراكز التسوق، وأبرز الوجهات الترفيهية. كما يستفيد السكان من خدمات بطابع المنتجعات توفر بيئة سكنية آمنة، مريحة، وقائمة على روح الجماعيّة المجتمعيّة.",
+            "Жилой комплекс Yas Riva Residences от Aldar является отличным вариантом для семей, профессионалов и иностранные покупателей, которые ценят комфортный образ жизни на берегу моря с удобным доступом к школам, медицинским учреждениям, торговым центрам и главным достопримечательностям Yas Island. Жители комплекса пользуются инфраструктурой шикарного курорта, которая дополняет безопасную и комфортную среду обитания."
+          ],
+          [],
+          [
+            "H2",
+            "Location of (Project name)",
+            "Location of Yas Riva Residences by Aldar",
+            "موقع مساكن ياس ريفا من تطوير شركة الدّار العقاريّة",
+            "Расположение Yas Riva Residences от Aldar"
+          ],
+          [
+            "",
+            "About the area in 3-4 sentences ",
+            "Yas Riva Residences by Aldar is a resort-inspired waterfront community on Yas Island, designed for a wellness-focused lifestyle. The development offers direct access to waterfront promenades, modern amenities, and easy connectivity to nearby entertainment, shopping, and leisure destinations.",
+            "تقع مساكن ياس ريفا لشركة الدّار العقاريّة على جزيرة ياس كوجهة سكنية على الواجهة البحرية بطابع المنتجعات، مصممة لأسلوب حياة يركز على العافية والراحة. ويوفر المشروع وصولاً مباشراً إلى مسارات الواجهة البحرية ومرافق عصرية، إلى جانب سهولة التنقل إلى أبرز وجهات الترفيه والتسوق والاستجمام القريبة.",
+            "Yas Riva Residences от Aldar, жилой кластер в курортном стиле на берегу моря на Yas Island, создан для роскошного и здорового образа жизни. Жители комплекса имеют прямой выход к набережным, современной инфраструктуре, а также удобное транспортное сообщение с расположенными поблизости развлекательными и торговыми центрами."
+          ],
+          [],
+          [
+            "H3",
+            "Entertainment (attractions, malls, clubs, etc.)",
+            "Entertainment",
+            "المعالم الترفيهيّة ",
+            "Развлечения"
+          ],
+          [
+            "",
+            "Location 1 - travel time on foot/by car",
+            "Yas Mall/Yas Bay — 5 minutes by car",
+            "ياس مول / ياس باي — 5 دقائق بالسيارة",
+            "Yas Mall/Yas Bay – 5 мин"
+          ],
+          [
+            "",
+            "Location 2 - travel time on foot/by car",
+            "Yas Links Golf Course/Etihad Arena — 10 minutes by car",
+            "ملعب ياس لينكس للغولف / اتحاد أرينا — 10 دقائق بالسيارة",
+            "Yas Links Golf Course/Etihad Arena – 10 мин"
+          ],
+          [
+            "",
+            "Location 3 - travel time on foot/by car",
+            "Ferrari World Abu Dhabi/Yas Marina Circuit — 10 minutes by car",
+            "فيراري وورلد أبوظبي / حلبة مرسى ياس — 10 دقائق بالسيارة",
+            "Ferrari World Abu Dhabi/Yas Marina Circuit – 10 мин"
+          ],
+          [
+            "",
+            "Location 4- travel time on foot/by car",
+            "Warner Bros. World Abu Dhabi/SeaWorld Abu Dhabi — 15 minutes by car",
+            "وارنر براذرز وورلد أبوظبي / سي وورلد أبوظبي — 15 دقيقة بالسيارة",
+            "Warner Bros. World Abu Dhabi/SeaWorld Abu Dhabi – 15 мин"
+          ],
+          [],
+          [
+            "H3",
+            "Healthcare (clinics, hospitals)",
+            "Healthcare Facilities",
+            "المرافق الصحية",
+            "Медицина"
+          ],
+          [
+            "",
+            "Location 1 - travel time on foot/by car",
+            "Nearest clinics & healthcare — 5–15 minutes by car",
+            "أقرب العيادات والخدمات الصحية — 5 إلى 15 دقيقة بالسيارة",
+            "Клиники и медучреждения – 5-15 мин"
+          ],
+          [
+            "",
+            "Location 2 - travel time on foot/by car",
+            "Specialist hospitals & emergency facilities — 10–20 minutes by car",
+            "المستشفيات التخصصية ومرافق الطوارئ — 10 إلى 20 دقيقة بالسيارة",
+            "Специализированные медучреждения и больницы скорой помощи – 10-20 мин"
+          ],
+          [],
+          [],
+          [],
+          [
+            "H3",
+            "Education (nurseries, schools, universities)",
+            "Educational Institutions",
+            "المؤسسات التعليمية",
+            "Образование"
+          ],
+          [
+            "",
+            "Location 1 - travel time on foot/by car",
+            "Yas Acres / Local nurseries — 5 minutes by car",
+            "ياس إيكرز / الحضانات المحلية — 5 دقائق بالسيارة",
+            "Yas Acres / Местные детские сады – 5 мин"
+          ],
+          [
+            "",
+            "Location 2 - travel time on foot/by car",
+            "Nearby international schools — 10–15 minutes by car",
+            "المدارس الدولية القريبة — 10 إلى 15 دقيقة بالسيارة",
+            "Международные школы  – 10-15 мин"
+          ],
+          [
+            "",
+            "Location 3 - travel time on foot/by car",
+            "Secondary schools — 10–20 minutes by car",
+            "المدارس الثانوية — 10 إلى 20 دقيقة بالسيارة",
+            "Средние школы – 10-20 мин"
+          ],
+          [
+            "",
+            "Location 4- travel time on foot/by car",
+            "Higher education & training centers — 20–25 minutes by car",
+            "مؤسسات التعليم العالي ومراكز التدريب — 20 إلى 25 دقيقة بالسيارة",
+            "Вузы и центры профессиональной подготовки – 20-25 мин"
+          ],
+          [],
+          [
+            "",
+            "FAQ\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
+            "FAQ",
+            "الأسئلة الشائعة",
+            "FAQ"
+          ],
+          [
+            "",
+            "Where is {project name} located?",
+            "What is Yas Riva Residences?",
+            "ما هي مساكن ياس ريفا؟",
+            "Что такое Yas Riva Residences?"
+          ],
+          [],
+          [
+            "",
+            "",
+            "Yas Riva Residences is a waterfront residential community offering resort-inspired apartments on Yas Island.",
+            "مساكن ياس ريفا هي مجمّع سكني على الواجهة البحرية يقدم شققاً مستوحاة من المنتجعات على جزيرة ياس.",
+            "Yas Riva Residences, жилой комплекс на берегу моря, предлагает апартаменты в курортном стиле на Yas Island."
+          ],
+          [],
+          [
+            "",
+            "Who is the developer of {project name}?",
+            "Where is Yas Riva Residences by Aldar located?",
+            "أين تقع مساكن ياس ريفا لشركة الدار العقاريّة؟",
+            "Где расположен Yas Riva Residences от Aldar?"
+          ],
+          [],
+          [
+            "",
+            "",
+            "Yas Riva Residences by Aldar is located on Yas Island in Abu Dhabi near major lifestyle and entertainment attractions.",
+            "تقع مساكن ياس ريفا من الدار على جزيرة ياس في أبوظبي، بالقرب من أبرز الوجهات الترفيهية والمرافق الحيويّة.",
+            "Yas Riva Residences от Aldar расположен на Yas Island в Абу-Даби, рядом с основными центрами для отдыха и развлечений."
+          ],
+          [],
+          [
+            "",
+            "What types of properties are available in the project?",
+            "What types of units are available at Yas Riva Residences by Aldar?",
+            "ما أنواع الوحدات المتوفرة في مساكن ياس ريفا لشركة الدار العقاريّة؟",
+            "Какие виды недвижимости доступны в Yas Riva Residences от Aldar?"
+          ],
+          [],
+          [
+            "",
+            "",
+            "Yas Riva Residences by Aldar offers studios, 1BR, 2BR, and 3BR + maid apartments.",
+            "تقدم مساكن ياس ريفا من تطوير شركة الدار العقاريّة، استوديوهات وشقق بغرفة نوم واحدة، وغرفتين، وثلاث غرف نوم + غرفة للعمالة المنزليّة.",
+            "Yas Riva Residences от Aldar предлагает студии, апартаменты с 1 спальней, 2 спальнями и 3 спальнями + комнатой для персонала."
+          ],
+          [],
+          [
+            "",
+            "How much do (property type) in {project name} cost?",
+            "What is the starting price of Yas Riva Residences by Aldar?",
+            "ما هو السعر المبدئي لمساكن ياس ريفا لشركة الدار العقاريّة؟",
+            "Какова начальная цена Yas Riva Residences от Aldar?"
+          ]
+        ]
+      }
+    ]
+  },
+  "abudhabioffplan.ae Template with example": {
+    "title": "abudhabioffplan.ae Template with example",
+    "spreadsheet_id": "1nCEuZl8RroxFeQha-_AwgHc1RUh1iJxJ4s4uO9HHGuM",
+    "sheets": [
+      {
+        "name": "ADOP Template with example",
+        "row_count": 91,
+        "headers": [
+          "",
+          "Eng",
+          "Ru",
+          "Ar"
+        ],
+        "all_data": [
+          [
+            "",
+            "Eng",
+            "Ru",
+            "Ar"
+          ],
+          [
+            "Slug:",
+            "bayn-by-ora-ghantoot-uae",
+            "bayn-by-ora-ghantoot-uae",
+            "bayn-by-ora-ghantoot-uae"
+          ],
+          [],
+          [
+            "Title:",
+            "Bayn by Ora in Ghantoot | Villas & Townhouses in Abu Dhabi",
+            "Bayn by Ora в Ghantoot | Виллы и таунхаусы в Абу-Даби",
+            "Bayn by Ora في غنّـتوت | فلل وتاونهاوس في أبوظبي"
+          ],
+          [],
+          [
+            "Desc:",
+            "Bayn by Ora in Ghantoot offers 3–5BR villas and townhouses from AED 9.9M. A waterfront community with beach, marina, schools, and handover in Q1 2029.",
+            "Bayn by Ora в районе Ghantoot — виллы и таунхаусы с 3–5 сп. от AED 9,9 млн (USD 2,7 млн). Пляж, марина, школы. Сдача в 1 кв. 2029 г.",
+            "يقدّم Bayn by Ora في غنّـتوت فلل وتاونهاوس من 3 إلى 5 غرف نوم بأسعار تبدأ من 9.9 مليون درهم إماراتي. مجتمع سكني راقٍ على الواجهة البحرية يضم شاطئًا خاصًا، مرسى، ومدارس، مع التسليم في الربع الأول من عام 2029."
+          ],
+          [],
+          [
+            "Image alt tag:",
+            "Bayn by Ora Ghantoot – luxury waterfront properties with private beach",
+            "Bayn by Ora Ghantoot – люксовые резиденции у воды с частным пляжем",
+            "Bayn by Ora Ghantoot – عقارات فاخرة على الواجهة البحرية بشاطئ خاص\n\n"
+          ],
+          [],
+          [
+            "H1:",
+            "Bayn by Ora in Ghantoot",
+            "Bayn by Ora в Ghantoot",
+            "Bayn by Ora في غنّـتوت"
+          ],
+          [],
+          [
+            "Starting price",
+            "AED 9.9M",
+            "AED 9,9 млн (USD 2,7 млн)",
+            "AED 9.9M"
+          ],
+          [],
+          [
+            "Handover",
+            "Q1 2029",
+            "1 квартал 2029 года",
+            "Q1 2029"
+          ],
+          [],
+          [
+            "H2:",
+            "About Bayn by Ora",
+            "О проекте Bayn by Ora",
+            "حول Bayn by Ora"
+          ],
+          [],
+          [
+            "",
+            "Bayn by Ora is a large-scale luxury master community by Ora Developers, conveniently located in Ghantoot, between Dubai and Abu Dhabi. The project offers an exclusive collection of villas and townhouses, including Gemini Villas, Double Height Villas, Core Villas, and Townhomes with 3 to 5 bedrooms.",
+            "Bayn by Ora — масштабный люксовый район от Ora Developers, расположенный в Ghantoot, между Дубаем и Абу-Даби. В проекте представлены эксклюзивные виллы и таунхаусы — Gemini Villas, Double Height Villas, Core Villas и Townhomes с 3–5 спальнями.",
+            "يُعد Bayn by Ora مجتمعًا سكنيًا فاخرًا واسع النطاق من تطوير Ora Developers، يقع بشكل مثالي بين دبي وأبوظبي في منطقة غنّـتوت.\nيقدّم المشروع مجموعة حصرية من الفلل والتاونهاوس تشمل Gemini Villas، وDouble Height Villas، وCore Villas، وTownhomes بعدد غرف يتراوح بين 3 و5 غرف نوم."
+          ],
+          [],
+          [
+            "",
+            "Residences feature modern architecture, expansive layouts ranging from ~2,750 to ~5,400 sq. ft., and terraces with views of lagoons, greenery, and the Arabian Gulf. Designed as a lifestyle-driven community, Bayn balances coastal serenity with urban connectivity, making it ideal for families, professionals, and international investors.",
+            "Резиденции отличаются современной архитектурой, просторными планировками площадью от ~255 кв. м (2 750 кв. фт) до ~500 кв. м (5 400 кв. фт) и террасами с видами на лагуны, зелёные зоны и Персидский залив. Проект создан как район, в котором сочетаются спокойствие прибрежного образа жизни и удобная транспортная доступность близлежащих городов — идеальный выбор для семей, профессионалов и международных инвесторов.",
+            "تتميّز الوحدات بتصميم معماري عصري ومساحات رحبة تتراوح بين 2,750 و5,400 قدم مربع تقريبًا، إضافة إلى تراسات مطلة على البحيرات والمساحات الخضراء والخليج العربي.\nتم تصميم المجتمع ليوازن بين الهدوء الساحلي والاتصال الحضري، مما يجعله مثاليًا للعائلات والمهنيين والمستثمرين الدوليين."
+          ],
+          [],
+          [
+            "",
+            "Positioned along Sheikh Maktoum Bin Rashid Road (E11), Bayn ensures seamless access to Downtown Dubai and Abu Dhabi City within 30–45 minutes, while offering a secure, resort-inspired environment with premium services and open green spaces.",
+            "Комплекс The Bayn расположен вдоль Sheikh Maktoum Bin Rashid Road (E11), что позволяет добраться до Downtown Dubai и Abu Dhabi City за 30–45 минут. При этом вы живёте в безопасной среде с курортными удобствами класса люкс и обилием зелени вокруг.",
+            "يقع المشروع على شارع الشيخ مكتوم بن راشد (E11)، ما يوفّر وصولًا مباشرًا إلى وسط دبي ومدينة أبوظبي خلال 30 إلى 45 دقيقة، ويقدّم بيئة آمنة مستوحاة من المنتجعات بخدمات متميزة ومساحات خضراء مفتوحة."
+          ],
+          [],
+          [
+            "H2:",
+            "Key Benefits of Bayn by Ora",
+            "Ключевые преимущества Bayn by Ora",
+            "المزايا الرئيسية في Bayn by Ora"
+          ],
+          [
+            "",
+            "Bayn by Ora stands out as a waterfront master community where over 55% of land is dedicated to open space. The project integrates nature and design through a 1M sqm central park, 61K sqm green spine, and a 33 km cycling network, offering residents a rare balance of wellness and modern living.",
+            "Bayn by Ora выделяется как прибрежное комьюнити, где более 55% территории занимают открытые зелёные пространства и зоны отдыха. В проекте гармонично сочетаются природа и архитектура, велнес и современный стиль жизни: центральный парк площадью 1 млн кв. м, «зелёный коридор» 61 тыс. кв. м и 33 км велосипедных дорожек.",
+            "يتميّز Bayn by Ora بكونه مجتمعًا متكاملًا على الواجهة البحرية، حيث خُصّص أكثر من 55% من المساحة للمساحات المفتوحة.\nيُدمج المشروع بين الطبيعة والتصميم عبر حديقة مركزية بمساحة مليون متر مربع، وممر أخضر بمساحة 61 ألف متر مربع، وشبكة دراجات بطول 33 كم، ليقدّم توازنًا فريدًا بين العافية والحياة العصرية."
+          ],
+          [],
+          [],
+          [
+            "",
+            "Homeowners enjoy a full spectrum of amenities, including: private marina with berths, direct beach access, lagoon & promenade waterfronts, central & community parks, clubhouses and swimming pools, sports club with modern facilities, schools and healthcare center, neighborhood mall, dining, and retail, hotel & branded residences, dusiness park and commercial district.",
+            "Для резидентов созданы многочисленные удобства и сервисы: есть частная марина с причалами, прямой выход к пляжу, прогулочные набережные вдоль лагуны, центральный парк и парки внутри комплекса, клабхаусы и бассейны, современный спортивный клуб, школы и медицинский центр, торговая галерея, рестораны и бутики, отель и брендированные резиденции, бизнес-центр и коммерческий кластер.",
+            "يستمتع السكان بمرافق متكاملة تشمل:\nمرسى خاص مع أرصفة\nوصول مباشر إلى الشاطئ\nممشى بحيرات وممرات مائية\nحدائق مركزية ومجتمعية\nنوادٍ ومسابح سكنية\nنادٍ رياضي بمرافق حديثة\nمدارس ومركز صحي داخل المجتمع\nمركز تجاري ومطاعم ومتاجر\nفندق وشقق بعلامة تجارية\nمنطقة أعمال وتجارية"
+          ],
+          [],
+          [
+            "H2",
+            "Area Infrastructure",
+            "Инфраструктура района",
+            "البنية التحتية للمنطقة"
+          ],
+          [],
+          [
+            "",
+            "Bayn by Ora is located in Ghantoot, a coastal area positioned midway between Dubai and Abu Dhabi, ensuring direct access to both emirates. ",
+            "Bayn by Ora расположен в Ghantoot — прибрежной зоне между Дубаем и Абу-Даби, что позволяет легко добраться до обоих эмиратов.",
+            "يقع Bayn by Ora في منطقة غنّـتوت الساحلية، بين دبي وأبوظبي، ما يضمن اتصالًا مباشرًا وسريعًا بالإمارتين.\n"
+          ],
+          [],
+          [
+            "",
+            "The masterplan emphasizes wellness, connectivity, and sustainability, with landscaped promenades, cycling paths, and a network of green spaces within walking distance.",
+            "В основе концепции мастер-плана района — велнес, высокая транспортная доступность и принципы устойчивого развития. Поэтому здесь появились ландшафтные набережные, велосипедные дорожки и парки и аллеи.",
+            "يركّز المخطط الرئيسي للمشروع على الصحة والاستدامة والترابط المجتمعي، من خلال ممرات منسّقة، مسارات للدراجات، وشبكة من المساحات الخضراء على بُعد خطوات من المنازل."
+          ],
+          [],
+          [
+            "H2:",
+            "Bayn by Ora Pricing and Payment Plan Overview",
+            "Цены и план оплаты Bayn by Ora",
+            "الأسعار وخطة الدفع في Bayn by Ora"
+          ],
+          [
+            "",
+            "From AED 9.9M",
+            "От AED 9,9 млн (USD 2,7 млн)",
+            "الأسعار تبدأ من 9.9 مليون درهم إماراتي"
+          ],
+          [],
+          [],
+          [
+            "",
+            "The developer offers a 60/40 payment plan, with a 10% down payment at booking. ",
+            "Девелопер предлагает план оплаты 60/40 с первоначальным взносом 10% при бронировании.",
+            "يقدّم المطوّر خطة دفع بنسبة 60/40، مع دفعة أولى بنسبة 10% عند الحجز."
+          ],
+          [],
+          [
+            "H2:",
+            "Location of Bayn by Ora",
+            "Расположение Bayn by Ora",
+            "موقع Bayn by Ora"
+          ],
+          [],
+          [
+            "",
+            "5–15 minutes",
+            "5–15 минут",
+            "5–15 دقيقة"
+          ],
+          [],
+          [
+            "",
+            "Durham School Dubai, Aster Cedars Hospital Jebel Ali, Ghantoot Beach, Dubai Parks & Resorts, Dove Green Private School",
+            "Durham School Dubai, Aster Cedars Hospital Jebel Ali, Ghantoot Beach, Dubai Parks & Resorts, Dove Green Private School",
+            "Durham School Dubai، Aster Cedars Hospital Jebel Ali، Ghantoot Beach، Dubai Parks & Resorts، Dove Green Private School"
+          ],
+          [
+            "",
+            "",
+            "",
+            "\n"
+          ],
+          [
+            "",
+            "20–45 minutes",
+            "20–45 минут",
+            "20–45 دقيقة"
+          ],
+          [],
+          [
+            "",
+            "Dubai Marina Mall, Bluewaters Island, Al Maktoum International Airport (DWC), Downtown Dubai, Burj Khalifa, Abu Dhabi City Centre, Yas Mall, Sheikh Zayed Grand Mosque, Abu Dhabi International Airport (Zayed International)",
+            "Dubai Marina Mall, Bluewaters Island, Al Maktoum International Airport (DWC), Downtown Dubai, Burj Khalifa, Abu Dhabi City Centre, Yas Mall, Sheikh Zayed Grand Mosque, Abu Dhabi International Airport (Zayed International)",
+            "Dubai Marina Mall، Bluewaters Island، Al Maktoum International Airport (DWC)، Downtown Dubai، Burj Khalifa، Abu Dhabi City Centre، Yas Mall، Sheikh Zayed Grand Mosque، Abu Dhabi International Airport (Zayed International)"
+          ],
+          [],
+          [
+            "",
+            "Bayn by Ora is located in Ghantoot, a strategic coastal district positioned directly between Dubai and Abu Dhabi. The master community is designed around open green spaces, lagoon promenades, and resort-inspired amenities, providing a serene residential environment with city connectivity.",
+            "Bayn by Ora расположен в стратегически важном прибрежном районе Ghantoot — между Дубаем и Абу-Даби. Мастер-план объединяет зелёные зоны, прогулочные набережные и курортные удобства, создавая баланс между спокойствием и удобной транспортной доступностью.",
+            "يقع Bayn by Ora في منطقة غنّـتوت الساحلية الاستراتيجية بين دبي وأبوظبي. تم تصميم المجتمع الرئيسي حول مساحات خضراء مفتوحة وممشى بحيرات ومرافق مستوحاة من المنتجعات، ما يوفّر بيئة سكنية هادئة مع اتصال ممتاز بالمدن الكبرى."
+          ],
+          [],
+          [
+            "",
+            "The location ensures seamless access to both emirates, with Sheikh Maktoum Bin Rashid Road (E11) linking Bayn to Dubai Marina, Downtown Dubai, and Abu Dhabi City within 30–45 minutes. Its positioning makes Bayn ideal for residents who want to live in a wellness-focused waterfront community without sacrificing proximity to major urban, cultural, and business hubs.",
+            "Удачное расположение комплекса позволяет легко добираться до обоих эмиратов: дорога Sheikh Maktoum Bin Rashid Road (E11) соединяет The Bayn с Dubai Marina, Downtown Dubai и Abu Dhabi City всего за 30–45 минут. Это делает проект идеальным выбором для тех, кто хочет жить в велнес-комьюнити у воды, не отказываясь от близости к деловым и культурным центрам.",
+            "يُتيح الموقع سهولة الوصول إلى الإمارتين عبر شارع الشيخ مكتوم بن راشد (E11)، حيث يمكن الوصول إلى Dubai Marina وDowntown Dubai وأبوظبي خلال 30–45 دقيقة.\nيُعدّ الموقع مثاليًا للراغبين في العيش في مجتمع ساحلي يركّز على العافية دون التضحية بقربه من المراكز الحضرية والثقافية والتجارية الكبرى."
+          ],
+          [],
+          [
+            "H2:",
+            "Economic Appeal of Bayn by Ora",
+            "Инвестиционная привлекательность Bayn by Ora",
+            "الجاذبية الاقتصادية لمشروع Bayn by Ora"
+          ],
+          [],
+          [
+            "",
+            "Bayn by Ora offers freehold ownership in a large-scale waterfront master community strategically located between Dubai and Abu Dhabi. The project’s mid-point location ensures excellent connectivity to both emirates, making it attractive for families, professionals, and international investors alike. With a diverse portfolio of villas and townhouses ranging from 3 to 5 bedrooms, Bayn provides a rare opportunity to own in one of the UAE’s most ambitious new coastal developments.",
+            "Bayn by Ora предлагает freehold-владение в масштабном прибрежном комьюнити, удачно расположенном между Дубаем и Абу-Даби. Центральное положение комплекса обеспечивает отличную связность с обоими эмиратами, делая проект привлекательным для семей, профессионалов и международных инвесторов. Благодаря центральному расположению и разнообразию типов резиденций, The Bayn становится редкой выгодной возможностью покупки недвижимости в одном из самых динамично развивающихся прибрежных районов ОАЭ.",
+            "يقدّم Bayn by Ora تملّكًا حرًا في مجتمع رئيسي على الواجهة البحرية بين دبي وأبوظبي. يضمن موقعه المتوسط اتصالًا ممتازًا بالإمارتين، ما يجعله خيارًا جذابًا للعائلات والمهنيين والمستثمرين الدوليين.\n\nيوفّر المشروع مجموعة متنوعة من الفلل والتاونهاوس (3–5 غرف نوم)، ويُعتبر فرصة نادرة للتملّك في أحد أكثر المشاريع الساحلية طموحًا في الإمارات."
+          ],
+          [],
+          [
+            "",
+            "The community’s resort-inspired masterplan — including a marina, clubhouse, schools, healthcare, and green promenades — enhances its long-term residential and investment value. A flexible 60/40 payment plan makes ownership accessible during construction, while limited supply of branded coastal projects at this scale further supports exclusivity and future appreciation.",
+            "Курортная инфраструктура — марина, клабхаус, школы, медицинский центр и прогулочные зоны — повышает долгосрочную инвестиционную ценность проекта. Гибкий план оплаты 60/40 делает покупку на этапе строительства удобной и доступной, а ограниченное предложение брендированных прибрежных объектов такого масштаба гарантирует эксклюзивность и высокий потенциал роста стоимости в будущем.",
+            "كما يعزّز المخطط العام المستوحى من المنتجعات — بما في ذلك المرسى والنادي والمدارس والرعاية الصحية والممرات الخضراء — قيمته السكنية والاستثمارية على المدى الطويل.\n\nتجعل خطة الدفع المرنة (60/40) التملّك ممكنًا أثناء فترة البناء، بينما تساهم ندرة المشاريع الساحلية بعلامات تجارية في تعزيز الحصرية وارتفاع قيمة العقارات مستقبلًا."
+          ],
+          [],
+          [
+            "",
+            "Waterfront homes in Bayn are projected to generate rental yields of 6–7% annually, with premium units offering even stronger performance for both long- and short-term leasing. Capital appreciation potential is also high, supported by limited availability and strong international demand for branded waterfront communities.",
+            "Резиденции у воды в The Bayn могут приносить 6–7% годовых от аренды, а премиальные объекты — ещё больше, как при долгосрочной, так и при краткосрочной аренде. Благодаря ограниченному предложению и сильному международному спросу на брендированные прибрежные резиденции, можно прогнозировать значительный рост капитала в The Bayan. ",
+            "من المتوقع أن تحقق العقارات المطلة على البحر في Bayn عوائد إيجارية تتراوح بين 6% و7% سنويًا، مع أداء أعلى للوحدات المميزة، إلى جانب إمكانات قوية لارتفاع رأس المال بفضل الطلب العالمي المتزايد على المجتمعات الساحلية الفاخرة."
+          ],
+          [
+            "H2:",
+            "About Ora Developers",
+            "О девелопере Ora Developers",
+            "حول Ora Developers"
+          ],
+          [],
+          [
+            "",
+            "Ora Developers is a global real estate group founded by visionary entrepreneur Naguib Sawiris, with a diverse portfolio spanning Europe, Africa, and the Middle East. The company is recognized for delivering innovative masterplans that combine striking architecture, sustainability, and community-focused living.",
+            "Ora Developers — международная девелоперская компания, основанная предпринимателем Нагибом Савирисом. География проектов охватывает Европу, Африку и Ближний Восток. Компания известна инновационными мастер-планами, сочетающими выразительную архитектуру, экологичность и комфорт.",
+            "تُعد Ora Developers مجموعة تطوير عقاري عالمية أسسها رجل الأعمال الرائد نجيب ساويرس، وتمتلك محفظة متنوعة تمتد عبر أوروبا وأفريقيا والشرق الأوسط.\nتشتهر الشركة بابتكار مخططات رئيسية تجمع بين العمارة المذهلة، والاستدامة، والحياة المجتمعية المتكاملة."
+          ],
+          [],
+          [
+            "H2:",
+            "Frequently Asked Questions about Bayn by Ora",
+            "Часто задаваемые вопросы о Bayn by Ora",
+            "الأسئلة الشائعة حول Bayn by Ora\n"
+          ],
+          [
+            "",
+            "",
+            "",
+            "ما هو مشروع Bayn by Ora؟"
+          ],
+          [
+            "",
+            "What is Bayn by Ora?",
+            "Что такое Bayn by Ora?"
+          ],
+          [
+            "",
+            "Bayn by Ora is a large-scale waterfront master community located between Dubai and Abu Dhabi. The project includes villas and townhouses — Gemini Villas, Double Height Villas, Core Villas, and Townhomes — with 3 to 5 bedrooms. It combines modern architecture, lagoon and park views, and resort-inspired amenities.",
+            "Bayn by Ora — масштабное прибрежное комьюнити, расположенное между Дубаем и Абу-Даби. В проекте представлены виллы и таунхаусы — Gemini Villas, Double Height Villas, Core Villas и Townhomes — с 3–5 спальнями. Проект сочетает современную архитектуру, виды на лагуны и парки, а также курортную инфраструктуру.",
+            "هو مجتمع رئيسي على الواجهة البحرية يقع بين دبي وأبوظبي، يضم فلل وتاونهاوس مثل Gemini Villas، وDouble Height Villas، وCore Villas، وTownhomes من 3 إلى 5 غرف نوم، تجمع بين التصميم العصري والإطلالات على البحيرات والحدائق ومرافق فندقية راقية."
+          ],
+          [],
+          [
+            "",
+            "Where is Bayn by Ora located?",
+            "Где находится Bayn by Ora?",
+            "أين يقع Bayn by Ora؟"
+          ],
+          [
+            "",
+            "Bayn by Ora is located in Ghantoot, along Sheikh Maktoum Bin Rashid Road (E11), between Dubai and Abu Dhabi. Residents will have direct access to beaches, green promenades, and a private marina, with Downtown Dubai and Abu Dhabi City both reachable in 30–40 minutes by car.",
+            "Bayn by Ora расположен в районе Ghantoot, вдоль Sheikh Maktoum Bin Rashid Road (E11), между Дубаем и Абу-Даби. Резиденты получают прямой доступ к пляжам, зелёным набережным и частной марине. До центра Дубая и Абу-Даби — 30–40 минут на автомобиле.",
+            "يقع المشروع في غنّـتوت على شارع الشيخ مكتوم بن راشد (E11)، بين دبي وأبوظبي. يتمتع السكان بوصول مباشر إلى الشواطئ والممرات الخضراء ومرسى خاص، مع سهولة الوصول إلى وسط دبي وأبوظبي خلال 30–40 دقيقة بالسيارة."
+          ],
+          [],
+          [
+            "",
+            "What unit types are available in Bayn by Ora?",
+            "Какие типы недвижимости представлены в Bayn by Ora?",
+            "ما أنواع الوحدات المتوفرة في Bayn by Ora؟"
+          ],
+          [
+            "",
+            "Bayn by Ora offers a wide range of villas and townhouses. Options include 3–4 bedroom townhomes, 3–4 bedroom Core Villas, 4–5 bedroom Gemini Villas, and 4–5 bedroom Double Height Villas, with sizes ranging from approximately 2,300 to 7,900 sq. ft.",
+            "Bayn by Ora предлагает широкий выбор вилл и таунхаусов: таунхаусы с 3–4 спальнями, Core Villas с 3–4 спальнями, Gemini Villas с 4–5 спальнями и Double Height Villas с 4–5 спальнями, площадью от ~214 кв. м (2 300 кв. фт) до ~734 кв. м (7 900 кв. фт).",
+            "يضم المشروع فلل وتاونهاوس بتصاميم متنوعة تشمل:\nتاونهاوس 3–4 غرف نوم\nCore Villas 3–4 غرف نوم\nGemini Villas 4–5 غرف نوم\nDouble Height Villas 4–5 غرف نوم\nبمساحات تتراوح بين 2,300 و7,900 قدم مربع تقريبًا."
+          ],
+          [
+            "",
+            "",
+            "",
+            "\n"
+          ],
+          [
+            "",
+            "What is the payment plan for Bayn by Ora?",
+            "Какой план оплаты предусмотрен в Bayn by Ora?",
+            "ما خطة الدفع المتاحة؟"
+          ],
+          [
+            "",
+            "The developer offers a 60/40 payment plan, with 60% payable during construction and 40% upon handover.",
+            "Девелопер предлагает план оплаты 60/40: 60% во время строительства и 40% при сдаче.",
+            "يقدّم المطوّر خطة دفع بنسبة 60/40، بحيث تُدفع 60% أثناء البناء و40% عند التسليم."
+          ],
+          [],
+          [
+            "",
+            "Can foreigners buy in Bayn by Ora?",
+            "Могут ли иностранцы купить недвижимость в Bayn by Ora?",
+            "هل يمكن للأجانب الشراء في Bayn by Ora؟"
+          ],
+          [
+            "",
+            "Yes. The Bayn by Ora is located in a freehold zone open to both UAE nationals and international investors.",
+            "Да. Bayn by Ora расположен в freehold-зоне, открытой как для граждан ОАЭ, так и для иностранных инвесторов.",
+            "نعم، يقع المشروع في منطقة تملك حر مفتوحة لجميع الجنسيات."
+          ],
+          [],
+          [
+            "",
+            "What amenities are available in Bayn by Ora?",
+            "Какие удобства доступны в Bayn by Ora?",
+            "ما المرافق المتوفرة في Bayn by Ora؟"
+          ],
+          [
+            "",
+            "The community Bayn by Ora offers a full suite of resort-style amenities, including a private marina, direct beach access, lagoon promenades, central and community parks, multiple swimming pools, sports facilities, a business hub, international schools, healthcare centers, and a neighborhood mall with retail and dining.",
+            "Комплекс Bayn by Ora предлагает полный набор курортных удобств: частную марину, прямой доступ к пляжу, прогулочные набережные, центральный парк района и парки внутри комплекса, несколько бассейнов, спортивные объекты, бизнес-центр, международные школы, медицинские центры и торговую галерею с ресторанами и бутиками.",
+            "يقدّم المجتمع مجموعة متكاملة من المرافق تشمل: مرسى خاص، شاطئ مباشر، ممشى بحيرات، حدائق مركزية ومجتمعية، مسابح، منشآت رياضية، مركز أعمال، مدارس دولية، مراكز صحية، ومركز تجاري بمحال ومطاعم."
+          ],
+          [],
+          [
+            "",
+            "What are attractions and services nearby Bayn by Ora?",
+            "Какие достопримечательности и сервисы находятся рядом с Bayn by Ora?",
+            "ما أبرز الوجهات والخدمات القريبة؟"
+          ],
+          [
+            "",
+            "Nearby destinations include Dubai Marina Mall (25 minutes), Bluewaters Island (30 minutes), and Downtown Dubai (45 minutes). Healthcare facilities such as Aster Cedars Hospital and Mediclinic Meadows are within 20–25 minutes, while top schools including Durham School Dubai and The International School of Choueifat are within 15–20 minutes.",
+            "Недалеко от комплекса расположены Dubai Marina Mall (25 минут), Bluewaters Island (30 минут) и Downtown Dubai (45 минут). Медицинские учреждения, такие как Aster Cedars Hospital и Mediclinic Meadows, находятся в 20–25 минутах, а школы Durham School Dubai и The International School of Choueifat — в 15–20 минутах.",
+            "تشمل الوجهات القريبة: Dubai Marina Mall (25 دقيقة)، Bluewaters Island (30 دقيقة)، Downtown Dubai (45 دقيقة).\nأما المرافق الصحية القريبة فتضم Aster Cedars Hospital وMediclinic Meadows (20–25 دقيقة)، والمدارس مثل Durham School Dubai وThe International School of Choueifat (15–20 دقيقة)."
+          ],
+          [],
+          [
+            "",
+            "When will Bayn by Ora be completed?",
+            "Когда будет завершён Bayn by Ora?",
+            "متى سيتم تسليم مشروع Bayn by Ora؟"
+          ],
+          [
+            "",
+            "The handover is scheduled for Q1 2029.",
+            "Сдача запланирована на 1 квартал 2029 года.",
+            "من المقرر التسليم في الربع الأول من عام 2029."
+          ]
+        ]
+      }
+    ]
+  },
+  "GRAND POLO Template with example": {
+    "title": "GRAND POLO Template with example",
+    "spreadsheet_id": "19iNeMiXMfjPpU-RC1emdWKg1zE8YFkoUJQ7z71fuWXc",
+    "sheets": [
+      {
+        "name": "GRAND POLO Template with example",
+        "row_count": 100,
+        "headers": [
+          "Fields",
+          "eng",
+          "ru",
+          "ar"
+        ],
+        "all_data": [
+          [
+            "Fields",
+            "eng",
+            "ru",
+            "ar"
+          ],
+          [],
+          [
+            "Slug",
+            "Equiterra 2-grand-polo-club-resort-dubai"
+          ],
+          [],
+          [
+            "title (SEO):",
+            "Equiterra 2 at Grand Polo Club & Resort Dubai"
+          ],
+          [],
+          [
+            "desc (seo):",
+            "Equiterra 2 at Grand Polo Club & Resort offers 3–4BR townhouses, starting from AED 3.7M with an 80/20 payment plan and Q3 2029 handover."
+          ],
+          [],
+          [
+            "image alt tag",
+            "Equiterra 2 townhouses at Grand Polo Club & Resort by Emaar"
+          ],
+          [],
+          [
+            "Home Screen (Hero)"
+          ],
+          [
+            "H1 ≈ 50-60 characters",
+            "Equiterra 2 at Grand Polo Club & Resort"
+          ],
+          [],
+          [
+            "Brief description (paragraph) ≈ 150-200 characters",
+            "Experience refined elegance at Equiterra 2, offering equestrian-inspired townhouses, vast green spaces, and direct access to elite polo fields and stables."
+          ],
+          [],
+          [
+            "Features (3 theses, title ≈ 15-30 characters, desc – up to 60 characters)\n\nFeatures (3 theses, title ≈ 15-30 characters, desc – up to 60 characters)",
+            "Located 5 mins from Al Maktoum Int Airport and The Oasis\nNew master community with 340,000 sqm of polo fields\nDeveloped by Emaar with over 118,400 units delivered\n"
+          ],
+          [],
+          [
+            "title-1 (economic indicator)",
+            "Starting Price:"
+          ],
+          [
+            "desc-1",
+            "AED 3.7M"
+          ],
+          [],
+          [
+            "title-2",
+            "Payment Plan:"
+          ],
+          [
+            "desc-2",
+            "80/20"
+          ],
+          [],
+          [
+            "title-3",
+            "Handover:"
+          ],
+          [
+            "desc-3",
+            "Q3 2029"
+          ],
+          [],
+          [
+            "About area"
+          ],
+          [
+            "H2 \"About ... [project name]\"",
+            "About Equiterra 2"
+          ],
+          [],
+          [
+            "H3 (subtitle) ≈ 60-80 characters",
+            "Emaar's Newest Equestrian Masterpiece"
+          ],
+          [],
+          [
+            "Brief description (paragraph) ≈ 150-200 characters",
+            "Equiterra 2 offers 3 and 4-bedroom townhouse-plexes ranging from 2,176 to 2,482 sq ft. The community integrates equestrian heritage with modern architecture, featuring a clubhouse, polo fields, and expansive linear parks."
+          ],
+          [],
+          [
+            "Advantages"
+          ],
+          [
+            "3 advantages\n3 advantages"
+          ],
+          [
+            "Subtitle ≈ 40-80 characters",
+            "Strategic Location Growth"
+          ],
+          [
+            "Brief description (paragraph) ≈ 100-200 characters",
+            "Located 5 minutes from Al Maktoum Int Airport and The Oasis, ensuring long-term value growth driven by infrastructure expansion and connectivity to Expo 2020."
+          ],
+          [],
+          [
+            "Subtitle ≈ 40-80 characters",
+            "Exclusive Niche Community"
+          ],
+          [
+            "Brief description (paragraph) ≈ 100-200 characters",
+            "As a specialized equestrian community with three polo fields and stables, Equiterra 2 offers unique scarcity value compared to standard residential townhouse clusters."
+          ],
+          [],
+          [
+            "Subtitle ≈ 40-80 characters",
+            "Proven Developer Reliability"
+          ],
+          [
+            "amenities",
+            "Developed by Emaar, known for delivering 118,400+ units and iconic landmarks like Burj Khalifa, ensuring high construction quality and timely asset delivery."
+          ],
+          [],
+          [
+            "CTA ≈ 15-25 characters",
+            "Curious to find out more?"
+          ],
+          [],
+          [
+            "Payment Plan"
+          ],
+          [
+            "Description for each payment plan"
+          ],
+          [],
+          [
+            "H3 (subtitle) ≈ 60-80 characters",
+            "Attractive 80/20 Installment Structure"
+          ],
+          [
+            "",
+            "Enjoy an 80/20 payment plan with 10% due on booking, staged installments of 10-15% during construction until July 2028, and the final 20% payable on handover in Q3 2029."
+          ],
+          [],
+          [
+            "",
+            "On Booking"
+          ],
+          [
+            "",
+            "10%"
+          ],
+          [],
+          [
+            "",
+            "During Construction"
+          ],
+          [
+            "",
+            "70%"
+          ],
+          [],
+          [
+            "",
+            "On Handover (Q3 2029)"
+          ],
+          [
+            "",
+            "20%"
+          ],
+          [],
+          [],
+          [
+            "Static block (post-delivery support)"
+          ],
+          [],
+          [
+            "Subtitle ≈ 40-80 characters",
+            "After Completion, You Have Three Distinct Paths:"
+          ],
+          [],
+          [
+            "Brief description (paragraph) ≈ 100-200 characters",
+            "Resell with a projected value increase of around 30%+, supported by Ras Al Khaimah’s strong property appreciation."
+          ],
+          [
+            "Brief description (paragraph) ≈ 100-200 characters",
+            "Lease your residence to earn rental yields of 8–15%, driven by tourism growth and the Wynn Resort opening."
+          ],
+          [
+            "Brief description (paragraph) ≈ 100-200 characters",
+            "Move in and enjoy branded beachfront living with panoramic sea views, resort-style amenities, and the timeless elegance of Jacob & Co. design."
+          ],
+          [],
+          [],
+          [
+            "Amenities (Features, UTP)"
+          ],
+          [
+            "3-5 main features"
+          ],
+          [
+            "Subtitle ≈ 40-80 characters",
+            "The Stables & Polo Fields"
+          ],
+          [
+            "Brief description (paragraph) ≈ 100-200 characters",
+            "Features three pristine polo fields, elite arenas, and stables designed for equestrian perfection, all framed by viewing terraces and a social lounge."
+          ],
+          [],
+          [
+            "Subtitle ≈ 40-80 characters",
+            "Recreation & Wellness"
+          ],
+          [
+            "Brief description (paragraph) ≈ 100-200 characters",
+            "Residents access a fully equipped community center, fitness areas, a half basketball court, and MUGA courts designed for active living and wellness."
+          ],
+          [],
+          [
+            "Subtitle ≈ 40-80 characters",
+            "The Clubhouse"
+          ],
+          [
+            "Brief description (paragraph) ≈ 100-200 characters",
+            "An architectural landmark inspired by Arabian culture, the Clubhouse offers dining and social spaces overlooking the green landscapes and polo action."
+          ],
+          [],
+          [],
+          [
+            "Economic attractiveness"
+          ],
+          [
+            "H2 \"Economic appeal\" (static SEO)",
+            "Economic Appeal"
+          ],
+          [],
+          [
+            "H3 (subtitle) ≈ 40-80 characters",
+            "Growth Driven by DWC Expansion"
+          ],
+          [
+            "Brief description (paragraph) ≈ 250-400 characters",
+            "Equiterra 2 benefits from its location near the expanding Al Maktoum International Airport. As Dubai shifts its logistics and aviation hub southward, demand for high-quality residential communities in this corridor is projected to rise."
+          ],
+          [],
+          [],
+          [
+            "Location"
+          ],
+          [
+            "H2 \"Location & Advantages\" (static SEO)",
+            "Location & Advantages"
+          ],
+          [
+            "H3 (subtitle) ≈ 40-80 characters",
+            "Connectivity to Key Dubai Hubs"
+          ],
+          [
+            "Brief description (paragraph) ≈ 250-400 characters",
+            "Situated 5 minutes from Al Maktoum Airport and The Oasis, the project offers rapid access to Expo 2020 within 10 minutes and Downtown Dubai within 30 minutes. The masterplan is built on principles of connectivity and nature."
+          ],
+          [],
+          [
+            "Social Facilities"
+          ],
+          [
+            "Brief description (paragraph) ≈ 100-300 characters",
+            "The community includes a dedicated Community Center and picnic areas. Major external hubs are easily accessible via the nearby road networks."
+          ],
+          [],
+          [
+            "Location name -1",
+            "Expo City Dubai"
+          ],
+          [
+            "Time in minutes -1",
+            "10 minutes by car"
+          ]
+        ]
+      }
+    ]
+  },
+  "MJL Template - Commercial": {
+    "title": "MJL Template - Commercial",
+    "spreadsheet_id": "1rRs3kgcGxYZyeeVYv3qh2pc0Hrh4rIsZm7IshpJct6s",
+    "sheets": [
+      {
+        "name": "MJL Template - Commercial",
+        "row_count": 100,
+        "headers": [
+          "Fields",
+          "EN",
+          "RU",
+          "AR"
+        ],
+        "all_data": [
+          [
+            "Fields",
+            "EN",
+            "RU",
+            "AR"
+          ],
+          [
+            "Title (SEO):"
+          ],
+          [],
+          [
+            "Desc (seo):"
+          ],
+          [],
+          [
+            "Slug"
+          ],
+          [],
+          [
+            "Home Screen (Hero)"
+          ],
+          [
+            "H1 ≈ 50-60 characters"
+          ],
+          [],
+          [
+            "Brief description (paragraph) ≈ 70-80 characters"
+          ],
+          [],
+          [
+            "Features (3 theses, title ≈ 15-30 characters, desc – up to 60 characters)"
+          ],
+          [],
+          [
+            "title-1 (economic indicator)"
+          ],
+          [
+            "desc-1"
+          ],
+          [],
+          [
+            "title-2"
+          ],
+          [
+            "desc-2"
+          ],
+          [],
+          [
+            "title-3"
+          ],
+          [
+            "desc-3"
+          ],
+          [],
+          [
+            "About area"
+          ],
+          [
+            "H2 \"About ... [project name]\""
+          ],
+          [],
+          [
+            "H3 (subtitle) ≈ 60-80 characters"
+          ],
+          [],
+          [
+            "Brief description (paragraph) ≈ 150-200 characters"
+          ],
+          [],
+          [
+            "Project details"
+          ],
+          [
+            "Project Passport (Add data table)"
+          ],
+          [],
+          [
+            "Developer"
+          ],
+          [],
+          [
+            "Location"
+          ],
+          [],
+          [
+            "Payment Plan"
+          ],
+          [],
+          [
+            "Area"
+          ],
+          [],
+          [
+            "Property Type"
+          ],
+          [],
+          [
+            "Economic attractiveness"
+          ],
+          [
+            "H2 \"Economic appeal\" (static SEO)"
+          ],
+          [],
+          [
+            "H3 (subtitle) ≈ 40-80 characters"
+          ],
+          [
+            "Brief description (paragraph) ≈ 250-400 characters"
+          ],
+          [],
+          [
+            "Payment Plan"
+          ],
+          [
+            "Description for each payment plan"
+          ],
+          [],
+          [
+            "H3 (subtitle) ≈ 60-80 characters"
+          ],
+          [],
+          [
+            "Static block (post-delivery support)"
+          ],
+          [],
+          [
+            "Subtitle ≈ 40-80 characters"
+          ],
+          [],
+          [
+            "Brief description (paragraph) ≈ 100-200 characters"
+          ],
+          [
+            "Brief description (paragraph) ≈ 100-200 characters"
+          ],
+          [
+            "Brief description (paragraph) ≈ 100-200 characters"
+          ],
+          [],
+          [
+            "Advantages"
+          ],
+          [
+            "3 advantages"
+          ],
+          [
+            "Subtitle ≈ 40-80 characters"
+          ],
+          [
+            "Brief description (paragraph) ≈ 100-200 characters"
+          ],
+          [],
+          [
+            "Subtitle ≈ 40-80 characters"
+          ],
+          [
+            "Brief description (paragraph) ≈ 100-200 characters"
+          ],
+          [],
+          [
+            "Subtitle ≈ 40-80 characters"
+          ],
+          [
+            "amenities"
+          ],
+          [],
+          [
+            "CTA ≈ 15-25 characters"
+          ],
+          [],
+          [
+            "Amenities (Features, UTP)"
+          ],
+          [
+            "3-5 main features"
+          ],
+          [
+            "Subtitle ≈ 40-80 characters"
+          ],
+          [
+            "Brief description (paragraph) ≈ 100-200 characters"
+          ],
+          [],
+          [
+            "Subtitle ≈ 40-80 characters"
+          ],
+          [
+            "Brief description (paragraph) ≈ 100-200 characters"
+          ],
+          [],
+          [
+            "Subtitle ≈ 40-80 characters"
+          ],
+          [
+            "Brief description (paragraph) ≈ 100-200 characters"
+          ],
+          [],
+          [
+            "Subtitle ≈ 40-80 characters"
+          ],
+          [
+            "Brief description (paragraph) ≈ 100-200 characters"
+          ],
+          [],
+          [
+            "Subtitle ≈ 40-80 characters"
+          ],
+          [
+            "Brief description (paragraph) ≈ 100-200 characters"
+          ],
+          [],
+          [
+            "About the developer"
+          ],
+          [
+            "H2 \"About ... [developer name]\""
+          ],
+          [
+            "H3 (subtitle) ≈ 60-80 characters (optional, no title required)"
+          ],
+          [
+            "Brief description (paragraph) ≈ 150-250 characters"
+          ],
+          [],
+          [
+            "Location"
+          ],
+          [
+            "H2 \"Location & Advantages\" (static SEO)"
+          ],
+          [
+            "H3 (subtitle) ≈ 40-80 characters"
+          ]
+        ]
+      }
+    ]
+  },
+  "OPR Template": {
+    "title": "OPR Template",
+    "spreadsheet_id": "12LVAIUiV77xy5lRTe4moAwdgglPeVsNj_lALi9NCxIw",
+    "sheets": [
+      {
+        "name": "OPR Template",
+        "row_count": 100,
+        "headers": [
+          "Guidelines/Comments",
+          "Fields",
+          "En",
+          "Ar",
+          "Ru"
+        ],
+        "all_data": [
+          [
+            "Guidelines/Comments",
+            "Fields",
+            "En",
+            "Ar",
+            "Ru"
+          ],
+          [
+            "Includes the project name, developer, and location (important things people search for, between 50 and 60 characters, including spaces)",
+            "Meta title:"
+          ],
+          [],
+          [
+            "Includes the luxury aspect, location, investment appeal, visa benefits, and nearby amenities (important selling points, maximum 156 characters including spaces)",
+            "Meta description:"
+          ],
+          [],
+          [
+            "",
+            "Url Slug"
+          ],
+          [],
+          [
+            "",
+            "Image Alt Tag "
+          ],
+          [],
+          [
+            "The hero section is the first touchpoint. It must instantly convey the project’s investment appeal, location advantage, and exclusivity; without fluff or filler.",
+            "Hero Section"
+          ],
+          [],
+          [
+            "H1 is the main title of the page. It should clearly state the project name and developer (or the area), to make each project page unique (between 20-70 characters, including spaces)",
+            "H1: Project + developer (or area)"
+          ],
+          [],
+          [
+            "Subheading: One short, punchy sentence that highlights the unique selling point and makes people want to keep reading.",
+            "<p>"
+          ],
+          [],
+          [
+            "",
+            "Starting Price\n"
+          ],
+          [
+            "",
+            "Payment Plan"
+          ],
+          [
+            "",
+            "Handover"
+          ],
+          [
+            "",
+            "ROI Potential"
+          ],
+          [],
+          [
+            "",
+            "CTA",
+            "Get expert advice"
+          ],
+          [],
+          [],
+          [],
+          [],
+          [
+            "Project overview (about) + short key selling point or location.\nWhy: \"Project Overview\" is to introduce core details (location, property types, features)",
+            "H2: Project overview"
+          ],
+          [],
+          [
+            "A quick overview of what makes this project special, keeping in mind not to sound repetitive, since next we will explore its location, property types, and unique features. ",
+            "<p>"
+          ],
+          [],
+          [
+            "Bullet points",
+            "<p>",
+            "If possible, please place each bullet point on a separate line)"
+          ],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [
+            "",
+            "Project Card"
+          ],
+          [],
+          [
+            "",
+            "Project Details"
+          ],
+          [],
+          [
+            "",
+            "Starting Price"
+          ],
+          [
+            "",
+            "Handover"
+          ],
+          [
+            "",
+            "Payment Plan"
+          ],
+          [
+            "",
+            "Area"
+          ],
+          [
+            "",
+            "Property Type"
+          ],
+          [
+            "",
+            "Bedrooms"
+          ],
+          [
+            "",
+            "Developer"
+          ],
+          [
+            "",
+            "Location"
+          ],
+          [],
+          [
+            "",
+            "CTA",
+            "Download Brochure"
+          ],
+          [],
+          [],
+          [],
+          [],
+          [
+            "Focus on what’s inside the residences/building (e.g., marble finishes, private pools, spa, gym).",
+            "H3: Features and amenities",
+            "Signature Features & Resort-Style Amenities"
+          ],
+          [
+            "Text below \"Signature Features & Resort-Style Amenities\"",
+            "<p>"
+          ],
+          [],
+          [
+            "bullets below text",
+            "",
+            "If possible, please place each bullet point on a separate line. Don't use the \"-\" symbol before the bullets."
+          ],
+          [
+            "",
+            "<p>"
+          ],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [
+            "",
+            "H3: Property types & pricing",
+            "Property Types"
+          ],
+          [
+            "(Floor plans come here)\nIn the following order: Property Type, Living Area, Starting Price. ",
+            "<p>",
+            " flexible"
+          ],
+          [],
+          [
+            "",
+            "CTA",
+            "Download all floor plans"
+          ],
+          [],
+          [],
+          [],
+          [
+            "",
+            "H3: Payment plan",
+            "Payment Plan"
+          ],
+          [
+            "",
+            "PP short description",
+            " flexible"
+          ],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [
+            "Why: Targeting investors early with ROI and ownership benefits.",
+            "H2: Investment opportunities",
+            "Investment Potential"
+          ],
+          [
+            "Always check info on Property Monitor, Bayut, Property Finder",
+            "",
+            " flexible"
+          ]
+        ]
+      }
+    ]
+  }
+}

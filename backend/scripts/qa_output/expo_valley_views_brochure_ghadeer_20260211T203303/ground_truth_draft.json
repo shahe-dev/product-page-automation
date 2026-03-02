@@ -1,0 +1,152 @@
+{
+  "brochure": "Expo_Valley_Views_Brochure_Ghadeer.pdf",
+  "last_verified": "2026-02-11",
+  "notes": "AUTO-GENERATED DRAFT -- review and correct before use",
+  "table_specs": [],
+  "table_spec_count": 0,
+  "text_assertions": {
+    "pages_with_floor_plan_text": [
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24
+    ],
+    "expected_unit_types_in_text": [
+      "1BR",
+      "STUDIO"
+    ],
+    "expected_area_labels_present": true
+  },
+  "floor_plans": [
+    {
+      "unit_type": "1BR",
+      "bedrooms": 1,
+      "bathrooms": 1.0,
+      "total_sqft": 776.0,
+      "suite_sqft": null,
+      "balcony_sqft": null,
+      "builtup_sqft": null,
+      "has_room_dimensions": true,
+      "has_image": true,
+      "min_confidence": 0.7
+    },
+    {
+      "unit_type": "2BR",
+      "bedrooms": 2,
+      "bathrooms": 2.0,
+      "total_sqft": 776.0,
+      "suite_sqft": null,
+      "balcony_sqft": null,
+      "builtup_sqft": null,
+      "has_room_dimensions": true,
+      "has_image": true,
+      "min_confidence": 0.7
+    },
+    {
+      "unit_type": "One Bedroom",
+      "bedrooms": 1,
+      "bathrooms": 1.0,
+      "total_sqft": 9629.7,
+      "suite_sqft": 8348.664,
+      "balcony_sqft": 1281.036,
+      "builtup_sqft": null,
+      "has_room_dimensions": true,
+      "has_image": true,
+      "min_confidence": 0.7
+    },
+    {
+      "unit_type": "Two Bedroom Type 01",
+      "bedrooms": 2,
+      "bathrooms": 2.0,
+      "total_sqft": 1469.3,
+      "suite_sqft": 1254.0,
+      "balcony_sqft": 215.3,
+      "builtup_sqft": null,
+      "has_room_dimensions": true,
+      "has_image": true,
+      "min_confidence": 0.7
+    },
+    {
+      "unit_type": "Two Bedroom Type 02",
+      "bedrooms": 2,
+      "bathrooms": 2.0,
+      "total_sqft": 1613.0,
+      "suite_sqft": 1381.0,
+      "balcony_sqft": 232.0,
+      "builtup_sqft": null,
+      "has_room_dimensions": true,
+      "has_image": true,
+      "min_confidence": 0.7
+    },
+    {
+      "unit_type": "Two Bedroom Type 04",
+      "bedrooms": 2,
+      "bathrooms": 2.0,
+      "total_sqft": 1924.7,
+      "suite_sqft": 1251.0,
+      "balcony_sqft": 216.4,
+      "builtup_sqft": null,
+      "has_room_dimensions": true,
+      "has_image": true,
+      "min_confidence": 0.7
+    },
+    {
+      "unit_type": null,
+      "bedrooms": 2,
+      "bathrooms": 2.0,
+      "total_sqft": 1165.0,
+      "suite_sqft": null,
+      "balcony_sqft": null,
+      "builtup_sqft": null,
+      "has_room_dimensions": true,
+      "has_image": true,
+      "min_confidence": 0.7
+    },
+    {
+      "unit_type": null,
+      "bedrooms": 2,
+      "bathrooms": 2.0,
+      "total_sqft": 1281.0,
+      "suite_sqft": null,
+      "balcony_sqft": null,
+      "builtup_sqft": null,
+      "has_room_dimensions": true,
+      "has_image": true,
+      "min_confidence": 0.7
+    },
+    {
+      "unit_type": null,
+      "bedrooms": 3,
+      "bathrooms": 4.0,
+      "total_sqft": 1162.0,
+      "suite_sqft": null,
+      "balcony_sqft": null,
+      "builtup_sqft": null,
+      "has_room_dimensions": true,
+      "has_image": true,
+      "min_confidence": 0.7
+    }
+  ],
+  "total_unique_plans": 9,
+  "total_unique_plans_tolerance": 1,
+  "classification": {
+    "min_floor_plan_images": 10,
+    "total_images_classified": 63
+  },
+  "tolerances": {
+    "sqft_pct": 2.0,
+    "balcony_sqft_pct": 5.0,
+    "bedrooms_exact": true,
+    "bathrooms_exact": true
+  }
+}

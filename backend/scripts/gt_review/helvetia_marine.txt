@@ -1,0 +1,248 @@
+======================================================================
+  GROUND TRUTH REVIEW: helvetia_marine
+======================================================================
+  File: FLOOR PLANS & UNIT LAYOUTS Helvetia Marine by DHG.pdf
+  Size: 10.8 MB, 22 pages
+  Format: SD (text quality: rich)
+  Notes: 22 pages. Dimensions in text + area tables. 5 unit types.
+======================================================================
+
+INSTRUCTIONS:
+  1. Open the PDF in a viewer
+  2. For each floor plan page, verify/fill in the data below
+  3. Copy the JSON template at the bottom into the ground truth file
+
+FLOOR PLAN PAGES DETECTED: 17
+----------------------------------------------------------------------
+
+  Page 1: unit_types: ['Layouts']
+    text: Unit Layouts & Floor Plans | D U B A I  I S L A N D S
+
+  Page 2: rooms: ['living']
+    text: Helvetia Marine brings together the best of coastal and  | urban living, tailored to the needs of diverse residents  | and lifestyles. | With perfectly composed layouts and timeless design,  | each one-, two-, or three-bedroom apartment  | combines smart spatial planning, sun-ﬁlled interiors,  | and a true sens
+
+  Page 4: dimensions (1 found), sqft (2 values), sqm (2 values), bedrooms: ['1'], unit_types: ['1', '1'], rooms: ['bathroom', 'dressing', 'kitchen', 'living', 'master bedroom', 'terrace']
+    sample_dimensions: ['1800 x 2000']
+    sqft_values: [1242.92, 1579.72]
+    sqm_values: [115.47, 146.76]
+    text: 1800x2000mm | 1BHK | type 1 | No.104 | Fridge/ | Freezer | Combi | Oven | TV 55" | Toilet | Master | Bathroom | Master Bedroom | Living Room/ Kitchen | Terrace | Master | Dressing | Garden | DW | shower ledge | WM | niche | Thoughtfully designed to maximize space  | and comfort, this residence opens onto a  | generous terrace surrounded by greene
+
+  Page 5: dimensions (1 found), sqft (2 values), sqm (2 values), bedrooms: ['1'], unit_types: ['2', '2', 'with'], rooms: ['balcony', 'bathroom', 'kitchen', 'living', 'master bedroom']
+    sample_dimensions: ['2000 x 2000']
+    sqft_values: [802.88, 861.65]
+    sqm_values: [74.59, 146.76]
+    text: 2000x2000mm | 1BHK | type 2 | No.204 | Fridge/ | Freezer | Combi | Oven | TV 55" | Master Bedroom | Master | Bathroom | Toilet | Living Room/ Kitchen | Balcony | DW | WM | Niche | shower ledge | 204; 304; 404; 504; 604 | Apartment Number | Type 2 | 1-Bedroom Residence | from 802.88 sq ft to 861.65 sq ft | from 74.59 sq m to 146.76 sq m | Apartment 
+
+  Page 6: dimensions (1 found), sqft (2 values), sqm (2 values), bedrooms: ['1'], unit_types: ['3', '3', 'complemented'], rooms: ['balcony', 'bathroom', 'kitchen', 'living', 'master bedroom']
+    sample_dimensions: ['1800 x 2000']
+    sqft_values: [802.88, 861.65]
+    sqm_values: [74.59, 146.76]
+    text: 1BHK | type 3 | No.203 | 1800x2000mm | Fridge/ | Freezer | DW | Balcony | Living Room/ Kitchen | Passage | Master Bedroom | TV 55" | Combi | Oven | WM | Master | Bathroom | shower ledge | niche | ledge | 203; 303; 403; 503; 603 | Apartment Number | Type 3 | A smart layout complemented by stylish  | design — this apartment brings together  | comfort
+
+  Page 7: dimensions (2 found), sqft (2 values), sqm (2 values), bedrooms: ['2'], unit_types: ['1', '1'], rooms: ['balcony', 'bathroom', 'dining', 'kitchen', 'laundry', 'living', 'maid', 'master bedroom', 'terrace']
+    sample_dimensions: ['2000 x 2000', '1800 x 2000']
+    sqft_values: [1593.92, 1757.1]
+    sqm_values: [148.08, 163.24]
+    text: 2000x2000mm | Master Bedroom | Bedroom 01 | TV 55" | Fridge/ | Freezer | Combi | Oven | WM | Toilet | Living Room/ Kitchen | Garden | Covered | Terrace | Laundry | 2BHK | type 1 | No.01 | 1800x2000mm | Bathroom 01 | Master | Bathroom | Balcony | Maid | Bedroom | Maid | Bathroom | Passage 02 | Passage 01 | DW | Niche | MAIN LEVEL | SECOND LEVEL | Niche | Niche | 01; 05
+
+  Page 8: dimensions (2 found), sqft (2 values), sqm (2 values), bedrooms: ['2'], unit_types: ['2', '2'], rooms: ['balcony', 'bathroom', 'dressing', 'kitchen', 'living', 'master\nbedroom']
+    sample_dimensions: ['2000 x 2000', '1800 x 2000']
+    sqft_values: [1147.01, 1444.74]
+    sqm_values: [106.56, 134.22]
+    text: 2000x2000mm | 1800x2000mm | Fridge/ | Freezer | 2BHK | type 2 | No.201 | Living Room/ Kitchen | Master | Bedroom | Bedroom 1 | Master | Bathroom | Bathroom 1 | Toilet | Balcony | Passage | Niche | Master | Dressing | DW | shower ledge | niche | niche | Combi | Oven | WM | TV 55" | 101; 201; 301; 401; 501; 601; 701; 801 | Apartment Number | Type 2 | 2-Bedroom R
+
+  Page 9: dimensions (2 found), sqft (2 values), sqm (2 values), bedrooms: ['2'], unit_types: ['3', '3'], rooms: ['balcony', 'bathroom', 'kitchen', 'living', 'master\nbedroom']
+    sample_dimensions: ['1800 x 2000', '2000 x 2000']
+    sqft_values: [1147.01, 1444.74]
+    sqm_values: [106.56, 134.22]
+    text: 1800x2000mm | 2000x2000mm | 2BHK | type 3 | No.307 | Fridge/ | Freezer | Living Room/ Kitchen | Master | Bedroom | Master | Bathroom | Bedroom 1 | Bathroom 1 | Toilet | Passage | Balcony | Niche | Niche | DW | Combi | Oven | WM | niche | TV 55" | Type 3 | This well-balanced residence combines  | smart spatial planning with a sense of  | openness and ligh
+
+  Page 10: dimensions (3 found), sqft (2 values), sqm (2 values), bedrooms: ['1', '3'], unit_types: ['1', '1'], rooms: ['balcony', 'bathroom', 'kitchen', 'laundry', 'living', 'maid', 'master bedroom']
+    sample_dimensions: ['1800 x 2000', '2000 x 2000', '2000 x 2000']
+    sqft_values: [1722.24, 2090.8]
+    sqm_values: [160.0, 194.24]
+    text: 1800x2000mm | 2000x2000mm | 2000x2000mm | Bedroom 01 | Bathroom 01 | Bedroom 02 | Bathroom 02 | Master | Bathroom | Master Bedroom | 3BHK | type 1 | No.06 | Fridge/ | Freezer | Combi | Oven | TV 55" | Maid | Bedroom | Maid Bathroom | Hall | Toilet | Balcony | Niche | Niche | Niche | Niche | Living Room/ Kitchen | WM | Laundry | Niche | niche | Ledge | 06; 07 | Apartme
+
+  Page 11: sqft (1 values), sqm (1 values), bedrooms: ['1', '3', '3'], unit_types: ['2', '2'], rooms: ['bathroom', 'dressing', 'family', 'kitchen', 'living', 'maid', 'master\nbedroom', 'terrace']
+    sqft_values: [2592.18]
+    sqm_values: [240.82]
+    text: Fridge/ | Freezer | Combi | Oven | Living Room/ Kitchen | Terrace | Private | Terrace | Master | Bedroom | Master | Dressing | Master | Bathroom | Bedroom 01 | Bedroom 02 | Toilet | Maid Bedroom | Maid | Bathroom | Bathroom 01 | Passage | 3BHK | type 2 | No.103 | Garden | DW | WM | Niche | Niche | Ledge | Ledge | Niche | 103 | Apartment Number | Type 2 | This spacious 3
+
+  Page 12: sqft (2 values), sqm (2 values), bedrooms: ['1', '3', '3'], unit_types: ['3', '3'], rooms: ['balcony', 'bathroom', 'dressing', 'kitchen', 'laundry', 'living', 'master\nbedroom']
+    sqft_values: [2435.14, 2574.43]
+    sqm_values: [226.23, 239.17]
+    text: 3BHK | type 3 | No.806 | Passage | Toilet | Kitchen | Living Room | Master | Bedroom | Bedroom 01 | Bedroom 02 | Bathroom 02 | Laundry | Dressing 01 | Master | Dressing | Master | Bathroom | Bathroom 01 | Balcony | Balcony | Storage | Balcony | Fridge/ | Freezer | Combi | Oven | WM | Niche | Niche | Ledge | 706; 806 | Apartment Number | Type 3 | 3-Bedroom Residence | 
+
+  Page 14: sqft (1 values), sqm (5 values), bedrooms: ['2', '2', '2', '2', '2', '2', '2', '2', '2', '2', '2']
+    sqft_values: [1751.2]
+    sqm_values: [163.24, 149.14, 148.78, 148.08, 162.69]
+    text: GSPublisherVersion 0 0 100 100 | N | W | E | S | FLOOR PLAN | 04 / 2BR | 01 / 2BR | 2 BR duplex - lower level | GROUND FLOOR | 01 / 2BR | Units: 001 | Saleable size: 163.24 sq.m / 1757.12 sq. | 02 / 2BR | Units: 002 | Saleable size: 149.14 sq.m / 1605.67 sq. | 03 / 2BR | Units: 003 | Saleable size: 148.78 sq.m / 1601.46 sq. | 04 / 2BR | U
+
+  Page 15: sqft (1 values), sqm (5 values), bedrooms: ['2', '2', '2', '2', '2', '2', '2', '2', '2', '2', '2']
+    sqft_values: [1751.2]
+    sqm_values: [163.24, 149.14, 148.78, 148.08, 162.69]
+    text: GSPublisherVersion 0 0 100 100 | N | W | E | S | Ross Plemya | FLOOR PLAN | 04 / 2BR | 01 / 2BR | 2 BR duplex - upper level | PODIUM 1 | 01 / 2BR | Units: 001 | Saleable size: 163.24 sq.m / 1757.12 sq. | 02 / 2BR | Units: 002 | Saleable size: 149.14 sq.m / 1605.67 sq. | 03 / 2BR | Units: 003 | Saleable size: 148.78 sq.m / 1601.46 sq. | 04
+
+  Page 16: sqm (2 values), bedrooms: ['3', '3', '3', '3', '3']
+    sqm_values: [194.24, 194.24]
+    text: GSPublisherVersion 0.0.100.100 | N | W | E | S | FLOOR PLAN | 06 / 3BR | 3 BR | PODIUM 2 | 06 / 3BR | Units: 006 | Saleable size: 194.24 sq.m / 2090.80 sq.f | 07 / 3BR | Units: 007 | Saleable size: 194.24 sq.m / 2090.80 sq.f | STREETFRONT | Dubai Airport | Shopping Mall | Burj Khalifa | AMENITIES  | & GARDEN | COMMUNITY | Marina & Beach | COMMU
+
+  Page 17: sqm (4 values), bedrooms: ['3', '1', '1', '1', '2', '2', '2', '3', '3', '1', '1']
+    sqm_values: [115.47, 146.76, 170.74, 240.82]
+    text: GSPublisherVersion 0.0.100.100 | N | W | E | S | FLOOR PLAN | 03 / 3BR | 1 BR | FIRST FLOOR | 02 / 1BR | Units: 102 | Saleable size: 115.47 sq.m / 1242.92 sq.f | 04 / 1BR | Units: 104 | Saleable size: 146.76 sq.m / 1579.72 sq.f | STREETFRONT | Dubai Airport | Shopping Mall | Burj Khalifa | AMENITIES  | & GARDEN | COMMUNITY | Marina & Beach | CO
+
+  Page 18: sqm (8 values), bedrooms: ['1', '1', '1', '1', '2', '2', '1', '2', '1', '1', '1', '1', '2', '2', '2', '2', '2', '2']
+    sqm_values: [74.59, 78.76, 80.05, 76.45, 112.13, 107.01, 106.56, 117.69]
+    text: GSPublisherVersion 0.0.100.100 | N | W | E | S | FLOOR PLAN | 05 / 1BR | 04 / 1BR | 03 / 1BR | 02 / 1BR | 06 / 2BR | 01 / 2BR | 1 BR | 2 BR | FLOORS 2, 3, 4, 5 & 6 | 02 / 1BR | Units: 202,302,402,502,602 | Saleable size: 74.59 sq.m / 802.89 sq.f | 03 / 1BR | Units: 203,303,403,503,603 | Saleable size: 78.76 sq.m / 847.77 sq.f | 04 / 1BR | Uni
+
+  Page 19: sqm (6 values), bedrooms: ['1', '3', '1', '2', '2', '1', '3', '1', '1', '3', '3', '3', '2', '2', '2']
+    sqm_values: [74.59, 76.45, 160.0, 226.23, 112.08, 110.01]
+    text: GSPublisherVersion 0.0.100.100 | N | W | E | S | FLOOR PLAN | 04 / 1BR | 03 / 3BR | 02 / 1BR | 05 / 2BR | 01 / 2BR | 1 BR | 3 BR | FLOORS  7 & 8 | 02 / 1BR | Units: 702, 802 | Saleable size: 74.59 sq.m / 802.89 sq.f | 04 / 1BR | Units: 704, 804 | Saleable size: 76.45 sq.m / 822.91 sq.f | 03 / 3BR | Units: 703, 803 | Saleable size: 160.00 sq.m
+
+----------------------------------------------------------------------
+SUMMARY
+----------------------------------------------------------------------
+  All sqft values found: [802.88, 861.65, 1147.01, 1242.92, 1444.74, 1579.72, 1593.92, 1722.24, 1751.2, 1757.1, 2090.8, 2435.14, 2574.43, 2592.18]
+  Unit types found: ['1', '2', '3', 'COMPLEMENTED', 'LAYOUTS', 'WITH']
+  Bedroom counts found: ['1', '2', '3']
+
+----------------------------------------------------------------------
+JSON TEMPLATE (copy into ground truth file)
+----------------------------------------------------------------------
+{
+  "brochure": "FLOOR PLANS & UNIT LAYOUTS Helvetia Marine by DHG.pdf",
+  "last_verified": "2026-02-XX",
+  "notes": "FILL IN: describe what you found",
+  "table_specs": [],
+  "table_spec_count": 0,
+  "text_assertions": {
+    "pages_with_floor_plan_text": [
+      1,
+      2,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "expected_unit_types_in_text": [
+      "1",
+      "2",
+      "3",
+      "COMPLEMENTED",
+      "LAYOUTS",
+      "WITH"
+    ],
+    "expected_area_labels_present": true
+  },
+  "floor_plans": [
+    {
+      "unit_type": "1",
+      "bedrooms": 1,
+      "bathrooms": null,
+      "total_sqft": 1579.72,
+      "suite_sqft": null,
+      "balcony_sqft": null
+    },
+    {
+      "unit_type": "2",
+      "bedrooms": 1,
+      "bathrooms": null,
+      "total_sqft": 861.65,
+      "suite_sqft": null,
+      "balcony_sqft": null
+    },
+    {
+      "unit_type": "3",
+      "bedrooms": 1,
+      "bathrooms": null,
+      "total_sqft": 861.65,
+      "suite_sqft": null,
+      "balcony_sqft": null
+    },
+    {
+      "unit_type": "1",
+      "bedrooms": null,
+      "bathrooms": null,
+      "total_sqft": 1757.1,
+      "suite_sqft": null,
+      "balcony_sqft": null
+    },
+    {
+      "unit_type": "2",
+      "bedrooms": 2,
+      "bathrooms": null,
+      "total_sqft": 1444.74,
+      "suite_sqft": null,
+      "balcony_sqft": null
+    },
+    {
+      "unit_type": "3",
+      "bedrooms": 2,
+      "bathrooms": null,
+      "total_sqft": 1444.74,
+      "suite_sqft": null,
+      "balcony_sqft": null
+    },
+    {
+      "unit_type": "1",
+      "bedrooms": 1,
+      "bathrooms": null,
+      "total_sqft": 2090.8,
+      "suite_sqft": null,
+      "balcony_sqft": null
+    },
+    {
+      "unit_type": "2",
+      "bedrooms": 1,
+      "bathrooms": null,
+      "total_sqft": 2592.18,
+      "suite_sqft": null,
+      "balcony_sqft": null
+    },
+    {
+      "unit_type": "3",
+      "bedrooms": 1,
+      "bathrooms": null,
+      "total_sqft": 2574.43,
+      "suite_sqft": null,
+      "balcony_sqft": null
+    },
+    {
+      "unit_type": null,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "total_sqft": 1751.2,
+      "suite_sqft": null,
+      "balcony_sqft": null
+    },
+    {
+      "unit_type": null,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "total_sqft": 1751.2,
+      "suite_sqft": null,
+      "balcony_sqft": null
+    }
+  ],
+  "total_unique_plans": 11,
+  "total_unique_plans_tolerance": 2,
+  "tolerances": {
+    "sqft_pct": 5.0,
+    "balcony_sqft_pct": 10.0,
+    "bedrooms_exact": true,
+    "bathrooms_exact": true
+  }
+}
+
+NOTE: The floor_plans above are INFERRED from text only. You MUST verify against the actual PDF. Plans with no text data (RD type) will be empty -- fill in manually.

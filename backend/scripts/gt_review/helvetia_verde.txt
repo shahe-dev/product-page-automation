@@ -1,0 +1,292 @@
+======================================================================
+  GROUND TRUTH REVIEW: helvetia_verde
+======================================================================
+  File: FLOOR PLANS and UNIT LAYOUTS Helvetia Verde by DHG.pdf
+  Size: 8.5 MB, 22 pages
+  Format: SD (text quality: rich)
+  Notes: 22 pages. Dimensions in text + area tables. 6 unit types.
+======================================================================
+
+INSTRUCTIONS:
+  1. Open the PDF in a viewer
+  2. For each floor plan page, verify/fill in the data below
+  3. Copy the JSON template at the bottom into the ground truth file
+
+FLOOR PLAN PAGES DETECTED: 18
+----------------------------------------------------------------------
+
+  Page 1: unit_types: ['Layouts']
+    text: Unit Layouts & Floor Plans | M E Y D A N  H O R I Z O N ,  D U B A I
+
+  Page 2: bedrooms: ['3', '3'], rooms: ['living', 'maid']
+    text: Helvetia Verde offers premium living with smart  | layouts, elegant design, and top-class amenities.  | Choose from 1-, 2-, and 3-bedroom apartments, all  | designed to maximize space and natural light. With  | only 3 to 7 residences per ﬂoor, Helvetia Verde  | combines exclusivity with a sense of community. | 
+
+  Page 4: dimensions (1 found), sqft (2 values), sqm (2 values), bedrooms: ['1'], unit_types: ['1', '1', 'designed'], rooms: ['balcony', 'bathroom', 'kitchen', 'living', 'master bedroom']
+    sample_dimensions: ['1800 x 2000']
+    sqft_values: [857.14, 922.58]
+    sqm_values: [79.63, 85.71]
+    text: 1BHK | type 1 | 1800x2000mm | Balcony | Fridge/ | Freezer | Combi | Oven | DW | TV 55" | Washing | Machine | Niche | Ledge | 1B1.01 | Living Room/ Kitchen | 1B1.03 | Master Bedroom | 1B1.04 | Bathroom 01 | 1B1.02 | Toilet | Type 1 | A smart and stylish layout designed for  | modern urban living — where comfort,  | function, and elegance meet in per
+
+  Page 5: dimensions (1 found), sqft (2 values), sqm (2 values), bedrooms: ['1'], unit_types: ['2', 'that', '2'], rooms: ['balcony', 'kitchen', 'living', 'master bedroom']
+    sample_dimensions: ['2000 x 2000']
+    sqft_values: [857.14, 922.58]
+    sqm_values: [79.63, 85.71]
+    text: Type 2 | A bright and airy one-bedroom residence  | with an intuitive layout that maximizes  | space, light, and everyday comfort. | 1-Bedroom Residence | from 857.14 sq ft to 922.58 sq ft | from 79.63 sq m to 85.71 sq m | Apartment Size | 202, 205, 302, 305, 402, 405, 502, 505, 602, | 605, 702, 705, 802, 805, 902, 9
+
+  Page 6: dimensions (1 found), sqft (2 values), sqm (2 values), bedrooms: ['1'], unit_types: ['3', '3'], rooms: ['balcony', 'bathroom', 'kitchen', 'living', 'master bedroom']
+    sample_dimensions: ['2000 x 2000']
+    sqft_values: [857.14, 922.58]
+    sqm_values: [79.63, 85.71]
+    text: Type 3 | Effortless living in a perfectly composed  | one-bedroom apartment. Ideal for both  | couples and individuals searching for a  | modern and elegant home. | 1-Bedroom Residence | from 857.14 sq ft to 922.58 sq ft | from 79.63 sq m to 85.71 sq m | 207, 307, 407, 507, 607, 707, 807, 907, 1007, | 1107, 1207, 130
+
+  Page 7: dimensions (2 found), sqft (2 values), sqm (2 values), bedrooms: ['2', '5'], unit_types: ['1'], rooms: ['balcony', 'dressing', 'kitchen', 'living']
+    sample_dimensions: ['2000 x 2000', '1800 x 2000']
+    sqft_values: [1218.59, 1365.31]
+    sqm_values: [113.21, 126.84]
+    text: Type 1 | Generous proportions and a thoughtful ﬂow  | make this two-bedroom apartment ideal for  | couples, small families, or anyone seeking  | ﬂexible, elevated living. | 2-Bedroom Residence | from 1218.59 sq ft to 1365.31 sq ft  | from 113.21 sq m to 126.84 sq m | 1304, 1404, 1504, 1604 | Apartment Number | Apartmen
+
+  Page 8: dimensions (2 found), sqft (2 values), sqm (2 values), bedrooms: ['2', '5'], unit_types: ['2', 'with', '2'], rooms: ['balcony', 'bathroom', 'dressing', 'kitchen', 'living', 'master bedroom']
+    sample_dimensions: ['1800 x 2000', '2000 x 2000']
+    sqft_values: [1218.59, 2271.31]
+    sqm_values: [113.21, 211.01]
+    text: Type 2 | Room  | to  | grow,  | style  | to  | live.  | This  | special-edition  | two-bedroom  | apartment  | features a private garden — perfect for  | enjoying a reﬁned outdoor lifestyle. | 103,  | The same suite layout with balcony | (1218.59 sq ft / 113.21 sq m): 206, 306, 406, 506, 606, | 706, 806, 906, 1006, 1106, 1206, 130
+
+  Page 9: dimensions (2 found), sqft (2 values), sqm (2 values), bedrooms: ['2', '5'], unit_types: ['3', '3'], rooms: ['balcony', 'bathroom', 'dressing', 'kitchen', 'living', 'master bedroom']
+    sample_dimensions: ['1800 x 2000', '2000 x 2000']
+    sqft_values: [1218.59, 1365.31]
+    sqm_values: [113.21, 126.84]
+    text: Type 3 | A  | spacious  | and thoughtfully  | designed  | two-bedroom apartment with contemporary  | interiors and two private balconies that invite  | light and fresh air into everyday life. | 2-Bedroom Residence | from 1218.59 sq ft to 1365.31 sq ft  | from 113.21 sq m to 126.84 sq m | 201, 301, 401, 501, 601, 701, 801
+
+  Page 10: dimensions (3 found), sqft (1 values), sqm (1 values), area_labels, bedrooms: ['3', '4', '5'], unit_types: ['1', '1'], rooms: ['balcony', 'bathroom', 'kitchen', 'laundry', 'living', 'maid', 'master bedroom']
+    sample_dimensions: ['1800 x 2000', '1800 x 2000', '2000 x 2000']
+    sqft_values: [1735.59]
+    sqm_values: [161.24]
+    area_labels: [{'label': 'Balcony', 'value': 3.0}, {'label': 'Balcony', 'value': 3.0}]
+    text: Type 1 | Expansive interiors, multiple balconies, and  | the luxury of space — these three-bedroom  | apartments are designed for those who live  | without compromise. | 3-Bedroom Residence | 1735.59 sq ft / 161.24 sq m | 1704 | Apartment Number | Apartment Size | 1800x2000mm | 1800x2000mm | WM | DM | DW | Fridge/ | Freezer | Combi | 
+
+  Page 11: dimensions (3 found), sqft (2 values), sqm (2 values), bedrooms: ['3', '4', '5'], unit_types: ['2', 'with', '2'], rooms: ['balcony', 'bathroom', 'dressing', 'kitchen', 'living', 'maid', 'master bedroom']
+    sample_dimensions: ['2000 x 2000', '1800 x 2000', '1800 x 2000']
+    sqft_values: [3090.99, 1808.0]
+    sqm_values: [287.16, 168.04]
+    text: Type 2 | 3-Bedroom Residence | 3090.99 sq ft  / 287.16  sq m | 101, 102,  | The same suite layout with balcony | (1808 sq ft / 168.04 sq m): 1702, 1703 | Apartment Number | Apartment Size | Experience luxury in a three-bedroom  | apartment with a private garden. This limited  | collection includes just three exclusive 
+
+  Page 12: dimensions (3 found), sqft (1 values), sqm (1 values), bedrooms: ['3', '5', '4'], unit_types: ['3', '3'], rooms: ['balcony', 'bathroom', 'kitchen', 'living', 'maid', 'master bedroom']
+    sample_dimensions: ['1800 x 2000', '1800 x 2000', '2000 x 2000']
+    sqft_values: [1720.49]
+    sqm_values: [159.84]
+    text: Type 3 | 3-Bedroom Residence | 1720.49 sq ft / 159.84 sq m | Apartment Size | 1701 | Apartment Number | Top-ﬂoor  | three-bedroom  | residences  | represent the pinnacle of elevated living.  | Enjoy panoramic views from sophisticated  | interiors  | marked  | by  | elegance  | and  | reﬁnement. | 3BHK | type 3 | 1800x2000mm | 1800x2000mm | 
+
+  Page 14: sqft (3 values), sqm (3 values), bedrooms: ['3', '3', '2', '2', '3', '2', '3', '3']
+    sqft_values: [2271.31, 2999.93, 3090.99]
+    sqm_values: [211.01, 278.7, 287.16]
+    text: GSPublisherVersion 0.0.100.100 | N | W | E | S | POOL | FLOOR PLAN | 02 / 3BR | 01 / 3BR | 03 / 2BR | 2 BR | 3 BR | FLOOR 1 | 03 / 2BR | Units: 103 | Saleable size: 211.01 sq.m / 2271.31 sq.ft | 01 / 3BR | Units: 101 | Saleable size: 278.70 sq.m / 2999.93 sq.ft | 02 / 3BR | Units: 102 | Saleable size: 287.16 sq.m / 3090.99 sq.ft | GARDEN | AMEN
+
+  Page 15: sqft (7 values), sqm (7 values), bedrooms: ['1', '1', '1', '1', '1', '2', '2', '1', '2', '1', '1', '1', '1', '1', '2', '2']
+    sqft_values: [903.42, 857.14, 888.68, 896.0, 885.45, 1225.16, 1218.59]
+    sqm_values: [83.93, 79.63, 82.56, 83.24, 82.26, 113.82, 113.21]
+    text: GSPublisherVersion 0.0.100.100 | N | W | E | S | DW | DW | niche | POOL | FLOOR PLAN | 05 / 1BR | 04 / 1BR | 03 / 1BR | 02 / 1BR | 07 / 1BR | 06 / 2BR | 01 / 2BR | 1 BR | 2 BR | FLOORS 2,4,6,8,10 &12 | 02 / 1BR | Units: 202, 402, 602, 802, 1002, 1202 | Saleable size: 83.93 sq.m / 903.42 sq.ft | 03 / 1BR | Units: 203, 403, 603, 803, 1003, 1203 | Sal
+
+  Page 16: sqft (7 values), sqm (7 values), bedrooms: ['1', '1', '1', '1', '1', '2', '2', '1', '2', '1', '1', '1', '1', '1', '2', '2']
+    sqft_values: [922.58, 857.14, 888.68, 916.88, 885.45, 1225.16, 1218.59]
+    sqm_values: [85.71, 79.63, 82.56, 85.18, 82.26, 113.82, 113.21]
+    text: GSPublisherVersion 0.0.100.100 | N | W | E | S | DW | DW | niche | POOL | FLOOR PLAN | 05 / 1BR | 04 / 1BR | 03 / 1BR | 02 / 1BR | 07 / 1BR | 06 / 2BR | 01 / 2BR | 1 BR | 2 BR | FLOORS 3,5,7,9 &11 | 02 / 1BR | Units: 302, 502, 702, 902, 1102 | Saleable size: 85.71 sq.m / 922.58 sq.ft | 03 / 1BR | Units: 303, 503, 703, 903, 1103 | Saleable size: 79.
+
+  Page 17: sqft (6 values), sqm (6 values), bedrooms: ['2', '2', '1', '1', '2', '2', '1', '2', '1', '1', '2', '2', '2', '2']
+    sqft_values: [922.58, 885.45, 1231.4, 1318.59, 1365.31, 1218.27]
+    sqm_values: [85.71, 82.26, 114.4, 122.5, 126.84, 113.21]
+    text: GSPublisherVersion 0.0.100.100 | N | W | E | S | niche | POOL | FLOOR PLAN | 04 / 2BR | 03 / 2BR | 02 / 1BR | 06 / 1BR | 05 / 2BR | 01 / 2BR | 1 BR | 2 BR | FLOORS 13 &15 | 02 / 1BR | Units: 1302,1502 | Saleable size: 85.71 sq.m / 922.58 sq.ft | 06 / 1BR | Units: 1306,1506 | Saleable size: 82.26 sq.m / 885.45 sq.ft | 01 / 2BR | Units: 1301,1501 | S
+
+  Page 18: sqft (6 values), sqm (6 values), bedrooms: ['2', '2', '1', '1', '2', '2', '1', '2', '1', '1', '2', '2', '2', '2']
+    sqft_values: [903.42, 885.45, 1231.4, 1310.2, 1340.55, 1218.27]
+    sqm_values: [83.93, 82.26, 114.4, 121.72, 124.54, 113.18]
+    text: GSPublisherVersion 0.0.100.100 | N | W | E | S | niche | POOL | FLOOR PLAN | 04 / 2BR | 03 / 2BR | 02 / 1BR | 06 / 1BR | 05 / 2BR | 01 / 2BR | 1 BR | 2 BR | FLOORS 14 &16 | 02 / 1BR | Units: 1402,1602 | Saleable size: 83.93 sq.m / 903.42 sq.ft | 06 / 1BR | Units: 1406,1606 | Saleable size: 82.26 sq.m / 885.45 sq.ft | 01 / 2BR | Units: 1401,1601 | S
+
+  Page 19: sqft (4 values), sqm (4 values), bedrooms: ['3', '3', '3', '3', '3', '3', '3', '3', '3']
+    sqft_values: [1716.53, 1820.84, 1837.52, 1735.59]
+    sqm_values: [159.47, 169.16, 170.71, 161.24]
+    text: GSPublisherVersion 0.0.100.100 | N | W | E | S | POOL | FLOOR PLAN | 01 / 3BR | 3 BR | FLOOR 17 | 01 / 3BR | Units: 1701 | Saleable size: 159.47 sq.m / 1716.53 sq.ft | 02 / 3BR | Units: 1702 | Saleable size: 169.16 sq.m / 1820.84 sq.ft | 03 / 3BR | Units: 1703 | Saleable size: 170.71 sq.m / 1837.52 sq.ft | 04 / 3BR | Units: 1702 | Saleable 
+
+  Page 21: rooms: ['living']
+    text: 4 | 3 | 4 | 1 | 8 | 2 | 5 | 6 | 7 | Designed for modern living, our reﬁned amenities  | create opportunities for relaxation, connection, and  | movement — ﬁlling each day with purpose and  | pleasure. | Besides amenities on the 1st ﬂoor, the ground ﬂoor  | features: |       Retail space |       Lobby with concierge & 24h CCTV | Livi
+
+----------------------------------------------------------------------
+SUMMARY
+----------------------------------------------------------------------
+  All sqft values found: [857.14, 885.45, 888.68, 896.0, 903.42, 916.88, 922.58, 1218.27, 1218.59, 1225.16, 1231.4, 1310.2, 1318.59, 1340.55, 1365.31, 1716.53, 1720.49, 1735.59, 1808.0, 1820.84, 1837.52, 2271.31, 2999.93, 3090.99]
+  Unit types found: ['1', '2', '3', 'DESIGNED', 'LAYOUTS', 'THAT', 'WITH']
+  Bedroom counts found: ['1', '2', '3', '4', '5']
+
+----------------------------------------------------------------------
+JSON TEMPLATE (copy into ground truth file)
+----------------------------------------------------------------------
+{
+  "brochure": "FLOOR PLANS and UNIT LAYOUTS Helvetia Verde by DHG.pdf",
+  "last_verified": "2026-02-XX",
+  "notes": "FILL IN: describe what you found",
+  "table_specs": [],
+  "table_spec_count": 0,
+  "text_assertions": {
+    "pages_with_floor_plan_text": [
+      1,
+      2,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      21
+    ],
+    "expected_unit_types_in_text": [
+      "1",
+      "2",
+      "3",
+      "DESIGNED",
+      "LAYOUTS",
+      "THAT",
+      "WITH"
+    ],
+    "expected_area_labels_present": true
+  },
+  "floor_plans": [
+    {
+      "unit_type": "1",
+      "bedrooms": 1,
+      "bathrooms": null,
+      "total_sqft": 922.58,
+      "suite_sqft": null,
+      "balcony_sqft": null
+    },
+    {
+      "unit_type": "2",
+      "bedrooms": 1,
+      "bathrooms": null,
+      "total_sqft": 922.58,
+      "suite_sqft": null,
+      "balcony_sqft": null
+    },
+    {
+      "unit_type": "3",
+      "bedrooms": 1,
+      "bathrooms": null,
+      "total_sqft": 922.58,
+      "suite_sqft": null,
+      "balcony_sqft": null
+    },
+    {
+      "unit_type": "1",
+      "bedrooms": 2,
+      "bathrooms": null,
+      "total_sqft": 1365.31,
+      "suite_sqft": null,
+      "balcony_sqft": null
+    },
+    {
+      "unit_type": "2",
+      "bedrooms": 2,
+      "bathrooms": null,
+      "total_sqft": 2271.31,
+      "suite_sqft": null,
+      "balcony_sqft": null
+    },
+    {
+      "unit_type": "3",
+      "bedrooms": 2,
+      "bathrooms": null,
+      "total_sqft": 1365.31,
+      "suite_sqft": null,
+      "balcony_sqft": null
+    },
+    {
+      "unit_type": "1",
+      "bedrooms": 3,
+      "bathrooms": null,
+      "total_sqft": 1735.59,
+      "suite_sqft": null,
+      "balcony_sqft": 3.0
+    },
+    {
+      "unit_type": "2",
+      "bedrooms": 3,
+      "bathrooms": null,
+      "total_sqft": 3090.99,
+      "suite_sqft": null,
+      "balcony_sqft": null
+    },
+    {
+      "unit_type": "3",
+      "bedrooms": 3,
+      "bathrooms": null,
+      "total_sqft": 1720.49,
+      "suite_sqft": null,
+      "balcony_sqft": null
+    },
+    {
+      "unit_type": null,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "total_sqft": 3090.99,
+      "suite_sqft": null,
+      "balcony_sqft": null
+    },
+    {
+      "unit_type": null,
+      "bedrooms": 1,
+      "bathrooms": null,
+      "total_sqft": 1225.16,
+      "suite_sqft": null,
+      "balcony_sqft": null
+    },
+    {
+      "unit_type": null,
+      "bedrooms": 1,
+      "bathrooms": null,
+      "total_sqft": 1225.16,
+      "suite_sqft": null,
+      "balcony_sqft": null
+    },
+    {
+      "unit_type": null,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "total_sqft": 1365.31,
+      "suite_sqft": null,
+      "balcony_sqft": null
+    },
+    {
+      "unit_type": null,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "total_sqft": 1340.55,
+      "suite_sqft": null,
+      "balcony_sqft": null
+    },
+    {
+      "unit_type": null,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "total_sqft": 1837.52,
+      "suite_sqft": null,
+      "balcony_sqft": null
+    }
+  ],
+  "total_unique_plans": 15,
+  "total_unique_plans_tolerance": 2,
+  "tolerances": {
+    "sqft_pct": 5.0,
+    "balcony_sqft_pct": 10.0,
+    "bedrooms_exact": true,
+    "bathrooms_exact": true
+  }
+}
+
+NOTE: The floor_plans above are INFERRED from text only. You MUST verify against the actual PDF. Plans with no text data (RD type) will be empty -- fill in manually.

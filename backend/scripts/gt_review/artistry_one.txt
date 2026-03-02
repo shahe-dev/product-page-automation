@@ -1,0 +1,190 @@
+======================================================================
+  GROUND TRUTH REVIEW: artistry_one
+======================================================================
+  File: Artistry One Residences.pdf
+  Size: 19.1 MB, 48 pages
+  Format: RD (text quality: poor)
+  Notes: Mostly marketing. Key plan pages (33-45) show unit labels but no dimensions. Some area labels on penthouse pages.
+======================================================================
+
+INSTRUCTIONS:
+  1. Open the PDF in a viewer
+  2. For each floor plan page, verify/fill in the data below
+  3. Copy the JSON template at the bottom into the ground truth file
+
+FLOOR PLAN PAGES DETECTED: 20
+----------------------------------------------------------------------
+
+  Page 2: rooms: ['living']
+    text: Living as an | art form | Gracefully rising in the heart of Dubai Design  | District, Artistry One Residences embodies  | a rare harmony between creative vitality  | and serene residential living. Designed with  | purpose, each space is meticulously composed  | to balance light, form and movement. | Thoughtfully cr
+
+  Page 6: bedrooms: [''], rooms: ['dining', 'family', 'office']
+    text: CREEKSIDE | LAB | NEST | SOHO | DESIGN HQ | The Lab serves as a hub for creativity,  | where galleries, studios, and artist  | lofts foster experimentation and  | collaboration, building the next era of  | design and innovation. | A sanctuary of wellbeing and balance,  | amid lush greenery and tranquil  | landscapes, featu
+
+  Page 9: rooms: ['living']
+    text: A living composition | the residences
+
+  Page 10: rooms: ['living']
+    text: A sculptural expression of light and  | transparency, Artistry One Residences  | transforms panoramic views into living  | moments, blurring the boundary between  | home and horizon. | Rising 36 storeys above the city, every  | residence is thoughtfully composed,  | balancing proportion and flow to create  | spaces
+
+  Page 13: rooms: ['living']
+    text: The tower comprises one-, two- and three- | bedroom residences, along with four- | bedroom duplex penthouses, radiating  | harmony and balance in every detail. | Defined by purposeful lines and refined  | geometry, the architecture frames a  | panorama of the city’s most iconic  | landmarks: the Burj Khalifa, the
+
+  Page 17: sqft (3 values), unit_types: ['SIZES']
+    sqft_values: [765.0, 1702.0, 1988.0]
+    text: UNIT SIZES RANGE  | One-bedroom  | Two-bedroom | Three-bedroom | 741 - 765 sq. ft. | 909 - 1,702 sq. ft. | 1,964 - 1,988 sq. ft.
+
+  Page 19: sqft (1 values), rooms: ['living']
+    sqft_values: [7765.0]
+    text: Located on the top levels, the duplex  | penthouses range from 4,638 to 7,765 sq. ft.,  | and open onto generous terraces with  | private plunge pools, dual access points, and  | uninterrupted views across the city skyline. | Among them, two signature residences elevate  | the experience even further, featuring
+
+  Page 27: rooms: ['living']
+    text: The amenities at Artistry One Residences  | are meticulously crafted to enrich daily life  | with balance and sophistication, seamlessly  | integrating wellness and leisure spaces  | throughout. | A selection of social spaces, including a  | resident’s lounge, co-working area, and  | multipurpose room, is nestled
+
+  Page 28: bedrooms: [''], rooms: ['family']
+    text: On the first floor, residents can unwind  | on a sun lounge beside the pool, with  | unobstructed views of the city skyline, or  | cherish family moments at the dedicated  | leisure area.  | Crowning the lifestyle offering, the 21st- | floor infinity lap pool frames sweeping  | city views, while a dedicated fitne
+
+  Page 29: rooms: ['family']
+    text: RETAIL 5 | RETAIL 2 | RETAIL 3 | RETAIL 4 | RETAIL 1 | DROP-OFF | LIFT LOBBY | MALE | TOILET | FEMALE | TOILET | SERVICE | BAY | TO GROUND | TO BASEMENT 01 | PLOT BOUNDARY | 1 | 2 | 3 | 4 | 5 | 6 | GROUND FLOOR | Amenities Key Plan | Drawings are provided by our consultants. All dimensions, features and amenities are approximate at time of printi
+
+  Page 33: area_labels, bedrooms: [''], rooms: ['terrace']
+    area_labels: [{'label': 'TERRACE', 'value': 9.0}]
+    text: M E P | M E P | C O R R I D O R | C O R R I D O R | L I F T  L O B B Y | LEVEL 21 | Amenities Key Plan | Drawings are provided by our consultants. All dimensions, features and amenities are approximate at time of printing. Actual size may vary from stated area. Drawings not  | to scale E & OE. The developer reserve
+
+  Page 37: bedrooms: ['2', '1', '2', '2', '2', '1', '2'], unit_types: ['D', '104', 'A', '105', 'A'], rooms: ['maid']
+    text: LEVEL 1  | Key Plan  | Drawings are provided by our consultants. All dimensions, features and amenities are approximate at time of printing. Actual size may vary from stated area. Drawings not  | to scale E & OE. The developer reserves the right to make revisions to the floor plans and any features, mater
+
+  Page 38: bedrooms: ['2', '2', '2', '2', '2', '1', '1', '2'], unit_types: ['D', '04', 'A', '06', 'B'], rooms: ['maid']
+    text: Panoramic Canal & Burj Khalifa View | D3 Community View | LEVEL 2 -19 | Tier 1 Key Plan  | Drawings are provided by our consultants. All dimensions, features and amenities are approximate at time of printing. Actual size may vary from stated area. Drawings not  | to scale E & OE. The developer reserves the ri
+
+  Page 39: bedrooms: ['2', '2', '2', '2'], unit_types: ['C', '2006', 'B', '2007', 'B']
+    text: Panoramic Canal & Burj Khalifa View | D3 Community View | LEVEL 20  | Key Plan  | Drawings are provided by our consultants. All dimensions, features and amenities are approximate at time of printing. Actual size may vary from stated area. Drawings not  | to scale E & OE. The developer reserves the right to ma
+
+  Page 40: bedrooms: ['1', '3', '3', '3', '3', '1'], unit_types: ['B', '03', 'B', '05', 'B'], rooms: ['maid']
+    text: C O R R I D O R | C O R R I D O R | L I F T  L O B B Y | 1BED TYPE B | UNIT 03 | 3BED+MAID TYPE B | UNIT 05 | 3BED+MAID TYPE B | UNIT 06 | 3BED+MAID | TYPE A | UNIT 04 | 3BED+MAID | TYPE A | UNIT 01 | 1BED TYPE B | UNIT 02 | Panoramic Canal & Burj Khalifa View | D3 & Ras Al Khor View | Pool, Canal & SZR Skyline View | D3 Community View | LE
+
+  Page 41: bedrooms: ['4', '4'], unit_types: ['3302', '3301'], rooms: ['maid']
+    text: C O R R I D O R | C O R R I D O R | L I F T  L O B B Y | 4BED+MAID | PENTHOUSE F | UNIT 3302 | 4BED+MAID | PENTHOUSE E | UNIT 3301 | Panoramic Canal & Burj Khalifa View | LEVEL 33 PENTHOUSE | Key Plan  | Drawings are provided by our consultants. All dimensions, features and amenities are approximate at time of printing. Ac
+
+  Page 42: bedrooms: ['4', '4', '4', '4'], unit_types: ['3402', '3302', '3301', '3401'], rooms: ['maid']
+    text: C O R R I D O R | C O R R I D O R | L I F T  L O B B Y | 4BED+MAID | PENTHOUSE D | UNIT 3402 | 4BED+MAID | PENTHOUSE F | UNIT 3302 | 4BED+MAID | PENTHOUSE E | UNIT 3301 | 4BED+MAID | PENTHOUSE C | UNIT 3401 | Panoramic Canal & Burj Khalifa View | LEVEL 34 PENTHOUSE | Key Plan  | Drawings are provided by our consultants. All dimensions
+
+  Page 43: bedrooms: ['4', '4', '4', '4'], unit_types: ['3402', '3401', '3602', '3601'], rooms: ['maid']
+    text: C O R R I D O R | C O R R I D O R | L I F T  L O B B Y | 4BED+MAID | PENTHOUSE D | UNIT 3402 | 4BED+MAID | PENTHOUSE C | UNIT 3401 | 4BED+MAID | PENTHOUSE B | UNIT 3602 | 4BED+MAID | PENTHOUSE A | UNIT 3601 | Panoramic Canal & Burj Khalifa View | LEVEL35 PENTHOUSE | Key Plan  | Drawings are provided by our consultants. All dimensions,
+
+  Page 44: bedrooms: ['4', '4'], unit_types: ['3602', '3601'], rooms: ['maid']
+    text: C O R R I D O R | C O R R I D O R | L I F T  L O B B Y | 4BED+MAID | PENTHOUSE B | UNIT 3602 | 4BED+MAID | PENTHOUSE A | UNIT 3601 | Panoramic Canal & Burj Khalifa View | LEVEL 36 PENTHOUSE | Key Plan  | Drawings are provided by our consultants. All dimensions, features and amenities are approximate at time of printing. Ac
+
+  Page 45: bedrooms: ['4', '4'], unit_types: ['3602', '3601'], rooms: ['balcony', 'maid']
+    text: C O R R I D O R | C O R R I D O R | L I F T  L O B B Y | 4BED+MAID | PENTHOUSE B BALCONY | UNIT 3602 | 4BED+MAID | PENTHOUSE A BALCONY | UNIT 3601 | Panoramic Canal & Burj Khalifa View | PENTHOUSE ROOF | Key Plan  | Drawings are provided by our consultants. All dimensions, features and amenities are approximate at time of 
+
+----------------------------------------------------------------------
+SUMMARY
+----------------------------------------------------------------------
+  All sqft values found: [765.0, 1702.0, 1988.0, 7765.0]
+  Unit types found: ['01', '02', '03', '04', '05', '06', '07', '08', '102', '103', '104', '105', '106', '107', '108', '2001', '2006', '2007', '2008', '3301', '3302', '3401', '3402', '3601', '3602', 'A', 'B', 'C', 'D', 'SIZES']
+  Bedroom counts found: ['1', '2', '3', '4']
+
+----------------------------------------------------------------------
+JSON TEMPLATE (copy into ground truth file)
+----------------------------------------------------------------------
+{
+  "brochure": "Artistry One Residences.pdf",
+  "last_verified": "2026-02-XX",
+  "notes": "FILL IN: describe what you found",
+  "table_specs": [],
+  "table_spec_count": 0,
+  "text_assertions": {
+    "pages_with_floor_plan_text": [
+      2,
+      6,
+      9,
+      10,
+      13,
+      17,
+      19,
+      27,
+      28,
+      29,
+      33,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ],
+    "expected_unit_types_in_text": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06",
+      "07",
+      "08",
+      "102",
+      "103",
+      "104",
+      "105",
+      "106",
+      "107",
+      "108",
+      "2001",
+      "2006",
+      "2007",
+      "2008",
+      "3301",
+      "3302",
+      "3401",
+      "3402",
+      "3601",
+      "3602",
+      "A",
+      "B",
+      "C",
+      "D",
+      "SIZES"
+    ],
+    "expected_area_labels_present": true
+  },
+  "floor_plans": [
+    {
+      "unit_type": "SIZES",
+      "bedrooms": null,
+      "bathrooms": null,
+      "total_sqft": 1988.0,
+      "suite_sqft": null,
+      "balcony_sqft": null
+    },
+    {
+      "unit_type": null,
+      "bedrooms": null,
+      "bathrooms": null,
+      "total_sqft": 7765.0,
+      "suite_sqft": null,
+      "balcony_sqft": null
+    },
+    {
+      "unit_type": null,
+      "bedrooms": null,
+      "bathrooms": null,
+      "total_sqft": null,
+      "suite_sqft": null,
+      "balcony_sqft": 9.0
+    }
+  ],
+  "total_unique_plans": 3,
+  "total_unique_plans_tolerance": 2,
+  "tolerances": {
+    "sqft_pct": 5.0,
+    "balcony_sqft_pct": 10.0,
+    "bedrooms_exact": true,
+    "bathrooms_exact": true
+  }
+}
+
+NOTE: The floor_plans above are INFERRED from text only. You MUST verify against the actual PDF. Plans with no text data (RD type) will be empty -- fill in manually.

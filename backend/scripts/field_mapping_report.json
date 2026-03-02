@@ -1,0 +1,3352 @@
+{
+  "mpp": [
+    {
+      "row": 2,
+      "sheet_name": "Meta title:",
+      "snake_case": "meta_title",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 3,
+      "sheet_name": "Meta description:",
+      "snake_case": "meta_description",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 4,
+      "sheet_name": "Url Slug",
+      "snake_case": "url_slug",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 5,
+      "sheet_name": "Image Alt Tag",
+      "snake_case": "image_alt_tag",
+      "status": "PARTIAL: image_alt",
+      "type": "field"
+    },
+    {
+      "row": 7,
+      "sheet_name": "--- HERO SECTION ---",
+      "type": "section"
+    },
+    {
+      "row": 8,
+      "sheet_name": "H1: Project + Developer",
+      "snake_case": "h1_project_developer",
+      "status": "PARTIAL: h1",
+      "type": "field"
+    },
+    {
+      "row": 9,
+      "sheet_name": "Hero Description",
+      "snake_case": "hero_description",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 10,
+      "sheet_name": "Starting Price",
+      "snake_case": "starting_price",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 11,
+      "sheet_name": "Handover",
+      "snake_case": "handover",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 12,
+      "sheet_name": "Down Payment %",
+      "snake_case": "down_payment",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 14,
+      "sheet_name": "--- PROJECT OVERVIEW ---",
+      "type": "section"
+    },
+    {
+      "row": 15,
+      "sheet_name": "H2: Project Overview",
+      "snake_case": "h2_project_overview",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 16,
+      "sheet_name": "Overview Description",
+      "snake_case": "overview_description",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 18,
+      "sheet_name": "--- PROJECT DETAILS CARD ---",
+      "type": "section"
+    },
+    {
+      "row": 19,
+      "sheet_name": "Location",
+      "snake_case": "location",
+      "status": "PARTIAL: location_description",
+      "type": "field"
+    },
+    {
+      "row": 20,
+      "sheet_name": "Developer",
+      "snake_case": "developer",
+      "status": "PARTIAL: developer_stat_2",
+      "type": "field"
+    },
+    {
+      "row": 21,
+      "sheet_name": "Handover",
+      "snake_case": "handover",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 22,
+      "sheet_name": "Starting Price",
+      "snake_case": "starting_price",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 23,
+      "sheet_name": "Property Types",
+      "snake_case": "property_types",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 24,
+      "sheet_name": "Bedrooms",
+      "snake_case": "bedrooms",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 26,
+      "sheet_name": "--- FLOOR PLANS ---",
+      "type": "section"
+    },
+    {
+      "row": 27,
+      "sheet_name": "H2: Floor Plans",
+      "snake_case": "h2_floor_plans",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 28,
+      "sheet_name": "Floor Plan Filter Categories",
+      "snake_case": "floor_plan_filter_categories",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 30,
+      "sheet_name": "Floor Plan 1 - Bedrooms",
+      "snake_case": "floor_plan_1_bedrooms",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 31,
+      "sheet_name": "Floor Plan 1 - Starting Price",
+      "snake_case": "floor_plan_1_starting_price",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 32,
+      "sheet_name": "Floor Plan 1 - Living Area (m\u00b2)",
+      "snake_case": "floor_plan_1_living_area_m",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 34,
+      "sheet_name": "Floor Plan 2 - Bedrooms",
+      "snake_case": "floor_plan_2_bedrooms",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 35,
+      "sheet_name": "Floor Plan 2 - Starting Price",
+      "snake_case": "floor_plan_2_starting_price",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 36,
+      "sheet_name": "Floor Plan 2 - Living Area (m\u00b2)",
+      "snake_case": "floor_plan_2_living_area_m",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 38,
+      "sheet_name": "Floor Plan 3 - Bedrooms",
+      "snake_case": "floor_plan_3_bedrooms",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 39,
+      "sheet_name": "Floor Plan 3 - Starting Price",
+      "snake_case": "floor_plan_3_starting_price",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 40,
+      "sheet_name": "Floor Plan 3 - Living Area (m\u00b2)",
+      "snake_case": "floor_plan_3_living_area_m",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 42,
+      "sheet_name": "Floor Plan 4 - Bedrooms",
+      "snake_case": "floor_plan_4_bedrooms",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 43,
+      "sheet_name": "Floor Plan 4 - Starting Price",
+      "snake_case": "floor_plan_4_starting_price",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 44,
+      "sheet_name": "Floor Plan 4 - Living Area (m\u00b2)",
+      "snake_case": "floor_plan_4_living_area_m",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 46,
+      "sheet_name": "--- PAYMENT PLAN ---",
+      "type": "section"
+    },
+    {
+      "row": 47,
+      "sheet_name": "H2: Payment Plan",
+      "snake_case": "h2_payment_plan",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 48,
+      "sheet_name": "Payment Plan Description",
+      "snake_case": "payment_plan_description",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 49,
+      "sheet_name": "CTA",
+      "snake_case": "cta",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 51,
+      "sheet_name": "Payment Plan Type 1",
+      "snake_case": "payment_plan_type_1",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 52,
+      "sheet_name": "Payment Plan Type 2",
+      "snake_case": "payment_plan_type_2",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 54,
+      "sheet_name": "On Booking - Date",
+      "snake_case": "on_booking_date",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 55,
+      "sheet_name": "On Booking - Percentage",
+      "snake_case": "on_booking_percentage",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 57,
+      "sheet_name": "On Construction - Period",
+      "snake_case": "on_construction_period",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 58,
+      "sheet_name": "On Construction - Percentage",
+      "snake_case": "on_construction_percentage",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 59,
+      "sheet_name": "On Construction - Number of Payments",
+      "snake_case": "on_construction_number_of_payments",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 61,
+      "sheet_name": "On Handover - Date",
+      "snake_case": "on_handover_date",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 62,
+      "sheet_name": "On Handover - Percentage",
+      "snake_case": "on_handover_percentage",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 64,
+      "sheet_name": "--- KEY POINTS ---",
+      "type": "section"
+    },
+    {
+      "row": 65,
+      "sheet_name": "H2: Key Points",
+      "snake_case": "h2_key_points",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 67,
+      "sheet_name": "Key Point 1 - Title",
+      "snake_case": "key_point_1_title",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 68,
+      "sheet_name": "Key Point 1 - Description",
+      "snake_case": "key_point_1_description",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 69,
+      "sheet_name": "Key Point 1 - Image",
+      "snake_case": "key_point_1_image",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 71,
+      "sheet_name": "Key Point 2 - Title",
+      "snake_case": "key_point_2_title",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 72,
+      "sheet_name": "Key Point 2 - Description",
+      "snake_case": "key_point_2_description",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 73,
+      "sheet_name": "Key Point 2 - Image",
+      "snake_case": "key_point_2_image",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 75,
+      "sheet_name": "--- AMENITIES ---",
+      "type": "section"
+    },
+    {
+      "row": 76,
+      "sheet_name": "H2: Amenities",
+      "snake_case": "h2_amenities",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 77,
+      "sheet_name": "Amenities Description",
+      "snake_case": "amenities_description",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 79,
+      "sheet_name": "Amenity 1",
+      "snake_case": "amenity_1",
+      "status": "PARTIAL: amenity_1_description",
+      "type": "field"
+    },
+    {
+      "row": 80,
+      "sheet_name": "Amenity 2",
+      "snake_case": "amenity_2",
+      "status": "PARTIAL: amenity_2_description",
+      "type": "field"
+    },
+    {
+      "row": 81,
+      "sheet_name": "Amenity 3",
+      "snake_case": "amenity_3",
+      "status": "PARTIAL: amenity_3_description",
+      "type": "field"
+    },
+    {
+      "row": 82,
+      "sheet_name": "Amenity 4",
+      "snake_case": "amenity_4",
+      "status": "PARTIAL: amenity_4_description",
+      "type": "field"
+    },
+    {
+      "row": 83,
+      "sheet_name": "Amenity 5",
+      "snake_case": "amenity_5",
+      "status": "PARTIAL: amenity_5_title",
+      "type": "field"
+    },
+    {
+      "row": 84,
+      "sheet_name": "Amenity 6",
+      "snake_case": "amenity_6",
+      "status": "PARTIAL: amenity_6_description",
+      "type": "field"
+    },
+    {
+      "row": 85,
+      "sheet_name": "Amenity 7",
+      "snake_case": "amenity_7",
+      "status": "PARTIAL: amenity_7_description",
+      "type": "field"
+    },
+    {
+      "row": 86,
+      "sheet_name": "Amenity 8",
+      "snake_case": "amenity_8",
+      "status": "PARTIAL: amenity_8_title",
+      "type": "field"
+    },
+    {
+      "row": 88,
+      "sheet_name": "--- LOCATION ---",
+      "type": "section"
+    },
+    {
+      "row": 89,
+      "sheet_name": "H2: Location",
+      "snake_case": "h2_location",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 90,
+      "sheet_name": "CTA",
+      "snake_case": "cta",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 92,
+      "sheet_name": "Location Tab 1",
+      "snake_case": "location_tab_1",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 93,
+      "sheet_name": "Location Tab 2",
+      "snake_case": "location_tab_2",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 95,
+      "sheet_name": "Location Name",
+      "snake_case": "location_name",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 96,
+      "sheet_name": "Location Description",
+      "snake_case": "location_description",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 98,
+      "sheet_name": "Map Latitude",
+      "snake_case": "map_latitude",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 99,
+      "sheet_name": "Map Longitude",
+      "snake_case": "map_longitude",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 101,
+      "sheet_name": "H3: Future Developments",
+      "snake_case": "h3_future_developments",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 102,
+      "sheet_name": "Future Dev Description",
+      "snake_case": "future_dev_description",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 104,
+      "sheet_name": "--- DEVELOPER ---",
+      "type": "section"
+    },
+    {
+      "row": 105,
+      "sheet_name": "H2: About the Developer",
+      "snake_case": "h2_about_the_developer",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 107,
+      "sheet_name": "Developer Badge",
+      "snake_case": "developer_badge",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 108,
+      "sheet_name": "Developer Logo",
+      "snake_case": "developer_logo",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 109,
+      "sheet_name": "Developer Name",
+      "snake_case": "developer_name",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 110,
+      "sheet_name": "Developer Description",
+      "snake_case": "developer_description",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 112,
+      "sheet_name": "Developer Stat 1 - Value",
+      "snake_case": "developer_stat_1_value",
+      "status": "PARTIAL: developer_stat_1",
+      "type": "field"
+    },
+    {
+      "row": 113,
+      "sheet_name": "Developer Stat 1 - Label",
+      "snake_case": "developer_stat_1_label",
+      "status": "PARTIAL: developer_stat_1",
+      "type": "field"
+    },
+    {
+      "row": 114,
+      "sheet_name": "Developer Stat 2 - Value",
+      "snake_case": "developer_stat_2_value",
+      "status": "PARTIAL: developer_stat_2",
+      "type": "field"
+    },
+    {
+      "row": 115,
+      "sheet_name": "Developer Stat 2 - Label",
+      "snake_case": "developer_stat_2_label",
+      "status": "PARTIAL: developer_stat_2",
+      "type": "field"
+    },
+    {
+      "row": 116,
+      "sheet_name": "Developer Stat 3 - Value",
+      "snake_case": "developer_stat_3_value",
+      "status": "PARTIAL: developer_stat_3",
+      "type": "field"
+    },
+    {
+      "row": 117,
+      "sheet_name": "Developer Stat 3 - Label",
+      "snake_case": "developer_stat_3_label",
+      "status": "PARTIAL: developer_stat_3",
+      "type": "field"
+    },
+    {
+      "row": 119,
+      "sheet_name": "CTA",
+      "snake_case": "cta",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 121,
+      "sheet_name": "--- FAQ ---",
+      "type": "section"
+    },
+    {
+      "row": 122,
+      "sheet_name": "H2: FAQ",
+      "snake_case": "h2_faq",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 124,
+      "sheet_name": "FAQ 1 - Question",
+      "snake_case": "faq_1_question",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 125,
+      "sheet_name": "FAQ 1 - Answer",
+      "snake_case": "faq_1_answer",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 127,
+      "sheet_name": "FAQ 2 - Question",
+      "snake_case": "faq_2_question",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 128,
+      "sheet_name": "FAQ 2 - Answer",
+      "snake_case": "faq_2_answer",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 130,
+      "sheet_name": "FAQ 3 - Question",
+      "snake_case": "faq_3_question",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 131,
+      "sheet_name": "FAQ 3 - Answer",
+      "snake_case": "faq_3_answer",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 133,
+      "sheet_name": "FAQ 4 - Question",
+      "snake_case": "faq_4_question",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 134,
+      "sheet_name": "FAQ 4 - Answer",
+      "snake_case": "faq_4_answer",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 136,
+      "sheet_name": "FAQ 5 - Question",
+      "snake_case": "faq_5_question",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 137,
+      "sheet_name": "FAQ 5 - Answer",
+      "snake_case": "faq_5_answer",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 139,
+      "sheet_name": "FAQ 6 - Question",
+      "snake_case": "faq_6_question",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 140,
+      "sheet_name": "FAQ 6 - Answer",
+      "snake_case": "faq_6_answer",
+      "status": "UNMATCHED",
+      "type": "field"
+    }
+  ],
+  "aggregators": [
+    {
+      "row": 3,
+      "sheet_name": "--- SEO ---",
+      "type": "section"
+    },
+    {
+      "row": 4,
+      "sheet_name": "Meta Title",
+      "snake_case": "meta_title",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 5,
+      "sheet_name": "Meta Description",
+      "snake_case": "meta_description",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 6,
+      "sheet_name": "URL Slug",
+      "snake_case": "url_slug",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 7,
+      "sheet_name": "Image Alt Tag",
+      "snake_case": "image_alt_tag",
+      "status": "PARTIAL: image_alt",
+      "type": "field"
+    },
+    {
+      "row": 9,
+      "sheet_name": "--- HERO ---",
+      "type": "section"
+    },
+    {
+      "row": 10,
+      "sheet_name": "H1",
+      "snake_case": "h1",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 11,
+      "sheet_name": "Hero Description",
+      "snake_case": "hero_description",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 12,
+      "sheet_name": "Starting Price",
+      "snake_case": "starting_price",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 13,
+      "sheet_name": "Payment Plan",
+      "snake_case": "payment_plan",
+      "status": "PARTIAL: payment_plan_h2",
+      "type": "field"
+    },
+    {
+      "row": 14,
+      "sheet_name": "Handover",
+      "snake_case": "handover",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 15,
+      "sheet_name": "CTA Button",
+      "snake_case": "cta_button",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 17,
+      "sheet_name": "--- ABOUT ---",
+      "type": "section"
+    },
+    {
+      "row": 18,
+      "sheet_name": "About H2",
+      "snake_case": "about_h2",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 19,
+      "sheet_name": "About Description",
+      "snake_case": "about_description",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 20,
+      "sheet_name": "Selling Point 1",
+      "snake_case": "selling_point_1",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 21,
+      "sheet_name": "Selling Point 2",
+      "snake_case": "selling_point_2",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 22,
+      "sheet_name": "Selling Point 3",
+      "snake_case": "selling_point_3",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 23,
+      "sheet_name": "Selling Point 4",
+      "snake_case": "selling_point_4",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 24,
+      "sheet_name": "Selling Point 5",
+      "snake_case": "selling_point_5",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 26,
+      "sheet_name": "--- PROJECT DETAILS ---",
+      "type": "section"
+    },
+    {
+      "row": 27,
+      "sheet_name": "Developer",
+      "snake_case": "developer",
+      "status": "PARTIAL: developer_h2",
+      "type": "field"
+    },
+    {
+      "row": 28,
+      "sheet_name": "Location",
+      "snake_case": "location",
+      "status": "PARTIAL: location_description",
+      "type": "field"
+    },
+    {
+      "row": 29,
+      "sheet_name": "Property Types",
+      "snake_case": "property_types",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 30,
+      "sheet_name": "Bedrooms",
+      "snake_case": "bedrooms",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 31,
+      "sheet_name": "Starting Price",
+      "snake_case": "starting_price",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 32,
+      "sheet_name": "Handover",
+      "snake_case": "handover",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 33,
+      "sheet_name": "Payment Plan",
+      "snake_case": "payment_plan",
+      "status": "PARTIAL: payment_plan_h2",
+      "type": "field"
+    },
+    {
+      "row": 35,
+      "sheet_name": "--- AMENITIES ---",
+      "type": "section"
+    },
+    {
+      "row": 36,
+      "sheet_name": "Amenities H2",
+      "snake_case": "amenities_h2",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 37,
+      "sheet_name": "Amenity 1 Title",
+      "snake_case": "amenity_1_title",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 38,
+      "sheet_name": "Amenity 1 Description",
+      "snake_case": "amenity_1_description",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 39,
+      "sheet_name": "Amenity 2 Title",
+      "snake_case": "amenity_2_title",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 40,
+      "sheet_name": "Amenity 2 Description",
+      "snake_case": "amenity_2_description",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 41,
+      "sheet_name": "Amenity 3 Title",
+      "snake_case": "amenity_3_title",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 42,
+      "sheet_name": "Amenity 3 Description",
+      "snake_case": "amenity_3_description",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 43,
+      "sheet_name": "Amenity 4 Title",
+      "snake_case": "amenity_4_title",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 44,
+      "sheet_name": "Amenity 4 Description",
+      "snake_case": "amenity_4_description",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 45,
+      "sheet_name": "Amenity 5 Title",
+      "snake_case": "amenity_5_title",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 46,
+      "sheet_name": "Amenity 5 Description",
+      "snake_case": "amenity_5_description",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 48,
+      "sheet_name": "--- PAYMENT PLAN ---",
+      "type": "section"
+    },
+    {
+      "row": 49,
+      "sheet_name": "Payment H2",
+      "snake_case": "payment_h2",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 50,
+      "sheet_name": "Payment Description",
+      "snake_case": "payment_description",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 51,
+      "sheet_name": "Milestone 1 - Name",
+      "snake_case": "milestone_1_name",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 52,
+      "sheet_name": "Milestone 1 - Percentage",
+      "snake_case": "milestone_1_percentage",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 53,
+      "sheet_name": "Milestone 1 - Date",
+      "snake_case": "milestone_1_date",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 54,
+      "sheet_name": "Milestone 2 - Name",
+      "snake_case": "milestone_2_name",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 55,
+      "sheet_name": "Milestone 2 - Percentage",
+      "snake_case": "milestone_2_percentage",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 56,
+      "sheet_name": "Milestone 2 - Schedule",
+      "snake_case": "milestone_2_schedule",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 57,
+      "sheet_name": "Milestone 3 - Name",
+      "snake_case": "milestone_3_name",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 58,
+      "sheet_name": "Milestone 3 - Percentage",
+      "snake_case": "milestone_3_percentage",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 59,
+      "sheet_name": "Milestone 3 - Date",
+      "snake_case": "milestone_3_date",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 60,
+      "sheet_name": "CTA Button",
+      "snake_case": "cta_button",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 62,
+      "sheet_name": "--- LOCATION ---",
+      "type": "section"
+    },
+    {
+      "row": 63,
+      "sheet_name": "Location H2",
+      "snake_case": "location_h2",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 64,
+      "sheet_name": "Location Description",
+      "snake_case": "location_description",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 65,
+      "sheet_name": "Nearby 1 - Name",
+      "snake_case": "nearby_1_name",
+      "status": "PARTIAL: nearby_1",
+      "type": "field"
+    },
+    {
+      "row": 66,
+      "sheet_name": "Nearby 1 - Distance",
+      "snake_case": "nearby_1_distance",
+      "status": "PARTIAL: nearby_1",
+      "type": "field"
+    },
+    {
+      "row": 67,
+      "sheet_name": "Nearby 2 - Name",
+      "snake_case": "nearby_2_name",
+      "status": "PARTIAL: nearby_2",
+      "type": "field"
+    },
+    {
+      "row": 68,
+      "sheet_name": "Nearby 2 - Distance",
+      "snake_case": "nearby_2_distance",
+      "status": "PARTIAL: nearby_2",
+      "type": "field"
+    },
+    {
+      "row": 69,
+      "sheet_name": "Nearby 3 - Name",
+      "snake_case": "nearby_3_name",
+      "status": "PARTIAL: nearby_3",
+      "type": "field"
+    },
+    {
+      "row": 70,
+      "sheet_name": "Nearby 3 - Distance",
+      "snake_case": "nearby_3_distance",
+      "status": "PARTIAL: nearby_3",
+      "type": "field"
+    },
+    {
+      "row": 71,
+      "sheet_name": "Nearby 4 - Name",
+      "snake_case": "nearby_4_name",
+      "status": "PARTIAL: nearby_4",
+      "type": "field"
+    },
+    {
+      "row": 72,
+      "sheet_name": "Nearby 4 - Distance",
+      "snake_case": "nearby_4_distance",
+      "status": "PARTIAL: nearby_4",
+      "type": "field"
+    },
+    {
+      "row": 74,
+      "sheet_name": "--- DEVELOPER ---",
+      "type": "section"
+    },
+    {
+      "row": 75,
+      "sheet_name": "Developer H2",
+      "snake_case": "developer_h2",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 76,
+      "sheet_name": "Developer Description",
+      "snake_case": "developer_description",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 78,
+      "sheet_name": "--- FLOOR PLANS ---",
+      "type": "section"
+    },
+    {
+      "row": 79,
+      "sheet_name": "Floor Plans H2",
+      "snake_case": "floor_plans_h2",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 80,
+      "sheet_name": "Unit Type 1 - Name",
+      "snake_case": "unit_type_1_name",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 81,
+      "sheet_name": "Unit Type 1 - Area",
+      "snake_case": "unit_type_1_area",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 82,
+      "sheet_name": "Unit Type 1 - Price",
+      "snake_case": "unit_type_1_price",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 83,
+      "sheet_name": "Unit Type 2 - Name",
+      "snake_case": "unit_type_2_name",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 84,
+      "sheet_name": "Unit Type 2 - Area",
+      "snake_case": "unit_type_2_area",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 85,
+      "sheet_name": "Unit Type 2 - Price",
+      "snake_case": "unit_type_2_price",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 86,
+      "sheet_name": "Unit Type 3 - Name",
+      "snake_case": "unit_type_3_name",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 87,
+      "sheet_name": "Unit Type 3 - Area",
+      "snake_case": "unit_type_3_area",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 88,
+      "sheet_name": "Unit Type 3 - Price",
+      "snake_case": "unit_type_3_price",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 89,
+      "sheet_name": "Unit Type 4 - Name",
+      "snake_case": "unit_type_4_name",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 90,
+      "sheet_name": "Unit Type 4 - Area",
+      "snake_case": "unit_type_4_area",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 91,
+      "sheet_name": "Unit Type 4 - Price",
+      "snake_case": "unit_type_4_price",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 92,
+      "sheet_name": "CTA Button",
+      "snake_case": "cta_button",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 94,
+      "sheet_name": "--- FAQ ---",
+      "type": "section"
+    },
+    {
+      "row": 95,
+      "sheet_name": "FAQ H2",
+      "snake_case": "faq_h2",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 96,
+      "sheet_name": "FAQ 1 - Question",
+      "snake_case": "faq_1_question",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 97,
+      "sheet_name": "FAQ 1 - Answer",
+      "snake_case": "faq_1_answer",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 98,
+      "sheet_name": "FAQ 2 - Question",
+      "snake_case": "faq_2_question",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 99,
+      "sheet_name": "FAQ 2 - Answer",
+      "snake_case": "faq_2_answer",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 100,
+      "sheet_name": "FAQ 3 - Question",
+      "snake_case": "faq_3_question",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 101,
+      "sheet_name": "FAQ 3 - Answer",
+      "snake_case": "faq_3_answer",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 102,
+      "sheet_name": "FAQ 4 - Question",
+      "snake_case": "faq_4_question",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 103,
+      "sheet_name": "FAQ 4 - Answer",
+      "snake_case": "faq_4_answer",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 104,
+      "sheet_name": "FAQ 5 - Question",
+      "snake_case": "faq_5_question",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 105,
+      "sheet_name": "FAQ 5 - Answer",
+      "snake_case": "faq_5_answer",
+      "status": "MATCH",
+      "type": "field"
+    }
+  ],
+  "adop": [
+    {
+      "row": 2,
+      "sheet_name": "URL Slug",
+      "snake_case": "url_slug",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 4,
+      "sheet_name": "Meta Title",
+      "snake_case": "meta_title",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 6,
+      "sheet_name": "Meta Description",
+      "snake_case": "meta_description",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 8,
+      "sheet_name": "Image Alt Tag",
+      "snake_case": "image_alt_tag",
+      "status": "PARTIAL: image_alt",
+      "type": "field"
+    },
+    {
+      "row": 10,
+      "sheet_name": "--- HERO ---",
+      "type": "section"
+    },
+    {
+      "row": 11,
+      "sheet_name": "Hero H1",
+      "snake_case": "hero_h1",
+      "status": "PARTIAL: h1",
+      "type": "field"
+    },
+    {
+      "row": 13,
+      "sheet_name": "Starting Price",
+      "snake_case": "starting_price",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 15,
+      "sheet_name": "Handover",
+      "snake_case": "handover",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 17,
+      "sheet_name": "--- ABOUT PROJECT ---",
+      "type": "section"
+    },
+    {
+      "row": 18,
+      "sheet_name": "About Project H2",
+      "snake_case": "about_project_h2",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 20,
+      "sheet_name": "About Paragraph 1",
+      "snake_case": "about_paragraph_1",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 22,
+      "sheet_name": "About Paragraph 2",
+      "snake_case": "about_paragraph_2",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 24,
+      "sheet_name": "About Paragraph 3",
+      "snake_case": "about_paragraph_3",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 26,
+      "sheet_name": "--- KEY BENEFITS ---",
+      "type": "section"
+    },
+    {
+      "row": 27,
+      "sheet_name": "Key Benefits H2",
+      "snake_case": "key_benefits_h2",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 28,
+      "sheet_name": "Key Benefits Paragraph 1",
+      "snake_case": "key_benefits_paragraph_1",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 31,
+      "sheet_name": "Key Benefits Paragraph 2",
+      "snake_case": "key_benefits_paragraph_2",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 33,
+      "sheet_name": "--- AREA INFRASTRUCTURE ---",
+      "type": "section"
+    },
+    {
+      "row": 34,
+      "sheet_name": "H2",
+      "snake_case": "h2",
+      "status": "PARTIAL: key_benefits_h2",
+      "type": "field"
+    },
+    {
+      "row": 36,
+      "sheet_name": "Infrastructure Paragraph 1",
+      "snake_case": "infrastructure_paragraph_1",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 38,
+      "sheet_name": "Infrastructure Paragraph 2",
+      "snake_case": "infrastructure_paragraph_2",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 40,
+      "sheet_name": "Infrastructure Paragraph 3",
+      "snake_case": "infrastructure_paragraph_3",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 42,
+      "sheet_name": "--- INVESTMENT (Previously Economic Appeal) ---",
+      "type": "section"
+    },
+    {
+      "row": 43,
+      "sheet_name": "Investment (Previously Economic Appeal) H2",
+      "snake_case": "investment_previously_economic_appeal_h2",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 45,
+      "sheet_name": "Investment (Previously Economic Appeal) Text 1",
+      "snake_case": "investment_previously_economic_appeal_text_1",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 47,
+      "sheet_name": "Investment (Previously Economic Appeal) Text 2",
+      "snake_case": "investment_previously_economic_appeal_text_2",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 49,
+      "sheet_name": "Investment (Previously Economic Appeal) Text 3",
+      "snake_case": "investment_previously_economic_appeal_text_3",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 50,
+      "sheet_name": "--- DEVELOPER ---",
+      "type": "section"
+    },
+    {
+      "row": 51,
+      "sheet_name": "Developer H2",
+      "snake_case": "developer_h2",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 53,
+      "sheet_name": "Developer Description",
+      "snake_case": "developer_description",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 55,
+      "sheet_name": "--- FAQ ---",
+      "type": "section"
+    },
+    {
+      "row": 56,
+      "sheet_name": "Faq H2",
+      "snake_case": "faq_h2",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 58,
+      "sheet_name": "FAQ 1 - Question",
+      "snake_case": "faq_1_question",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 59,
+      "sheet_name": "FAQ 1 - Answer",
+      "snake_case": "faq_1_answer",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 61,
+      "sheet_name": "FAQ 2 - Question",
+      "snake_case": "faq_2_question",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 62,
+      "sheet_name": "FAQ 2 - Answer",
+      "snake_case": "faq_2_answer",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 64,
+      "sheet_name": "FAQ 3 - Question",
+      "snake_case": "faq_3_question",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 65,
+      "sheet_name": "FAQ 3 - Answer",
+      "snake_case": "faq_3_answer",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 67,
+      "sheet_name": "FAQ 4 - Question",
+      "snake_case": "faq_4_question",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 68,
+      "sheet_name": "FAQ 4 - Answer",
+      "snake_case": "faq_4_answer",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 70,
+      "sheet_name": "FAQ 5 - Question",
+      "snake_case": "faq_5_question",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 71,
+      "sheet_name": "FAQ 5 - Answer",
+      "snake_case": "faq_5_answer",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 73,
+      "sheet_name": "FAQ 6 - Question",
+      "snake_case": "faq_6_question",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 74,
+      "sheet_name": "FAQ 6 - Answer",
+      "snake_case": "faq_6_answer",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 76,
+      "sheet_name": "FAQ 7 - Question",
+      "snake_case": "faq_7_question",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 77,
+      "sheet_name": "FAQ 7 - Answer",
+      "snake_case": "faq_7_answer",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 79,
+      "sheet_name": "FAQ 8 - Question",
+      "snake_case": "faq_8_question",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 80,
+      "sheet_name": "FAQ 8 - Answer",
+      "snake_case": "faq_8_answer",
+      "status": "MATCH",
+      "type": "field"
+    }
+  ],
+  "commercial": [
+    {
+      "row": 3,
+      "sheet_name": "--- SEO ---",
+      "type": "section"
+    },
+    {
+      "row": 4,
+      "sheet_name": "Meta Title",
+      "snake_case": "meta_title",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 5,
+      "sheet_name": "Meta Description",
+      "snake_case": "meta_description",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 6,
+      "sheet_name": "URL Slug",
+      "snake_case": "url_slug",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 8,
+      "sheet_name": "--- Hero ---",
+      "type": "section"
+    },
+    {
+      "row": 9,
+      "sheet_name": "H1",
+      "snake_case": "h1",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 10,
+      "sheet_name": "Hero Description",
+      "snake_case": "hero_description",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 11,
+      "sheet_name": "Feature 1 - Title",
+      "snake_case": "feature_1_title",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 12,
+      "sheet_name": "Feature 1 - Description",
+      "snake_case": "feature_1_description",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 13,
+      "sheet_name": "Feature 2 - Title",
+      "snake_case": "feature_2_title",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 14,
+      "sheet_name": "Feature 2 - Description",
+      "snake_case": "feature_2_description",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 15,
+      "sheet_name": "Feature 3 - Title",
+      "snake_case": "feature_3_title",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 16,
+      "sheet_name": "Feature 3 - Description",
+      "snake_case": "feature_3_description",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 18,
+      "sheet_name": "--- About Area ---",
+      "type": "section"
+    },
+    {
+      "row": 19,
+      "sheet_name": "About Area H2",
+      "snake_case": "about_area_h2",
+      "status": "PARTIAL: area_h2",
+      "type": "field"
+    },
+    {
+      "row": 20,
+      "sheet_name": "About Area H3",
+      "snake_case": "about_area_h3",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 21,
+      "sheet_name": "About Description",
+      "snake_case": "about_description",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 23,
+      "sheet_name": "--- Project Details ---",
+      "type": "section"
+    },
+    {
+      "row": 24,
+      "sheet_name": "Project Passport",
+      "snake_case": "project_passport",
+      "status": "PARTIAL: project_passport_h2",
+      "type": "field"
+    },
+    {
+      "row": 25,
+      "sheet_name": "Developer",
+      "snake_case": "developer",
+      "status": "PARTIAL: developer_h2",
+      "type": "field"
+    },
+    {
+      "row": 26,
+      "sheet_name": "Location",
+      "snake_case": "location",
+      "status": "PARTIAL: location_description",
+      "type": "field"
+    },
+    {
+      "row": 27,
+      "sheet_name": "Payment Plan",
+      "snake_case": "payment_plan",
+      "status": "PARTIAL: payment_plan_h2",
+      "type": "field"
+    },
+    {
+      "row": 28,
+      "sheet_name": "Area",
+      "snake_case": "area",
+      "status": "PARTIAL: area_h2",
+      "type": "field"
+    },
+    {
+      "row": 29,
+      "sheet_name": "Property Type",
+      "snake_case": "property_type",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 31,
+      "sheet_name": "--- Economic Appeal ---",
+      "type": "section"
+    },
+    {
+      "row": 32,
+      "sheet_name": "Economic Appeal H2",
+      "snake_case": "economic_appeal_h2",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 33,
+      "sheet_name": "Economic Appeal H3",
+      "snake_case": "economic_appeal_h3",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 34,
+      "sheet_name": "Economic Appeal Description",
+      "snake_case": "economic_appeal_description",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 36,
+      "sheet_name": "--- Payment Plan ---",
+      "type": "section"
+    },
+    {
+      "row": 37,
+      "sheet_name": "Payment Plan H3",
+      "snake_case": "payment_plan_h3",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 38,
+      "sheet_name": "Post-Delivery Support",
+      "snake_case": "post_delivery_support",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 39,
+      "sheet_name": "Post-Delivery Subtitle",
+      "snake_case": "post_delivery_subtitle",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 40,
+      "sheet_name": "Post-Delivery Description 1",
+      "snake_case": "post_delivery_description_1",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 41,
+      "sheet_name": "Post-Delivery Description 2",
+      "snake_case": "post_delivery_description_2",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 42,
+      "sheet_name": "Post-Delivery Description 3",
+      "snake_case": "post_delivery_description_3",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 44,
+      "sheet_name": "--- Advantages ---",
+      "type": "section"
+    },
+    {
+      "row": 45,
+      "sheet_name": "Advantage 1 - Title",
+      "snake_case": "advantage_1_title",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 46,
+      "sheet_name": "Advantage 1 - Description",
+      "snake_case": "advantage_1_description",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 47,
+      "sheet_name": "Advantage 2 - Title",
+      "snake_case": "advantage_2_title",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 48,
+      "sheet_name": "Advantage 2 - Description",
+      "snake_case": "advantage_2_description",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 49,
+      "sheet_name": "Advantage 3 - Title",
+      "snake_case": "advantage_3_title",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 50,
+      "sheet_name": "Advantage 3 - Description",
+      "snake_case": "advantage_3_description",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 51,
+      "sheet_name": "CTA",
+      "snake_case": "cta",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 53,
+      "sheet_name": "--- Amenities ---",
+      "type": "section"
+    },
+    {
+      "row": 54,
+      "sheet_name": "Amenity 1 - Title",
+      "snake_case": "amenity_1_title",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 55,
+      "sheet_name": "Amenity 1 - Description",
+      "snake_case": "amenity_1_description",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 56,
+      "sheet_name": "Amenity 2 - Title",
+      "snake_case": "amenity_2_title",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 57,
+      "sheet_name": "Amenity 2 - Description",
+      "snake_case": "amenity_2_description",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 58,
+      "sheet_name": "Amenity 3 - Title",
+      "snake_case": "amenity_3_title",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 59,
+      "sheet_name": "Amenity 3 - Description",
+      "snake_case": "amenity_3_description",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 60,
+      "sheet_name": "Amenity 4 - Title",
+      "snake_case": "amenity_4_title",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 61,
+      "sheet_name": "Amenity 4 - Description",
+      "snake_case": "amenity_4_description",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 62,
+      "sheet_name": "Amenity 5 - Title",
+      "snake_case": "amenity_5_title",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 63,
+      "sheet_name": "Amenity 5 - Description",
+      "snake_case": "amenity_5_description",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 65,
+      "sheet_name": "--- Developer ---",
+      "type": "section"
+    },
+    {
+      "row": 66,
+      "sheet_name": "Developer H2",
+      "snake_case": "developer_h2",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 67,
+      "sheet_name": "Developer H3",
+      "snake_case": "developer_h3",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 68,
+      "sheet_name": "Developer Description",
+      "snake_case": "developer_description",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 70,
+      "sheet_name": "--- Location ---",
+      "type": "section"
+    },
+    {
+      "row": 71,
+      "sheet_name": "Location H2",
+      "snake_case": "location_h2",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 72,
+      "sheet_name": "Location H3",
+      "snake_case": "location_h3",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 73,
+      "sheet_name": "Location Description",
+      "snake_case": "location_description",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 75,
+      "sheet_name": "--- Social Facilities ---",
+      "type": "section"
+    },
+    {
+      "row": 76,
+      "sheet_name": "Social Facilities Description",
+      "snake_case": "social_facilities_description",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 77,
+      "sheet_name": "Social Facility 1",
+      "snake_case": "social_facility_1",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 78,
+      "sheet_name": "Social Facility 2",
+      "snake_case": "social_facility_2",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 79,
+      "sheet_name": "Social Facility 3",
+      "snake_case": "social_facility_3",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 81,
+      "sheet_name": "--- Education & Medicine ---",
+      "type": "section"
+    },
+    {
+      "row": 82,
+      "sheet_name": "Education & Medicine Description",
+      "snake_case": "education_medicine_description",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 83,
+      "sheet_name": "Education Facility 1",
+      "snake_case": "education_facility_1",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 84,
+      "sheet_name": "Education Facility 2",
+      "snake_case": "education_facility_2",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 85,
+      "sheet_name": "Education Facility 3",
+      "snake_case": "education_facility_3",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 87,
+      "sheet_name": "--- Culture ---",
+      "type": "section"
+    },
+    {
+      "row": 88,
+      "sheet_name": "Culture Description",
+      "snake_case": "culture_description",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 89,
+      "sheet_name": "Culture Venue 1",
+      "snake_case": "culture_venue_1",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 90,
+      "sheet_name": "Culture Venue 2",
+      "snake_case": "culture_venue_2",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 91,
+      "sheet_name": "Culture Venue 3",
+      "snake_case": "culture_venue_3",
+      "status": "UNMATCHED",
+      "type": "field"
+    }
+  ],
+  "adre": [
+    {
+      "row": 3,
+      "sheet_name": "--- SEO ---",
+      "type": "section"
+    },
+    {
+      "row": 4,
+      "sheet_name": "Slug",
+      "snake_case": "slug",
+      "status": "PARTIAL: url_slug",
+      "type": "field"
+    },
+    {
+      "row": 5,
+      "sheet_name": "Title",
+      "snake_case": "title",
+      "status": "PARTIAL: meta_title",
+      "type": "field"
+    },
+    {
+      "row": 6,
+      "sheet_name": "Desc",
+      "snake_case": "desc",
+      "status": "PARTIAL: amenity_1_description",
+      "type": "field"
+    },
+    {
+      "row": 7,
+      "sheet_name": "Image alt tag",
+      "snake_case": "image_alt_tag",
+      "status": "PARTIAL: image_alt",
+      "type": "field"
+    },
+    {
+      "row": 9,
+      "sheet_name": "--- About ---",
+      "type": "section"
+    },
+    {
+      "row": 10,
+      "sheet_name": "Project name",
+      "snake_case": "project_name",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 11,
+      "sheet_name": "H1",
+      "snake_case": "h1",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 12,
+      "sheet_name": "About H2",
+      "snake_case": "about_h2",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 13,
+      "sheet_name": "About Description",
+      "snake_case": "about_description",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 15,
+      "sheet_name": "--- Amenities ---",
+      "type": "section"
+    },
+    {
+      "row": 16,
+      "sheet_name": "Amenities H2",
+      "snake_case": "amenities_h2",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 17,
+      "sheet_name": "Amenity 1 - Title",
+      "snake_case": "amenity_1_title",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 18,
+      "sheet_name": "Amenity 1 - Description",
+      "snake_case": "amenity_1_description",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 19,
+      "sheet_name": "Amenity 2 - Title",
+      "snake_case": "amenity_2_title",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 20,
+      "sheet_name": "Amenity 2 - Description",
+      "snake_case": "amenity_2_description",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 21,
+      "sheet_name": "Amenity 3 - Title",
+      "snake_case": "amenity_3_title",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 22,
+      "sheet_name": "Amenity 3 - Description",
+      "snake_case": "amenity_3_description",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 23,
+      "sheet_name": "Amenity 4 - Title",
+      "snake_case": "amenity_4_title",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 24,
+      "sheet_name": "Amenity 5 - Title",
+      "snake_case": "amenity_5_title",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 25,
+      "sheet_name": "Amenity 6 - Title",
+      "snake_case": "amenity_6_title",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 26,
+      "sheet_name": "Amenity 7 - Title",
+      "snake_case": "amenity_7_title",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 27,
+      "sheet_name": "Amenity 8 - Title",
+      "snake_case": "amenity_8_title",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 29,
+      "sheet_name": "--- Developer ---",
+      "type": "section"
+    },
+    {
+      "row": 30,
+      "sheet_name": "Developer H2",
+      "snake_case": "developer_h2",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 31,
+      "sheet_name": "Developer Description",
+      "snake_case": "developer_description",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 33,
+      "sheet_name": "--- Economic Appeal ---",
+      "type": "section"
+    },
+    {
+      "row": 34,
+      "sheet_name": "Economic Appeal H2",
+      "snake_case": "economic_appeal_h2",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 35,
+      "sheet_name": "Economic Overview",
+      "snake_case": "economic_overview",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 36,
+      "sheet_name": "Rental Appeal H3",
+      "snake_case": "rental_appeal_h3",
+      "status": "PARTIAL: rental_appeal",
+      "type": "field"
+    },
+    {
+      "row": 37,
+      "sheet_name": "Rental Appeal Description",
+      "snake_case": "rental_appeal_description",
+      "status": "PARTIAL: rental_appeal",
+      "type": "field"
+    },
+    {
+      "row": 38,
+      "sheet_name": "Resale Appeal H3",
+      "snake_case": "resale_appeal_h3",
+      "status": "PARTIAL: resale_appeal",
+      "type": "field"
+    },
+    {
+      "row": 39,
+      "sheet_name": "Resale Appeal Description",
+      "snake_case": "resale_appeal_description",
+      "status": "PARTIAL: resale_appeal",
+      "type": "field"
+    },
+    {
+      "row": 40,
+      "sheet_name": "Living Appeal H3",
+      "snake_case": "living_appeal_h3",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 41,
+      "sheet_name": "Living Appeal Description",
+      "snake_case": "living_appeal_description",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 43,
+      "sheet_name": "--- Location ---",
+      "type": "section"
+    },
+    {
+      "row": 44,
+      "sheet_name": "Location H2",
+      "snake_case": "location_h2",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 45,
+      "sheet_name": "Location Description",
+      "snake_case": "location_description",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 46,
+      "sheet_name": "Entertainment H3",
+      "snake_case": "entertainment_h3",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 47,
+      "sheet_name": "Entertainment Landmark 1",
+      "snake_case": "entertainment_landmark_1",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 48,
+      "sheet_name": "Entertainment Landmark 2",
+      "snake_case": "entertainment_landmark_2",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 49,
+      "sheet_name": "Entertainment Landmark 3",
+      "snake_case": "entertainment_landmark_3",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 50,
+      "sheet_name": "Entertainment Landmark 4",
+      "snake_case": "entertainment_landmark_4",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 51,
+      "sheet_name": "Healthcare H3",
+      "snake_case": "healthcare_h3",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 52,
+      "sheet_name": "Healthcare Facility 1",
+      "snake_case": "healthcare_facility_1",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 53,
+      "sheet_name": "Healthcare Facility 2",
+      "snake_case": "healthcare_facility_2",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 54,
+      "sheet_name": "Education H3",
+      "snake_case": "education_h3",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 55,
+      "sheet_name": "Education - Nurseries",
+      "snake_case": "education_nurseries",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 56,
+      "sheet_name": "Education - International Schools",
+      "snake_case": "education_international_schools",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 57,
+      "sheet_name": "Education - Secondary Schools",
+      "snake_case": "education_secondary_schools",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 58,
+      "sheet_name": "Education - Universities",
+      "snake_case": "education_universities",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 60,
+      "sheet_name": "--- FAQ ---",
+      "type": "section"
+    },
+    {
+      "row": 61,
+      "sheet_name": "FAQ 1 - Question",
+      "snake_case": "faq_1_question",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 62,
+      "sheet_name": "FAQ 1 - Answer",
+      "snake_case": "faq_1_answer",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 63,
+      "sheet_name": "FAQ 2 - Question",
+      "snake_case": "faq_2_question",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 64,
+      "sheet_name": "FAQ 2 - Answer",
+      "snake_case": "faq_2_answer",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 65,
+      "sheet_name": "FAQ 3 - Question",
+      "snake_case": "faq_3_question",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 66,
+      "sheet_name": "FAQ 3 - Answer",
+      "snake_case": "faq_3_answer",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 67,
+      "sheet_name": "FAQ 4 - Question",
+      "snake_case": "faq_4_question",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 68,
+      "sheet_name": "FAQ 4 - Answer",
+      "snake_case": "faq_4_answer",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 69,
+      "sheet_name": "FAQ 5 - Question",
+      "snake_case": "faq_5_question",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 70,
+      "sheet_name": "FAQ 5 - Answer",
+      "snake_case": "faq_5_answer",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 71,
+      "sheet_name": "FAQ 6 - Question",
+      "snake_case": "faq_6_question",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 72,
+      "sheet_name": "FAQ 6 - Answer",
+      "snake_case": "faq_6_answer",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 73,
+      "sheet_name": "FAQ 7 - Question",
+      "snake_case": "faq_7_question",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 74,
+      "sheet_name": "FAQ 7 - Answer",
+      "snake_case": "faq_7_answer",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 75,
+      "sheet_name": "FAQ 8 - Question",
+      "snake_case": "faq_8_question",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 76,
+      "sheet_name": "FAQ 8 - Answer",
+      "snake_case": "faq_8_answer",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 77,
+      "sheet_name": "FAQ 9 - Question",
+      "snake_case": "faq_9_question",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 78,
+      "sheet_name": "FAQ 9 - Answer",
+      "snake_case": "faq_9_answer",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 79,
+      "sheet_name": "FAQ 10 - Question",
+      "snake_case": "faq_10_question",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 80,
+      "sheet_name": "FAQ 10 - Answer",
+      "snake_case": "faq_10_answer",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 81,
+      "sheet_name": "FAQ 11 - Question",
+      "snake_case": "faq_11_question",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 82,
+      "sheet_name": "FAQ 11 - Answer",
+      "snake_case": "faq_11_answer",
+      "status": "UNMATCHED",
+      "type": "field"
+    }
+  ],
+  "opr": [
+    {
+      "row": 3,
+      "sheet_name": "--- SEO ---",
+      "type": "section"
+    },
+    {
+      "row": 4,
+      "sheet_name": "Meta Title",
+      "snake_case": "meta_title",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 5,
+      "sheet_name": "Meta Description",
+      "snake_case": "meta_description",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 6,
+      "sheet_name": "URL Slug",
+      "snake_case": "url_slug",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 7,
+      "sheet_name": "Image Alt Tag",
+      "snake_case": "image_alt_tag",
+      "status": "PARTIAL: image_alt",
+      "type": "field"
+    },
+    {
+      "row": 9,
+      "sheet_name": "--- HERO ---",
+      "type": "section"
+    },
+    {
+      "row": 10,
+      "sheet_name": "H1",
+      "snake_case": "h1",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 11,
+      "sheet_name": "Hero Subheading",
+      "snake_case": "hero_subheading",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 12,
+      "sheet_name": "Starting Price",
+      "snake_case": "starting_price",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 13,
+      "sheet_name": "Payment Plan",
+      "snake_case": "payment_plan",
+      "status": "PARTIAL: payment_plan_headline",
+      "type": "field"
+    },
+    {
+      "row": 14,
+      "sheet_name": "Handover",
+      "snake_case": "handover",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 15,
+      "sheet_name": "ROI Potential",
+      "snake_case": "roi_potential",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 16,
+      "sheet_name": "Hero CTA",
+      "snake_case": "hero_cta",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 18,
+      "sheet_name": "--- PROJECT OVERVIEW ---",
+      "type": "section"
+    },
+    {
+      "row": 19,
+      "sheet_name": "Overview H2",
+      "snake_case": "overview_h2",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 20,
+      "sheet_name": "Overview Description",
+      "snake_case": "overview_description",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 21,
+      "sheet_name": "Overview Bullet Points",
+      "snake_case": "overview_bullet_points",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 23,
+      "sheet_name": "--- PROJECT DETAILS CARD ---",
+      "type": "section"
+    },
+    {
+      "row": 24,
+      "sheet_name": "Card Starting Price",
+      "snake_case": "card_starting_price",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 25,
+      "sheet_name": "Card Handover",
+      "snake_case": "card_handover",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 26,
+      "sheet_name": "Card Payment Plan",
+      "snake_case": "card_payment_plan",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 27,
+      "sheet_name": "Card Area",
+      "snake_case": "card_area",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 28,
+      "sheet_name": "Card Property Type",
+      "snake_case": "card_property_type",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 29,
+      "sheet_name": "Card Bedrooms",
+      "snake_case": "card_bedrooms",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 30,
+      "sheet_name": "Card Developer",
+      "snake_case": "card_developer",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 31,
+      "sheet_name": "Card Location",
+      "snake_case": "card_location",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 32,
+      "sheet_name": "Card CTA",
+      "snake_case": "card_cta",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 34,
+      "sheet_name": "--- FEATURES & AMENITIES ---",
+      "type": "section"
+    },
+    {
+      "row": 35,
+      "sheet_name": "Amenities H3",
+      "snake_case": "amenities_h3",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 36,
+      "sheet_name": "Amenities Intro",
+      "snake_case": "amenities_intro",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 37,
+      "sheet_name": "Amenity Bullet Points",
+      "snake_case": "amenity_bullet_points",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 39,
+      "sheet_name": "--- PROPERTY TYPES ---",
+      "type": "section"
+    },
+    {
+      "row": 40,
+      "sheet_name": "Property Types H3",
+      "snake_case": "property_types_h3",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 41,
+      "sheet_name": "Property Types Table",
+      "snake_case": "property_types_table",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 42,
+      "sheet_name": "Floor Plans CTA",
+      "snake_case": "floor_plans_cta",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 44,
+      "sheet_name": "--- PAYMENT PLAN ---",
+      "type": "section"
+    },
+    {
+      "row": 45,
+      "sheet_name": "Payment Plan H3",
+      "snake_case": "payment_plan_h3",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 46,
+      "sheet_name": "Payment Plan Description",
+      "snake_case": "payment_plan_description",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 48,
+      "sheet_name": "--- INVESTMENT ---",
+      "type": "section"
+    },
+    {
+      "row": 49,
+      "sheet_name": "Investment H2",
+      "snake_case": "investment_h2",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 50,
+      "sheet_name": "Investment Intro",
+      "snake_case": "investment_intro",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 51,
+      "sheet_name": "Investment Bullet Points",
+      "snake_case": "investment_bullet_points",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 52,
+      "sheet_name": "Investment CTA",
+      "snake_case": "investment_cta",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 54,
+      "sheet_name": "--- FINANCING OPTIONS ---",
+      "type": "section"
+    },
+    {
+      "row": 55,
+      "sheet_name": "Financing H3",
+      "snake_case": "financing_h3",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 56,
+      "sheet_name": "Financing Description",
+      "snake_case": "financing_description",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 57,
+      "sheet_name": "Financing Bullet Points",
+      "snake_case": "financing_bullet_points",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 58,
+      "sheet_name": "Financing CTA",
+      "snake_case": "financing_cta",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 60,
+      "sheet_name": "--- ABOUT THE AREA ---",
+      "type": "section"
+    },
+    {
+      "row": 61,
+      "sheet_name": "Area H2",
+      "snake_case": "area_h2",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 62,
+      "sheet_name": "Area Description",
+      "snake_case": "area_description",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 63,
+      "sheet_name": "Lifestyle H3",
+      "snake_case": "lifestyle_h3",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 64,
+      "sheet_name": "Lifestyle Description",
+      "snake_case": "lifestyle_description",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 65,
+      "sheet_name": "Lifestyle Bullets",
+      "snake_case": "lifestyle_bullets",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 66,
+      "sheet_name": "Healthcare H3",
+      "snake_case": "healthcare_h3",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 67,
+      "sheet_name": "Healthcare Description",
+      "snake_case": "healthcare_description",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 68,
+      "sheet_name": "Healthcare Bullets",
+      "snake_case": "healthcare_bullets",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 69,
+      "sheet_name": "Education H3",
+      "snake_case": "education_h3",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 70,
+      "sheet_name": "Education Description",
+      "snake_case": "education_description",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 71,
+      "sheet_name": "Education Bullets",
+      "snake_case": "education_bullets",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 73,
+      "sheet_name": "--- DEVELOPER ---",
+      "type": "section"
+    },
+    {
+      "row": 74,
+      "sheet_name": "Developer H2",
+      "snake_case": "developer_h2",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 75,
+      "sheet_name": "Developer Description",
+      "snake_case": "developer_description",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 77,
+      "sheet_name": "--- FAQ ---",
+      "type": "section"
+    },
+    {
+      "row": 78,
+      "sheet_name": "FAQ H2",
+      "snake_case": "faq_h2",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 79,
+      "sheet_name": "FAQ 1 - Question",
+      "snake_case": "faq_1_question",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 80,
+      "sheet_name": "FAQ 1 - Answer",
+      "snake_case": "faq_1_answer",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 81,
+      "sheet_name": "FAQ 2 - Question",
+      "snake_case": "faq_2_question",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 82,
+      "sheet_name": "FAQ 2 - Answer",
+      "snake_case": "faq_2_answer",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 83,
+      "sheet_name": "FAQ 3 - Question",
+      "snake_case": "faq_3_question",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 84,
+      "sheet_name": "FAQ 3 - Answer",
+      "snake_case": "faq_3_answer",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 85,
+      "sheet_name": "FAQ 4 - Question",
+      "snake_case": "faq_4_question",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 86,
+      "sheet_name": "FAQ 4 - Answer",
+      "snake_case": "faq_4_answer",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 87,
+      "sheet_name": "FAQ 5 - Question",
+      "snake_case": "faq_5_question",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 88,
+      "sheet_name": "FAQ 5 - Answer",
+      "snake_case": "faq_5_answer",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 89,
+      "sheet_name": "FAQ 6 - Question",
+      "snake_case": "faq_6_question",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 90,
+      "sheet_name": "FAQ 6 - Answer",
+      "snake_case": "faq_6_answer",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 91,
+      "sheet_name": "FAQ 7 - Question",
+      "snake_case": "faq_7_question",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 92,
+      "sheet_name": "FAQ 7 - Answer",
+      "snake_case": "faq_7_answer",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 93,
+      "sheet_name": "FAQ 8 - Question",
+      "snake_case": "faq_8_question",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 94,
+      "sheet_name": "FAQ 8 - Answer",
+      "snake_case": "faq_8_answer",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 95,
+      "sheet_name": "FAQ 9 - Question",
+      "snake_case": "faq_9_question",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 96,
+      "sheet_name": "FAQ 9 - Answer",
+      "snake_case": "faq_9_answer",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 97,
+      "sheet_name": "FAQ 10 - Question",
+      "snake_case": "faq_10_question",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 98,
+      "sheet_name": "FAQ 10 - Answer",
+      "snake_case": "faq_10_answer",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 99,
+      "sheet_name": "FAQ 11 - Question",
+      "snake_case": "faq_11_question",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 100,
+      "sheet_name": "FAQ 11 - Answer",
+      "snake_case": "faq_11_answer",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 101,
+      "sheet_name": "FAQ 12 - Question",
+      "snake_case": "faq_12_question",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 102,
+      "sheet_name": "FAQ 12 - Answer",
+      "snake_case": "faq_12_answer",
+      "status": "MATCH",
+      "type": "field"
+    },
+    {
+      "row": 103,
+      "sheet_name": "FAQ 13 - Question",
+      "snake_case": "faq_13_question",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 104,
+      "sheet_name": "FAQ 13 - Answer",
+      "snake_case": "faq_13_answer",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 105,
+      "sheet_name": "FAQ 14 - Question",
+      "snake_case": "faq_14_question",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 106,
+      "sheet_name": "FAQ 14 - Answer",
+      "snake_case": "faq_14_answer",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 108,
+      "sheet_name": "--- FOOTER ---",
+      "type": "section"
+    },
+    {
+      "row": 109,
+      "sheet_name": "RERA Information (QR Code)",
+      "snake_case": "rera_information_qr_code",
+      "status": "UNMATCHED",
+      "type": "field"
+    },
+    {
+      "row": 110,
+      "sheet_name": "Disclaimer",
+      "snake_case": "disclaimer",
+      "status": "UNMATCHED",
+      "type": "field"
+    }
+  ]
+}

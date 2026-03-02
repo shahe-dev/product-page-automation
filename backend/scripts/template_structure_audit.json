@@ -1,0 +1,1004 @@
+{
+  "aggregators": {
+    "template": "aggregators",
+    "sheet_id": "YOUR_AGGREGATORS_SHEET_ID",
+    "title": "aggregators-template",
+    "tabs": [
+      {
+        "tab_name": "Aggregators Template",
+        "row_count": 1000,
+        "col_count": 26,
+        "header_row": [
+          "Field",
+          "Guidelines / Character Limits",
+          "EN",
+          "RU",
+          "AR"
+        ],
+        "num_columns_in_header": 5,
+        "max_columns_used": 5,
+        "total_data_rows": 95,
+        "last_data_row": 105,
+        "col_a_samples": [
+          {
+            "row": 3,
+            "value": "SEO"
+          },
+          {
+            "row": 4,
+            "value": "Meta Title"
+          },
+          {
+            "row": 5,
+            "value": "Meta Description"
+          },
+          {
+            "row": 6,
+            "value": "URL Slug"
+          },
+          {
+            "row": 7,
+            "value": "Image Alt Tag"
+          },
+          {
+            "row": 9,
+            "value": "HERO SECTION"
+          },
+          {
+            "row": 10,
+            "value": "H1"
+          },
+          {
+            "row": 11,
+            "value": "Hero Description"
+          },
+          {
+            "row": 12,
+            "value": "Starting Price"
+          },
+          {
+            "row": 13,
+            "value": "Payment Plan"
+          },
+          {
+            "row": 14,
+            "value": "Handover"
+          },
+          {
+            "row": 15,
+            "value": "CTA Button"
+          },
+          {
+            "row": 17,
+            "value": "ABOUT SECTION"
+          },
+          {
+            "row": 18,
+            "value": "About H2"
+          },
+          {
+            "row": 19,
+            "value": "About Description"
+          }
+        ],
+        "col_b_samples": [
+          {
+            "row": 4,
+            "value": "50-60 chars. Include: project name, developer, location"
+          },
+          {
+            "row": 5,
+            "value": "150-160 chars. Include: property type, location, investment appeal, key amenity"
+          },
+          {
+            "row": 6,
+            "value": "Lowercase, hyphens only. e.g., project-name-location"
+          },
+          {
+            "row": 7,
+            "value": "Descriptive, include project name and location"
+          },
+          {
+            "row": 10,
+            "value": "30-60 chars. Project name + developer OR project name + area"
+          },
+          {
+            "row": 11,
+            "value": "250-400 chars. One punchy paragraph: unique selling point, location advantage, p"
+          },
+          {
+            "row": 12,
+            "value": "Format: AED X,XXX,XXX / USD X,XXX,XXX"
+          },
+          {
+            "row": 13,
+            "value": "Summary format: e.g., 60/40, 80/20"
+          },
+          {
+            "row": 14,
+            "value": "Format: Q1 2026, Q4 2027"
+          },
+          {
+            "row": 15,
+            "value": "10-20 chars. e.g., Get Expert Advice, Register Interest"
+          },
+          {
+            "row": 18,
+            "value": "20-50 chars. e.g., About [Project Name]"
+          },
+          {
+            "row": 19,
+            "value": "400-700 chars. Cover: location context, unit count, architecture style, target b"
+          },
+          {
+            "row": 20,
+            "value": "50-80 chars. Key differentiator bullet"
+          },
+          {
+            "row": 21,
+            "value": "50-80 chars. Key differentiator bullet"
+          },
+          {
+            "row": 22,
+            "value": "50-80 chars. Key differentiator bullet"
+          }
+        ],
+        "column_usage": {
+          "only_col_a": 10,
+          "both_a_and_b": 84,
+          "only_col_b": 0
+        },
+        "language_columns": {
+          "en": {
+            "col_index": 2,
+            "col_letter": "C",
+            "label": "EN"
+          },
+          "ru": {
+            "col_index": 3,
+            "col_letter": "D",
+            "label": "RU"
+          },
+          "ar": {
+            "col_index": 4,
+            "col_letter": "E",
+            "label": "AR"
+          }
+        },
+        "has_guidelines_column": false,
+        "has_fields_column": true,
+        "section_markers": []
+      }
+    ]
+  },
+  "opr": {
+    "template": "opr",
+    "sheet_id": "YOUR_OPR_SHEET_ID",
+    "title": "opr-template",
+    "tabs": [
+      {
+        "tab_name": "OPR Template",
+        "row_count": 211,
+        "col_count": 5,
+        "header_row": [
+          "Guidelines/Comments",
+          "Fields",
+          "En",
+          "Ar",
+          "Ru"
+        ],
+        "num_columns_in_header": 5,
+        "max_columns_used": 5,
+        "total_data_rows": 74,
+        "last_data_row": 208,
+        "col_a_samples": [
+          {
+            "row": 2,
+            "value": "Includes the project name, developer, and location (important things people sear"
+          },
+          {
+            "row": 4,
+            "value": "Includes the luxury aspect, location, investment appeal, visa benefits, and near"
+          },
+          {
+            "row": 10,
+            "value": "The hero section is the first touchpoint. It must instantly convey the project’s"
+          },
+          {
+            "row": 12,
+            "value": "H1 is the main title of the page. It should clearly state the project name and d"
+          },
+          {
+            "row": 14,
+            "value": "Subheading: One short, punchy sentence that highlights the unique selling point "
+          },
+          {
+            "row": 26,
+            "value": "Project overview (about) + short key selling point or location.\nWhy: \"Project Ov"
+          },
+          {
+            "row": 28,
+            "value": "A quick overview of what makes this project special, keeping in mind not to soun"
+          },
+          {
+            "row": 30,
+            "value": "Bullet points"
+          }
+        ],
+        "col_b_samples": [
+          {
+            "row": 2,
+            "value": "Meta title:"
+          },
+          {
+            "row": 4,
+            "value": "Meta description:"
+          },
+          {
+            "row": 6,
+            "value": "Url Slug"
+          },
+          {
+            "row": 8,
+            "value": "Image Alt Tag "
+          },
+          {
+            "row": 10,
+            "value": "Hero Section"
+          },
+          {
+            "row": 12,
+            "value": "H1: Project + developer (or area)"
+          },
+          {
+            "row": 14,
+            "value": "<p>"
+          },
+          {
+            "row": 16,
+            "value": "Starting Price\n"
+          },
+          {
+            "row": 17,
+            "value": "Payment Plan"
+          },
+          {
+            "row": 18,
+            "value": "Handover"
+          },
+          {
+            "row": 19,
+            "value": "ROI Potential"
+          },
+          {
+            "row": 21,
+            "value": "CTA"
+          },
+          {
+            "row": 26,
+            "value": "H2: Project overview"
+          },
+          {
+            "row": 28,
+            "value": "<p>"
+          },
+          {
+            "row": 30,
+            "value": "<p>"
+          }
+        ],
+        "column_usage": {
+          "only_col_a": 11,
+          "both_a_and_b": 18,
+          "only_col_b": 42
+        },
+        "language_columns": {
+          "en": {
+            "col_index": 2,
+            "col_letter": "C",
+            "label": "En"
+          },
+          "ar": {
+            "col_index": 3,
+            "col_letter": "D",
+            "label": "Ar"
+          },
+          "ru": {
+            "col_index": 4,
+            "col_letter": "E",
+            "label": "Ru"
+          }
+        },
+        "has_guidelines_column": true,
+        "has_fields_column": true,
+        "section_markers": []
+      }
+    ]
+  },
+  "mpp": {
+    "template": "mpp",
+    "sheet_id": "YOUR_MPP_SHEET_ID",
+    "title": "mpp-template",
+    "tabs": [
+      {
+        "tab_name": "MPP Template",
+        "row_count": 977,
+        "col_count": 26,
+        "header_row": [
+          "Guidelines/Comments",
+          "Fields",
+          "En",
+          "Ar",
+          "Ru",
+          "De",
+          "Fr",
+          "Zh-hans"
+        ],
+        "num_columns_in_header": 8,
+        "max_columns_used": 8,
+        "total_data_rows": 106,
+        "last_data_row": 140,
+        "col_a_samples": [
+          {
+            "row": 2,
+            "value": "Includes project name, developer, and location (50-60 chars)"
+          },
+          {
+            "row": 3,
+            "value": "Includes luxury aspect, location, investment appeal (max 156 chars)"
+          },
+          {
+            "row": 7,
+            "value": "SECTION"
+          },
+          {
+            "row": 8,
+            "value": "H1: Project name + developer (20-70 chars)"
+          },
+          {
+            "row": 9,
+            "value": "Short intro. Boutique development with key differentiator (2-3 sentences)"
+          },
+          {
+            "row": 14,
+            "value": "SECTION"
+          },
+          {
+            "row": 16,
+            "value": "Full description: location, unit count, architecture, features (4-6 sentences)"
+          },
+          {
+            "row": 18,
+            "value": "SECTION"
+          },
+          {
+            "row": 19,
+            "value": "Linked to area page"
+          },
+          {
+            "row": 20,
+            "value": "Linked to developer page"
+          },
+          {
+            "row": 22,
+            "value": "From Property Monitor/DXBinteract"
+          },
+          {
+            "row": 23,
+            "value": "e.g., Apartments, Duplexes"
+          },
+          {
+            "row": 24,
+            "value": "e.g., 1-5"
+          },
+          {
+            "row": 26,
+            "value": "SECTION"
+          },
+          {
+            "row": 28,
+            "value": "Filter tabs"
+          }
+        ],
+        "col_b_samples": [
+          {
+            "row": 2,
+            "value": "Meta title:"
+          },
+          {
+            "row": 3,
+            "value": "Meta description:"
+          },
+          {
+            "row": 4,
+            "value": "Url Slug"
+          },
+          {
+            "row": 5,
+            "value": "Image Alt Tag"
+          },
+          {
+            "row": 7,
+            "value": "HERO SECTION"
+          },
+          {
+            "row": 8,
+            "value": "H1: Project + Developer"
+          },
+          {
+            "row": 9,
+            "value": "Hero Description"
+          },
+          {
+            "row": 10,
+            "value": "Starting Price"
+          },
+          {
+            "row": 11,
+            "value": "Handover"
+          },
+          {
+            "row": 12,
+            "value": "Down Payment %"
+          },
+          {
+            "row": 14,
+            "value": "PROJECT OVERVIEW"
+          },
+          {
+            "row": 15,
+            "value": "H2: Project Overview"
+          },
+          {
+            "row": 16,
+            "value": "Overview Description"
+          },
+          {
+            "row": 18,
+            "value": "PROJECT DETAILS CARD"
+          },
+          {
+            "row": 19,
+            "value": "Location"
+          }
+        ],
+        "column_usage": {
+          "only_col_a": 0,
+          "both_a_and_b": 51,
+          "only_col_b": 54
+        },
+        "language_columns": {
+          "en": {
+            "col_index": 2,
+            "col_letter": "C",
+            "label": "En"
+          },
+          "ar": {
+            "col_index": 3,
+            "col_letter": "D",
+            "label": "Ar"
+          },
+          "ru": {
+            "col_index": 4,
+            "col_letter": "E",
+            "label": "Ru"
+          }
+        },
+        "has_guidelines_column": true,
+        "has_fields_column": true,
+        "section_markers": [
+          {
+            "row": 7,
+            "text": "SECTION"
+          },
+          {
+            "row": 14,
+            "text": "SECTION"
+          },
+          {
+            "row": 18,
+            "text": "SECTION"
+          },
+          {
+            "row": 26,
+            "text": "SECTION"
+          },
+          {
+            "row": 46,
+            "text": "SECTION"
+          },
+          {
+            "row": 64,
+            "text": "SECTION"
+          },
+          {
+            "row": 75,
+            "text": "SECTION"
+          },
+          {
+            "row": 88,
+            "text": "SECTION"
+          },
+          {
+            "row": 104,
+            "text": "SECTION"
+          },
+          {
+            "row": 121,
+            "text": "SECTION"
+          }
+        ]
+      }
+    ]
+  },
+  "adop": {
+    "template": "adop",
+    "sheet_id": "YOUR_ADOP_SHEET_ID",
+    "title": "adop-template",
+    "tabs": [
+      {
+        "tab_name": "ADOP Template",
+        "row_count": 1000,
+        "col_count": 26,
+        "header_row": [
+          "Guidelines/Comments",
+          "Fields",
+          "En",
+          "Ru",
+          "Ar"
+        ],
+        "num_columns_in_header": 5,
+        "max_columns_used": 5,
+        "total_data_rows": 49,
+        "last_data_row": 80,
+        "col_a_samples": [
+          {
+            "row": 2,
+            "value": "Project name + area + property type. Lowercase, hyphens only."
+          },
+          {
+            "row": 4,
+            "value": "Project name + location + property type. 50-60 chars."
+          },
+          {
+            "row": 6,
+            "value": "Property types, starting price, key amenities, handover. Max 156 chars. Investme"
+          },
+          {
+            "row": 8,
+            "value": "Project name + location + key visual. 80-125 chars."
+          },
+          {
+            "row": 10,
+            "value": "SECTION: HERO"
+          },
+          {
+            "row": 11,
+            "value": "Project name + location. 20-50 chars."
+          },
+          {
+            "row": 13,
+            "value": "Format: AED X.XM. Include USD in Russian."
+          },
+          {
+            "row": 15,
+            "value": "Format: Q1/Q2/Q3/Q4 + Year"
+          },
+          {
+            "row": 17,
+            "value": "SECTION: ABOUT PROJECT"
+          },
+          {
+            "row": 18,
+            "value": "Format: About [Project Name]"
+          },
+          {
+            "row": 20,
+            "value": "Para 1: Developer, location between cities, property types with names, bedrooms."
+          },
+          {
+            "row": 22,
+            "value": "Para 2: Architecture, size range (sqft), views, lifestyle. Target: families, pro"
+          },
+          {
+            "row": 24,
+            "value": "Para 3: Main road, drive times to Dubai/Abu Dhabi, resort feel, services. 2-3 se"
+          },
+          {
+            "row": 26,
+            "value": "SECTION: KEY BENEFITS"
+          },
+          {
+            "row": 27,
+            "value": "Format: Key Benefits of [Project Name]"
+          }
+        ],
+        "col_b_samples": [
+          {
+            "row": 2,
+            "value": "Slug:"
+          },
+          {
+            "row": 4,
+            "value": "Title:"
+          },
+          {
+            "row": 6,
+            "value": "Desc:"
+          },
+          {
+            "row": 8,
+            "value": "Image alt tag:"
+          },
+          {
+            "row": 11,
+            "value": "H1:"
+          },
+          {
+            "row": 13,
+            "value": "Starting price"
+          },
+          {
+            "row": 15,
+            "value": "Handover"
+          },
+          {
+            "row": 18,
+            "value": "H2:"
+          },
+          {
+            "row": 20,
+            "value": "<p>"
+          },
+          {
+            "row": 22,
+            "value": "<p>"
+          },
+          {
+            "row": 24,
+            "value": "<p>"
+          },
+          {
+            "row": 27,
+            "value": "H2:"
+          },
+          {
+            "row": 28,
+            "value": "<p>"
+          },
+          {
+            "row": 31,
+            "value": "<p>"
+          }
+        ],
+        "column_usage": {
+          "only_col_a": 7,
+          "both_a_and_b": 33,
+          "only_col_b": 8
+        },
+        "language_columns": {
+          "en": {
+            "col_index": 2,
+            "col_letter": "C",
+            "label": "En"
+          },
+          "ru": {
+            "col_index": 3,
+            "col_letter": "D",
+            "label": "Ru"
+          },
+          "ar": {
+            "col_index": 4,
+            "col_letter": "E",
+            "label": "Ar"
+          }
+        },
+        "has_guidelines_column": true,
+        "has_fields_column": true,
+        "section_markers": [
+          {
+            "row": 10,
+            "text": "SECTION: HERO"
+          },
+          {
+            "row": 17,
+            "text": "SECTION: ABOUT PROJECT"
+          },
+          {
+            "row": 26,
+            "text": "SECTION: KEY BENEFITS"
+          },
+          {
+            "row": 33,
+            "text": "SECTION: AREA INFRASTRUCTURE"
+          },
+          {
+            "row": 42,
+            "text": "SECTION: INVESTMENT (Previously Economic Appeal)"
+          },
+          {
+            "row": 50,
+            "text": "SECTION: DEVELOPER"
+          },
+          {
+            "row": 55,
+            "text": "SECTION: FAQ"
+          }
+        ]
+      }
+    ]
+  },
+  "adre": {
+    "template": "adre",
+    "sheet_id": "YOUR_ADRE_SHEET_ID",
+    "title": "adre-template",
+    "tabs": [
+      {
+        "tab_name": "ADRE Template",
+        "row_count": 991,
+        "col_count": 26,
+        "header_row": [
+          "Guidelines/Comments",
+          "Fields",
+          "eng",
+          "Ar",
+          "Ru",
+          "de",
+          "Fr",
+          "ch"
+        ],
+        "num_columns_in_header": 8,
+        "max_columns_used": 8,
+        "total_data_rows": 70,
+        "last_data_row": 131,
+        "col_a_samples": [
+          {
+            "row": 2,
+            "value": "URL-friendly identifier. Use lowercase, hyphens, no spaces. Format: {project-nam"
+          },
+          {
+            "row": 4,
+            "value": "Meta title for SEO. 50-60 characters including spaces. Must include: project nam"
+          },
+          {
+            "row": 6,
+            "value": "Meta description. Max 155-160 characters. Include: property types, key features,"
+          },
+          {
+            "row": 8,
+            "value": "Alt text for hero image. 80-125 characters. Include project name, developer, key"
+          },
+          {
+            "row": 10,
+            "value": "Official project name only. No developer name, no location. Use developer's offi"
+          },
+          {
+            "row": 12,
+            "value": "Main page heading. 30-70 characters. Format: Buy {property type} in {Project Nam"
+          },
+          {
+            "row": 14,
+            "value": "Marketing title about the project. One punchy, aspirational headline (8-15 words"
+          },
+          {
+            "row": 16,
+            "value": "Description of the project. 4-6 sentences covering: developer name, total units,"
+          },
+          {
+            "row": 18,
+            "value": "Amenities section header. Format: Amenities of {Project Name}. Keep consistent a"
+          },
+          {
+            "row": 20,
+            "value": "First unique/signature amenity. 3-6 words. Highlight most distinctive feature (e"
+          },
+          {
+            "row": 21,
+            "value": "Description of first key amenity. 1-2 sentences (25-50 words). Explain benefit t"
+          },
+          {
+            "row": 23,
+            "value": "Second unique amenity. 3-6 words. Different category from first (family-focused,"
+          },
+          {
+            "row": 24,
+            "value": "Description of second key amenity. 1-2 sentences (25-50 words). Focus on who ben"
+          },
+          {
+            "row": 26,
+            "value": "The rest of amenities listed below. One per row, 2-5 words each. Use noun phrase"
+          },
+          {
+            "row": 27,
+            "value": "Amenity item. Format: 'Gym with Canal Views' not 'There is a gym'."
+          }
+        ],
+        "col_b_samples": [
+          {
+            "row": 2,
+            "value": "Slug:"
+          },
+          {
+            "row": 4,
+            "value": "Title:"
+          },
+          {
+            "row": 6,
+            "value": "Desc:"
+          },
+          {
+            "row": 8,
+            "value": "Image alt tag:"
+          },
+          {
+            "row": 10,
+            "value": "Project name:"
+          },
+          {
+            "row": 12,
+            "value": "H1:"
+          },
+          {
+            "row": 14,
+            "value": "H2"
+          },
+          {
+            "row": 18,
+            "value": "H2"
+          },
+          {
+            "row": 20,
+            "value": "H3"
+          },
+          {
+            "row": 23,
+            "value": "H3"
+          },
+          {
+            "row": 26,
+            "value": "H3"
+          },
+          {
+            "row": 29,
+            "value": "H3"
+          }
+        ],
+        "column_usage": {
+          "only_col_a": 43,
+          "both_a_and_b": 20,
+          "only_col_b": 6
+        },
+        "language_columns": {
+          "en": {
+            "col_index": 2,
+            "col_letter": "C",
+            "label": "eng"
+          },
+          "ar": {
+            "col_index": 3,
+            "col_letter": "D",
+            "label": "Ar"
+          },
+          "ru": {
+            "col_index": 4,
+            "col_letter": "E",
+            "label": "Ru"
+          }
+        },
+        "has_guidelines_column": true,
+        "has_fields_column": true,
+        "section_markers": []
+      }
+    ]
+  },
+  "commercial": {
+    "template": "commercial",
+    "sheet_id": "YOUR_COMMERCIAL_SHEET_ID",
+    "title": "commercial-template",
+    "tabs": [
+      {
+        "tab_name": "Commercial Project Template",
+        "row_count": 136,
+        "col_count": 4,
+        "header_row": [
+          "Fields",
+          "EN",
+          "RU",
+          "AR"
+        ],
+        "num_columns_in_header": 4,
+        "max_columns_used": 4,
+        "total_data_rows": 81,
+        "last_data_row": 136,
+        "col_a_samples": [
+          {
+            "row": 2,
+            "value": "Title (SEO):"
+          },
+          {
+            "row": 4,
+            "value": "Desc (seo):"
+          },
+          {
+            "row": 6,
+            "value": "Slug"
+          },
+          {
+            "row": 8,
+            "value": "Home Screen (Hero)"
+          },
+          {
+            "row": 9,
+            "value": "H1 ≈ 50-60 characters"
+          },
+          {
+            "row": 11,
+            "value": "Brief description (paragraph) ≈ 70-80 characters"
+          },
+          {
+            "row": 13,
+            "value": "Features (3 theses, title ≈ 15-30 characters, desc – up to 60 characters)"
+          },
+          {
+            "row": 15,
+            "value": "title-1 (economic indicator)"
+          },
+          {
+            "row": 16,
+            "value": "desc-1"
+          },
+          {
+            "row": 18,
+            "value": "title-2"
+          },
+          {
+            "row": 19,
+            "value": "desc-2"
+          },
+          {
+            "row": 21,
+            "value": "title-3"
+          },
+          {
+            "row": 22,
+            "value": "desc-3"
+          },
+          {
+            "row": 24,
+            "value": "About area"
+          },
+          {
+            "row": 25,
+            "value": "H2 \"About ... [project name]\""
+          }
+        ],
+        "col_b_samples": [],
+        "column_usage": {
+          "only_col_a": 80,
+          "both_a_and_b": 0,
+          "only_col_b": 0
+        },
+        "language_columns": {
+          "en": {
+            "col_index": 1,
+            "col_letter": "B",
+            "label": "EN"
+          },
+          "ru": {
+            "col_index": 2,
+            "col_letter": "C",
+            "label": "RU"
+          },
+          "ar": {
+            "col_index": 3,
+            "col_letter": "D",
+            "label": "AR"
+          }
+        },
+        "has_guidelines_column": false,
+        "has_fields_column": true,
+        "section_markers": []
+      }
+    ]
+  }
+}

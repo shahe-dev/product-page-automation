@@ -1,0 +1,12 @@
+{
+  "brochure": "The Residences By DIFC Floor Plates",
+  "timestamp": "20260212T090505",
+  "size_mb": 0.5,
+  "page_count": 3,
+  "table_extraction": {
+    "floor_plan_spec_count": 0,
+    "specs": [],
+    "errors": []
+  },
+  "text_extraction": []
+}

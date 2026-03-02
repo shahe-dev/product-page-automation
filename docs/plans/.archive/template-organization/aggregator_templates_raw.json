@@ -1,0 +1,5912 @@
+{
+  "capital.luxury": {
+    "name": "capital.luxury",
+    "sheet_title": "capital.luxury | Template",
+    "row_count": 155,
+    "field_count": 1,
+    "sections": [],
+    "fields": [
+      {
+        "row": 1,
+        "field": "EN",
+        "section": null,
+        "guideline": "TAG"
+      }
+    ],
+    "raw_data": [
+      [
+        "TAG",
+        "EN",
+        "RU",
+        "AR"
+      ],
+      [
+        "title (seo): {project name} by {developer name} in {project area}, Abu Dhabi | Buy {property type} at developer prices: photos, reviews and floor plans"
+      ],
+      [],
+      [
+        "desc (seo): ✓ Invest in luxury real estate - {property type} in the {project name} project from the developer {developer name} in {project area}, Abu Dhabi (UAE). ✓ World-class amenities ✓ Favourable prices ✓ Large selection of floor plans with photos and reviews"
+      ],
+      [],
+      [
+        "Main Screen (Hero)"
+      ],
+      [
+        "H1 ≈ 50-60 characters"
+      ],
+      [],
+      [
+        "Brief description (paragraph) ≈ 70-80 characters"
+      ],
+      [],
+      [
+        "Features (3 theses, title ≈ 15-30 characters, desc – up to 60 characters)"
+      ],
+      [],
+      [
+        "title-1 (economic indicator)"
+      ],
+      [
+        "desc-1"
+      ],
+      [],
+      [
+        "title-2"
+      ],
+      [
+        "desc-2"
+      ],
+      [],
+      [
+        "title-3"
+      ],
+      [
+        "desc-3"
+      ],
+      [],
+      [
+        "About area"
+      ],
+      [
+        "H2 \"About ... [project name]\""
+      ],
+      [],
+      [
+        "H3 (subtitle) ≈ 60-80 characters"
+      ],
+      [],
+      [
+        "Brief description (paragraph) ≈ 150-200 characters"
+      ],
+      [],
+      [
+        "Project details"
+      ],
+      [
+        "Project Passport (Add data table)"
+      ],
+      [],
+      [
+        "Developer"
+      ],
+      [],
+      [
+        "Location"
+      ],
+      [],
+      [
+        "Payment Plan"
+      ],
+      [],
+      [
+        "Area"
+      ],
+      [],
+      [
+        "Property Type"
+      ],
+      [],
+      [
+        "Starting price"
+      ],
+      [],
+      [
+        "Bedrooms"
+      ],
+      [],
+      [
+        "Handover"
+      ],
+      [],
+      [
+        "Economic appeal"
+      ],
+      [
+        "H2 \"Economic appeal\" (static SEO)"
+      ],
+      [],
+      [
+        "H3 (subtitle) ≈ 40-80 characters"
+      ],
+      [
+        "Brief description (paragraph) ≈ 250-400 characters"
+      ],
+      [
+        "Payment Plan"
+      ],
+      [
+        "Description for each payment plan"
+      ],
+      [],
+      [
+        "H3 (subtitle) ≈ 60-80 characters"
+      ],
+      [],
+      [
+        "Static block (post-delivery support)"
+      ],
+      [],
+      [
+        "Subtitle ≈ 40-80 characters"
+      ],
+      [],
+      [
+        "Brief description (paragraph) ≈ 100-200 characters"
+      ],
+      [
+        "Brief description (paragraph) ≈ 100-200 characters"
+      ],
+      [
+        "Brief description (paragraph) ≈ 100-200 characters"
+      ],
+      [],
+      [],
+      [
+        "Advantages"
+      ],
+      [
+        "3 advantages"
+      ],
+      [
+        "Subtitle ≈ 40-80 characters"
+      ],
+      [
+        "Brief description (paragraph) ≈ 100-200 characters"
+      ],
+      [],
+      [
+        "Subtitle ≈ 40-80 characters"
+      ],
+      [
+        "Brief description (paragraph) ≈ 100-200 characters"
+      ],
+      [],
+      [
+        "Subtitle ≈ 40-80 characters"
+      ],
+      [
+        "amenities"
+      ],
+      [],
+      [
+        "CTA ≈ 15-25 characters"
+      ],
+      [],
+      [
+        "Amenities (Features, Unique Selling Points)"
+      ],
+      [
+        "3-5 main features"
+      ],
+      [
+        "Subtitle ≈ 40-80 characters"
+      ],
+      [
+        "Brief description (paragraph) ≈ 100-200 characters"
+      ],
+      [],
+      [
+        "Subtitle ≈ 40-80 characters"
+      ],
+      [
+        "Brief description (paragraph) ≈ 100-200 characters"
+      ],
+      [],
+      [
+        "Subtitle ≈ 40-80 characters"
+      ],
+      [
+        "Brief description (paragraph) ≈ 100-200 characters"
+      ],
+      [],
+      [
+        "Subtitle ≈ 40-80 characters"
+      ],
+      [
+        "Brief description (paragraph) ≈ 100-200 characters"
+      ],
+      [],
+      [
+        "Subtitle ≈ 40-80 characters"
+      ],
+      [
+        "Brief description (paragraph) ≈ 100-200 characters"
+      ],
+      [],
+      [
+        "About the developer"
+      ],
+      [
+        "H2 \"About ... [developer name]\""
+      ],
+      [
+        "H3 (subtitle) ≈ 60-80 characters (optional, no title possible)"
+      ],
+      [
+        "Brief description (paragraph) ≈ 150-250 characters"
+      ],
+      [],
+      [
+        "Location"
+      ],
+      [
+        "H2 \"Location & Advantages\" (static SEO)"
+      ],
+      [
+        "H3 (subtitle) ≈ 40-80 characters"
+      ],
+      [
+        "Brief description (paragraph) ≈ 250-400 characters"
+      ],
+      [],
+      [
+        "Social Facilities"
+      ],
+      [
+        "Brief description (paragraph) ≈ 100-300 characters"
+      ],
+      [],
+      [
+        "Location name 1 + Time in minutes 1"
+      ],
+      [],
+      [
+        "Location name 2 + Time in minutes 2"
+      ],
+      [],
+      [
+        "Location name 3 + Time in minutes 3"
+      ],
+      [],
+      [],
+      [
+        "Education & Medicine"
+      ],
+      [
+        "Brief description (paragraph) ≈ 100-300 characters"
+      ],
+      [],
+      [
+        "Location name 1 + Time in minutes 1"
+      ],
+      [],
+      [
+        "Location name 2 + Time in minutes 2"
+      ],
+      [],
+      [
+        "Location name 3 + Time in minutes 3"
+      ],
+      [],
+      [],
+      [
+        "Culture"
+      ],
+      [
+        "Brief description (paragraph) ≈ 100-300 characters"
+      ],
+      [],
+      [
+        "Location name 1 + Time in minutes 1"
+      ],
+      [],
+      [
+        "Location name 2 + Time in minutes 2"
+      ],
+      [],
+      [
+        "Location name 3 + Time in minutes 3"
+      ],
+      [],
+      [],
+      [],
+      [
+        "Shapes and other elements"
+      ],
+      [],
+      [
+        "Consultation form"
+      ],
+      [
+        "Title ≈ 20-30 characters"
+      ],
+      [],
+      [
+        "Brief description (paragraph) – up to 100 characters"
+      ],
+      [],
+      [
+        "CTA ≈ 15-25 characters"
+      ],
+      [],
+      [
+        "Success Message (Heading)"
+      ],
+      [
+        "Success Message (Description)"
+      ],
+      [],
+      [
+        "Brochure format"
+      ],
+      [
+        "Title ≈ 20-30 characters"
+      ],
+      [],
+      [
+        "Brief description (paragraph) – up to 100 characters"
+      ],
+      [],
+      [
+        "CTA ≈ 15-25 characters"
+      ]
+    ]
+  },
+  "luxury-villas-dubai.ae": {
+    "name": "luxury-villas-dubai.ae",
+    "sheet_title": "luxury-villas-dubai.ae | Template",
+    "row_count": 99,
+    "field_count": 1,
+    "sections": [],
+    "fields": [
+      {
+        "row": 1,
+        "field": "EN",
+        "section": null,
+        "guideline": ""
+      }
+    ],
+    "raw_data": [
+      [
+        "",
+        "EN",
+        "RU",
+        "AR"
+      ],
+      [
+        "Title (seo):"
+      ],
+      [],
+      [
+        "Desc (seo):"
+      ],
+      [],
+      [
+        "Slug"
+      ],
+      [],
+      [
+        "Hero"
+      ],
+      [],
+      [
+        "Headline 1 (H1 Header)"
+      ],
+      [
+        "Subheadline (H2 Header)"
+      ],
+      [],
+      [
+        "Bullet Point 1"
+      ],
+      [
+        "Bullet Point 2"
+      ],
+      [
+        "Bullet Point 3"
+      ],
+      [],
+      [
+        "H1: Invest in {the name of the project}, {the name of area}"
+      ],
+      [],
+      [
+        "Tagline: Call to action + leave an application form (about 10 words)"
+      ],
+      [],
+      [
+        "{AED and USD}"
+      ],
+      [
+        "Starting price"
+      ],
+      [],
+      [
+        "{quarter and year}"
+      ],
+      [
+        "Handover"
+      ],
+      [],
+      [
+        "{........}"
+      ],
+      [
+        "Payment plan"
+      ],
+      [],
+      [
+        "About Section"
+      ],
+      [],
+      [
+        "Selling heading telling us about project and fueling interest in the area with seo key words: project name (80 characters maximum)"
+      ],
+      [],
+      [
+        "Short paragraph with main information about project and it’s best highlights, numbers, amenities (350 characters maximum, including spaces)"
+      ],
+      [],
+      [
+        "Best Selling Feature"
+      ],
+      [],
+      [
+        "Heading:"
+      ],
+      [],
+      [
+        "Paragraph:"
+      ],
+      [],
+      [
+        "Best Selling Feature 2"
+      ],
+      [],
+      [
+        "Heading:"
+      ],
+      [],
+      [
+        "Paragraph:"
+      ],
+      [],
+      [
+        "Advantages of Buying (+4 bullet points)"
+      ],
+      [],
+      [
+        "1 bullet point (Only heading) maximum of 4-5 words"
+      ],
+      [
+        "2 bullet point (Only heading) maximum of 4-5 words"
+      ],
+      [
+        "3 bullet point (Heading plus very short paragraph) maximum of 4-5 words"
+      ],
+      [
+        "4 bullet point maximum of 4-5 words"
+      ],
+      [],
+      [
+        "Amenities"
+      ],
+      [],
+      [
+        "Amenity 1, headline "
+      ],
+      [
+        "Short paragraph (120 characters with spaces)"
+      ],
+      [
+        "Amenity 2, headline"
+      ],
+      [
+        "Short paragraph (120 characters with spaces)"
+      ],
+      [
+        "Amenity 3, headline"
+      ],
+      [
+        "Short paragraph (120 characters with spaces)"
+      ],
+      [
+        "Amenity 4, headline"
+      ],
+      [
+        "Short paragraph (120 characters with spaces)"
+      ],
+      [
+        "Amenity 5, headline"
+      ],
+      [
+        "Short paragraph (120 characters with spaces)"
+      ],
+      [],
+      [
+        "Economic Appeal"
+      ],
+      [],
+      [
+        "Marketing headline (3-4 words)"
+      ],
+      [],
+      [
+        "Paragraph about economic appeal of owning property in district (300 characters with spaces)"
+      ],
+      [],
+      [
+        "Bullet Point 1"
+      ],
+      [
+        "Bullet Point 2"
+      ],
+      [
+        "Bullet Point 3"
+      ],
+      [],
+      [
+        "Heading:"
+      ],
+      [],
+      [
+        "Paragraph:"
+      ],
+      [],
+      [
+        "Developer Description"
+      ],
+      [],
+      [
+        "Heading:"
+      ],
+      [],
+      [
+        "Description of the developer of the project with short paragraph of the text (maximum 300 characters with spaces) "
+      ],
+      [],
+      [
+        "Location & Advantages"
+      ],
+      [],
+      [
+        "Heading:"
+      ],
+      [],
+      [
+        "Paragraph:"
+      ],
+      [],
+      [
+        "Transport accessibility (heading)"
+      ],
+      [
+        "Short paragraph"
+      ],
+      [
+        "Nearest attractions (heading)"
+      ],
+      [
+        "Short paragraph"
+      ],
+      [
+        "Developed infrastructure (heading)"
+      ],
+      [
+        "Short paragraph"
+      ]
+    ]
+  },
+  "bloom.living": {
+    "name": "bloom.living",
+    "sheet_title": "bloom.living | Template",
+    "row_count": 90,
+    "field_count": 1,
+    "sections": [],
+    "fields": [
+      {
+        "row": 1,
+        "field": "EN",
+        "section": null,
+        "guideline": ""
+      }
+    ],
+    "raw_data": [
+      [
+        "",
+        "EN",
+        "RU",
+        "AR"
+      ],
+      [
+        "Title (seo):"
+      ],
+      [],
+      [
+        "Desc (seo):"
+      ],
+      [],
+      [
+        "Slug"
+      ],
+      [],
+      [
+        "Hero"
+      ],
+      [],
+      [
+        "H1: Invest in {the name of the project}, {the name of area}"
+      ],
+      [],
+      [
+        "Tagline: Call to action + leave an application form (about 10 words)"
+      ],
+      [],
+      [
+        "{AED and USD}"
+      ],
+      [
+        "Starting price"
+      ],
+      [],
+      [
+        "{quarter and year}"
+      ],
+      [
+        "Handover"
+      ],
+      [],
+      [
+        "{........}"
+      ],
+      [
+        "Payment plan"
+      ],
+      [],
+      [
+        "About Section"
+      ],
+      [],
+      [
+        "Selling heading telling us about project and fueling interest in the area with seo key words: project name (80 characters maximum)"
+      ],
+      [],
+      [
+        "Short paragraph with main information about project and it’s best highlights, numbers, amenities (350 characters maximum, including spaces)"
+      ],
+      [],
+      [
+        "Best Selling Feature"
+      ],
+      [],
+      [
+        "Heading:"
+      ],
+      [],
+      [
+        "Paragraph:"
+      ],
+      [],
+      [
+        "Best Selling Feature 2"
+      ],
+      [],
+      [
+        "Heading:"
+      ],
+      [],
+      [
+        "Paragraph:"
+      ],
+      [],
+      [
+        "Advantages of Buying (+4 bullet points)"
+      ],
+      [],
+      [
+        "1 bullet point (Only heading) maximum of 4-5 words"
+      ],
+      [
+        "2 bullet point (Only heading) maximum of 4-5 words"
+      ],
+      [
+        "3 bullet point (Heading plus very short paragraph) maximum of 4-5 words"
+      ],
+      [
+        "4 bullet point maximum of 4-5 words"
+      ],
+      [],
+      [
+        "Amenities"
+      ],
+      [],
+      [
+        "Amenity 1, headline "
+      ],
+      [
+        "Short paragraph (120 characters with spaces)"
+      ],
+      [
+        "Amenity 2, headline"
+      ],
+      [
+        "Short paragraph (120 characters with spaces)"
+      ],
+      [
+        "Amenity 3, headline"
+      ],
+      [
+        "Short paragraph (120 characters with spaces)"
+      ],
+      [
+        "Amenity 4, headline"
+      ],
+      [
+        "Short paragraph (120 characters with spaces)"
+      ],
+      [
+        "Amenity 5, headline"
+      ],
+      [
+        "Short paragraph (120 characters with spaces)"
+      ],
+      [],
+      [
+        "Economic Appeal"
+      ],
+      [],
+      [
+        "Marketing headline (3-4 words)"
+      ],
+      [],
+      [
+        "Paragraph about economic appeal of owning property in district (300 characters with spaces)"
+      ],
+      [],
+      [
+        "-"
+      ],
+      [
+        "-"
+      ],
+      [
+        "-"
+      ],
+      [],
+      [
+        "Heading:"
+      ],
+      [],
+      [
+        "Paragraph:"
+      ],
+      [],
+      [
+        "Developer Description"
+      ],
+      [],
+      [
+        "Description of the developer of the project with short paragraph of the text (maximum 300 characters with spaces) "
+      ],
+      [],
+      [
+        "Location & Advantages"
+      ],
+      [],
+      [
+        "Heading:"
+      ],
+      [],
+      [
+        "Paragraph:"
+      ],
+      [],
+      [
+        "Transport accessibility (heading)"
+      ],
+      [
+        "Short paragraph"
+      ],
+      [
+        "Nearest attractions (heading)"
+      ],
+      [
+        "Short paragraph"
+      ],
+      [
+        "Developed infrastructure (heading)"
+      ],
+      [
+        "Short paragraph"
+      ]
+    ]
+  },
+  "sharjah.residences.ae": {
+    "name": "sharjah.residences.ae",
+    "sheet_title": "sharjah.residences.ae | Template",
+    "row_count": 90,
+    "field_count": 1,
+    "sections": [],
+    "fields": [
+      {
+        "row": 1,
+        "field": "EN",
+        "section": null,
+        "guideline": ""
+      }
+    ],
+    "raw_data": [
+      [
+        "",
+        "EN",
+        "RU",
+        "AR"
+      ],
+      [
+        "Title (seo):"
+      ],
+      [],
+      [
+        "Desc (seo):"
+      ],
+      [],
+      [
+        "Slug"
+      ],
+      [],
+      [
+        "Hero"
+      ],
+      [],
+      [
+        "H1: Invest in {the name of the project}, {the name of area}"
+      ],
+      [],
+      [
+        "Tagline: Call to action + leave an application form (about 10 words)"
+      ],
+      [],
+      [
+        "{AED and USD}"
+      ],
+      [
+        "Starting price"
+      ],
+      [],
+      [
+        "{quarter and year}"
+      ],
+      [
+        "Handover"
+      ],
+      [],
+      [
+        "{........}"
+      ],
+      [
+        "Payment plan"
+      ],
+      [],
+      [
+        "About Section"
+      ],
+      [],
+      [
+        "Selling heading telling us about project and fueling interest in the area with seo key words: project name (80 characters maximum)"
+      ],
+      [],
+      [
+        "Short paragraph with main information about project and it’s best highlights, numbers, amenities (350 characters maximum, including spaces)"
+      ],
+      [],
+      [
+        "Best Selling Feature"
+      ],
+      [],
+      [
+        "Heading:"
+      ],
+      [],
+      [
+        "Paragraph:"
+      ],
+      [],
+      [
+        "Best Selling Feature 2"
+      ],
+      [],
+      [
+        "Heading:"
+      ],
+      [],
+      [
+        "Paragraph:"
+      ],
+      [],
+      [
+        "Advantages of Buying (+4 bullet points)"
+      ],
+      [],
+      [
+        "1 bullet point (Only heading) maximum of 4-5 words"
+      ],
+      [
+        "2 bullet point (Only heading) maximum of 4-5 words"
+      ],
+      [
+        "3 bullet point (Heading plus very short paragraph) maximum of 4-5 words"
+      ],
+      [
+        "4 bullet point maximum of 4-5 words"
+      ],
+      [],
+      [
+        "Amenities"
+      ],
+      [],
+      [
+        "Amenity 1, headline "
+      ],
+      [
+        "Short paragraph (120 characters with spaces)"
+      ],
+      [
+        "Amenity 2, headline"
+      ],
+      [
+        "Short paragraph (120 characters with spaces)"
+      ],
+      [
+        "Amenity 3, headline"
+      ],
+      [
+        "Short paragraph (120 characters with spaces)"
+      ],
+      [
+        "Amenity 4, headline"
+      ],
+      [
+        "Short paragraph (120 characters with spaces)"
+      ],
+      [
+        "Amenity 5, headline"
+      ],
+      [
+        "Short paragraph (120 characters with spaces)"
+      ],
+      [],
+      [
+        "Economic Appeal"
+      ],
+      [],
+      [
+        "Marketing headline (3-4 words)"
+      ],
+      [],
+      [
+        "Paragraph about economic appeal of owning property in district (300 characters with spaces)"
+      ],
+      [],
+      [
+        "-"
+      ],
+      [
+        "-"
+      ],
+      [
+        "-"
+      ],
+      [],
+      [
+        "Heading:"
+      ],
+      [],
+      [
+        "Paragraph:"
+      ],
+      [],
+      [
+        "Developer Description"
+      ],
+      [],
+      [
+        "Description of the developer of the project with short paragraph of the text (maximum 300 characters with spaces) "
+      ],
+      [],
+      [
+        "Location & Advantages"
+      ],
+      [],
+      [
+        "Heading:"
+      ],
+      [],
+      [
+        "Paragraph:"
+      ],
+      [],
+      [
+        "Transport accessibility (heading)"
+      ],
+      [
+        "Short paragraph"
+      ],
+      [
+        "Nearest attractions (heading)"
+      ],
+      [
+        "Short paragraph"
+      ],
+      [
+        "Developed infrastructure (heading)"
+      ],
+      [
+        "Short paragraph"
+      ]
+    ]
+  },
+  "luxury-collection.ae": {
+    "name": "luxury-collection.ae",
+    "sheet_title": "luxury-collection.ae | Template",
+    "row_count": 90,
+    "field_count": 1,
+    "sections": [],
+    "fields": [
+      {
+        "row": 1,
+        "field": "EN",
+        "section": null,
+        "guideline": ""
+      }
+    ],
+    "raw_data": [
+      [
+        "",
+        "EN",
+        "RU",
+        "AR"
+      ],
+      [
+        "Title (seo):"
+      ],
+      [],
+      [
+        "Desc (seo):"
+      ],
+      [],
+      [
+        "Slug"
+      ],
+      [],
+      [
+        "Hero"
+      ],
+      [],
+      [
+        "H1: Invest in {the name of the project}, {the name of area}"
+      ],
+      [],
+      [
+        "Tagline: Call to action + leave an application form (about 10 words)"
+      ],
+      [],
+      [
+        "{AED and USD}"
+      ],
+      [
+        "Starting price"
+      ],
+      [],
+      [
+        "{quarter and year}"
+      ],
+      [
+        "Handover"
+      ],
+      [],
+      [
+        "{........}"
+      ],
+      [
+        "Payment plan"
+      ],
+      [],
+      [
+        "About Section"
+      ],
+      [],
+      [
+        "Selling heading telling us about project and fueling interest in the area with seo key words: project name (80 characters maximum)"
+      ],
+      [],
+      [
+        "Short paragraph with main information about project and it’s best highlights, numbers, amenities (350 characters maximum, including spaces)"
+      ],
+      [],
+      [
+        "Best Selling Feature"
+      ],
+      [],
+      [
+        "Heading:"
+      ],
+      [],
+      [
+        "Paragraph:"
+      ],
+      [],
+      [
+        "Best Selling Feature 2"
+      ],
+      [],
+      [
+        "Heading:"
+      ],
+      [],
+      [
+        "Paragraph:"
+      ],
+      [],
+      [
+        "Advantages of Buying (+4 bullet points)"
+      ],
+      [],
+      [
+        "1 bullet point (Only heading) maximum of 4-5 words"
+      ],
+      [
+        "2 bullet point (Only heading) maximum of 4-5 words"
+      ],
+      [
+        "3 bullet point (Heading plus very short paragraph) maximum of 4-5 words"
+      ],
+      [
+        "4 bullet point maximum of 4-5 words"
+      ],
+      [],
+      [
+        "Amenities"
+      ],
+      [],
+      [
+        "Amenity 1, headline "
+      ],
+      [
+        "Short paragraph (120 characters with spaces)"
+      ],
+      [
+        "Amenity 2, headline"
+      ],
+      [
+        "Short paragraph (120 characters with spaces)"
+      ],
+      [
+        "Amenity 3, headline"
+      ],
+      [
+        "Short paragraph (120 characters with spaces)"
+      ],
+      [
+        "Amenity 4, headline"
+      ],
+      [
+        "Short paragraph (120 characters with spaces)"
+      ],
+      [
+        "Amenity 5, headline"
+      ],
+      [
+        "Short paragraph (120 characters with spaces)"
+      ],
+      [],
+      [
+        "Economic Appeal"
+      ],
+      [],
+      [
+        "Marketing headline (3-4 words)"
+      ],
+      [],
+      [
+        "Paragraph about economic appeal of owning property in district (300 characters with spaces)"
+      ],
+      [],
+      [
+        "-"
+      ],
+      [
+        "-"
+      ],
+      [
+        "-"
+      ],
+      [],
+      [
+        "Heading:"
+      ],
+      [],
+      [
+        "Paragraph:"
+      ],
+      [],
+      [
+        "Developer Description"
+      ],
+      [],
+      [
+        "Description of the developer of the project with short paragraph of the text (maximum 300 characters with spaces) "
+      ],
+      [],
+      [
+        "Location & Advantages"
+      ],
+      [],
+      [
+        "Heading:"
+      ],
+      [],
+      [
+        "Paragraph:"
+      ],
+      [],
+      [
+        "Transport accessibility (heading)"
+      ],
+      [
+        "Short paragraph"
+      ],
+      [
+        "Nearest attractions (heading)"
+      ],
+      [
+        "Short paragraph"
+      ],
+      [
+        "Developed infrastructure (heading)"
+      ],
+      [
+        "Short paragraph"
+      ]
+    ]
+  },
+  "the-valley-villas": {
+    "name": "the-valley-villas",
+    "sheet_title": "the-valley-villas | Template",
+    "row_count": 95,
+    "field_count": 1,
+    "sections": [],
+    "fields": [
+      {
+        "row": 1,
+        "field": "EN",
+        "section": null,
+        "guideline": ""
+      }
+    ],
+    "raw_data": [
+      [
+        "",
+        "EN",
+        "RU",
+        "AR"
+      ],
+      [
+        "Title (seo):"
+      ],
+      [],
+      [
+        "Desc (seo):"
+      ],
+      [],
+      [
+        "Slug"
+      ],
+      [],
+      [
+        "Hero"
+      ],
+      [],
+      [
+        "Headline 1 (H1 Header)"
+      ],
+      [
+        "Bullet Point 1"
+      ],
+      [
+        "Bullet Point 2"
+      ],
+      [
+        "Bullet Point 3"
+      ],
+      [],
+      [
+        "H1: Invest in {the name of the project}, {the name of area}"
+      ],
+      [],
+      [
+        "Tagline: Call to action + leave an application form (about 10 words)"
+      ],
+      [],
+      [
+        "{AED and USD}"
+      ],
+      [
+        "Starting price"
+      ],
+      [],
+      [
+        "{quarter and year}"
+      ],
+      [
+        "Handover"
+      ],
+      [],
+      [
+        "{........}"
+      ],
+      [
+        "Payment plan"
+      ],
+      [],
+      [
+        "About Section"
+      ],
+      [],
+      [
+        "Selling heading telling us about project and fueling interest in the area with seo key words: project name (80 characters maximum)"
+      ],
+      [],
+      [
+        "Short paragraph with main information about project and it’s best highlights, numbers, amenities (350 characters maximum, including spaces)"
+      ],
+      [],
+      [
+        "Best Selling Feature"
+      ],
+      [],
+      [
+        "Heading:"
+      ],
+      [],
+      [
+        "Paragraph:"
+      ],
+      [],
+      [
+        "Best Selling Feature 2"
+      ],
+      [],
+      [
+        "Heading:"
+      ],
+      [],
+      [
+        "Paragraph:"
+      ],
+      [],
+      [
+        "Advantages of Buying (+4 bullet points)"
+      ],
+      [],
+      [
+        "1 bullet point (Only heading) maximum of 4-5 words"
+      ],
+      [
+        "2 bullet point (Only heading) maximum of 4-5 words"
+      ],
+      [
+        "3 bullet point (Heading plus very short paragraph) maximum of 4-5 words"
+      ],
+      [
+        "4 bullet point maximum of 4-5 words"
+      ],
+      [],
+      [
+        "Amenities"
+      ],
+      [],
+      [
+        "Amenity 1, headline "
+      ],
+      [
+        "Short paragraph (120 characters with spaces)"
+      ],
+      [
+        "Amenity 2, headline"
+      ],
+      [
+        "Short paragraph (120 characters with spaces)"
+      ],
+      [
+        "Amenity 3, headline"
+      ],
+      [
+        "Short paragraph (120 characters with spaces)"
+      ],
+      [
+        "Amenity 4, headline"
+      ],
+      [
+        "Short paragraph (120 characters with spaces)"
+      ],
+      [
+        "Amenity 5, headline"
+      ],
+      [
+        "Short paragraph (120 characters with spaces)"
+      ],
+      [],
+      [
+        "Economic Appeal"
+      ],
+      [],
+      [
+        "Marketing headline (3-4 words)"
+      ],
+      [],
+      [
+        "Paragraph about economic appeal of owning property in district (300 characters with spaces)"
+      ],
+      [],
+      [
+        "-"
+      ],
+      [
+        "-"
+      ],
+      [
+        "-"
+      ],
+      [],
+      [
+        "Heading:"
+      ],
+      [],
+      [
+        "Paragraph:"
+      ],
+      [],
+      [
+        "Developer Description"
+      ],
+      [],
+      [
+        "Description of the developer of the project with short paragraph of the text (maximum 300 characters with spaces) "
+      ],
+      [],
+      [
+        "Location & Advantages"
+      ],
+      [],
+      [
+        "Heading:"
+      ],
+      [],
+      [
+        "Paragraph:"
+      ],
+      [],
+      [
+        "Transport accessibility (heading)"
+      ],
+      [
+        "Short paragraph"
+      ],
+      [
+        "Nearest attractions (heading)"
+      ],
+      [
+        "Short paragraph"
+      ],
+      [
+        "Developed infrastructure (heading)"
+      ],
+      [
+        "Short paragraph"
+      ]
+    ]
+  },
+  "dubai-harbour-property.ae": {
+    "name": "dubai-harbour-property.ae",
+    "sheet_title": "dubai-harbour-property.ae | Template",
+    "row_count": 90,
+    "field_count": 1,
+    "sections": [],
+    "fields": [
+      {
+        "row": 1,
+        "field": "EN",
+        "section": null,
+        "guideline": ""
+      }
+    ],
+    "raw_data": [
+      [
+        "",
+        "EN",
+        "RU",
+        "AR"
+      ],
+      [
+        "Title (seo):"
+      ],
+      [],
+      [
+        "Desc (seo):"
+      ],
+      [],
+      [
+        "Slug"
+      ],
+      [],
+      [
+        "Hero"
+      ],
+      [],
+      [
+        "H1: Invest in {the name of the project}, {the name of area}"
+      ],
+      [],
+      [
+        "Tagline: Call to action + leave an application form (about 10 words)"
+      ],
+      [],
+      [
+        "{AED and USD}"
+      ],
+      [
+        "Starting price"
+      ],
+      [],
+      [
+        "{quarter and year}"
+      ],
+      [
+        "Handover"
+      ],
+      [],
+      [
+        "{........}"
+      ],
+      [
+        "Payment plan"
+      ],
+      [],
+      [
+        "About Section"
+      ],
+      [],
+      [
+        "Selling heading telling us about project and fueling interest in the area with seo key words: project name (80 characters maximum)"
+      ],
+      [],
+      [
+        "Short paragraph with main information about project and it’s best highlights, numbers, amenities (350 characters maximum, including spaces)"
+      ],
+      [],
+      [
+        "Best Selling Feature"
+      ],
+      [],
+      [
+        "Heading:"
+      ],
+      [],
+      [
+        "Paragraph:"
+      ],
+      [],
+      [
+        "Best Selling Feature 2"
+      ],
+      [],
+      [
+        "Heading:"
+      ],
+      [],
+      [
+        "Paragraph:"
+      ],
+      [],
+      [
+        "Advantages of Buying (+4 bullet points)"
+      ],
+      [],
+      [
+        "1 bullet point (Only heading) maximum of 4-5 words"
+      ],
+      [
+        "2 bullet point (Only heading) maximum of 4-5 words"
+      ],
+      [
+        "3 bullet point (Heading plus very short paragraph) maximum of 4-5 words"
+      ],
+      [
+        "4 bullet point maximum of 4-5 words"
+      ],
+      [],
+      [
+        "Amenities"
+      ],
+      [],
+      [
+        "Amenity 1, headline "
+      ],
+      [
+        "Short paragraph (120 characters with spaces)"
+      ],
+      [
+        "Amenity 2, headline"
+      ],
+      [
+        "Short paragraph (120 characters with spaces)"
+      ],
+      [
+        "Amenity 3, headline"
+      ],
+      [
+        "Short paragraph (120 characters with spaces)"
+      ],
+      [
+        "Amenity 4, headline"
+      ],
+      [
+        "Short paragraph (120 characters with spaces)"
+      ],
+      [
+        "Amenity 5, headline"
+      ],
+      [
+        "Short paragraph (120 characters with spaces)"
+      ],
+      [],
+      [
+        "Economic Appeal"
+      ],
+      [],
+      [
+        "Marketing headline (3-4 words)"
+      ],
+      [],
+      [
+        "Paragraph about economic appeal of owning property in district (300 characters with spaces)"
+      ],
+      [],
+      [
+        "-"
+      ],
+      [
+        "-"
+      ],
+      [
+        "-"
+      ],
+      [],
+      [
+        "Heading:"
+      ],
+      [],
+      [
+        "Paragraph:"
+      ],
+      [],
+      [
+        "Developer Description"
+      ],
+      [],
+      [
+        "Description of the developer of the project with short paragraph of the text (maximum 300 characters with spaces) "
+      ],
+      [],
+      [
+        "Location & Advantages"
+      ],
+      [],
+      [
+        "Heading:"
+      ],
+      [],
+      [
+        "Paragraph:"
+      ],
+      [],
+      [
+        "Transport accessibility (heading)"
+      ],
+      [
+        "Short paragraph"
+      ],
+      [
+        "Nearest attractions (heading)"
+      ],
+      [
+        "Short paragraph"
+      ],
+      [
+        "Developed infrastructure (heading)"
+      ],
+      [
+        "Short paragraph"
+      ]
+    ]
+  },
+  "sobha-hartland": {
+    "name": "sobha-hartland",
+    "sheet_title": "sobha-hartland | Template",
+    "row_count": 95,
+    "field_count": 1,
+    "sections": [],
+    "fields": [
+      {
+        "row": 1,
+        "field": "EN",
+        "section": null,
+        "guideline": ""
+      }
+    ],
+    "raw_data": [
+      [
+        "",
+        "EN",
+        "RU",
+        "AR"
+      ],
+      [
+        "Title (seo):"
+      ],
+      [],
+      [
+        "Desc (seo):"
+      ],
+      [],
+      [
+        "Slug"
+      ],
+      [],
+      [
+        "Hero"
+      ],
+      [],
+      [
+        "High-Impact headline"
+      ],
+      [],
+      [
+        "3 bullet points with compelling data, numbers, %, etc."
+      ],
+      [
+        "USP 1"
+      ],
+      [
+        "USP 2"
+      ],
+      [
+        "UPS 3"
+      ],
+      [],
+      [
+        "Final two points to drive conversion eg. 'Invest starting from...' CTA, etc."
+      ],
+      [],
+      [
+        "{AED and USD}"
+      ],
+      [
+        "Starting price"
+      ],
+      [],
+      [
+        "{quarter and year}"
+      ],
+      [
+        "Handover"
+      ],
+      [],
+      [
+        "{........}"
+      ],
+      [
+        "Payment plan"
+      ],
+      [],
+      [
+        "About Section"
+      ],
+      [],
+      [
+        "Selling heading telling us about project and fueling interest in the area with seo key words: project name (80 characters maximum)"
+      ],
+      [],
+      [
+        "Short paragraph with main information about project and it’s best highlights, numbers, amenities (350 characters maximum, including spaces)"
+      ],
+      [],
+      [
+        "Best Selling Feature"
+      ],
+      [],
+      [
+        "Heading:"
+      ],
+      [],
+      [
+        "Paragraph:"
+      ],
+      [],
+      [
+        "Best Selling Feature 2"
+      ],
+      [],
+      [
+        "Heading:"
+      ],
+      [],
+      [
+        "Paragraph:"
+      ],
+      [],
+      [
+        "Advantages of Buying (+4 bullet points)"
+      ],
+      [],
+      [
+        "1 bullet point (Only heading) maximum of 4-5 words"
+      ],
+      [
+        "2 bullet point (Only heading) maximum of 4-5 words"
+      ],
+      [
+        "3 bullet point (Heading plus very short paragraph) maximum of 4-5 words"
+      ],
+      [
+        "4 bullet point maximum of 4-5 words"
+      ],
+      [],
+      [
+        "Amenities"
+      ],
+      [],
+      [
+        "Amenity 1, headline "
+      ],
+      [
+        "Short paragraph (120 characters with spaces)"
+      ],
+      [
+        "Amenity 2, headline"
+      ],
+      [
+        "Short paragraph (120 characters with spaces)"
+      ],
+      [
+        "Amenity 3, headline"
+      ],
+      [
+        "Short paragraph (120 characters with spaces)"
+      ],
+      [
+        "Amenity 4, headline"
+      ],
+      [
+        "Short paragraph (120 characters with spaces)"
+      ],
+      [
+        "Amenity 5, headline"
+      ],
+      [
+        "Short paragraph (120 characters with spaces)"
+      ],
+      [],
+      [
+        "Economic Appeal"
+      ],
+      [],
+      [
+        "Marketing headline (3-4 words)"
+      ],
+      [],
+      [
+        "Paragraph about economic appeal of owning property in district (300 characters with spaces)"
+      ],
+      [],
+      [
+        "-"
+      ],
+      [
+        "-"
+      ],
+      [
+        "-"
+      ],
+      [],
+      [
+        "Heading:"
+      ],
+      [],
+      [
+        "Paragraph:"
+      ],
+      [],
+      [
+        "Developer Description"
+      ],
+      [],
+      [
+        "Description of the developer of the project with short paragraph of the text (maximum 300 characters with spaces) "
+      ],
+      [],
+      [
+        "Location & Advantages"
+      ],
+      [],
+      [
+        "Heading:"
+      ],
+      [],
+      [
+        "Paragraph:"
+      ],
+      [],
+      [
+        "Transport accessibility (heading)"
+      ],
+      [
+        "Short paragraph"
+      ],
+      [
+        "Nearest attractions (heading)"
+      ],
+      [
+        "Short paragraph"
+      ],
+      [
+        "Developed infrastructure (heading)"
+      ],
+      [
+        "Short paragraph"
+      ]
+    ]
+  },
+  "luxury-villas-dubai.ae-2": {
+    "name": "luxury-villas-dubai.ae-2",
+    "sheet_title": "luxury-villas-dubai.ae | Template",
+    "row_count": 99,
+    "field_count": 1,
+    "sections": [],
+    "fields": [
+      {
+        "row": 1,
+        "field": "EN",
+        "section": null,
+        "guideline": ""
+      }
+    ],
+    "raw_data": [
+      [
+        "",
+        "EN",
+        "RU",
+        "AR"
+      ],
+      [
+        "Title (seo):"
+      ],
+      [],
+      [
+        "Desc (seo):"
+      ],
+      [],
+      [
+        "Slug"
+      ],
+      [],
+      [
+        "Hero"
+      ],
+      [],
+      [
+        "Headline 1 (H1 Header)"
+      ],
+      [
+        "Subheadline (H2 Header)"
+      ],
+      [],
+      [
+        "Bullet Point 1"
+      ],
+      [
+        "Bullet Point 2"
+      ],
+      [
+        "Bullet Point 3"
+      ],
+      [],
+      [
+        "H1: Invest in {the name of the project}, {the name of area}"
+      ],
+      [],
+      [
+        "Tagline: Call to action + leave an application form (about 10 words)"
+      ],
+      [],
+      [
+        "{AED and USD}"
+      ],
+      [
+        "Starting price"
+      ],
+      [],
+      [
+        "{quarter and year}"
+      ],
+      [
+        "Handover"
+      ],
+      [],
+      [
+        "{........}"
+      ],
+      [
+        "Payment plan"
+      ],
+      [],
+      [
+        "About Section"
+      ],
+      [],
+      [
+        "Selling heading telling us about project and fueling interest in the area with seo key words: project name (80 characters maximum)"
+      ],
+      [],
+      [
+        "Short paragraph with main information about project and it’s best highlights, numbers, amenities (350 characters maximum, including spaces)"
+      ],
+      [],
+      [
+        "Best Selling Feature"
+      ],
+      [],
+      [
+        "Heading:"
+      ],
+      [],
+      [
+        "Paragraph:"
+      ],
+      [],
+      [
+        "Best Selling Feature 2"
+      ],
+      [],
+      [
+        "Heading:"
+      ],
+      [],
+      [
+        "Paragraph:"
+      ],
+      [],
+      [
+        "Advantages of Buying (+4 bullet points)"
+      ],
+      [],
+      [
+        "1 bullet point (Only heading) maximum of 4-5 words"
+      ],
+      [
+        "2 bullet point (Only heading) maximum of 4-5 words"
+      ],
+      [
+        "3 bullet point (Heading plus very short paragraph) maximum of 4-5 words"
+      ],
+      [
+        "4 bullet point maximum of 4-5 words"
+      ],
+      [],
+      [
+        "Amenities"
+      ],
+      [],
+      [
+        "Amenity 1, headline "
+      ],
+      [
+        "Short paragraph (120 characters with spaces)"
+      ],
+      [
+        "Amenity 2, headline"
+      ],
+      [
+        "Short paragraph (120 characters with spaces)"
+      ],
+      [
+        "Amenity 3, headline"
+      ],
+      [
+        "Short paragraph (120 characters with spaces)"
+      ],
+      [
+        "Amenity 4, headline"
+      ],
+      [
+        "Short paragraph (120 characters with spaces)"
+      ],
+      [
+        "Amenity 5, headline"
+      ],
+      [
+        "Short paragraph (120 characters with spaces)"
+      ],
+      [],
+      [
+        "Economic Appeal"
+      ],
+      [],
+      [
+        "Marketing headline (3-4 words)"
+      ],
+      [],
+      [
+        "Paragraph about economic appeal of owning property in district (300 characters with spaces)"
+      ],
+      [],
+      [
+        "Bullet Point 1"
+      ],
+      [
+        "Bullet Point 2"
+      ],
+      [
+        "Bullet Point 3"
+      ],
+      [],
+      [
+        "Heading:"
+      ],
+      [],
+      [
+        "Paragraph:"
+      ],
+      [],
+      [
+        "Developer Description"
+      ],
+      [],
+      [
+        "Heading:"
+      ],
+      [],
+      [
+        "Description of the developer of the project with short paragraph of the text (maximum 300 characters with spaces) "
+      ],
+      [],
+      [
+        "Location & Advantages"
+      ],
+      [],
+      [
+        "Heading:"
+      ],
+      [],
+      [
+        "Paragraph:"
+      ],
+      [],
+      [
+        "Transport accessibility (heading)"
+      ],
+      [
+        "Short paragraph"
+      ],
+      [
+        "Nearest attractions (heading)"
+      ],
+      [
+        "Short paragraph"
+      ],
+      [
+        "Developed infrastructure (heading)"
+      ],
+      [
+        "Short paragraph"
+      ]
+    ]
+  },
+  "tilal-al-ghaf": {
+    "name": "tilal-al-ghaf",
+    "sheet_title": "tilal-al-ghaf | Template",
+    "row_count": 90,
+    "field_count": 1,
+    "sections": [],
+    "fields": [
+      {
+        "row": 1,
+        "field": "EN",
+        "section": null,
+        "guideline": ""
+      }
+    ],
+    "raw_data": [
+      [
+        "",
+        "EN",
+        "RU",
+        "AR"
+      ],
+      [
+        "Title (seo):"
+      ],
+      [],
+      [
+        "Desc (seo):"
+      ],
+      [],
+      [
+        "Slug"
+      ],
+      [],
+      [
+        "Hero"
+      ],
+      [],
+      [
+        "H1: Invest in {the name of the project}, {the name of area}"
+      ],
+      [],
+      [
+        "Tagline: Call to action + leave an application form (about 10 words)"
+      ],
+      [],
+      [
+        "{AED and USD}"
+      ],
+      [
+        "Starting price"
+      ],
+      [],
+      [
+        "{quarter and year}"
+      ],
+      [
+        "Handover"
+      ],
+      [],
+      [
+        "{........}"
+      ],
+      [
+        "Payment plan"
+      ],
+      [],
+      [
+        "About Section"
+      ],
+      [],
+      [
+        "Selling heading telling us about project and fueling interest in the area with seo key words: project name (80 characters maximum)"
+      ],
+      [],
+      [
+        "Short paragraph with main information about project and it’s best highlights, numbers, amenities (350 characters maximum, including spaces)"
+      ],
+      [],
+      [
+        "Best Selling Feature"
+      ],
+      [],
+      [
+        "Heading:"
+      ],
+      [],
+      [
+        "Paragraph:"
+      ],
+      [],
+      [
+        "Best Selling Feature 2"
+      ],
+      [],
+      [
+        "Heading:"
+      ],
+      [],
+      [
+        "Paragraph:"
+      ],
+      [],
+      [
+        "Advantages of Buying (+4 bullet points)"
+      ],
+      [],
+      [
+        "1 bullet point (Only heading) maximum of 4-5 words"
+      ],
+      [
+        "2 bullet point (Only heading) maximum of 4-5 words"
+      ],
+      [
+        "3 bullet point (Heading plus very short paragraph) maximum of 4-5 words"
+      ],
+      [
+        "4 bullet point maximum of 4-5 words"
+      ],
+      [],
+      [
+        "Amenities"
+      ],
+      [],
+      [
+        "Amenity 1, headline "
+      ],
+      [
+        "Short paragraph (120 characters with spaces)"
+      ],
+      [
+        "Amenity 2, headline"
+      ],
+      [
+        "Short paragraph (120 characters with spaces)"
+      ],
+      [
+        "Amenity 3, headline"
+      ],
+      [
+        "Short paragraph (120 characters with spaces)"
+      ],
+      [
+        "Amenity 4, headline"
+      ],
+      [
+        "Short paragraph (120 characters with spaces)"
+      ],
+      [
+        "Amenity 5, headline"
+      ],
+      [
+        "Short paragraph (120 characters with spaces)"
+      ],
+      [],
+      [
+        "Economic Appeal"
+      ],
+      [],
+      [
+        "Marketing headline (3-4 words)"
+      ],
+      [],
+      [
+        "Paragraph about economic appeal of owning property in district (300 characters with spaces)"
+      ],
+      [],
+      [
+        "-"
+      ],
+      [
+        "-"
+      ],
+      [
+        "-"
+      ],
+      [],
+      [
+        "Heading:"
+      ],
+      [],
+      [
+        "Paragraph:"
+      ],
+      [],
+      [
+        "Developer Description"
+      ],
+      [],
+      [
+        "Description of the developer of the project with short paragraph of the text (maximum 300 characters with spaces) "
+      ],
+      [],
+      [
+        "Location & Advantages"
+      ],
+      [],
+      [
+        "Heading:"
+      ],
+      [],
+      [
+        "Paragraph:"
+      ],
+      [],
+      [
+        "Transport accessibility (heading)"
+      ],
+      [
+        "Short paragraph"
+      ],
+      [
+        "Nearest attractions (heading)"
+      ],
+      [
+        "Short paragraph"
+      ],
+      [
+        "Developed infrastructure (heading)"
+      ],
+      [
+        "Short paragraph"
+      ]
+    ]
+  },
+  "urban-luxury.penthouse.ae": {
+    "name": "urban-luxury.penthouse.ae",
+    "sheet_title": "urban-luxury.penthouse.ae | template",
+    "row_count": 80,
+    "field_count": 33,
+    "sections": [],
+    "fields": [
+      {
+        "row": 1,
+        "field": "EXAMPLE",
+        "section": null,
+        "guideline": ""
+      },
+      {
+        "row": 10,
+        "field": "Invest in Eden House Dubai Hills, Dubai Hills Estate, Dubai",
+        "section": null,
+        "guideline": "H1 SEO: Invest in {the name of the project}, {the name of area}"
+      },
+      {
+        "row": 11,
+        "field": "Invest in Eden House Dubai Hills",
+        "section": null,
+        "guideline": "H1 Form"
+      },
+      {
+        "row": 13,
+        "field": "Eden House Dubai Hills",
+        "section": null,
+        "guideline": "Project name"
+      },
+      {
+        "row": 14,
+        "field": "Register your interest",
+        "section": null,
+        "guideline": "CTA (30ch)"
+      },
+      {
+        "row": 18,
+        "field": "About Eden House Dubai Hills",
+        "section": null,
+        "guideline": "About project (30 ch)"
+      },
+      {
+        "row": 20,
+        "field": "Elite 5-Bedroom Villas in Dubai Hills Estate",
+        "section": null,
+        "guideline": "H2 (40-50ch)"
+      },
+      {
+        "row": 22,
+        "field": "Eden House Dubai Hills presents an exclusive collection of 5-bedroom villas designed by renowned Hopkins Architects. Set within Dubai Hills Estate's verdant landscapes, these masterfully crafted residences span up to 7,820 sq. ft on generous plots reaching 10,969 sq. ft. Each villa features private gardens, pools, elevators, and premium finishes, complemented by world-class community amenities.",
+        "section": null,
+        "guideline": "text (400ch)"
+      },
+      {
+        "row": 36,
+        "field": "Crafted by World-Renowned Hopkins Architects",
+        "section": null,
+        "guideline": "H2 (40-50ch)"
+      },
+      {
+        "row": 38,
+        "field": "Eden House Dubai Hills bears the signature excellence of Hopkins Architects, a globally acclaimed architectural firm known for creating timeless designs. Their masterful approach combines contemporary aesthetics with sustainable principles, ensuring each villa stands as a testament to architectural brilliance.",
+        "section": null,
+        "guideline": "text (400ch)"
+      },
+      {
+        "row": 40,
+        "field": "Living in Nature's Paradise",
+        "section": null,
+        "guideline": "title (30ch)"
+      },
+      {
+        "row": 42,
+        "field": "Eden House Dubai Hills is nestled within Dubai Hills Estate's lush landscapes, offering residents a rare connection with nature.",
+        "section": null,
+        "guideline": "desc (100ch)"
+      },
+      {
+        "row": 44,
+        "field": "Private Garden Retreats",
+        "section": null,
+        "guideline": "title (30ch)"
+      },
+      {
+        "row": 46,
+        "field": "Each villa features meticulously landscaped private gardens creating personal outdoor sanctuaries.",
+        "section": null,
+        "guideline": "desc (100ch)"
+      },
+      {
+        "row": 48,
+        "field": "Panoramic Rooftop Views",
+        "section": null,
+        "guideline": "title (30ch)"
+      },
+      {
+        "row": 50,
+        "field": "Select villas offer stunning rooftop terraces overlooking Dubai's iconic skyline.",
+        "section": null,
+        "guideline": "desc (100ch)"
+      },
+      {
+        "row": 52,
+        "field": "And also:",
+        "section": null,
+        "guideline": "title (30ch)"
+      },
+      {
+        "row": 54,
+        "field": "Swimming Pool",
+        "section": null,
+        "guideline": "point"
+      },
+      {
+        "row": 55,
+        "field": "Fitness Center",
+        "section": null,
+        "guideline": "point"
+      },
+      {
+        "row": 56,
+        "field": "Spa Center",
+        "section": null,
+        "guideline": "point"
+      },
+      {
+        "row": 57,
+        "field": "Landscaped Gardens",
+        "section": null,
+        "guideline": "point"
+      },
+      {
+        "row": 61,
+        "field": "H&H Development",
+        "section": null,
+        "guideline": "title (30ch)"
+      },
+      {
+        "row": 63,
+        "field": "H&H Development, founded in 2007, is a comprehensive real estate developer known for its \"all-in-one\" approach to asset management and luxury developments. The company specializes in high-end projects across Dubai, including Four Seasons Private Residences and Baccarat Hotel and Residences, while focusing on technical expertise, cost optimization, and innovative design to create value for investors.",
+        "section": null,
+        "guideline": "text (400ch)"
+      },
+      {
+        "row": 65,
+        "field": "Premium Dubai Hills Estate Address",
+        "section": null,
+        "guideline": "H2 (40-50ch)"
+      },
+      {
+        "row": 67,
+        "field": "Transport Accessibility",
+        "section": null,
+        "guideline": "title (30ch)"
+      },
+      {
+        "row": 68,
+        "field": "Located adjacent to Al Khail Road, Eden House Dubai Hills offers 20-minute access to Downtown Dubai and Business Bay, with Dubai International Airport just 25 minutes away.",
+        "section": null,
+        "guideline": "desc (180ch)"
+      },
+      {
+        "row": 69,
+        "field": "Nearest Attractions",
+        "section": null,
+        "guideline": "title (30ch)"
+      },
+      {
+        "row": 70,
+        "field": "Minutes from Dubai Hills Golf Club's 18-hole championship course, Dubai Hills Mall with 650+ shops, and Dubai Hills Park - the longest park in Dubai's residential communities.",
+        "section": null,
+        "guideline": "desc (180ch)"
+      },
+      {
+        "row": 71,
+        "field": "Developed Infrastructure",
+        "section": null,
+        "guideline": "title (30ch)"
+      },
+      {
+        "row": 72,
+        "field": "Premium educational facilities including GEMS International School, GEMS Wellington Academy, and King's College Hospital are within a 10-minute drive.",
+        "section": null,
+        "guideline": "desc (180ch)"
+      },
+      {
+        "row": 76,
+        "field": "Premium Location Appeal",
+        "section": null,
+        "guideline": "H2 (40-50ch)"
+      },
+      {
+        "row": 78,
+        "field": "Dubai Hills Estate offers incredible connectivity to Dubai's key destinations. The community enjoys a strategic location adjacent to Al Khail Road, providing swift access to Dubai's business and leisure hubs. The development's limited collection of villas, designed by Hopkins Architects, ensures exclusivity and value appreciation. With 5-bedroom villas in Dubai Hills Estate commanding annual rents of AED 320K (USD 87K), investors can expect strong returns backed by growing demand for luxury family homes.",
+        "section": null,
+        "guideline": ""
+      },
+      {
+        "row": 80,
+        "field": "Eden House villa ownership provides eligibility for Dubai's 10-year Golden Visa, extending to family members and household staff. This grants comprehensive benefits including Emirates ID, banking access, and streamlined government services - enabling seamless access to Dubai's lifestyle amenities and essential services.",
+        "section": null,
+        "guideline": ""
+      }
+    ],
+    "raw_data": [
+      [
+        "",
+        "EXAMPLE",
+        "EN",
+        "RU",
+        "AR"
+      ],
+      [
+        "Title (seo):"
+      ],
+      [],
+      [
+        "Desc (seo):"
+      ],
+      [],
+      [
+        "Slug"
+      ],
+      [],
+      [
+        "Hero"
+      ],
+      [],
+      [
+        "H1 SEO: Invest in {the name of the project}, {the name of area}",
+        "Invest in Eden House Dubai Hills, Dubai Hills Estate, Dubai"
+      ],
+      [
+        "H1 Form",
+        "Invest in Eden House Dubai Hills"
+      ],
+      [],
+      [
+        "Project name",
+        "Eden House Dubai Hills"
+      ],
+      [
+        "CTA (30ch)",
+        "Register your interest"
+      ],
+      [],
+      [
+        "About"
+      ],
+      [],
+      [
+        "About project (30 ch)",
+        "About Eden House Dubai Hills"
+      ],
+      [],
+      [
+        "H2 (40-50ch)",
+        "Elite 5-Bedroom Villas in Dubai Hills Estate"
+      ],
+      [],
+      [
+        "text (400ch)",
+        "Eden House Dubai Hills presents an exclusive collection of 5-bedroom villas designed by renowned Hopkins Architects. Set within Dubai Hills Estate's verdant landscapes, these masterfully crafted residences span up to 7,820 sq. ft on generous plots reaching 10,969 sq. ft. Each villa features private gardens, pools, elevators, and premium finishes, complemented by world-class community amenities."
+      ],
+      [],
+      [
+        "Starting price"
+      ],
+      [],
+      [
+        "Location"
+      ],
+      [],
+      [
+        "Payment plan"
+      ],
+      [],
+      [
+        "Handover"
+      ],
+      [],
+      [
+        "Bedrooms"
+      ],
+      [],
+      [],
+      [],
+      [
+        "H2 (40-50ch)",
+        "Crafted by World-Renowned Hopkins Architects"
+      ],
+      [],
+      [
+        "text (400ch)",
+        "Eden House Dubai Hills bears the signature excellence of Hopkins Architects, a globally acclaimed architectural firm known for creating timeless designs. Their masterful approach combines contemporary aesthetics with sustainable principles, ensuring each villa stands as a testament to architectural brilliance."
+      ],
+      [
+        "Bullet points:"
+      ],
+      [
+        "title (30ch)",
+        "Living in Nature's Paradise"
+      ],
+      [],
+      [
+        "desc (100ch)",
+        "Eden House Dubai Hills is nestled within Dubai Hills Estate's lush landscapes, offering residents a rare connection with nature."
+      ],
+      [],
+      [
+        "title (30ch)",
+        "Private Garden Retreats"
+      ],
+      [],
+      [
+        "desc (100ch)",
+        "Each villa features meticulously landscaped private gardens creating personal outdoor sanctuaries."
+      ],
+      [],
+      [
+        "title (30ch)",
+        "Panoramic Rooftop Views"
+      ],
+      [],
+      [
+        "desc (100ch)",
+        "Select villas offer stunning rooftop terraces overlooking Dubai's iconic skyline."
+      ],
+      [],
+      [
+        "title (30ch)",
+        "And also:"
+      ],
+      [],
+      [
+        "point",
+        "Swimming Pool"
+      ],
+      [
+        "point",
+        "Fitness Center"
+      ],
+      [
+        "point",
+        "Spa Center"
+      ],
+      [
+        "point",
+        "Landscaped Gardens"
+      ],
+      [],
+      [
+        "Developer"
+      ],
+      [],
+      [
+        "title (30ch)",
+        "H&H Development"
+      ],
+      [],
+      [
+        "text (400ch)",
+        "H&H Development, founded in 2007, is a comprehensive real estate developer known for its \"all-in-one\" approach to asset management and luxury developments. The company specializes in high-end projects across Dubai, including Four Seasons Private Residences and Baccarat Hotel and Residences, while focusing on technical expertise, cost optimization, and innovative design to create value for investors."
+      ],
+      [],
+      [
+        "H2 (40-50ch)",
+        "Premium Dubai Hills Estate Address"
+      ],
+      [],
+      [
+        "title (30ch)",
+        "Transport Accessibility"
+      ],
+      [
+        "desc (180ch)",
+        "Located adjacent to Al Khail Road, Eden House Dubai Hills offers 20-minute access to Downtown Dubai and Business Bay, with Dubai International Airport just 25 minutes away."
+      ],
+      [
+        "title (30ch)",
+        "Nearest Attractions"
+      ],
+      [
+        "desc (180ch)",
+        "Minutes from Dubai Hills Golf Club's 18-hole championship course, Dubai Hills Mall with 650+ shops, and Dubai Hills Park - the longest park in Dubai's residential communities."
+      ],
+      [
+        "title (30ch)",
+        "Developed Infrastructure"
+      ],
+      [
+        "desc (180ch)",
+        "Premium educational facilities including GEMS International School, GEMS Wellington Academy, and King's College Hospital are within a 10-minute drive."
+      ],
+      [],
+      [
+        "Location"
+      ],
+      [],
+      [
+        "H2 (40-50ch)",
+        "Premium Location Appeal"
+      ],
+      [],
+      [
+        "",
+        "Dubai Hills Estate offers incredible connectivity to Dubai's key destinations. The community enjoys a strategic location adjacent to Al Khail Road, providing swift access to Dubai's business and leisure hubs. The development's limited collection of villas, designed by Hopkins Architects, ensures exclusivity and value appreciation. With 5-bedroom villas in Dubai Hills Estate commanding annual rents of AED 320K (USD 87K), investors can expect strong returns backed by growing demand for luxury family homes."
+      ],
+      [],
+      [
+        "",
+        "Eden House villa ownership provides eligibility for Dubai's 10-year Golden Visa, extending to family members and household staff. This grants comprehensive benefits including Emirates ID, banking access, and streamlined government services - enabling seamless access to Dubai's lifestyle amenities and essential services."
+      ]
+    ]
+  },
+  "ras-al-khaimah-properties.ae": {
+    "name": "ras-al-khaimah-properties.ae",
+    "sheet_title": "ras-al-khaimah-properties.ae | Template",
+    "row_count": 129,
+    "field_count": 1,
+    "sections": [],
+    "fields": [
+      {
+        "row": 1,
+        "field": "EN",
+        "section": null,
+        "guideline": ""
+      }
+    ],
+    "raw_data": [
+      [
+        "",
+        "EN",
+        "RU",
+        "AR"
+      ],
+      [
+        "Title (seo):"
+      ],
+      [],
+      [
+        "Desc (seo):"
+      ],
+      [],
+      [
+        "Slug"
+      ],
+      [],
+      [
+        "Главный экран (Hero)"
+      ],
+      [
+        "H1 ≈ 50-60 символов"
+      ],
+      [],
+      [
+        "Краткое описание (paragraph) ≈ 70-80 символов"
+      ],
+      [],
+      [
+        "Bullet Point 1"
+      ],
+      [
+        "Bullet Point 2"
+      ],
+      [
+        "Bullet Point 3"
+      ],
+      [],
+      [
+        "Starting Price"
+      ],
+      [
+        "Payment Plan"
+      ],
+      [
+        "Handover"
+      ],
+      [],
+      [
+        "title-3"
+      ],
+      [
+        "desc-3"
+      ],
+      [],
+      [
+        "О районе (About area)"
+      ],
+      [
+        "H2 \"About ... [project name]\""
+      ],
+      [],
+      [
+        "H3 (subtitle) ≈ 60-80 cимволов"
+      ],
+      [],
+      [
+        "Краткое описание (paragraph) ≈ 150-200 символов"
+      ],
+      [],
+      [
+        "Преимущества"
+      ],
+      [
+        "3 преимущества"
+      ],
+      [
+        "Subtitle ≈ 40-80 cимволов"
+      ],
+      [
+        "Краткое описание (paragraph) ≈ 100-200 символов"
+      ],
+      [],
+      [
+        "Subtitle ≈ 40-80 cимволов"
+      ],
+      [
+        "Краткое описание (paragraph) ≈ 100-200 символов"
+      ],
+      [],
+      [
+        "Subtitle ≈ 40-80 cимволов"
+      ],
+      [
+        "amenities"
+      ],
+      [],
+      [
+        "CTA ≈ 15-25 символов"
+      ],
+      [],
+      [
+        "Payment Plan"
+      ],
+      [
+        "Описание к каждому плану платежей"
+      ],
+      [],
+      [
+        "H3 (subtitle) ≈ 60-80 cимволов"
+      ],
+      [],
+      [
+        "Статический блок (поддержка после сдачи)"
+      ],
+      [],
+      [
+        "Subtitle ≈ 40-80 cимволов"
+      ],
+      [],
+      [
+        "Краткое описание (paragraph) ≈ 100-200 символов"
+      ],
+      [
+        "Краткое описание (paragraph) ≈ 100-200 символов"
+      ],
+      [
+        "Краткое описание (paragraph) ≈ 100-200 символов"
+      ],
+      [],
+      [
+        "Amenities (Особенности, утп)"
+      ],
+      [
+        "3-5 главных особенности"
+      ],
+      [
+        "Subtitle ≈ 40-80 cимволов"
+      ],
+      [
+        "Краткое описание (paragraph) ≈ 100-200 символов"
+      ],
+      [],
+      [
+        "Subtitle ≈ 40-80 cимволов"
+      ],
+      [
+        "Краткое описание (paragraph) ≈ 100-200 символов"
+      ],
+      [],
+      [
+        "Subtitle ≈ 40-80 cимволов"
+      ],
+      [
+        "Краткое описание (paragraph) ≈ 100-200 символов"
+      ],
+      [],
+      [
+        "Subtitle ≈ 40-80 cимволов"
+      ],
+      [
+        "Краткое описание (paragraph) ≈ 100-200 символов"
+      ],
+      [],
+      [
+        "Subtitle ≈ 40-80 cимволов"
+      ],
+      [
+        "Краткое описание (paragraph) ≈ 100-200 символов"
+      ],
+      [],
+      [
+        "Экономическая привлекательность "
+      ],
+      [
+        "H2 \"Economic appeal\" (seo статичный)"
+      ],
+      [],
+      [
+        "H3 (subtitle) ≈ 40-80 cимволов"
+      ],
+      [
+        "Краткое описание (paragraph) ≈ 250-400 символов"
+      ],
+      [],
+      [
+        "Расположение"
+      ],
+      [
+        "H2 \"Location & Advantages\" (seo статичный)"
+      ],
+      [
+        "H3 (subtitle) ≈ 40-80 cимволов"
+      ],
+      [
+        "Краткое описание (paragraph) ≈ 250-400 символов"
+      ],
+      [],
+      [
+        "Social Facilities"
+      ],
+      [
+        "Краткое описание (paragraph) ≈ 100-300 символов"
+      ],
+      [],
+      [
+        "Название локации 1 + Время в минутах 1"
+      ],
+      [],
+      [],
+      [
+        "Название локации 2 + Время в минатах 2"
+      ],
+      [],
+      [],
+      [
+        "Название локации 3 + Время в минатах 3"
+      ],
+      [],
+      [
+        "Education & Medicine"
+      ],
+      [
+        "Краткое описание (paragraph) ≈ 100-300 символов"
+      ],
+      [],
+      [
+        "Название локации 1 + Время в минутах 1"
+      ],
+      [],
+      [],
+      [
+        "Название локации 2 + Время в минатах 2"
+      ],
+      [],
+      [],
+      [
+        "Название локации 3 + Время в минатах 3"
+      ],
+      [],
+      [
+        "Culture"
+      ],
+      [
+        "Краткое описание (paragraph) ≈ 100-300 символов"
+      ],
+      [],
+      [
+        "Название локации 1 + Время в минутах 1"
+      ],
+      [],
+      [],
+      [
+        "Название локации 2 + Время в минатах 2"
+      ],
+      [],
+      [],
+      [
+        "Название локации 3 + Время в минатах 3"
+      ],
+      [],
+      [
+        "О застройщике"
+      ],
+      [
+        "H2 \"About ... [developer name]\""
+      ],
+      [
+        "H3 (subtitle) ≈ 60-80 cимволов (опционально, можно без заголовка)"
+      ],
+      [
+        "Краткое описание (paragraph) ≈ 150-250 символов"
+      ],
+      [],
+      [
+        "FAQ "
+      ],
+      [
+        "H2 – FAQ"
+      ],
+      [],
+      [
+        "Вопрос – 60-80 cимволов / Ответ – до 200 символов (от 3 до 6, утвердить с руководителем)"
+      ],
+      [],
+      [
+        "Вопрос"
+      ],
+      [
+        "Ответ"
+      ]
+    ]
+  },
+  "saudi-estates.com": {
+    "name": "saudi-estates.com",
+    "sheet_title": "saudi-estates.com | Template",
+    "row_count": 136,
+    "field_count": 1,
+    "sections": [],
+    "fields": [
+      {
+        "row": 1,
+        "field": "EN",
+        "section": null,
+        "guideline": ""
+      }
+    ],
+    "raw_data": [
+      [
+        "",
+        "EN",
+        "RU",
+        "AR"
+      ],
+      [
+        "Title (seo):"
+      ],
+      [],
+      [
+        "Desc (seo):"
+      ],
+      [],
+      [
+        "Slug"
+      ],
+      [],
+      [
+        "Главный экран (Hero)"
+      ],
+      [
+        "H1 ≈ 50-60 символов"
+      ],
+      [],
+      [
+        "Краткое описание (paragraph) ≈ 70-80 символов"
+      ],
+      [],
+      [
+        "Особенности (3 тезиса, title ≈ 15-30 символов, desc – до 60 символов)"
+      ],
+      [],
+      [
+        "title-1 (экономичесакий показатель)"
+      ],
+      [
+        "desc-1"
+      ],
+      [],
+      [
+        "title-2"
+      ],
+      [
+        "desc-2"
+      ],
+      [],
+      [
+        "title-3"
+      ],
+      [
+        "desc-3"
+      ],
+      [],
+      [
+        "О районе (About area)"
+      ],
+      [
+        "H2 \"About ... [project name]\""
+      ],
+      [],
+      [
+        "H3 (subtitle) ≈ 60-80 cимволов"
+      ],
+      [],
+      [
+        "Краткое описание (paragraph) ≈ 150-200 символов"
+      ],
+      [],
+      [
+        "Project details"
+      ],
+      [
+        "Project Passport (Add data table)"
+      ],
+      [],
+      [
+        "Developer"
+      ],
+      [],
+      [
+        "Location"
+      ],
+      [],
+      [
+        "Payment Plan"
+      ],
+      [],
+      [
+        "Area"
+      ],
+      [],
+      [
+        "Property Type"
+      ],
+      [],
+      [
+        "Экономическая привлекательность "
+      ],
+      [
+        "H2 \"Economic appeal\" (seo статичный)"
+      ],
+      [],
+      [
+        "H3 (subtitle) ≈ 40-80 cимволов"
+      ],
+      [
+        "Краткое описание (paragraph) ≈ 250-400 символов"
+      ],
+      [],
+      [
+        "Payment Plan"
+      ],
+      [
+        "Описание к каждому плану платежей"
+      ],
+      [],
+      [
+        "H3 (subtitle) ≈ 60-80 cимволов"
+      ],
+      [],
+      [
+        "Статический блок (поддержка после сдачи)"
+      ],
+      [],
+      [
+        "Subtitle ≈ 40-80 cимволов"
+      ],
+      [],
+      [
+        "Краткое описание (paragraph) ≈ 100-200 символов"
+      ],
+      [
+        "Краткое описание (paragraph) ≈ 100-200 символов"
+      ],
+      [
+        "Краткое описание (paragraph) ≈ 100-200 символов"
+      ],
+      [],
+      [
+        "Преимущества"
+      ],
+      [
+        "3 преимущества"
+      ],
+      [
+        "Subtitle ≈ 40-80 cимволов"
+      ],
+      [
+        "Краткое описание (paragraph) ≈ 100-200 символов"
+      ],
+      [],
+      [
+        "Subtitle ≈ 40-80 cимволов"
+      ],
+      [
+        "Краткое описание (paragraph) ≈ 100-200 символов"
+      ],
+      [],
+      [
+        "Subtitle ≈ 40-80 cимволов"
+      ],
+      [
+        "amenities"
+      ],
+      [],
+      [
+        "CTA ≈ 15-25 символов"
+      ],
+      [],
+      [
+        "Amenities (Особенности, утп)"
+      ],
+      [
+        "3-5 главных особенности"
+      ],
+      [
+        "Subtitle ≈ 40-80 cимволов"
+      ],
+      [
+        "Краткое описание (paragraph) ≈ 100-200 символов"
+      ],
+      [],
+      [
+        "Subtitle ≈ 40-80 cимволов"
+      ],
+      [
+        "Краткое описание (paragraph) ≈ 100-200 символов"
+      ],
+      [],
+      [
+        "Subtitle ≈ 40-80 cимволов"
+      ],
+      [
+        "Краткое описание (paragraph) ≈ 100-200 символов"
+      ],
+      [],
+      [
+        "Subtitle ≈ 40-80 cимволов"
+      ],
+      [
+        "Краткое описание (paragraph) ≈ 100-200 символов"
+      ],
+      [],
+      [
+        "Subtitle ≈ 40-80 cимволов"
+      ],
+      [
+        "Краткое описание (paragraph) ≈ 100-200 символов"
+      ],
+      [],
+      [
+        "О застройщике"
+      ],
+      [
+        "H2 \"About ... [developer name]\""
+      ],
+      [
+        "H3 (subtitle) ≈ 60-80 cимволов (опционально, можно без заголовка)"
+      ],
+      [
+        "Краткое описание (paragraph) ≈ 150-250 символов"
+      ],
+      [],
+      [
+        "Расположение"
+      ],
+      [
+        "H2 \"Location & Advantages\" (seo статичный)"
+      ],
+      [
+        "H3 (subtitle) ≈ 40-80 cимволов"
+      ],
+      [
+        "Краткое описание (paragraph) ≈ 250-400 символов"
+      ],
+      [],
+      [
+        "Social Facilities"
+      ],
+      [
+        "Краткое описание (paragraph) ≈ 100-300 символов"
+      ],
+      [],
+      [
+        "Название локации 1 + Время в минутах 1"
+      ],
+      [],
+      [],
+      [
+        "Название локации 2 + Время в минатах 2"
+      ],
+      [],
+      [],
+      [
+        "Название локации 3 + Время в минатах 3"
+      ],
+      [],
+      [],
+      [],
+      [
+        "Education & Medicine"
+      ],
+      [
+        "Краткое описание (paragraph) ≈ 100-300 символов"
+      ],
+      [],
+      [
+        "Название локации 1 + Время в минутах 1"
+      ],
+      [],
+      [],
+      [
+        "Название локации 2 + Время в минатах 2"
+      ],
+      [],
+      [],
+      [
+        "Название локации 3 + Время в минатах 3"
+      ],
+      [],
+      [
+        "Culture"
+      ],
+      [
+        "Краткое описание (paragraph) ≈ 100-300 символов"
+      ],
+      [],
+      [
+        "Название локации 1 + Время в минутах 1"
+      ],
+      [],
+      [],
+      [
+        "Название локации 2 + Время в минатах 2"
+      ],
+      [],
+      [],
+      [
+        "Название локации 3 + Время в минатах 3"
+      ]
+    ]
+  },
+  "dubai-creek-living.ae": {
+    "name": "dubai-creek-living.ae",
+    "sheet_title": "Sheet1",
+    "row_count": 101,
+    "field_count": 1,
+    "sections": [],
+    "fields": [
+      {
+        "row": 1,
+        "field": "eng",
+        "section": null,
+        "guideline": "Template"
+      }
+    ],
+    "raw_data": [
+      [
+        "Template",
+        "eng",
+        "ru",
+        "ar"
+      ],
+      [
+        "Title: \"New project by {the name of developer} in {the name of area}, {the name of the emirate} — {the name of the project} | Luxury real estate for sale\n\""
+      ],
+      [],
+      [
+        "Description: {Types of properties} in {the name of the project}, {the name of area}, {the name of the emirate} by {the name of developer} with favourable purchase terms and high return on investment."
+      ],
+      [],
+      [
+        "H1 SEO: Invest in {the name of the project}, {the name of area}"
+      ],
+      [],
+      [],
+      [
+        "Hero screen"
+      ],
+      [
+        "High-Impact headline"
+      ],
+      [],
+      [
+        "3 bullet points with compelling data, numbers, %, etc."
+      ],
+      [
+        "USP 1"
+      ],
+      [
+        "USP 2"
+      ],
+      [
+        "UPS 3"
+      ],
+      [],
+      [
+        "Final two points to drive conversion eg. 'Invest starting from...' CTA, etc."
+      ],
+      [],
+      [],
+      [
+        "* Source: as required"
+      ],
+      [],
+      [],
+      [],
+      [
+        "{AED and USD}"
+      ],
+      [
+        "Starting price"
+      ],
+      [],
+      [
+        "{quarter and year}"
+      ],
+      [
+        "Handover"
+      ],
+      [],
+      [
+        "{........}"
+      ],
+      [
+        "Payment plan"
+      ],
+      [],
+      [
+        "About Section"
+      ],
+      [],
+      [
+        "Selling heading telling us about project and fueling interest in the area with seo key words: project name (80 characters maximum)"
+      ],
+      [],
+      [
+        "Short paragraph with main information about project and it’s best highlights, numbers, amenities (350 characters maximum, including spaces)"
+      ],
+      [],
+      [
+        "Best Selling Feature"
+      ],
+      [],
+      [
+        "Heading:"
+      ],
+      [],
+      [
+        "Paragraph:"
+      ],
+      [],
+      [
+        "Best Selling Feature 2"
+      ],
+      [],
+      [
+        "Heading:"
+      ],
+      [],
+      [
+        "Paragraph:"
+      ],
+      [],
+      [
+        "Advantages of Buying (+4 bullet points)"
+      ],
+      [],
+      [
+        "1 bullet point (Only heading) maximum of 4-5 words"
+      ],
+      [
+        "2 bullet point (Only heading) maximum of 4-5 words"
+      ],
+      [
+        "3 bullet point (Heading plus very short paragraph) maximum of 4-5 words"
+      ],
+      [],
+      [
+        "4 bullet point maximum of 4-5 words (location)"
+      ],
+      [],
+      [],
+      [
+        "Amenities"
+      ],
+      [],
+      [
+        "Amenity 1, headline "
+      ],
+      [
+        "Short paragraph (120 characters with spaces)"
+      ],
+      [
+        "Amenity 2, headline"
+      ],
+      [
+        "Short paragraph (120 characters with spaces)"
+      ],
+      [
+        "Amenity 3, headline"
+      ],
+      [
+        "Short paragraph (120 characters with spaces)"
+      ],
+      [
+        "Amenity 4, headline"
+      ],
+      [
+        "Short paragraph (120 characters with spaces)"
+      ],
+      [
+        "Amenity 5, headline"
+      ],
+      [
+        "Short paragraph (120 characters with spaces)"
+      ],
+      [],
+      [
+        "Economic Appeal"
+      ],
+      [
+        "Marketing headline (3-4 words)"
+      ],
+      [],
+      [
+        "Paragraph about economic appeal of owning property in district (300 characters with spaces)"
+      ],
+      [],
+      [
+        "-"
+      ],
+      [
+        "-"
+      ],
+      [
+        "-"
+      ],
+      [],
+      [
+        "Heading:"
+      ],
+      [],
+      [
+        "Paragraph:"
+      ],
+      [],
+      [
+        "Developer Description"
+      ],
+      [],
+      [
+        "Description of the developer of the project with short paragraph of the text (maximum 300 characters with spaces) "
+      ],
+      [],
+      [
+        "Location & Advantages"
+      ],
+      [],
+      [
+        "Heading:"
+      ],
+      [],
+      [
+        "Paragraph:"
+      ],
+      [],
+      [
+        "Transport accessibility (heading)"
+      ],
+      [
+        "Short paragraph"
+      ],
+      [
+        "Nearest attractions (heading)"
+      ],
+      [
+        "Short paragraph"
+      ],
+      [
+        "Developed infrastructure (heading)"
+      ],
+      [
+        "Short paragraph"
+      ]
+    ]
+  },
+  "urbanvillas-dubaisouth.ae": {
+    "name": "urbanvillas-dubaisouth.ae",
+    "sheet_title": "urbanvillas-dubaisouth.ae | Template",
+    "row_count": 92,
+    "field_count": 1,
+    "sections": [],
+    "fields": [
+      {
+        "row": 1,
+        "field": "EN",
+        "section": null,
+        "guideline": ""
+      }
+    ],
+    "raw_data": [
+      [
+        "",
+        "EN",
+        "RU",
+        "AR"
+      ],
+      [
+        "Title (seo):"
+      ],
+      [],
+      [
+        "Desc (seo):"
+      ],
+      [],
+      [
+        "Slug"
+      ],
+      [],
+      [
+        "Hero"
+      ],
+      [],
+      [
+        "H1: Invest in {the name of the project}, {the name of area}"
+      ],
+      [],
+      [
+        "Tagline: Call to action + leave an application form (about 10 words)"
+      ],
+      [],
+      [
+        "{AED and USD}"
+      ],
+      [
+        "Starting price"
+      ],
+      [],
+      [
+        "{quarter and year}"
+      ],
+      [
+        "Handover"
+      ],
+      [],
+      [
+        "{........}"
+      ],
+      [
+        "Payment plan"
+      ],
+      [],
+      [
+        "About Section"
+      ],
+      [],
+      [
+        "Selling heading telling us about project and fueling interest in the area with seo key words: project name (80 characters maximum)"
+      ],
+      [],
+      [
+        "Short paragraph with main information about project and it’s best highlights, numbers, amenities (350 characters maximum, including spaces)"
+      ],
+      [],
+      [
+        "Best Selling Feature"
+      ],
+      [],
+      [
+        "Heading:"
+      ],
+      [],
+      [
+        "Paragraph:"
+      ],
+      [],
+      [
+        "Best Selling Feature 2"
+      ],
+      [],
+      [
+        "Heading:"
+      ],
+      [],
+      [
+        "Paragraph:"
+      ],
+      [],
+      [
+        "Advantages of Buying (+4 bullet points)"
+      ],
+      [],
+      [
+        "1 bullet point (Only heading) maximum of 4-5 words"
+      ],
+      [
+        "2 bullet point (Only heading) maximum of 4-5 words"
+      ],
+      [
+        "3 bullet point (Heading plus very short paragraph) maximum of 4-5 words"
+      ],
+      [
+        "4 bullet point maximum of 4-5 words"
+      ],
+      [],
+      [
+        "Amenities"
+      ],
+      [],
+      [
+        "Amenity 1, headline "
+      ],
+      [
+        "Short paragraph (120 characters with spaces)"
+      ],
+      [
+        "Amenity 2, headline"
+      ],
+      [
+        "Short paragraph (120 characters with spaces)"
+      ],
+      [
+        "Amenity 3, headline"
+      ],
+      [
+        "Short paragraph (120 characters with spaces)"
+      ],
+      [
+        "Amenity 4, headline"
+      ],
+      [
+        "Short paragraph (120 characters with spaces)"
+      ],
+      [
+        "Amenity 5, headline"
+      ],
+      [
+        "Short paragraph (120 characters with spaces)"
+      ],
+      [],
+      [
+        "Economic Appeal"
+      ],
+      [],
+      [
+        "Marketing headline (3-4 words)"
+      ],
+      [],
+      [
+        "Paragraph about economic appeal of owning property in district (300 characters with spaces)"
+      ],
+      [],
+      [
+        "-"
+      ],
+      [
+        "-"
+      ],
+      [
+        "-"
+      ],
+      [],
+      [
+        "Heading:"
+      ],
+      [],
+      [
+        "Paragraph:"
+      ],
+      [],
+      [
+        "Developer Description"
+      ],
+      [],
+      [
+        "Description of the developer of the project with short paragraph of the text (maximum 300 characters with spaces) "
+      ],
+      [],
+      [
+        "Location & Advantages"
+      ],
+      [],
+      [
+        "Heading:"
+      ],
+      [],
+      [
+        "Paragraph:"
+      ],
+      [],
+      [
+        "Transport accessibility (heading)"
+      ],
+      [
+        "Short paragraph"
+      ],
+      [
+        "Nearest attractions (heading)"
+      ],
+      [
+        "Short paragraph"
+      ],
+      [
+        "Developed infrastructure (heading)"
+      ],
+      [
+        "Short paragraph"
+      ],
+      [],
+      [
+        "FAQ (no limit)"
+      ]
+    ]
+  },
+  "dubaihills-property.ae": {
+    "name": "dubaihills-property.ae",
+    "sheet_title": "dubaihills-property.ae | Template",
+    "row_count": 90,
+    "field_count": 1,
+    "sections": [],
+    "fields": [
+      {
+        "row": 1,
+        "field": "EN",
+        "section": null,
+        "guideline": ""
+      }
+    ],
+    "raw_data": [
+      [
+        "",
+        "EN",
+        "RU",
+        "AR"
+      ],
+      [
+        "Title (seo):"
+      ],
+      [],
+      [
+        "Desc (seo):"
+      ],
+      [],
+      [
+        "Slug"
+      ],
+      [],
+      [
+        "Hero"
+      ],
+      [],
+      [
+        "H1: Invest in {the name of the project}, {the name of area}"
+      ],
+      [],
+      [
+        "Tagline: Call to action + leave an application form (about 10 words)"
+      ],
+      [],
+      [
+        "{AED and USD}"
+      ],
+      [
+        "Starting price"
+      ],
+      [],
+      [
+        "{quarter and year}"
+      ],
+      [
+        "Handover"
+      ],
+      [],
+      [
+        "{........}"
+      ],
+      [
+        "Payment plan"
+      ],
+      [],
+      [
+        "About Section"
+      ],
+      [],
+      [
+        "Selling heading telling us about project and fueling interest in the area with seo key words: project name (80 characters maximum)"
+      ],
+      [],
+      [
+        "Short paragraph with main information about project and it’s best highlights, numbers, amenities (350 characters maximum, including spaces)"
+      ],
+      [],
+      [
+        "Best Selling Feature"
+      ],
+      [],
+      [
+        "Heading:"
+      ],
+      [],
+      [
+        "Paragraph:"
+      ],
+      [],
+      [
+        "Best Selling Feature 2"
+      ],
+      [],
+      [
+        "Heading:"
+      ],
+      [],
+      [
+        "Paragraph:"
+      ],
+      [],
+      [
+        "Advantages of Buying (+4 bullet points)"
+      ],
+      [],
+      [
+        "1 bullet point (Only heading) maximum of 4-5 words"
+      ],
+      [
+        "2 bullet point (Only heading) maximum of 4-5 words"
+      ],
+      [
+        "3 bullet point (Heading plus very short paragraph) maximum of 4-5 words"
+      ],
+      [
+        "4 bullet point maximum of 4-5 words"
+      ],
+      [],
+      [
+        "Amenities"
+      ],
+      [],
+      [
+        "Amenity 1, headline "
+      ],
+      [
+        "Short paragraph (120 characters with spaces)"
+      ],
+      [
+        "Amenity 2, headline"
+      ],
+      [
+        "Short paragraph (120 characters with spaces)"
+      ],
+      [
+        "Amenity 3, headline"
+      ],
+      [
+        "Short paragraph (120 characters with spaces)"
+      ],
+      [
+        "Amenity 4, headline"
+      ],
+      [
+        "Short paragraph (120 characters with spaces)"
+      ],
+      [
+        "Amenity 5, headline"
+      ],
+      [
+        "Short paragraph (120 characters with spaces)"
+      ],
+      [],
+      [
+        "Economic Appeal"
+      ],
+      [],
+      [
+        "Marketing headline (3-4 words)"
+      ],
+      [],
+      [
+        "Paragraph about economic appeal of owning property in district (300 characters with spaces)"
+      ],
+      [],
+      [
+        "-"
+      ],
+      [
+        "-"
+      ],
+      [
+        "-"
+      ],
+      [],
+      [
+        "Heading:"
+      ],
+      [],
+      [
+        "Paragraph:"
+      ],
+      [],
+      [
+        "Developer Description"
+      ],
+      [],
+      [
+        "Description of the developer of the project with short paragraph of the text (maximum 300 characters with spaces) "
+      ],
+      [],
+      [
+        "Location & Advantages"
+      ],
+      [],
+      [
+        "Heading:"
+      ],
+      [],
+      [
+        "Paragraph:"
+      ],
+      [],
+      [
+        "Transport accessibility (heading)"
+      ],
+      [
+        "Short paragraph"
+      ],
+      [
+        "Nearest attractions (heading)"
+      ],
+      [
+        "Short paragraph"
+      ],
+      [
+        "Developed infrastructure (heading)"
+      ],
+      [
+        "Short paragraph"
+      ]
+    ]
+  },
+  "dubaislands.ae": {
+    "name": "dubaislands.ae",
+    "sheet_title": "dubaislands.ae | Template",
+    "row_count": 136,
+    "field_count": 1,
+    "sections": [],
+    "fields": [
+      {
+        "row": 1,
+        "field": "EN",
+        "section": null,
+        "guideline": ""
+      }
+    ],
+    "raw_data": [
+      [
+        "",
+        "EN",
+        "RU",
+        "AR"
+      ],
+      [
+        "Title (seo):"
+      ],
+      [],
+      [
+        "Desc (seo):"
+      ],
+      [],
+      [
+        "Slug"
+      ],
+      [],
+      [
+        "Главный экран (Hero)"
+      ],
+      [
+        "H1 ≈ 50-60 символов"
+      ],
+      [],
+      [
+        "Краткое описание (paragraph) ≈ 70-80 символов"
+      ],
+      [],
+      [
+        "Особенности (3 тезиса, title ≈ 15-30 символов, desc – до 60 символов)"
+      ],
+      [],
+      [
+        "title-1 (экономичесакий показатель)"
+      ],
+      [
+        "desc-1"
+      ],
+      [],
+      [
+        "title-2"
+      ],
+      [
+        "desc-2"
+      ],
+      [],
+      [
+        "title-3"
+      ],
+      [
+        "desc-3"
+      ],
+      [],
+      [
+        "О районе (About area)"
+      ],
+      [
+        "H2 \"About ... [project name]\""
+      ],
+      [],
+      [
+        "H3 (subtitle) ≈ 60-80 cимволов"
+      ],
+      [],
+      [
+        "Краткое описание (paragraph) ≈ 150-200 символов"
+      ],
+      [],
+      [
+        "Project details"
+      ],
+      [
+        "Project Passport (Add data table)"
+      ],
+      [],
+      [
+        "Developer"
+      ],
+      [],
+      [
+        "Location"
+      ],
+      [],
+      [
+        "Payment Plan"
+      ],
+      [],
+      [
+        "Area"
+      ],
+      [],
+      [
+        "Property Type"
+      ],
+      [],
+      [
+        "Экономическая привлекательность "
+      ],
+      [
+        "H2 \"Economic appeal\" (seo статичный)"
+      ],
+      [],
+      [
+        "H3 (subtitle) ≈ 40-80 cимволов"
+      ],
+      [
+        "Краткое описание (paragraph) ≈ 250-400 символов"
+      ],
+      [],
+      [
+        "Payment Plan"
+      ],
+      [
+        "Описание к каждому плану платежей"
+      ],
+      [],
+      [
+        "H3 (subtitle) ≈ 60-80 cимволов"
+      ],
+      [],
+      [
+        "Статический блок (поддержка после сдачи)"
+      ],
+      [],
+      [
+        "Subtitle ≈ 40-80 cимволов"
+      ],
+      [],
+      [
+        "Краткое описание (paragraph) ≈ 100-200 символов"
+      ],
+      [
+        "Краткое описание (paragraph) ≈ 100-200 символов"
+      ],
+      [
+        "Краткое описание (paragraph) ≈ 100-200 символов"
+      ],
+      [],
+      [
+        "Преимущества"
+      ],
+      [
+        "3 преимущества"
+      ],
+      [
+        "Subtitle ≈ 40-80 cимволов"
+      ],
+      [
+        "Краткое описание (paragraph) ≈ 100-200 символов"
+      ],
+      [],
+      [
+        "Subtitle ≈ 40-80 cимволов"
+      ],
+      [
+        "Краткое описание (paragraph) ≈ 100-200 символов"
+      ],
+      [],
+      [
+        "Subtitle ≈ 40-80 cимволов"
+      ],
+      [
+        "amenities"
+      ],
+      [],
+      [
+        "CTA ≈ 15-25 символов"
+      ],
+      [],
+      [
+        "Amenities (Особенности, утп)"
+      ],
+      [
+        "3-5 главных особенности"
+      ],
+      [
+        "Subtitle ≈ 40-80 cимволов"
+      ],
+      [
+        "Краткое описание (paragraph) ≈ 100-200 символов"
+      ],
+      [],
+      [
+        "Subtitle ≈ 40-80 cимволов"
+      ],
+      [
+        "Краткое описание (paragraph) ≈ 100-200 символов"
+      ],
+      [],
+      [
+        "Subtitle ≈ 40-80 cимволов"
+      ],
+      [
+        "Краткое описание (paragraph) ≈ 100-200 символов"
+      ],
+      [],
+      [
+        "Subtitle ≈ 40-80 cимволов"
+      ],
+      [
+        "Краткое описание (paragraph) ≈ 100-200 символов"
+      ],
+      [],
+      [
+        "Subtitle ≈ 40-80 cимволов"
+      ],
+      [
+        "Краткое описание (paragraph) ≈ 100-200 символов"
+      ],
+      [],
+      [
+        "О застройщике"
+      ],
+      [
+        "H2 \"About ... [developer name]\""
+      ],
+      [
+        "H3 (subtitle) ≈ 60-80 cимволов (опционально, можно без заголовка)"
+      ],
+      [
+        "Краткое описание (paragraph) ≈ 150-250 символов"
+      ],
+      [],
+      [
+        "Расположение"
+      ],
+      [
+        "H2 \"Location & Advantages\" (seo статичный)"
+      ],
+      [
+        "H3 (subtitle) ≈ 40-80 cимволов"
+      ],
+      [
+        "Краткое описание (paragraph) ≈ 250-400 символов"
+      ],
+      [],
+      [
+        "Social Facilities"
+      ],
+      [
+        "Краткое описание (paragraph) ≈ 100-300 символов"
+      ],
+      [],
+      [
+        "Название локации 1 + Время в минутах 1"
+      ],
+      [],
+      [],
+      [
+        "Название локации 2 + Время в минатах 2"
+      ],
+      [],
+      [],
+      [
+        "Название локации 3 + Время в минатах 3"
+      ],
+      [],
+      [],
+      [],
+      [
+        "Education & Medicine"
+      ],
+      [
+        "Краткое описание (paragraph) ≈ 100-300 символов"
+      ],
+      [],
+      [
+        "Название локации 1 + Время в минутах 1"
+      ],
+      [],
+      [],
+      [
+        "Название локации 2 + Время в минатах 2"
+      ],
+      [],
+      [],
+      [
+        "Название локации 3 + Время в минатах 3"
+      ],
+      [],
+      [
+        "Culture"
+      ],
+      [
+        "Краткое описание (paragraph) ≈ 100-300 символов"
+      ],
+      [],
+      [
+        "Название локации 1 + Время в минутах 1"
+      ],
+      [],
+      [],
+      [
+        "Название локации 2 + Время в минатах 2"
+      ],
+      [],
+      [],
+      [
+        "Название локации 3 + Время в минатах 3"
+      ]
+    ]
+  },
+  "city-walk-property.ae": {
+    "name": "city-walk-property.ae",
+    "sheet_title": "city-walk-property.ae | Template",
+    "row_count": 91,
+    "field_count": 1,
+    "sections": [],
+    "fields": [
+      {
+        "row": 1,
+        "field": "EN",
+        "section": null,
+        "guideline": ""
+      }
+    ],
+    "raw_data": [
+      [
+        "",
+        "EN",
+        "RU",
+        "AR"
+      ],
+      [
+        "Title (seo):"
+      ],
+      [],
+      [
+        "Desc (seo):"
+      ],
+      [],
+      [
+        "Slug"
+      ],
+      [],
+      [
+        "Hero"
+      ],
+      [],
+      [
+        "H1: Invest in {the name of the project}, {the name of area}"
+      ],
+      [],
+      [
+        "Tagline: Call to action + leave an application form (about 10 words)"
+      ],
+      [],
+      [
+        "{AED and USD}"
+      ],
+      [
+        "Starting price"
+      ],
+      [],
+      [
+        "{quarter and year}"
+      ],
+      [
+        "Handover"
+      ],
+      [],
+      [
+        "{........}"
+      ],
+      [
+        "Payment plan"
+      ],
+      [],
+      [
+        "About Section"
+      ],
+      [],
+      [
+        "Selling heading telling us about project and fueling interest in the area with seo key words: project name (80 characters maximum)"
+      ],
+      [],
+      [
+        "Short paragraph with main information about project and it’s best highlights, numbers, amenities (350 characters maximum, including spaces)"
+      ],
+      [],
+      [
+        "Best Selling Feature"
+      ],
+      [],
+      [
+        "Heading:"
+      ],
+      [],
+      [
+        "Paragraph:"
+      ],
+      [],
+      [
+        "Best Selling Feature 2"
+      ],
+      [],
+      [
+        "Heading:"
+      ],
+      [],
+      [
+        "Paragraph:"
+      ],
+      [],
+      [
+        "Advantages of Buying (+4 bullet points)"
+      ],
+      [],
+      [
+        "1 bullet point (Only heading) maximum of 4-5 words"
+      ],
+      [
+        "2 bullet point (Only heading) maximum of 4-5 words"
+      ],
+      [
+        "3 bullet point (Heading plus very short paragraph) maximum of 4-5 words"
+      ],
+      [],
+      [
+        "4 bullet point maximum of 4-5 words"
+      ],
+      [],
+      [
+        "Amenities"
+      ],
+      [],
+      [
+        "Amenity 1, headline "
+      ],
+      [
+        "Short paragraph (120 characters with spaces)"
+      ],
+      [
+        "Amenity 2, headline"
+      ],
+      [
+        "Short paragraph (120 characters with spaces)"
+      ],
+      [
+        "Amenity 3, headline"
+      ],
+      [
+        "Short paragraph (120 characters with spaces)"
+      ],
+      [
+        "Amenity 4, headline"
+      ],
+      [
+        "Short paragraph (120 characters with spaces)"
+      ],
+      [
+        "Amenity 5, headline"
+      ],
+      [
+        "Short paragraph (120 characters with spaces)"
+      ],
+      [],
+      [
+        "Economic Appeal"
+      ],
+      [],
+      [
+        "Marketing headline (3-4 words)"
+      ],
+      [],
+      [
+        "Paragraph about economic appeal of owning property in district (300 characters with spaces)"
+      ],
+      [],
+      [
+        "-"
+      ],
+      [
+        "-"
+      ],
+      [
+        "-"
+      ],
+      [],
+      [
+        "Heading:"
+      ],
+      [],
+      [
+        "Paragraph:"
+      ],
+      [],
+      [
+        "Developer Description"
+      ],
+      [],
+      [
+        "Description of the developer of the project with short paragraph of the text (maximum 300 characters with spaces) "
+      ],
+      [],
+      [
+        "Location & Advantages"
+      ],
+      [],
+      [
+        "Heading:"
+      ],
+      [],
+      [
+        "Paragraph:"
+      ],
+      [],
+      [
+        "Transport accessibility (heading)"
+      ],
+      [
+        "Short paragraph"
+      ],
+      [
+        "Nearest attractions (heading)"
+      ],
+      [
+        "Short paragraph"
+      ],
+      [
+        "Developed infrastructure (heading)"
+      ],
+      [
+        "Short paragraph"
+      ]
+    ]
+  },
+  "rashid-yachts-marina.ae": {
+    "name": "rashid-yachts-marina.ae",
+    "sheet_title": "rashid-yachts-marina.ae | Template",
+    "row_count": 91,
+    "field_count": 1,
+    "sections": [],
+    "fields": [
+      {
+        "row": 1,
+        "field": "EN",
+        "section": null,
+        "guideline": ""
+      }
+    ],
+    "raw_data": [
+      [
+        "",
+        "EN",
+        "RU",
+        "AR"
+      ],
+      [
+        "Title (seo):"
+      ],
+      [],
+      [
+        "Desc (seo):"
+      ],
+      [],
+      [
+        "Slug"
+      ],
+      [],
+      [
+        "Hero"
+      ],
+      [],
+      [
+        "H1: Invest in {the name of the project}, {the name of area}"
+      ],
+      [],
+      [
+        "Tagline: Call to action + leave an application form (about 10 words)"
+      ],
+      [],
+      [
+        "{AED and USD}"
+      ],
+      [
+        "Starting price"
+      ],
+      [],
+      [
+        "{quarter and year}"
+      ],
+      [
+        "Handover"
+      ],
+      [],
+      [
+        "{........}"
+      ],
+      [
+        "Payment plan"
+      ],
+      [],
+      [
+        "About Section"
+      ],
+      [],
+      [
+        "Selling heading telling us about project and fueling interest in the area with seo key words: project name (80 characters maximum)"
+      ],
+      [],
+      [
+        "Short paragraph with main information about project and it’s best highlights, numbers, amenities (350 characters maximum, including spaces)"
+      ],
+      [],
+      [
+        "Best Selling Feature"
+      ],
+      [],
+      [
+        "Heading:"
+      ],
+      [],
+      [
+        "Paragraph:"
+      ],
+      [],
+      [
+        "Best Selling Feature 2"
+      ],
+      [],
+      [
+        "Heading:"
+      ],
+      [],
+      [
+        "Paragraph:"
+      ],
+      [],
+      [
+        "Advantages of Buying (+4 bullet points)"
+      ],
+      [],
+      [
+        "1 bullet point (Only heading) maximum of 4-5 words"
+      ],
+      [
+        "2 bullet point (Only heading) maximum of 4-5 words"
+      ],
+      [
+        "3 bullet point (Heading plus very short paragraph) maximum of 4-5 words"
+      ],
+      [],
+      [
+        "4 bullet point maximum of 4-5 words"
+      ],
+      [],
+      [
+        "Amenities"
+      ],
+      [],
+      [
+        "Amenity 1, headline "
+      ],
+      [
+        "Short paragraph (120 characters with spaces)"
+      ],
+      [
+        "Amenity 2, headline"
+      ],
+      [
+        "Short paragraph (120 characters with spaces)"
+      ],
+      [
+        "Amenity 3, headline"
+      ],
+      [
+        "Short paragraph (120 characters with spaces)"
+      ],
+      [
+        "Amenity 4, headline"
+      ],
+      [
+        "Short paragraph (120 characters with spaces)"
+      ],
+      [
+        "Amenity 5, headline"
+      ],
+      [
+        "Short paragraph (120 characters with spaces)"
+      ],
+      [],
+      [
+        "Economic Appeal"
+      ],
+      [],
+      [
+        "Marketing headline (3-4 words)"
+      ],
+      [],
+      [
+        "Paragraph about economic appeal of owning property in district (300 characters with spaces)"
+      ],
+      [],
+      [
+        "-"
+      ],
+      [
+        "-"
+      ],
+      [
+        "-"
+      ],
+      [],
+      [
+        "Heading:"
+      ],
+      [],
+      [
+        "Paragraph:"
+      ],
+      [],
+      [
+        "Developer Description"
+      ],
+      [],
+      [
+        "Description of the developer of the project with short paragraph of the text (maximum 300 characters with spaces) "
+      ],
+      [],
+      [
+        "Location & Advantages"
+      ],
+      [],
+      [
+        "Heading:"
+      ],
+      [],
+      [
+        "Paragraph:"
+      ],
+      [],
+      [
+        "Transport accessibility (heading)"
+      ],
+      [
+        "Short paragraph"
+      ],
+      [
+        "Nearest attractions (heading)"
+      ],
+      [
+        "Short paragraph"
+      ],
+      [
+        "Developed infrastructure (heading)"
+      ],
+      [
+        "Short paragraph"
+      ]
+    ]
+  },
+  "dubaimaritime-city.ae": {
+    "name": "dubaimaritime-city.ae",
+    "sheet_title": "dubaimaritime-city.ae | Template",
+    "row_count": 136,
+    "field_count": 1,
+    "sections": [],
+    "fields": [
+      {
+        "row": 1,
+        "field": "EN",
+        "section": null,
+        "guideline": ""
+      }
+    ],
+    "raw_data": [
+      [
+        "",
+        "EN",
+        "RU",
+        "AR"
+      ],
+      [
+        "Title (seo):"
+      ],
+      [],
+      [
+        "Desc (seo):"
+      ],
+      [],
+      [
+        "Slug"
+      ],
+      [],
+      [
+        "Главный экран (Hero)"
+      ],
+      [
+        "H1 ≈ 50-60 символов"
+      ],
+      [],
+      [
+        "Краткое описание (paragraph) ≈ 70-80 символов"
+      ],
+      [],
+      [
+        "Особенности (3 тезиса, title ≈ 15-30 символов, desc – до 60 символов)"
+      ],
+      [],
+      [
+        "title-1 (экономичесакий показатель)"
+      ],
+      [
+        "desc-1"
+      ],
+      [],
+      [
+        "title-2"
+      ],
+      [
+        "desc-2"
+      ],
+      [],
+      [
+        "title-3"
+      ],
+      [
+        "desc-3"
+      ],
+      [],
+      [
+        "О районе (About area)"
+      ],
+      [
+        "H2 \"About ... [project name]\""
+      ],
+      [],
+      [
+        "H3 (subtitle) ≈ 60-80 cимволов"
+      ],
+      [],
+      [
+        "Краткое описание (paragraph) ≈ 150-200 символов"
+      ],
+      [],
+      [
+        "Project details"
+      ],
+      [
+        "Project Passport (Add data table)"
+      ],
+      [],
+      [
+        "Developer"
+      ],
+      [],
+      [
+        "Location"
+      ],
+      [],
+      [
+        "Payment Plan"
+      ],
+      [],
+      [
+        "Area"
+      ],
+      [],
+      [
+        "Property Type"
+      ],
+      [],
+      [
+        "Экономическая привлекательность "
+      ],
+      [
+        "H2 \"Economic appeal\" (seo статичный)"
+      ],
+      [],
+      [
+        "H3 (subtitle) ≈ 40-80 cимволов"
+      ],
+      [
+        "Краткое описание (paragraph) ≈ 250-400 символов"
+      ],
+      [],
+      [
+        "Payment Plan"
+      ],
+      [
+        "Описание к каждому плану платежей"
+      ],
+      [],
+      [
+        "H3 (subtitle) ≈ 60-80 cимволов"
+      ],
+      [],
+      [
+        "Статический блок (поддержка после сдачи)"
+      ],
+      [],
+      [
+        "Subtitle ≈ 40-80 cимволов"
+      ],
+      [],
+      [
+        "Краткое описание (paragraph) ≈ 100-200 символов"
+      ],
+      [
+        "Краткое описание (paragraph) ≈ 100-200 символов"
+      ],
+      [
+        "Краткое описание (paragraph) ≈ 100-200 символов"
+      ],
+      [],
+      [
+        "Преимущества"
+      ],
+      [
+        "3 преимущества"
+      ],
+      [
+        "Subtitle ≈ 40-80 cимволов"
+      ],
+      [
+        "Краткое описание (paragraph) ≈ 100-200 символов"
+      ],
+      [],
+      [
+        "Subtitle ≈ 40-80 cимволов"
+      ],
+      [
+        "Краткое описание (paragraph) ≈ 100-200 символов"
+      ],
+      [],
+      [
+        "Subtitle ≈ 40-80 cимволов"
+      ],
+      [
+        "amenities"
+      ],
+      [],
+      [
+        "CTA ≈ 15-25 символов"
+      ],
+      [],
+      [
+        "Amenities (Особенности, утп)"
+      ],
+      [
+        "3-5 главных особенности"
+      ],
+      [
+        "Subtitle ≈ 40-80 cимволов"
+      ],
+      [
+        "Краткое описание (paragraph) ≈ 100-200 символов"
+      ],
+      [],
+      [
+        "Subtitle ≈ 40-80 cимволов"
+      ],
+      [
+        "Краткое описание (paragraph) ≈ 100-200 символов"
+      ],
+      [],
+      [
+        "Subtitle ≈ 40-80 cимволов"
+      ],
+      [
+        "Краткое описание (paragraph) ≈ 100-200 символов"
+      ],
+      [],
+      [
+        "Subtitle ≈ 40-80 cимволов"
+      ],
+      [
+        "Краткое описание (paragraph) ≈ 100-200 символов"
+      ],
+      [],
+      [
+        "Subtitle ≈ 40-80 cимволов"
+      ],
+      [
+        "Краткое описание (paragraph) ≈ 100-200 символов"
+      ],
+      [],
+      [
+        "О застройщике"
+      ],
+      [
+        "H2 \"About ... [developer name]\""
+      ],
+      [
+        "H3 (subtitle) ≈ 60-80 cимволов (опционально, можно без заголовка)"
+      ],
+      [
+        "Краткое описание (paragraph) ≈ 150-250 символов"
+      ],
+      [],
+      [
+        "Расположение"
+      ],
+      [
+        "H2 \"Location & Advantages\" (seo статичный)"
+      ],
+      [
+        "H3 (subtitle) ≈ 40-80 cимволов"
+      ],
+      [
+        "Краткое описание (paragraph) ≈ 250-400 символов"
+      ],
+      [],
+      [
+        "Social Facilities"
+      ],
+      [
+        "Краткое описание (paragraph) ≈ 100-300 символов"
+      ],
+      [],
+      [
+        "Название локации 1 + Время в минутах 1"
+      ],
+      [],
+      [],
+      [
+        "Название локации 2 + Время в минутах 2"
+      ],
+      [],
+      [],
+      [
+        "Название локации 3 + Время в минутах 3"
+      ],
+      [],
+      [],
+      [],
+      [
+        "Education & Medicine"
+      ],
+      [
+        "Краткое описание (paragraph) ≈ 100-300 символов"
+      ],
+      [],
+      [
+        "Название локации 1 + Время в минутах 1"
+      ],
+      [],
+      [],
+      [
+        "Название локации 2 + Время в минутах 2"
+      ],
+      [],
+      [],
+      [
+        "Название локации 3 + Время в минутах 3"
+      ],
+      [],
+      [
+        "Culture"
+      ],
+      [
+        "Краткое описание (paragraph) ≈ 100-300 символов"
+      ],
+      [],
+      [
+        "Название локации 1 + Время в минутах 1"
+      ],
+      [],
+      [],
+      [
+        "Название локации 2 + Время в минутах 2"
+      ],
+      [],
+      [],
+      [
+        "Название локации 3 + Время в минутах 3"
+      ]
+    ]
+  },
+  "sobha-central.ae": {
+    "name": "sobha-central.ae",
+    "sheet_title": "sobha-central.ae | Template",
+    "row_count": 136,
+    "field_count": 1,
+    "sections": [],
+    "fields": [
+      {
+        "row": 1,
+        "field": "EN",
+        "section": null,
+        "guideline": ""
+      }
+    ],
+    "raw_data": [
+      [
+        "",
+        "EN",
+        "RU",
+        "AR"
+      ],
+      [
+        "Title (seo):"
+      ],
+      [],
+      [
+        "Desc (seo):"
+      ],
+      [],
+      [
+        "Slug"
+      ],
+      [],
+      [
+        "Главный экран (Hero)"
+      ],
+      [
+        "H1 ≈ 50-60 символов"
+      ],
+      [],
+      [
+        "Краткое описание (paragraph) ≈ 70-80 символов"
+      ],
+      [],
+      [
+        "Особенности (3 тезиса, title ≈ 15-30 символов, desc – до 60 символов)"
+      ],
+      [],
+      [
+        "title-1 (экономичесакий показатель)"
+      ],
+      [
+        "desc-1"
+      ],
+      [],
+      [
+        "title-2"
+      ],
+      [
+        "desc-2"
+      ],
+      [],
+      [
+        "title-3"
+      ],
+      [
+        "desc-3"
+      ],
+      [],
+      [
+        "О районе (About area)"
+      ],
+      [
+        "H2 \"About ... [project name]\""
+      ],
+      [],
+      [
+        "H3 (subtitle) ≈ 60-80 cимволов"
+      ],
+      [],
+      [
+        "Краткое описание (paragraph) ≈ 150-200 символов"
+      ],
+      [],
+      [
+        "Project details"
+      ],
+      [
+        "Project Passport (Add data table)"
+      ],
+      [],
+      [
+        "Developer"
+      ],
+      [],
+      [
+        "Location"
+      ],
+      [],
+      [
+        "Payment Plan"
+      ],
+      [],
+      [
+        "Area"
+      ],
+      [],
+      [
+        "Property Type"
+      ],
+      [],
+      [
+        "Экономическая привлекательность "
+      ],
+      [
+        "H2 \"Economic appeal\" (seo статичный)"
+      ],
+      [],
+      [
+        "H3 (subtitle) ≈ 40-80 cимволов"
+      ],
+      [
+        "Краткое описание (paragraph) ≈ 250-400 символов"
+      ],
+      [],
+      [
+        "Payment Plan"
+      ],
+      [
+        "Описание к каждому плану платежей"
+      ],
+      [],
+      [
+        "H3 (subtitle) ≈ 60-80 cимволов"
+      ],
+      [],
+      [
+        "Статический блок (поддержка после сдачи)"
+      ],
+      [],
+      [
+        "Subtitle ≈ 40-80 cимволов"
+      ],
+      [],
+      [
+        "Краткое описание (paragraph) ≈ 100-200 символов"
+      ],
+      [
+        "Краткое описание (paragraph) ≈ 100-200 символов"
+      ],
+      [
+        "Краткое описание (paragraph) ≈ 100-200 символов"
+      ],
+      [],
+      [
+        "Преимущества"
+      ],
+      [
+        "3 преимущества"
+      ],
+      [
+        "Subtitle ≈ 40-80 cимволов"
+      ],
+      [
+        "Краткое описание (paragraph) ≈ 100-200 символов"
+      ],
+      [],
+      [
+        "Subtitle ≈ 40-80 cимволов"
+      ],
+      [
+        "Краткое описание (paragraph) ≈ 100-200 символов"
+      ],
+      [],
+      [
+        "Subtitle ≈ 40-80 cимволов"
+      ],
+      [
+        "amenities"
+      ],
+      [],
+      [
+        "CTA ≈ 15-25 символов"
+      ],
+      [],
+      [
+        "Amenities (Особенности, утп)"
+      ],
+      [
+        "3-5 главных особенности"
+      ],
+      [
+        "Subtitle ≈ 40-80 cимволов"
+      ],
+      [
+        "Краткое описание (paragraph) ≈ 100-200 символов"
+      ],
+      [],
+      [
+        "Subtitle ≈ 40-80 cимволов"
+      ],
+      [
+        "Краткое описание (paragraph) ≈ 100-200 символов"
+      ],
+      [],
+      [
+        "Subtitle ≈ 40-80 cимволов"
+      ],
+      [
+        "Краткое описание (paragraph) ≈ 100-200 символов"
+      ],
+      [],
+      [
+        "Subtitle ≈ 40-80 cимволов"
+      ],
+      [
+        "Краткое описание (paragraph) ≈ 100-200 символов"
+      ],
+      [],
+      [
+        "Subtitle ≈ 40-80 cимволов"
+      ],
+      [
+        "Краткое описание (paragraph) ≈ 100-200 символов"
+      ],
+      [],
+      [
+        "О застройщике"
+      ],
+      [
+        "H2 \"About ... [developer name]\""
+      ],
+      [
+        "H3 (subtitle) ≈ 60-80 cимволов (опционально, можно без заголовка)"
+      ],
+      [
+        "Краткое описание (paragraph) ≈ 150-250 символов"
+      ],
+      [],
+      [
+        "Расположение"
+      ],
+      [
+        "H2 \"Location & Advantages\" (seo статичный)"
+      ],
+      [
+        "H3 (subtitle) ≈ 40-80 cимволов"
+      ],
+      [
+        "Краткое описание (paragraph) ≈ 250-400 символов"
+      ],
+      [],
+      [
+        "Social Facilities"
+      ],
+      [
+        "Краткое описание (paragraph) ≈ 100-300 символов"
+      ],
+      [],
+      [
+        "Название локации 1 + Время в минутах 1"
+      ],
+      [],
+      [],
+      [
+        "Название локации 2 + Время в минатах 2"
+      ],
+      [],
+      [],
+      [
+        "Название локации 3 + Время в минатах 3"
+      ],
+      [],
+      [],
+      [],
+      [
+        "Education & Medicine"
+      ],
+      [
+        "Краткое описание (paragraph) ≈ 100-300 символов"
+      ],
+      [],
+      [
+        "Название локации 1 + Время в минутах 1"
+      ],
+      [],
+      [],
+      [
+        "Название локации 2 + Время в минатах 2"
+      ],
+      [],
+      [],
+      [
+        "Название локации 3 + Время в минатах 3"
+      ],
+      [],
+      [
+        "Culture"
+      ],
+      [
+        "Краткое описание (paragraph) ≈ 100-300 символов"
+      ],
+      [],
+      [
+        "Название локации 1 + Время в минутах 1"
+      ],
+      [],
+      [],
+      [
+        "Название локации 2 + Время в минатах 2"
+      ],
+      [],
+      [],
+      [
+        "Название локации 3 + Время в минатах 3"
+      ]
+    ]
+  },
+  "difc-residences.ae": {
+    "name": "difc-residences.ae",
+    "sheet_title": "difc-residences.ae | Template",
+    "row_count": 136,
+    "field_count": 1,
+    "sections": [],
+    "fields": [
+      {
+        "row": 1,
+        "field": "EN",
+        "section": null,
+        "guideline": ""
+      }
+    ],
+    "raw_data": [
+      [
+        "",
+        "EN",
+        "RU",
+        "AR"
+      ],
+      [
+        "Title (seo):"
+      ],
+      [],
+      [
+        "Desc (seo):"
+      ],
+      [],
+      [
+        "Slug"
+      ],
+      [],
+      [
+        "Главный экран (Hero)"
+      ],
+      [
+        "H1 ≈ 50-60 символов"
+      ],
+      [],
+      [
+        "Краткое описание (paragraph) ≈ 70-80 символов"
+      ],
+      [],
+      [
+        "Особенности (3 тезиса, title ≈ 15-30 символов, desc – до 60 символов)"
+      ],
+      [],
+      [
+        "title-1 (экономичесакий показатель)"
+      ],
+      [
+        "desc-1"
+      ],
+      [],
+      [
+        "title-2"
+      ],
+      [
+        "desc-2"
+      ],
+      [],
+      [
+        "title-3"
+      ],
+      [
+        "desc-3"
+      ],
+      [],
+      [
+        "О районе (About area)"
+      ],
+      [
+        "H2 \"About ... [project name]\""
+      ],
+      [],
+      [
+        "H3 (subtitle) ≈ 60-80 cимволов"
+      ],
+      [],
+      [
+        "Краткое описание (paragraph) ≈ 150-200 символов"
+      ],
+      [],
+      [
+        "Project details"
+      ],
+      [
+        "Project Passport (Add data table)"
+      ],
+      [],
+      [
+        "Developer"
+      ],
+      [],
+      [
+        "Location"
+      ],
+      [],
+      [
+        "Payment Plan"
+      ],
+      [],
+      [
+        "Area"
+      ],
+      [],
+      [
+        "Property Type"
+      ],
+      [],
+      [
+        "Экономическая привлекательность "
+      ],
+      [
+        "H2 \"Economic appeal\" (seo статичный)"
+      ],
+      [],
+      [
+        "H3 (subtitle) ≈ 40-80 cимволов"
+      ],
+      [
+        "Краткое описание (paragraph) ≈ 250-400 символов"
+      ],
+      [],
+      [
+        "Payment Plan"
+      ],
+      [
+        "Описание к каждому плану платежей"
+      ],
+      [],
+      [
+        "H3 (subtitle) ≈ 60-80 cимволов"
+      ],
+      [],
+      [
+        "Статический блок (поддержка после сдачи)"
+      ],
+      [],
+      [
+        "Subtitle ≈ 40-80 cимволов"
+      ],
+      [],
+      [
+        "Краткое описание (paragraph) ≈ 100-200 символов"
+      ],
+      [
+        "Краткое описание (paragraph) ≈ 100-200 символов"
+      ],
+      [
+        "Краткое описание (paragraph) ≈ 100-200 символов"
+      ],
+      [],
+      [
+        "Преимущества"
+      ],
+      [
+        "3 преимущества"
+      ],
+      [
+        "Subtitle ≈ 40-80 cимволов"
+      ],
+      [
+        "Краткое описание (paragraph) ≈ 100-200 символов"
+      ],
+      [],
+      [
+        "Subtitle ≈ 40-80 cимволов"
+      ],
+      [
+        "Краткое описание (paragraph) ≈ 100-200 символов"
+      ],
+      [],
+      [
+        "Subtitle ≈ 40-80 cимволов"
+      ],
+      [
+        "amenities"
+      ],
+      [],
+      [
+        "CTA ≈ 15-25 символов"
+      ],
+      [],
+      [
+        "Amenities (Особенности, утп)"
+      ],
+      [
+        "3-5 главных особенности"
+      ],
+      [
+        "Subtitle ≈ 40-80 cимволов"
+      ],
+      [
+        "Краткое описание (paragraph) ≈ 100-200 символов"
+      ],
+      [],
+      [
+        "Subtitle ≈ 40-80 cимволов"
+      ],
+      [
+        "Краткое описание (paragraph) ≈ 100-200 символов"
+      ],
+      [],
+      [
+        "Subtitle ≈ 40-80 cимволов"
+      ],
+      [
+        "Краткое описание (paragraph) ≈ 100-200 символов"
+      ],
+      [],
+      [
+        "Subtitle ≈ 40-80 cимволов"
+      ],
+      [
+        "Краткое описание (paragraph) ≈ 100-200 символов"
+      ],
+      [],
+      [
+        "Subtitle ≈ 40-80 cимволов"
+      ],
+      [
+        "Краткое описание (paragraph) ≈ 100-200 символов"
+      ],
+      [],
+      [
+        "О застройщике"
+      ],
+      [
+        "H2 \"About ... [developer name]\""
+      ],
+      [
+        "H3 (subtitle) ≈ 60-80 cимволов (опционально, можно без заголовка)"
+      ],
+      [
+        "Краткое описание (paragraph) ≈ 150-250 символов"
+      ],
+      [],
+      [
+        "Расположение"
+      ],
+      [
+        "H2 \"Location & Advantages\" (seo статичный)"
+      ],
+      [
+        "H3 (subtitle) ≈ 40-80 cимволов"
+      ],
+      [
+        "Краткое описание (paragraph) ≈ 250-400 символов"
+      ],
+      [],
+      [
+        "Social Facilities"
+      ],
+      [
+        "Краткое описание (paragraph) ≈ 100-300 символов"
+      ],
+      [],
+      [
+        "Название локации 1 + Время в минутах 1"
+      ],
+      [],
+      [],
+      [
+        "Название локации 2 + Время в минатах 2"
+      ],
+      [],
+      [],
+      [
+        "Название локации 3 + Время в минатах 3"
+      ],
+      [],
+      [],
+      [],
+      [
+        "Education & Medicine"
+      ],
+      [
+        "Краткое описание (paragraph) ≈ 100-300 символов"
+      ],
+      [],
+      [
+        "Название локации 1 + Время в минутах 1"
+      ],
+      [],
+      [],
+      [
+        "Название локации 2 + Время в минатах 2"
+      ],
+      [],
+      [],
+      [
+        "Название локации 3 + Время в минатах 3"
+      ],
+      [],
+      [
+        "Culture"
+      ],
+      [
+        "Краткое описание (paragraph) ≈ 100-300 символов"
+      ],
+      [],
+      [
+        "Название локации 1 + Время в минутах 1"
+      ],
+      [],
+      [],
+      [
+        "Название локации 2 + Время в минатах 2"
+      ],
+      [],
+      [],
+      [
+        "Название локации 3 + Время в минатах 3"
+      ]
+    ]
+  }
+}

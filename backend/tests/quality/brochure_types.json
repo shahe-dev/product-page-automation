@@ -1,0 +1,284 @@
+{
+  "_legend": {
+    "SD": "Schematic-Dimensioned: architectural drawing with room labels + dimensions in text layer",
+    "RD": "Rendered-Dimensioned: 3D renders or image-only floor plans, no extractable text for dimensions",
+    "RL": "Rendered-Legend: rendered floor plans with area table/legend (sqft/sqm) but no room dimensions",
+    "MU": "Multi-Unit: multiple distinct floor plan types on a single page",
+    "MF": "Multi-Floor: villa/duplex with separate floor plans per level",
+    "TS": "Table-Summary: floor plan data primarily in tables, minimal or no diagrams"
+  },
+  "_notes": "primary_type is the dominant format. secondary_types lists other formats present in the brochure. Classification done 2026-02-12 via text analysis of PDF text layer + page structure. Needs visual verification during ground truth review.",
+
+  "evelyn": {
+    "file": "EVELYN Brochure Final.pdf",
+    "primary_type": "RL",
+    "secondary_types": [],
+    "text_quality": "moderate",
+    "dimension_unit": "unknown",
+    "notes": "Full brochure. Floor plan pages (21-23) have sqft/sqm area labels but no room dimensions in text. Area tables present."
+  },
+  "expo_valley": {
+    "file": "Expo_Valley_Views_Brochure_Ghadeer.pdf",
+    "primary_type": "RL",
+    "secondary_types": ["TS"],
+    "text_quality": "moderate",
+    "dimension_unit": "unknown",
+    "notes": "Full brochure with area tables. Known mm-to-sqft conversion bug."
+  },
+  "hilton": {
+    "file": "Hilton Residences Brochure.pdf",
+    "primary_type": "RD",
+    "secondary_types": [],
+    "text_quality": "poor",
+    "dimension_unit": "unknown",
+    "notes": "117 MB. Mostly image-based. Pages 27-29 have bedroom labels only, no dimensions or areas in text."
+  },
+  "novayas": {
+    "file": "NOVAYAS Brochure.pdf",
+    "primary_type": "RD",
+    "secondary_types": [],
+    "text_quality": "poor",
+    "dimension_unit": "unknown",
+    "notes": "Floor plan pages (16-30) have unit type labels (Studio Type A, 1BR Type A, etc.) but zero dimensions or areas in text. Vision-only extraction."
+  },
+  "sobha_eden": {
+    "file": "Sobha Central Brochure - The Eden.pdf",
+    "primary_type": "RL",
+    "secondary_types": [],
+    "text_quality": "moderate",
+    "dimension_unit": "unknown",
+    "notes": "Full brochure. Area tables present. Known price-as-bathroom-count bug."
+  },
+  "artistry_one": {
+    "file": "Artistry One Residences.pdf",
+    "primary_type": "RD",
+    "secondary_types": ["RL"],
+    "text_quality": "poor",
+    "dimension_unit": "unknown",
+    "notes": "Mostly marketing. Key plan pages (33-45) show unit labels but no dimensions. Some area labels on penthouse pages."
+  },
+  "avarra_palace": {
+    "file": "AVARRA_BY_PALACE_FLOORPLANS_.pdf",
+    "primary_type": "SD",
+    "secondary_types": [],
+    "text_quality": "rich",
+    "dimension_unit": "meters",
+    "notes": "Floor plans only. Rich text: room labels + dimensions (4.27m X 4.03m) + area tables (sqft/sqm suite/balcony/total). 28 pages."
+  },
+  "bashayer": {
+    "file": "Bashayer Floor Plans.pdf",
+    "primary_type": "RD",
+    "secondary_types": [],
+    "text_quality": "none",
+    "dimension_unit": "unknown",
+    "notes": "50 pages. ZERO extractable text. Pure image-based floor plans. Vision-only extraction required."
+  },
+  "bella_passo": {
+    "file": "BELLA by Passo_Floor Plans_Collections_and_Penthouses_and_mansions.pdf",
+    "primary_type": "RL",
+    "secondary_types": ["MF", "TS"],
+    "text_quality": "moderate",
+    "dimension_unit": "unknown",
+    "notes": "272 pages. Large collection with area tables. Includes penthouses and mansions (likely multi-floor)."
+  },
+  "crestlane_4": {
+    "file": "City Walk Crestlane 4 Floor Plans.pdf",
+    "primary_type": "RL",
+    "secondary_types": ["TS"],
+    "text_quality": "moderate",
+    "dimension_unit": "unknown",
+    "notes": "34 pages. Area tables with unit types. Floor plan diagrams with legend."
+  },
+  "crestlane_5": {
+    "file": "City Walk Crestlane 5 Floor Plans.pdf",
+    "primary_type": "RL",
+    "secondary_types": ["TS"],
+    "text_quality": "moderate",
+    "dimension_unit": "unknown",
+    "notes": "39 pages. Area tables with unit types. Floor plan diagrams with legend."
+  },
+  "expo_valley_fp": {
+    "file": "Expo_Valley_Views_Floor_Plans_Ghadeer.pdf",
+    "primary_type": "TS",
+    "secondary_types": ["RL"],
+    "text_quality": "moderate",
+    "dimension_unit": "unknown",
+    "notes": "9 pages. Floor plans document (separate from main brochure). Area tables with 8 unit types."
+  },
+  "pinnacle_sobha": {
+    "file": "Floor & Unit Plans - The Pinnacle at Sobha Central.pdf",
+    "primary_type": "SD",
+    "secondary_types": [],
+    "text_quality": "rich",
+    "dimension_unit": "millimeters",
+    "notes": "51 pages, 2.3 MB. Rich text with dimensions in mm (e.g. 3050 X 4500) + area tables. Text-first extraction ideal."
+  },
+  "wedyan_canal": {
+    "file": "Floor plans - Wedyan The Canal by Al Ghurair Collection.pdf",
+    "primary_type": "RL",
+    "secondary_types": ["MF"],
+    "text_quality": "moderate",
+    "dimension_unit": "meters",
+    "notes": "16 pages. Large villas (3-5 bed). Area labels (sqm/sqft) with suite/balcony/total. Room labels present. Some multi-floor villas."
+  },
+  "helvetia_marine": {
+    "file": "FLOOR PLANS & UNIT LAYOUTS Helvetia Marine by DHG.pdf",
+    "primary_type": "SD",
+    "secondary_types": [],
+    "text_quality": "rich",
+    "dimension_unit": "unknown",
+    "notes": "22 pages. Dimensions in text + area tables. 5 unit types."
+  },
+  "helvetia_verde": {
+    "file": "FLOOR PLANS and UNIT LAYOUTS Helvetia Verde by DHG.pdf",
+    "primary_type": "SD",
+    "secondary_types": [],
+    "text_quality": "rich",
+    "dimension_unit": "unknown",
+    "notes": "22 pages. Dimensions in text + area tables. 6 unit types."
+  },
+  "hado_beyond": {
+    "file": "Floor plans-Hado by Beyond-Tower A_compressed.pdf",
+    "primary_type": "RL",
+    "secondary_types": ["TS"],
+    "text_quality": "moderate",
+    "dimension_unit": "unknown",
+    "notes": "242 pages. Large document with area tables. Floor plan diagrams with legend."
+  },
+  "golf_terrace": {
+    "file": "Golf Terrace Residences_Sales Deck.pdf",
+    "primary_type": "RL",
+    "secondary_types": ["TS"],
+    "text_quality": "moderate",
+    "dimension_unit": "unknown",
+    "notes": "31 pages, 108 MB. Sales deck with rendered room images. Area/price table on page 28. No room dimensions in text."
+  },
+  "haus_tenet": {
+    "file": "Haus of Tenet Brochure Digital.pdf",
+    "primary_type": "RD",
+    "secondary_types": [],
+    "text_quality": "poor",
+    "dimension_unit": "unknown",
+    "notes": "79 pages, 46 MB. OFFICE building (87 clusters). Minimal floor plan content. Mostly marketing imagery."
+  },
+  "inaura": {
+    "file": "INAURA_DOWNTOWN-DUBAI_BROCHURE.pdf",
+    "primary_type": "SD",
+    "secondary_types": ["MF"],
+    "text_quality": "rich",
+    "dimension_unit": "meters",
+    "notes": "100 pages. Floor plans (pages 51-68) have room dimensions (4.6 x 3.1 M), area labels (Suite/Balcony/Total sqft/sqm). Sky Villa duplexes are multi-floor. Very rich text data."
+  },
+  "cedarwood": {
+    "file": "JGE_CEDARWOOD_ESTATES_FLOOR_PLANS 2.pdf",
+    "primary_type": "RL",
+    "secondary_types": ["TS"],
+    "text_quality": "moderate",
+    "dimension_unit": "unknown",
+    "notes": "11 pages. Area tables present."
+  },
+  "mareva": {
+    "file": "MAREVA_THE_OASIS_FLOOR_PLANS.pdf",
+    "primary_type": "RL",
+    "secondary_types": ["TS", "MF"],
+    "text_quality": "moderate",
+    "dimension_unit": "unknown",
+    "notes": "11 pages. Area tables present. The Oasis is a villa community -- likely multi-floor."
+  },
+  "mareva2": {
+    "file": "MAREVA2_THE_OASIS_FLOOR_PLANS.pdf",
+    "primary_type": "RL",
+    "secondary_types": ["TS", "MF"],
+    "text_quality": "moderate",
+    "dimension_unit": "unknown",
+    "notes": "11 pages. Area tables present. The Oasis is a villa community -- likely multi-floor."
+  },
+  "olive_farms": {
+    "file": "Olive Farms FP.pdf",
+    "primary_type": "SD",
+    "secondary_types": ["MF"],
+    "text_quality": "rich",
+    "dimension_unit": "meters",
+    "notes": "3 pages only, 0.1 MB. Tiny file. Dimensions in text (m format) + area tables. Likely villa/farm with multi-floor."
+  },
+  "palm_beach": {
+    "file": "Palm Jebel Ali-The Beach Collection Floor Plans.pdf",
+    "primary_type": "SD",
+    "secondary_types": [],
+    "text_quality": "rich",
+    "dimension_unit": "meters",
+    "notes": "8 pages. Dimensions in text + area tables. 2 unit types."
+  },
+  "palmiera": {
+    "file": "PALMIERA-COLLECTIVE_TO_FLOORPLAN.pdf",
+    "primary_type": "TS",
+    "secondary_types": ["RL"],
+    "text_quality": "moderate",
+    "dimension_unit": "unknown",
+    "notes": "4 pages. Area tables present. Very short document."
+  },
+  "sheraton": {
+    "file": "Sheraton Floor Plan_compressed.pdf",
+    "primary_type": "RD",
+    "secondary_types": [],
+    "text_quality": "none",
+    "dimension_unit": "unknown",
+    "notes": "18 pages. ZERO extractable text. Pure image-based. Vision-only extraction required."
+  },
+  "brooks_sanctuary": {
+    "file": "THE BROOKS AT SOBHA SANCTUARY BROCHURE & FLOORS .pdf",
+    "primary_type": "RL",
+    "secondary_types": ["MF"],
+    "text_quality": "moderate",
+    "dimension_unit": "unknown",
+    "notes": "44 pages. Area tables present. Sobha Sanctuary is a villa community -- likely multi-floor."
+  },
+  "greens_sanctuary": {
+    "file": "THE GREENS AT SOBHA SANCTUARY BROCHURE & FLOORS.pdf",
+    "primary_type": "RL",
+    "secondary_types": ["MF"],
+    "text_quality": "moderate",
+    "dimension_unit": "unknown",
+    "notes": "44 pages. Area tables present. Sobha Sanctuary is a villa community -- likely multi-floor."
+  },
+  "grove_sanctuary": {
+    "file": "THE GROVE AT SOBHA SANCTUARY BROCHURE & FLOORS.pdf",
+    "primary_type": "RL",
+    "secondary_types": ["MF"],
+    "text_quality": "moderate",
+    "dimension_unit": "unknown",
+    "notes": "41 pages. Area tables present. Sobha Sanctuary is a villa community -- likely multi-floor."
+  },
+  "difc_residences": {
+    "file": "The Residences By DIFC Floor Plates.pdf",
+    "primary_type": "RD",
+    "secondary_types": [],
+    "text_quality": "none",
+    "dimension_unit": "unknown",
+    "notes": "3 pages. ZERO extractable text. Pure image-based. Vision-only extraction required."
+  },
+  "heights_fp": {
+    "file": "THE_HEIGHTS_FLOOR_PLANS.pdf",
+    "primary_type": "TS",
+    "secondary_types": ["RL"],
+    "text_quality": "moderate",
+    "dimension_unit": "unknown",
+    "notes": "19 pages. Area tables with 3 unit types."
+  },
+  "heights_fp_2": {
+    "file": "THE_HEIGHTS_FLOOR_PLANS (1).pdf",
+    "primary_type": "TS",
+    "secondary_types": ["RL"],
+    "text_quality": "moderate",
+    "dimension_unit": "unknown",
+    "notes": "19 pages. Duplicate of heights_fp (same file different name)."
+  },
+  "lamborghini": {
+    "file": "Tonino Lamborghini Residences - FP.pdf",
+    "primary_type": "SD",
+    "secondary_types": [],
+    "text_quality": "rich",
+    "dimension_unit": "meters",
+    "notes": "54 pages. Dimensions in text (m format) + area tables."
+  }
+}

@@ -1,0 +1,209 @@
+======================================================================
+  GROUND TRUTH REVIEW: crestlane_5
+======================================================================
+  File: City Walk Crestlane 5 Floor Plans.pdf
+  Size: 17.3 MB, 39 pages
+  Format: RL (text quality: moderate)
+  Notes: 39 pages. Area tables with unit types. Floor plan diagrams with legend.
+======================================================================
+
+INSTRUCTIONS:
+  1. Open the PDF in a viewer
+  2. For each floor plan page, verify/fill in the data below
+  3. Copy the JSON template at the bottom into the ground truth file
+
+FLOOR PLAN PAGES DETECTED: 36
+----------------------------------------------------------------------
+
+  Page 2: bedrooms: ['1']
+    text: 1-BEDROOM | APARTMENTS
+
+  Page 3: bedrooms: ['1', '1', '1'], unit_types: ['A', 'A', 'NUMBER', 'A', 'NUMBER'], rooms: ['balcony']
+    text: 1-BEDROOM | TYPE A | 1 BEDROOM TYPE A | BUILDING | UNIT NUMBER | SUITE AREA - NIA | BALCONY AREA | TOTAL AREA - NSA | SQM | SQFT | SQM | SQFT | SQM | SQFT | A | 205, 305, 405 | 68.32 | 735.39 | 5.40 | 58.13 | 73.72 | 793.52 | B | 601 | 68.03 | 732.27 | 5.12 | 55.11 | 73.15 | 787.38 | 201, 301, 401 | 68.28 | 734.96 | 5.01 | 53.93 | 73.29 | 788.89 | 801 | 68.51 | 737.44 | 5.55 | 59
+
+  Page 4: bedrooms: ['1', '1'], unit_types: ['A1', 'A1', 'NUMBER', 'orientation', 'and'], rooms: ['balcony']
+    text: 1-BEDROOM | TYPE A1 | 1 BEDROOM TYPE A1 | BUILDING | UNIT NUMBER | SUITE AREA - NIA | BALCONY AREA | TOTAL AREA - NSA | SQM | SQFT | SQM | SQFT | SQM | SQFT | A | 1201 | 71.01 | 764.35 | 9.69 | 104.30 | 80.70 | 868.65 | BUILDING B | BUILDING A | LEVEL 12 | Disclaimer: Plans, details and unit orientation included are indicative only and are subject 
+
+  Page 5: bedrooms: ['1', '1'], unit_types: ['B', 'B', 'NUMBER', 'orientation', 'and'], rooms: ['balcony']
+    text: 1-BEDROOM | TYPE B | 1 BEDROOM TYPE B | BUILDING | UNIT NUMBER | SUITE AREA - NIA | BALCONY AREA | TOTAL AREA - NSA | SQM | SQFT | SQM | SQFT | SQM | SQFT | A | 103, 207, 307, 407, 506, 606,  | 706, 806, 906, 1005, 1105 | 68.85 | 737.33 | 4.87 | 52.42 | 73.72 | 793.52 | LEVEL 1 | BUILDING B | BUILDING A | BUILDING B | BUILDING A | LEVEL 2-4 | LEVEL 5-9 | LEV
+
+  Page 6: bedrooms: ['1', '1', '1'], unit_types: ['B1', 'B1', 'NUMBER', 'B1', 'NUMBER'], rooms: ['balcony']
+    text: 1-BEDROOM | TYPE B1 | 1 BEDROOM TYPE B1 | BUILDING | UNIT NUMBER | SUITE AREA - NIA | BALCONY AREA | TOTAL AREA - NSA | SQM | SQFT | SQM | SQFT | SQM | SQFT | A | 1102 | 70.43 | 758.10 | 4.54 | 48.87 | 74.97 | 806.97 | 1 BEDROOM TYPE B1 - MIRRORED | BUILDING | UNIT NUMBER | SUITE AREA - NIA | BALCONY AREA | TOTAL AREA - NSA | SQM | SQFT | SQM | SQFT | SQM | SQFT | B
+
+  Page 7: bedrooms: ['1', '1', '1'], unit_types: ['C', 'C', 'NUMBER', 'C', 'NUMBER'], rooms: ['balcony']
+    text: 1-BEDROOM | TYPE C | 1 BEDROOM TYPE C | BUILDING | UNIT NUMBER | SUITE AREA - NIA | BALCONY AREA | TOTAL AREA - NSA | SQM | SQFT | SQM | SQFT | SQM | SQFT | A | 104, 208, 308, 408, 507,  607,  | 707, 807, 907, 1006, 1106 | 68.65 | 737.86 | 9.43 | 101.50 | 78.08 | 840.45 | B | 102, 205, 305, 405, 502  | 68.40 | 736.25 | 5.55 |  59.74 | 73.95 | 795.99 | 1 BEDROO
+
+  Page 8: bedrooms: ['2']
+    text: 2-BEDROOM | APARTMENTS
+
+  Page 9: bedrooms: ['2', '2'], unit_types: ['A', 'A', 'NUMBER', 'orientation', 'and'], rooms: ['balcony']
+    text: 2-BEDROOM | TYPE A | 2 BEDROOM TYPE A | BUILDING | UNIT NUMBER | SUITE AREA - NIA | BALCONY AREA | TOTAL AREA - NSA | SQM | SQFT | SQM | SQFT | SQM | SQFT | B | 603 | 104.14 | 1,120.95 | 5.55 | 59.74 | 109.69 | 1,180.69 | BUILDING B | BUILDING A | LEVEL 6 | Disclaimer: Plans, details and unit orientation included are indicative only and are subject
+
+  Page 10: bedrooms: ['2', '2', '2'], unit_types: ['B', 'B', 'NUMBER', 'B', 'NUMBER'], rooms: ['balcony']
+    text: 2-BEDROOM | TYPE B | 2 BEDROOM TYPE B | BUILDING | UNIT NUMBER | SUITE AREA - NIA | BALCONY AREA | TOTAL AREA - NSA | SQM | SQFT | SQM | SQFT | SQM | SQFT | B | 103, 206, 306, 406, 503, 604 | 111.50 | 1,200.18 | 4.87 | 52.42 | 116.37 | 1,252.59 | 2 BEDROOM TYPE B - MIRRORED | BUILDING | UNIT NUMBER | SUITE AREA - NIA | BALCONY AREA | TOTAL AREA - NSA | S
+
+  Page 11: bedrooms: ['2', '2'], unit_types: ['C', 'C', 'NUMBER', 'orientation', 'and'], rooms: ['balcony']
+    text: 2-BEDROOM | TYPE C | 2 BEDROOM TYPE C | BUILDING | UNIT NUMBER | SUITE AREA - NIA | BALCONY AREA | TOTAL AREA - NSA | SQM | SQFT | SQM | SQFT | SQM | SQFT | B | 802, 1001 | 117.72 | 1,267.13 | 4.87 | 52.42 | 122.59 | 1,319.55 | BUILDING B | BUILDING A | LEVEL 10 | LEVEL 8 | Disclaimer: Plans, details and unit orientation included are indicative only 
+
+  Page 12: bedrooms: ['2', '2'], unit_types: ['A', 'A', 'NUMBER', 'orientation', 'and'], rooms: ['balcony', 'maid']
+    text: 2-BEDROOM+MAID | TYPE A | 2 BEDROOM + MAID TYPE A | BUILDING | UNIT NUMBER | SUITE AREA - NIA | BALCONY AREA | TOTAL AREA - NSA | SQM | SQFT | SQM | SQFT | SQM | SQFT | A | 204, 304, 404 | 120.58 | 1,297.91 | 8.07 | 86.86 | 128.65 | 1,384.78 | 504, 604, 704, 804, 904, 1003 | 120.77 | 1,299.96 | 8.03 | 86.43 | 128.80 | 1,386.39 | BUILDING B | BUILDING A | LEVEL
+
+  Page 13: bedrooms: ['2', '2'], unit_types: ['B', 'B', 'NUMBER', 'orientation', 'and'], rooms: ['balcony', 'maid']
+    text: 2-BEDROOM+MAID | TYPE B | 2 BEDROOM + MAID TYPE B | BUILDING | UNIT NUMBER | SUITE AREA - NIA | BALCONY AREA | TOTAL AREA - NSA | SQM | SQFT | SQM | SQFT | SQM | SQFT | B | 203, 303, 403 | 124.21 | 1,336.99 | 23.77 | 255.86 | 147.98 | 1,592.84 | BUILDING B | BUILDING A | LEVEL 2-4 | Disclaimer: Plans, details and unit orientation included are indic
+
+  Page 14: bedrooms: ['2', '2'], unit_types: ['C', 'C', 'NUMBER', 'orientation', 'and'], rooms: ['balcony', 'maid']
+    text: 2-BEDROOM+MAID | TYPE C | 2 BEDROOM + MAID TYPE C | BUILDING | UNIT NUMBER | SUITE AREA - NIA | BALCONY AREA | TOTAL AREA - NSA | SQM | SQFT | SQM | SQFT | SQM | SQFT | B | 602 | 136.65 | 1,470.89 | 20.02 | 215.49 | 156.67 | 1,686.38 | BUILDING B | BUILDING A | LEVEL 6 | Disclaimer: Plans, details and unit orientation included are indicative only a
+
+  Page 15: bedrooms: ['2', '2'], unit_types: ['D', 'D', 'NUMBER', 'orientation', 'and'], rooms: ['balcony', 'maid']
+    text: 2-BEDROOM+MAID | TYPE D | 2 BEDROOM + MAID TYPE D | BUILDING | UNIT NUMBER | SUITE AREA - NIA | BALCONY AREA | TOTAL AREA - NSA | SQM | SQFT | SQM | SQFT | SQM | SQFT | A | 206, 306, 406 | 120.66 | 1,298.77 | 19.15 | 206.13 | 139.81 | 1,504.90 | 505, 605, 705, 805,  | 905, 1004, 1104 | 120.85 | 1,300.82 | 19.15 | 206.13 | 140.00 | 1,506.95 | BUILDING B | BUILD
+
+  Page 16: bedrooms: ['3']
+    text: 3-BEDROOM | APARTMENTS
+
+  Page 17: bedrooms: ['3', '3'], unit_types: ['A', 'A', 'NUMBER', 'orientation', 'and'], rooms: ['balcony']
+    text: 3-BEDROOM | TYPE A | 3 BEDROOM TYPE A | BUILDING | UNIT NUMBER | SUITE AREA - NIA | BALCONY AREA | TOTAL AREA - NSA | SQM | SQFT | SQM | SQFT | SQM | SQFT | A | 303, 403, 603, 703, 903 | 170.21 | 1,832.13 | 24.98 | 268.88 | 195.19 | 2,101.01 | B | 310, 410, 507, 705, 806, 1005 | 170.21 | 1,832.13 | 24.98 | 268.88 | 195.19 | 2,101.01 | LEVEL 5 | BUILDING B | BUIL
+
+  Page 18: bedrooms: ['3', '3'], unit_types: ['A1', 'A1', 'NUMBER', 'orientation', 'and'], rooms: ['balcony']
+    text: 3-BEDROOM | TYPE A1 | 3 BEDROOM TYPE A1 | BUILDING | UNIT NUMBER | SUITE AREA - NIA | BALCONY AREA | TOTAL AREA - NSA | SQM | SQFT | SQM | SQFT | SQM | SQFT | A | 203, 803 | 170.21 | 1,832.13 | 23.28 | 250.58 | 193.49 | 2,082.71 | 503  | 170.21 | 1,832.13 | 23.24 | 250.15 | 193.45 | 2,082.27 | B | 210, 905 | 170.21 | 1,832.13 | 23.28 | 250.58 | 193.49 | 2,082.71 | 608 | 170
+
+  Page 19: bedrooms: ['3', '3'], unit_types: ['B', 'B', 'NUMBER', 'orientation', 'and'], rooms: ['balcony']
+    text: 3-BEDROOM | TYPE B | 3 BEDROOM TYPE B | BUILDING | UNIT NUMBER | SUITE AREA - NIA | BALCONY AREA | TOTAL AREA - NSA | SQM | SQFT | SQM | SQFT | SQM | SQFT | B | 302, 402 | 170.69 | 1,837.29 | 28.64 | 308.28 | 199.33 | 2,145.57 | BUILDING B | BUILDING A | LEVEL 3-4 | Disclaimer: Plans, details and unit orientation included are indicative only and ar
+
+  Page 20: bedrooms: ['3', '3'], unit_types: ['B1', 'B1', 'NUMBER', 'orientation', 'and'], rooms: ['balcony']
+    text: 3-BEDROOM | TYPE B1 | 3 BEDROOM TYPE B1 | BUILDING | UNIT NUMBER | SUITE AREA - NIA | BALCONY AREA | TOTAL AREA - NSA | SQM | SQFT | SQM | SQFT | SQM | SQFT | B | 202 | 170.69 | 1,837.29 | 22.87 | 310.75 | 193.56 | 2,083.46 | BUILDING B | BUILDING A | LEVEL 2 | Disclaimer: Plans, details and unit orientation included are indicative only and are sub
+
+  Page 21: bedrooms: ['3', '3'], unit_types: ['C', 'C', 'NUMBER', 'orientation', 'and'], rooms: ['balcony']
+    text: 3-BEDROOM | TYPE C | 3 BEDROOM TYPE C | BUILDING | UNIT NUMBER | SUITE AREA - NIA | BALCONY AREA | TOTAL AREA - NSA | SQM | SQFT | SQM | SQFT | SQM | SQFT | B | 901 | 226.12 | 2,433.94 | 125.83 | 1,354.42 | 351.95 | 3,788.36 | BUILDING B | BUILDING A | LEVEL 9 | Disclaimer: Plans, details and unit orientation included are indicative only and are su
+
+  Page 22: bedrooms: ['3', '3'], unit_types: ['E', 'E', 'NUMBER', 'orientation', 'and'], rooms: ['balcony']
+    text: 3-BEDROOM | TYPE E | 3 BEDROOM TYPE E | BUILDING | UNIT NUMBER | SUITE AREA - NIA | BALCONY AREA | TOTAL AREA - NSA | SQM | SQFT | SQM | SQFT | SQM | SQFT | A | 1002 | 220.16 | 2,369.78 | 156.76 | 1,687.35 | 376.92 | 4,057.13 | BUILDING B | BUILDING A | LEVEL 10 | Disclaimer: Plans, details and unit orientation included are indicative only and are 
+
+  Page 23: bedrooms: ['3', '3'], unit_types: ['F', 'F', 'NUMBER', 'orientation', 'and'], rooms: ['balcony']
+    text: 3-BEDROOM | TYPE F | 3 BEDROOM TYPE F | BUILDING | UNIT NUMBER | SUITE AREA - NIA | BALCONY AREA | TOTAL AREA - NSA | SQM | SQFT | SQM | SQFT | SQM | SQFT | A | 1103 | 176.31 | 1,897.79 | 18.71 | 201.39 | 195.02 | 2,099.18 | BUILDING B | BUILDING A | LEVEL 11 | Disclaimer: Plans, details and unit orientation included are indicative only and are sub
+
+  Page 24: bedrooms: ['3', '3'], unit_types: ['G', 'G', 'NUMBER', 'orientation', 'and'], rooms: ['balcony']
+    text: 3-BEDROOM | TYPE G | 3 BEDROOM TYPE G | BUILDING | UNIT NUMBER | SUITE AREA - NIA | BALCONY AREA | TOTAL AREA - NSA | SQM | SQFT | SQM | SQFT | SQM | SQFT | A | 1203 | 209.54 | 2,255.47 | 171.55 | 1,846.55 | 381.09 | 4,102.02 | BUILDING B | BUILDING A | LEVEL 12 | Disclaimer: Plans, details and unit orientation included are indicative only and are 
+
+  Page 25: bedrooms: ['3', '3'], unit_types: ['H', 'H', 'NUMBER', 'orientation', 'and'], rooms: ['balcony']
+    text: 3-BEDROOM | TYPE H | 3 BEDROOM TYPE H | BUILDING | UNIT NUMBER | SUITE AREA - NIA | BALCONY AREA | TOTAL AREA - NSA | SQM | SQFT | SQM | SQFT | SQM | SQFT | B | 1104 | 216.43 | 2,329.63 | 175.69 | 1,891.11 | 392.12 | 4,220.74 | BUILDING B | BUILDING A | LEVEL 11 | Disclaimer: Plans, details and unit orientation included are indicative only and are 
+
+  Page 26: bedrooms: ['4']
+    text: 4-BEDROOM | APARTMENTS
+
+  Page 27: bedrooms: ['4', '4'], unit_types: ['A', 'A', 'NUMBER', 'orientation', 'and'], rooms: ['balcony']
+    text: 4-BEDROOM | TYPE A | 4 BEDROOM TYPE A | BUILDING | UNIT NUMBER | SUITE AREA - NIA | BALCONY AREA | TOTAL AREA - NSA | SQM | SQFT | SQM | SQFT | SQM | SQFT | B | 501 | 341.32 | 3,673.93 | 292.65 | 3,150.06 | 633.97 | 6,823.99 | BUILDING B | BUILDING A | LEVEL 5 | Disclaimer: Plans, details and unit orientation included are indicative only and are su
+
+  Page 28: bedrooms: ['4', '4'], unit_types: ['B', 'B', 'NUMBER', 'orientation', 'and'], rooms: ['balcony']
+    text: 4-BEDROOM | TYPE B | 4 BEDROOM TYPE B | BUILDING | UNIT NUMBER | SUITE AREA - NIA | BALCONY AREA | TOTAL AREA - NSA | SQM | SQFT | SQM | SQFT | SQM | SQFT | B | 701 | 312.54 | 3,364.15 | 272.62 | 2,934.46 | 585.16 | 6,298.61 | BUILDING B | BUILDING A | LEVEL 7 | Disclaimer: Plans, details and unit orientation included are indicative only and are su
+
+  Page 29: bedrooms: ['4', '4'], unit_types: ['C', 'C', 'NUMBER', 'orientation', 'and'], rooms: ['balcony']
+    text: 4-BEDROOM | TYPE C | 4 BEDROOM TYPE C | BUILDING | UNIT NUMBER | SUITE AREA - NIA | BALCONY AREA | TOTAL AREA - NSA | SQM | SQFT | SQM | SQFT | SQM | SQFT | A | 1202 | 279.05 | 3,003.67 | 233.89 | 2,517.57 | 512.94 | 5,521.24 | BUILDING B | BUILDING A | LEVEL 12 | Disclaimer: Plans, details and unit orientation included are indicative only and are 
+
+  Page 31: bedrooms: ['4', '4'], unit_types: ['A', 'A', 'NUMBER', 'orientation', 'and'], rooms: ['balcony']
+    text: 4-BEDROOM DUPLEX | TYPE A - LOWER LEVEL | 4 BEDROOM DUPLEX TYPE A | BUILDING | UNIT NUMBER | SUITE AREA - NIA | BALCONY AREA | TOTAL AREA - NSA | SQM | SQFT | SQM | SQFT | SQM | SQFT | B | G01 | 417.83 | 4,497.48 | 146.96 | 1,581.86 | 564.79 | 6,294.63 | BUILDING B | BUILDING A | LEVEL 1 | GROUND LEVEL | Disclaimer: Plans, details and unit orientatio
+
+  Page 32: bedrooms: ['4', '4'], unit_types: ['A', 'A', 'NUMBER', 'orientation', 'and'], rooms: ['balcony']
+    text: 4-BEDROOM DUPLEX | TYPE A - UPPER LEVEL | 4 BEDROOM DUPLEX TYPE A | BUILDING | UNIT NUMBER | SUITE AREA - NIA | BALCONY AREA | TOTAL AREA - NSA | SQM | SQFT | SQM | SQFT | SQM | SQFT | B | G01 | 417.83 | 4,497.48 | 146.96 | 1,581.86 | 564.79 | 6,294.63 | BUILDING B | BUILDING A | LEVEL 1 | GROUND LEVEL | Disclaimer: Plans, details and unit orientatio
+
+  Page 33: bedrooms: ['4', '4', '4'], unit_types: ['B', 'B', 'NUMBER', 'B', 'NUMBER'], rooms: ['balcony']
+    text: 4-BEDROOM DUPLEX | TYPE B - LOWER LEVEL | 4 BEDROOM DUPLEX TYPE B - MIRRORED | BUILDING | UNIT NUMBER | SUITE AREA - NIA | BALCONY AREA | TOTAL AREA - NSA | SQM | SQFT | SQM | SQFT | SQM | SQFT | A | G01 | 340.85 | 3,668.88 | 91.32 | 982.96 | 432.17 | 4,554.96 | 4 BEDROOM DUPLEX TYPE B | BUILDING | UNIT NUMBER | SUITE AREA - NIA | BALCONY AREA | TOTAL 
+
+  Page 34: bedrooms: ['4', '4', '4'], unit_types: ['B', 'B', 'NUMBER', 'B', 'NUMBER'], rooms: ['balcony']
+    text: 4-BEDROOM DUPLEX | TYPE B - UPPER LEVEL | 4 BEDROOM DUPLEX TYPE B - MIRRORED | BUILDING | UNIT NUMBER | SUITE AREA - NIA | BALCONY AREA | TOTAL AREA - NSA | SQM | SQFT | SQM | SQFT | SQM | SQFT | A | G01 | 340.85 | 3,668.88 | 91.32 | 982.96 | 432.17 | 4,554.96 | 4 BEDROOM DUPLEX TYPE B | BUILDING | UNIT NUMBER | SUITE AREA - NIA | BALCONY AREA | TOTAL 
+
+  Page 35: bedrooms: ['4', '4'], unit_types: ['C', 'C', 'NUMBER', 'orientation', 'and'], rooms: ['balcony']
+    text: 4-BEDROOM DUPLEX | TYPE C - LOWER LEVEL | 4 BEDROOM DUPLEX TYPE C | BUILDING | UNIT NUMBER | SUITE AREA - NIA | BALCONY AREA | TOTAL AREA - NSA | SQM | SQFT | SQM | SQFT | SQM | SQFT | B | G02 | 393.15 | 4,231.83 | 104.04 | 1,119.88 | 497.19 | 5,351.71 | BUILDING B | BUILDING A | LEVEL 1 | GROUND LEVEL | Disclaimer: Plans, details and unit orientatio
+
+  Page 36: bedrooms: ['4', '4'], unit_types: ['C', 'C', 'NUMBER', 'orientation', 'and'], rooms: ['balcony']
+    text: 4-BEDROOM DUPLEX | TYPE C - UPPER LEVEL | 4 BEDROOM DUPLEX TYPE C | BUILDING | UNIT NUMBER | SUITE AREA - NIA | BALCONY AREA | TOTAL AREA - NSA | SQM | SQFT | SQM | SQFT | SQM | SQFT | B | G02 | 393.15 | 4,231.83 | 104.04 | 1,119.88 | 497.19 | 5,351.71 | BUILDING B | BUILDING A | LEVEL 1 | GROUND LEVEL | Disclaimer: Plans, details and unit orientatio
+
+  Page 37: bedrooms: ['4', '4'], unit_types: ['D', 'D', 'NUMBER', 'orientation', 'and'], rooms: ['balcony']
+    text: 4-BEDROOM DUPLEX | TYPE D - LOWER LEVEL | 4 BEDROOM DUPLEX TYPE D | BUILDING | UNIT NUMBER | SUITE AREA - NIA | BALCONY AREA | TOTAL AREA - NSA | SQM | SQFT | SQM | SQFT | SQM | SQFT | A | G03 | 418.55 | 4,505.23 | 131.49 | 1,415.35 | 550.04 | 5,920.58 | BUILDING B | BUILDING A | LEVEL 1 | GROUND LEVEL | Disclaimer: Plans, details and unit orientatio
+
+  Page 38: bedrooms: ['4', '4'], unit_types: ['D', 'D', 'NUMBER', 'orientation', 'and'], rooms: ['balcony']
+    text: 4-BEDROOM DUPLEX | TYPE D - UPPER LEVEL | 4 BEDROOM DUPLEX TYPE D | BUILDING | UNIT NUMBER | SUITE AREA - NIA | BALCONY AREA | TOTAL AREA - NSA | SQM | SQFT | SQM | SQFT | SQM | SQFT | A | G03 | 418.55 | 4,505.23 | 131.49 | 1,415.35 | 550.04 | 5,920.58 | BUILDING B | BUILDING A | LEVEL 1 | GROUND LEVEL | Disclaimer: Plans, details and unit orientatio
+
+----------------------------------------------------------------------
+SUMMARY
+----------------------------------------------------------------------
+  All sqft values found: []
+  Unit types found: ['A', 'A1', 'AND', 'B', 'B1', 'C', 'D', 'E', 'F', 'G', 'H', 'NUMBER', 'ORIENTATION']
+  Bedroom counts found: ['1', '2', '3', '4']
+
+----------------------------------------------------------------------
+JSON TEMPLATE (copy into ground truth file)
+----------------------------------------------------------------------
+{
+  "brochure": "City Walk Crestlane 5 Floor Plans.pdf",
+  "last_verified": "2026-02-XX",
+  "notes": "FILL IN: describe what you found",
+  "table_specs": [],
+  "table_spec_count": 0,
+  "text_assertions": {
+    "pages_with_floor_plan_text": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38
+    ],
+    "expected_unit_types_in_text": [
+      "A",
+      "A1",
+      "AND",
+      "B",
+      "B1",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "NUMBER",
+      "ORIENTATION"
+    ],
+    "expected_area_labels_present": false
+  },
+  "floor_plans": [],
+  "total_unique_plans": 0,
+  "total_unique_plans_tolerance": 2,
+  "tolerances": {
+    "sqft_pct": 5.0,
+    "balcony_sqft_pct": 10.0,
+    "bedrooms_exact": true,
+    "bathrooms_exact": true
+  }
+}
+
+NOTE: The floor_plans above are INFERRED from text only. You MUST verify against the actual PDF. Plans with no text data (RD type) will be empty -- fill in manually.

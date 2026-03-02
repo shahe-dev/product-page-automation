@@ -1,0 +1,124 @@
+[
+  {
+    "unit_type": "1BR",
+    "bedrooms": 1,
+    "bathrooms": 2.0,
+    "total_sqft": null,
+    "balcony_sqft": 59.0,
+    "builtup_sqft": null,
+    "features": [
+      "balcony",
+      "laundry",
+      "dresser"
+    ]
+  },
+  {
+    "unit_type": "2BR",
+    "bedrooms": 2,
+    "bathrooms": 2.0,
+    "total_sqft": null,
+    "balcony_sqft": 50.4,
+    "builtup_sqft": null,
+    "features": [
+      "laundry",
+      "dresser",
+      "balcony",
+      "powder_room"
+    ]
+  },
+  {
+    "unit_type": "2BR",
+    "bedrooms": 2,
+    "bathrooms": 2.5,
+    "total_sqft": null,
+    "balcony_sqft": 55.0,
+    "builtup_sqft": null,
+    "features": [
+      "laundry",
+      "dresser",
+      "p_room",
+      "balcony"
+    ]
+  },
+  {
+    "unit_type": "2BR",
+    "bedrooms": 2,
+    "bathrooms": 2.0,
+    "total_sqft": null,
+    "balcony_sqft": null,
+    "builtup_sqft": null,
+    "features": [
+      "laundry",
+      "dresser",
+      "p_room",
+      "dual_balcony"
+    ]
+  },
+  {
+    "unit_type": "2BR",
+    "bedrooms": 2,
+    "bathrooms": 2.0,
+    "total_sqft": null,
+    "balcony_sqft": 150.0,
+    "builtup_sqft": null,
+    "features": [
+      "balcony",
+      "dresser",
+      "p_room",
+      "laundry"
+    ]
+  },
+  {
+    "unit_type": "1BR",
+    "bedrooms": 3,
+    "bathrooms": 3.0,
+    "total_sqft": null,
+    "balcony_sqft": null,
+    "builtup_sqft": null,
+    "features": [
+      "maid_room",
+      "laundry",
+      "dresser",
+      "multiple_balconies"
+    ]
+  },
+  {
+    "unit_type": "1BR",
+    "bedrooms": 1,
+    "bathrooms": 1.0,
+    "total_sqft": null,
+    "balcony_sqft": null,
+    "builtup_sqft": null,
+    "features": [
+      "laundry",
+      "dresser",
+      "balcony"
+    ]
+  },
+  {
+    "unit_type": "2BR",
+    "bedrooms": 2,
+    "bathrooms": 2.0,
+    "total_sqft": 915.36,
+    "balcony_sqft": 70.4,
+    "builtup_sqft": 915.36,
+    "features": [
+      "dresser",
+      "laundry",
+      "balcony"
+    ]
+  },
+  {
+    "unit_type": "2BR",
+    "bedrooms": 2,
+    "bathrooms": 2.0,
+    "total_sqft": 900.0,
+    "balcony_sqft": 65.0,
+    "builtup_sqft": 898.0,
+    "features": [
+      "dresser",
+      "laundry",
+      "balcony"
+    ]
+  }
+]

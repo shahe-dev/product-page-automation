@@ -1,0 +1,494 @@
+{
+  "brochure": "NOVAYAS Brochure",
+  "timestamp": "20260211T202352",
+  "size_mb": 15.1,
+  "page_count": 32,
+  "table_extraction": {
+    "floor_plan_spec_count": 0,
+    "specs": [],
+    "errors": []
+  },
+  "text_extraction": [
+    {
+      "page": 15,
+      "unit_type": "STUDIO"
+    },
+    {
+      "page": 16,
+      "unit_type": "STUDIO"
+    },
+    {
+      "page": 17,
+      "unit_type": "STUDIO"
+    },
+    {
+      "page": 18,
+      "unit_type": "STUDIO"
+    },
+    {
+      "page": 19,
+      "unit_type": "STUDIO"
+    },
+    {
+      "page": 28,
+      "unit_type": "PENTHOUSE"
+    },
+    {
+      "page": 29,
+      "unit_type": "PENTHOUSE"
+    },
+    {
+      "page": 30,
+      "unit_type": "PENTHOUSE"
+    }
+  ],
+  "classification": {
+    "total_images": 72,
+    "retained": 56,
+    "duplicates": 2,
+    "category_counts": {
+      "interior": 5,
+      "exterior": 11,
+      "amenity": 6,
+      "logo": 1,
+      "floor_plan": 21,
+      "location_map": 2,
+      "master_plan": 10
+    }
+  },
+  "floor_plan_image_count": 21,
+  "floor_plans": [
+    {
+      "unit_type": "PENTHOUSE",
+      "bedrooms": 3,
+      "bathrooms": 3.0,
+      "total_sqft": 2127.9,
+      "total_sqft_source": "computed_from_dimensions",
+      "suite_sqft": null,
+      "suite_sqft_source": "",
+      "balcony_sqft": null,
+      "balcony_sqft_source": "",
+      "builtup_sqft": null,
+      "builtup_sqft_source": "",
+      "room_dimensions": {
+        "living_dining": "10.05 x 7.35",
+        "bedroom": "6.75 x 4.30",
+        "bedroom_2": "3.30 x 4.50",
+        "m_bedroom": "4.00 x 3.70",
+        "kitchen": "2.50 x 3.50",
+        "bath": "2.70 x 2.00",
+        "bath_2": "1.59 x 1.40",
+        "m_bath": "3.20 x 2.00",
+        "maid_room": "2.25 x 3.50",
+        "w_i_c": "3.15 x 1.80",
+        "w_i_c_2": "1.90 x 1.60"
+      },
+      "features": [
+        "maid_room",
+        "walk_in_closet",
+        "balcony"
+      ],
+      "confidence": 0.85,
+      "is_duplicate": false,
+      "image_file": "01_penthouse.png"
+    },
+    {
+      "unit_type": "4-Bedroom Type A",
+      "bedrooms": 4,
+      "bathrooms": null,
+      "total_sqft": 6025.31,
+      "total_sqft_source": "floor_plan_image",
+      "suite_sqft": 2862.34,
+      "suite_sqft_source": "floor_plan_image",
+      "balcony_sqft": 3362.96,
+      "balcony_sqft_source": "floor_plan_image",
+      "builtup_sqft": null,
+      "builtup_sqft_source": "",
+      "room_dimensions": null,
+      "features": [
+        "maid_room"
+      ],
+      "confidence": 0.85,
+      "is_duplicate": false,
+      "image_file": "02_4_bedroom_type_a.png"
+    },
+    {
+      "unit_type": "Studio Type A",
+      "bedrooms": 0,
+      "bathrooms": 1.0,
+      "total_sqft": 305.7,
+      "total_sqft_source": "computed_from_dimensions",
+      "suite_sqft": null,
+      "suite_sqft_source": "",
+      "balcony_sqft": null,
+      "balcony_sqft_source": "",
+      "builtup_sqft": null,
+      "builtup_sqft_source": "",
+      "room_dimensions": {
+        "bedroom": "3.55 x 4.05",
+        "kitchen": "2.40 x 2.50",
+        "bath": "1.80 x 2.40"
+      },
+      "features": [
+        "balcony"
+      ],
+      "confidence": 0.85,
+      "is_duplicate": false,
+      "image_file": "03_studio_type_a.png"
+    },
+    {
+      "unit_type": "Studio Type B",
+      "bedrooms": 0,
+      "bathrooms": 1.0,
+      "total_sqft": 510.1,
+      "total_sqft_source": "computed_from_dimensions",
+      "suite_sqft": null,
+      "suite_sqft_source": "",
+      "balcony_sqft": null,
+      "balcony_sqft_source": "",
+      "builtup_sqft": null,
+      "builtup_sqft_source": "",
+      "room_dimensions": {
+        "bedroom": "3.15 x 3.00",
+        "living_dining": "3.55 x 5.15",
+        "kitchen": "2.55 x 3.65",
+        "bath": "1.70 x 2.45"
+      },
+      "features": [
+        "balcony"
+      ],
+      "confidence": 0.95,
+      "is_duplicate": false,
+      "image_file": "04_studio_type_b.png"
+    },
+    {
+      "unit_type": "1-BEDROOM TYPE A",
+      "bedrooms": 1,
+      "bathrooms": 1.0,
+      "total_sqft": 819.8,
+      "total_sqft_source": "computed_from_dimensions",
+      "suite_sqft": null,
+      "suite_sqft_source": "",
+      "balcony_sqft": null,
+      "balcony_sqft_source": "",
+      "builtup_sqft": null,
+      "builtup_sqft_source": "",
+      "room_dimensions": {
+        "m_bedroom": "4.75 X3.90",
+        "living_dining": "6.05 X 4.30",
+        "kitchen": "2.50 X 4.30",
+        "m_bath": "2.00 X 2.00",
+        "bath": "1.40 X2.00",
+        "wic": "2.30 X1.80"
+      },
+      "features": [
+        "walk_in_closet",
+        "balcony"
+      ],
+      "confidence": 0.85,
+      "is_duplicate": false,
+      "image_file": "05_1_bedroom_type_a.png"
+    },
+    {
+      "unit_type": "1-BEDROOM TYPE B",
+      "bedrooms": 1,
+      "bathrooms": 1.0,
+      "total_sqft": 939.4,
+      "total_sqft_source": "computed_from_dimensions",
+      "suite_sqft": null,
+      "suite_sqft_source": "",
+      "balcony_sqft": null,
+      "balcony_sqft_source": "",
+      "builtup_sqft": null,
+      "builtup_sqft_source": "",
+      "room_dimensions": {
+        "bath": "1.90 X2.00",
+        "kitchen": "2.50 X 4.20",
+        "m_bath": "2.90 X2.00",
+        "w_i_c": "3.20X1.80",
+        "m_bedroom": "4.75 X3.90",
+        "living_dining": "7.50 X 4.20"
+      },
+      "features": [
+        "walk_in_closet"
+      ],
+      "confidence": 0.85,
+      "is_duplicate": false,
+      "image_file": "06_1_bedroom_type_b.png"
+    },
+    {
+      "unit_type": "1-Bedroom Type C",
+      "bedrooms": 1,
+      "bathrooms": 1.0,
+      "total_sqft": 549.5,
+      "total_sqft_source": "computed_from_dimensions",
+      "suite_sqft": null,
+      "suite_sqft_source": "",
+      "balcony_sqft": null,
+      "balcony_sqft_source": "",
+      "builtup_sqft": null,
+      "builtup_sqft_source": "",
+      "room_dimensions": {
+        "living_dining": "3.95 x 4.45",
+        "bedroom": "3.10 x 4.95",
+        "kitchen": "2.65 x 2.50",
+        "bath": "2.55 x 1.90"
+      },
+      "features": [
+        "balcony"
+      ],
+      "confidence": 0.85,
+      "is_duplicate": false,
+      "image_file": "07_1_bedroom_type_c.png"
+    },
+    {
+      "unit_type": "2-BEDROOM TYPE A",
+      "bedrooms": 2,
+      "bathrooms": 2.5,
+      "total_sqft": 884.2,
+      "total_sqft_source": "computed_from_dimensions",
+      "suite_sqft": null,
+      "suite_sqft_source": "",
+      "balcony_sqft": null,
+      "balcony_sqft_source": "",
+      "builtup_sqft": null,
+      "builtup_sqft_source": "",
+      "room_dimensions": {
+        "living_dining": "4.25 X 4.05",
+        "kitchen": "2.90 X 4.05",
+        "bedroom": "3.20 X 3.40",
+        "m_bedroom": "4.85 X 3.40",
+        "bath": "1.90 X 1.40",
+        "bath_2": "2.00 X 1.90",
+        "m_bath": "2.85 X 1.70",
+        "wic": "2.00 X 1.90"
+      },
+      "features": [
+        "walk_in_closet",
+        "balcony"
+      ],
+      "confidence": 0.92,
+      "is_duplicate": false,
+      "image_file": "08_2_bedroom_type_a.png"
+    },
+    {
+      "unit_type": "2-BEDROOM TYPE B",
+      "bedrooms": 2,
+      "bathrooms": 2.0,
+      "total_sqft": 713.6,
+      "total_sqft_source": "computed_from_dimensions",
+      "suite_sqft": null,
+      "suite_sqft_source": "",
+      "balcony_sqft": null,
+      "balcony_sqft_source": "",
+      "builtup_sqft": null,
+      "builtup_sqft_source": "",
+      "room_dimensions": {
+        "living_dining": "4.50 x 3.50",
+        "bedroom": "4.20 x 3.50",
+        "bedroom_2": "4.20 x 3.50",
+        "kitchen": "3.50 x 2.50",
+        "bath": "2.50 x 1.50"
+      },
+      "features": [
+        "balcony"
+      ],
+      "confidence": 0.85,
+      "is_duplicate": false,
+      "image_file": "09_2_bedroom_type_b.png"
+    },
+    {
+      "unit_type": "3-BEDROOM WITH MAID ROOM TYPE A",
+      "bedrooms": 3,
+      "bathrooms": null,
+      "total_sqft": null,
+      "total_sqft_source": "",
+      "suite_sqft": null,
+      "suite_sqft_source": "",
+      "balcony_sqft": null,
+      "balcony_sqft_source": "",
+      "builtup_sqft": null,
+      "builtup_sqft_source": "",
+      "room_dimensions": null,
+      "features": [
+        "maid_room"
+      ],
+      "confidence": 0.85,
+      "is_duplicate": false,
+      "image_file": "10_3_bedroom_with_maid_room_type_a.png"
+    },
+    {
+      "unit_type": "3-BEDROOM WITH MAID ROOM TYPE B",
+      "bedrooms": 3,
+      "bathrooms": null,
+      "total_sqft": null,
+      "total_sqft_source": "",
+      "suite_sqft": null,
+      "suite_sqft_source": "",
+      "balcony_sqft": null,
+      "balcony_sqft_source": "",
+      "builtup_sqft": null,
+      "builtup_sqft_source": "",
+      "room_dimensions": null,
+      "features": [
+        "maid_room"
+      ],
+      "confidence": 0.85,
+      "is_duplicate": false,
+      "image_file": "11_3_bedroom_with_maid_room_type_b.png"
+    },
+    {
+      "unit_type": null,
+      "bedrooms": 1,
+      "bathrooms": 2.0,
+      "total_sqft": 842.1,
+      "total_sqft_source": "computed_from_dimensions",
+      "suite_sqft": null,
+      "suite_sqft_source": "",
+      "balcony_sqft": null,
+      "balcony_sqft_source": "",
+      "builtup_sqft": null,
+      "builtup_sqft_source": "",
+      "room_dimensions": {
+        "m_bedroom": "4.75 X 3.90",
+        "living_dining": "6.05 X 4.30",
+        "kitchen": "2.50 X 4.30",
+        "m_bath": "2.90 X 2.00",
+        "bath": "1.40 X2.00",
+        "w_i_c": "2.30 X1.80"
+      },
+      "features": [
+        "walk_in_closet",
+        "balcony"
+      ],
+      "confidence": 0.85,
+      "is_duplicate": false,
+      "image_file": "12_unknown.png"
+    },
+    {
+      "unit_type": null,
+      "bedrooms": 1,
+      "bathrooms": 2.0,
+      "total_sqft": 953.1,
+      "total_sqft_source": "computed_from_dimensions",
+      "suite_sqft": null,
+      "suite_sqft_source": "",
+      "balcony_sqft": null,
+      "balcony_sqft_source": "",
+      "builtup_sqft": null,
+      "builtup_sqft_source": "",
+      "room_dimensions": {
+        "living_dining": "7.96 X 4.20",
+        "m_bedroom": "4.75 X3.90",
+        "kitchen": "2.50 X 4.20",
+        "m_bath": "2.90 X2.00",
+        "bath": "1.40 X2.00",
+        "w_i_c": "3.30X1.80"
+      },
+      "features": [
+        "walk_in_closet",
+        "balcony"
+      ],
+      "confidence": 0.85,
+      "is_duplicate": false,
+      "image_file": "13_unknown.png"
+    },
+    {
+      "unit_type": null,
+      "bedrooms": 2,
+      "bathrooms": 3.0,
+      "total_sqft": 859.7,
+      "total_sqft_source": "computed_from_dimensions",
+      "suite_sqft": null,
+      "suite_sqft_source": "",
+      "balcony_sqft": null,
+      "balcony_sqft_source": "",
+      "builtup_sqft": null,
+      "builtup_sqft_source": "",
+      "room_dimensions": {
+        "living_dining": "4.25 X 4.05",
+        "kitchen": "2.40 X 4.05",
+        "bedroom": "3.20 X 3.40",
+        "m_bedroom": "4.85 X 3.40",
+        "bath": "1.50 X 1.80",
+        "bath_2": "2.00 X 1.90",
+        "m_bath": "2.85 X 1.70",
+        "wic": "2.00 X 1.90"
+      },
+      "features": [
+        "walk_in_closet",
+        "balcony"
+      ],
+      "confidence": 0.85,
+      "is_duplicate": false,
+      "image_file": "14_unknown.png"
+    },
+    {
+      "unit_type": null,
+      "bedrooms": 2,
+      "bathrooms": 3.0,
+      "total_sqft": 945.0,
+      "total_sqft_source": "computed_from_dimensions",
+      "suite_sqft": null,
+      "suite_sqft_source": "",
+      "balcony_sqft": null,
+      "balcony_sqft_source": "",
+      "builtup_sqft": null,
+      "builtup_sqft_source": "",
+      "room_dimensions": {
+        "living_dining": "4.95 x 3.85",
+        "kitchen": "2.50 x 3.85",
+        "bedroom": "4.10 x 4.15",
+        "m_bedroom": "4.30 x 3.95",
+        "bath": "1.60 x 2.00",
+        "bath_2": "2.80 x 1.70",
+        "m_bath": "3.00 x 1.90"
+      },
+      "features": [],
+      "confidence": 0.85,
+      "is_duplicate": false,
+      "image_file": "15_unknown.png"
+    },
+    {
+      "unit_type": null,
+      "bedrooms": 4,
+      "bathrooms": 4.0,
+      "total_sqft": 1757.1,
+      "total_sqft_source": "computed_from_dimensions",
+      "suite_sqft": null,
+      "suite_sqft_source": "",
+      "balcony_sqft": null,
+      "balcony_sqft_source": "",
+      "builtup_sqft": null,
+      "builtup_sqft_source": "",
+      "room_dimensions": {
+        "bedroom_1": "3.65 X 4.85",
+        "mudroom": "4.35 X 4.10",
+        "bath_1": "1.75 X 3.55",
+        "wic": "2.20 X 2.00",
+        "m_bath": "3.40 X 2.00",
+        "bath_2": "1.75 X 3.55",
+        "bedroom_2": "3.50 X 5.00",
+        "kitchen": "5.20 X 3.10",
+        "bath_3": "2.00 X 1.60",
+        "bath_4": "3.00 X 1.60",
+        "living_dining": "7.90x4.25",
+        "maid_room": "3.45 X2.20"
+      },
+      "features": [
+        "maid_room",
+        "walk_in_closet",
+        "balcony"
+      ],
+      "confidence": 0.85,
+      "is_duplicate": false,
+      "image_file": "16_unknown.png"
+    }
+  ],
+  "extraction_summary": {
+    "total_input": 21,
+    "total_extracted": 16,
+    "total_duplicates": 0,
+    "errors": []
+  }
+}

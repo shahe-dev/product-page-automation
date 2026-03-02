@@ -1,0 +1,59 @@
+{
+  "brochure": "EVELYN Brochure Final",
+  "timestamp": "20260212T081707",
+  "size_mb": 23.3,
+  "page_count": 24,
+  "table_extraction": {
+    "floor_plan_spec_count": 0,
+    "specs": [],
+    "errors": []
+  },
+  "text_extraction": [
+    {
+      "page": 10,
+      "unit_type": "3-bedroom r"
+    },
+    {
+      "page": 11,
+      "unit_type": "3-bedroom r"
+    },
+    {
+      "page": 12,
+      "unit_type": "3-bedroom r"
+    },
+    {
+      "page": 20,
+      "unit_type": "1 bedroom - Unit type A"
+    },
+    {
+      "page": 21,
+      "unit_type": "1 bedroom - Unit type A",
+      "suite_sqft": 558.32,
+      "suite_sqft_confidence": 0.92,
+      "balcony_sqft": 57.48,
+      "balcony_sqft_confidence": 0.92,
+      "total_sqft": 615.8,
+      "total_sqft_confidence": 0.92
+    },
+    {
+      "page": 22,
+      "unit_type": "1 bedroom - Unit type A",
+      "suite_sqft": 844.97,
+      "suite_sqft_confidence": 0.92,
+      "balcony_sqft": 70.4,
+      "balcony_sqft_confidence": 0.92,
+      "total_sqft": 915.36,
+      "total_sqft_confidence": 0.92
+    },
+    {
+      "page": 23,
+      "unit_type": "2 bedroom - Unit type A1",
+      "suite_sqft": 835.06,
+      "suite_sqft_confidence": 0.92,
+      "balcony_sqft": 65.44,
+      "balcony_sqft_confidence": 0.92,
+      "total_sqft": 900.51,
+      "total_sqft_confidence": 0.92
+    }
+  ]
+}

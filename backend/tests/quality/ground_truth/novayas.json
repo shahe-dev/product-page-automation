@@ -1,0 +1,118 @@
+{
+  "brochure": "NOVAYAS Brochure.pdf",
+  "last_verified": "2026-02-11",
+  "notes": "Full API extraction. 16 plans total, 5 have null unit_type (not included in floor_plans array). User should verify sqft values against actual PDF.",
+
+  "table_specs": [],
+  "table_spec_count": 0,
+
+  "text_assertions": {
+    "pages_with_floor_plan_text": [15, 19, 28, 29, 30],
+    "expected_unit_types_in_text": ["STUDIO", "PENTHOUSE"],
+    "expected_area_labels_present": false
+  },
+
+  "floor_plans": [
+    {
+      "unit_type": "PENTHOUSE",
+      "bedrooms": 3,
+      "bathrooms": 3.0,
+      "total_sqft": 2127.9,
+      "suite_sqft": null,
+      "balcony_sqft": null
+    },
+    {
+      "unit_type": "4-Bedroom Type A",
+      "bedrooms": 4,
+      "bathrooms": null,
+      "total_sqft": 6025.31,
+      "suite_sqft": 2862.34,
+      "balcony_sqft": 3362.96
+    },
+    {
+      "unit_type": "Studio Type A",
+      "bedrooms": 0,
+      "bathrooms": 1.0,
+      "total_sqft": 305.7,
+      "suite_sqft": null,
+      "balcony_sqft": null
+    },
+    {
+      "unit_type": "Studio Type B",
+      "bedrooms": 0,
+      "bathrooms": 1.0,
+      "total_sqft": 510.1,
+      "suite_sqft": null,
+      "balcony_sqft": null
+    },
+    {
+      "unit_type": "1-BEDROOM TYPE A",
+      "bedrooms": 1,
+      "bathrooms": 1.0,
+      "total_sqft": 819.8,
+      "suite_sqft": null,
+      "balcony_sqft": null
+    },
+    {
+      "unit_type": "1-BEDROOM TYPE B",
+      "bedrooms": 1,
+      "bathrooms": 1.0,
+      "total_sqft": 939.4,
+      "suite_sqft": null,
+      "balcony_sqft": null
+    },
+    {
+      "unit_type": "1-Bedroom Type C",
+      "bedrooms": 1,
+      "bathrooms": 1.0,
+      "total_sqft": 549.5,
+      "suite_sqft": null,
+      "balcony_sqft": null
+    },
+    {
+      "unit_type": "2-BEDROOM TYPE A",
+      "bedrooms": 2,
+      "bathrooms": 2.5,
+      "total_sqft": 884.2,
+      "suite_sqft": null,
+      "balcony_sqft": null
+    },
+    {
+      "unit_type": "2-BEDROOM TYPE B",
+      "bedrooms": 2,
+      "bathrooms": 2.0,
+      "total_sqft": 713.6,
+      "suite_sqft": null,
+      "balcony_sqft": null
+    },
+    {
+      "unit_type": "3-BEDROOM WITH MAID ROOM TYPE A",
+      "bedrooms": 3,
+      "bathrooms": null,
+      "total_sqft": null,
+      "suite_sqft": null,
+      "balcony_sqft": null
+    },
+    {
+      "unit_type": "3-BEDROOM WITH MAID ROOM TYPE B",
+      "bedrooms": 3,
+      "bathrooms": null,
+      "total_sqft": null,
+      "suite_sqft": null,
+      "balcony_sqft": null
+    }
+  ],
+  "total_unique_plans": 16,
+  "total_unique_plans_tolerance": 3,
+
+  "classification": {
+    "min_floor_plan_images": 15
+  },
+
+  "tolerances": {
+    "sqft_pct": 6.0,
+    "balcony_sqft_pct": 10.0,
+    "bedrooms_exact": true,
+    "bathrooms_exact": true
+  }
+}

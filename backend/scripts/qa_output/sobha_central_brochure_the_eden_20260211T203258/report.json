@@ -1,0 +1,573 @@
+{
+  "brochure": "Sobha Central Brochure - The Eden",
+  "timestamp": "20260211T203258",
+  "size_mb": 26.7,
+  "page_count": 65,
+  "table_extraction": {
+    "floor_plan_spec_count": 0,
+    "specs": [],
+    "errors": []
+  },
+  "text_extraction": [
+    {
+      "page": 15,
+      "total_sqft": 175000.0
+    },
+    {
+      "page": 16,
+      "total_sqft": 175000.0
+    },
+    {
+      "page": 17,
+      "total_sqft": 175000.0
+    },
+    {
+      "page": 23,
+      "unit_type": "STUDIO"
+    },
+    {
+      "page": 24,
+      "unit_type": "STUDIO"
+    },
+    {
+      "page": 25,
+      "unit_type": "STUDIO"
+    },
+    {
+      "page": 34,
+      "unit_type": "1BR"
+    },
+    {
+      "page": 35,
+      "unit_type": "1BR",
+      "suite_sqft": 479.1,
+      "balcony_sqft": 89.45,
+      "total_sqft": 568.55
+    },
+    {
+      "page": 36,
+      "unit_type": "1BR",
+      "suite_sqft": 479.1,
+      "balcony_sqft": 89.45,
+      "total_sqft": 568.55
+    },
+    {
+      "page": 37,
+      "suite_sqft": 479.1,
+      "balcony_sqft": 89.45,
+      "total_sqft": 568.55,
+      "bedrooms": 1
+    },
+    {
+      "page": 38,
+      "suite_sqft": 479.1,
+      "balcony_sqft": 89.45,
+      "total_sqft": 568.55,
+      "bedrooms": 1
+    },
+    {
+      "page": 39,
+      "suite_sqft": 488.36,
+      "balcony_sqft": 99.89,
+      "total_sqft": 588.25,
+      "bedrooms": 1
+    },
+    {
+      "page": 40,
+      "suite_sqft": 488.36,
+      "balcony_sqft": 99.89,
+      "total_sqft": 588.25,
+      "bathrooms": 2450.0,
+      "bedrooms": 1
+    },
+    {
+      "page": 41,
+      "suite_sqft": 481.47,
+      "balcony_sqft": 99.89,
+      "total_sqft": 581.36,
+      "bathrooms": 2450.0,
+      "bedrooms": 1
+    },
+    {
+      "page": 42,
+      "suite_sqft": 481.47,
+      "balcony_sqft": 99.89,
+      "total_sqft": 581.36,
+      "bathrooms": 2450.0,
+      "bedrooms": 1
+    },
+    {
+      "page": 43,
+      "suite_sqft": 542.18,
+      "balcony_sqft": 89.45,
+      "total_sqft": 631.63,
+      "bedrooms": 1
+    },
+    {
+      "page": 44,
+      "suite_sqft": 542.18,
+      "balcony_sqft": 89.45,
+      "total_sqft": 631.63,
+      "bathrooms": 1550.0,
+      "bedrooms": 1
+    },
+    {
+      "page": 45,
+      "suite_sqft": 593.63,
+      "balcony_sqft": 101.4,
+      "total_sqft": 695.03,
+      "bathrooms": 1550.0,
+      "bedrooms": 1
+    },
+    {
+      "page": 46,
+      "suite_sqft": 593.63,
+      "balcony_sqft": 101.4,
+      "total_sqft": 695.03,
+      "bathrooms": 1550.0,
+      "bedrooms": 1
+    },
+    {
+      "page": 47,
+      "suite_sqft": 541.75,
+      "balcony_sqft": 160.49,
+      "total_sqft": 702.13,
+      "bathrooms": 3050.0,
+      "bedrooms": 1
+    },
+    {
+      "page": 48,
+      "suite_sqft": 541.75,
+      "balcony_sqft": 160.49,
+      "total_sqft": 702.13,
+      "bathrooms": 3050.0,
+      "bedrooms": 1
+    },
+    {
+      "page": 49,
+      "suite_sqft": 629.15,
+      "balcony_sqft": 101.4,
+      "total_sqft": 730.55,
+      "bathrooms": 3350.0,
+      "bedrooms": 1
+    },
+    {
+      "page": 50,
+      "suite_sqft": 629.15,
+      "balcony_sqft": 101.4,
+      "total_sqft": 730.55,
+      "bathrooms": 3350.0,
+      "bedrooms": 1
+    },
+    {
+      "page": 51,
+      "suite_sqft": 642.17,
+      "balcony_sqft": 101.72,
+      "total_sqft": 743.89,
+      "bathrooms": 1450.0,
+      "bedrooms": 1
+    },
+    {
+      "page": 52,
+      "suite_sqft": 642.17,
+      "balcony_sqft": 101.72,
+      "total_sqft": 743.89,
+      "bathrooms": 1450.0,
+      "bedrooms": 1
+    },
+    {
+      "page": 53,
+      "suite_sqft": 642.17,
+      "balcony_sqft": 102.8,
+      "total_sqft": 743.89,
+      "bathrooms": 1450.0,
+      "bedrooms": 1
+    },
+    {
+      "page": 54,
+      "suite_sqft": 642.17,
+      "balcony_sqft": 102.8,
+      "total_sqft": 743.89,
+      "bathrooms": 1450.0,
+      "bedrooms": 1
+    },
+    {
+      "page": 55,
+      "suite_sqft": 622.26,
+      "balcony_sqft": 160.06,
+      "total_sqft": 782.32,
+      "bedrooms": 1
+    },
+    {
+      "page": 56,
+      "suite_sqft": 622.26,
+      "balcony_sqft": 160.06,
+      "total_sqft": 782.32,
+      "bathrooms": 3050.0,
+      "bedrooms": 1
+    },
+    {
+      "page": 57,
+      "suite_sqft": 837.32,
+      "balcony_sqft": 119.16,
+      "total_sqft": 956.48,
+      "bathrooms": 3050.0,
+      "bedrooms": 750
+    },
+    {
+      "page": 58,
+      "suite_sqft": 837.32,
+      "balcony_sqft": 119.16,
+      "total_sqft": 956.48,
+      "bathrooms": 3050.0,
+      "bedrooms": 750
+    },
+    {
+      "page": 59,
+      "suite_sqft": 837.43,
+      "balcony_sqft": 119.16,
+      "total_sqft": 956.59,
+      "bathrooms": 3050.0,
+      "bedrooms": 750
+    },
+    {
+      "page": 60,
+      "suite_sqft": 837.43,
+      "balcony_sqft": 119.16,
+      "total_sqft": 956.59,
+      "bathrooms": 3050.0,
+      "bedrooms": 750
+    },
+    {
+      "page": 61,
+      "suite_sqft": 1019.13,
+      "balcony_sqft": 182.88,
+      "total_sqft": 1202.01,
+      "bathrooms": 3100.0,
+      "bedrooms": 2
+    },
+    {
+      "page": 62,
+      "suite_sqft": 1019.13,
+      "balcony_sqft": 182.88,
+      "total_sqft": 1202.01,
+      "bathrooms": 3100.0,
+      "bedrooms": 2
+    },
+    {
+      "page": 63,
+      "suite_sqft": 1019.13,
+      "balcony_sqft": 182.88,
+      "total_sqft": 1202.01,
+      "bathrooms": 3100.0,
+      "bedrooms": 2
+    },
+    {
+      "page": 64,
+      "suite_sqft": 1019.13,
+      "balcony_sqft": 182.88,
+      "total_sqft": 1202.01,
+      "bathrooms": 3100.0,
+      "bedrooms": 2
+    }
+  ],
+  "classification": {
+    "total_images": 114,
+    "retained": 55,
+    "duplicates": 19,
+    "category_counts": {
+      "interior": 4,
+      "exterior": 10,
+      "amenity": 17,
+      "logo": 1,
+      "floor_plan": 14,
+      "location_map": 3,
+      "master_plan": 6
+    }
+  },
+  "floor_plan_image_count": 14,
+  "floor_plans": [
+    {
+      "unit_type": "1 Bedroom Apartment Type A",
+      "bedrooms": 1,
+      "bathrooms": 1.0,
+      "total_sqft": 568.55,
+      "total_sqft_source": "floor_plan_image",
+      "suite_sqft": 479.1,
+      "suite_sqft_source": "floor_plan_image",
+      "balcony_sqft": 89.45,
+      "balcony_sqft_source": "floor_plan_image",
+      "builtup_sqft": null,
+      "builtup_sqft_source": "",
+      "room_dimensions": {
+        "bedroom": "3000 x 3050",
+        "living": "3150 x 3100",
+        "kitchen_dining": "3050 x 2550",
+        "bathroom": "1600 x 2600"
+      },
+      "features": [
+        "balcony"
+      ],
+      "confidence": 0.95,
+      "is_duplicate": false,
+      "image_file": "01_1_bedroom_apartment_type_a.png"
+    },
+    {
+      "unit_type": "1 BEDROOM APARTMENT TYPE B",
+      "bedrooms": 1,
+      "bathrooms": 1.0,
+      "total_sqft": 588.25,
+      "total_sqft_source": "floor_plan_image",
+      "suite_sqft": 488.36,
+      "suite_sqft_source": "floor_plan_image",
+      "balcony_sqft": 99.89,
+      "balcony_sqft_source": "floor_plan_image",
+      "builtup_sqft": null,
+      "builtup_sqft_source": "",
+      "room_dimensions": {
+        "bedroom": "3000 X 3350",
+        "living": "3150 X 3000",
+        "kitchen_dining": "3050 X 2450",
+        "utility": "1000 X 750",
+        "bathroom": "1600 X 2600"
+      },
+      "features": [
+        "balcony"
+      ],
+      "confidence": 0.95,
+      "is_duplicate": false,
+      "image_file": "02_1_bedroom_apartment_type_b.png"
+    },
+    {
+      "unit_type": "1 BEDROOM APARTMENT TYPE C",
+      "bedrooms": 1,
+      "bathrooms": 1.0,
+      "total_sqft": 631.63,
+      "total_sqft_source": "floor_plan_image",
+      "suite_sqft": 542.18,
+      "suite_sqft_source": "floor_plan_image",
+      "balcony_sqft": 89.45,
+      "balcony_sqft_source": "floor_plan_image",
+      "builtup_sqft": null,
+      "builtup_sqft_source": "",
+      "room_dimensions": {
+        "bedroom": "3000 X 3950",
+        "living": "3150 X 3000",
+        "kitchen_dining": "3050 X 3050",
+        "utility": "750 X 1100",
+        "bathroom": "1600 X 2600"
+      },
+      "features": [
+        "balcony"
+      ],
+      "confidence": 0.95,
+      "is_duplicate": false,
+      "image_file": "03_1_bedroom_apartment_type_c.png"
+    },
+    {
+      "unit_type": "1 BEDROOM APARTMENT TYPE D",
+      "bedrooms": 1,
+      "bathrooms": 1.0,
+      "total_sqft": 695.03,
+      "total_sqft_source": "floor_plan_image",
+      "suite_sqft": 593.63,
+      "suite_sqft_source": "floor_plan_image",
+      "balcony_sqft": 101.4,
+      "balcony_sqft_source": "floor_plan_image",
+      "builtup_sqft": null,
+      "builtup_sqft_source": "",
+      "room_dimensions": {
+        "bedroom": "3050 X 4500",
+        "living": "3150 X 3550",
+        "kitchen_dining": "3550 X 2950",
+        "utility": "850 X 1850",
+        "bathroom": "1600 X 2600"
+      },
+      "features": [
+        "balcony",
+        "utility"
+      ],
+      "confidence": 0.95,
+      "is_duplicate": false,
+      "image_file": "04_1_bedroom_apartment_type_d.png"
+    },
+    {
+      "unit_type": "1 BEDROOM APARTMENT TYPE E",
+      "bedrooms": 1,
+      "bathrooms": 1.0,
+      "total_sqft": 702.13,
+      "total_sqft_source": "floor_plan_image",
+      "suite_sqft": 541.75,
+      "suite_sqft_source": "floor_plan_image",
+      "balcony_sqft": 160.49,
+      "balcony_sqft_source": "floor_plan_image",
+      "builtup_sqft": null,
+      "builtup_sqft_source": "",
+      "room_dimensions": {
+        "living_dining": "4250 X 3950",
+        "bedroom": "3050 X 3050",
+        "kitchen": "1950 X 2850",
+        "bathroom": "2600 X 1600",
+        "powder": "1450 X 1600",
+        "utility": "750 X 500"
+      },
+      "features": [
+        "powder_room",
+        "balcony"
+      ],
+      "confidence": 0.95,
+      "is_duplicate": false,
+      "image_file": "05_1_bedroom_apartment_type_e.png"
+    },
+    {
+      "unit_type": "1 BEDROOM APARTMENT TYPE F",
+      "bedrooms": 1,
+      "bathrooms": 1.0,
+      "total_sqft": 730.55,
+      "total_sqft_source": "floor_plan_image",
+      "suite_sqft": 629.15,
+      "suite_sqft_source": "floor_plan_image",
+      "balcony_sqft": 101.4,
+      "balcony_sqft_source": "floor_plan_image",
+      "builtup_sqft": null,
+      "builtup_sqft_source": "",
+      "room_dimensions": {
+        "living": "3150 X 4600",
+        "bedroom": "3000 X 3350",
+        "bathroom": "2600 X 1600",
+        "kitchen_dining": "3050 X 2850",
+        "utility": "900 X 750",
+        "powder": "1600 X 1450",
+        "store": "1100 X 1300"
+      },
+      "features": [
+        "store_room",
+        "powder_room",
+        "balcony"
+      ],
+      "confidence": 0.95,
+      "is_duplicate": false,
+      "image_file": "06_1_bedroom_apartment_type_f.png"
+    },
+    {
+      "unit_type": "1 BEDROOM APARTMENT TYPE G",
+      "bedrooms": 1,
+      "bathrooms": 1.0,
+      "total_sqft": 743.89,
+      "total_sqft_source": "floor_plan_image",
+      "suite_sqft": 642.17,
+      "suite_sqft_source": "floor_plan_image",
+      "balcony_sqft": 101.72,
+      "balcony_sqft_source": "floor_plan_image",
+      "builtup_sqft": null,
+      "builtup_sqft_source": "",
+      "room_dimensions": {
+        "bedroom": "3500 X 3200",
+        "living_dining": "3150 X 3550",
+        "kitchen": "1800 X 3450",
+        "bathroom": "2600 X 1600",
+        "powder": "1600 X 1450",
+        "utility": "850 X 750"
+      },
+      "features": [
+        "powder_room",
+        "balcony"
+      ],
+      "confidence": 0.95,
+      "is_duplicate": false,
+      "image_file": "07_1_bedroom_apartment_type_g.png"
+    },
+    {
+      "unit_type": "1 BEDROOM APARTMENT TYPE H",
+      "bedrooms": 1,
+      "bathrooms": 1.0,
+      "total_sqft": 782.32,
+      "total_sqft_source": "floor_plan_image",
+      "suite_sqft": 622.26,
+      "suite_sqft_source": "floor_plan_image",
+      "balcony_sqft": 160.06,
+      "balcony_sqft_source": "floor_plan_image",
+      "builtup_sqft": null,
+      "builtup_sqft_source": "",
+      "room_dimensions": {
+        "bedroom": "3050 X 3000",
+        "living_dining": "4300 X 3450",
+        "kitchen": "1850 X 3000",
+        "bathroom": "2600 X 1600",
+        "utility": "950 X 750",
+        "powder": "1600 X 1450"
+      },
+      "features": [
+        "powder_room",
+        "balcony"
+      ],
+      "confidence": 0.95,
+      "is_duplicate": false,
+      "image_file": "08_1_bedroom_apartment_type_h.png"
+    },
+    {
+      "unit_type": "2 Bedroom Apartment Type D",
+      "bedrooms": 2,
+      "bathrooms": 2.0,
+      "total_sqft": 956.48,
+      "total_sqft_source": "floor_plan_image",
+      "suite_sqft": 837.32,
+      "suite_sqft_source": "floor_plan_image",
+      "balcony_sqft": 119.16,
+      "balcony_sqft_source": "floor_plan_image",
+      "builtup_sqft": null,
+      "builtup_sqft_source": "",
+      "room_dimensions": {
+        "bedroom_1": "3000 x 3800",
+        "bedroom_2": "3000 x 3050",
+        "living_dining": "3200 x 4850",
+        "kitchen": "2650 x 1900",
+        "bathroom_1": "2600 x 1600",
+        "bathroom_2": "2600 x 1600",
+        "utility": "950 x 750"
+      },
+      "features": [
+        "balcony",
+        "utility"
+      ],
+      "confidence": 0.95,
+      "is_duplicate": false,
+      "image_file": "09_2_bedroom_apartment_type_d.png"
+    },
+    {
+      "unit_type": "2 Bedroom Apartment Type G",
+      "bedrooms": 2,
+      "bathrooms": 2.0,
+      "total_sqft": 1202.01,
+      "total_sqft_source": "floor_plan_image",
+      "suite_sqft": 1019.13,
+      "suite_sqft_source": "floor_plan_image",
+      "balcony_sqft": 182.88,
+      "balcony_sqft_source": "floor_plan_image",
+      "builtup_sqft": null,
+      "builtup_sqft_source": "",
+      "room_dimensions": {
+        "dining": "2600 x 2250",
+        "living": "3650 x 4850",
+        "kitchen": "3000 x 2500",
+        "utility": "1150 x 1300",
+        "bathroom": "2600 x 1600",
+        "bedroom": "3000 x 3100",
+        "bedroom_2": "3000 x 3100",
+        "bathroom_2": "2600 x 1600"
+      },
+      "features": [
+        "balcony"
+      ],
+      "confidence": 0.95,
+      "is_duplicate": false,
+      "image_file": "10_2_bedroom_apartment_type_g.png"
+    }
+  ],
+  "extraction_summary": {
+    "total_input": 14,
+    "total_extracted": 10,
+    "total_duplicates": 0,
+    "errors": []
+  }
+}

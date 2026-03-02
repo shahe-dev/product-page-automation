@@ -1,0 +1,63 @@
+======================================================================
+  GROUND TRUTH REVIEW: palmiera
+======================================================================
+  File: PALMIERA-COLLECTIVE_TO_FLOORPLAN.pdf
+  Size: 10.4 MB, 4 pages
+  Format: TS (text quality: moderate)
+  Notes: 4 pages. Area tables present. Very short document.
+======================================================================
+
+INSTRUCTIONS:
+  1. Open the PDF in a viewer
+  2. For each floor plan page, verify/fill in the data below
+  3. Copy the JSON template at the bottom into the ground truth file
+
+FLOOR PLAN PAGES DETECTED: 3
+----------------------------------------------------------------------
+
+  Page 2: bedrooms: ['4']
+    text: KEY PLAN | N | 4 BEDROOM WITH BASEMENT | *033640%2%PPHMQIRWMSRWEVIMRMQTIVMEPERHQIXVMGERHQIEWYVIHJVSQƁRMWLXSƁRMWLI\GPYHMRKGSRWXVYGXMSRXSPIVERGIW%PPQEXIVMEPWHMQIWMSRWERHHVE[MRKWEVIETTVS\MQEXISRP]-RJSVQEXMSRMWWYFNIGXXSGLERKI[MLXSYXRSXMGIEXHIZIPSTIVťWEFWSPYXI
+
+  Page 3: bedrooms: ['4']
+    text: KEY PLAN | N | 4 BEDROOM WITH BASEMENT | *033640%2%PPHMQIRWMSRWEVIMRMQTIVMEPERHQIXVMGERHQIEWYVIHJVSQƁRMWLXSƁRMWLI\GPYHMRKGSRWXVYGXMSRXSPIVERGIW%PPQEXIVMEPWHMQIWMSRWERHHVE[MRKWEVIETTVS\MQEXISRP]-RJSVQEXMSRMWWYFNIGXXSGLERKI[MLXSYXRSXMGIEXHIZIPSTIVťWEFWSPYXI
+
+  Page 4: bedrooms: ['4']
+    text: KEY PLAN | N | 4 BEDROOM WITH BASEMENT | *033640%2%PPHMQIRWMSRWEVIMRMQTIVMEPERHQIXVMGERHQIEWYVIHJVSQƁRMWLXSƁRMWLI\GPYHMRKGSRWXVYGXMSRXSPIVERGIW%PPQEXIVMEPWHMQIWMSRWERHHVE[MRKWEVIETTVS\MQEXISRP]-RJSVQEXMSRMWWYFNIGXXSGLERKI[MLXSYXRSXMGIEXHIZIPSTIVťWEFWSPYXI
+
+----------------------------------------------------------------------
+SUMMARY
+----------------------------------------------------------------------
+  All sqft values found: []
+  Unit types found: []
+  Bedroom counts found: ['4']
+
+----------------------------------------------------------------------
+JSON TEMPLATE (copy into ground truth file)
+----------------------------------------------------------------------
+{
+  "brochure": "PALMIERA-COLLECTIVE_TO_FLOORPLAN.pdf",
+  "last_verified": "2026-02-XX",
+  "notes": "FILL IN: describe what you found",
+  "table_specs": [],
+  "table_spec_count": 0,
+  "text_assertions": {
+    "pages_with_floor_plan_text": [
+      2,
+      3,
+      4
+    ],
+    "expected_unit_types_in_text": [],
+    "expected_area_labels_present": false
+  },
+  "floor_plans": [],
+  "total_unique_plans": 0,
+  "total_unique_plans_tolerance": 2,
+  "tolerances": {
+    "sqft_pct": 5.0,
+    "balcony_sqft_pct": 10.0,
+    "bedrooms_exact": true,
+    "bathrooms_exact": true
+  }
+}
+
+NOTE: The floor_plans above are INFERRED from text only. You MUST verify against the actual PDF. Plans with no text data (RD type) will be empty -- fill in manually.

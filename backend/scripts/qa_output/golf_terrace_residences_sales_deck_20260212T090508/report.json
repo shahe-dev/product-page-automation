@@ -1,0 +1,84 @@
+{
+  "brochure": "Golf Terrace Residences_Sales Deck",
+  "timestamp": "20260212T090508",
+  "size_mb": 108.4,
+  "page_count": 31,
+  "table_extraction": {
+    "floor_plan_spec_count": 0,
+    "specs": [],
+    "errors": []
+  },
+  "text_extraction": [
+    {
+      "page": 11,
+      "unit_type": "1 BR"
+    },
+    {
+      "page": 12,
+      "unit_type": "1 BR",
+      "total_sqft": 1716.8437,
+      "total_sqft_confidence": 0.6
+    },
+    {
+      "page": 13,
+      "unit_type": "1 BR"
+    },
+    {
+      "page": 16,
+      "unit_type": "1 BR"
+    },
+    {
+      "page": 17,
+      "unit_type": "1 BR"
+    },
+    {
+      "page": 18,
+      "unit_type": "1 BR"
+    },
+    {
+      "page": 19,
+      "unit_type": "1 BR"
+    },
+    {
+      "page": 20,
+      "unit_type": "Studio"
+    },
+    {
+      "page": 21,
+      "unit_type": "1BR - L"
+    },
+    {
+      "page": 22,
+      "unit_type": "1BR - L"
+    },
+    {
+      "page": 23,
+      "unit_type": "1BR - L"
+    },
+    {
+      "page": 24,
+      "unit_type": "1BR - K"
+    },
+    {
+      "page": 25,
+      "unit_type": "1BR",
+      "total_sqft": 1189.4121,
+      "total_sqft_confidence": 0.6
+    },
+    {
+      "page": 27,
+      "unit_type": "1 BR S"
+    },
+    {
+      "page": 28,
+      "unit_type": "1 BR S",
+      "total_sqft": 476.0,
+      "total_sqft_confidence": 0.6,
+      "price": 688000.0
+    },
+    {
+      "page": 29,
+      "unit_type": "1 BR S"
+    }
+  ]
+}

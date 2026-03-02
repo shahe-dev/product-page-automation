@@ -1,0 +1,368 @@
+======================================================================
+  GROUND TRUTH REVIEW: inaura
+======================================================================
+  File: INAURA_DOWNTOWN-DUBAI_BROCHURE.pdf
+  Size: 14.5 MB, 100 pages
+  Format: SD (text quality: rich)
+  Notes: 100 pages. Floor plans (pages 51-68) have room dimensions (4.6 x 3.1 M), area labels (Suite/Balcony/Total sqft/sqm). Sky Villa duplexes are multi-floor. Very rich text data.
+======================================================================
+
+INSTRUCTIONS:
+  1. Open the PDF in a viewer
+  2. For each floor plan page, verify/fill in the data below
+  3. Copy the JSON template at the bottom into the ground truth file
+
+FLOOR PLAN PAGES DETECTED: 39
+----------------------------------------------------------------------
+
+  Page 7: rooms: ['living']
+    text: Connected Life | Architecture in Motion | Kinetic Living | The AWE path | The New Energy of Dubai | PART THREE - EXPERIENCE | PART FOUR - LOCATION | PART TWO - RESIDENCES | INTRODUCTION | PART ONE - DESIGN | 7
+
+  Page 8: rooms: ['living']
+    text: At Arada, innovation is never confined to  | a blueprint. It lives in the space between  | disciplines - where architecture meets  | movement, where hospitality meets  | belonging, where lifestyle becomes place. | From our earliest communities  | to our latest ventures, we have  | pursued a single idea: that how 
+
+  Page 11: bedrooms: [''], rooms: ['living']
+    text: In a skyline defined by ambition, Inaura stands  | as a luminous expression of Dubai’s bold energy  | and imagination. This is a landmark of refined  | modernism designed to be both admired and  | experienced. Envisioned by Arada and designed  | by global architecture studio MVRDV, Inaura  | embodies a shared b
+
+  Page 22: rooms: ['living']
+    text: Our approach to kinetic living can be  | found in the details. Apartments are  | open yet intentional, with flowing layouts  | that encourage natural light, circulation,  | and breath. Integrated joinery conceals  | technology and storage, keeping the visual  | field clear and the mind focused. Soft,  | continuou
+
+  Page 28: bedrooms: ['2', '2', '1', '1', '2', '2', '1', '1', '1', '2', '3', '4', '5', '6'], unit_types: ['dimensions', 'types']
+    text: 15TH - 18TH FLOOR PLAN | 1501 | 1502 | 1508 | 1503 | 1504 | 1505 | 1507 | 1506 | 2BR-A | 2BR-A | 1BR-A | 1BR-B | 2BR-A | 2BR-A | 1BR-A | 1BR-B | 1-Measurements are indicative ‘finish to finish’ in Metric & Imperial excluding construction tolerance. 2-Plot/unit dimensions may vary from brochure, and unit types/plans may exist as mirr
+
+  Page 29: bedrooms: ['3', '2', '2', '1', '1', '1', '1', '1', '2', '3', '4', '5', '6'], unit_types: ['dimensions', 'types']
+    text: 19TH - 22ND FLOOR PLAN | 1901 | 1902 | 1903 | 1904 | 1905 | 1907 | 1906 | 3BR | 2BR-A | 2BR-A | 1BR-A | 1BR-B | 1BR-A | 1BR-B | 1-Measurements are indicative ‘finish to finish’ in Metric & Imperial excluding construction tolerance. 2-Plot/unit dimensions may vary from brochure, and unit types/plans may exist as mirrored versions
+
+  Page 30: bedrooms: ['2', '2', '2', '2', '3', '1', '2', '3', '4', '5', '6'], unit_types: ['dimensions', 'types']
+    text: 23RD FLOOR PLAN | 2301 | 2302 | 2303 | 2304 | 2305 | 2BR-D | 2BR-B | 2BR-A | 2BR-A | 3BR | 1-Measurements are indicative ‘finish to finish’ in Metric & Imperial excluding construction tolerance. 2-Plot/unit dimensions may vary from brochure, and unit types/plans may exist as mirrored versions; 3-All images used are for i
+
+  Page 31: bedrooms: ['2', '2', '2', '2', '3', '1', '2', '3', '4', '5', '6'], unit_types: ['dimensions', 'types']
+    text: 24TH - 31ST FLOOR PLAN | 2BR-C | 2BR-B | 2BR-A | 2BR-A | 2401 | 2402 | 2403 | 2404 | 2405 | 3BR | 1-Measurements are indicative ‘finish to finish’ in Metric & Imperial excluding construction tolerance. 2-Plot/unit dimensions may vary from brochure, and unit types/plans may exist as mirrored versions; 3-All images used ar
+
+  Page 32: bedrooms: ['4', '4', '1', '2', '3', '4', '5', '6'], unit_types: ['dimensions', 'types']
+    text: 36TH - 38TH FLOOR PLAN | 3601 | 3602 | 4BR | 4BR | 1-Measurements are indicative ‘finish to finish’ in Metric & Imperial excluding construction tolerance. 2-Plot/unit dimensions may vary from brochure, and unit types/plans may exist as mirrored versions; 3-All images used are for illustrative purposes only. 4
+
+  Page 33: bedrooms: ['5', '5', '1', '2', '3', '4', '5', '6'], unit_types: ['dimensions', 'types']
+    text: 39TH FLOOR PLAN | 3901 | 3902 | 5BR | DUPLEX | (Lower) | 5BR | DUPLEX | (Lower) | 1-Measurements are indicative ‘finish to finish’ in Metric & Imperial excluding construction tolerance. 2-Plot/unit dimensions may vary from brochure, and unit types/plans may exist as mirrored versions; 3-All images used are for illust
+
+  Page 34: bedrooms: ['5', '5', '1', '2', '3', '4', '5', '6'], unit_types: ['dimensions', 'types']
+    text: 40TH FLOOR PLAN | 5BR | DUPLEX | (Upper) | 5BR | DUPLEX | (Upper) | 1-Measurements are indicative ‘finish to finish’ in Metric & Imperial excluding construction tolerance. 2-Plot/unit dimensions may vary from brochure, and unit types/plans may exist as mirrored versions; 3-All images used are for illustrative pur
+
+  Page 35: bedrooms: ['6', '1', '2', '3', '4', '5', '6'], unit_types: ['dimensions', 'types']
+    text: 41ST FLOOR PLAN | 4101 | 6BR PRESIDENTIAL | (Lower) | 1-Measurements are indicative ‘finish to finish’ in Metric & Imperial excluding construction tolerance. 2-Plot/unit dimensions may vary from brochure, and unit types/plans may exist as mirrored versions; 3-All images used are for illustrative purposes on
+
+  Page 36: bedrooms: ['6', '1', '2', '3', '4', '5', '6'], unit_types: ['dimensions', 'types']
+    text: 42ND FLOOR PLAN | 6BR PRESIDENTIAL | (Upper) | 1-Measurements are indicative ‘finish to finish’ in Metric & Imperial excluding construction tolerance. 2-Plot/unit dimensions may vary from brochure, and unit types/plans may exist as mirrored versions; 3-All images used are for illustrative purposes only. 4
+
+  Page 37: bedrooms: ['6', '1', '2', '3', '4', '5', '6'], unit_types: ['dimensions', 'types']
+    text: 6BR PRESIDENTIAL | (Roof Floor) | 1-Measurements are indicative ‘finish to finish’ in Metric & Imperial excluding construction tolerance. 2-Plot/unit dimensions may vary from brochure, and unit types/plans may exist as mirrored versions; 3-All images used are for illustrative purposes only. 4-Unless sta
+
+  Page 43: bedrooms: ['6', '5', '3', '4'], unit_types: ['TYPE', 'TYPE'], rooms: ['living']
+    text: Suspended at the tower’s pinnacle, The Sky Penthouse  | is the purest expression of Inaura’s vision - a residence  | where architecture transcends structure. Conceived as  | a sculptural form in the sky, it captures the equilibrium  | between motion and stillness, light and shadow. | Expansive living spaces o
+
+  Page 44: dimensions (7 found), sqft (6 values), sqm (6 values), area_labels, bedrooms: ['1'], unit_types: ['dimensions', 'types'], rooms: ['balcony', 'bathroom', 'dining', 'dressing', 'guest', 'kitchen', 'living']
+    sample_dimensions: ['4.5 x 3.4', '3.1 x 2.6', '1.7 x 1.2', '2.4 x 1.6', '2.9 x 1.2']
+    sqft_values: [580.0, 125.0, 705.0, 583.0, 251.0, 834.0]
+    sqm_values: [53.9, 11.59, 65.49, 54.14, 23.31, 77.45]
+    area_labels: [{'label': 'BALCONY', 'value': 9.3}]
+    text: Lumen Series 1 Bedroom - A | Min Suite Area: 53.90 Sqm (580 Sqft)      |     Min Balcony Area: 11.59 Sqm (125 Sqft)     |    Min Total Area: 65.49 Sqm (705 Sqft) | Max Suite Area: 54.14 Sqm (583 Sqft)      |     Max Balcony Area: 23.31 Sqm (251 Sqft)     |    Max Total Area: 77.45 Sqm (834 Sqft) | 1-Measu
+
+  Page 46: dimensions (7 found), sqft (6 values), sqm (6 values), area_labels, bedrooms: ['1'], unit_types: ['dimensions', 'types'], rooms: ['balcony', 'bathroom', 'dining', 'dressing', 'guest', 'kitchen', 'living']
+    sample_dimensions: ['4.3 x 3.4', '2.9 x 2.6', '1.5 x 1.6', '2.5 x 1.5', '2.1 x 1.3']
+    sqft_values: [590.0, 125.0, 715.0, 587.0, 195.0, 782.0]
+    sqm_values: [54.8, 11.6, 66.4, 54.55, 18.14, 72.69]
+    area_labels: [{'label': 'BALCONY', 'value': 9.3}]
+    text: 46 | 46 | 1-Measurements are indicative ‘finish to finish’ in Metric & Imperial excluding construction tolerance. 2-Plot/unit dimensions may vary from brochure, and unit types/plans may exist as mirrored versions; 3-All images used are for illustrative purposes only. 4-Unless stated  | otherwise, all fitt
+
+  Page 48: dimensions (10 found), sqft (6 values), sqm (6 values), area_labels, bedrooms: ['2'], unit_types: ['dimensions', 'types'], rooms: ['balcony', 'bathroom', 'dining', 'dressing', 'guest', 'kitchen', 'living', 'master\nbedroom']
+    sample_dimensions: ['6.0 x 3.6', '2.4 x 2.4', '3.7 x 2.9', '2.3 x 1.9', '2.9 x 2.0']
+    sqft_values: [987.0, 285.0, 1272.0, 998.0, 510.0, 1508.0]
+    sqm_values: [91.71, 26.44, 118.15, 92.74, 47.32, 140.06]
+    area_labels: [{'label': 'BALCONY', 'value': 15.3}, {'label': 'BALCONY', 'value': 2.4}]
+    text: Lumen Series 2 Bedroom - A | 48 | LIVING & | DINING | 6.0 x 3.6 M | KITCHEN | 2.4 x 2.4 M | MASTER | BEDROOM | 3.7 x 2.9 M | DRESSING | 2.3 x 1.9 M | MASTER | BATHROOM | 2.9 x 2.0 M | GUEST | TOILET | 1.6 x 1.6 M | BATHROOM | 2.2 x 2.0 M | BEDROOM | 3.7 x 3.4 M | BALCONY | 15.3 x 1.7 M | BALCONY | 2.4 x 7.6 M | Min Suite Area: 91.71 Sqm (987 Sqft)   
+
+  Page 49: dimensions (11 found), sqft (6 values), sqm (6 values), area_labels, bedrooms: ['2'], unit_types: ['dimensions', 'types'], rooms: ['balcony', 'bathroom', 'dining', 'dressing', 'guest', 'kitchen', 'laundry', 'living', 'master\nbedroom']
+    sample_dimensions: ['4.6 x 3.2', '2.5 x 2.7', '1.2 x 1.5', '3.1 x 1.5', '1.0 x 1.0']
+    sqft_values: [1174.0, 453.0, 1627.0, 1174.0, 511.0, 1685.0]
+    sqm_values: [109.1, 42.07, 151.17, 109.1, 47.46, 156.56]
+    area_labels: [{'label': 'BALCONY', 'value': 18.6}]
+    text: Lumen Series 2 Bedroom - B | Min Suite Area: 109.10 Sqm (1,174 Sqft)      |     Min Balcony Area: 42.07 Sqm (453 Sqft)     |    Min Total Area: 151.17 Sqm (1,627 Sqft) | Max Suite Area: 109.10 Sqm (1,174 Sqft)      |     Max Balcony Area: 47.46 Sqm (511 Sqft)     |    Max Total Area: 156.56 Sqm (1,685 S
+
+  Page 50: dimensions (10 found), sqft (6 values), sqm (6 values), area_labels, bedrooms: ['2'], unit_types: ['dimensions', 'types'], rooms: ['balcony', 'bathroom', 'dining', 'guest', 'kitchen', 'laundry', 'living', 'master\nbedroom']
+    sample_dimensions: ['4.6 x 3.1', '2.7 x 1.5', '2.3 x 1.0', '2.0 x 1.5', '4.2 x 3.1']
+    sqft_values: [1177.0, 249.0, 1426.0, 1177.0, 260.0, 1437.0]
+    sqm_values: [109.31, 23.19, 132.5, 109.31, 24.17, 133.48]
+    area_labels: [{'label': 'BALCONY', 'value': 18.6}]
+    text: Lumen Series 2 Bedroom - C | 50 | MASTER | BEDROOM | 4.6 x 3.1 M | BATHROOM | 2.7 x 1.5 M | LAUNDRY | 2.3 x 1.0 M | GUEST | TOILET | 2.0 x 1.5 M | BEDROOM | 4.2 x 3.1 M | KITCHEN | 3.5 x 2.4 M | LIVING AREA | 3.6 x 4.4 M | DINING AREA | 5.2 x 3.6 M | BALCONY | 18.6 x 1.2 M | MASTER | BATHROOM | 2.5 x 2.7 M | Min Suite Area: 109.31 Sqm (1,177 Sqft) 
+
+  Page 51: dimensions (10 found), sqft (3 values), sqm (3 values), area_labels, bedrooms: ['2'], unit_types: ['dimensions', 'types'], rooms: ['balcony', 'bathroom', 'dining', 'dressing', 'guest', 'kitchen', 'living', 'master\nbedroom']
+    sample_dimensions: ['4.6 x 3.1', '1.2 x 1.3', '2.7 x 1.5', '2.8 x 1.5', '1.4 x 1.5']
+    sqft_values: [1095.0, 249.0, 1344.0]
+    sqm_values: [101.69, 23.19, 124.88]
+    area_labels: [{'label': 'BALCONY', 'value': 18.6}]
+    text: Lumen Series 2 Bedroom - D | 51 | MASTER | BEDROOM | 4.6 x 3.1 M | DRESSING | 1.2 x 1.3 M | MASTER | BATHROOM | 2.7 x 1.5 M | BATHROOM | 2.8 x 1.5 M | GUEST | TOILET | 1.4 x 1.5 M | BEDROOM | 3.9 x 3.1 M | KITCHEN | 3.5 x 2.4 M | LIVING AREA | 3.6 x 4.4 M | DINING AREA | 5.2 x 3.6 M | BALCONY | 18.6 x 1.2 M | Min Suite Area: 101.69 Sqm (1,095 Sqft)
+
+  Page 56: dimensions (17 found), sqft (6 values), sqm (6 values), area_labels, bedrooms: ['3'], unit_types: ['dimensions', 'types'], rooms: ['balcony', 'bathroom', 'dining', 'dressing', 'guest', 'kitchen', 'laundry', 'living', 'maid', 'master\nbedroom', 'store']
+    sample_dimensions: ['4.6 x 2.2', '4.2 x 4.8', '4.1 x 3.5', '3.8 x 3.5', '4.1 x 4.8']
+    sqft_values: [1995.0, 879.0, 2874.0, 1981.0, 956.0, 2937.0]
+    sqm_values: [185.34, 81.69, 267.03, 184.02, 88.86, 272.88]
+    area_labels: [{'label': 'BALCONY', 'value': 3.1}, {'label': 'BALCONY', 'value': 1.2}, {'label': 'BALCONY', 'value': 30.1}]
+    text: Lumen Series 3 Bedroom  | MASTER | BATHROOM | 4.6 x 2.2 M | MASTER | BEDROOM | 4.2 x 4.8 M | BEDROOM | 4.1 x 3.5 M | BEDROOM | 3.8 x 3.5 M | LIVING | AREA | 4.1 x 4.8 M | DINING AREA | 8.1 x 4.8 M | KITCHEN | 3.9 x 2.8 M | STORE | 2.1 x 1.4 M | GUEST | TOILET | 1.5 x 1.7 M | MAID'S | BATHROOM | 1.5 x 2.2 M | MAID'S | BEDROOM | 2.6 x 2.2 M | LAUNDRY | 1.2 x 1
+
+  Page 57: dimensions (22 found), sqft (6 values), sqm (6 values), area_labels, bedrooms: ['4'], unit_types: ['dimensions', 'types'], rooms: ['balcony', 'bathroom', 'dining', 'dressing', 'entrance', 'guest', 'kitchen', 'living', 'maid', 'master\nbedroom', 'office']
+    sample_dimensions: ['5.2 x 2.7', '1.8 x 3.7', '5.2 x 3.2', '7.1 x 6.0', '2.5 x 4.2']
+    sqft_values: [3120.0, 914.0, 4034.0, 3117.0, 1550.0, 4667.0]
+    sqm_values: [289.89, 84.92, 374.81, 289.62, 143.96, 433.58]
+    area_labels: [{'label': 'BALCONY', 'value': 36.8}, {'label': 'BALCONY', 'value': 1.2}, {'label': 'BALCONY', 'value': 1.7}]
+    text: Radiance Series 4 Bedroom | KITCHEN | 5.2 x 2.7 M | DIRTY | KITCHEN | 1.8 x 3.7 M | DINING | AREA | 5.2 x 3.2 M | LIVING | AREA | 7.1 x 6.0 M | OFFICE | 2.5 x 4.2 M | ENTRANCE | 3.1 x 6.0 M | BEDROOM 01 | 3.1 x 4.7 M | BATHROOM | 1.7 x 2.9 M | BATHROOM | 1.9 x 3.3 M | BEDROOM 02 | 3.1 x 4.7 M | MASTER | BATHROOM | 4.5 x 2.6 M | MASTER | BEDROOM | 3.6 x 5.6
+
+  Page 60: dimensions (21 found), sqft (4 values), sqm (4 values), area_labels, bedrooms: ['5'], unit_types: ['dimensions', 'types'], rooms: ['balcony', 'bathroom', 'dining', 'dressing', 'entrance', 'guest', 'kitchen', 'living', 'maid']
+    sample_dimensions: ['3.8 x 3.6', '2.0 x 2.4', '3.4 x 2.3', '2.4 x 3.4', '3.6 x 5.6']
+    sqft_values: [3144.0, 2725.0, 1580.0, 7449.0]
+    sqm_values: [292.05, 253.16, 146.78, 692.0]
+    area_labels: [{'label': 'BALCONY', 'value': 33.8}, {'label': 'BALCONY', 'value': 1.2}, {'label': 'BALCONY', 'value': 1.7}]
+    text: Sky Villa 5 Bedroom Duplex - 1  (Lower) | BEDROOM 04 | 3.8 x 3.6 M | DRESSING | 2.0 x 2.4 M | BATHROOM | 3.4 x 2.3 M | DRESSING | 2.4 x 3.4 M | BEDROOM 03 | 3.6 x 5.6 M | BATHROOM | 4.5 x 2.6 M | BEDROOM 02 | 3.1 x 4.7 M | BATHROOM | 1.9 x 3.3 M | BEDROOM 01 | 3.1 x 4.7 M | BATHROOM | 1.7 x 2.9 M | ENTRANCE | 3.7 x 6.0 M | GUEST | TOILET | 1.9 x 1.
+
+  Page 61: dimensions (9 found), bedrooms: ['5'], unit_types: ['dimensions', 'types'], rooms: ['bathroom', 'dressing', 'family', 'guest', 'living', 'master\nbedroom', 'office']
+    sample_dimensions: ['3.8 x 11.9', '1.9 x 1.6', '1.9 x 1.4', '7.6 x 6.0', '3.6 x 4.7']
+    text: Sky Villa 5 Bedroom Duplex - 1  (Upper) | FAMILY | LIVING | 3.8 x 11.9 M | PANTRY | 1.9 x 1.6 M | GUEST | TOILET | 1.9 x 1.4 M | GYM | 7.6 x 6.0 M | OFFICE | 3.6 x 4.7 M | HIS | DRESSING | 3.9 x 4.7 M | MASTER | BEDROOM | 7.8 x 6.0 M | HER | DRESSING | 3.9 x 5.9 M | MASTER | BATHROOM | 3.1 x 5.9 M | 40TH FLOOR | 61 | 1-Measurements are indicative ‘fini
+
+  Page 62: dimensions (21 found), sqft (4 values), sqm (4 values), area_labels, bedrooms: ['5'], unit_types: ['dimensions', 'types'], rooms: ['balcony', 'bathroom', 'dining', 'dressing', 'entrance', 'guest', 'kitchen', 'living', 'maid']
+    sample_dimensions: ['3.8 x 3.6', '2.0 x 2.4', '3.4 x 2.3', '2.4 x 3.4', '3.6 x 5.6']
+    sqft_values: [3147.0, 2722.0, 912.0, 6781.0]
+    sqm_values: [292.35, 252.88, 84.75, 629.97]
+    area_labels: [{'label': 'BALCONY', 'value': 33.8}, {'label': 'BALCONY', 'value': 1.2}, {'label': 'BALCONY', 'value': 1.7}]
+    text: Sky Villa 5 Bedroom Duplex - 2  (Lower) | BEDROOM 04 | 3.8 x 3.6 M | DRESSING | 2.0 x 2.4 M | BATHROOM | 3.4 x 2.3 M | DRESSING | 2.4 x 3.4 M | BEDROOM 03 | 3.6 x 5.6 M | BATHROOM | 4.5 x 2.6 M | BEDROOM 02 | 3.1 x 4.7 M | BATHROOM | 1.9 x 3.3 M | BEDROOM 01 | 3.1 x 4.7 M | BATHROOM | 1.7 x 2.9 M | ENTRANCE | 3.7 x 6.0 M | GUEST | TOILET | 1.9 x 1.
+
+  Page 63: dimensions (9 found), bedrooms: ['5'], unit_types: ['dimensions', 'types'], rooms: ['bathroom', 'dressing', 'family', 'guest', 'living', 'master\nbedroom', 'office']
+    sample_dimensions: ['3.8 x 11.9', '1.9 x 1.6', '1.9 x 1.4', '7.6 x 6.0', '3.6 x 4.7']
+    text: Sky Villa 5 Bedroom Duplex - 2  (Upper) | FAMILY | LIVING | 3.8 x 11.9 M | PANTRY | 1.9 x 1.6 M | GUEST | TOILET | 1.9 x 1.4 M | GYM | 7.6 x 6.0 M | OFFICE | 3.6 x 4.7 M | HIS | DRESSING | 3.9 x 4.7 M | MASTER | BEDROOM | 7.8 x 6.0 M | HER | DRESSING | 3.9 x 5.9 M | MASTER | BATHROOM | 3.1 x 5.9 M | 40TH FLOOR | 63 | 1-Measurements are indicative ‘fini
+
+  Page 66: dimensions (29 found), sqft (3 values), sqm (3 values), area_labels, bedrooms: ['6'], unit_types: ['dimensions', 'types'], rooms: ['balcony', 'bathroom', 'dining', 'dressing', 'entrance', 'guest', 'kitchen', 'laundry', 'living', 'maid', 'office', 'study']
+    sample_dimensions: ['12.6 x 7.1', '12.6 x 7.1', '4.2 x 2.8', '4.7 x 2.5', '4.7 x 2.1']
+    sqft_values: [6445.0, 2531.0, 17770.0]
+    sqm_values: [598.77, 235.15, 1650.9]
+    area_labels: [{'label': 'BALCONY', 'value': 1.2}, {'label': 'BALCONY', 'value': 28.2}, {'label': 'BALCONY', 'value': 3.2}, {'label': 'BALCONY', 'value': 31.2}]
+    text: The Sky Penthouse 6 Bedroom (Lower) | Suite Area: 598.77 Sqm (6,445 Sqft)       |     Balcony Area: 235.15 Sqm (2,531 Sqft) | Grand Total Area ( All Floors ): 1,650.90 Sqm (17,770 Sqft) | LIVING AREA | 12.6 x 7.1 M | DINING | AREA | 12.6 x 7.1 M | KITCHEN | 4.2 x 2.8 M | DIRTY | KITCHEN | 4.7 x 2.5 M | LAUNDRY | 4.7 x 2.1 M | MA
+
+  Page 67: dimensions (7 found), sqft (1 values), sqm (1 values), bedrooms: ['6'], unit_types: ['dimensions', 'types'], rooms: ['bathroom', 'dressing', 'family', 'office']
+    sample_dimensions: ['18.8 x 1.9', '6.0 x 9.2', '6.1 x 4.1', '6.1 x 4.4', '3.9 x 4.3']
+    sqft_values: [3119.0]
+    sqm_values: [289.73]
+    text: The Sky Penthouse 6 Bedroom (Upper) | 42ND FLOOR | Suite Area: 289.73 Sqm (3,119 Sqft) | OFFICE | 18.8 x 1.9 M | FAMILY | LOUNGE | 6.0 x 9.2 M | HIS | DRESSING | 6.1 x 4.1 M | SUITE | BATHROOM | 6.1 x 4.4 M | HER | DRESSING | 3.9 x 4.3 M | MASTER SUITE | BEDROOM | 8.0 x 7.7 M | STAIRS | 8.9 x 2.6 M | MEP | 67 | 1-Measurements are indicative ‘fini
+
+  Page 68: dimensions (8 found), sqft (2 values), sqm (2 values), bedrooms: ['6'], unit_types: ['dimensions', 'types'], rooms: ['kitchen', 'store', 'terrace']
+    sample_dimensions: ['9.4 x 2.6', '4.7 x 2.5', '4.6 x 2.5', '4.9 x 16.5', '19.4 x 2.8']
+    sqft_values: [934.0, 4741.0]
+    sqm_values: [86.8, 440.46]
+    text: The Sky Penthouse 6 Bedroom (Roof) | STAIRS | 9.4 x 2.6 M | SHOWER / | CHANGING | ROOM | 4.7 x 2.5 M | KITCHEN | 4.6 x 2.5 M | BBQ AREA & | SUMMER | GREENHOUSE | 4.9 x 16.5 M | POOL DECK | 19.4 x 2.8 M | SHOWER / | CHANGING | ROOM | 4.7 x 2.6 M | SWIMMING POOL | 25.2 x 4.5 M | STORE | 6.0 x 2.2 M | TERRACE | TERRACE | MEP | ROOF FLOOR | Suite Area: 86.
+
+  Page 78: rooms: ['dining']
+    text: A panoramic social space and exemplary dining  | experience where the energy of the city gathers and  | returns to the skyline. | Inaura Hotel is Dubai’s newest expression of  | modern luxury, designed for people who live in  | motion. Centred on fitness, connection and flow,  | it blends world-class hospitalit
+
+  Page 81: rooms: ['living', 'terrace']
+    text: At level one, Inaura unfolds as an elevated urban  | retreat - a sculpted terrace and pool forming  | a private horizon above the city. Hospitality,  | landscape and light merge seamlessly to create a  | place for gentle movement, reflection and reset.  | The open lounge offers a generous environment  | to rela
+
+  Page 82: rooms: ['terrace']
+    text: Rising above the pool terrace is Inaura’s  | signature double-storey wellness and fitness  | experience. On the second level, the recovery  | bathhouse offers contrasting hot and cold pools,  | steam rooms, saunas and private consultation  | suites to support every aspect of wellbeing.  | The design language is
+
+  Page 85: rooms: ['dining']
+    text: Ascend to level 32 to join Inaura’s social and  | cultural pinnacle. A sky lounge that welcomes  | both residents and guests into an atmosphere  | of connection and exchange, with a distinctive  | dining experience at its core. Suspended  | above the city, it is a place where people,  | ideas and perspectives c
+
+  Page 87: bedrooms: ['']
+    text: 87 | Formative is an ultra- | luxury fitness and wellness  | platform designed for  | those who value precision,  | performance and presence  | in equal measure. Located  | within the podium of Inaura,  | residents can become  | members and access world- | class equipment, expert  | coaching and specialist  | studios dedic
+
+  Page 88: rooms: ['family']
+    text: B R A N D E D  R ES I D E N C ES  D OW N TOW N  D U B A I | The Inaura Hotel is a new global  | luxury brand shaped by the  | belief that travel should energise  | rather than exhaust. Created  | for people who live in motion,  | it reimagines the modern hotel  | as a place to connect, recharge  | and belong; a soc
+
+  Page 89: bedrooms: ['', '', '', '', '', ''], rooms: ['dining', 'living']
+    text: 89 | Experience Inaura, where every  | amenity and lifestyle touchpoint  | embodies kinetic living, infusing  | each day with vibrant energy.  | Residents will have access  | to a curated array of facilities  | crafted for both relaxation and  | energised connection. | AMENITY | ALL-DAY-DINING | GRIT STUDIO | LOUNGE | DANCE 
+
+  Page 95: rooms: ['living', 'study']
+    text: Downtown Dubai is where the future feels most  | immediate. If the wider city is a study in ambition,  | this is its testing ground - the place where  | new ideas first take shape, where architecture,  | culture and commerce converge at speed.  | 95 | Dubai is a city of movement and  | light, its energy most visi
+
+  Page 96: rooms: ['dining']
+    text: From this centre, everything radiates. DIFC is close  | enough for a morning meeting, yet far enough  | for perspective. The Dubai Mall, the Opera, the  | Design District - each within easy reach, yet none  | compete with the experience of being here.  | B R A N D E D  R ES I D E N C ES  D OW N TOW N  D U B A
+
+----------------------------------------------------------------------
+SUMMARY
+----------------------------------------------------------------------
+  All sqft values found: [125.0, 195.0, 249.0, 251.0, 260.0, 285.0, 453.0, 510.0, 511.0, 580.0, 583.0, 587.0, 590.0, 705.0, 715.0, 782.0, 834.0, 879.0, 912.0, 914.0, 934.0, 956.0, 987.0, 998.0, 1095.0, 1174.0, 1177.0, 1272.0, 1344.0, 1426.0, 1437.0, 1508.0, 1550.0, 1580.0, 1627.0, 1685.0, 1981.0, 1995.0, 2531.0, 2722.0, 2725.0, 2874.0, 2937.0, 3117.0, 3119.0, 3120.0, 3144.0, 3147.0, 4034.0, 4667.0, 4741.0, 6445.0, 6781.0, 7449.0, 17770.0]
+  Unit types found: ['DIMENSIONS', 'TYPE', 'TYPES']
+  Bedroom counts found: ['1', '2', '3', '4', '5', '6']
+
+----------------------------------------------------------------------
+JSON TEMPLATE (copy into ground truth file)
+----------------------------------------------------------------------
+{
+  "brochure": "INAURA_DOWNTOWN-DUBAI_BROCHURE.pdf",
+  "last_verified": "2026-02-XX",
+  "notes": "FILL IN: describe what you found",
+  "table_specs": [],
+  "table_spec_count": 0,
+  "text_assertions": {
+    "pages_with_floor_plan_text": [
+      7,
+      8,
+      11,
+      22,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      43,
+      44,
+      46,
+      48,
+      49,
+      50,
+      51,
+      56,
+      57,
+      60,
+      61,
+      62,
+      63,
+      66,
+      67,
+      68,
+      78,
+      81,
+      82,
+      85,
+      87,
+      88,
+      89,
+      95,
+      96
+    ],
+    "expected_unit_types_in_text": [
+      "DIMENSIONS",
+      "TYPE",
+      "TYPES"
+    ],
+    "expected_area_labels_present": true
+  },
+  "floor_plans": [
+    {
+      "unit_type": "dimensions",
+      "bedrooms": 1,
+      "bathrooms": null,
+      "total_sqft": 834.0,
+      "suite_sqft": null,
+      "balcony_sqft": 9.3
+    },
+    {
+      "unit_type": "dimensions",
+      "bedrooms": null,
+      "bathrooms": null,
+      "total_sqft": 782.0,
+      "suite_sqft": null,
+      "balcony_sqft": 9.3
+    },
+    {
+      "unit_type": null,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "total_sqft": 1508.0,
+      "suite_sqft": null,
+      "balcony_sqft": 2.4
+    },
+    {
+      "unit_type": null,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "total_sqft": 1685.0,
+      "suite_sqft": null,
+      "balcony_sqft": 18.6
+    },
+    {
+      "unit_type": null,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "total_sqft": 1437.0,
+      "suite_sqft": null,
+      "balcony_sqft": 18.6
+    },
+    {
+      "unit_type": null,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "total_sqft": 1344.0,
+      "suite_sqft": null,
+      "balcony_sqft": 18.6
+    },
+    {
+      "unit_type": null,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "total_sqft": 2937.0,
+      "suite_sqft": null,
+      "balcony_sqft": 30.1
+    },
+    {
+      "unit_type": null,
+      "bedrooms": 4,
+      "bathrooms": null,
+      "total_sqft": 4667.0,
+      "suite_sqft": null,
+      "balcony_sqft": 1.7
+    },
+    {
+      "unit_type": null,
+      "bedrooms": 5,
+      "bathrooms": null,
+      "total_sqft": 7449.0,
+      "suite_sqft": null,
+      "balcony_sqft": 1.7
+    },
+    {
+      "unit_type": null,
+      "bedrooms": 5,
+      "bathrooms": null,
+      "total_sqft": 6781.0,
+      "suite_sqft": null,
+      "balcony_sqft": 1.7
+    },
+    {
+      "unit_type": null,
+      "bedrooms": 6,
+      "bathrooms": null,
+      "total_sqft": 17770.0,
+      "suite_sqft": null,
+      "balcony_sqft": 31.2
+    },
+    {
+      "unit_type": "dimensions",
+      "bedrooms": 6,
+      "bathrooms": null,
+      "total_sqft": 3119.0,
+      "suite_sqft": null,
+      "balcony_sqft": null
+    },
+    {
+      "unit_type": "dimensions",
+      "bedrooms": 6,
+      "bathrooms": null,
+      "total_sqft": 4741.0,
+      "suite_sqft": null,
+      "balcony_sqft": null
+    }
+  ],
+  "total_unique_plans": 13,
+  "total_unique_plans_tolerance": 2,
+  "tolerances": {
+    "sqft_pct": 5.0,
+    "balcony_sqft_pct": 10.0,
+    "bedrooms_exact": true,
+    "bathrooms_exact": true
+  }
+}
+
+NOTE: The floor_plans above are INFERRED from text only. You MUST verify against the actual PDF. Plans with no text data (RD type) will be empty -- fill in manually.

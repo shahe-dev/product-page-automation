@@ -1,0 +1,52 @@
+{
+  "brochure": "Expo_Valley_Views_Floor_Plans_Ghadeer",
+  "timestamp": "20260212T090505",
+  "size_mb": 3.0,
+  "page_count": 9,
+  "table_extraction": {
+    "floor_plan_spec_count": 0,
+    "specs": [],
+    "errors": []
+  },
+  "text_extraction": [
+    {
+      "page": 2,
+      "unit_type": "1BR"
+    },
+    {
+      "page": 3,
+      "unit_type": "1BR"
+    },
+    {
+      "page": 4,
+      "unit_type": "1BR",
+      "total_sqft": 776.0,
+      "total_sqft_confidence": 0.6
+    },
+    {
+      "page": 5,
+      "total_sqft": 1165.0,
+      "total_sqft_confidence": 0.6
+    },
+    {
+      "page": 6,
+      "total_sqft": 1281.0,
+      "total_sqft_confidence": 0.6
+    },
+    {
+      "page": 7,
+      "total_sqft": 1253.0,
+      "total_sqft_confidence": 0.6
+    },
+    {
+      "page": 8,
+      "total_sqft": 1162.0,
+      "total_sqft_confidence": 0.6
+    },
+    {
+      "page": 9,
+      "total_sqft": 1559.0,
+      "total_sqft_confidence": 0.6
+    }
+  ]
+}

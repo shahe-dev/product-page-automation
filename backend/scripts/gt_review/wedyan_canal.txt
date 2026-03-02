@@ -1,0 +1,124 @@
+======================================================================
+  GROUND TRUTH REVIEW: wedyan_canal
+======================================================================
+  File: Floor plans - Wedyan The Canal by Al Ghurair Collection.pdf
+  Size: 15.5 MB, 16 pages
+  Format: RL (text quality: moderate)
+  Notes: 16 pages. Large villas (3-5 bed). Area labels (sqm/sqft) with suite/balcony/total. Room labels present. Some multi-floor villas.
+======================================================================
+
+INSTRUCTIONS:
+  1. Open the PDF in a viewer
+  2. For each floor plan page, verify/fill in the data below
+  3. Copy the JSON template at the bottom into the ground truth file
+
+FLOOR PLAN PAGES DETECTED: 14
+----------------------------------------------------------------------
+
+  Page 2: bedrooms: ['4', '2', '3'], unit_types: ['014', 'AREA', 'NUMBERS'], rooms: ['balcony', 'bathroom', 'entrance', 'kitchen', 'laundry', 'living', 'maid', 'office', 'study']
+    text: Type 014 Bed, 4.5 Bath | UNIT AREA (INTERIOR) | ~400 m2 / ~4,304 sf | TOTAL AREA | 605 - 699 m2 | 6,509 - 7,528 sf | BALCONY AREA (EXTERIOR) | 205 - 300 m2 | 2,205 - 3,224 sf | DISCLAIMER: All measurements, dimensions, coordinates and drawing given in the Property (Site/Floor) Plans are approximate and provided only 
+
+  Page 3: bedrooms: ['3', '2'], unit_types: ['03', 'AREA', 'NUMBERS'], rooms: ['balcony', 'bathroom', 'entrance', 'kitchen', 'laundry', 'living', 'maid', 'office']
+    text: DISCLAIMER: All measurements, dimensions, coordinates and drawing given in the Property (Site/Floor) Plans are approximate and provided only for the purpose of illustration, information, and general guidance as such drawings are not to scale. All the floor/site plans including concrned plot/room/swi
+
+  Page 4: bedrooms: ['3', '2'], unit_types: ['04', 'AREA', 'NUMBERS'], rooms: ['balcony', 'bathroom', 'entrance', 'kitchen', 'laundry', 'living', 'maid', 'office', 'study']
+    text: Type 04 | 3 Bed, 3.5 Bath | DISCLAIMER: All measurements, dimensions, coordinates and drawing given in the Property (Site/Floor) Plans are approximate and provided only for the purpose of illustration, information, and general guidance as such drawings are not to scale. All the floor/site plans includin
+
+  Page 5: bedrooms: ['4', '2', '3'], unit_types: ['05', 'AREA', 'NUMBERS'], rooms: ['balcony', 'bathroom', 'entrance', 'kitchen', 'laundry', 'living', 'maid', 'office', 'study']
+    text: Type 05 | 4 Bed, 4.5 Bath | DISCLAIMER: All measurements, dimensions, coordinates and drawing given in the Property (Site/Floor) Plans are approximate and provided only for the purpose of illustration, information, and general guidance as such drawings are not to scale. All the floor/site plans includin
+
+  Page 6: bedrooms: ['3', '2', '2', '3'], unit_types: ['06', 'AREA', 'NUMBERS'], rooms: ['balcony', 'bathroom', 'dining', 'entrance', 'kitchen', 'laundry', 'living', 'maid', 'office', 'study']
+    text: Type 06 | 3 Bed, 3.5 Bath | DISCLAIMER: All measurements, dimensions, coordinates and drawing given in the Property (Site/Floor) Plans are approximate and provided only for the purpose of illustration, information, and general guidance as such drawings are not to scale. All the floor/site plans includin
+
+  Page 7: bedrooms: ['3', '3'], unit_types: ['08', 'AREA', 'NUMBERS'], rooms: ['balcony', 'bathroom', 'dining', 'entrance', 'kitchen', 'laundry', 'living', 'maid', 'office']
+    text: outside living | DISCLAIMER: All measurements, dimensions, coordinates and drawing given in the Property (Site/Floor) Plans are approximate and provided only for the purpose of illustration, information, and general guidance as such drawings are not to scale. All the floor/site plans including concrne
+
+  Page 8: bedrooms: ['3', '3'], unit_types: ['09', 'AREA', 'NUMBERS'], rooms: ['balcony', 'bathroom', 'kitchen', 'laundry', 'living', 'maid', 'office']
+    text: DISCLAIMER: All measurements, dimensions, coordinates and drawing given in the Property (Site/Floor) Plans are approximate and provided only for the purpose of illustration, information, and general guidance as such drawings are not to scale. All the floor/site plans including concrned plot/room/swi
+
+  Page 9: bedrooms: ['3', '4'], unit_types: ['104', 'AREA', 'NUMBERS'], rooms: ['balcony', 'bathroom', 'dining', 'entrance', 'family', 'kitchen', 'laundry', 'living', 'maid', 'office', 'study']
+    text: outside living | primary bedroom | media | family living / study | show kitchen | wet  | kitchen | kitchin / dining | bedroom 3 | bedroom 4 | maid’s | room | cloak | DISCLAIMER: All measurements, dimensions, coordinates and drawing given in the Property (Site/Floor) Plans are approximate and provided only for the purpose of 
+
+  Page 10: bedrooms: ['3', '3'], unit_types: ['113', 'AREA', 'NUMBERS'], rooms: ['balcony', 'bathroom', 'dining', 'entrance', 'kitchen', 'laundry', 'living', 'maid', 'office', 'study']
+    text: outside living | primary bedroom | wet kitchen | show |  kitchen | living / dining | bedroom 3 | bedroom 2 | laundry | maid’s | room | cloak | DISCLAIMER: All measurements, dimensions, coordinates and drawing given in the Property (Site/Floor) Plans are approximate and provided only for the purpose of illustration, informa
+
+  Page 11: bedrooms: ['3'], unit_types: ['123', 'AREA', 'NUMBERS'], rooms: ['balcony', 'bathroom', 'dining', 'entrance', 'kitchen', 'laundry', 'living', 'maid', 'office']
+    text: outside living | primary bedroom | primary bathroom | wet  |  kitchen | living / dining | show kitchen | bedroom 3 | maid’s | room | cloak | DISCLAIMER: All measurements, dimensions, coordinates and drawing given in the Property (Site/Floor) Plans are approximate and provided only for the purpose of illustration, informa
+
+  Page 12: bedrooms: ['5', '5', '4', '3'], unit_types: ['135', 'AREA', 'NUMBERS'], rooms: ['balcony', 'bathroom', 'dining', 'entrance', 'kitchen', 'laundry', 'living', 'maid', 'office']
+    text: DISCLAIMER: All measurements, dimensions, coordinates and drawing given in the Property (Site/Floor) Plans are approximate and provided only for the purpose of illustration, information, and general guidance as such drawings are not to scale. All the floor/site plans including concrned plot/room/swi
+
+  Page 13: bedrooms: ['3', '2'], unit_types: ['143', 'AREA', 'NUMBERS'], rooms: ['balcony', 'bathroom', 'dining', 'entrance', 'kitchen', 'laundry', 'living', 'maid', 'office']
+    text: Type 143 Bed, 3.5 Bath | UNIT AREA (INTERIOR) | 398 m2 / 4,284 sf | LEVELS | 37 to 41 | BALCONY AREA (EXTERIOR) | 338 - 486 m2 | 3,640 - 5,233 sf | UNIT NUMBERS | 3703, 3803  | 3903, 4003, 4103 | DISCLAIMER: All measurements, dimensions, coordinates and drawing given in the Property (Site/Floor) Plans are approximate and
+
+  Page 14: bedrooms: ['4', '5'], unit_types: ['NUMBERS', '15', 'AREA'], rooms: ['balcony', 'bathroom', 'dining', 'entrance', 'guest', 'kitchen', 'living', 'maid', 'office']
+    text: outside living | primary bedroom | media | primary  | bathroom | bathing  | suite | wet kitchen | kitchin / dining | living / dining | office | bedroom 3 | guest  | suite | bedroom 4 | bedroom 5 | maid’s | room | pr | cloak | cloack | DISCLAIMER: All measurements, dimensions, coordinates and drawing given in the Property (Site/Floor) Plans 
+
+  Page 15: bedrooms: ['4', '5'], unit_types: ['NUMBERS', '165', 'AREA'], rooms: ['balcony', 'bathroom', 'dining', 'entrance', 'guest', 'kitchen', 'laundry', 'living', 'maid', 'office']
+    text: outside living | primary bedroom | media | primary  | bathroom | bathing  | suite | wet kitchen | kitchin / dining | living / dining | office | bedroom 3 | guest  | suite | bedroom 4 | bedroom 5 | laundry | maid’s | room | pr | cloak | DISCLAIMER: All measurements, dimensions, coordinates and drawing given in the Property (Site/Floor) Plans
+
+----------------------------------------------------------------------
+SUMMARY
+----------------------------------------------------------------------
+  All sqft values found: []
+  Unit types found: ['014', '03', '04', '05', '06', '08', '09', '104', '113', '123', '135', '143', '15', '165', 'AREA', 'NUMBERS']
+  Bedroom counts found: ['2', '3', '4', '5']
+
+----------------------------------------------------------------------
+JSON TEMPLATE (copy into ground truth file)
+----------------------------------------------------------------------
+{
+  "brochure": "Floor plans - Wedyan The Canal by Al Ghurair Collection.pdf",
+  "last_verified": "2026-02-XX",
+  "notes": "FILL IN: describe what you found",
+  "table_specs": [],
+  "table_spec_count": 0,
+  "text_assertions": {
+    "pages_with_floor_plan_text": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "expected_unit_types_in_text": [
+      "014",
+      "03",
+      "04",
+      "05",
+      "06",
+      "08",
+      "09",
+      "104",
+      "113",
+      "123",
+      "135",
+      "143",
+      "15",
+      "165",
+      "AREA",
+      "NUMBERS"
+    ],
+    "expected_area_labels_present": false
+  },
+  "floor_plans": [],
+  "total_unique_plans": 0,
+  "total_unique_plans_tolerance": 2,
+  "tolerances": {
+    "sqft_pct": 5.0,
+    "balcony_sqft_pct": 10.0,
+    "bedrooms_exact": true,
+    "bathrooms_exact": true
+  }
+}
+
+NOTE: The floor_plans above are INFERRED from text only. You MUST verify against the actual PDF. Plans with no text data (RD type) will be empty -- fill in manually.

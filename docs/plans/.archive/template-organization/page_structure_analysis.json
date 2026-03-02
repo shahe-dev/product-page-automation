@@ -1,0 +1,2361 @@
+{
+  "heading_statistics": {
+    "h1": {
+      "count": 22,
+      "min": 14,
+      "max": 78,
+      "avg": 40.59090909090909
+    },
+    "h2": {
+      "count": 269,
+      "min": 7,
+      "max": 99,
+      "avg": 29.28252788104089
+    },
+    "h3": {
+      "count": 176,
+      "min": 9,
+      "max": 102,
+      "avg": 32.65909090909091
+    },
+    "h4": {
+      "count": 26,
+      "min": 20,
+      "max": 78,
+      "avg": 59.19230769230769
+    }
+  },
+  "section_statistics": {
+    "hero": {
+      "sites_with_section": 19,
+      "total_instances": 72,
+      "min_chars": 64,
+      "max_chars": 973,
+      "avg_chars": 321.4861111111111,
+      "median_chars": 376
+    },
+    "about": {
+      "sites_with_section": 18,
+      "total_instances": 131,
+      "min_chars": 60,
+      "max_chars": 1349,
+      "avg_chars": 525.9618320610687,
+      "median_chars": 553
+    },
+    "amenities": {
+      "sites_with_section": 10,
+      "total_instances": 29,
+      "min_chars": 67,
+      "max_chars": 1031,
+      "avg_chars": 479.55172413793105,
+      "median_chars": 482
+    },
+    "payment_plan": {
+      "sites_with_section": 17,
+      "total_instances": 83,
+      "min_chars": 80,
+      "max_chars": 9531,
+      "avg_chars": 661.8795180722891,
+      "median_chars": 465
+    },
+    "location": {
+      "sites_with_section": 19,
+      "total_instances": 50,
+      "min_chars": 124,
+      "max_chars": 1085,
+      "avg_chars": 428.12,
+      "median_chars": 430
+    },
+    "developer": {
+      "sites_with_section": 15,
+      "total_instances": 38,
+      "min_chars": 125,
+      "max_chars": 2988,
+      "avg_chars": 381.05263157894734,
+      "median_chars": 313
+    },
+    "faq": {
+      "sites_with_section": 3,
+      "total_instances": 5,
+      "min_chars": 55,
+      "max_chars": 1593,
+      "avg_chars": 529.4,
+      "median_chars": 438
+    },
+    "floor_plans": {
+      "sites_with_section": 16,
+      "total_instances": 68,
+      "min_chars": 108,
+      "max_chars": 10638,
+      "avg_chars": 1726.8823529411766,
+      "median_chars": 510
+    },
+    "gallery": {
+      "sites_with_section": 1,
+      "total_instances": 1,
+      "min_chars": 124,
+      "max_chars": 124,
+      "avg_chars": 124.0,
+      "median_chars": 124
+    },
+    "contact": {
+      "sites_with_section": 18,
+      "total_instances": 94,
+      "min_chars": 158,
+      "max_chars": 3475,
+      "avg_chars": 1042.7978723404256,
+      "median_chars": 459
+    }
+  },
+  "site_structures": {
+    "difc-residences.ae": {
+      "meta": {
+        "title": "404 - Page not found",
+        "title_length": 20,
+        "description": "The page you are looking for doesn't exist or has been moved.",
+        "description_length": 61
+      },
+      "heading_analysis": {
+        "h1_count": 1,
+        "h2_count": 0,
+        "h3_count": 0,
+        "h1_lengths": [
+          14
+        ],
+        "h2_lengths": [],
+        "h3_lengths": [],
+        "h1_texts": [
+          "Page not found"
+        ],
+        "h2_texts": []
+      },
+      "sections_detected": [
+        "about",
+        "contact"
+      ],
+      "section_lengths": {
+        "other": {
+          "count": 2,
+          "total": 160,
+          "avg": 80.0
+        }
+      }
+    },
+    "sobha-central.ae": {
+      "meta": {
+        "title": "The Tranquil at Sobha Central | Sheikh Zayed Road, Dubai",
+        "title_length": 56,
+        "description": "Invest in The Tranquil at Sobha Central on Sheikh Zayed Road, Dubai. 1–2BR apartments from AED 1.48M, 60/40 plan, skyline & sea views, and strong ROI",
+        "description_length": 149
+      },
+      "heading_analysis": {
+        "h1_count": 1,
+        "h2_count": 11,
+        "h3_count": 3,
+        "h1_lengths": [
+          43
+        ],
+        "h2_lengths": [
+          35,
+          15,
+          12,
+          40,
+          11,
+          7,
+          21,
+          39,
+          69,
+          36,
+          27
+        ],
+        "h3_lengths": [
+          51,
+          35,
+          37
+        ],
+        "h1_texts": [
+          "The Tranquil at Sobha Central on SZR, Dubai"
+        ],
+        "h2_texts": [
+          "About The Tranquil at Sobha Central",
+          "Economic Appeal",
+          "Payment Plan",
+          "Easy Installments: 60/40 by Sobha Realty",
+          "Floor Plans",
+          "Gallery",
+          "Location & Advantages",
+          "Prime SZR Living, Unmatched Convenience",
+          "the company — A Leader in the Real Estate Market",
+          "6 Steps to Success"
+        ]
+      },
+      "sections_detected": [
+        "hero",
+        "about",
+        "amenities",
+        "payment",
+        "location",
+        "developer",
+        "faq",
+        "gallery",
+        "floor_plans",
+        "contact"
+      ],
+      "section_lengths": {
+        "hero": {
+          "count": 4,
+          "total": 972,
+          "avg": 243.0
+        },
+        "about": {
+          "count": 5,
+          "total": 2619,
+          "avg": 523.8
+        },
+        "payment_plan": {
+          "count": 7,
+          "total": 3124,
+          "avg": 446.2857142857143
+        },
+        "amenities": {
+          "count": 6,
+          "total": 3132,
+          "avg": 522.0
+        },
+        "other": {
+          "count": 11,
+          "total": 7641,
+          "avg": 694.6363636363636
+        },
+        "floor_plans": {
+          "count": 3,
+          "total": 9752,
+          "avg": 3250.6666666666665
+        },
+        "location": {
+          "count": 2,
+          "total": 836,
+          "avg": 418.0
+        },
+        "contact": {
+          "count": 3,
+          "total": 906,
+          "avg": 302.0
+        }
+      }
+    },
+    "dubaimaritime-city.ae": {
+      "meta": {
+        "title": "Anwa Aria in Dubai Maritime City | Seafront Residences",
+        "title_length": 54,
+        "description": "Invest in Anwa Aria by Omniyat – a premium seafront development in Dubai Maritime City. Featuring branded apartments with panoramic views, luxury amenities, and a 60/40 payment plan.",
+        "description_length": 182
+      },
+      "heading_analysis": {
+        "h1_count": 1,
+        "h2_count": 8,
+        "h3_count": 5,
+        "h1_lengths": [
+          19
+        ],
+        "h2_lengths": [
+          15,
+          15,
+          12,
+          7,
+          21,
+          69,
+          36,
+          27
+        ],
+        "h3_lengths": [
+          57,
+          51,
+          35,
+          37,
+          35
+        ],
+        "h1_texts": [
+          "Invest in Anwa Aria"
+        ],
+        "h2_texts": [
+          "About Anwa Aria",
+          "Economic Appeal",
+          "Payment Plan",
+          "Gallery",
+          "Location & Advantages",
+          "the company — A Leader in the Real Estate Market",
+          "6 Steps to Success",
+          "What Clients Speak about Us"
+        ]
+      },
+      "sections_detected": [
+        "hero",
+        "about",
+        "amenities",
+        "payment",
+        "location",
+        "developer",
+        "faq",
+        "gallery",
+        "floor_plans",
+        "contact"
+      ],
+      "section_lengths": {
+        "hero": {
+          "count": 4,
+          "total": 843,
+          "avg": 210.75
+        },
+        "about": {
+          "count": 5,
+          "total": 2198,
+          "avg": 439.6
+        },
+        "payment_plan": {
+          "count": 7,
+          "total": 12388,
+          "avg": 1769.7142857142858
+        },
+        "other": {
+          "count": 13,
+          "total": 8546,
+          "avg": 657.3846153846154
+        },
+        "location": {
+          "count": 2,
+          "total": 1002,
+          "avg": 501.0
+        },
+        "amenities": {
+          "count": 4,
+          "total": 1848,
+          "avg": 462.0
+        },
+        "contact": {
+          "count": 3,
+          "total": 906,
+          "avg": 302.0
+        }
+      }
+    },
+    "rashid-yachts-marina.ae": {
+      "meta": {
+        "title": "New Project by Emaar Properties in City Walk, Dubai - Sera RYM | Luxury Real Estate for Sale",
+        "title_length": 92,
+        "description": "Luxury Apartments in Sera RYM at Rashid Marina, Dubai by Emaar Properties with favorable purchase terms and high return on investment.",
+        "description_length": 134
+      },
+      "heading_analysis": {
+        "h1_count": 1,
+        "h2_count": 19,
+        "h3_count": 13,
+        "h1_lengths": [
+          40
+        ],
+        "h2_lengths": [
+          14,
+          81,
+          16,
+          28,
+          59,
+          29,
+          28,
+          40,
+          11,
+          8,
+          19,
+          21,
+          45,
+          18,
+          11,
+          22,
+          13,
+          22,
+          47
+        ],
+        "h3_lengths": [
+          15,
+          15,
+          15,
+          14,
+          23,
+          41,
+          30,
+          23,
+          19,
+          24,
+          34,
+          71,
+          39
+        ],
+        "h1_texts": [
+          "Invest in Sera RYM, Rashid Marina, Dubai"
+        ],
+        "h2_texts": [
+          "About Sera RYM",
+          "A rare opportunity to invest in Dubai's most desirable marina address at Sera RY",
+          "Iconic Developer",
+          "Explore Sera RYM Floor Plans",
+          "Download our Floor Plans — Get all information in one place",
+          "Economic appeal\nfor investors",
+          "A Transformative Master Plan",
+          "80/20 Payment Plan from Emaar Properties",
+          "View photos",
+          "Sera RYM"
+        ]
+      },
+      "sections_detected": [
+        "hero",
+        "about",
+        "amenities",
+        "payment",
+        "location",
+        "developer",
+        "faq",
+        "gallery",
+        "floor_plans",
+        "contact"
+      ],
+      "section_lengths": {
+        "hero": {
+          "count": 4,
+          "total": 1060,
+          "avg": 265.0
+        },
+        "about": {
+          "count": 8,
+          "total": 5272,
+          "avg": 659.0
+        },
+        "developer": {
+          "count": 3,
+          "total": 1020,
+          "avg": 340.0
+        },
+        "floor_plans": {
+          "count": 5,
+          "total": 7357,
+          "avg": 1471.4
+        },
+        "amenities": {
+          "count": 1,
+          "total": 173,
+          "avg": 173.0
+        },
+        "contact": {
+          "count": 8,
+          "total": 9617,
+          "avg": 1202.125
+        },
+        "location": {
+          "count": 2,
+          "total": 1052,
+          "avg": 526.0
+        },
+        "other": {
+          "count": 10,
+          "total": 5796,
+          "avg": 579.6
+        },
+        "payment_plan": {
+          "count": 2,
+          "total": 182,
+          "avg": 91.0
+        }
+      }
+    },
+    "city-walk-property.ae": {
+      "meta": {
+        "title": "Crest Lane by Meraas at City Walk 2 | Downtown Dubai",
+        "title_length": 52,
+        "description": "Crest Lane at City Walk 2 by Meraas — 1–4 bedroom residences in Downtown Dubai with serene water views, top-tier amenities, and excellent ROI. From AED2.62M.",
+        "description_length": 157
+      },
+      "heading_analysis": {
+        "h1_count": 1,
+        "h2_count": 15,
+        "h3_count": 13,
+        "h1_lengths": [
+          42
+        ],
+        "h2_lengths": [
+          59,
+          20,
+          45,
+          59,
+          25,
+          41,
+          40,
+          54,
+          18,
+          11,
+          22,
+          13,
+          22,
+          32,
+          31
+        ],
+        "h3_lengths": [
+          19,
+          19,
+          19,
+          16,
+          50,
+          51,
+          36,
+          23,
+          19,
+          24,
+          34,
+          71,
+          39
+        ],
+        "h1_texts": [
+          "Invest In Crest Lane at City Walk 2, Dubai"
+        ],
+        "h2_texts": [
+          "Elevated Living In Dubai's City Walk, The Heart of Downtown",
+          "Perfect for Families",
+          "Explore Crest Lane at City Walk 2 Floor Plans",
+          "Download our Floor Plans — Get all information in one place",
+          "Glamorous Downtown Living",
+          "75/25 Payment Plan from Meraas Properties",
+          "View photos of Crest Lane at City Walk 2",
+          "City Walk - A Sophisticated Urban Hub in Central Dubai",
+          "the company",
+          "Our awards:"
+        ]
+      },
+      "sections_detected": [
+        "hero",
+        "about",
+        "amenities",
+        "payment",
+        "location",
+        "developer",
+        "faq",
+        "gallery",
+        "floor_plans",
+        "contact"
+      ],
+      "section_lengths": {
+        "hero": {
+          "count": 4,
+          "total": 1068,
+          "avg": 267.0
+        },
+        "about": {
+          "count": 7,
+          "total": 3964,
+          "avg": 566.2857142857143
+        },
+        "amenities": {
+          "count": 1,
+          "total": 135,
+          "avg": 135.0
+        },
+        "floor_plans": {
+          "count": 5,
+          "total": 7003,
+          "avg": 1400.6
+        },
+        "location": {
+          "count": 4,
+          "total": 1856,
+          "avg": 464.0
+        },
+        "payment_plan": {
+          "count": 4,
+          "total": 1344,
+          "avg": 336.0
+        },
+        "developer": {
+          "count": 2,
+          "total": 682,
+          "avg": 341.0
+        },
+        "other": {
+          "count": 9,
+          "total": 5145,
+          "avg": 571.6666666666666
+        },
+        "contact": {
+          "count": 6,
+          "total": 7842,
+          "avg": 1307.0
+        },
+        "faq": {
+          "count": 2,
+          "total": 2031,
+          "avg": 1015.5
+        }
+      }
+    },
+    "dubaislands.ae": {
+      "meta": {
+        "title": "Agua Residences by Citi Developers on Dubai Islands, Dubai: buy apartments, penthouses and duplexes at developer prices — with photos, reviews and layouts",
+        "title_length": 154,
+        "description": "✓ We offer to purchase real estate — apartments, penthouses and duplexes in the Agua Residences project by Citi Developers on Dubai Islands, Dubai (UAE). ✓ World-class facilities ✓ Favourable prices ✓ Wide range of layouts with photos and reviews",
+        "description_length": 246
+      },
+      "heading_analysis": {
+        "h1_count": 1,
+        "h2_count": 8,
+        "h3_count": 5,
+        "h1_lengths": [
+          47
+        ],
+        "h2_lengths": [
+          21,
+          15,
+          12,
+          7,
+          21,
+          69,
+          36,
+          27
+        ],
+        "h3_lengths": [
+          42,
+          23,
+          43,
+          24,
+          28
+        ],
+        "h1_texts": [
+          "Invest in Agua Residences Prestigious Lifestyle"
+        ],
+        "h2_texts": [
+          "About Agua Residences",
+          "Economic Appeal",
+          "Payment Plan",
+          "Gallery",
+          "Location & Advantages",
+          "the company — A Leader in the Real Estate Market",
+          "6 Steps to Success",
+          "What Clients Speak about Us"
+        ]
+      },
+      "sections_detected": [
+        "hero",
+        "about",
+        "amenities",
+        "payment",
+        "location",
+        "developer",
+        "faq",
+        "gallery",
+        "floor_plans",
+        "contact"
+      ],
+      "section_lengths": {
+        "hero": {
+          "count": 5,
+          "total": 1185,
+          "avg": 237.0
+        },
+        "about": {
+          "count": 5,
+          "total": 2432,
+          "avg": 486.4
+        },
+        "payment_plan": {
+          "count": 7,
+          "total": 11097,
+          "avg": 1585.2857142857142
+        },
+        "other": {
+          "count": 9,
+          "total": 6164,
+          "avg": 684.8888888888889
+        },
+        "developer": {
+          "count": 2,
+          "total": 370,
+          "avg": 185.0
+        },
+        "location": {
+          "count": 2,
+          "total": 758,
+          "avg": 379.0
+        },
+        "amenities": {
+          "count": 4,
+          "total": 2112,
+          "avg": 528.0
+        },
+        "contact": {
+          "count": 3,
+          "total": 906,
+          "avg": 302.0
+        }
+      }
+    },
+    "dubai-creek-living.ae": {
+      "meta": {
+        "title": "New project by Emaar Properties in Dubai Creek Harbour, Dubai — Albero | Luxury real estate for sale",
+        "title_length": 100,
+        "description": "Apartments and townhouses in Albero, Dubai Creek Harbour, Dubai by Emaar Properties with favourable purchase terms and high return on investment.",
+        "description_length": 145
+      },
+      "heading_analysis": {
+        "h1_count": 1,
+        "h2_count": 18,
+        "h3_count": 13,
+        "h1_lengths": [
+          37
+        ],
+        "h2_lengths": [
+          12,
+          58,
+          34,
+          26,
+          59,
+          29,
+          22,
+          29,
+          21,
+          19,
+          21,
+          63,
+          18,
+          11,
+          22,
+          13,
+          22,
+          42
+        ],
+        "h3_lengths": [
+          20,
+          20,
+          20,
+          20,
+          26,
+          23,
+          35,
+          23,
+          19,
+          24,
+          34,
+          71,
+          39
+        ],
+        "h1_texts": [
+          "Invest in Albero, Dubai Creek Harbour"
+        ],
+        "h2_texts": [
+          "About Albero",
+          "Albero - A Dream Wellness Lifestyle In Luxury Surroundings",
+          "Exceptional transport connectivity",
+          "Explore Albero Floor Plans",
+          "Download our Floor Plans — Get all information in one place",
+          "Economic appeal for investors",
+          "Get An Early Advantage",
+          "80/20 Payment Plan from Emaar",
+          "View photos of Albero",
+          "About the developer"
+        ]
+      },
+      "sections_detected": [
+        "hero",
+        "about",
+        "amenities",
+        "payment",
+        "location",
+        "developer",
+        "faq",
+        "gallery",
+        "floor_plans",
+        "contact"
+      ],
+      "section_lengths": {
+        "hero": {
+          "count": 4,
+          "total": 1058,
+          "avg": 264.5
+        },
+        "about": {
+          "count": 8,
+          "total": 4776,
+          "avg": 597.0
+        },
+        "other": {
+          "count": 14,
+          "total": 5801,
+          "avg": 414.35714285714283
+        },
+        "floor_plans": {
+          "count": 5,
+          "total": 6043,
+          "avg": 1208.6
+        },
+        "developer": {
+          "count": 2,
+          "total": 754,
+          "avg": 377.0
+        },
+        "location": {
+          "count": 2,
+          "total": 992,
+          "avg": 496.0
+        },
+        "contact": {
+          "count": 6,
+          "total": 7831,
+          "avg": 1305.1666666666667
+        },
+        "payment_plan": {
+          "count": 2,
+          "total": 160,
+          "avg": 80.0
+        }
+      }
+    },
+    "dubaihills-property.ae": {
+      "meta": {
+        "title": "Hillsedge by Emaar Properties in Dubai Hills Estate, Dubai (UAE): Apartments for sale at the developer's price: photos, reviews and layouts",
+        "title_length": 139,
+        "description": "✓ We offer to buy real estate - Apartments in the project Hillsedge by the developer Emaar Properties in Dubai Hills Estate, Dubai (UAE). ✓ World-class amenities ✓ Great prices ✓ Large selection of floor plans with photos and reviews",
+        "description_length": 233
+      },
+      "heading_analysis": {
+        "h1_count": 1,
+        "h2_count": 20,
+        "h3_count": 8,
+        "h1_lengths": [
+          46
+        ],
+        "h2_lengths": [
+          41,
+          23,
+          29,
+          59,
+          14,
+          14,
+          23,
+          40,
+          18,
+          23,
+          34,
+          18,
+          71,
+          72,
+          39,
+          52,
+          11,
+          22,
+          13,
+          22
+        ],
+        "h3_lengths": [
+          20,
+          20,
+          39,
+          23,
+          39,
+          23,
+          19,
+          24
+        ],
+        "h1_texts": [
+          "Invest in Hillsedge, Dubai Hills Estate, Dubai"
+        ],
+        "h2_texts": [
+          "Where Urban Luxury Meets Natural Serenity",
+          "Wellness-Focused Design",
+          "Explore Hillsedge Floor Plans",
+          "Download our Floor Plans — Get all information in one place",
+          "Swimming Pools",
+          "Fitness Center",
+          "Premium Investment Zone",
+          "80/20 Payment Plan from Emaar Properties",
+          "View photos of the",
+          "Dubai's Premium Address"
+        ]
+      },
+      "sections_detected": [
+        "hero",
+        "about",
+        "amenities",
+        "payment",
+        "location",
+        "developer",
+        "faq",
+        "gallery",
+        "floor_plans",
+        "contact"
+      ],
+      "section_lengths": {
+        "hero": {
+          "count": 4,
+          "total": 1076,
+          "avg": 269.0
+        },
+        "about": {
+          "count": 8,
+          "total": 4762,
+          "avg": 595.25
+        },
+        "location": {
+          "count": 3,
+          "total": 1047,
+          "avg": 349.0
+        },
+        "floor_plans": {
+          "count": 5,
+          "total": 5611,
+          "avg": 1122.2
+        },
+        "other": {
+          "count": 7,
+          "total": 3362,
+          "avg": 480.2857142857143
+        },
+        "payment_plan": {
+          "count": 4,
+          "total": 1116,
+          "avg": 279.0
+        },
+        "developer": {
+          "count": 4,
+          "total": 3776,
+          "avg": 944.0
+        },
+        "contact": {
+          "count": 5,
+          "total": 4369,
+          "avg": 873.8
+        }
+      }
+    },
+    "urbanvillas-dubaisouth.ae": {
+      "meta": {
+        "title": "Hayat by Dubai South Properties | Nature-inspired Townhomes",
+        "title_length": 59,
+        "description": "Hayat offers tranquil 3–5BR townhomes in Dubai South with private gardens, wellness zones, walkable greenways & strong investment potential. From AED 3.4M.",
+        "description_length": 155
+      },
+      "heading_analysis": {
+        "h1_count": 1,
+        "h2_count": 13,
+        "h3_count": 12,
+        "h1_lengths": [
+          51
+        ],
+        "h2_lengths": [
+          50,
+          17,
+          25,
+          59,
+          28,
+          46,
+          20,
+          43,
+          18,
+          11,
+          22,
+          13,
+          22
+        ],
+        "h3_lengths": [
+          17,
+          17,
+          17,
+          22,
+          27,
+          23,
+          23,
+          19,
+          24,
+          34,
+          70,
+          39
+        ],
+        "h1_texts": [
+          "Invest in Hayat Townhomes by Dubai South Properties"
+        ],
+        "h2_texts": [
+          "Discover Nature-Led Living in Hayat at Dubai South",
+          "Near Key Highways",
+          "Explore Hayat Floor Plans",
+          "Download our Floor Plans — Get all information in one place",
+          "Strategic Growth Destination",
+          "60/40 Payment Plan from Dubai South Properties",
+          "View photos of Hayat",
+          "Dubai South: Redefining Liveable Innovation",
+          "the company",
+          "Our awards:"
+        ]
+      },
+      "sections_detected": [
+        "hero",
+        "about",
+        "amenities",
+        "payment",
+        "location",
+        "developer",
+        "faq",
+        "gallery",
+        "floor_plans",
+        "contact"
+      ],
+      "section_lengths": {
+        "hero": {
+          "count": 4,
+          "total": 1082,
+          "avg": 270.5
+        },
+        "about": {
+          "count": 7,
+          "total": 3994,
+          "avg": 570.5714285714286
+        },
+        "other": {
+          "count": 11,
+          "total": 4981,
+          "avg": 452.8181818181818
+        },
+        "floor_plans": {
+          "count": 5,
+          "total": 5944,
+          "avg": 1188.8
+        },
+        "developer": {
+          "count": 2,
+          "total": 584,
+          "avg": 292.0
+        },
+        "location": {
+          "count": 2,
+          "total": 860,
+          "avg": 430.0
+        },
+        "contact": {
+          "count": 6,
+          "total": 7360,
+          "avg": 1226.6666666666667
+        },
+        "payment_plan": {
+          "count": 2,
+          "total": 228,
+          "avg": 114.0
+        }
+      }
+    },
+    "saudi-estates.com": {
+      "meta": {
+        "title": "Neptune by DarGlobal in Riyadh, Kingdom of Saudi Arabia: Villas for sale at the developer's price: photos, reviews and layouts",
+        "title_length": 126,
+        "description": "✓ We offer real estate for sale - Villas in the project Neptune by the developer DarGlobal in Riyadh, Kingdom of Saudi Arabia. ✓ World-class amenities ✓ Great prices ✓ Large selection of floor plans with photos and reviews",
+        "description_length": 222
+      },
+      "heading_analysis": {
+        "h1_count": 1,
+        "h2_count": 12,
+        "h3_count": 4,
+        "h1_lengths": [
+          39
+        ],
+        "h2_lengths": [
+          13,
+          15,
+          12,
+          11,
+          7,
+          21,
+          29,
+          26,
+          69,
+          36,
+          25,
+          33
+        ],
+        "h3_lengths": [
+          33,
+          46,
+          26,
+          39
+        ],
+        "h1_texts": [
+          "The Neptune by Darlobal in North Riyadh"
+        ],
+        "h2_texts": [
+          "About Neptune",
+          "Economic Appeal",
+          "Payment Plan",
+          "Floor Plans",
+          "Gallery",
+          "Location & Advantages",
+          "Living in SEDRA, North Riyadh",
+          "Frequently Asked Questions",
+          "the company — A Leader in the Real Estate Market",
+          "6 Steps to Success"
+        ]
+      },
+      "sections_detected": [
+        "hero",
+        "about",
+        "amenities",
+        "payment",
+        "location",
+        "developer",
+        "faq",
+        "gallery",
+        "floor_plans",
+        "contact"
+      ],
+      "section_lengths": {
+        "hero": {
+          "count": 4,
+          "total": 1153,
+          "avg": 288.25
+        },
+        "about": {
+          "count": 6,
+          "total": 3080,
+          "avg": 513.3333333333334
+        },
+        "payment_plan": {
+          "count": 6,
+          "total": 2475,
+          "avg": 412.5
+        },
+        "other": {
+          "count": 11,
+          "total": 7433,
+          "avg": 675.7272727272727
+        },
+        "floor_plans": {
+          "count": 3,
+          "total": 10452,
+          "avg": 3484.0
+        },
+        "developer": {
+          "count": 5,
+          "total": 2197,
+          "avg": 439.4
+        },
+        "location": {
+          "count": 2,
+          "total": 726,
+          "avg": 363.0
+        },
+        "amenities": {
+          "count": 4,
+          "total": 1568,
+          "avg": 392.0
+        },
+        "contact": {
+          "count": 3,
+          "total": 908,
+          "avg": 302.6666666666667
+        }
+      }
+    },
+    "ras-al-khaimah-properties.ae": {
+      "meta": {
+        "title": "Mirasol II at North Harbour | Apartments in Ras Al Khaimah, UAE",
+        "title_length": 63,
+        "description": "Mirasol II by RAK Properties at North Harbour, Ras Al Khaimah offers studios to penthouses with sea views, 7–10% rental yields, and handover in Q3 2028.",
+        "description_length": 152
+      },
+      "heading_analysis": {
+        "h1_count": 1,
+        "h2_count": 13,
+        "h3_count": 4,
+        "h1_lengths": [
+          52
+        ],
+        "h2_lengths": [
+          34,
+          47,
+          15,
+          12,
+          11,
+          27,
+          7,
+          21,
+          61,
+          69,
+          36,
+          27,
+          33
+        ],
+        "h3_lengths": [
+          65,
+          53,
+          42,
+          37
+        ],
+        "h1_texts": [
+          "Mirasol II – Waterfront Living at Mina North Harbour"
+        ],
+        "h2_texts": [
+          "About Mirasol II by RAK Properties",
+          "Online Consultation — No Phone Calls, No Hassle",
+          "Economic Appeal",
+          "Payment Plan",
+          "Floor Plans",
+          "Interested in this project?",
+          "Gallery",
+          "Location & Advantages",
+          "North Harbour — Exclusive Waterfront Living in Ras Al Khaimah",
+          "the company — A Leader in the Real Estate Market"
+        ]
+      },
+      "sections_detected": [
+        "hero",
+        "about",
+        "amenities",
+        "payment",
+        "location",
+        "developer",
+        "faq",
+        "gallery",
+        "floor_plans",
+        "contact"
+      ],
+      "section_lengths": {
+        "hero": {
+          "count": 4,
+          "total": 1400,
+          "avg": 350.0
+        },
+        "about": {
+          "count": 10,
+          "total": 4095,
+          "avg": 409.5
+        },
+        "payment_plan": {
+          "count": 6,
+          "total": 3029,
+          "avg": 504.8333333333333
+        },
+        "other": {
+          "count": 13,
+          "total": 8787,
+          "avg": 675.9230769230769
+        },
+        "floor_plans": {
+          "count": 3,
+          "total": 11138,
+          "avg": 3712.6666666666665
+        },
+        "developer": {
+          "count": 2,
+          "total": 668,
+          "avg": 334.0
+        },
+        "location": {
+          "count": 3,
+          "total": 1148,
+          "avg": 382.6666666666667
+        },
+        "amenities": {
+          "count": 4,
+          "total": 1956,
+          "avg": 489.0
+        },
+        "contact": {
+          "count": 3,
+          "total": 906,
+          "avg": 302.0
+        },
+        "gallery": {
+          "count": 1,
+          "total": 124,
+          "avg": 124.0
+        }
+      }
+    },
+    "urban-luxury.penthouse.ae": {
+      "meta": {
+        "title": "Not found",
+        "title_length": 9,
+        "description": "Not found",
+        "description_length": 9
+      },
+      "heading_analysis": {
+        "h1_count": 1,
+        "h2_count": 0,
+        "h3_count": 1,
+        "h1_lengths": [
+          14
+        ],
+        "h2_lengths": [],
+        "h3_lengths": [
+          10
+        ],
+        "h1_texts": [
+          "Page not found"
+        ],
+        "h2_texts": []
+      },
+      "sections_detected": [
+        "hero",
+        "about",
+        "payment",
+        "location",
+        "developer",
+        "faq",
+        "gallery",
+        "floor_plans",
+        "contact"
+      ],
+      "section_lengths": {
+        "hero": {
+          "count": 1,
+          "total": 104,
+          "avg": 104.0
+        },
+        "location": {
+          "count": 2,
+          "total": 855,
+          "avg": 427.5
+        },
+        "faq": {
+          "count": 1,
+          "total": 506,
+          "avg": 506.0
+        }
+      }
+    },
+    "tilalalghaf-maf.ae": {
+      "meta": {
+        "title": "New Project by Majid Al Futtaim in Tilal Al Ghaf, Dubai — Elan | Luxury Real Estate for Sale",
+        "title_length": 92,
+        "description": "Duplex Townhouses in Elan, Tilal Al Ghaf, Dubai by Majid Al Futtaim with favourable purchase terms and high return on investment.",
+        "description_length": 129
+      },
+      "heading_analysis": {
+        "h1_count": 1,
+        "h2_count": 11,
+        "h3_count": 11,
+        "h1_lengths": [
+          29
+        ],
+        "h2_lengths": [
+          71,
+          26,
+          24,
+          27,
+          23,
+          39,
+          18,
+          11,
+          22,
+          13,
+          22
+        ],
+        "h3_lengths": [
+          19,
+          19,
+          39,
+          29,
+          43,
+          23,
+          19,
+          24,
+          34,
+          70,
+          39
+        ],
+        "h1_texts": [
+          "Invest in Elan, Tilal Al Ghaf"
+        ],
+        "h2_texts": [
+          "Elan: Dubai's Premier Resort-Style Living in the Heart of Tilal Al Ghaf",
+          "Open spaces for relaxation",
+          "Explore Elan Floor Plans",
+          "Lucrative Real Estate Haven",
+          "View photos of the Elan",
+          "Central Location, Endless Possibilities",
+          "the company",
+          "Our awards:",
+          "You are in great hands",
+          "In the media:"
+        ]
+      },
+      "sections_detected": [
+        "hero",
+        "about",
+        "amenities",
+        "payment",
+        "location",
+        "developer",
+        "faq",
+        "gallery",
+        "floor_plans",
+        "contact"
+      ],
+      "section_lengths": {
+        "hero": {
+          "count": 4,
+          "total": 1094,
+          "avg": 273.5
+        },
+        "about": {
+          "count": 9,
+          "total": 5761,
+          "avg": 640.1111111111111
+        },
+        "other": {
+          "count": 6,
+          "total": 2910,
+          "avg": 485.0
+        },
+        "floor_plans": {
+          "count": 5,
+          "total": 4714,
+          "avg": 942.8
+        },
+        "location": {
+          "count": 5,
+          "total": 2170,
+          "avg": 434.0
+        },
+        "developer": {
+          "count": 2,
+          "total": 618,
+          "avg": 309.0
+        },
+        "contact": {
+          "count": 5,
+          "total": 6894,
+          "avg": 1378.8
+        }
+      }
+    },
+    "luxury-villas-dubai.ae-ru": {
+      "meta": {
+        "title": "Новый проект Morocco от DAMAC Properties в DAMAC Lagoons, Дубай | Элитная недвижимость на продажу",
+        "title_length": 97,
+        "description": "Таунхаусы и виллы в квартале Morocco в DAMAC Lagoons, Дубай. Выгодные условия покупки и высокая доходность от инвестиций.",
+        "description_length": 121
+      },
+      "heading_analysis": {
+        "h1_count": 1,
+        "h2_count": 16,
+        "h3_count": 13,
+        "h1_lengths": [
+          69
+        ],
+        "h2_lengths": [
+          47,
+          87,
+          26,
+          26,
+          60,
+          18,
+          53,
+          63,
+          28,
+          26,
+          53,
+          18,
+          13,
+          20,
+          13,
+          21
+        ],
+        "h3_lengths": [
+          23,
+          23,
+          19,
+          19,
+          53,
+          44,
+          54,
+          24,
+          31,
+          27,
+          40,
+          72,
+          50
+        ],
+        "h1_texts": [
+          "Morocco от DAMAC Lagoons — виллы с высоким инвестиционным потенциалом"
+        ],
+        "h2_texts": [
+          "Проконсультируйтесь\nс экспертом по недвижимости",
+          "Morocco – DAMAC Lagoons: эстетика прибрежной жизни с высоким инвестиционным поте",
+          "Высокий арендный потенциал",
+          "Изучите планировки Morocco",
+          "Загрузите планировки — получите\nвсю информацию в одном месте",
+          "Смотровая площадка",
+          "Инвестиции с высоким потенциалом в прибрежной локации",
+          "Средиземноморский стиль жизни в премиальной интерпретации Дубая",
+          "План платежей 80/20 от DAMAC",
+          "Изучите фотографии Morocco"
+        ]
+      },
+      "sections_detected": [
+        "hero",
+        "about",
+        "amenities",
+        "payment",
+        "location",
+        "developer",
+        "gallery",
+        "floor_plans",
+        "contact"
+      ],
+      "section_lengths": {
+        "hero": {
+          "count": 4,
+          "total": 3116,
+          "avg": 779.0
+        },
+        "other": {
+          "count": 41,
+          "total": 32318,
+          "avg": 788.2439024390244
+        }
+      }
+    },
+    "sobha-hartland-2.ae": {
+      "meta": {
+        "title": "New project by Sobha Realty in Sobha Hartland II, Dubai — Skyvue Stellar | Luxury real estate for sale",
+        "title_length": 102,
+        "description": "Apartments in Skyvue Stellar, Sobha Hartland II, Dubai by Sobha Realty with favourable purchase terms and high return on investment.",
+        "description_length": 132
+      },
+      "heading_analysis": {
+        "h1_count": 1,
+        "h2_count": 17,
+        "h3_count": 11,
+        "h1_lengths": [
+          43
+        ],
+        "h2_lengths": [
+          20,
+          46,
+          20,
+          34,
+          59,
+          29,
+          25,
+          36,
+          29,
+          19,
+          21,
+          26,
+          12,
+          18,
+          11,
+          22,
+          13
+        ],
+        "h3_lengths": [
+          20,
+          22,
+          20,
+          20,
+          22,
+          23,
+          19,
+          24,
+          34,
+          71,
+          39
+        ],
+        "h1_texts": [
+          "Invest in Skyvue Stellar, Sobha Hartland II"
+        ],
+        "h2_texts": [
+          "About Skyvue Stellar",
+          "The Ultimate Luxury & Investment Vantage Point",
+          "Unparalleled Quality",
+          "Explore Skyvue Stellar Floor Plans",
+          "Download our Floor Plans — Get all information in one place",
+          "Economic appeal for investors",
+          "Enduring Investment Value",
+          "60/40 Payment Plan from Sobha Realty",
+          "View photos of Skyvue Stellar",
+          "About the developer"
+        ]
+      },
+      "sections_detected": [
+        "hero",
+        "about",
+        "amenities",
+        "payment",
+        "location",
+        "developer",
+        "faq",
+        "gallery",
+        "floor_plans",
+        "contact"
+      ],
+      "section_lengths": {
+        "hero": {
+          "count": 4,
+          "total": 1066,
+          "avg": 266.5
+        },
+        "payment_plan": {
+          "count": 6,
+          "total": 3358,
+          "avg": 559.6666666666666
+        },
+        "floor_plans": {
+          "count": 6,
+          "total": 6573,
+          "avg": 1095.5
+        },
+        "amenities": {
+          "count": 1,
+          "total": 193,
+          "avg": 193.0
+        },
+        "developer": {
+          "count": 2,
+          "total": 626,
+          "avg": 313.0
+        },
+        "location": {
+          "count": 2,
+          "total": 988,
+          "avg": 494.0
+        },
+        "other": {
+          "count": 7,
+          "total": 3357,
+          "avg": 479.57142857142856
+        },
+        "contact": {
+          "count": 6,
+          "total": 7573,
+          "avg": 1262.1666666666667
+        },
+        "about": {
+          "count": 6,
+          "total": 2624,
+          "avg": 437.3333333333333
+        }
+      }
+    },
+    "dubai-harbour-property.ae": {
+      "meta": {
+        "title": "New project by Emaar Properties in Emaar Beachfront, Dubai — South Beach | Luxury real estate for sale",
+        "title_length": 102,
+        "description": "Apartments in the South Beach, Emaar Beachfront, Dubai by Emaar Properties with favorable purchase terms and high return on investment.",
+        "description_length": 135
+      },
+      "heading_analysis": {
+        "h1_count": 1,
+        "h2_count": 14,
+        "h3_count": 11,
+        "h1_lengths": [
+          39
+        ],
+        "h2_lengths": [
+          59,
+          26,
+          26,
+          59,
+          13,
+          47,
+          29,
+          16,
+          14,
+          18,
+          11,
+          22,
+          13,
+          22
+        ],
+        "h3_lengths": [
+          9,
+          9,
+          33,
+          23,
+          47,
+          26,
+          27,
+          19,
+          34,
+          71,
+          39
+        ],
+        "h1_texts": [
+          "Invest in South Beach, Emaar Beachfront"
+        ],
+        "h2_texts": [
+          "Explore South Beach: Emaar Beachfront's Premier Destination",
+          "Proximity to Key Landmarks",
+          "Floor Plans of South Beach",
+          "Download our Floor Plans — Get all information in one place",
+          "Private Beach",
+          "Invest in High-ROI Holiday Homes at South Beach",
+          "Explore photos of South Beach",
+          "Emaar Properties",
+          "Prime Location",
+          "the company"
+        ]
+      },
+      "sections_detected": [
+        "hero",
+        "about",
+        "amenities",
+        "payment",
+        "location",
+        "developer",
+        "faq",
+        "gallery",
+        "floor_plans",
+        "contact"
+      ],
+      "section_lengths": {
+        "hero": {
+          "count": 4,
+          "total": 1018,
+          "avg": 254.5
+        },
+        "about": {
+          "count": 8,
+          "total": 5186,
+          "avg": 648.25
+        },
+        "other": {
+          "count": 9,
+          "total": 4122,
+          "avg": 458.0
+        },
+        "floor_plans": {
+          "count": 3,
+          "total": 5450,
+          "avg": 1816.6666666666667
+        },
+        "payment_plan": {
+          "count": 2,
+          "total": 1104,
+          "avg": 552.0
+        },
+        "developer": {
+          "count": 3,
+          "total": 555,
+          "avg": 185.0
+        },
+        "location": {
+          "count": 2,
+          "total": 566,
+          "avg": 283.0
+        },
+        "contact": {
+          "count": 6,
+          "total": 7342,
+          "avg": 1223.6666666666667
+        },
+        "amenities": {
+          "count": 1,
+          "total": 125,
+          "avg": 125.0
+        }
+      }
+    },
+    "the-valley-villas.ae": {
+      "meta": {
+        "title": "New project by Emaar Properties in The Valley, Dubai — ELVA | Luxury real estate for sale.",
+        "title_length": 90,
+        "description": "Townhouses in ELVA, The Valley, Dubai by Emaar Properties with favourable purchase terms and high return on investment.",
+        "description_length": 119
+      },
+      "heading_analysis": {
+        "h1_count": 1,
+        "h2_count": 13,
+        "h3_count": 9,
+        "h1_lengths": [
+          26
+        ],
+        "h2_lengths": [
+          52,
+          40,
+          21,
+          24,
+          28,
+          40,
+          19,
+          48,
+          18,
+          11,
+          22,
+          13,
+          22
+        ],
+        "h3_lengths": [
+          36,
+          21,
+          44,
+          23,
+          19,
+          24,
+          34,
+          71,
+          39
+        ],
+        "h1_texts": [
+          "Invest in ELVA, The Valley"
+        ],
+        "h2_texts": [
+          "Exceptional Modern Family Living, Naturally Inspired",
+          "Proximity to Attractions, Infrastructure",
+          "Modern Fitness Centre",
+          "Diverse Kids Playgrounds",
+          "Profitable Investments Await",
+          "80/20 Payment Plan from Emaar Properties",
+          "View photos of ELVA",
+          "A Green Community Promising A Wealth Of Benefits",
+          "the company",
+          "Our awards:"
+        ]
+      },
+      "sections_detected": [
+        "hero",
+        "about",
+        "amenities",
+        "payment",
+        "location",
+        "developer",
+        "faq",
+        "gallery",
+        "floor_plans",
+        "contact"
+      ],
+      "section_lengths": {
+        "hero": {
+          "count": 4,
+          "total": 1056,
+          "avg": 264.0
+        },
+        "about": {
+          "count": 6,
+          "total": 3298,
+          "avg": 549.6666666666666
+        },
+        "other": {
+          "count": 7,
+          "total": 2715,
+          "avg": 387.85714285714283
+        },
+        "payment_plan": {
+          "count": 5,
+          "total": 5383,
+          "avg": 1076.6
+        },
+        "developer": {
+          "count": 2,
+          "total": 686,
+          "avg": 343.0
+        },
+        "location": {
+          "count": 4,
+          "total": 2980,
+          "avg": 745.0
+        },
+        "contact": {
+          "count": 6,
+          "total": 7348,
+          "avg": 1224.6666666666667
+        },
+        "floor_plans": {
+          "count": 2,
+          "total": 265,
+          "avg": 132.5
+        }
+      }
+    },
+    "luxury-collection.ae": {
+      "meta": {
+        "title": "Exclusive penthouses for sale by Sobha Realty in Sobha SeaHaven, Dubai — Sky Edition at Sobha SeaHaven | Luxury real estate for sale",
+        "title_length": 132,
+        "description": "Penthouses in Sky Edition at Sobha SeaHaven, Sobha SeaHaven, Dubai by Sobha Realty with favourable purchase terms and high return on investment.",
+        "description_length": 144
+      },
+      "heading_analysis": {
+        "h1_count": 1,
+        "h2_count": 14,
+        "h3_count": 11,
+        "h1_lengths": [
+          46
+        ],
+        "h2_lengths": [
+          55,
+          13,
+          31,
+          59,
+          36,
+          29,
+          26,
+          24,
+          50,
+          18,
+          11,
+          22,
+          13,
+          22
+        ],
+        "h3_lengths": [
+          9,
+          9,
+          33,
+          23,
+          47,
+          23,
+          19,
+          24,
+          34,
+          71,
+          39
+        ],
+        "h1_texts": [
+          "Own penthouse in Sky Edition at Sobha SeaHaven"
+        ],
+        "h2_texts": [
+          "Magnificent penthouses in Sky Edition at Sobha SeaHaven",
+          "Amazing views",
+          "Explore Sky Edition Floor Plans",
+          "Download our Floor Plans — Get all information in one place",
+          "A luxury investment in Dubai Harbour",
+          "80/20 Attractive Payment Plan",
+          "View photos of Sky Edition",
+          "Developer - Sobha Realty",
+          "Dubai Harbour — an extraordinary seafront district",
+          "the company"
+        ]
+      },
+      "sections_detected": [
+        "hero",
+        "about",
+        "amenities",
+        "payment",
+        "location",
+        "developer",
+        "faq",
+        "gallery",
+        "floor_plans",
+        "contact"
+      ],
+      "section_lengths": {
+        "hero": {
+          "count": 4,
+          "total": 1088,
+          "avg": 272.0
+        },
+        "about": {
+          "count": 8,
+          "total": 4330,
+          "avg": 541.25
+        },
+        "location": {
+          "count": 5,
+          "total": 1004,
+          "avg": 200.8
+        },
+        "floor_plans": {
+          "count": 6,
+          "total": 11800,
+          "avg": 1966.6666666666667
+        },
+        "other": {
+          "count": 6,
+          "total": 2378,
+          "avg": 396.3333333333333
+        },
+        "payment_plan": {
+          "count": 4,
+          "total": 1080,
+          "avg": 270.0
+        },
+        "developer": {
+          "count": 2,
+          "total": 404,
+          "avg": 202.0
+        },
+        "contact": {
+          "count": 6,
+          "total": 7384,
+          "avg": 1230.6666666666667
+        }
+      }
+    },
+    "sharjah-residences.ae": {
+      "meta": {
+        "title": "GEM Residences by Eagle Hills on Maryam Island, Sharjah (UAE): Apartments, penthouses and townhouses for sale at the developer's price: photos, reviews and layouts",
+        "title_length": 163,
+        "description": "✓ We offer real estate for sale - Apartments, penthouses and townhouses in the project GEM Residences by the developer Eagle Hills on Maryam Island, Sharjah (UAE). ✓ World-class amenities ✓ Great prices ✓ Large selection of floor plans with photos and reviews",
+        "description_length": 259
+      },
+      "heading_analysis": {
+        "h1_count": 1,
+        "h2_count": 17,
+        "h3_count": 13,
+        "h1_lengths": [
+          48
+        ],
+        "h2_lengths": [
+          20,
+          48,
+          18,
+          34,
+          59,
+          29,
+          45,
+          29,
+          19,
+          21,
+          38,
+          18,
+          11,
+          22,
+          13,
+          22,
+          30
+        ],
+        "h3_lengths": [
+          19,
+          19,
+          19,
+          19,
+          39,
+          24,
+          45,
+          23,
+          19,
+          24,
+          34,
+          71,
+          39
+        ],
+        "h1_texts": [
+          "Invest in GEM Residences, Maryam Island, Sharjah"
+        ],
+        "h2_texts": [
+          "About GEM Residences",
+          "Sharjah's Last Waterfront Homes on Maryam Island",
+          "Limited Collection",
+          "Explore GEM Residences Floor Plans",
+          "Download our Floor Plans — Get all information in one place",
+          "Economic appeal for investors",
+          "Last Chance for Premium Waterfront Investment",
+          "View photos of GEM Residences",
+          "About the developer",
+          "Location & Advantages"
+        ]
+      },
+      "sections_detected": [
+        "hero",
+        "about",
+        "amenities",
+        "payment",
+        "location",
+        "developer",
+        "faq",
+        "gallery",
+        "floor_plans",
+        "contact"
+      ],
+      "section_lengths": {
+        "hero": {
+          "count": 2,
+          "total": 938,
+          "avg": 469.0
+        },
+        "about": {
+          "count": 8,
+          "total": 4884,
+          "avg": 610.5
+        },
+        "other": {
+          "count": 12,
+          "total": 4604,
+          "avg": 383.6666666666667
+        },
+        "floor_plans": {
+          "count": 5,
+          "total": 5761,
+          "avg": 1152.2
+        },
+        "payment_plan": {
+          "count": 4,
+          "total": 1568,
+          "avg": 392.0
+        },
+        "location": {
+          "count": 2,
+          "total": 888,
+          "avg": 444.0
+        },
+        "contact": {
+          "count": 6,
+          "total": 7852,
+          "avg": 1308.6666666666667
+        }
+      }
+    },
+    "bloom-living.ae": {
+      "meta": {
+        "title": "404",
+        "title_length": 3
+      },
+      "heading_analysis": {
+        "h1_count": 1,
+        "h2_count": 0,
+        "h3_count": 0,
+        "h1_lengths": [
+          24
+        ],
+        "h2_lengths": [],
+        "h3_lengths": [],
+        "h1_texts": [
+          "That page can’t be found"
+        ],
+        "h2_texts": []
+      },
+      "sections_detected": [
+        "hero",
+        "location",
+        "faq",
+        "gallery",
+        "contact"
+      ],
+      "section_lengths": {
+        "other": {
+          "count": 2,
+          "total": 490,
+          "avg": 245.0
+        }
+      }
+    },
+    "luxury-villas-dubai.ae": {
+      "meta": {
+        "title": "New Project by Emaar Properties in Dubai Investments Park, Dubai — Grand Polo Club & Resort | Luxury Real Estate for Sale",
+        "title_length": 121,
+        "description": "Villas in Grand Polo Club & Resort, Dubai Investments Park, Dubai, by Emaar Properties — with favourable purchase terms and high return on investment.",
+        "description_length": 150
+      },
+      "heading_analysis": {
+        "h1_count": 1,
+        "h2_count": 17,
+        "h3_count": 13,
+        "h1_lengths": [
+          47
+        ],
+        "h2_lengths": [
+          33,
+          99,
+          44,
+          46,
+          59,
+          28,
+          30,
+          31,
+          21,
+          40,
+          41,
+          42,
+          18,
+          11,
+          22,
+          13,
+          22
+        ],
+        "h3_lengths": [
+          24,
+          24,
+          30,
+          35,
+          102,
+          61,
+          78,
+          23,
+          19,
+          24,
+          34,
+          71,
+          39
+        ],
+        "h1_texts": [
+          "Buy Villas in Grand Polo Club & Resort by Emaar"
+        ],
+        "h2_texts": [
+          "Consult with a Real Estate Expert",
+          "Grand Polo Club & Resort - Emaar Properties: A High-Level Investment in Dubai's ",
+          "Strong investment in luxury lifestyle sector",
+          "Explore Grand Polo Club and Resort Floor Plans",
+          "Download all Floor Plans — Get all information in one place",
+          "Polo & Equestrian Facilities",
+          "Clubhouses & Community Centers",
+          "An Elite Investment Opportunity",
+          "Investment Brilliance",
+          "80/20 Payment Plan from Emaar Properties"
+        ]
+      },
+      "sections_detected": [
+        "hero",
+        "about",
+        "amenities",
+        "payment",
+        "location",
+        "developer",
+        "faq",
+        "gallery",
+        "floor_plans",
+        "contact"
+      ],
+      "section_lengths": {
+        "hero": {
+          "count": 4,
+          "total": 2770,
+          "avg": 692.5
+        },
+        "payment_plan": {
+          "count": 10,
+          "total": 4981,
+          "avg": 498.1
+        },
+        "floor_plans": {
+          "count": 4,
+          "total": 8295,
+          "avg": 2073.75
+        },
+        "about": {
+          "count": 11,
+          "total": 3501,
+          "avg": 318.27272727272725
+        },
+        "developer": {
+          "count": 2,
+          "total": 846,
+          "avg": 423.0
+        },
+        "location": {
+          "count": 2,
+          "total": 936,
+          "avg": 468.0
+        },
+        "other": {
+          "count": 7,
+          "total": 6384,
+          "avg": 912.0
+        },
+        "contact": {
+          "count": 5,
+          "total": 7111,
+          "avg": 1422.2
+        }
+      }
+    },
+    "capital.luxury": {
+      "meta": {
+        "title": "Jacob & Co. Beachfront Living by Ohana by Ohana Development in Al Jurf | Buy Residences at developer prices: photos, reviews and floor plans",
+        "title_length": 140,
+        "description": "✓ Invest in luxury real estate - Residences in the Jacob & Co. Beachfront Living by Ohana project from the developer Ohana Development in Al Jurf (UAE). ✓ World-class amenities ✓ Favourable prices ✓ Large selection of floor plans with photos and reviews",
+        "description_length": 253
+      },
+      "heading_analysis": {
+        "h1_count": 1,
+        "h2_count": 13,
+        "h3_count": 3,
+        "h1_lengths": [
+          78
+        ],
+        "h2_lengths": [
+          44,
+          17,
+          12,
+          11,
+          7,
+          21,
+          45,
+          79,
+          36,
+          23,
+          25,
+          22,
+          33
+        ],
+        "h3_lengths": [
+          55,
+          26,
+          34
+        ],
+        "h1_texts": [
+          "Invest in Jacob & Co. Beachfront Living by Ohana: A New Waterfront Destination"
+        ],
+        "h2_texts": [
+          "About Jacob & Co. Beachfront Living by Ohana",
+          "Investment Appeal",
+          "Payment Plan",
+          "Floor Plans",
+          "Gallery",
+          "Location & Advantages",
+          "6 Steps to Property Success",
+          "Real Estate Company - Your Gateway to Premium Abu Dhabi Properties",
+          "Secure Your Ideal Abu Dhabi Property",
+          "Elite Developer Network"
+        ]
+      },
+      "sections_detected": [
+        "hero",
+        "about",
+        "amenities",
+        "payment",
+        "location",
+        "developer",
+        "faq",
+        "gallery",
+        "floor_plans",
+        "contact"
+      ],
+      "section_lengths": {
+        "other": {
+          "count": 9,
+          "total": 4736,
+          "avg": 526.2222222222222
+        },
+        "about": {
+          "count": 6,
+          "total": 2125,
+          "avg": 354.1666666666667
+        },
+        "payment_plan": {
+          "count": 5,
+          "total": 2319,
+          "avg": 463.8
+        },
+        "floor_plans": {
+          "count": 3,
+          "total": 11270,
+          "avg": 3756.6666666666665
+        },
+        "developer": {
+          "count": 3,
+          "total": 694,
+          "avg": 231.33333333333334
+        },
+        "location": {
+          "count": 2,
+          "total": 742,
+          "avg": 371.0
+        },
+        "amenities": {
+          "count": 3,
+          "total": 2665,
+          "avg": 888.3333333333334
+        },
+        "contact": {
+          "count": 8,
+          "total": 4968,
+          "avg": 621.0
+        },
+        "faq": {
+          "count": 2,
+          "total": 110,
+          "avg": 55.0
+        }
+      }
+    }
+  }
+}

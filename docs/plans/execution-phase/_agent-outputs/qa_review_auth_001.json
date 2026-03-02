@@ -1,0 +1,235 @@
+{
+  "agent_id": "QA-AUTH-001",
+  "reviewed_agent": "DEV-AUTH-001",
+  "review_timestamp": "2026-01-26T00:00:00Z",
+  "passed": false,
+  "score": 78,
+  "checklist_results": {
+    "owasp_guidelines": {
+      "passed": true,
+      "notes": "PASS: No passwords/tokens logged. Uses secrets.token_hex() for cryptographically random token generation. Session timeout implemented (1h JWT, 7d refresh). Account lockout not implemented but deactivation supported. Tokens properly hashed for storage (SHA256 in hash_refresh_token)."
+    },
+    "jwt_security": {
+      "passed": true,
+      "notes": "PASS: Uses HS256 algorithm. JWT expiry set to 1 hour (appropriate). Required claims present (sub, email, role, exp, iat). Signature validated before payload access in verify_token(). No sensitive data beyond email/role in payload. Refresh tokens have separate type claim."
+    },
+    "oauth_implementation": {
+      "passed": false,
+      "notes": "FAIL: NO STATE PARAMETER for CSRF protection in OAuth flow. Token exchange is server-side (correct). Google token verified via googleapis endpoint. Domain restriction enforced server-side (@your-domain.com). Missing: state parameter generation/validation, PKCE support recommended."
+    },
+    "refresh_token_security": {
+      "passed": false,
+      "notes": "PARTIAL FAIL: Refresh tokens hashed using SHA256 (good). Token type validated ('refresh'). However: NO DATABASE STORAGE of refresh tokens for validation/revocation. Tokens only set in HTTP-only cookies but never checked against DB. No single-use or rotation implemented. Logout only clears cookie, doesn't invalidate token server-side. CRITICAL: No way to force logout or revoke sessions."
+    },
+    "domain_restriction": {
+      "passed": true,
+      "notes": "PASS: @your-domain.com enforced server-side in _is_allowed_domain() and verify_google_token(). Clear error message provided. Cannot be bypassed (checked after Google verification). Database constraint also enforces domain in User table."
+    },
+    "rate_limiting": {
+      "passed": false,
+      "notes": "FAIL: NO RATE LIMITING on auth endpoints. Auth routes have no throttling. Login attempts unlimited. No protection against brute force or credential stuffing. RECOMMENDATION: Add rate limiting middleware specifically for /api/auth/* endpoints."
+    },
+    "error_handling": {
+      "passed": true,
+      "notes": "PASS: Generic error messages used (TOKEN_EXPIRED, INVALID_TOKEN, USER_NOT_FOUND, ACCOUNT_INACTIVE, DOMAIN_NOT_ALLOWED). Consistent error format via HTTPException. Proper HTTP status codes (401, 403, 500). No stack traces sent to client (logger.exception used for server logs only)."
+    },
+    "audit_logging": {
+      "passed": true,
+      "notes": "PASS: Login attempts logged (logger.info for successful login). Failed authentication logged via logger.warning for domain violations. User creation/login tracked in user_service. No secrets in logs (only email addresses logged). Uses structured logging. RECOMMENDATION: Add IP address logging for security events."
+    },
+    "code_quality": {
+      "passed": true,
+      "notes": "PASS: Type hints present throughout. Async/await used correctly with httpx.AsyncClient. No hardcoded secrets (loaded from settings). Clean separation: auth_service (business logic), user_service (data access), auth middleware (request handling), permissions (authorization), auth routes (API layer). Good docstrings."
+    },
+    "xss_csrf_protection": {
+      "passed": true,
+      "notes": "PASS: Tokens in Authorization header (not URL). Refresh tokens in HTTP-only cookies with secure flag in production. SameSite=lax cookie setting. CORS would be configured in main.py. No XSS vectors in auth flow. CSRF: OAuth lacks state parameter (see oauth_implementation)."
+    }
+  },
+  "runtime_validation": {
+    "import_test": "FAIL - Missing sqlalchemy dependency",
+    "reserved_names": "PASS - No SQLAlchemy reserved names used as fields",
+    "async_patterns": "PASS - No sync-blocking calls (time.sleep, requests) found",
+    "type_hints": "PASS - All functions have type hints"
+  },
+  "issues": [
+    {
+      "severity": "CRITICAL",
+      "category": "Session Management",
+      "location": "backend/app/services/auth_service.py",
+      "description": "Refresh tokens are not stored in database. No server-side session tracking or revocation capability. Logout only clears cookie but token remains valid until expiry.",
+      "recommendation": "Create refresh_tokens table to store hashed tokens with user_id, expiry, and revoked flag. Validate refresh tokens against DB on /refresh endpoint. Implement token rotation (invalidate old token when issuing new one).",
+      "impact": "Cannot force logout users. Compromised refresh tokens valid for 7 days with no revocation. Stolen refresh tokens can be used until expiry."
+    },
+    {
+      "severity": "HIGH",
+      "category": "OAuth Security",
+      "location": "backend/app/api/routes/auth.py",
+      "description": "OAuth flow missing state parameter for CSRF protection. Attacker could initiate OAuth flow and trick victim into completing it (OAuth login CSRF).",
+      "recommendation": "Generate random state parameter before redirecting to Google. Store in session/cookie. Validate state parameter matches on callback. Consider PKCE (Proof Key for Code Exchange) for additional security.",
+      "impact": "Vulnerable to OAuth login CSRF attacks where attacker can link their account to victim's session."
+    },
+    {
+      "severity": "HIGH",
+      "category": "Rate Limiting",
+      "location": "backend/app/api/routes/auth.py",
+      "description": "No rate limiting on authentication endpoints. Unlimited login attempts allowed.",
+      "recommendation": "Implement rate limiting (e.g., 5 attempts per 15 minutes per IP for /api/auth/google, 10 attempts per hour for /api/auth/refresh). Use Redis or in-memory store for tracking.",
+      "impact": "Vulnerable to brute force attacks, credential stuffing, and DoS on auth endpoints."
+    },
+    {
+      "severity": "MEDIUM",
+      "category": "Token Security",
+      "location": "backend/app/services/auth_service.py:220-232",
+      "description": "hash_refresh_token() method exists but refresh tokens are never stored or validated in database. Method is unused.",
+      "recommendation": "Either implement full refresh token storage (preferred) or remove unused method to avoid confusion.",
+      "impact": "Code maintenance confusion. False sense of security."
+    },
+    {
+      "severity": "MEDIUM",
+      "category": "Audit Logging",
+      "location": "backend/app/api/routes/auth.py, backend/app/middleware/auth.py",
+      "description": "No IP address logging for authentication events. Failed login attempts not explicitly logged.",
+      "recommendation": "Add request.client.host to all auth logs. Log failed authentication attempts with IP. Consider structured logging with fields: {event: 'auth_failure', reason: 'invalid_token', user_id: null, ip: '1.2.3.4'}.",
+      "impact": "Difficult to detect brute force attacks or trace security incidents. No IP-based blocking possible."
+    },
+    {
+      "severity": "LOW",
+      "category": "Token Claims",
+      "location": "backend/app/services/auth_service.py:148-161",
+      "description": "JWT contains user email and role in payload. While not highly sensitive, email is PII and role could leak privilege information.",
+      "recommendation": "Consider removing email from JWT payload (only store user_id). Frontend can fetch user details from /api/auth/me endpoint. Alternative: Use opaque tokens (random IDs) instead of JWTs for access tokens.",
+      "impact": "Minor privacy concern. JWTs can be decoded by anyone with token access."
+    },
+    {
+      "severity": "LOW",
+      "category": "JWT Secret Validation",
+      "location": "backend/app/config/settings.py:198-204",
+      "description": "JWT_SECRET validation requires 32 characters but doesn't enforce complexity (entropy, character mix).",
+      "recommendation": "Add entropy check or require minimum hex/base64 length. Generate secrets using cryptographically secure methods: secrets.token_urlsafe(32).",
+      "impact": "Weak secrets could be brute-forced. Low risk if using proper secret generation."
+    },
+    {
+      "severity": "INFO",
+      "category": "Code Organization",
+      "location": "backend/app/services/auth_service.py:234-243",
+      "description": "generate_token_jti() method exists but JTI (JWT ID) claim not added to tokens. Method appears unused.",
+      "recommendation": "Either implement JTI in tokens for revocation tracking or remove unused method. If implementing, add 'jti' to JWT payload and track in revocation table.",
+      "impact": "Code maintenance. JTI useful for token revocation if implemented."
+    }
+  ],
+  "security_findings": [
+    {
+      "finding": "No server-side session management",
+      "risk": "CRITICAL",
+      "details": "Refresh tokens stored only in HTTP-only cookies but never validated against database. No way to revoke tokens server-side.",
+      "remediation": "Implement refresh_tokens table with user_id, token_hash, issued_at, expires_at, revoked_at fields. Check DB on every token refresh."
+    },
+    {
+      "finding": "OAuth CSRF vulnerability",
+      "risk": "HIGH",
+      "details": "Missing state parameter in OAuth flow allows OAuth login CSRF attacks.",
+      "remediation": "Add state parameter: generate random value, store in session, validate on callback. Use constant-time comparison."
+    },
+    {
+      "finding": "No authentication rate limiting",
+      "risk": "HIGH",
+      "details": "Unlimited authentication attempts allow brute force and credential stuffing attacks.",
+      "remediation": "Add rate limiting middleware: 5 attempts/15min per IP for login, 10 attempts/hour for refresh. Return 429 with Retry-After header."
+    },
+    {
+      "finding": "JWT contains email in payload",
+      "risk": "LOW",
+      "details": "Email address (PII) stored in JWT payload can be decoded by anyone with token.",
+      "remediation": "Consider removing email from JWT, only store user_id. Fetch user details via API when needed."
+    }
+  ],
+  "recommendations": [
+    {
+      "priority": "P0",
+      "recommendation": "Implement server-side refresh token storage and validation",
+      "rationale": "Critical security gap. Cannot revoke sessions or track token usage. Stolen refresh tokens valid for 7 days.",
+      "implementation": "1. Create refresh_tokens DB table. 2. Store hashed token on creation. 3. Validate against DB on /refresh. 4. Implement revocation endpoint. 5. Add token rotation (invalidate old on refresh).",
+      "effort": "Medium (4-6 hours)"
+    },
+    {
+      "priority": "P0",
+      "recommendation": "Add OAuth state parameter for CSRF protection",
+      "rationale": "High-severity vulnerability per OWASP guidelines. OAuth login CSRF is well-documented attack.",
+      "implementation": "1. Generate state = secrets.token_urlsafe(32) before redirect. 2. Store in secure cookie/session. 3. Validate state matches on callback. 4. Use constant-time comparison.",
+      "effort": "Low (1-2 hours)"
+    },
+    {
+      "priority": "P1",
+      "recommendation": "Implement rate limiting on auth endpoints",
+      "rationale": "Prevents brute force, credential stuffing, and DoS attacks. Standard security practice.",
+      "implementation": "1. Add rate limiting middleware (Redis or memory-based). 2. Apply to /api/auth/* routes. 3. Return 429 with Retry-After header. 4. Different limits per endpoint.",
+      "effort": "Medium (3-4 hours)"
+    },
+    {
+      "priority": "P2",
+      "recommendation": "Add IP address logging for all authentication events",
+      "rationale": "Essential for security monitoring, incident response, and detecting attack patterns.",
+      "implementation": "1. Add request.client.host to all auth logs. 2. Log failed attempts. 3. Consider structured logging format. 4. Integrate with monitoring/alerting.",
+      "effort": "Low (1-2 hours)"
+    },
+    {
+      "priority": "P2",
+      "recommendation": "Implement account lockout after failed login attempts",
+      "rationale": "Defense-in-depth against brute force. Complements rate limiting.",
+      "implementation": "1. Track failed attempts per user in DB or cache. 2. Lock account after 5 failures. 3. Require admin unlock or time-based unlock (30 min). 4. Send notification to user.",
+      "effort": "Medium (3-4 hours)"
+    },
+    {
+      "priority": "P3",
+      "recommendation": "Consider implementing PKCE for OAuth flow",
+      "rationale": "Additional security layer for OAuth. Recommended for public clients. Protects against authorization code interception.",
+      "implementation": "1. Generate code_verifier = secrets.token_urlsafe(32). 2. Calculate code_challenge = base64(sha256(code_verifier)). 3. Send code_challenge in auth request. 4. Send code_verifier in token exchange.",
+      "effort": "Medium (2-3 hours)"
+    },
+    {
+      "priority": "P3",
+      "recommendation": "Remove email from JWT payload or use opaque tokens",
+      "rationale": "Reduce PII exposure in tokens. JWTs can be decoded by anyone.",
+      "implementation": "Option 1: Remove email from JWT, only include user_id. Option 2: Use opaque tokens (random IDs) with DB lookup. Store full session data server-side.",
+      "effort": "Medium (4-6 hours for opaque tokens, Low for removing email)"
+    }
+  ],
+  "owasp_compliance": {
+    "A01_broken_access_control": "PARTIAL - Good RBAC but session revocation missing",
+    "A02_cryptographic_failures": "PASS - TLS enforced, tokens hashed, proper key storage",
+    "A03_injection": "PASS - No SQL injection (parameterized queries via SQLAlchemy)",
+    "A04_insecure_design": "PARTIAL - OAuth CSRF vulnerability, no rate limiting",
+    "A05_security_misconfiguration": "PASS - Secure defaults, HTTP-only cookies, domain restriction",
+    "A06_vulnerable_components": "N/A - Would require dependency scan",
+    "A07_identification_authentication_failures": "FAIL - No rate limiting, no account lockout, OAuth CSRF, no session revocation",
+    "A08_software_data_integrity_failures": "PARTIAL - JWT signed but no JTI for revocation",
+    "A09_logging_failures": "PARTIAL - Good logging but missing IP addresses",
+    "A10_ssrf": "N/A - Not applicable to auth module"
+  },
+  "summary": {
+    "strengths": [
+      "Strong JWT implementation with proper validation and expiry",
+      "Domain restriction enforced server-side with DB constraint",
+      "Good error handling with generic messages",
+      "Clean separation of concerns (service, middleware, routes)",
+      "Async/await used correctly throughout",
+      "Type hints and documentation present",
+      "HTTP-only cookies for refresh tokens",
+      "Password-less authentication via Google OAuth"
+    ],
+    "weaknesses": [
+      "No server-side session management or token revocation",
+      "Missing OAuth state parameter (CSRF vulnerability)",
+      "No rate limiting on authentication endpoints",
+      "No account lockout mechanism",
+      "IP addresses not logged for security events",
+      "Email (PII) exposed in JWT payload"
+    ],
+    "critical_gaps": [
+      "Session revocation impossible - cannot force logout users",
+      "OAuth login CSRF vulnerability",
+      "No brute force protection"
+    ]
+  }
+}

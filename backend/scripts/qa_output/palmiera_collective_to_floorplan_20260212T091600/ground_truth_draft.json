@@ -1,0 +1,32 @@
+{
+  "brochure": "PALMIERA-COLLECTIVE_TO_FLOORPLAN.pdf",
+  "last_verified": "2026-02-12",
+  "notes": "AUTO-GENERATED DRAFT -- review and correct before use",
+  "table_specs": [],
+  "table_spec_count": 0,
+  "text_assertions": {
+    "pages_with_floor_plan_text": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "expected_unit_types_in_text": [
+      "4 BEDROOM W"
+    ],
+    "expected_area_labels_present": false
+  },
+  "floor_plans": [],
+  "total_unique_plans": 0,
+  "total_unique_plans_tolerance": 1,
+  "classification": {
+    "min_floor_plan_images": 1,
+    "total_images_classified": 0
+  },
+  "tolerances": {
+    "sqft_pct": 2.0,
+    "balcony_sqft_pct": 5.0,
+    "bedrooms_exact": true,
+    "bathrooms_exact": true
+  }
+}

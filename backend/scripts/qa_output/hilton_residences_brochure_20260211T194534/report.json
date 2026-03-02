@@ -1,0 +1,41 @@
+{
+  "brochure": "Hilton Residences Brochure",
+  "timestamp": "20260211T194534",
+  "size_mb": 116.7,
+  "page_count": 30,
+  "table_extraction": {
+    "floor_plan_spec_count": 0,
+    "specs": [],
+    "errors": []
+  },
+  "text_extraction": [
+    {
+      "page": 9,
+      "unit_type": "PENTHOUSE"
+    },
+    {
+      "page": 10,
+      "unit_type": "PENTHOUSE"
+    },
+    {
+      "page": 11,
+      "unit_type": "STUDIO"
+    },
+    {
+      "page": 12,
+      "unit_type": "STUDIO"
+    },
+    {
+      "page": 26,
+      "unit_type": "TOWNHOUSE"
+    },
+    {
+      "page": 27,
+      "unit_type": "TOWNHOUSE"
+    },
+    {
+      "page": 28,
+      "unit_type": "TOWNHOUSE"
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "brochure": "Floor plans - Wedyan The Canal by Al Ghurair Collection",
+  "timestamp": "20260212T091609",
+  "size_mb": 15.5,
+  "page_count": 16,
+  "table_extraction": {
+    "floor_plan_spec_count": 0,
+    "specs": [],
+    "errors": []
+  },
+  "text_extraction": [
+    {
+      "page": 1,
+      "unit_type": "014 Bed"
+    },
+    {
+      "page": 2,
+      "unit_type": "014 Bed",
+      "bathrooms": 4.5,
+      "bathrooms_confidence": 0.6
+    },
+    {
+      "page": 3,
+      "unit_type": "014 Bed",
+      "bathrooms": 3.5,
+      "bathrooms_confidence": 0.6
+    },
+    {
+      "page": 4,
+      "unit_type": "3 Bed",
+      "bathrooms": 3.5,
+      "bathrooms_confidence": 0.6
+    },
+    {
+      "page": 5,
+      "unit_type": "3 Bed",
+      "bathrooms": 4.5,
+      "bathrooms_confidence": 0.6
+    },
+    {
+      "page": 6,
+      "unit_type": "4 Bed",
+      "bathrooms": 3.5,
+      "bathrooms_confidence": 0.6
+    },
+    {
+      "page": 7,
+      "unit_type": "3 Bed",
+      "bathrooms": 3.5,
+      "bathrooms_confidence": 0.6
+    },
+    {
+      "page": 8,
+      "unit_type": "3 Bed",
+      "bathrooms": 3.5,
+      "bathrooms_confidence": 0.6
+    },
+    {
+      "page": 9,
+      "unit_type": "3 Bed",
+      "bathrooms": 4.5,
+      "bathrooms_confidence": 0.6
+    },
+    {
+      "page": 10,
+      "unit_type": "3\nbedroom",
+      "bathrooms": 3.5,
+      "bathrooms_confidence": 0.6
+    },
+    {
+      "page": 11,
+      "unit_type": "3\nbedroom",
+      "bathrooms": 3.5,
+      "bathrooms_confidence": 0.6
+    },
+    {
+      "page": 12,
+      "unit_type": "123 Bed",
+      "bathrooms": 5.5,
+      "bathrooms_confidence": 0.6
+    },
+    {
+      "page": 13,
+      "unit_type": "135 Bed",
+      "bathrooms": 3.5,
+      "bathrooms_confidence": 0.6
+    },
+    {
+      "page": 14,
+      "unit_type": "143 Bed",
+      "bathrooms": 5.5,
+      "bathrooms_confidence": 0.6
+    },
+    {
+      "page": 15,
+      "unit_type": "4\nbedroom",
+      "bathrooms": 5.5,
+      "bathrooms_confidence": 0.6
+    }
+  ]
+}

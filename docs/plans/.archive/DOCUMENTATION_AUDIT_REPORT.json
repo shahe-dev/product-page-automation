@@ -1,0 +1,318 @@
+{
+  "audit_metadata": {
+    "audit_date": "2026-01-24",
+    "auditor": "Product Manager (AI-Assisted)",
+    "project": "PDP Automation v.3",
+    "documents_audited": 15,
+    "audit_scope": [
+      "docs/EXECUTIVE_SUMMARY.md",
+      "docs/EXECUTION_MANIFEST.json",
+      "docs/EXECUTION_PROTOCOL.md",
+      "docs/EXTERNAL_SETUP_CHECKLIST.md",
+      "docs/SETUP_PROGRESS_CHECKLIST.md",
+      "docs/02-modules/MATERIAL_PREPARATION.md",
+      "docs/02-modules/CONTENT_GENERATION.md",
+      "docs/02-modules/PROJECT_DATABASE.md",
+      "docs/02-modules/QA_MODULE.md",
+      "docs/02-modules/PROMPT_LIBRARY.md",
+      "docs/08-user-guides/CONTENT_CREATOR_GUIDE.md",
+      "docs/08-user-guides/MARKETING_MANAGER_GUIDE.md",
+      "docs/08-user-guides/PUBLISHER_GUIDE.md",
+      "docs/08-user-guides/ADMIN_GUIDE.md",
+      "docs/08-user-guides/DEVELOPER_GUIDE.md"
+    ]
+  },
+  "gaps": [
+    {
+      "id": "GAP-001",
+      "category": "Non-Functional Requirements",
+      "severity": "HIGH",
+      "document": "All Documents",
+      "description": "No performance requirements specified. Missing: API response time SLAs, maximum concurrent users, throughput requirements, database query performance targets.",
+      "recommendation": "Define measurable performance targets: API response < 2s for reads, < 10s for processing jobs, support for X concurrent users, database query < 500ms."
+    },
+    {
+      "id": "GAP-002",
+      "category": "Feature Requirements",
+      "severity": "HIGH",
+      "document": "docs/08-user-guides/DEVELOPER_GUIDE.md",
+      "description": "Webhooks feature marked as 'Coming Soon - Q2 2026' with no specification. External systems cannot receive real-time notifications of project status changes.",
+      "recommendation": "Either: (a) Document webhook specification now for Q2 implementation, or (b) Remove from initial scope and document as future enhancement with clear milestone."
+    },
+    {
+      "id": "GAP-003",
+      "category": "Data Requirements",
+      "severity": "HIGH",
+      "document": "docs/02-modules/PROJECT_DATABASE.md",
+      "description": "Backup and disaster recovery procedures mentioned but not specified. No RTO/RPO targets defined. Critical for production system with client data.",
+      "recommendation": "Define: Backup frequency (hourly/daily), retention period, RTO target (< 4 hours recommended), RPO target (< 1 hour recommended), recovery testing schedule."
+    },
+    {
+      "id": "GAP-004",
+      "category": "User Role Definitions",
+      "severity": "MEDIUM",
+      "document": "docs/08-user-guides/ADMIN_GUIDE.md",
+      "description": "Only two roles defined (Admin/User) but user guides reference four distinct personas (Content Creator, Marketing Manager, Publisher, Admin). Granular permissions listed but role-to-permission mapping incomplete.",
+      "recommendation": "Create explicit role matrix: Content Creator = [upload, edit, submit], Marketing Manager = [approve], Publisher = [publish], Admin = [all]. Document in ADMIN_GUIDE.md."
+    },
+    {
+      "id": "GAP-005",
+      "category": "Integration Requirements",
+      "severity": "MEDIUM",
+      "document": "docs/02-modules/CONTENT_GENERATION.md",
+      "description": "Google Sheets API integration documented but no error handling for quota exhaustion, rate limits, or API unavailability scenarios.",
+      "recommendation": "Document: Sheets API quota monitoring, exponential backoff strategy, fallback behavior when API unavailable, user notification workflow."
+    },
+    {
+      "id": "GAP-006",
+      "category": "Feature Requirements",
+      "severity": "MEDIUM",
+      "document": "docs/02-modules/QA_MODULE.md",
+      "description": "QA override functionality mentioned but no audit trail requirements specified. Overrides could bypass quality gates without accountability.",
+      "recommendation": "Add: Override reason field (required), override expiry, manager approval for critical overrides, override audit report generation."
+    },
+    {
+      "id": "GAP-007",
+      "category": "Acceptance Criteria",
+      "severity": "MEDIUM",
+      "document": "docs/02-modules/MATERIAL_PREPARATION.md",
+      "description": "Floor plan extraction success criteria undefined. What constitutes successful floor plan identification vs. failure requiring manual intervention?",
+      "recommendation": "Define: Minimum image resolution, required metadata (unit type, size), confidence threshold for auto-acceptance, manual review triggers."
+    },
+    {
+      "id": "GAP-008",
+      "category": "Data Requirements",
+      "severity": "MEDIUM",
+      "document": "docs/08-user-guides/ADMIN_GUIDE.md",
+      "description": "Audit log retention specified as 12 months but no archival strategy. What happens to logs after 12 months? Compliance requirements unclear.",
+      "recommendation": "Define: Post-retention archival (cold storage vs. deletion), compliance requirements (GDPR, local regulations), log export functionality."
+    },
+    {
+      "id": "GAP-009",
+      "category": "Feature Requirements",
+      "severity": "MEDIUM",
+      "document": "docs/02-modules/PROMPT_LIBRARY.md",
+      "description": "Prompt versioning documented but no rollback procedure. If a prompt version causes quality degradation, how to quickly revert?",
+      "recommendation": "Add: One-click rollback to previous version, automatic rollback trigger (if QA scores drop >10%), rollback notification to admin."
+    },
+    {
+      "id": "GAP-010",
+      "category": "Integration Requirements",
+      "severity": "MEDIUM",
+      "document": "docs/EXTERNAL_SETUP_CHECKLIST.md",
+      "description": "Service account setup documented but no key rotation policy. Long-lived credentials pose security risk.",
+      "recommendation": "Define: Key rotation schedule (90 days recommended), rotation procedure, automated rotation capability, key compromise response plan."
+    },
+    {
+      "id": "GAP-011",
+      "category": "Non-Functional Requirements",
+      "severity": "LOW",
+      "document": "docs/08-user-guides/DEVELOPER_GUIDE.md",
+      "description": "API versioning strategy undefined. Current version is v1 but no guidance on deprecation policy, version sunset timeline, or migration paths.",
+      "recommendation": "Document: Version support policy (N-1 minimum), deprecation notice period (6 months), migration guides, version header requirements."
+    },
+    {
+      "id": "GAP-012",
+      "category": "User Role Definitions",
+      "severity": "LOW",
+      "document": "docs/08-user-guides/PUBLISHER_GUIDE.md",
+      "description": "Publisher role can access six different content templates but no credential management documented. How do publishers authenticate to each CMS platform?",
+      "recommendation": "Document: CMS credential provisioning, password policy, access request workflow, credential rotation for departing staff."
+    },
+    {
+      "id": "GAP-013",
+      "category": "Acceptance Criteria",
+      "severity": "LOW",
+      "document": "docs/02-modules/CONTENT_GENERATION.md",
+      "description": "Character limits defined (60 char titles, 160 char descriptions) but no handling for AI-generated content exceeding limits.",
+      "recommendation": "Define: Auto-truncation rules, user notification, manual edit workflow, validation before sheet population."
+    },
+    {
+      "id": "GAP-014",
+      "category": "Feature Requirements",
+      "severity": "LOW",
+      "document": "docs/08-user-guides/CONTENT_CREATOR_GUIDE.md",
+      "description": "Bulk upload mentioned but no batch size limits, progress tracking, or partial failure handling documented.",
+      "recommendation": "Define: Maximum batch size (10 PDFs recommended), progress indicator requirements, partial success handling, retry mechanism."
+    }
+  ],
+  "inconsistencies": [
+    {
+      "id": "INC-001",
+      "documents": [
+        "docs/08-user-guides/ADMIN_GUIDE.md",
+        "docs/08-user-guides/CONTENT_CREATOR_GUIDE.md",
+        "docs/08-user-guides/MARKETING_MANAGER_GUIDE.md",
+        "docs/08-user-guides/PUBLISHER_GUIDE.md"
+      ],
+      "description": "Role architecture mismatch. ADMIN_GUIDE defines only 2 roles (Admin/User) with granular permissions, while other guides treat 4 distinct personas (Content Creator, Marketing Manager, Publisher, Admin) as separate roles. Unclear if these are roles or permission sets.",
+      "recommendation": "Clarify: Are Content Creator/Marketing Manager/Publisher distinct database roles or permission profiles within 'User' role? Update ADMIN_GUIDE to explicitly map personas to role/permission combinations."
+    },
+    {
+      "id": "INC-002",
+      "documents": [
+        "docs/EXECUTION_MANIFEST.json",
+        "docs/02-modules/CONTENT_GENERATION.md"
+      ],
+      "description": "AI model references inconsistent. EXECUTION_MANIFEST references 'Claude Sonnet 4.5' while CONTENT_GENERATION references 'Claude claude-sonnet-4-5-20241022'. Model naming should be consistent.",
+      "recommendation": "Standardize on official Anthropic model ID: 'claude-sonnet-4-5-20241022' throughout all documentation."
+    },
+    {
+      "id": "INC-003",
+      "documents": [
+        "docs/02-modules/QA_MODULE.md",
+        "docs/08-user-guides/PUBLISHER_GUIDE.md"
+      ],
+      "description": "QA scoring thresholds differ. QA_MODULE defines: extraction 70%, content 85%, sheet 100%. PUBLISHER_GUIDE defines post-publication scoring: 90-100 PASS, 70-89 WARN, <70 FAIL. Different scales for different stages not clearly justified.",
+      "recommendation": "Consolidate scoring methodology. Either: (a) Use consistent thresholds across all stages, or (b) Document rationale for different thresholds at each stage."
+    },
+    {
+      "id": "INC-004",
+      "documents": [
+        "docs/EXECUTION_PROTOCOL.md",
+        "docs/08-user-guides/PUBLISHER_GUIDE.md"
+      ],
+      "description": "Publishing timeline inconsistent. EXECUTION_PROTOCOL references phase-based development milestones. PUBLISHER_GUIDE specifies 48-hour SLA from approval to publication. No connection between development phases and operational SLAs.",
+      "recommendation": "Clarify: 48-hour SLA is operational requirement post-launch. Add section specifying when SLAs become effective (post Phase X completion)."
+    },
+    {
+      "id": "INC-005",
+      "documents": [
+        "docs/02-modules/MATERIAL_PREPARATION.md",
+        "docs/02-modules/CONTENT_GENERATION.md"
+      ],
+      "description": "PDF processing tool references inconsistent. MATERIAL_PREPARATION emphasizes pymupdf4llm for text extraction. CONTENT_GENERATION references 'PDF extraction pipeline' without specifying tool. Unclear if same or different processes.",
+      "recommendation": "Explicitly state in CONTENT_GENERATION.md: 'Text extraction uses pymupdf4llm as specified in MATERIAL_PREPARATION module.'"
+    },
+    {
+      "id": "INC-006",
+      "documents": [
+        "docs/08-user-guides/ADMIN_GUIDE.md",
+        "docs/08-user-guides/DEVELOPER_GUIDE.md"
+      ],
+      "description": "Cost tracking scope differs. ADMIN_GUIDE tracks 'Anthropic and Google Gemini APIs'. DEVELOPER_GUIDE mentions only rate limiting without cost tracking. No mention of GCS storage costs which could be significant.",
+      "recommendation": "Expand cost tracking to include: Anthropic API, Gemini API, GCS storage, Sheets API (if applicable). Document in both guides."
+    }
+  ],
+  "ambiguities": [
+    {
+      "id": "AMB-001",
+      "document": "docs/02-modules/PROJECT_DATABASE.md",
+      "text": "Status workflow: draft -> processing -> pending_approval -> approved -> publishing -> published -> archived",
+      "question": "Can projects move backwards in status (e.g., from 'approved' back to 'draft' for revisions)? What triggers 'archived' status - manual action or time-based?",
+      "recommendation": "Document: Allowed status transitions (forward and backward), triggers for each transition, who can initiate each transition, archived criteria."
+    },
+    {
+      "id": "AMB-002",
+      "document": "docs/02-modules/QA_MODULE.md",
+      "text": "QA override functionality allows bypassing quality gates",
+      "question": "Who can perform overrides? What level of override is allowed (single field vs. entire checkpoint)? Are there override limits?",
+      "recommendation": "Specify: Override permission level (Admin only or Manager+), override scope options, maximum overrides per project, override review requirements."
+    },
+    {
+      "id": "AMB-003",
+      "document": "docs/EXTERNAL_SETUP_CHECKLIST.md",
+      "text": "Service account with appropriate permissions",
+      "question": "What are 'appropriate permissions'? What is the minimum permission set required? Should service account have owner or editor access?",
+      "recommendation": "List explicit IAM roles required: Storage Object Admin, Sheets Editor, Drive File Organizer. Specify principle of least privilege."
+    },
+    {
+      "id": "AMB-004",
+      "document": "docs/08-user-guides/MARKETING_MANAGER_GUIDE.md",
+      "text": "Review and approve content for publication",
+      "question": "What constitutes approval criteria? Is there a checklist? Can approval be conditional or partial?",
+      "recommendation": "Define: Approval checklist (brand compliance, accuracy, completeness), conditional approval workflow, rejection reasons (enumerated list)."
+    },
+    {
+      "id": "AMB-005",
+      "document": "docs/02-modules/MATERIAL_PREPARATION.md",
+      "text": "Watermark detection using Google Gemini 1.5 Pro",
+      "question": "What happens when watermark is detected? Auto-reject? Flag for review? Attempt removal? What constitutes a 'watermark' (logo, text, pattern)?",
+      "recommendation": "Specify: Watermark types detected (text overlay, logo, pattern), detection confidence threshold, action on detection (flag vs. reject), manual review trigger."
+    },
+    {
+      "id": "AMB-006",
+      "document": "docs/08-user-guides/DEVELOPER_GUIDE.md",
+      "text": "Rate limits: Anonymous 5/hr, User 50/hr, Admin unlimited",
+      "question": "How are rate limits enforced (sliding window, fixed window)? What response code on limit exceeded? Is there a burst allowance?",
+      "recommendation": "Document: Rate limit algorithm (sliding window recommended), 429 response with Retry-After header, burst allowance (if any), rate limit headers in all responses."
+    },
+    {
+      "id": "AMB-007",
+      "document": "docs/02-modules/CONTENT_GENERATION.md",
+      "text": "Brand context injection into prompts",
+      "question": "What constitutes 'brand context'? Where is it stored? How is it updated? Is it template-specific or global?",
+      "recommendation": "Define: Brand context components (tone, terminology, style rules), storage location, update procedure, template-specific overrides."
+    },
+    {
+      "id": "AMB-008",
+      "document": "docs/08-user-guides/PUBLISHER_GUIDE.md",
+      "text": "Template-specific checklists for Aggregators, OPR, MPP, ADOP, ADRE, Commercial",
+      "question": "Are checklists enforced programmatically or manual verification only? What happens if checklist items are missed?",
+      "recommendation": "Clarify: Checklist enforcement mechanism, blocking vs. warning for missed items, checklist completion tracking, post-publish verification."
+    },
+    {
+      "id": "AMB-009",
+      "document": "docs/02-modules/PROMPT_LIBRARY.md",
+      "text": "Version-controlled prompt management",
+      "question": "What triggers a new version (any edit or significant changes only)? Who can create versions? Is there a review/approval process for prompt changes?",
+      "recommendation": "Specify: Version trigger criteria, version naming convention, prompt change approval workflow, A/B testing capability."
+    },
+    {
+      "id": "AMB-010",
+      "document": "docs/08-user-guides/ADMIN_GUIDE.md",
+      "text": "Budget alerts and thresholds",
+      "question": "What are the default thresholds? Who receives alerts? What actions are available (warning only vs. auto-pause)?",
+      "recommendation": "Define: Default thresholds (70%, 90%, 100%), alert recipients (configurable), alert channels (email, in-app), auto-pause option at 100%."
+    },
+    {
+      "id": "AMB-011",
+      "document": "docs/EXECUTION_PROTOCOL.md",
+      "text": "Agent-based development workflow",
+      "question": "How do agents coordinate on shared resources? What is the conflict resolution mechanism? How are dependencies between agents managed?",
+      "recommendation": "Document: Agent coordination protocol, shared resource locking, dependency declaration format, conflict escalation path."
+    },
+    {
+      "id": "AMB-012",
+      "document": "docs/02-modules/QA_MODULE.md",
+      "text": "QA checkpoint thresholds: extraction 70%, content 85%, sheet 100%",
+      "question": "Why different thresholds for different stages? What happens at exactly threshold value (pass or fail)? Are thresholds configurable?",
+      "recommendation": "Clarify: Threshold rationale (extraction more tolerant, sheets exact match required), boundary behavior (>= threshold = pass), admin configurability."
+    }
+  ],
+  "summary": {
+    "overall_status": "WARN",
+    "completeness_score": 72,
+    "total_gaps": 14,
+    "total_inconsistencies": 6,
+    "total_ambiguities": 12,
+    "critical_issues": [
+      "GAP-001: No performance requirements - cannot validate system meets operational needs",
+      "GAP-002: Webhooks feature incomplete - external integration capability undefined",
+      "GAP-003: No disaster recovery specification - data loss risk unmitigated",
+      "INC-001: Role architecture confusion - may cause access control implementation errors"
+    ],
+    "recommendations": [
+      "IMMEDIATE: Resolve role architecture inconsistency (INC-001) before development - this affects core authorization logic",
+      "IMMEDIATE: Define performance requirements (GAP-001) - needed for infrastructure sizing and testing criteria",
+      "HIGH PRIORITY: Specify backup/DR procedures (GAP-003) - required for production readiness",
+      "HIGH PRIORITY: Clarify project status transitions (AMB-001) - affects workflow implementation",
+      "MEDIUM PRIORITY: Document all QA override rules (GAP-006, AMB-002) - needed for compliance",
+      "MEDIUM PRIORITY: Standardize AI model references (INC-002) - reduces confusion",
+      "BEFORE LAUNCH: Define API versioning strategy (GAP-011) - needed for long-term maintainability",
+      "BEFORE LAUNCH: Complete webhook specification (GAP-002) or remove from scope"
+    ],
+    "ready_for_development": false,
+    "blocking_items": [
+      "GAP-001: Performance requirements must be defined to size infrastructure and write meaningful tests",
+      "INC-001: Role/permission architecture must be clarified to implement authorization correctly",
+      "GAP-003: DR requirements must be specified for Neon PostgreSQL configuration"
+    ],
+    "development_can_proceed_if": [
+      "Role architecture clarified in ADMIN_GUIDE.md with explicit persona-to-permission mapping",
+      "Basic performance targets documented (can be refined during development)",
+      "DR requirements specified (backup frequency, retention, RTO/RPO targets)",
+      "Webhook feature explicitly marked as Phase 2 / out-of-scope for initial release"
+    ]
+  }
+}

@@ -1,0 +1,175 @@
+================================================================================
+DATABASE SCHEMA QA VALIDATION SUMMARY
+================================================================================
+
+Agent:        QA-DB-001
+Date:         2026-01-26
+Status:       FAILED
+Score:        82/100
+Developer:    DEV-DB-001
+
+================================================================================
+VERDICT: IMPLEMENTATION MUST BE FIXED BEFORE PROCEEDING
+================================================================================
+
+Pass Criteria:
+  - 0 Critical Issues (Actual: 4) ............ FAIL
+  - 0 High Issues (Actual: 3) ................ FAIL
+  - <=3 Medium Issues (Actual: 6) ............ FAIL
+  - >=85% Score (Actual: 82%) ................ FAIL
+
+================================================================================
+CRITICAL ISSUES (4) - MUST FIX IMMEDIATELY
+================================================================================
+
+1. Project.is_active field MISSING
+   File: backend/app/models/database.py (line 118)
+   Impact: Soft-delete functionality broken
+   Fix: Add is_active Boolean field to Project model
+
+2. project_floor_plans.parsed_data column MISSING in migration
+   File: backend/alembic/versions/001_initial_schema.py (line 189)
+   Impact: Model-migration mismatch, runtime errors
+   Fix: Add parsed_data JSONB column after builtup_sqft
+
+3. jobs.processing_config column MISSING in migration
+   File: backend/alembic/versions/001_initial_schema.py (line 76)
+   Impact: Model-migration mismatch, runtime errors
+   Fix: Add processing_config JSONB column after template_id
+
+4. project_images.category constraint INCOMPLETE
+   File: backend/alembic/versions/001_initial_schema.py (line 179)
+   Impact: Cannot store floor_plan or other category images
+   Fix: Add 'floor_plan' and 'other' to CHECK constraint
+
+================================================================================
+HIGH PRIORITY ISSUES (3)
+================================================================================
+
+5. job_steps.step_data column MISSING in migration
+   File: backend/alembic/versions/001_initial_schema.py (line 248)
+
+6. qa_comparisons.checkpoint_type constraint incomplete
+   File: backend/alembic/versions/001_initial_schema.py (line 328)
+   Missing: 'content', 'image', 'final'
+
+7. Checkpoint type values inconsistent between tables
+   qa_comparisons vs qa_checkpoints have different order
+
+================================================================================
+MEDIUM PRIORITY ISSUES (6)
+================================================================================
+
+8. projects.updated_at MISSING in migration
+9. Multiple tables missing updated_at (audit trail incomplete)
+10. templates.field_mappings missing GIN index
+11-13. Various updated_at fields missing
+
+================================================================================
+POSITIVE FINDINGS
+================================================================================
+
++ All 22 tables present (16 core + 3 QA + 3 content)
++ Comprehensive type hints with Mapped[]
++ JSONB with GIN indexes properly used
++ Full-text search correctly implemented
++ All FK columns indexed
++ Email domain constraint enforced
++ Cascade deletes properly configured
++ Docstrings and __repr__ on all models
++ Migration dependency order correct
+
+================================================================================
+DETAILED COVERAGE
+================================================================================
+
+Schema Completeness:     100% PASS
+Relationships:            85% FAIL (missing is_active)
+Indexes:                  75% FAIL (missing 1 GIN index)
+Constraints:              80% FAIL (image categories, QA types)
+JSONB Fields:             95% PASS
+Audit & Soft Delete:      70% FAIL (many updated_at missing)
+Naming Conventions:      100% PASS
+Migration Quality:        75% FAIL (missing columns)
+Code Quality:             90% PASS
+
+================================================================================
+REQUIRED ACTIONS FOR DEV-DB-001
+================================================================================
+
+STEP 1: Fix Critical Issues (4 items)
+  [ ] Add is_active to Project model and migration
+  [ ] Add parsed_data to project_floor_plans migration
+  [ ] Add processing_config to jobs migration
+  [ ] Fix image category CHECK constraint
+
+STEP 2: Fix High Priority Issues (3 items)
+  [ ] Add step_data to job_steps migration
+  [ ] Fix qa_comparisons checkpoint_type constraint
+  [ ] Standardize checkpoint_type values across tables
+
+STEP 3: Fix Medium Priority Issues (6 items)
+  [ ] Add updated_at to projects migration
+  [ ] Add updated_at to remaining tables
+  [ ] Add GIN index to templates.field_mappings
+
+STEP 4: Validation
+  [ ] Run: alembic revision --autogenerate
+  [ ] Test: alembic upgrade head (on clean DB)
+  [ ] Re-run: QA-DB-001 validation
+  [ ] Achieve: Score >=85%, 0 critical, 0 high
+
+STEP 5: Proceed
+  [ ] Once passed, proceed to DEV-API-001
+
+================================================================================
+FILES TO MODIFY
+================================================================================
+
+1. backend/app/models/database.py
+   - Add is_active to Project model (line ~118)
+
+2. backend/alembic/versions/001_initial_schema.py
+   - Add is_active to projects table (line ~106)
+   - Add updated_at to projects table (line ~136)
+   - Add parsed_data to project_floor_plans (line ~189)
+   - Add processing_config to jobs (line ~76)
+   - Add step_data to job_steps (line ~248)
+   - Fix image category constraint (line ~179)
+   - Fix qa_comparisons checkpoint_type (line ~328)
+   - Standardize qa_checkpoints checkpoint_type (line ~431)
+
+================================================================================
+QUICK FIX REFERENCE
+================================================================================
+
+Add to Project model (database.py):
+    is_active: Mapped[bool] = mapped_column(
+        Boolean, nullable=False, default=True, server_default=text("true")
+    )
+
+Add to projects migration:
+    sa.Column('is_active', sa.Boolean(), server_default=sa.text('true'), nullable=False),
+    sa.Column('updated_at', sa.DateTime(timezone=True), server_default=sa.text('now()'), nullable=False),
+
+Add to project_floor_plans migration:
+    sa.Column('parsed_data', postgresql.JSONB(astext_type=sa.Text()), nullable=True),
+
+Add to jobs migration:
+    sa.Column('processing_config', postgresql.JSONB(astext_type=sa.Text()), nullable=True),
+
+Add to job_steps migration:
+    sa.Column('step_data', postgresql.JSONB(astext_type=sa.Text()), nullable=True),
+
+Fix image category constraint:
+    sa.CheckConstraint("category IN ('interior', 'exterior', 'amenity', 'logo', 'floor_plan', 'other')", name='check_image_category'),
+
+Fix qa_comparisons checkpoint_type:
+    sa.CheckConstraint("checkpoint_type IN ('extraction', 'generation', 'publication', 'content', 'image', 'final')", name='check_qa_checkpoint_type'),
+
+================================================================================
+END OF SUMMARY
+================================================================================
+
+Full report: docs/_agent-outputs/QA-DB-001-validation-report.md
+JSON report: docs/_agent-outputs/QA-DB-001-validation-report.json

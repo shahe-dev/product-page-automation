@@ -1,0 +1,38 @@
+{
+  "mpp": {
+    "sheet_id": "1YLfVIY6YVFFDGdMNsJ7lB_OGDFnHpBEvpp0Q4kKXJYY",
+    "url": "https://docs.google.com/spreadsheets/d/1YLfVIY6YVFFDGdMNsJ7lB_OGDFnHpBEvpp0Q4kKXJYY/edit?usp=drivesdk",
+    "name": "mpp-template-STANDARDIZED",
+    "rows": 140
+  },
+  "aggregators": {
+    "sheet_id": "1Od1pqJUC7f6kZic_qf7SVA2PGtUB4r_DQhDtR7zmZgU",
+    "url": "https://docs.google.com/spreadsheets/d/1Od1pqJUC7f6kZic_qf7SVA2PGtUB4r_DQhDtR7zmZgU/edit?usp=drivesdk",
+    "name": "aggregators-template-STANDARDIZED",
+    "rows": 105
+  },
+  "adop": {
+    "sheet_id": "1sopQ7jgIvlU2Y96bqTR8TsyHJDMJ6zCdYS2N1gy2bQE",
+    "url": "https://docs.google.com/spreadsheets/d/1sopQ7jgIvlU2Y96bqTR8TsyHJDMJ6zCdYS2N1gy2bQE/edit?usp=drivesdk",
+    "name": "adop-template-STANDARDIZED",
+    "rows": 80
+  },
+  "commercial": {
+    "sheet_id": "1jR-ovWaEULfhPVapUm8L-EoN7cOHLTRBLDtgaSx0bcM",
+    "url": "https://docs.google.com/spreadsheets/d/1jR-ovWaEULfhPVapUm8L-EoN7cOHLTRBLDtgaSx0bcM/edit?usp=drivesdk",
+    "name": "commercial-template-STANDARDIZED",
+    "rows": 91
+  },
+  "adre": {
+    "sheet_id": "1_nxSm1kNWfaLdqII17pzT99NoLrTW6-Jl6JTOn3BbWE",
+    "url": "https://docs.google.com/spreadsheets/d/1_nxSm1kNWfaLdqII17pzT99NoLrTW6-Jl6JTOn3BbWE/edit?usp=drivesdk",
+    "name": "adre-template-STANDARDIZED",
+    "rows": 82
+  },
+  "opr": {
+    "sheet_id": "1E9_pZPy1Gxqmi8hquSRBUMqKD2oT80yhDRubJBBpzyE",
+    "url": "https://docs.google.com/spreadsheets/d/1E9_pZPy1Gxqmi8hquSRBUMqKD2oT80yhDRubJBBpzyE/edit?usp=drivesdk",
+    "name": "opr-template-STANDARDIZED",
+    "rows": 100
+  }
+}

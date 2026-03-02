@@ -1,0 +1,53 @@
+# Environment and secrets
+.env
+.env.*
+.credentials/
+neondb/
+*.key
+*.pem
+
+# IDE
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Node (if applicable)
+node_modules/
+
+# Python (if applicable)
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Build artifacts
+dist/
+build/
+.coverage
+htmlcov/
+
+# Logs
+*.log
+
+# Artifacts
+nul
+tmp_*.json
+CLAUDE.md
+my-notes.md
+plan.md
+lifecycle.json
+.claude/
+reference/company/
+backend/scripts/_dump_raw_*.py
+backend/scripts/_raw_*
+backend/scripts/_preview_*
+backend/scripts/pipeline_result_*.json
+ralph-wiggum-windows/
+prompt-organizaton/06-mpp/*.pdf
+prompt-organizaton/06-mpp/*.svg
+prompt-organizaton/06-mpp/*.jpg
+prompt-organizaton/06-mpp/*.png
+floor-plan-tool/sample brochures 2/*.pdf

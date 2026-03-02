@@ -1,0 +1,154 @@
+======================================================================
+  GROUND TRUTH REVIEW: golf_terrace
+======================================================================
+  File: Golf Terrace Residences_Sales Deck.pdf
+  Size: 108.4 MB, 31 pages
+  Format: RL (text quality: moderate)
+  Notes: 31 pages, 108 MB. Sales deck with rendered room images. Area/price table on page 28. No room dimensions in text.
+======================================================================
+
+INSTRUCTIONS:
+  1. Open the PDF in a viewer
+  2. For each floor plan page, verify/fill in the data below
+  3. Copy the JSON template at the bottom into the ground truth file
+
+FLOOR PLAN PAGES DETECTED: 15
+----------------------------------------------------------------------
+
+  Page 4: rooms: ['terrace']
+    text: About Golf Terrace | Residences | Golf Terrace Residences is strategically located in Dubai  | Production City, this thoughtfully designed residential  | development rises G+2P+7+R, offering a refined balance  | between urban connectivity and open green surroundings. | Positioned within a well-established maste
+
+  Page 5: rooms: ['living']
+    text: MALL OF | EMIRATES | PALM JUMEIRAH | BURJ AL ARAB | ARABIAN | RANCHES | DUBAI | MIRACLE | GARDEN | KINGS COLLEGE | HOSPITAL | DUBAI HILLS | GOLF CLUB | MEYDAN | JEBEL ALI | RACECOURSE | DUBAI | SCIENCE | PARK | GLOBAL | VILLAGE | ARABIAN | RANCHES 3 | AL HABTOOR | POLO RESORT | IMG WORLDS | OF ADVENTURE | AL BARARI | MEYDAN | SOUTH VILLAS | NAD AL SHEBA | DUBA
+
+  Page 12: sqft (5 values), bedrooms: ['', '1', '2'], unit_types: ['Studio']
+    sqft_values: [1716.8437, 742.71, 263.7158, 952.6061, 592.015]
+    text: 1st Floor | 8 Units | 5 Units  | 2 Unit | Studio | 1 BR | 2 BR | Amenities | 1. Running Track                                                                                    1716.8437 sqft. | 2. Seating Area                                                                                            742.71 sqft. | 3. 
+
+  Page 17: bedrooms: ['', '1', '2'], unit_types: ['Studio']
+    text: 2nd Floor | 8 Units | 6 Units  | 1 Unit | Studio | 1 BR | 2 BR | COMMUNITY & MARINA SKYLINE VIEW | GOLF VIEW  | COMMUNITY  | & PARK VIEW | PARTIAL | GOLF & AMENITIES  | VIEW | All images used are for illustrative purposes only and do not represent the actual size, features, specifications, fittings and furnishings. The develop
+
+  Page 18: bedrooms: ['', '1', '2'], unit_types: ['Studio']
+    text: 3rd to 7th Floor | 8 Units | 6 Units  | 1 Unit | Studio | 1 BR | 2 BR | COMMUNITY & MARINA SKYLINE VIEW | GOLF VIEW  | COMMUNITY  | & PARK VIEW | PARTIAL | GOLF & AMENITIES  | VIEW | All images used are for illustrative purposes only and do not represent the actual size, features, specifications, fittings and furnishings. The 
+
+  Page 19: bedrooms: ['']
+    text: Studio | All images used are for illustrative purposes only and do not represent the actual size, features, specifications, fittings and furnishings. The developer reserves the right to make revisions / alterations, at its absolute discretion, without any liability whatsoever.
+
+  Page 20: bedrooms: [''], rooms: ['kitchen']
+    text: Studio - Kitchen | All images used are for illustrative purposes only and do not represent the actual size, features, specifications, fittings and furnishings. The developer reserves the right to make revisions / alterations, at its absolute discretion, without any liability whatsoever.
+
+  Page 21: bedrooms: [''], rooms: ['bathroom']
+    text: Studio - Bathroom | All images used are for illustrative purposes only and do not represent the actual size, features, specifications, fittings and furnishings. The developer reserves the right to make revisions / alterations, at its absolute discretion, without any liability whatsoever.
+
+  Page 22: bedrooms: ['1'], rooms: ['living']
+    text: 1BR - Living Room | All images used are for illustrative purposes only and do not represent the actual size, features, specifications, fittings and furnishings. The developer reserves the right to make revisions / alterations, at its absolute discretion, without any liability whatsoever.
+
+  Page 23: bedrooms: ['1', '1'], rooms: ['kitchen']
+    text: 1BR - Kitchen | 1BR - Kitchen | All images used are for illustrative purposes only and do not represent the actual size, features, specifications, fittings and furnishings. The developer reserves the right to make revisions / alterations, at its absolute discretion, without any liability whatsoever.
+
+  Page 24: bedrooms: ['1']
+    text: 1BR- Bedroom | All images used are for illustrative purposes only and do not represent the actual size, features, specifications, fittings and furnishings. The developer reserves the right to make revisions / alterations, at its absolute discretion, without any liability whatsoever.
+
+  Page 25: sqft (9 values)
+    sqft_values: [1189.4121, 64.5835, 355.209, 2561.81, 182.986, 387.501, 1786.81, 136.7017, 914.932]
+    text: Roof  | Indoor  | 1. Gym (M/F) | 2. Spa (Sauna, Steam) (M/F) | Outdoor | 3. Yoga Area (M/F) | 4. Seating Area | 5. BBQ Area | 6. Kids Play Area | 7. Swimming Pool | 8. Kid's Pool | 9. Outdoor Cinema | 1 | 1 | 3 | 3 | 6 | 2 | 2 | 8 | 4 | 4 | 9 | 7 | 4 | 4 | 5 | 4 | 4 | 489.7579 / 1189.4121 sqft. | 64.5835 / 64.5835 sqft. | 215.278 / 355.209   sqft. | 2561.81 sqft
+
+  Page 27: sqft (1 values), unit_types: ['1'], rooms: ['bathroom', 'living', 'terrace']
+    sqft_values: [25310.15]
+    text: Project  | Details  | Project Name                                                                      Golf Terrace Residences | Developer 	 	 | 	 | 	 | 	 | 	 | 	 | 	 | 	 |              ASAK Real Estate Development L.L.C    | Plot number	 | 	 | 	 | 	 | 	 | 	 | 	 | 	 |              6850754 | Plot Area                                        
+
+  Page 28: sqft (5 values), bedrooms: ['', '1', '1', '1', '2'], unit_types: ['Size', 'Studio']
+    sqft_values: [476.0, 640.0, 870.0, 1160.0, 1710.0]
+    text: Indicative | Unit Size & Price  | Type | Studio | 1 BR Small | 1 BR  | 1 BR Large | 2 BR | Indicative  Size | 476 sq ft. | 640 sq ft. | 870 sq ft. | 1,160 sq ft. | 1,710 sq ft. | Indicative Price | AED  688,000 | AED  1,000,000 | AED  1,120,000 | AED  1,380,000 | AED  1,780,000
+
+  Page 30: unit_types: ['allocation', 'booking'], rooms: ['terrace']
+    text: EOI Process | To participate in the Expression of Interest campaign and secure your preferred unit, we kindly request that you comply  | with the following requirements: | 1. Client’s Document Required: Client’s Passport Copy and Emirates ID Copy (for UAE Residents). | 2. Signed EOI form (attached), with co
+
+----------------------------------------------------------------------
+SUMMARY
+----------------------------------------------------------------------
+  All sqft values found: [64.5835, 136.7017, 182.986, 263.7158, 355.209, 387.501, 476.0, 592.015, 640.0, 742.71, 870.0, 914.932, 952.6061, 1160.0, 1189.4121, 1710.0, 1716.8437, 1786.81, 2561.81, 25310.15]
+  Unit types found: ['1', 'ALLOCATION', 'BOOKING', 'SIZE', 'STUDIO']
+  Bedroom counts found: ['1', '2']
+
+----------------------------------------------------------------------
+JSON TEMPLATE (copy into ground truth file)
+----------------------------------------------------------------------
+{
+  "brochure": "Golf Terrace Residences_Sales Deck.pdf",
+  "last_verified": "2026-02-XX",
+  "notes": "FILL IN: describe what you found",
+  "table_specs": [],
+  "table_spec_count": 0,
+  "text_assertions": {
+    "pages_with_floor_plan_text": [
+      4,
+      5,
+      12,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      27,
+      28,
+      30
+    ],
+    "expected_unit_types_in_text": [
+      "1",
+      "ALLOCATION",
+      "BOOKING",
+      "SIZE",
+      "STUDIO"
+    ],
+    "expected_area_labels_present": true
+  },
+  "floor_plans": [
+    {
+      "unit_type": "Studio",
+      "bedrooms": null,
+      "bathrooms": null,
+      "total_sqft": 1716.8437,
+      "suite_sqft": null,
+      "balcony_sqft": null
+    },
+    {
+      "unit_type": null,
+      "bedrooms": null,
+      "bathrooms": null,
+      "total_sqft": 2561.81,
+      "suite_sqft": null,
+      "balcony_sqft": null
+    },
+    {
+      "unit_type": null,
+      "bedrooms": null,
+      "bathrooms": null,
+      "total_sqft": 25310.15,
+      "suite_sqft": null,
+      "balcony_sqft": null
+    },
+    {
+      "unit_type": "Size",
+      "bedrooms": null,
+      "bathrooms": null,
+      "total_sqft": 1710.0,
+      "suite_sqft": null,
+      "balcony_sqft": null
+    }
+  ],
+  "total_unique_plans": 4,
+  "total_unique_plans_tolerance": 2,
+  "tolerances": {
+    "sqft_pct": 5.0,
+    "balcony_sqft_pct": 10.0,
+    "bedrooms_exact": true,
+    "bathrooms_exact": true
+  }
+}
+
+NOTE: The floor_plans above are INFERRED from text only. You MUST verify against the actual PDF. Plans with no text data (RD type) will be empty -- fill in manually.

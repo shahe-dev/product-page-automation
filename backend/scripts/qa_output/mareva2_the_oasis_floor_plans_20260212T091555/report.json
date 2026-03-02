@@ -1,0 +1,77 @@
+{
+  "brochure": "MAREVA2_THE_OASIS_FLOOR_PLANS",
+  "timestamp": "20260212T091555",
+  "size_mb": 7.3,
+  "page_count": 11,
+  "table_extraction": {
+    "floor_plan_spec_count": 0,
+    "specs": [],
+    "errors": []
+  },
+  "text_extraction": [
+    {
+      "page": 1,
+      "unit_type": "4 BEDROOM W"
+    },
+    {
+      "page": 2,
+      "unit_type": "4 BEDROOM W",
+      "total_sqft": 188.8,
+      "total_sqft_confidence": 0.6
+    },
+    {
+      "page": 3,
+      "unit_type": "4 BEDROOM W",
+      "total_sqft": 187.0,
+      "total_sqft_confidence": 0.6
+    },
+    {
+      "page": 4,
+      "unit_type": "4 BEDROOM W",
+      "total_sqft": 199.86,
+      "total_sqft_confidence": 0.6
+    },
+    {
+      "page": 5,
+      "unit_type": "4 BEDROOM W",
+      "total_sqft": 63.68,
+      "total_sqft_confidence": 0.6
+    },
+    {
+      "page": 6,
+      "unit_type": "5 BEDROOM\nG",
+      "total_sqft": 63.65,
+      "total_sqft_confidence": 0.6
+    },
+    {
+      "page": 7,
+      "unit_type": "5 BEDROOM\nG",
+      "total_sqft": 66.25,
+      "total_sqft_confidence": 0.6
+    },
+    {
+      "page": 8,
+      "unit_type": "5 BEDROOM W",
+      "total_sqft": 57.89,
+      "total_sqft_confidence": 0.6
+    },
+    {
+      "page": 9,
+      "unit_type": "5 BEDROOM W",
+      "total_sqft": 57.9,
+      "total_sqft_confidence": 0.6
+    },
+    {
+      "page": 10,
+      "unit_type": "5 BEDROOM W",
+      "total_sqft": 65.58,
+      "total_sqft_confidence": 0.6
+    },
+    {
+      "page": 11,
+      "unit_type": "6 BEDROOM W",
+      "total_sqft": 57.94,
+      "total_sqft_confidence": 0.6
+    }
+  ]
+}

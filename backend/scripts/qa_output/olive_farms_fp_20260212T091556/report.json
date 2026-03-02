@@ -1,0 +1,33 @@
+{
+  "brochure": "Olive Farms FP",
+  "timestamp": "20260212T091556",
+  "size_mb": 0.1,
+  "page_count": 3,
+  "table_extraction": {
+    "floor_plan_spec_count": 0,
+    "specs": [],
+    "errors": []
+  },
+  "text_extraction": [
+    {
+      "page": 1,
+      "unit_type": "1 BEDROOM\nF",
+      "total_sqft": 2798.64,
+      "total_sqft_confidence": 0.6,
+      "bathrooms": 0.0,
+      "bathrooms_confidence": 0.6
+    },
+    {
+      "page": 2,
+      "unit_type": "1 BEDROOM\nF",
+      "total_sqft": 2960.1,
+      "total_sqft_confidence": 0.6
+    },
+    {
+      "page": 3,
+      "unit_type": "50\nBEDROOM",
+      "total_sqft": 3767.3999999999996,
+      "total_sqft_confidence": 0.6
+    }
+  ]
+}

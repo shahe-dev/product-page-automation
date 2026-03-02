@@ -1,0 +1,92 @@
+======================================================================
+  GROUND TRUTH REVIEW: bashayer
+======================================================================
+  File: Bashayer Floor Plans.pdf
+  Size: 4.6 MB, 50 pages
+  Format: RD (text quality: none)
+  Notes: 50 pages. ZERO extractable text. Pure image-based floor plans. Vision-only extraction required.
+======================================================================
+
+INSTRUCTIONS:
+  1. Open the PDF in a viewer
+  2. For each floor plan page, verify/fill in the data below
+  3. Copy the JSON template at the bottom into the ground truth file
+
+FLOOR PLAN PAGES DETECTED: 4
+----------------------------------------------------------------------
+
+  Page 45: dimensions (12 found), unit_types: ['of'], rooms: ['bathroom', 'dining', 'entrance', 'family', 'guest', 'kitchen', 'laundry', 'living', 'powder']
+    sample_dimensions: ['1.9 x 5.6', '4.4 x 3.6', '3.0 x 1.6', '4.7 x 2.8', '2.8 x 2.2']
+    text: Disclaimer: These floor plans are produced for illustrative purposes only, to represent the typical layout of the villa and outdoor living areas.  | Modon makes no representation or warranty regarding the accuracy or completeness of the information shown. The floor plans are indicative  | only and based
+
+  Page 46: dimensions (12 found), area_labels, bedrooms: ['2', '3'], unit_types: ['of'], rooms: ['balcony', 'bathroom', 'family', 'living', 'master bedroom', 'powder']
+    sample_dimensions: ['2.3 x 2.9', '6.4 x 3.8', '4.1 x 2.9', '4.5 x 4.4', '3.2 x 3.0']
+    area_labels: [{'label': 'Balcony', 'value': 2.3}]
+    text: F I R S T  F L O O R | INTERIOR | EXTERIOR | Foyer | Family Living | Feature Staircase | Master Bedroom | Master Wardrobe | Master Bathroom | Bedroom 2 | Bedroom 2 Bathroom | Bedroom 3 | Bedroom 3 Bathroom | Powder Room | Storage | Balcony | 2.3m x 2.9m  | 6.4m x 3.8m  | 4.1m x 2.9m  | 4.5m x 4.4m | 3.2m x 3.0m  | 3.2m x 3.2m  | 5.7m x 4.2m  | 
+
+  Page 48: dimensions (17 found), unit_types: ['of'], rooms: ['bathroom', 'dining', 'entrance', 'family', 'guest', 'kitchen', 'laundry', 'living', 'powder']
+    sample_dimensions: ['1.8 x 4', '4.1 x 4.0', '2.2 x 2.8', '4.0 x 3.7', '3.2 x 2.9']
+    text: G R O U N D  F L O O R | BASHAYER | SHORE VILLAS | INTERIOR | EXTERIOR | Main Entrance | Foyer | Guest Bedroom | Guest Bathroom | Feature Starcase | Staff Bedroom | Staff Bathroom | Staff Wardrobe | Powder Room 1 | Laundry | Service Kitchen | Pantry | Powder Room 2 | Show Kitchen | Family Dining | Formal Living | Family Living | Driver’s Room
+
+  Page 49: dimensions (15 found), area_labels, bedrooms: ['2', '3', '4'], unit_types: ['of'], rooms: ['balcony', 'bathroom', 'family', 'living', 'master bedroom', 'powder']
+    sample_dimensions: ['5.3 x 7.8', '4.1 x 3.9', '5.9 x 4.9', '5.9 x 2.5', '4.6 x 3.4']
+    area_labels: [{'label': 'Balcony', 'value': 5.3}]
+    text: F I R S T  F L O O R | INTERIOR | EXTERIOR | Foyer | Feature Staircase | Master Bedroom | Master Wardrobe | Master Bathroom | Bedroom 2 | Bedroom 2 Bathroom | Bedroom 3 | Bedroom 3 Bathroom | Bedroom 3 Wardrobe | Bedroom 4 | Bedroom 4 Bathroom | Bedroom 4 Wardrobe | Family Living | Powder Room | Balcony | 5.3m x 7.8m  | 4.1m x 3.9m  | 5.9m 
+
+----------------------------------------------------------------------
+SUMMARY
+----------------------------------------------------------------------
+  All sqft values found: []
+  Unit types found: ['OF']
+  Bedroom counts found: ['2', '3', '4']
+
+----------------------------------------------------------------------
+JSON TEMPLATE (copy into ground truth file)
+----------------------------------------------------------------------
+{
+  "brochure": "Bashayer Floor Plans.pdf",
+  "last_verified": "2026-02-XX",
+  "notes": "FILL IN: describe what you found",
+  "table_specs": [],
+  "table_spec_count": 0,
+  "text_assertions": {
+    "pages_with_floor_plan_text": [
+      45,
+      46,
+      48,
+      49
+    ],
+    "expected_unit_types_in_text": [
+      "OF"
+    ],
+    "expected_area_labels_present": false
+  },
+  "floor_plans": [
+    {
+      "unit_type": null,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "total_sqft": null,
+      "suite_sqft": null,
+      "balcony_sqft": 2.3
+    },
+    {
+      "unit_type": null,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "total_sqft": null,
+      "suite_sqft": null,
+      "balcony_sqft": 5.3
+    }
+  ],
+  "total_unique_plans": 2,
+  "total_unique_plans_tolerance": 2,
+  "tolerances": {
+    "sqft_pct": 5.0,
+    "balcony_sqft_pct": 10.0,
+    "bedrooms_exact": true,
+    "bathrooms_exact": true
+  }
+}
+
+NOTE: The floor_plans above are INFERRED from text only. You MUST verify against the actual PDF. Plans with no text data (RD type) will be empty -- fill in manually.

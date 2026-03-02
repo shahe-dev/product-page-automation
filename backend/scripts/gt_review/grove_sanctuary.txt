@@ -1,0 +1,282 @@
+======================================================================
+  GROUND TRUTH REVIEW: grove_sanctuary
+======================================================================
+  File: THE GROVE AT SOBHA SANCTUARY BROCHURE & FLOORS.pdf
+  Size: 25.7 MB, 41 pages
+  Format: RL (text quality: moderate)
+  Notes: 41 pages. Area tables present. Sobha Sanctuary is a villa community -- likely multi-floor.
+======================================================================
+
+INSTRUCTIONS:
+  1. Open the PDF in a viewer
+  2. For each floor plan page, verify/fill in the data below
+  3. Copy the JSON template at the bottom into the ground truth file
+
+FLOOR PLAN PAGES DETECTED: 17
+----------------------------------------------------------------------
+
+  Page 6: rooms: ['family']
+    text: Fa m i l y | Family life is enriched by a vibrant social  | club and a thoughtfully curated mix of  | children’s play spaces, family zones, and  | youth-friendly areas. Daily routines feel  | effortless with walkable retail close at hand,  | while farmers’ market experiences bring   | a sense of freshness and vit
+
+  Page 8: sqft (1 values)
+    sqft_values: [800000.0]
+    text: N at u re  i m m e r s i o n , | re s to rat i o n , a n d | b a l a n ce. | Nature leads the experience across Sobha  | Sanctuary, with ~50% open and green  | spaces flowing through every zone,  | anchored by a ~800,000 sq. ft. park. | Sobha Sanctuary’s green corridors flow  | through forest walks and shaded trail
+
+  Page 18: rooms: ['living']
+    text: The location of The Grove cluster is embedded within  | Sobha Sanctuary’s blue-green network, where landscaped  | and linear parks shape daily movement and create a calm,  | flowing environment across the community. | Homes are linked directly to cycling paths and pedestrian  | routes, a short walk from neigh
+
+  Page 25: bedrooms: ['']
+    text: Central district | Wellness center & spa facilities | Beach lagoon & lazy river | Forest adventure playground | Sports courts & outdoor fitness zones | Community mall. | C o m m u n i t y | A m e n i t i e s | Indoors, calm takes a different form. Wellness  | lounges, meditation rooms, and fitness studios  | provide sp
+
+  Page 28: unit_types: ['PLANS']
+    text: FLOOR AND UNIT PLANS
+
+  Page 29: dimensions (24 found), sqft (6 values), sqm (6 values), area_labels, bedrooms: ['4', '0', '0'], unit_types: ['A', 'orientations'], rooms: ['balcony', 'bathroom', 'dining', 'family', 'guest', 'kitchen', 'laundry', 'living', 'maid', 'master bedroom', 'powder', 'store', 'study']
+    sample_dimensions: ['5950 x 6050', '2050 x 1900', '3900 x 4550', '2600 x 5950', '4650 x 4500']
+    sqft_values: [4905.33, 4905.33, 4955.12, 4955.12, 5789.62, 5789.62]
+    sqm_values: [455.72, 455.72, 460.35, 460.35, 537.87, 537.87]
+    area_labels: [{'label': 'BALCONY', 'value': 850.0}, {'label': 'BALCONY', 'value': 850.0}, {'label': 'BALCONY', 'value': 2850.0}]
+    text: ESTATE VILLAS | V4 Bedroom - Type A | Saleable Area | Saleable Area | 4,905.33 sq.ft | 4,905.33 sq.ft | 455.72 sq.m | 455.72 sq.m | Plot Area | Plot Area | Min | Min | 460.35 sq.m | 460.35 sq.m | 4,955.12 sq.ft | 4,955.12 sq.ft | 537.87 sq.m | 537.87 sq.m | 5,789.62 sq.ft | 5,789.62 sq.ft | Max | Max | GROUND FLOOR | GROUND FLOOR | FIRST FLOOR | FI
+
+  Page 30: dimensions (24 found), sqft (6 values), sqm (6 values), area_labels, bedrooms: ['4', '0', '0'], unit_types: ['AM', 'orientations'], rooms: ['balcony', 'bathroom', 'dining', 'family', 'guest', 'kitchen', 'laundry', 'living', 'maid', 'master bedroom', 'powder', 'store', 'study']
+    sample_dimensions: ['5950 x 6050', '2050 x 1900', '3900 x 4550', '2600 x 5950', '4650 x 4500']
+    sqft_values: [4905.33, 4905.33, 4955.26, 4955.26, 5619.6, 5619.6]
+    sqm_values: [455.72, 455.72, 460.36, 460.36, 522.08, 522.08]
+    area_labels: [{'label': 'BALCONY', 'value': 850.0}, {'label': 'BALCONY', 'value': 850.0}, {'label': 'BALCONY', 'value': 2850.0}]
+    text: ESTATE VILLAS | V4 Bedroom - Type AM | Saleable Area | Saleable Area | 4,905.33 sq.ft | 4,905.33 sq.ft | 455.72 sq.m | 455.72 sq.m | Plot Area | Plot Area | Min | Min | 460.36 sq.m | 460.36 sq.m | 4,955.26 sq.ft | 4,955.26 sq.ft | 522.08 sq.m | 522.08 sq.m | 5,619.60 sq.ft | 5,619.60 sq.ft | Max | Max | GROUND FLOOR | GROUND FLOOR | FIRST FLOOR | F
+
+  Page 31: dimensions (27 found), sqft (6 values), sqm (6 values), area_labels, bedrooms: ['4', '0', '0'], unit_types: ['B', 'orientations'], rooms: ['balcony', 'bathroom', 'dining', 'family', 'guest', 'kitchen', 'laundry', 'living', 'maid', 'master bedroom', 'powder', 'store']
+    sample_dimensions: ['6000 x 6050', '2450 x 1600', '2750 x 2150', '3200 x 3550', '4000 x 5100']
+    sqft_values: [4985.09, 4985.09, 4955.12, 4955.12, 6158.54, 6158.54]
+    sqm_values: [463.13, 463.13, 460.35, 460.35, 572.15, 572.15]
+    area_labels: [{'label': 'BALCONY', 'value': 1600.0}, {'label': 'BALCONY', 'value': 1250.0}, {'label': 'BALCONY', 'value': 1850.0}]
+    text: ESTATE VILLAS | V4 Bedroom - Type B | Saleable Area | Saleable Area | 4,985.09 sq.ft | 4,985.09 sq.ft | 463.13 sq.m | 463.13 sq.m | Plot Area | Plot Area | Min | Min | 460.35 sq.m | 460.35 sq.m | 4,955.12 sq.ft | 4,955.12 sq.ft | 572.15 sq.m | 572.15 sq.m |  6,158.54 sq.ft |  6,158.54 sq.ft | Max | Max | GROUND FLOOR | GROUND FLOOR | FIRST FLOOR | 
+
+  Page 32: dimensions (27 found), sqft (6 values), sqm (6 values), area_labels, bedrooms: ['4', '0', '0'], unit_types: ['BM', 'orientations'], rooms: ['balcony', 'bathroom', 'dining', 'family', 'guest', 'kitchen', 'laundry', 'living', 'maid', 'master bedroom', 'powder', 'store']
+    sample_dimensions: ['6000 x 6050', '2450 x 1600', '2750 x 2150', '3200 x 3550', '4000 x 5100']
+    sqft_values: [4985.09, 4985.09, 4995.26, 4995.26, 5619.6, 5619.6]
+    sqm_values: [463.13, 463.13, 460.36, 460.36, 522.08, 522.08]
+    area_labels: [{'label': 'BALCONY', 'value': 1600.0}, {'label': 'BALCONY', 'value': 1250.0}, {'label': 'BALCONY', 'value': 1850.0}]
+    text: ESTATE VILLAS | V4 Bedroom - Type BM | Saleable Area | Saleable Area | 4,985.09 sq.ft | 4,985.09 sq.ft | 463.13 sq.m | 463.13 sq.m | Plot Area | Plot Area | Min | Min | 460.36 sq.m | 460.36 sq.m | 4,995.26 sq.ft | 4,995.26 sq.ft | 522.08 sq.m | 522.08 sq.m | 5,619.60 sq.ft | 5,619.60 sq.ft | Max | Max | GROUND FLOOR | GROUND FLOOR | FIRST FLOOR | F
+
+  Page 33: dimensions (22 found), sqft (6 values), sqm (6 values), area_labels, bedrooms: ['4', '0', '0'], unit_types: ['C', 'orientations'], rooms: ['balcony', 'bathroom', 'dining', 'family', 'guest', 'kitchen', 'laundry', 'living', 'maid', 'master bedroom', 'powder', 'store', 'terrace']
+    sample_dimensions: ['6050 x 6000', '1750 x 950', '2250 x 2650', '3500 x 4550', '4850 x 4550']
+    sqft_values: [4953.55, 4953.55, 4955.12, 4955.12, 6092.43, 6092.43]
+    sqm_values: [460.2, 460.2, 460.35, 460.35, 566.01, 566.01]
+    area_labels: [{'label': 'BALCONY', 'value': 2350.0}, {'label': 'TERRACE', 'value': 4450.0}]
+    text: ESTATE VILLAS | V4 Bedroom - Type C | T4C | GROUND FLOOR | GROUND FLOOR | FIRST FLOOR | FIRST FLOOR | GARAGE | 6050X6000 | LAUNDRY | 1750X950 | MAID’S ROOM | 2250X2650 | KITCHEN | 3500X4550 | DINING | 4850X4550 | FORMAL | LIVING ROOM | 5700X4550 | FOYER | 4100X2100 | GUEST ROOM | 4200X3550 | STORE | 1150X3800 | BATHROOM | 2300X1400 | BATHROOM | 1750X3100 | P
+
+  Page 34: dimensions (22 found), sqft (6 values), sqm (6 values), area_labels, bedrooms: ['4', '0', '0'], unit_types: ['CM', 'orientations'], rooms: ['balcony', 'bathroom', 'dining', 'family', 'guest', 'kitchen', 'laundry', 'living', 'maid', 'master bedroom', 'powder', 'store', 'terrace']
+    sample_dimensions: ['6050 x 6000', '1750 x 950', '2250 x 2650', '3500 x 4550', '4850 x 4550']
+    sqft_values: [4953.55, 4953.55, 4955.26, 4955.26, 6273.61, 6273.61]
+    sqm_values: [460.2, 460.2, 460.36, 460.36, 582.84, 582.84]
+    area_labels: [{'label': 'BALCONY', 'value': 2350.0}, {'label': 'TERRACE', 'value': 4450.0}]
+    text: ESTATE VILLAS | V4 Bedroom - Type CM | GROUND FLOOR | GROUND FLOOR | FIRST FLOOR | FIRST FLOOR | GARAGE | 6050X6000 | LAUNDRY | 1750X950 | MAID’S ROOM | 2250X2650 | KITCHEN | 3500X4550 | DINING | 4850X4550 | FORMAL | LIVING ROOM | 5700X4550 | FOYER | 4100X2100 | GUEST ROOM | 4200X3550 | STORE | 1150X3800 | BATHROOM | 2300X1400 | BATHROOM | 1750X3100 | POWD
+
+  Page 35: dimensions (24 found), sqft (4 values), sqm (4 values), area_labels, bedrooms: ['5', '0', '0', '0'], unit_types: ['A', 'orientations'], rooms: ['balcony', 'bathroom', 'dining', 'family', 'guest', 'kitchen', 'laundry', 'living', 'maid', 'master bedroom', 'powder', 'store', 'terrace']
+    sample_dimensions: ['1400 x 900', '4600 x 3350', '4350 x 4650', '4950 x 4650', '8100 x 5450']
+    sqft_values: [5792.28, 5792.28, 538.12, 538.12]
+    sqm_values: [540.0, 540.0, 5812.51, 5812.51]
+    area_labels: [{'label': 'BALCONY', 'value': 2000.0}, {'label': 'TERRACE', 'value': 4800.0}]
+    text: ESTATE VILLAS | V5 Bedroom - Type A | GROUND FLOOR | GROUND FLOOR | FIRST FLOOR | FIRST FLOOR | GARBAGE ROOM | LAUNDRY | 1400X900 | GUEST BEDROOM | 4600X3350 | KITCHEN | 4350X4650 | DINING | 4950X4650 | FORMAL | LIVING ROOM | 8100X5450 | MAID’S ROOM | 2100X2700 | FOYER | 2750X2450 | STORE ROOM | 2450X1300 | GARAGE | 6100X6050 | BATHROOM | 1850X3000 | BAT
+
+  Page 36: dimensions (24 found), sqft (4 values), sqm (4 values), area_labels, bedrooms: ['5', '0', '0', '0'], unit_types: ['AM', 'orientations'], rooms: ['balcony', 'bathroom', 'dining', 'family', 'guest', 'kitchen', 'laundry', 'living', 'maid', 'master bedroom', 'powder', 'store', 'terrace']
+    sample_dimensions: ['4600 x 3350', '4350 x 4650', '4950 x 4650', '8100 x 5450', '2100 x 2700']
+    sqft_values: [5792.28, 5792.28, 538.12, 538.12]
+    sqm_values: [540.0, 540.0, 5812.51, 5812.51]
+    area_labels: [{'label': 'BALCONY', 'value': 2000.0}, {'label': 'TERRACE', 'value': 4800.0}]
+    text: ESTATE VILLAS | V5 Bedroom - Type AM | Saleable Area | Saleable Area | 5,792.28 sq.ft | 5,792.28 sq.ft | 538.12 sq.ft | 538.12 sq.ft | Plot Area | Plot Area | 540.00 sq.m | 540.00 sq.m | 5,812.51 sq.m | 5,812.51 sq.m | GROUND FLOOR | GROUND FLOOR | FIRST FLOOR | FIRST FLOOR | GARBAGE ROOM | GUEST BEDROOM | 4600X3350 | KITCHEN | 4350X4650 | DINI
+
+  Page 37: dimensions (27 found), sqft (4 values), sqm (4 values), area_labels, bedrooms: ['5', '0', '0', '0'], unit_types: ['B', 'orientations'], rooms: ['balcony', 'bathroom', 'dining', 'family', 'guest', 'kitchen', 'laundry', 'living', 'maid', 'master bedroom', 'powder', 'store', 'terrace']
+    sample_dimensions: ['3600 x 4050', '5400 x 2950', '5150 x 3950', '2.4 x 1.95', '5050 x 7300']
+    sqft_values: [5813.8, 5813.8, 540.12, 540.12]
+    sqm_values: [540.0, 540.0, 5812.51, 5812.51]
+    area_labels: [{'label': 'BALCONY', 'value': 1450.0}, {'label': 'TERRACE', 'value': 5600.0}, {'label': 'TERRACE', 'value': 5050.0}]
+    text: ESTATE VILLAS | V5 Bedroom - Type B | Saleable Area | Saleable Area | 5,813.80 sq.ft | 5,813.80 sq.ft | 540.12 sq.ft | 540.12 sq.ft | Plot Area | Plot Area | 540.00 sq.m | 540.00 sq.m | 5,812.51 sq.m | 5,812.51 sq.m | GROUND FLOOR | GROUND FLOOR | FIRST FLOOR | FIRST FLOOR | GARBAGE | ROOM | GUEST BEDROOM | 3600X4050 | KITCHEN | 5400X2950 | DININ
+
+  Page 38: dimensions (27 found), sqft (4 values), sqm (4 values), area_labels, bedrooms: ['5', '0', '0', '0'], unit_types: ['BM', 'orientations'], rooms: ['balcony', 'bathroom', 'dining', 'family', 'guest', 'kitchen', 'laundry', 'living', 'maid', 'master bedroom', 'powder', 'store', 'terrace']
+    sample_dimensions: ['3600 x 4050', '5400 x 2950', '5150 x 3950', '5050 x 7300', '2050 x 2600']
+    sqft_values: [5813.8, 5813.8, 540.12, 540.12]
+    sqm_values: [540.0, 540.0, 5812.51, 5812.51]
+    area_labels: [{'label': 'BALCONY', 'value': 1450.0}, {'label': 'TERRACE', 'value': 5600.0}, {'label': 'TERRACE', 'value': 5050.0}]
+    text: ESTATE VILLAS | V5 Bedroom - Type BM | Saleable Area | Saleable Area | 5,813.80 sq.ft | 5,813.80 sq.ft | 540.12 sq.ft | 540.12 sq.ft | Plot Area | Plot Area | 540.00 sq.m | 540.00 sq.m | 5,812.51 sq.m | 5,812.51 sq.m | GROUND FLOOR | GROUND FLOOR | FIRST FLOOR | FIRST FLOOR | GARBAGE | ROOM | GUEST BEDROOM | 3600X4050 | KITCHEN | 5400X2950 | DINI
+
+  Page 39: dimensions (29 found), sqft (4 values), sqm (4 values), area_labels, bedrooms: ['6', '0'], unit_types: ['A', 'orientations'], rooms: ['balcony', 'bathroom', 'dining', 'family', 'guest', 'kitchen', 'laundry', 'living', 'maid', 'master bedroom', 'powder', 'store', 'study', 'terrace']
+    sample_dimensions: ['5200 x 5000', '1750 x 2050', '4300 x 3000', '7750 x 1300', '2400 x 3000']
+    sqft_values: [7191.8, 7191.8, 668.14, 668.14]
+    sqm_values: [660.0, 660.0, 7104.18, 7104.18]
+    area_labels: [{'label': 'TERRACE', 'value': 4300.0}, {'label': 'BALCONY', 'value': 7750.0}, {'label': 'BALCONY', 'value': 800.0}, {'label': 'BALCONY', 'value': 800.0}]
+    text: ESTATE VILLAS | V6 Bedroom - Type A | BEDROOM | 5200 X 5000 | WIC | 1750 X 2050 | OPEN TERRACE | 4300 X 3000 | BALCONY | 7750 X 1300 | LIFT | DN | ELEC. | CABINET | ROOF TOP/ MEP SERVICE | SECOND FLOOR | SECOND FLOOR | BATHROOM | 2400 X 3000 | Saleable Area | Saleable Area | 7,191.80 sq.ft | 7,191.80 sq.ft | 668.14 sq.ft | 668.14 sq.ft | Plot Area | 
+
+  Page 40: dimensions (29 found), sqft (4 values), sqm (4 values), area_labels, bedrooms: ['6', '0', '0', '0'], unit_types: ['AM', 'orientations'], rooms: ['balcony', 'bathroom', 'dining', 'family', 'guest', 'kitchen', 'laundry', 'living', 'maid', 'master bedroom', 'powder', 'store', 'study', 'terrace']
+    sample_dimensions: ['6000 x 8000', '4600 x 2150', '4100 x 4700', '2500 x 3300', '1500 x 2150']
+    sqft_values: [7191.8, 7191.8, 668.14, 668.14]
+    sqm_values: [660.0, 660.0, 7104.18, 7104.18]
+    area_labels: [{'label': 'BALCONY', 'value': 800.0}, {'label': 'BALCONY', 'value': 800.0}, {'label': 'TERRACE', 'value': 4300.0}, {'label': 'BALCONY', 'value': 7750.0}]
+    text: ESTATE VILLAS | V6 Bedroom - Type AM | GROUND FLOOR | GROUND FLOOR | FIRST FLOOR | FIRST FLOOR | GARAGE | 6000X8000 | FOYER | 4600X2150 | GUEST BEDROOM | 4100X4700 | KITCHEN | 2500X3300 | BATHROOM | 1500X2150 | MAID’S ROOM | 2850X2100 | DINING | 5050X4700 | LAUNDRY | 1150 X 700 | BAR | COUNTER | 2900X 4700 | BATHROOM | 1600X2850 | STORE | 1000X1950 | LIFT | 
+
+----------------------------------------------------------------------
+SUMMARY
+----------------------------------------------------------------------
+  All sqft values found: [538.12, 540.12, 668.14, 4905.33, 4953.55, 4955.12, 4955.26, 4985.09, 4995.26, 5619.6, 5789.62, 5792.28, 5813.8, 6092.43, 6158.54, 6273.61, 7191.8, 800000.0]
+  Unit types found: ['A', 'AM', 'B', 'BM', 'C', 'CM', 'ORIENTATIONS', 'PLANS']
+  Bedroom counts found: ['0', '4', '5', '6']
+
+----------------------------------------------------------------------
+JSON TEMPLATE (copy into ground truth file)
+----------------------------------------------------------------------
+{
+  "brochure": "THE GROVE AT SOBHA SANCTUARY BROCHURE & FLOORS.pdf",
+  "last_verified": "2026-02-XX",
+  "notes": "FILL IN: describe what you found",
+  "table_specs": [],
+  "table_spec_count": 0,
+  "text_assertions": {
+    "pages_with_floor_plan_text": [
+      6,
+      8,
+      18,
+      25,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40
+    ],
+    "expected_unit_types_in_text": [
+      "A",
+      "AM",
+      "B",
+      "BM",
+      "C",
+      "CM",
+      "ORIENTATIONS",
+      "PLANS"
+    ],
+    "expected_area_labels_present": true
+  },
+  "floor_plans": [
+    {
+      "unit_type": null,
+      "bedrooms": null,
+      "bathrooms": null,
+      "total_sqft": 800000.0,
+      "suite_sqft": null,
+      "balcony_sqft": null
+    },
+    {
+      "unit_type": "A",
+      "bedrooms": 4,
+      "bathrooms": null,
+      "total_sqft": 5789.62,
+      "suite_sqft": null,
+      "balcony_sqft": 2850.0
+    },
+    {
+      "unit_type": "AM",
+      "bedrooms": 4,
+      "bathrooms": null,
+      "total_sqft": 5619.6,
+      "suite_sqft": null,
+      "balcony_sqft": 2850.0
+    },
+    {
+      "unit_type": "B",
+      "bedrooms": 4,
+      "bathrooms": null,
+      "total_sqft": 6158.54,
+      "suite_sqft": null,
+      "balcony_sqft": 1850.0
+    },
+    {
+      "unit_type": "BM",
+      "bedrooms": 4,
+      "bathrooms": null,
+      "total_sqft": 5619.6,
+      "suite_sqft": null,
+      "balcony_sqft": 1850.0
+    },
+    {
+      "unit_type": "C",
+      "bedrooms": 4,
+      "bathrooms": null,
+      "total_sqft": 6092.43,
+      "suite_sqft": null,
+      "balcony_sqft": 4450.0
+    },
+    {
+      "unit_type": "CM",
+      "bedrooms": 4,
+      "bathrooms": null,
+      "total_sqft": 6273.61,
+      "suite_sqft": null,
+      "balcony_sqft": 4450.0
+    },
+    {
+      "unit_type": "A",
+      "bedrooms": 5,
+      "bathrooms": null,
+      "total_sqft": 5792.28,
+      "suite_sqft": null,
+      "balcony_sqft": 4800.0
+    },
+    {
+      "unit_type": "AM",
+      "bedrooms": 5,
+      "bathrooms": null,
+      "total_sqft": 5792.28,
+      "suite_sqft": null,
+      "balcony_sqft": 4800.0
+    },
+    {
+      "unit_type": "B",
+      "bedrooms": 5,
+      "bathrooms": null,
+      "total_sqft": 5813.8,
+      "suite_sqft": null,
+      "balcony_sqft": 5050.0
+    },
+    {
+      "unit_type": "BM",
+      "bedrooms": 5,
+      "bathrooms": null,
+      "total_sqft": 5813.8,
+      "suite_sqft": null,
+      "balcony_sqft": 5050.0
+    },
+    {
+      "unit_type": "A",
+      "bedrooms": 6,
+      "bathrooms": null,
+      "total_sqft": 7191.8,
+      "suite_sqft": null,
+      "balcony_sqft": 800.0
+    },
+    {
+      "unit_type": "AM",
+      "bedrooms": 6,
+      "bathrooms": null,
+      "total_sqft": 7191.8,
+      "suite_sqft": null,
+      "balcony_sqft": 7750.0
+    }
+  ],
+  "total_unique_plans": 13,
+  "total_unique_plans_tolerance": 2,
+  "tolerances": {
+    "sqft_pct": 5.0,
+    "balcony_sqft_pct": 10.0,
+    "bedrooms_exact": true,
+    "bathrooms_exact": true
+  }
+}
+
+NOTE: The floor_plans above are INFERRED from text only. You MUST verify against the actual PDF. Plans with no text data (RD type) will be empty -- fill in manually.

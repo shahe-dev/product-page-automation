@@ -1,0 +1,69 @@
+{
+  "brochure": "JGE_CEDARWOOD_ESTATES_FLOOR_PLANS 2",
+  "timestamp": "20260212T085915",
+  "size_mb": 4.4,
+  "page_count": 11,
+  "table_extraction": {
+    "floor_plan_spec_count": 0,
+    "specs": [],
+    "errors": []
+  },
+  "text_extraction": [
+    {
+      "page": 1,
+      "unit_type": "4 - BEDROOM U"
+    },
+    {
+      "page": 2,
+      "unit_type": "4 - BEDROOM U"
+    },
+    {
+      "page": 3,
+      "unit_type": "4 - BEDROOM U",
+      "total_sqft": 2831.0,
+      "total_sqft_confidence": 0.6
+    },
+    {
+      "page": 4,
+      "unit_type": "4-BEDROOM\nJ",
+      "total_sqft": 2831.0,
+      "total_sqft_confidence": 0.6
+    },
+    {
+      "page": 5,
+      "unit_type": "4-BEDROOM\nJ"
+    },
+    {
+      "page": 6,
+      "unit_type": "5 - BEDROOM U",
+      "total_sqft": 3509.0,
+      "total_sqft_confidence": 0.6
+    },
+    {
+      "page": 7,
+      "unit_type": "5-BEDROOM\nP",
+      "total_sqft": 3509.0,
+      "total_sqft_confidence": 0.6
+    },
+    {
+      "page": 8,
+      "unit_type": "5-BEDROOM\nP"
+    },
+    {
+      "page": 9,
+      "unit_type": "6 - BEDROOM U",
+      "total_sqft": 4354.0,
+      "total_sqft_confidence": 0.6
+    },
+    {
+      "page": 10,
+      "unit_type": "6-BEDROOM\nJ",
+      "total_sqft": 4354.0,
+      "total_sqft_confidence": 0.6
+    },
+    {
+      "page": 11,
+      "unit_type": "6-BEDROOM\nF"
+    }
+  ]
+}

@@ -1,0 +1,232 @@
+{
+  "timestamp": "2026-02-12T08:17:57.380409+00:00",
+  "mode": "no-api",
+  "brochure_count": 5,
+  "errors": {},
+  "aggregate": {
+    "plans_expected": 39,
+    "plans_actual": 0,
+    "area_accuracy_pct": 0,
+    "false_data_rate_pct": 0,
+    "null_rate_pct": 0,
+    "total_fields_checked": 0
+  },
+  "per_brochure": {
+    "evelyn": {
+      "plan_count_expected": 4,
+      "plan_count_actual": 0,
+      "plan_count_pass": false,
+      "table_spec_expected": 0,
+      "table_spec_actual": 0,
+      "unit_type_matched": 0,
+      "unit_type_missing": 4,
+      "area_checks_pass": 0,
+      "area_checks_fail": 0,
+      "area_checks_null": 0,
+      "bedroom_checks_pass": 0,
+      "bedroom_checks_fail": 0,
+      "false_data_count": 0,
+      "total_fields_checked": 0,
+      "details": [
+        {
+          "unit_type": "3 bedroom - Unit type A",
+          "status": "MISSING"
+        },
+        {
+          "unit_type": "1 bedroom - Unit type A",
+          "status": "MISSING"
+        },
+        {
+          "unit_type": "1 bedroom - Unit type B",
+          "status": "MISSING"
+        },
+        {
+          "unit_type": "2 bedroom - Unit type B",
+          "status": "MISSING"
+        }
+      ],
+      "area_accuracy_pct": 0.0,
+      "false_data_rate_pct": 0.0,
+      "null_rate_pct": 0.0
+    },
+    "expo_valley": {
+      "plan_count_expected": 9,
+      "plan_count_actual": 0,
+      "plan_count_pass": false,
+      "table_spec_expected": 0,
+      "table_spec_actual": 0,
+      "unit_type_matched": 0,
+      "unit_type_missing": 3,
+      "area_checks_pass": 0,
+      "area_checks_fail": 0,
+      "area_checks_null": 0,
+      "bedroom_checks_pass": 0,
+      "bedroom_checks_fail": 0,
+      "false_data_count": 0,
+      "total_fields_checked": 0,
+      "details": [
+        {
+          "unit_type": "Two Bedroom Type 01",
+          "status": "MISSING"
+        },
+        {
+          "unit_type": "Two Bedroom Type 02",
+          "status": "MISSING"
+        },
+        {
+          "unit_type": "Two Bedroom Type 04",
+          "status": "MISSING"
+        }
+      ],
+      "area_accuracy_pct": 0.0,
+      "false_data_rate_pct": 0.0,
+      "null_rate_pct": 0.0
+    },
+    "hilton": {
+      "plan_count_expected": 0,
+      "plan_count_actual": 0,
+      "plan_count_pass": true,
+      "table_spec_expected": 0,
+      "table_spec_actual": 0,
+      "unit_type_matched": 0,
+      "unit_type_missing": 0,
+      "area_checks_pass": 0,
+      "area_checks_fail": 0,
+      "area_checks_null": 0,
+      "bedroom_checks_pass": 0,
+      "bedroom_checks_fail": 0,
+      "false_data_count": 0,
+      "total_fields_checked": 0,
+      "details": [],
+      "area_accuracy_pct": 0.0,
+      "false_data_rate_pct": 0.0,
+      "null_rate_pct": 0.0
+    },
+    "novayas": {
+      "plan_count_expected": 16,
+      "plan_count_actual": 0,
+      "plan_count_pass": false,
+      "table_spec_expected": 0,
+      "table_spec_actual": 0,
+      "unit_type_matched": 0,
+      "unit_type_missing": 11,
+      "area_checks_pass": 0,
+      "area_checks_fail": 0,
+      "area_checks_null": 0,
+      "bedroom_checks_pass": 0,
+      "bedroom_checks_fail": 0,
+      "false_data_count": 0,
+      "total_fields_checked": 0,
+      "details": [
+        {
+          "unit_type": "PENTHOUSE",
+          "status": "MISSING"
+        },
+        {
+          "unit_type": "4-Bedroom Type A",
+          "status": "MISSING"
+        },
+        {
+          "unit_type": "Studio Type A",
+          "status": "MISSING"
+        },
+        {
+          "unit_type": "Studio Type B",
+          "status": "MISSING"
+        },
+        {
+          "unit_type": "1-BEDROOM TYPE A",
+          "status": "MISSING"
+        },
+        {
+          "unit_type": "1-BEDROOM TYPE B",
+          "status": "MISSING"
+        },
+        {
+          "unit_type": "1-Bedroom Type C",
+          "status": "MISSING"
+        },
+        {
+          "unit_type": "2-BEDROOM TYPE A",
+          "status": "MISSING"
+        },
+        {
+          "unit_type": "2-BEDROOM TYPE B",
+          "status": "MISSING"
+        },
+        {
+          "unit_type": "3-BEDROOM WITH MAID ROOM TYPE A",
+          "status": "MISSING"
+        },
+        {
+          "unit_type": "3-BEDROOM WITH MAID ROOM TYPE B",
+          "status": "MISSING"
+        }
+      ],
+      "area_accuracy_pct": 0.0,
+      "false_data_rate_pct": 0.0,
+      "null_rate_pct": 0.0
+    },
+    "sobha_eden": {
+      "plan_count_expected": 10,
+      "plan_count_actual": 0,
+      "plan_count_pass": false,
+      "table_spec_expected": 0,
+      "table_spec_actual": 0,
+      "unit_type_matched": 0,
+      "unit_type_missing": 10,
+      "area_checks_pass": 0,
+      "area_checks_fail": 0,
+      "area_checks_null": 0,
+      "bedroom_checks_pass": 0,
+      "bedroom_checks_fail": 0,
+      "false_data_count": 0,
+      "total_fields_checked": 0,
+      "details": [
+        {
+          "unit_type": "1 Bedroom Apartment Type A",
+          "status": "MISSING"
+        },
+        {
+          "unit_type": "1 BEDROOM APARTMENT TYPE B",
+          "status": "MISSING"
+        },
+        {
+          "unit_type": "1 BEDROOM APARTMENT TYPE C",
+          "status": "MISSING"
+        },
+        {
+          "unit_type": "1 BEDROOM APARTMENT TYPE D",
+          "status": "MISSING"
+        },
+        {
+          "unit_type": "1 BEDROOM APARTMENT TYPE E",
+          "status": "MISSING"
+        },
+        {
+          "unit_type": "1 BEDROOM APARTMENT TYPE F",
+          "status": "MISSING"
+        },
+        {
+          "unit_type": "1 BEDROOM APARTMENT TYPE G",
+          "status": "MISSING"
+        },
+        {
+          "unit_type": "1 BEDROOM APARTMENT TYPE H",
+          "status": "MISSING"
+        },
+        {
+          "unit_type": "2 Bedroom Apartment Type D",
+          "status": "MISSING"
+        },
+        {
+          "unit_type": "2 Bedroom Apartment Type G",
+          "status": "MISSING"
+        }
+      ],
+      "area_accuracy_pct": 0.0,
+      "false_data_rate_pct": 0.0,
+      "null_rate_pct": 0.0
+    }
+  }
+}

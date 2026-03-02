@@ -1,0 +1,129 @@
+{
+  "brochure": "FLOOR PLANS & UNIT LAYOUTS Helvetia Marine by DHG",
+  "timestamp": "20260212T090543",
+  "size_mb": 10.8,
+  "page_count": 22,
+  "table_extraction": {
+    "floor_plan_spec_count": 0,
+    "specs": [],
+    "errors": []
+  },
+  "text_extraction": [
+    {
+      "page": 1,
+      "unit_type": "duplex"
+    },
+    {
+      "page": 2,
+      "unit_type": "duplex"
+    },
+    {
+      "page": 3,
+      "unit_type": "1-Bedroom R"
+    },
+    {
+      "page": 4,
+      "unit_type": "1-Bedroom R",
+      "total_sqft": 1242.92,
+      "total_sqft_confidence": 0.6
+    },
+    {
+      "page": 5,
+      "unit_type": "1-Bedroom R",
+      "total_sqft": 802.88,
+      "total_sqft_confidence": 0.6
+    },
+    {
+      "page": 6,
+      "unit_type": "1-Bedroom R",
+      "total_sqft": 802.88,
+      "total_sqft_confidence": 0.6
+    },
+    {
+      "page": 7,
+      "unit_type": "1-Bedroom R",
+      "total_sqft": 1593.92,
+      "total_sqft_confidence": 0.6
+    },
+    {
+      "page": 8,
+      "unit_type": "2-Bedroom R",
+      "total_sqft": 1147.01,
+      "total_sqft_confidence": 0.6
+    },
+    {
+      "page": 9,
+      "unit_type": "2-Bedroom R",
+      "total_sqft": 1147.01,
+      "total_sqft_confidence": 0.6,
+      "bathrooms": 1.0,
+      "bathrooms_confidence": 0.6
+    },
+    {
+      "page": 10,
+      "unit_type": "2-Bedroom R",
+      "total_sqft": 1722.24,
+      "total_sqft_confidence": 0.6,
+      "bathrooms": 1.0,
+      "bathrooms_confidence": 0.6
+    },
+    {
+      "page": 11,
+      "unit_type": "01\nBedroom",
+      "total_sqft": 2592.18,
+      "total_sqft_confidence": 0.6
+    },
+    {
+      "page": 12,
+      "unit_type": "01\nBedroom",
+      "total_sqft": 2435.14,
+      "total_sqft_confidence": 0.6,
+      "bathrooms": 2.0,
+      "bathrooms_confidence": 0.6
+    },
+    {
+      "page": 13,
+      "unit_type": "01\nBedroom"
+    },
+    {
+      "page": 14,
+      "unit_type": "2BR",
+      "total_sqft": 1751.2,
+      "total_sqft_confidence": 0.6
+    },
+    {
+      "page": 15,
+      "unit_type": "2BR",
+      "total_sqft": 1751.2,
+      "total_sqft_confidence": 0.6
+    },
+    {
+      "page": 16,
+      "unit_type": "2BR",
+      "total_sqft": 2090.79936,
+      "total_sqft_confidence": 0.6
+    },
+    {
+      "page": 17,
+      "unit_type": "3BR",
+      "total_sqft": 1242.91908,
+      "total_sqft_confidence": 0.6
+    },
+    {
+      "page": 18,
+      "unit_type": "3BR",
+      "total_sqft": 802.88676,
+      "total_sqft_confidence": 0.6
+    },
+    {
+      "page": 19,
+      "unit_type": "1BR",
+      "total_sqft": 802.88676,
+      "total_sqft_confidence": 0.6
+    },
+    {
+      "page": 20,
+      "unit_type": "1BR"
+    }
+  ]
+}

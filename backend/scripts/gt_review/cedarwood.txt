@@ -1,0 +1,142 @@
+======================================================================
+  GROUND TRUTH REVIEW: cedarwood
+======================================================================
+  File: JGE_CEDARWOOD_ESTATES_FLOOR_PLANS 2.pdf
+  Size: 4.4 MB, 11 pages
+  Format: RL (text quality: moderate)
+  Notes: 11 pages. Area tables present.
+======================================================================
+
+INSTRUCTIONS:
+  1. Open the PDF in a viewer
+  2. For each floor plan page, verify/fill in the data below
+  3. Copy the JSON template at the bottom into the ground truth file
+
+FLOOR PLAN PAGES DETECTED: 9
+----------------------------------------------------------------------
+
+  Page 2: bedrooms: ['4']
+    text: Jumeirah Golf Estates | Cedarwood Estates | Pg. 2 | Pg. 2 | Jumeirah Golf Estates | Cedarwood Estates | 4 - BEDROOM UNIT
+
+  Page 3: sqft (6 values), bedrooms: ['4']
+    sqft_values: [2831.0, 2801.0, 473.0, 6070.0, 6135.0, 9061.0]
+    text: Jumeirah Golf Estates | Cedarwood Estates | Pg. 3 | Ground Floor | Total Saleable Area | Plot Area | Ground Floor | 2,831 sqft. | First Floor | 2,801 sqft. | Roof Floor | 473 sqft. | 6,070 sqft. | 6,135 sqft. – 9,061 sqft. | FLOOR PLAN | 4-BEDROOM
+
+  Page 4: sqft (6 values), bedrooms: ['4']
+    sqft_values: [2831.0, 2801.0, 473.0, 6070.0, 6135.0, 9061.0]
+    text: Jumeirah Golf Estates | Cedarwood Estates | Pg. 4 | First Floor | Roof Floor | Total Saleable Area | Plot Area | Ground Floor | 2,831 sqft. | First Floor | 2,801 sqft. | Roof Floor | 473 sqft. | 6,070 sqft. | 6,135 sqft. – 9,061 sqft. | FLOOR PLAN | 4-BEDROOM
+
+  Page 5: bedrooms: ['5']
+    text: Jumeirah Golf Estates | Cedarwood Estates | Pg. 5 | Pg. 5 | Jumeirah Golf Estates | Cedarwood Estates | 5 - BEDROOM UNIT
+
+  Page 6: sqft (6 values), bedrooms: ['5']
+    sqft_values: [3509.0, 3533.0, 614.0, 7918.0, 9257.0, 14126.0]
+    text: Jumeirah Golf Estates | Cedarwood Estates | Pg. 6 | Ground Floor | Total Saleable Area | Ground Floor | 3,509 sqft. | First Floor | 3,533 sqft. | Roof Floor | 614 sqft. | 7,918 sqft. | 9,257 sqft. – 14,126 sqft. | FLOOR PLAN | 5-BEDROOM | Plot Area
+
+  Page 7: sqft (6 values), bedrooms: ['5']
+    sqft_values: [3509.0, 3533.0, 614.0, 7918.0, 9257.0, 14126.0]
+    text: Jumeirah Golf Estates | Cedarwood Estates | Pg. 7 | First Floor | Roof Floor | Total Saleable Area | Ground Floor | 3,509 sqft. | First Floor | 3,533 sqft. | Roof Floor | 614 sqft. | 7,918 sqft. | 9,257 sqft. – 14,126 sqft. | FLOOR PLAN | 5-BEDROOM | Plot Area
+
+  Page 8: bedrooms: ['6']
+    text: Jumeirah Golf Estates | Cedarwood Estates | Pg. 8 | Pg. 8 | Jumeirah Golf Estates | Cedarwood Estates | 6 - BEDROOM UNIT
+
+  Page 9: sqft (6 values), bedrooms: ['6']
+    sqft_values: [4354.0, 4223.0, 601.0, 9471.0, 10608.0, 21409.0]
+    text: Jumeirah Golf Estates | Cedarwood Estates | Pg. 9 | Ground Floor | Total Saleable Area | Plot Area | Ground Floor | 4,354 sqft. | First Floor | 4,223 sqft. | Roof Floor | 601 sqft. | 9,471 sqft. | 10,608 sqft. – 21,409 sqft. | FLOOR PLAN | 6-BEDROOM
+
+  Page 10: sqft (6 values), bedrooms: ['6']
+    sqft_values: [4354.0, 4223.0, 601.0, 9471.0, 10608.0, 21409.0]
+    text: Jumeirah Golf Estates | Cedarwood Estates | Pg. 10 | First Floor | Roof Floor | Total Saleable Area | Plot Area | Ground Floor | 4,354 sqft. | First Floor | 4,223 sqft. | Roof Floor | 601 sqft. | 9,471 sqft. | 10,608 sqft. – 21,409 sqft. | FLOOR PLAN | 6-BEDROOM
+
+----------------------------------------------------------------------
+SUMMARY
+----------------------------------------------------------------------
+  All sqft values found: [473.0, 601.0, 614.0, 2801.0, 2831.0, 3509.0, 3533.0, 4223.0, 4354.0, 6070.0, 6135.0, 7918.0, 9061.0, 9257.0, 9471.0, 10608.0, 14126.0, 21409.0]
+  Unit types found: []
+  Bedroom counts found: ['4', '5', '6']
+
+----------------------------------------------------------------------
+JSON TEMPLATE (copy into ground truth file)
+----------------------------------------------------------------------
+{
+  "brochure": "JGE_CEDARWOOD_ESTATES_FLOOR_PLANS 2.pdf",
+  "last_verified": "2026-02-XX",
+  "notes": "FILL IN: describe what you found",
+  "table_specs": [],
+  "table_spec_count": 0,
+  "text_assertions": {
+    "pages_with_floor_plan_text": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "expected_unit_types_in_text": [],
+    "expected_area_labels_present": true
+  },
+  "floor_plans": [
+    {
+      "unit_type": null,
+      "bedrooms": 4,
+      "bathrooms": null,
+      "total_sqft": 9061.0,
+      "suite_sqft": null,
+      "balcony_sqft": null
+    },
+    {
+      "unit_type": null,
+      "bedrooms": 4,
+      "bathrooms": null,
+      "total_sqft": 9061.0,
+      "suite_sqft": null,
+      "balcony_sqft": null
+    },
+    {
+      "unit_type": null,
+      "bedrooms": 5,
+      "bathrooms": null,
+      "total_sqft": 14126.0,
+      "suite_sqft": null,
+      "balcony_sqft": null
+    },
+    {
+      "unit_type": null,
+      "bedrooms": 5,
+      "bathrooms": null,
+      "total_sqft": 14126.0,
+      "suite_sqft": null,
+      "balcony_sqft": null
+    },
+    {
+      "unit_type": null,
+      "bedrooms": 6,
+      "bathrooms": null,
+      "total_sqft": 21409.0,
+      "suite_sqft": null,
+      "balcony_sqft": null
+    },
+    {
+      "unit_type": null,
+      "bedrooms": 6,
+      "bathrooms": null,
+      "total_sqft": 21409.0,
+      "suite_sqft": null,
+      "balcony_sqft": null
+    }
+  ],
+  "total_unique_plans": 6,
+  "total_unique_plans_tolerance": 2,
+  "tolerances": {
+    "sqft_pct": 5.0,
+    "balcony_sqft_pct": 10.0,
+    "bedrooms_exact": true,
+    "bathrooms_exact": true
+  }
+}
+
+NOTE: The floor_plans above are INFERRED from text only. You MUST verify against the actual PDF. Plans with no text data (RD type) will be empty -- fill in manually.

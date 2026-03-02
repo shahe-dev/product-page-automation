@@ -1,0 +1,101 @@
+{
+  "brochure": "THE GROVE AT SOBHA SANCTUARY BROCHURE & FLOORS",
+  "timestamp": "20260212T090513",
+  "size_mb": 25.7,
+  "page_count": 41,
+  "table_extraction": {
+    "floor_plan_spec_count": 0,
+    "specs": [],
+    "errors": []
+  },
+  "text_extraction": [
+    {
+      "page": 24,
+      "unit_type": "studio"
+    },
+    {
+      "page": 25,
+      "unit_type": "studio"
+    },
+    {
+      "page": 26,
+      "unit_type": "studio"
+    },
+    {
+      "page": 28,
+      "unit_type": "4 Bedroom - Type A"
+    },
+    {
+      "page": 29,
+      "unit_type": "4 Bedroom - Type A",
+      "total_sqft": 4905.33,
+      "total_sqft_confidence": 0.6
+    },
+    {
+      "page": 30,
+      "unit_type": "4 Bedroom - Type A",
+      "total_sqft": 4905.33,
+      "total_sqft_confidence": 0.6
+    },
+    {
+      "page": 31,
+      "unit_type": "4 Bedroom - Type A",
+      "total_sqft": 4985.09,
+      "total_sqft_confidence": 0.6
+    },
+    {
+      "page": 32,
+      "unit_type": "4 Bedroom - Type B",
+      "total_sqft": 4985.09,
+      "total_sqft_confidence": 0.6
+    },
+    {
+      "page": 33,
+      "unit_type": "4 Bedroom - Type B",
+      "total_sqft": 4953.55,
+      "total_sqft_confidence": 0.6
+    },
+    {
+      "page": 34,
+      "unit_type": "4 Bedroom - Type C",
+      "total_sqft": 4953.55,
+      "total_sqft_confidence": 0.6
+    },
+    {
+      "page": 35,
+      "unit_type": "4 Bedroom - Type C",
+      "total_sqft": 5792.28,
+      "total_sqft_confidence": 0.6
+    },
+    {
+      "page": 36,
+      "unit_type": "5 Bedroom - Type A",
+      "total_sqft": 5792.28,
+      "total_sqft_confidence": 0.6
+    },
+    {
+      "page": 37,
+      "unit_type": "5 Bedroom - Type A",
+      "total_sqft": 5813.8,
+      "total_sqft_confidence": 0.6
+    },
+    {
+      "page": 38,
+      "unit_type": "5 Bedroom - Type B",
+      "total_sqft": 5813.8,
+      "total_sqft_confidence": 0.6
+    },
+    {
+      "page": 39,
+      "unit_type": "5 Bedroom - Type B",
+      "total_sqft": 7191.8,
+      "total_sqft_confidence": 0.6
+    },
+    {
+      "page": 40,
+      "unit_type": "6 Bedroom - Type A",
+      "total_sqft": 7191.8,
+      "total_sqft_confidence": 0.6
+    }
+  ]
+}

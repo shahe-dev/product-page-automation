@@ -1,0 +1,49 @@
+{
+  "brochure": "Hilton Residences Brochure",
+  "timestamp": "20260212T081721",
+  "size_mb": 116.7,
+  "page_count": 30,
+  "table_extraction": {
+    "floor_plan_spec_count": 0,
+    "specs": [],
+    "errors": []
+  },
+  "text_extraction": [
+    {
+      "page": 9,
+      "unit_type": "1 - BR A"
+    },
+    {
+      "page": 10,
+      "unit_type": "1 - BR A"
+    },
+    {
+      "page": 11,
+      "unit_type": "1 - BR A"
+    },
+    {
+      "page": 12,
+      "unit_type": "studio"
+    },
+    {
+      "page": 26,
+      "unit_type": "3 - Bedroom T"
+    },
+    {
+      "page": 27,
+      "unit_type": "3 - Bedroom T"
+    },
+    {
+      "page": 28,
+      "unit_type": "3 - Bedroom T"
+    },
+    {
+      "page": 29,
+      "unit_type": "1 - Bedroom"
+    },
+    {
+      "page": 30,
+      "unit_type": "4 - Bedroom"
+    }
+  ]
+}

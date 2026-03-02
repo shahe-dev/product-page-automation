@@ -1,0 +1,34 @@
+{
+  "brochure": "Bashayer Floor Plans.pdf",
+  "last_verified": "2026-02-12",
+  "notes": "AUTO-GENERATED DRAFT -- review and correct before use",
+  "table_specs": [],
+  "table_spec_count": 0,
+  "text_assertions": {
+    "pages_with_floor_plan_text": [
+      45,
+      46,
+      47,
+      48,
+      49,
+      50
+    ],
+    "expected_unit_types_in_text": [
+      "2\nBedroom"
+    ],
+    "expected_area_labels_present": false
+  },
+  "floor_plans": [],
+  "total_unique_plans": 0,
+  "total_unique_plans_tolerance": 1,
+  "classification": {
+    "min_floor_plan_images": 1,
+    "total_images_classified": 0
+  },
+  "tolerances": {
+    "sqft_pct": 2.0,
+    "balcony_sqft_pct": 5.0,
+    "bedrooms_exact": true,
+    "bathrooms_exact": true
+  }
+}

@@ -1,0 +1,2249 @@
+{
+  "OPR Template": [
+    {
+      "row": 1,
+      "data": [
+        "Guidelines/Comments",
+        "Fields",
+        "En",
+        "Ar",
+        "Ru"
+      ]
+    },
+    {
+      "row": 2,
+      "data": [
+        "Includes the project name, developer, and location (important things people search for, between 50 and 60 characters, including spaces)",
+        "Meta title:"
+      ]
+    },
+    {
+      "row": 4,
+      "data": [
+        "Includes the luxury aspect, location, investment appeal, visa benefits, and nearby amenities (important selling points, maximum 156 characters including spaces)",
+        "Meta description:"
+      ]
+    },
+    {
+      "row": 6,
+      "data": [
+        "",
+        "Url Slug"
+      ]
+    },
+    {
+      "row": 8,
+      "data": [
+        "",
+        "Image Alt Tag "
+      ]
+    },
+    {
+      "row": 10,
+      "data": [
+        "The hero section is the first touchpoint. It must instantly convey the project?s investment appeal, location advantage, and exclusivity; without fluff or filler.",
+        "Hero Section"
+      ]
+    },
+    {
+      "row": 12,
+      "data": [
+        "H1 is the main title of the page. It should clearly state the project name and developer (or the area), to make each project page unique (between 20-70 characters, including spaces)",
+        "H1: Project + developer (or area)"
+      ]
+    },
+    {
+      "row": 14,
+      "data": [
+        "Subheading: One short, punchy sentence that highlights the unique selling point and makes people want to keep reading.",
+        "<p>"
+      ]
+    },
+    {
+      "row": 16,
+      "data": [
+        "",
+        "Starting Price\n"
+      ]
+    },
+    {
+      "row": 17,
+      "data": [
+        "",
+        "Payment Plan"
+      ]
+    },
+    {
+      "row": 18,
+      "data": [
+        "",
+        "Handover"
+      ]
+    },
+    {
+      "row": 19,
+      "data": [
+        "",
+        "ROI Potential"
+      ]
+    },
+    {
+      "row": 21,
+      "data": [
+        "",
+        "CTA",
+        "Get expert advice"
+      ]
+    },
+    {
+      "row": 26,
+      "data": [
+        "Project overview (about) + short key selling point or location.\nWhy: \"Project Overview\" is to introduce core details (location, property types, features)",
+        "H2: Project overview"
+      ]
+    },
+    {
+      "row": 28,
+      "data": [
+        "A quick overview of what makes this project special, keeping in mind not to sound repetitive, since next we will explore its location, property types, and unique features. ",
+        "<p>"
+      ]
+    },
+    {
+      "row": 30,
+      "data": [
+        "Bullet points",
+        "<p>",
+        "If possible, please place each bullet point on a separate line)"
+      ]
+    },
+    {
+      "row": 41,
+      "data": [
+        "",
+        "Project Card"
+      ]
+    },
+    {
+      "row": 43,
+      "data": [
+        "",
+        "Project Details"
+      ]
+    },
+    {
+      "row": 45,
+      "data": [
+        "",
+        "Starting Price"
+      ]
+    },
+    {
+      "row": 46,
+      "data": [
+        "",
+        "Handover"
+      ]
+    },
+    {
+      "row": 47,
+      "data": [
+        "",
+        "Payment Plan"
+      ]
+    },
+    {
+      "row": 48,
+      "data": [
+        "",
+        "Area"
+      ]
+    },
+    {
+      "row": 49,
+      "data": [
+        "",
+        "Property Type"
+      ]
+    },
+    {
+      "row": 50,
+      "data": [
+        "",
+        "Bedrooms"
+      ]
+    },
+    {
+      "row": 51,
+      "data": [
+        "",
+        "Developer"
+      ]
+    },
+    {
+      "row": 52,
+      "data": [
+        "",
+        "Location"
+      ]
+    },
+    {
+      "row": 54,
+      "data": [
+        "",
+        "CTA",
+        "Download Brochure"
+      ]
+    },
+    {
+      "row": 59,
+      "data": [
+        "Focus on what?s inside the residences/building (e.g., marble finishes, private pools, spa, gym).",
+        "H3: Features and amenities",
+        "Signature Features & Resort-Style Amenities"
+      ]
+    },
+    {
+      "row": 60,
+      "data": [
+        "Text below \"Signature Features & Resort-Style Amenities\"",
+        "<p>"
+      ]
+    },
+    {
+      "row": 62,
+      "data": [
+        "bullets below text",
+        "",
+        "If possible, please place each bullet point on a separate line. Don't use the \"-\" symbol before the bullets."
+      ]
+    },
+    {
+      "row": 63,
+      "data": [
+        "",
+        "<p>"
+      ]
+    },
+    {
+      "row": 79,
+      "data": [
+        "",
+        "H3: Property types & pricing",
+        "Property Types"
+      ]
+    },
+    {
+      "row": 80,
+      "data": [
+        "(Floor plans come here)\nIn the following order: Property Type, Living Area, Starting Price. ",
+        "<p>",
+        " flexible"
+      ]
+    },
+    {
+      "row": 82,
+      "data": [
+        "",
+        "CTA",
+        "Download all floor plans"
+      ]
+    },
+    {
+      "row": 86,
+      "data": [
+        "",
+        "H3: Payment plan",
+        "Payment Plan"
+      ]
+    },
+    {
+      "row": 87,
+      "data": [
+        "",
+        "PP short description",
+        " flexible"
+      ]
+    },
+    {
+      "row": 99,
+      "data": [
+        "Why: Targeting investors early with ROI and ownership benefits.",
+        "H2: Investment opportunities",
+        "Investment Potential"
+      ]
+    },
+    {
+      "row": 100,
+      "data": [
+        "Always check info on Property Monitor, Bayut, Property Finder",
+        "",
+        " flexible"
+      ]
+    },
+    {
+      "row": 102,
+      "data": [
+        "bullets below text",
+        "",
+        "If possible, please place each bullet point on a separate line. Don't use the \"-\" symbol before the bullets."
+      ]
+    },
+    {
+      "row": 108,
+      "data": [
+        "",
+        "CTA",
+        "Contact a property investment consultant "
+      ]
+    },
+    {
+      "row": 112,
+      "data": [
+        "Fix for all pages. ",
+        "H3: Financing Options",
+        "Flexible Financing Options"
+      ]
+    },
+    {
+      "row": 114,
+      "data": [
+        "",
+        "",
+        "Buying an off-plan property or a ready-to-move-in home? Maximise your buying power with competitive mortgage options tailored to your needs."
+      ]
+    },
+    {
+      "row": 116,
+      "data": [
+        "",
+        "",
+        "- Secure a mortgage during construction to maximize leverage\n- Combine developer payment plans with tailored bank financing\n- Get pre-approved in as little as 3 days\n- Conventional and Sharia-compliant financing available\n- No hidden fees or added costs"
+      ]
+    },
+    {
+      "row": 118,
+      "data": [
+        "",
+        "CTA",
+        "Contact a mortgage specialist"
+      ]
+    }
+  ],
+  "MPP Template": [
+    {
+      "row": 1,
+      "data": [
+        "Guidelines/Comments",
+        "Fields",
+        "En",
+        "Ar",
+        "Ru"
+      ]
+    },
+    {
+      "row": 2,
+      "data": [
+        "Includes project name, developer, and location (50-60 chars)",
+        "Meta title:"
+      ]
+    },
+    {
+      "row": 3,
+      "data": [
+        "Includes luxury aspect, location, investment appeal (max 156 chars)",
+        "Meta description:"
+      ]
+    },
+    {
+      "row": 4,
+      "data": [
+        "",
+        "Url Slug"
+      ]
+    },
+    {
+      "row": 5,
+      "data": [
+        "",
+        "Image Alt Tag"
+      ]
+    },
+    {
+      "row": 7,
+      "data": [
+        "SECTION",
+        "HERO SECTION"
+      ]
+    },
+    {
+      "row": 8,
+      "data": [
+        "H1: Project name + developer (20-70 chars)",
+        "H1: Project + Developer"
+      ]
+    },
+    {
+      "row": 9,
+      "data": [
+        "Short intro. Boutique development with key differentiator (2-3 sentences)",
+        "Hero Description"
+      ]
+    },
+    {
+      "row": 10,
+      "data": [
+        "",
+        "Starting Price"
+      ]
+    },
+    {
+      "row": 11,
+      "data": [
+        "",
+        "Handover"
+      ]
+    },
+    {
+      "row": 12,
+      "data": [
+        "",
+        "Down Payment %"
+      ]
+    },
+    {
+      "row": 14,
+      "data": [
+        "SECTION",
+        "PROJECT OVERVIEW"
+      ]
+    },
+    {
+      "row": 15,
+      "data": [
+        "",
+        "H2: Project Overview",
+        "Project Overview"
+      ]
+    },
+    {
+      "row": 16,
+      "data": [
+        "Full description: location, unit count, architecture, features (4-6 sentences)",
+        "Overview Description"
+      ]
+    },
+    {
+      "row": 18,
+      "data": [
+        "SECTION",
+        "PROJECT DETAILS CARD"
+      ]
+    },
+    {
+      "row": 19,
+      "data": [
+        "Linked to area page",
+        "Location"
+      ]
+    },
+    {
+      "row": 20,
+      "data": [
+        "Linked to developer page",
+        "Developer"
+      ]
+    },
+    {
+      "row": 21,
+      "data": [
+        "",
+        "Handover"
+      ]
+    },
+    {
+      "row": 22,
+      "data": [
+        "From Property Monitor/DXBinteract",
+        "Starting Price"
+      ]
+    },
+    {
+      "row": 23,
+      "data": [
+        "e.g., Apartments, Duplexes",
+        "Property Types"
+      ]
+    },
+    {
+      "row": 24,
+      "data": [
+        "e.g., 1-5",
+        "Bedrooms"
+      ]
+    },
+    {
+      "row": 26,
+      "data": [
+        "SECTION",
+        "FLOOR PLANS"
+      ]
+    },
+    {
+      "row": 27,
+      "data": [
+        "",
+        "H2: Floor Plans",
+        "Floor Plans"
+      ]
+    },
+    {
+      "row": 28,
+      "data": [
+        "Filter tabs",
+        "Floor Plan Filter Categories",
+        "All, Apartments, Penthouse, Townhouse"
+      ]
+    },
+    {
+      "row": 30,
+      "data": [
+        "Repeat for each unit type",
+        "Floor Plan 1 - Bedrooms"
+      ]
+    },
+    {
+      "row": 31,
+      "data": [
+        "",
+        "Floor Plan 1 - Starting Price"
+      ]
+    },
+    {
+      "row": 32,
+      "data": [
+        "",
+        "Floor Plan 1 - Living Area (m?)"
+      ]
+    },
+    {
+      "row": 34,
+      "data": [
+        "",
+        "Floor Plan 2 - Bedrooms"
+      ]
+    },
+    {
+      "row": 35,
+      "data": [
+        "",
+        "Floor Plan 2 - Starting Price"
+      ]
+    },
+    {
+      "row": 36,
+      "data": [
+        "",
+        "Floor Plan 2 - Living Area (m?)"
+      ]
+    },
+    {
+      "row": 38,
+      "data": [
+        "",
+        "Floor Plan 3 - Bedrooms"
+      ]
+    },
+    {
+      "row": 39,
+      "data": [
+        "",
+        "Floor Plan 3 - Starting Price"
+      ]
+    },
+    {
+      "row": 40,
+      "data": [
+        "",
+        "Floor Plan 3 - Living Area (m?)"
+      ]
+    },
+    {
+      "row": 42,
+      "data": [
+        "",
+        "Floor Plan 4 - Bedrooms"
+      ]
+    },
+    {
+      "row": 43,
+      "data": [
+        "",
+        "Floor Plan 4 - Starting Price"
+      ]
+    },
+    {
+      "row": 44,
+      "data": [
+        "",
+        "Floor Plan 4 - Living Area (m?)"
+      ]
+    },
+    {
+      "row": 46,
+      "data": [
+        "SECTION",
+        "PAYMENT PLAN"
+      ]
+    },
+    {
+      "row": 47,
+      "data": [
+        "",
+        "H2: Payment Plan",
+        "Payment Plan"
+      ]
+    },
+    {
+      "row": 48,
+      "data": [
+        "Intro explaining ROE benefits",
+        "Payment Plan Description",
+        "A structured payment plan is a powerful investment tool. When used wisely, it can significantly increase your return on equity (ROE). Not sure how to make the most of it? We'll explain everything for free!"
+      ]
+    },
+    {
+      "row": 49,
+      "data": [
+        "",
+        "CTA",
+        "Discuss with expert"
+      ]
+    },
+    {
+      "row": 51,
+      "data": [
+        "Tab options",
+        "Payment Plan Type 1",
+        "50/50"
+      ]
+    },
+    {
+      "row": 52,
+      "data": [
+        "IF other payment plan type exists",
+        "Payment Plan Type 2",
+        "70/30"
+      ]
+    },
+    {
+      "row": 54,
+      "data": [
+        "Milestone 1",
+        "On Booking - Date"
+      ]
+    },
+    {
+      "row": 55,
+      "data": [
+        "",
+        "On Booking - Percentage"
+      ]
+    },
+    {
+      "row": 57,
+      "data": [
+        "Milestone 2 (can have multiple)",
+        "On Construction - Period"
+      ]
+    },
+    {
+      "row": 58,
+      "data": [
+        "",
+        "On Construction - Percentage"
+      ]
+    },
+    {
+      "row": 59,
+      "data": [
+        "",
+        "On Construction - Number of Payments"
+      ]
+    },
+    {
+      "row": 61,
+      "data": [
+        "Milestone 3",
+        "On Handover - Date"
+      ]
+    },
+    {
+      "row": 62,
+      "data": [
+        "",
+        "On Handover - Percentage"
+      ]
+    },
+    {
+      "row": 64,
+      "data": [
+        "SECTION",
+        "KEY POINTS"
+      ]
+    },
+    {
+      "row": 65,
+      "data": [
+        "",
+        "H2: Key Points",
+        "Key points"
+      ]
+    },
+    {
+      "row": 67,
+      "data": [
+        "Major selling point with image",
+        "Key Point 1 - Title"
+      ]
+    },
+    {
+      "row": 68,
+      "data": [
+        "",
+        "Key Point 1 - Description"
+      ]
+    },
+    {
+      "row": 69,
+      "data": [
+        "Image filename",
+        "Key Point 1 - Image"
+      ]
+    },
+    {
+      "row": 71,
+      "data": [
+        "Second selling point with image",
+        "Key Point 2 - Title"
+      ]
+    },
+    {
+      "row": 72,
+      "data": [
+        "",
+        "Key Point 2 - Description"
+      ]
+    },
+    {
+      "row": 73,
+      "data": [
+        "Image filename",
+        "Key Point 2 - Image"
+      ]
+    },
+    {
+      "row": 75,
+      "data": [
+        "SECTION",
+        "AMENITIES"
+      ]
+    },
+    {
+      "row": 76,
+      "data": [
+        "",
+        "H2: Amenities",
+        "Amenities"
+      ]
+    },
+    {
+      "row": 77,
+      "data": [
+        "Intro text",
+        "Amenities Description",
+        "These are just a few of the amenities available in this residence. To receive the full list of features and detailed information, please contact our agent ? we will tailor the best option for your needs."
+      ]
+    },
+    {
+      "row": 79,
+      "data": [
+        "One amenity per row",
+        "Amenity 1"
+      ]
+    },
+    {
+      "row": 80,
+      "data": [
+        "",
+        "Amenity 2"
+      ]
+    },
+    {
+      "row": 81,
+      "data": [
+        "",
+        "Amenity 3"
+      ]
+    },
+    {
+      "row": 82,
+      "data": [
+        "",
+        "Amenity 4"
+      ]
+    },
+    {
+      "row": 83,
+      "data": [
+        "",
+        "Amenity 5"
+      ]
+    },
+    {
+      "row": 84,
+      "data": [
+        "",
+        "Amenity 6"
+      ]
+    },
+    {
+      "row": 85,
+      "data": [
+        "",
+        "Amenity 7"
+      ]
+    },
+    {
+      "row": 86,
+      "data": [
+        "",
+        "Amenity 8"
+      ]
+    },
+    {
+      "row": 88,
+      "data": [
+        "SECTION",
+        "LOCATION"
+      ]
+    },
+    {
+      "row": 89,
+      "data": [
+        "",
+        "H2: Location",
+        "Location"
+      ]
+    },
+    {
+      "row": 90,
+      "data": [
+        "",
+        "CTA",
+        "Explore [location]"
+      ]
+    },
+    {
+      "row": 92,
+      "data": [
+        "Tab structure",
+        "Location Tab 1",
+        "Area"
+      ]
+    },
+    {
+      "row": 93,
+      "data": [
+        "",
+        "Location Tab 2",
+        "Sub-community"
+      ]
+    },
+    {
+      "row": 95,
+      "data": [
+        "Area or sub-community name",
+        "Location Name"
+      ]
+    },
+    {
+      "row": 96,
+      "data": [
+        "Detailed description: landmarks, connectivity, developments (1-2 paragraphs)",
+        "Location Description"
+      ]
+    },
+    {
+      "row": 98,
+      "data": [
+        "For map pin",
+        "Map Latitude"
+      ]
+    },
+    {
+      "row": 99,
+      "data": [
+        "",
+        "Map Longitude"
+      ]
+    },
+    {
+      "row": 101,
+      "data": [
+        "Future developments CTA",
+        "H3: Future Developments",
+        "Explore all future developments around this property"
+      ]
+    },
+    {
+      "row": 102,
+      "data": [
+        "",
+        "Future Dev Description",
+        "See what's planned nearby to make an informed decision and secure peace and quiet for years to come"
+      ]
+    },
+    {
+      "row": 104,
+      "data": [
+        "SECTION",
+        "DEVELOPER"
+      ]
+    },
+    {
+      "row": 105,
+      "data": [
+        "",
+        "H2: About the Developer",
+        "ABOUT [Developer Name]"
+      ]
+    },
+    {
+      "row": 107,
+      "data": [
+        "e.g., State-owned developer, Master developer",
+        "Developer Badge"
+      ]
+    },
+    {
+      "row": 108,
+      "data": [
+        "Logo filename",
+        "Developer Logo"
+      ]
+    },
+    {
+      "row": 109,
+      "data": [
+        "",
+        "Developer Name"
+      ]
+    },
+    {
+      "row": 110,
+      "data": [
+        "Company background, portfolio, reputation (1 paragraph)",
+        "Developer Description"
+      ]
+    },
+    {
+      "row": 112,
+      "data": [
+        "Stat 1",
+        "Developer Stat 1 - Value"
+      ]
+    },
+    {
+      "row": 113,
+      "data": [
+        "",
+        "Developer Stat 1 - Label"
+      ]
+    },
+    {
+      "row": 114,
+      "data": [
+        "Stat 2",
+        "Developer Stat 2 - Value"
+      ]
+    },
+    {
+      "row": 115,
+      "data": [
+        "",
+        "Developer Stat 2 - Label"
+      ]
+    },
+    {
+      "row": 116,
+      "data": [
+        "Stat 3",
+        "Developer Stat 3 - Value"
+      ]
+    },
+    {
+      "row": 117,
+      "data": [
+        "",
+        "Developer Stat 3 - Label"
+      ]
+    },
+    {
+      "row": 119,
+      "data": [
+        "",
+        "CTA",
+        "More about [developer]"
+      ]
+    }
+  ],
+  "ADOP Template": [
+    {
+      "row": 1,
+      "data": [
+        "Guidelines/Comments",
+        "Fields",
+        "En",
+        "Ru",
+        "Ar"
+      ]
+    },
+    {
+      "row": 2,
+      "data": [
+        "Project name + area + property type. Lowercase, hyphens only.",
+        "Slug:"
+      ]
+    },
+    {
+      "row": 4,
+      "data": [
+        "Project name + location + property type. 50-60 chars.",
+        "Title:"
+      ]
+    },
+    {
+      "row": 6,
+      "data": [
+        "Property types, starting price, key amenities, handover. Max 156 chars. Investment-focused.",
+        "Desc:"
+      ]
+    },
+    {
+      "row": 8,
+      "data": [
+        "Project name + location + key visual. 80-125 chars.",
+        "Image alt tag:"
+      ]
+    },
+    {
+      "row": 10,
+      "data": [
+        "SECTION: HERO"
+      ]
+    },
+    {
+      "row": 11,
+      "data": [
+        "Project name + location. 20-50 chars.",
+        "H1:"
+      ]
+    },
+    {
+      "row": 13,
+      "data": [
+        "Format: AED X.XM. Include USD in Russian.",
+        "Starting price"
+      ]
+    },
+    {
+      "row": 15,
+      "data": [
+        "Format: Q1/Q2/Q3/Q4 + Year",
+        "Handover"
+      ]
+    },
+    {
+      "row": 17,
+      "data": [
+        "SECTION: ABOUT PROJECT"
+      ]
+    },
+    {
+      "row": 18,
+      "data": [
+        "Format: About [Project Name]",
+        "H2:",
+        "About [Project Name]",
+        "? ??????? [Project Name]",
+        "??? [Project Name]"
+      ]
+    },
+    {
+      "row": 20,
+      "data": [
+        "Para 1: Developer, location between cities, property types with names, bedrooms. 2-3 sentences.",
+        "<p>"
+      ]
+    },
+    {
+      "row": 22,
+      "data": [
+        "Para 2: Architecture, size range (sqft), views, lifestyle. Target: families, professionals, investors. 2-3 sentences.",
+        "<p>"
+      ]
+    },
+    {
+      "row": 24,
+      "data": [
+        "Para 3: Main road, drive times to Dubai/Abu Dhabi, resort feel, services. 2-3 sentences.",
+        "<p>"
+      ]
+    },
+    {
+      "row": 26,
+      "data": [
+        "SECTION: KEY BENEFITS"
+      ]
+    },
+    {
+      "row": 27,
+      "data": [
+        "Format: Key Benefits of [Project Name]",
+        "H2:",
+        "Key Benefits of [Project Name]",
+        "???????? ???????????? [Project Name]",
+        "??????? ???????? ?? [Project Name]"
+      ]
+    },
+    {
+      "row": 28,
+      "data": [
+        "Para 1: USP - % open space, nature integration, specific metrics (park sqm, cycling km). Data-driven.",
+        "<p>"
+      ]
+    },
+    {
+      "row": 31,
+      "data": [
+        "Para 2: Full amenities list with colon format. Include: marina, beach, parks, pools, sports, schools, healthcare, retail, hotel, business.",
+        "<p>"
+      ]
+    },
+    {
+      "row": 33,
+      "data": [
+        "SECTION: AREA INFRASTRUCTURE"
+      ]
+    },
+    {
+      "row": 34,
+      "data": [
+        "Format: Area Infrastructure",
+        "H2",
+        "Area Infrastructure",
+        "?????????????? ??????",
+        "?????? ??????? ???????"
+      ]
+    },
+    {
+      "row": 36,
+      "data": [
+        "Para 1: Area name, position between cities. 1-2 sentences.",
+        "<p>"
+      ]
+    },
+    {
+      "row": 38,
+      "data": [
+        "Para 2: Drive times - 'X min to [Place]'. Include malls, entertainment, healthcare, schools with names.",
+        "<p>"
+      ]
+    },
+    {
+      "row": 40,
+      "data": [
+        "Para 3: Area lifestyle, community feel, future potential. 1-2 sentences.",
+        "<p>"
+      ]
+    },
+    {
+      "row": 42,
+      "data": [
+        "SECTION: INVESTMENT (Previously Economic Appeal)"
+      ]
+    },
+    {
+      "row": 43,
+      "data": [
+        "Format: Investment in [Project Name]",
+        "H2:",
+        "Investment in [Project Name]",
+        "?????????? ? [Project Name]",
+        "????????? ?? [Project Name]"
+      ]
+    },
+    {
+      "row": 45,
+      "data": [
+        "Para 1: Freehold status, visa threshold, property mix, market opportunity. Appeal to intl investors.",
+        "<p>"
+      ]
+    },
+    {
+      "row": 47,
+      "data": [
+        "Para 2: Masterplan value (marina, schools, etc.), payment plan (60/40), supply scarcity.",
+        "<p>"
+      ]
+    },
+    {
+      "row": 49,
+      "data": [
+        "Para 3: ROI - rental yield 6-8%, capital appreciation, demand drivers. Keep realistic.",
+        "<p>"
+      ]
+    },
+    {
+      "row": 50,
+      "data": [
+        "SECTION: DEVELOPER"
+      ]
+    },
+    {
+      "row": 51,
+      "data": [
+        "Format: About [Developer Name]",
+        "H2:",
+        "About [Developer Name]",
+        "? ?????????? [Developer Name]",
+        "??? [Developer Name]"
+      ]
+    },
+    {
+      "row": 53,
+      "data": [
+        "Founder, portfolio regions, reputation. Innovation, sustainability, community focus. 2-3 sentences.",
+        "<p>"
+      ]
+    },
+    {
+      "row": 55,
+      "data": [
+        "SECTION: FAQ"
+      ]
+    },
+    {
+      "row": 56,
+      "data": [
+        "Format: Frequently Asked Questions about [Project Name]",
+        "H2:",
+        "Frequently Asked Questions about [Project Name]",
+        "????? ?????????? ??????? ? [Project Name]",
+        "??????? ??????? ??? [Project Name]"
+      ]
+    },
+    {
+      "row": 58,
+      "data": [
+        "FAQ 1: What is [Project]? Brief definition, location, property types, design.",
+        "Q:",
+        "What is [Project Name]?",
+        "??? ????? [Project Name]?",
+        "?? ?? ????? [Project Name]?"
+      ]
+    },
+    {
+      "row": 59,
+      "data": [
+        "",
+        "A:"
+      ]
+    },
+    {
+      "row": 61,
+      "data": [
+        "FAQ 2: Location - area, road access, amenity access, drive times.",
+        "Q:",
+        "Where is [Project Name] located?",
+        "??? ????????? [Project Name]?",
+        "??? ??? [Project Name]?"
+      ]
+    },
+    {
+      "row": 62,
+      "data": [
+        "",
+        "A:"
+      ]
+    },
+    {
+      "row": 64,
+      "data": [
+        "FAQ 3: Unit types - all property types, bedrooms, size range.",
+        "Q:",
+        "What unit types are available in [Project Name]?",
+        "????? ???? ???????????? ???????????? ? [Project Name]?",
+        "?? ????? ??????? ???????? ?? [Project Name]?"
+      ]
+    },
+    {
+      "row": 65,
+      "data": [
+        "",
+        "A:"
+      ]
+    },
+    {
+      "row": 67,
+      "data": [
+        "FAQ 4: Payment plan - structure (60/40), construction vs handover.",
+        "Q:",
+        "What is the payment plan for [Project Name]?",
+        "????? ???? ?????? ???????????? ? [Project Name]?",
+        "?? ??? ????? ????????"
+      ]
+    },
+    {
+      "row": 68,
+      "data": [
+        "",
+        "A:"
+      ]
+    },
+    {
+      "row": 70,
+      "data": [
+        "FAQ 5: Foreigners - freehold status, eligibility. Simple yes + explain.",
+        "Q:",
+        "Can foreigners buy in [Project Name]?",
+        "????? ?? ?????????? ?????? ???????????? ? [Project Name]?",
+        "?? ???? ??????? ?????? ?? [Project Name]?"
+      ]
+    },
+    {
+      "row": 71,
+      "data": [
+        "",
+        "A:"
+      ]
+    },
+    {
+      "row": 73,
+      "data": [
+        "FAQ 6: Amenities - comprehensive list by category.",
+        "Q:",
+        "What amenities are available in [Project Name]?",
+        "????? ???????? ???????? ? [Project Name]?",
+        "?? ??????? ???????? ?? [Project Name]?"
+      ]
+    },
+    {
+      "row": 74,
+      "data": [
+        "",
+        "A:"
+      ]
+    },
+    {
+      "row": 76,
+      "data": [
+        "FAQ 7: Nearby - drive times to malls, hospitals, schools with names.",
+        "Q:",
+        "What are attractions and services nearby [Project Name]?",
+        "????? ????????????????????? ? ??????? ????????? ????? ? [Project Name]?",
+        "?? ???? ??????? ???????? ????????"
+      ]
+    },
+    {
+      "row": 77,
+      "data": [
+        "",
+        "A:"
+      ]
+    },
+    {
+      "row": 79,
+      "data": [
+        "FAQ 8: Completion - quarter + year.",
+        "Q:",
+        "When will [Project Name] be completed?",
+        "????? ????? ???????? [Project Name]?",
+        "??? ???? ????? ????? [Project Name]?"
+      ]
+    },
+    {
+      "row": 80,
+      "data": [
+        "",
+        "A:"
+      ]
+    }
+  ],
+  "ADRE Template": [
+    {
+      "row": 1,
+      "data": [
+        "Guidelines/Comments",
+        "Fields",
+        "eng",
+        "Ar",
+        "Ru"
+      ]
+    },
+    {
+      "row": 2,
+      "data": [
+        "URL-friendly identifier. Use lowercase, hyphens, no spaces. Format: {project-name}-{developer}-{area}-{city}. Keep under 80 characters.",
+        "Slug:"
+      ]
+    },
+    {
+      "row": 4,
+      "data": [
+        "Meta title for SEO. 50-60 characters including spaces. Must include: project name, developer, area, city. Format: {Project Name} by {Developer} in {Area}, {City} | Buy {Property Type} in UAE",
+        "Title:"
+      ]
+    },
+    {
+      "row": 6,
+      "data": [
+        "Meta description. Max 155-160 characters. Include: property types, key features, starting price, developer, location, handover date. Focus on unique selling points.",
+        "Desc:"
+      ]
+    },
+    {
+      "row": 8,
+      "data": [
+        "Alt text for hero image. 80-125 characters. Include project name, developer, key visual feature. Format: {Project Name} by {Developer} ? {key visual descriptor}",
+        "Image alt tag:"
+      ]
+    },
+    {
+      "row": 10,
+      "data": [
+        "Official project name only. No developer name, no location. Use developer's official naming.",
+        "Project name:"
+      ]
+    },
+    {
+      "row": 12,
+      "data": [
+        "Main page heading. 30-70 characters. Format: Buy {property type} in {Project Name} by {Developer}. Makes each page unique for SEO.",
+        "H1:"
+      ]
+    },
+    {
+      "row": 14,
+      "data": [
+        "Marketing title about the project. One punchy, aspirational headline (8-15 words). Capture lifestyle/emotional appeal. Use em-dash (?) for style.",
+        "H2"
+      ]
+    },
+    {
+      "row": 16,
+      "data": [
+        "Description of the project. 4-6 sentences covering: developer name, total units, layouts (studios, 1BR, 2BR, etc.), size ranges in sq.m, handover date, architectural style, proximity to landmarks. Be factual."
+      ]
+    },
+    {
+      "row": 18,
+      "data": [
+        "Amenities section header. Format: Amenities of {Project Name}. Keep consistent across all pages.",
+        "H2"
+      ]
+    },
+    {
+      "row": 20,
+      "data": [
+        "First unique/signature amenity. 3-6 words. Highlight most distinctive feature (e.g., Waterfront Wellness Masterplan).",
+        "H3"
+      ]
+    },
+    {
+      "row": 21,
+      "data": [
+        "Description of first key amenity. 1-2 sentences (25-50 words). Explain benefit to residents."
+      ]
+    },
+    {
+      "row": 23,
+      "data": [
+        "Second unique amenity. 3-6 words. Different category from first (family-focused, sports, social).",
+        "H3"
+      ]
+    },
+    {
+      "row": 24,
+      "data": [
+        "Description of second key amenity. 1-2 sentences (25-50 words). Focus on who benefits."
+      ]
+    },
+    {
+      "row": 26,
+      "data": [
+        "The rest of amenities listed below. One per row, 2-5 words each. Use noun phrases.",
+        "H3"
+      ]
+    },
+    {
+      "row": 27,
+      "data": [
+        "Amenity item. Format: 'Gym with Canal Views' not 'There is a gym'."
+      ]
+    },
+    {
+      "row": 29,
+      "data": [
+        "",
+        "H3"
+      ]
+    },
+    {
+      "row": 32,
+      "data": [
+        "",
+        "H3"
+      ]
+    },
+    {
+      "row": 35,
+      "data": [
+        "",
+        "H3"
+      ]
+    },
+    {
+      "row": 38,
+      "data": [
+        "",
+        "H3"
+      ]
+    },
+    {
+      "row": 41,
+      "data": [
+        "",
+        "H3"
+      ]
+    },
+    {
+      "row": 45,
+      "data": [
+        "Marketing title about developer. 6-12 words. Highlight reputation/legacy. Example: Aldar?Establishing Iconic Lifestyle Communities in Abu Dhabi",
+        "?2"
+      ]
+    },
+    {
+      "row": 47,
+      "data": [
+        "Description of developer. 3-4 sentences (60-90 words). Include: market position, notable past projects, portfolio scope, design philosophy, how this project fits their brand."
+      ]
+    },
+    {
+      "row": 49,
+      "data": [
+        "Economic appeal section header. Format: Investing in {Project Name}. Signals investment value.",
+        "H2"
+      ]
+    },
+    {
+      "row": 51,
+      "data": [
+        "Economic appeal overview. 3-4 sentences (70-100 words). Cover: starting price, freehold status, payment plan, location drivers, tourism stats, rental demand factors, capital appreciation potential."
+      ]
+    },
+    {
+      "row": 53,
+      "data": [
+        "Rental investment header. 2-3 words.",
+        "H3"
+      ]
+    },
+    {
+      "row": 55,
+      "data": [
+        "Rental details. 2 sentences (30-50 words). Include: target tenant profile, demand drivers, typical ROI range (verify on Property Monitor/Bayut), premium unit potential."
+      ]
+    },
+    {
+      "row": 57,
+      "data": [
+        "Resale header. 2-3 words.",
+        "H3"
+      ]
+    },
+    {
+      "row": 59,
+      "data": [
+        "Resale benefits. 2 sentences (25-40 words). Developer brand strength, location growth trajectory, infrastructure developments."
+      ]
+    },
+    {
+      "row": 61,
+      "data": [
+        "End-user living header. 2-3 words.",
+        "H3"
+      ]
+    },
+    {
+      "row": 63,
+      "data": [
+        "Living appeal. 2 sentences (40-60 words). Target resident profile, lifestyle benefits (schools, healthcare, entertainment), resort-style services."
+      ]
+    },
+    {
+      "row": 65,
+      "data": [
+        "Location section header. Format: Location of {Project Name} by {Developer}.",
+        "H2"
+      ]
+    },
+    {
+      "row": 66,
+      "data": [
+        "About the area. 3-4 sentences (50-80 words). Immediate surroundings, neighborhood character, connectivity. Don't repeat project amenities?focus on external location benefits."
+      ]
+    },
+    {
+      "row": 68,
+      "data": [
+        "Entertainment & lifestyle header.",
+        "H3"
+      ]
+    },
+    {
+      "row": 69,
+      "data": [
+        "Landmark with travel time. Format: {Venue} ? {X} minutes by car/on foot"
+      ]
+    },
+    {
+      "row": 70,
+      "data": [
+        "Second landmark with travel time."
+      ]
+    },
+    {
+      "row": 71,
+      "data": [
+        "Third landmark with travel time."
+      ]
+    },
+    {
+      "row": 72,
+      "data": [
+        "Fourth landmark with travel time."
+      ]
+    },
+    {
+      "row": 74,
+      "data": [
+        "Healthcare section header.",
+        "H3"
+      ]
+    },
+    {
+      "row": 75,
+      "data": [
+        "Nearest healthcare with travel time. Specify if range (5-15 min)."
+      ]
+    },
+    {
+      "row": 76,
+      "data": [
+        "Secondary healthcare option. Include specialist hospitals/emergency."
+      ]
+    },
+    {
+      "row": 80,
+      "data": [
+        "Education section header.",
+        "H3"
+      ]
+    },
+    {
+      "row": 81,
+      "data": [
+        "Nurseries/early education with travel time."
+      ]
+    },
+    {
+      "row": 82,
+      "data": [
+        "International schools with travel time."
+      ]
+    },
+    {
+      "row": 83,
+      "data": [
+        "Secondary schools with travel time."
+      ]
+    },
+    {
+      "row": 84,
+      "data": [
+        "Higher education/universities with travel time."
+      ]
+    },
+    {
+      "row": 86,
+      "data": [
+        "FAQ Section. Column A has template questions. Localize Q&A in content columns."
+      ]
+    },
+    {
+      "row": 88,
+      "data": [
+        "",
+        "FAQ"
+      ]
+    },
+    {
+      "row": 89,
+      "data": [
+        "Template Q: Where is {project name} located?"
+      ]
+    },
+    {
+      "row": 91,
+      "data": [
+        "Answer: 1-2 sentences. State location with island/area and city."
+      ]
+    },
+    {
+      "row": 93,
+      "data": [
+        "Template Q: Who is the developer of {project name}?"
+      ]
+    },
+    {
+      "row": 95,
+      "data": [
+        "Answer: 1 sentence. Developer name + brief identifier."
+      ]
+    },
+    {
+      "row": 97,
+      "data": [
+        "Template Q: What types of properties are available?"
+      ]
+    },
+    {
+      "row": 99,
+      "data": [
+        "Answer: 1 sentence listing unit types (studios, 1BR, 2BR, 3BR+maid)."
+      ]
+    },
+    {
+      "row": 101,
+      "data": [
+        "Template Q: How much do properties cost?"
+      ]
+    },
+    {
+      "row": 103,
+      "data": [
+        "Answer: 1 sentence with starting price in AED (USD for Russian)."
+      ]
+    },
+    {
+      "row": 104,
+      "data": [
+        "Template Q: What payment plans are available?"
+      ]
+    },
+    {
+      "row": 106,
+      "data": [
+        "Answer: 1 sentence. Payment structure (e.g., 65/35) + down payment %."
+      ]
+    },
+    {
+      "row": 108,
+      "data": [
+        "Template Q: When will construction be completed?"
+      ]
+    },
+    {
+      "row": 110,
+      "data": [
+        "Answer: 1 sentence with handover quarter and year."
+      ]
+    },
+    {
+      "row": 113,
+      "data": [
+        "Template Q: Can a foreigner buy property? (Adapt to developer question)"
+      ]
+    },
+    {
+      "row": 115,
+      "data": [
+        "Answer: 1 sentence confirming developer + market position."
+      ]
+    },
+    {
+      "row": 117,
+      "data": [
+        "Template Q: Is this freehold ownership?"
+      ]
+    },
+    {
+      "row": 119,
+      "data": [
+        "Answer: 1 sentence confirming freehold (Yes/No + explanation)."
+      ]
+    }
+  ],
+  "Commercial Project Template": [
+    {
+      "row": 1,
+      "data": [
+        "Fields",
+        "EN",
+        "RU",
+        "AR"
+      ]
+    },
+    {
+      "row": 2,
+      "data": [
+        "Title (SEO):"
+      ]
+    },
+    {
+      "row": 4,
+      "data": [
+        "Desc (seo):"
+      ]
+    },
+    {
+      "row": 6,
+      "data": [
+        "Slug"
+      ]
+    },
+    {
+      "row": 8,
+      "data": [
+        "Home Screen (Hero)"
+      ]
+    },
+    {
+      "row": 9,
+      "data": [
+        "H1 ? 50-60 characters"
+      ]
+    },
+    {
+      "row": 11,
+      "data": [
+        "Brief description (paragraph) ? 70-80 characters"
+      ]
+    },
+    {
+      "row": 13,
+      "data": [
+        "Features (3 theses, title ? 15-30 characters, desc ? up to 60 characters)"
+      ]
+    },
+    {
+      "row": 15,
+      "data": [
+        "title-1 (economic indicator)"
+      ]
+    },
+    {
+      "row": 16,
+      "data": [
+        "desc-1"
+      ]
+    },
+    {
+      "row": 18,
+      "data": [
+        "title-2"
+      ]
+    },
+    {
+      "row": 19,
+      "data": [
+        "desc-2"
+      ]
+    },
+    {
+      "row": 21,
+      "data": [
+        "title-3"
+      ]
+    },
+    {
+      "row": 22,
+      "data": [
+        "desc-3"
+      ]
+    },
+    {
+      "row": 24,
+      "data": [
+        "About area"
+      ]
+    },
+    {
+      "row": 25,
+      "data": [
+        "H2 \"About ... [project name]\""
+      ]
+    },
+    {
+      "row": 27,
+      "data": [
+        "H3 (subtitle) ? 60-80 characters"
+      ]
+    },
+    {
+      "row": 29,
+      "data": [
+        "Brief description (paragraph) ? 150-200 characters"
+      ]
+    },
+    {
+      "row": 31,
+      "data": [
+        "Project details"
+      ]
+    },
+    {
+      "row": 32,
+      "data": [
+        "Project Passport (Add data table)"
+      ]
+    },
+    {
+      "row": 34,
+      "data": [
+        "Developer"
+      ]
+    },
+    {
+      "row": 36,
+      "data": [
+        "Location"
+      ]
+    },
+    {
+      "row": 38,
+      "data": [
+        "Payment Plan"
+      ]
+    },
+    {
+      "row": 40,
+      "data": [
+        "Area"
+      ]
+    },
+    {
+      "row": 42,
+      "data": [
+        "Property Type"
+      ]
+    },
+    {
+      "row": 44,
+      "data": [
+        "Economic attractiveness"
+      ]
+    },
+    {
+      "row": 45,
+      "data": [
+        "H2 \"Economic appeal\" (static SEO)"
+      ]
+    },
+    {
+      "row": 47,
+      "data": [
+        "H3 (subtitle) ? 40-80 characters"
+      ]
+    },
+    {
+      "row": 48,
+      "data": [
+        "Brief description (paragraph) ? 250-400 characters"
+      ]
+    },
+    {
+      "row": 50,
+      "data": [
+        "Payment Plan"
+      ]
+    },
+    {
+      "row": 51,
+      "data": [
+        "Description for each payment plan"
+      ]
+    },
+    {
+      "row": 53,
+      "data": [
+        "H3 (subtitle) ? 60-80 characters"
+      ]
+    },
+    {
+      "row": 55,
+      "data": [
+        "Static block (post-delivery support)"
+      ]
+    },
+    {
+      "row": 57,
+      "data": [
+        "Subtitle ? 40-80 characters"
+      ]
+    },
+    {
+      "row": 59,
+      "data": [
+        "Brief description (paragraph) ? 100-200 characters"
+      ]
+    },
+    {
+      "row": 60,
+      "data": [
+        "Brief description (paragraph) ? 100-200 characters"
+      ]
+    },
+    {
+      "row": 61,
+      "data": [
+        "Brief description (paragraph) ? 100-200 characters"
+      ]
+    },
+    {
+      "row": 63,
+      "data": [
+        "Advantages"
+      ]
+    },
+    {
+      "row": 64,
+      "data": [
+        "3 advantages"
+      ]
+    },
+    {
+      "row": 65,
+      "data": [
+        "Subtitle ? 40-80 characters"
+      ]
+    },
+    {
+      "row": 66,
+      "data": [
+        "Brief description (paragraph) ? 100-200 characters"
+      ]
+    },
+    {
+      "row": 68,
+      "data": [
+        "Subtitle ? 40-80 characters"
+      ]
+    },
+    {
+      "row": 69,
+      "data": [
+        "Brief description (paragraph) ? 100-200 characters"
+      ]
+    },
+    {
+      "row": 71,
+      "data": [
+        "Subtitle ? 40-80 characters"
+      ]
+    },
+    {
+      "row": 72,
+      "data": [
+        "amenities"
+      ]
+    },
+    {
+      "row": 74,
+      "data": [
+        "CTA ? 15-25 characters"
+      ]
+    },
+    {
+      "row": 76,
+      "data": [
+        "Amenities (Features, UTP)"
+      ]
+    },
+    {
+      "row": 77,
+      "data": [
+        "3-5 main features"
+      ]
+    },
+    {
+      "row": 78,
+      "data": [
+        "Subtitle ? 40-80 characters"
+      ]
+    },
+    {
+      "row": 79,
+      "data": [
+        "Brief description (paragraph) ? 100-200 characters"
+      ]
+    },
+    {
+      "row": 81,
+      "data": [
+        "Subtitle ? 40-80 characters"
+      ]
+    },
+    {
+      "row": 82,
+      "data": [
+        "Brief description (paragraph) ? 100-200 characters"
+      ]
+    },
+    {
+      "row": 84,
+      "data": [
+        "Subtitle ? 40-80 characters"
+      ]
+    },
+    {
+      "row": 85,
+      "data": [
+        "Brief description (paragraph) ? 100-200 characters"
+      ]
+    },
+    {
+      "row": 87,
+      "data": [
+        "Subtitle ? 40-80 characters"
+      ]
+    },
+    {
+      "row": 88,
+      "data": [
+        "Brief description (paragraph) ? 100-200 characters"
+      ]
+    },
+    {
+      "row": 90,
+      "data": [
+        "Subtitle ? 40-80 characters"
+      ]
+    },
+    {
+      "row": 91,
+      "data": [
+        "Brief description (paragraph) ? 100-200 characters"
+      ]
+    },
+    {
+      "row": 93,
+      "data": [
+        "About the developer"
+      ]
+    },
+    {
+      "row": 94,
+      "data": [
+        "H2 \"About ... [developer name]\""
+      ]
+    },
+    {
+      "row": 95,
+      "data": [
+        "H3 (subtitle) ? 60-80 characters (optional, no title required)"
+      ]
+    },
+    {
+      "row": 96,
+      "data": [
+        "Brief description (paragraph) ? 150-250 characters"
+      ]
+    },
+    {
+      "row": 98,
+      "data": [
+        "Location"
+      ]
+    },
+    {
+      "row": 99,
+      "data": [
+        "H2 \"Location & Advantages\" (static SEO)"
+      ]
+    },
+    {
+      "row": 100,
+      "data": [
+        "H3 (subtitle) ? 40-80 characters"
+      ]
+    },
+    {
+      "row": 101,
+      "data": [
+        "Brief description (paragraph) ? 250-400 characters"
+      ]
+    },
+    {
+      "row": 103,
+      "data": [
+        "Social Facilities"
+      ]
+    },
+    {
+      "row": 104,
+      "data": [
+        "Brief description (paragraph) ? 100-300 characters"
+      ]
+    },
+    {
+      "row": 106,
+      "data": [
+        "Location name 1 + Time in minutes 1"
+      ]
+    },
+    {
+      "row": 109,
+      "data": [
+        "Location name 2 + Time in minutes 2"
+      ]
+    },
+    {
+      "row": 112,
+      "data": [
+        "Location name 3 + Time in minutes 3"
+      ]
+    },
+    {
+      "row": 116,
+      "data": [
+        "Education & Medicine"
+      ]
+    },
+    {
+      "row": 117,
+      "data": [
+        "Brief description (paragraph) ? 100-300 characters"
+      ]
+    },
+    {
+      "row": 119,
+      "data": [
+        "Location name 1 + Time in minutes 1"
+      ]
+    }
+  ]
+}
